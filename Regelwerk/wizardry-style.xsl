@@ -17,6 +17,20 @@
 
   <xsl:param name="header.image.filename">file:///D:/Daten/Rollenspiel/Wizardry/Bilder/temp.png</xsl:param>
   <xsl:param name="footer.rule" select="0"></xsl:param>
+  
+  <!-- This template always returns the string '1', which
+       sets the page number format to 1,2,3,... -->
+  <xsl:template name="page.number.format">1</xsl:template>
+
+  <!-- Let the TOC start at page 3, then always continue page numbers. -->
+  <xsl:template name="initial.page.number">
+    <xsl:param name="element" select="local-name(.)"/>
+    <xsl:choose>
+      <xsl:when test="$element = 'toc' and self::book">3</xsl:when>
+      <xsl:otherwise>auto</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 
 
   <xsl:param name="column.count.body" select="1"></xsl:param>
