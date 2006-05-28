@@ -29,6 +29,16 @@
 
         <revremark>Zu DocBook konvertiert</revremark>
       </revision>
+
+      <revision>
+        <revnumber>2</revnumber>
+
+        <date>2005-05-28</date>
+
+        <revremark>Kapitel reorganisiert ("Charaktere und ihre Werte",
+        "Schaden und Regeneration"); "Proben" überarbeitet und
+        "Vergleichswürfe" konkretisiert</revremark>
+      </revision>
     </revhistory>
   </bookinfo>
 
@@ -39,198 +49,332 @@
   </chapter>
 
   <chapter>
-    <title>Attribute</title>
+    <title>Charaktere und ihre Werte</title>
 
-    <para>In Wizardry haben Charaktere acht Attribute mit Werten zwischen eins
-    und zehn, wobei der allgemeine Durchschnitt in der Bevölkerung zwischen 3
-    und 4 und das menschliche Maximum bei 8 liegt.</para>
+    <section>
+      <title>Attribute</title>
 
-    <informaltable>
-      <tgroup cols="3">
-        <thead>
-          <row>
-            <entry>Attribut</entry>
+      <para>In Wizardry haben Charaktere acht Attribute mit Werten zwischen
+      eins und zehn, wobei der allgemeine Durchschnitt in der Bevölkerung
+      zwischen 3 und 4 und das menschliche Maximum bei 8 liegt.</para>
 
-            <entry>Abk.</entry>
+      <informaltable>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>Attribut</entry>
 
-            <entry>Bedeutung</entry>
-          </row>
-        </thead>
+              <entry>Abk.</entry>
 
-        <tbody>
-          <row>
-            <entry>Stärke</entry>
+              <entry>Bedeutung</entry>
+            </row>
+          </thead>
 
-            <entry>ST</entry>
+          <tbody>
+            <row>
+              <entry>Stärke</entry>
 
-            <entry>Bezeichnet die rein physische Kraft, Widerstandsfähigkeit
-            und Ausdauer</entry>
-          </row>
+              <entry>ST</entry>
 
-          <row>
-            <entry>Geschicklichkeit</entry>
+              <entry>Bezeichnet die rein physische Kraft, Widerstandsfähigkeit
+              und Ausdauer</entry>
+            </row>
 
-            <entry>GE</entry>
+            <row>
+              <entry>Geschicklichkeit</entry>
 
-            <entry>Schnelligkeit und Gewandtheit, auch
-            Fingerfertigkeit</entry>
-          </row>
+              <entry>GE</entry>
 
-          <row>
-            <entry>Intuition</entry>
+              <entry>Schnelligkeit und Gewandtheit, auch
+              Fingerfertigkeit</entry>
+            </row>
 
-            <entry>IN</entry>
+            <row>
+              <entry>Intuition</entry>
 
-            <entry>Geistesschärfe, schnelles und richtiges Handeln,
-            Improvisation... und eben Intuition(!)</entry>
-          </row>
+              <entry>IN</entry>
 
-          <row>
-            <entry>Klugheit</entry>
+              <entry>Geistesschärfe, schnelles und richtiges Handeln,
+              Improvisation... und eben Intuition(!)</entry>
+            </row>
 
-            <entry>KL</entry>
+            <row>
+              <entry>Klugheit</entry>
 
-            <entry>= Intelligenz: logisches Denkvermögen, auch die Lern- &amp;
-            Merkfähigkeit</entry>
-          </row>
+              <entry>KL</entry>
 
-          <row>
-            <entry>Charisma</entry>
+              <entry>= Intelligenz: logisches Denkvermögen, auch die Lern-
+              &amp; Merkfähigkeit</entry>
+            </row>
 
-            <entry>CH</entry>
+            <row>
+              <entry>Charisma</entry>
 
-            <entry>Wirkung auf andere, Ausstrahlung, auch wie gut man andere
-            beeinflussen kann</entry>
-          </row>
+              <entry>CH</entry>
 
-          <row>
-            <entry>Erscheinungsbild</entry>
+              <entry>Wirkung auf andere, Ausstrahlung, auch wie gut man andere
+              beeinflussen kann</entry>
+            </row>
 
-            <entry>EB</entry>
+            <row>
+              <entry>Erscheinungsbild</entry>
 
-            <entry>Maß für das eigentliche Aussehen, Gesicht, Körperbau
-            usw.</entry>
-          </row>
+              <entry>EB</entry>
 
-          <row>
-            <entry>Selbstbeherrschung</entry>
+              <entry>Maß für das eigentliche Aussehen, Gesicht, Körperbau
+              usw.</entry>
+            </row>
 
-            <entry>SB</entry>
+            <row>
+              <entry>Selbstbeherrschung</entry>
 
-            <entry>Sowohl die Fähigkeit zur geistigen Konzentration als auch
-            das Ertragen von Schmerzen</entry>
-          </row>
+              <entry>SB</entry>
 
-          <row>
-            <entry>Willenskraft</entry>
+              <entry>Sowohl die Fähigkeit zur geistigen Konzentration als auch
+              das Ertragen von Schmerzen</entry>
+            </row>
 
-            <entry>WK</entry>
+            <row>
+              <entry>Willenskraft</entry>
 
-            <entry>Die Stärke der geistigen Abwehr gegen Beeinflussung</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
+              <entry>WK</entry>
 
-    <para>Die Attributwerte entsprechen zunächst einmal Würfelanzahlen.
-    Zusätzlich wird die Schwierigkeit einer Probe (siehe dort) noch je nach
-    Höhe des Attributs modifiziert („Attributsbonus“). Bei einem Wert unter 3
-    steigt sie um eins, bei 4, 6, 8 und 10 sinkt sie jeweils um eins,
-    kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend ein
-    Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
-    Attributsbonus davon unbeeinflusst.</para>
+              <entry>Entschlossenheit, Stärke der Abwehr gegen geistige
+              Beeinflussung</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <para>Die Attributwerte entsprechen zunächst einmal Würfelanzahlen.
+      Zusätzlich wird die Schwierigkeit einer Probe (siehe dort) noch je nach
+      Höhe des Attributs modifiziert („Attributsbonus“). Bei einem Wert unter
+      3 steigt sie um eins, bei 4, 6, 8 und 10 sinkt sie jeweils um eins,
+      kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend ein
+      Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
+      Attributsbonus davon unbeeinflusst.</para>
+    </section>
+
+    <section>
+      <title>Talente</title>
+
+      <para>{Talente erklären; Maximalwert 6; Grundset/Zusätzliche Talente}
+      Jedes Talent ist einem Attribut zugeordnet.</para>
+    </section>
   </chapter>
 
   <chapter>
-    <title>Talente</title>
+    <title>Proben</title>
 
-    <para>Wizardry besitzt ein flexibles Talentsystem. Jeder Charakter hat nur
-    für die Talente einen Wert, die er auch wirklich beherrscht. Auf dem
-    Charakterblatt ist nur ein kleines Grundset angegeben, das jedoch
-    keineswegs verpflichtend ist (warum sollte jeder Krieger lesen können?).
-    Talente haben einen Maximalwert von 6.</para>
+    <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
+    Meister eine <firstterm>Probe </firstterm>verlangen. Meist wird dies eine
+    <firstterm>Talentprobe</firstterm> sein, es sind jedoch auch
+    <firstterm>Attributproben</firstterm> möglich. Des weiteren werden auch
+    Proben auf Magiebereiche und Zauber durchgeführt (siehe <xref
+    linkend="magie" />).</para>
 
-    <para>Jedes Talent (siehe Anhang C) ist einem Attribut zugeordnet. Das
-    Wissen bzw. die Fertigkeit auf einem Bereich wird dabei nur durch den
-    Talentwert ausgedrückt, nicht durch das Attribut. So ist beispielsweise
-    Etikette dem Charisma und nicht der Klugheit zugeordnet, obwohl man
-    Dutzende verschiedene Titel und Anreden parat haben muss – denn jene Titel
-    und Anreden sind im Talent enthalten, nicht in der Klugheit. Es kommt mehr
-    darauf an, sie auch korrekt (also höflich und nett, eben charismatisch)
-    vorzubringen.</para>
+    <section>
+      <title>Würfelanzahl</title>
 
-    <para>Wie immer hat der Spielleiter das letzte Wort – es kann z.B. gerade
-    bei Talenten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
-    anderes Attribut zu „proben“ (Beispiel: höfische Tänze mit Etikette +
-    Geschick).</para>
+      <para>Eine Probe wird durch das Rollen mehrerer zwanzigseitiger Würfel
+      (kurz: <firstterm>W20</firstterm>) durchgeführt. Zunächst wird die
+      Anzahl der Würfel ermittelt. Sie entspricht der Anzahl der Punkte im
+      jeweiligen Attribut, oder, bei Talentproben, der Summe aus Talentpunkten
+      und Punkten im zugeordneten Attribut.</para>
 
-    <para>Besitzt ein Charakter das für eine bestimmte Aktion zuständige
-    Talent nicht, darf er strenggenommen keine Probe durchführen. Der Meister
-    kann jedoch gestatten, eine Probe auf ein anderes, verwandtes Talent oder
-    das reine Attribut durchzuführen, sofern es für die Situation passt (evtl.
-    auch mit erhöhter Schwierigkeit)</para>
-  </chapter>
+      <sidebar>
+        <para>Wie immer hat der Spielleiter das letzte Wort – es kann gerade
+        bei Talenten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
+        anderes Attribut zu „proben“. Geht es zum Beispiel bei einer
+        Etikette-Probe weniger um pures Wissen (wie die richtige Anrede für
+        die unverheiratete Tochter eines Fürsten), sondern um das korrekte
+        Ausführen der Schritte eines höfischen Tanzes, kann der Meister den
+        Spieler eine Probe auf Geschicklichkeit + Etikette (statt, wie üblich,
+        Klugheit) würfeln lassen.</para>
+      </sidebar>
+    </section>
 
-  <chapter>
-    <title>Talentproben</title>
+    <section>
+      <title>Schwierigkeit und Erfolge</title>
 
-    <para>In Wizardry werden alle Proben mit mehreren W20 durchgeführt. Bei
-    Talentproben werden die Würfelanzahlen des Attributs und des Talents
-    zusammengerechnet. Der Meister gibt eine Schwierigkeit für die Aktion vor
-    (Standard: 11), die mit möglichst vielen Würfeln erreicht oder übertroffen
-    werden muss. Jeder dieser Würfel zählt als „ein Erfolg“. Für jeden Würfel,
-    der eine Eins zeigt, wird ein Erfolg abgezogen (außer bei
-    Widerstandsproben und Schadenswürfen). Je mehr Erfolge, desto besser. Hat
-    ein Spieler keine Erfolge, ist die Aktion gescheitert, hat er mehr Einsen
-    als Erfolge gewürfelt (d.h. negative Anzahl Erfolge), ist sie katastrophal
-    fehlgeschlagen. So ein Patzer kann, je nach Situation, durchaus
-    lebensbedrohlich werden.</para>
+      <para>Der Meister gibt nun unter Berücksichtigung der Situation eine
+      Schwierigkeit für die Aktion vor (Standard: 11). Diese Schwierigkeit
+      wird dann mit eventuellen Boni oder Mali des Charakters verrechnet (z.B.
+      Attributsbonus). Anschließend rollt der Spieler seine Würfel, und
+      versucht die ermittelte Schwierigkeit mit möglichst vielen Würfeln zu
+      erreichen oder zu übertreffen. Jeden dieser Würfel zählt der Spieler als
+      „einen <firstterm>Erfolg</firstterm>“. Für jeden Würfel, der eine Eins
+      zeigt, wird ein Erfolg abgezogen. Bleibt am Ende mindestens ein Erfolg
+      übrig, ist die Probe gelungen. Hat ein Spieler keine Erfolge, ist die
+      Aktion gescheitert; hat er mehr Einsen als Erfolge gewürfelt (d.h. eine
+      negative Anzahl Erfolge), ist sie katastrophal fehlgeschlagen - so ein
+      <firstterm>Patzer</firstterm> kann, je nach Situation, durchaus
+      lebensbedrohlich werden.</para>
 
-    <informalexample>
-      <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den frühen
-      Morgenstunden im Haus eines reichen Bürgers bei der Arbeit. Da man sich
-      in Elris’ Gewerbe jedoch möglichst lautlos bewegen sollte, verlangt der
-      Meister von Elris eine Schleichen-Probe. Und weil ja ausnahmslos alle
-      Holzdielen die Angewohnheit haben, in den unpassendsten Momenten zu
-      knarren und zu quietschen, sagt der Meister eine Schwierigkeit von 17
-      an.</para>
+      <sidebar>
+        <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
+        solchen Fällen entscheidet der Spielleiter, ob die Aktion schlicht
+        unmöglich ist oder er eine Probe zulässt. In diesem Fall werden alle
+        gerollten 20er als Erfolg gewertet.</para>
+      </sidebar>
 
-      <para>Elris hat Geschick 5 (was seine Schwierigkeit um 1 auf 16 senkt)
-      und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie zeigen: 7, 2,
-      13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge – Elris schafft
-      es also, kaum verräterische Geräusche zu verursachen. Hätte er keine
-      Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende Diele
-      getreten.</para>
-    </informalexample>
+      <informalexample>
+        <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den
+        frühen Morgenstunden im Haus eines reichen Bürgers bei der Arbeit. Da
+        man sich in Elris’ Gewerbe jedoch möglichst lautlos bewegen sollte,
+        verlangt der Meister von Elris eine Schleichen-Probe. Und weil ja
+        ausnahmslos alle Holzdielen die Angewohnheit haben, in den
+        unpassendsten Momenten zu knarren und zu quietschen, sagt der Meister
+        eine Schwierigkeit von 17 an.</para>
 
-    <sidebar>
-      <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
-      solchen Fällen entscheidet der Spielleiter, ob die Aktion einfach
-      unmöglich ist oder eine Probe zulässig ist. In diesem Fall werden alle
-      gerollten 20er als Erfolg gewertet.</para>
-    </sidebar>
+        <para>Elris hat Geschick 5 (was seine Schwierigkeit um 1 auf 16 senkt)
+        und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie zeigen: 7, 2,
+        13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge – Elris
+        schafft es also, kaum verräterische Geräusche zu verursachen. Hätte er
+        keine Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende
+        Diele getreten.</para>
+      </informalexample>
+    </section>
 
     <section>
       <title>Vergleichswürfe</title>
 
       <para>Um zwei gelungene Proben zu vergleichen, wird einfach die Anzahl
       der Erfolge herangezogen. Derjenige mit mehr Erfolgen hat „gewonnen“.
-      Ein Vergleichswurf findet auch in unserem Beispiel statt:</para>
+      Sollte die Anzahl der Erfolge gleich sein, gewinnt derjenige, der
+      weniger Würfel zur Verfügung hatte. War auch die Würfelanzahl gleich,
+      gibt die Höhe des jeweiligen Attributs den Ausschlag, gefolgt von der
+      Höhe des Talents.</para>
+
+      <para>Ein solcher <firstterm>Vergleichswurf</firstterm> findet auch in
+      unserem Beispiel statt:</para>
 
       <informalexample>
         <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
-        eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 7
-        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 17 immerhin drei
-        Erfolge geschafft. Das Ergebnis: Er wird misstrauisch und durchsucht
-        das Haus...</para>
+        eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
+        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 16 zwei Erfolge
+        erzielt. Elris hatte ebenfalls zwei Erfolge, doch mehr Würfel zur
+        Verfügung - der Hausherr gewinnt also den Vergleichswurf. Das
+        Ergebnis: Er wird misstrauisch und durchsucht das Haus...</para>
       </informalexample>
 
       <para>Die Schwierigkeit für einen Vergleichswurf (in diesem Fall die
-      Sinnesschärfe-Probe) sollte natürlich nicht vom Ergebnis der
-      ursprünglichen Probe abhängig gemacht werden, was ja durch den Vergleich
-      der Erfolgsanzahlen sowieso geschieht. Im Klartext: Jemanden ein
-      Stockwerk höher durch den Flur schleichen zu hören, sollte unter
-      normalen Umständen immer die gleiche Schwierigkeit haben.</para>
+      Sinnesschärfe-Probe) sollte natürlich <emphasis>nicht</emphasis> vom
+      Ergebnis der ursprünglichen Probe abhängig gemacht werden, was ja durch
+      den Vergleich der Erfolgsanzahlen sowieso geschieht. In unserem Beispiel
+      hat der Meister also die Schwierigkeit 16 bereits vorher festgelegt, und
+      nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
+    </section>
+
+    <section>
+      <title>Fehlendes Talent</title>
+
+      <para>Besitzt ein Charakter das für eine bestimmte Aktion zuständige
+      Talent nicht, darf er streng genommen keine Probe durchführen. Der
+      Meister kann jedoch gestatten, eine Probe auf ein anderes, verwandtes
+      Talent oder das reine Attribut durchzuführen, sofern es für die
+      Situation passt (evtl. auch mit erhöhter Schwierigkeit)</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Schaden und Regeneration</title>
+
+    <section>
+      <title>Körperlicher Schaden</title>
+
+      <para>Der Gesundheitszustand jedes Charakters wird durch acht Stufen
+      dargestellt. Für jeden Schadenspunkt, den er erhält, wird eine dieser
+      Stufen durchgestrichen. Ist ein Charakter auf der letzten
+      Gesundheitsstufe, so ist er dem Tod nahe und zu keiner Aktion mehr fähig
+      (abgesehen davon ist er sowieso bewusstlos). Wird er nicht sofort
+      versorgt, fällt er ins Koma. Hat er sogar noch mehr Schaden erhalten,
+      kann ihn nur noch der sofortige Einsatz von Magie retten.</para>
+
+      <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
+      er. Bei jeder Gesundheitsstufe (genauer: bei allen außer der ersten und
+      der letzten) ist ein Würfelmalus angegeben, der bei allen Proben – bis
+      auf Schadenswürfe und Widerstandsproben – gilt. Der gleiche Malus wird
+      auch auf die Initiative angerechnet. Dabei zählt immer nur der Malus,
+      der bei der letzten durchgestrichenen Stufe angegeben ist.</para>
+
+      <para>Charaktere mit hoher Selbstbeherrschung werden von Verwundungen
+      jedoch weniger stark beeinflusst. Regeltechnisch bedeutet dies, dass der
+      Attributsbonus von SB mit dem Malus verrechnet wird, und ihn ganz oder
+      teilweise aufhebt. Ein Charakter mit einer SB von z.B. 6 erhält also
+      erst bei der vierten Gesundheitsstufe einen Abzug, nämlich einen
+      Würfel.</para>
+    </section>
+
+    <section>
+      <title>Betäubungsschaden</title>
+
+      <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
+      verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
+      Verletzungen – eben blaue Flecken oder harmlose Abschürfungen. Auch
+      Zauberei verursacht beim Anwender sogenannten Betäubungs- oder auch
+      mentalen Schaden. Dieser Schaden wird durch eine separate Skala von
+      zwölf Gesundheitsstufen dargestellt. Hat ein Charakter Betäubungsschaden
+      erhalten, wird er zunehmend unkonzentrierter und erschöpfter, bis zur
+      völligen Bewusstlosigkeit auf der letzten mentalen Gesundheitsstufe.
+      Darüber hinaus gehender mentaler Schaden wird als körperlicher Schaden
+      übertragen.</para>
+
+      <para>Ebenso wie körperlicher Schaden schlägt sich auch
+      Betäubungsschaden in einem Würfelmalus nieder. Dieser Malus wird jedoch
+      nicht zu dem des körperlichen Schadens addiert, stattdessen gilt der
+      jeweils höhere. Außerdem findet, anders als bei körperlichem Schaden,
+      keine Verrechnung mit dem Attributsbonus von Selbstbeherrschung
+      statt.</para>
+    </section>
+
+    <section>
+      <title>Regeneration</title>
+
+      <para>Im Zuge der Heilung werden nach und nach die durchgestrichenen
+      Gesundheitsstufen wieder „frei“, beginnend mit der letzten. Dabei heilt
+      körperlicher Schaden nur sehr langsam. Hat ein Charakter z.B. insgesamt
+      acht Schadenspunkte erhalten und befindet sich auf der letzten
+      Gesundheitsstufe, kann es je nach Art der Verletzungen (Brüche?
+      Quetschungen? Schnittwunden?) zwischen einem und drei Monaten dauern,
+      bis er auf natürlichem Wege wieder vollständig genesen ist –
+      vorausgesetzt, diese Wunden werden ordnungsgemäß behandelt (Wunden
+      ausgewaschen, Brüche geschient, etc.) und der Charakter verhält sich
+      angemessen. Bei schweren Wunden sollte der Meister daher auch das
+      Verhalten des Charakters berücksichtigen: So haben halb verheilte Wunden
+      die Angewohnheit, bei körperlicher Anstrengung wieder aufzuplatzen;
+      Knochenbrüche heilen beim Marschieren auch nicht schneller...
+      etc.</para>
+
+      <para>Betäubungsschaden heilt wesentlich schneller, solange der
+      Charakter keine größeren Anstrengungen wie Kampf oder Zaubern
+      unternimmt. Leichter Schaden heilt dabei schneller als schwerer: Jedes
+      der ersten vier Kästchen darf nach etwa fünf Minuten regeneriert werden.
+      Die mittleren vier benötigen jeweils 15, die letzten jeweils 30 Minuten.
+      Eine solche Regeneration „zwischendurch“ ist jedoch nicht vollständig –
+      pro Drittel der Gesundheitsskala, das ein Charakter an einem Tag
+      erreicht hat, bleibt ein Schadenspunkt stehen und wird erst regeneriert,
+      wenn der Charakter das nächste Mal ausreichend lange schläft.</para>
+
+      <informalexample>
+        <para>Erhält ein Charakter z.B. morgens vier mentale Schadenspunkte,
+        kann er alle bis auf einen innerhalb kürzester Zeit wieder
+        regenerieren. Erhält er später nochmals 5 Schaden und erreicht dadurch
+        das mittlere Drittel der Skala, benötigen die Gesundheitsstufen 6 und
+        5 jeweils eine Viertelstunde zur Regeneration. Anschließend
+        regenerieren sich die Stufen 4 und 3 jeweils innerhalb von fünf
+        Minuten – die restlichen zwei Stufen werden jedoch erst am nächsten
+        Tag regeneriert sein.</para>
+      </informalexample>
+
+      <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
+      selbständig vom Spieler durchzustreichen – stattdessen sollte hier kurz
+      Rücksprache mit dem Spielleiter gehalten werden. Insbesondere bei
+      Betäubungsschaden ist dies unerlässlich, denn schließlich hat nur der
+      Spielleiter einen genauen Überblick, wie viel gespielte Zeit bereits
+      vergangen ist. Außerdem steht es ihm natürlich frei, die
+      Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
+      anzupassen.</para>
     </section>
   </chapter>
 
@@ -378,32 +522,6 @@
     </section>
 
     <section>
-      <title>Gesundheitszustand</title>
-
-      <para>Der Gesundheitszustand jedes Charakters wird durch acht Stufen
-      dargestellt. Für jeden Schadenspunkt, den er erhält, wird eine dieser
-      Stufen durchgestrichen. Ist ein Charakter auf der letzten
-      Gesundheitsstufe, so ist er dem Tod nahe und zu keiner Aktion mehr fähig
-      (abgesehen davon ist er sowieso bewusstlos). Wird er nicht sofort
-      versorgt, fällt er ins Koma. Hat er sogar noch mehr Schaden erhalten,
-      kann ihn nur noch der sofortige Einsatz von Magie retten.</para>
-
-      <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
-      er. Bei jeder Gesundheitsstufe (genauer: bei allen außer der ersten und
-      der letzten) ist ein Würfelmalus angegeben, der bei allen Proben – bis
-      auf Schadenswürfe und Widerstandsproben – gilt. Der gleiche Malus wird
-      auch auf die Initiative angerechnet. Dabei zählt immer nur der Malus,
-      der bei der letzten durchgestrichenen Stufe angegeben ist.</para>
-
-      <para>Charaktere mit hoher Selbstbeherrschung werden von Verwundungen
-      jedoch weniger stark beeinflusst. Regeltechnisch bedeutet dies, dass der
-      Attributsbonus von SB mit dem Malus verrechnet wird, und ihn ganz oder
-      teilweise aufhebt. Ein Charakter mit einer SB von z.B. 6 erhält also
-      erst bei der vierten Gesundheitsstufe einen Abzug, nämlich einen
-      Würfel.</para>
-    </section>
-
-    <section>
       <title>Rüstungen</title>
 
       <para>Die verschiedenen Arten von Rüstungen werden durch vier
@@ -429,79 +547,10 @@
         – und ein, zwei weitere seinen Tod.</para>
       </sidebar>
     </section>
-
-    <section>
-      <title>Betäubungsschaden</title>
-
-      <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
-      verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
-      Verletzungen – eben blaue Flecken oder harmlose Abschürfungen. Auch
-      Zauberei verursacht beim Anwender sogenannten Betäubungs- oder auch
-      mentalen Schaden. Dieser Schaden wird in Wizardry durch eine separate
-      Skala von zwölf Gesundheitsstufen dargestellt. Hat ein Charakter
-      Betäubungsschaden erhalten, wird er zunehmend unkonzentrierter und
-      erschöpfter, bis zur völligen Bewusstlosigkeit auf der letzten mentalen
-      Gesundheitsstufe. Darüber hinaus gehender mentaler Schaden wird als
-      körperlicher Schaden übertragen.</para>
-
-      <para>Ebenso wie körperlicher Schaden schlägt sich auch
-      Betäubungsschaden in einem Würfelmalus nieder. Dieser Malus wird jedoch
-      nicht zu dem des körperlichen Schadens addiert, stattdessen gilt der
-      jeweils höhere.</para>
-    </section>
-
-    <section>
-      <title>Regeneration</title>
-
-      <para>Im Zuge der Heilung werden nach und nach die durchgestrichenen
-      Gesundheitsstufen wieder „frei“, beginnend mit der letzten. Dabei heilt
-      körperlicher Schaden nur sehr langsam. Hat ein Charakter z.B. insgesamt
-      acht Schaden erhalten und befindet sich auf der letzten
-      Gesundheitsstufe, kann es je nach Art der Verletzungen (Brüche?
-      Quetschungen? Schnittwunden?) zwischen einem und drei Monaten dauern,
-      bis er auf natürlichem Wege wieder vollständig genesen ist –
-      vorausgesetzt, diese Wunden werden ordnungsgemäß behandelt (Wunden
-      ausgewaschen, Brüche geschient, etc.) und der Charakter verhält sich
-      angemessen. Bei schweren Wunden sollte der Meister daher auch das
-      Verhalten des Charakters berücksichtigen: So haben halb verheilte Wunden
-      die Angewohnheit, bei körperlicher Anstrengung wieder aufzuplatzen;
-      Knochenbrüche heilen beim Marschieren auch nicht schneller...
-      etc.</para>
-
-      <para>Betäubungsschaden heilt wesentlich schneller, solange der
-      Charakter keine größeren Anstrengungen wie Kampf oder Zaubern
-      unternimmt. Leichter Schaden heilt dabei schneller als schwerer: Jedes
-      der ersten vier Kästchen darf nach etwa fünf Minuten regeneriert werden.
-      Die mittleren vier benötigen jeweils 15, die letzten jeweils 30 Minuten.
-      Eine solche Regeneration „zwischendurch“ ist jedoch nicht vollständig –
-      pro Drittel der Gesundheitsskala, das ein Charakter an einem Tag
-      erreicht hat, bleibt ein Schadenspunkt stehen und wird erst regeneriert,
-      wenn der Charakter das nächste Mal ausreichend lange schläft.</para>
-
-      <informalexample>
-        <para>Erhält ein Charakter z.B. morgens vier mentale Schadenspunkte,
-        kann er alle bis auf einen innerhalb kürzester Zeit wieder
-        regenerieren. Erhält er später nochmals 5 Schaden und erreicht dadurch
-        das mittlere Drittel der Skala, benötigen die Gesundheitsstufen 6 und
-        5 jeweils eine Viertelstunde zur Regeneration. Anschließend
-        regenerieren sich die Stufen 4 und 3 jeweils innerhalb von fünf
-        Minuten – die restlichen zwei Stufen werden jedoch erst am nächsten
-        Tag regeneriert sein.</para>
-      </informalexample>
-
-      <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
-      selbständig vom Spieler durchzustreichen – stattdessen sollte hier kurz
-      Rücksprache mit dem Spielleiter gehalten werden. Insbesondere bei
-      Betäubungsschaden ist dies unerlässlich, denn schließlich hat nur der
-      Spielleiter einen genauen Überblick, wie viel gespielte Zeit bereits
-      vergangen ist. Außerdem steht es ihm natürlich frei, die
-      Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
-      anzupassen.</para>
-    </section>
   </chapter>
 
   <chapter>
-    <title>Magie</title>
+    <title id="magie">Magie</title>
 
     <para>Magie ist nichts Übernatürliches. Glaubt man den Magiern, ist sie
     lediglich die Anwendung der alles umgebenden Kraft. Diese durchzieht die
