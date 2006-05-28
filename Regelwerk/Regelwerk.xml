@@ -11,7 +11,7 @@
       <surname>Bannmann</surname>
     </author>
 
-    <pubdate>2006-05-21</pubdate>
+    <pubdate>2006-05-28</pubdate>
 
     <copyright>
       <year>1999</year>
@@ -39,13 +39,90 @@
         "Schaden und Regeneration"); "Proben" überarbeitet und
         "Vergleichswürfe" konkretisiert</revremark>
       </revision>
+
+      <revision>
+        <revnumber>3</revnumber>
+
+        <date>2005-05-28</date>
+
+        <revremark>Einleitung hinzugefügt, Regeln zur Initiative und
+        Ankündigungsphase erweitert</revremark>
+      </revision>
     </revhistory>
   </bookinfo>
 
   <chapter>
-    <title>Überblick</title>
+    <title>Einleitung</title>
 
-    <para>&lt; Einleitung... u.A. werte = würfelanzahlen ... &gt;</para>
+    <para>Wizardry ist ein Fantasy-Rollenspiel, das einen besonderen
+    Schwerpunkt auf flexible und dennoch spielbare Regeln legt. Dies gilt —
+    nomen est omen — insbesondere für den Bereich der Magie. Obwohl in der
+    Spielwelt nur ein kleiner Teil der Bevölkerung Magie wirken kann und auch
+    nicht jedes Abenteuer, das die Charaktere erleben, sich um Magie drehen
+    wird, spielt sie immer eine wichtige Rolle — und sei es nur, weil die
+    Charaktere häufig auf sie zurückgreifen, um die ihnen gestellten Aufgaben
+    zu lösen.</para>
+
+    <section>
+      <title>Flexibles Magiesystem</title>
+
+      <para>Die Flexibilität des Magiesystems von Wizardry geht so weit, dass
+      die Charaktere spontan magische Effekte hervorrufen können, ohne zuvor
+      einen entsprechenden Zauberspruch gelernt oder geübt haben müssen: Jeder
+      Spieler, dessen Charakter grundsätzlich in einem bestimmten Bereich der
+      Magie bewandert ist, kann aus heiterem Himmel eine Idee für einen
+      bestimmten magischen Effekt haben, und in diesem Moment muss der Meister
+      eine Würfelregelung (er)finden, die nicht nur Auskunft gibt über Erfolg
+      oder Misserfolg des Zauberns, sondern auch über die konkreten
+      Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer, Schnelligkeit
+      etc.)</para>
+
+      <para>Dies erfordert vom Meister einen hohen Grad an
+      Improvisationstalent. Zum einen macht das oben erwähnte spontane
+      Erfinden von Würfelregelungen für magische Effekte das Meistern
+      aufwändiger als in anderen Rollenspielen. Zum anderen sorgt das
+      Magiesystem auch dafür, dass die Spieler noch unberechenbarer als üblich
+      sind: ein Meister kann beim Planen des Abenteuers unmöglich an alle
+      Zauber denken, welche die Spielercharaktere wirken könnten, und so kann
+      ein Abenteuer aufgrund eines einzigen überraschenden Zaubers einen ganz
+      anderen Verlauf nehmen.</para>
+
+      <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab:
+      anders als in anderen Rollenspielen haben sie keine exakte Liste der
+      Zaubersprüche, die ihr Charakter wirken kann und die sie mechanisch auf
+      die Verwendbarkeit in der aktuellen Situation hin überprüfen können. Sie
+      benötigen daher einen gewissen Einfallsreichtum, um immer wieder
+      kreative Wege zu finden, wie sie die magischen Fähigkeiten ihrer
+      Charaktere einsetzen können.</para>
+
+      <para>Kurzum: Wizardry ist nicht unbedingt das Spielsystem der Wahl für
+      eine Gruppe, die bisher kaum Rollenspielerfahrung hat oder die bisher
+      hauptsächlich vorgefertigte Kaufabenteuer gespielt hat. Es wird
+      insbesondere Rollenspielern ans Herz gelegt, die ein Faible für Magie
+      haben und die klassischen Spielsysteme als zu einschränkend
+      empfinden.</para>
+    </section>
+
+    <section>
+      <title>Spielbarkeit</title>
+
+      <para>Wizardry soll ein schnell spielbares System mit leicht zu
+      merkenden Regeln sein, welche dem Erzählen nicht "im Weg stehen". Es
+      enthält daher weit weniger Regeln als andere Systeme, und geht davon aus
+      dass der Meister viele Entscheidungen besser mit Einsatz von gesundem
+      Menschenverstand als mit dem Konsultieren eines umfangreichen Katalogs
+      aus genauen Regeln und Tabellen fällen kann.</para>
+
+      <para>Die einzelnen Proben wirken aufgrund der Anzahl der gerollten
+      Würfel, die durchaus über zehn liegen kann, zunächst aufwändig. Lassen
+      Sie sich beim Lesen davon jedoch nicht abschrecken! Das Spielen von
+      Wizardry wird weder zur Würfel- noch zur Rechenmeisterschaft, denn die
+      gewürfelten Werte werden direkt mit einem bestimmten Wert verglichen und
+      gezählt — sie werden weder addiert noch miteinander verrechnet. Man
+      könnte sogar sagen, dass die hohe Anzahl der Würfel vielmehr die
+      Dramatik der Situation ausdrückt, in der einer Probe verlangt
+      wird.</para>
+    </section>
   </chapter>
 
   <chapter>
@@ -54,9 +131,11 @@
     <section>
       <title>Attribute</title>
 
-      <para>In Wizardry haben Charaktere acht Attribute mit Werten zwischen
+      <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich in
+      acht Attributen nieder. Diese Attribute liegen auf einer Skala zwischen
       eins und zehn, wobei der allgemeine Durchschnitt in der Bevölkerung
-      zwischen 3 und 4 und das menschliche Maximum bei 8 liegt.</para>
+      zwischen 3 und 4 und der höchste für Menschen erreichbare Wert bei 8
+      liegt.</para>
 
       <informaltable>
         <tgroup cols="3">
@@ -112,7 +191,7 @@
 
               <entry>CH</entry>
 
-              <entry>Wirkung auf andere, Ausstrahlung, auch wie gut man andere
+              <entry>Wirkung auf andere, Ausstrahlung; auch wie gut man andere
               beeinflussen kann</entry>
             </row>
 
@@ -207,7 +286,7 @@
       zeigt, wird ein Erfolg abgezogen. Bleibt am Ende mindestens ein Erfolg
       übrig, ist die Probe gelungen. Hat ein Spieler keine Erfolge, ist die
       Aktion gescheitert; hat er mehr Einsen als Erfolge gewürfelt (d.h. eine
-      negative Anzahl Erfolge), ist sie katastrophal fehlgeschlagen - so ein
+      negative Anzahl Erfolge), ist sie katastrophal fehlgeschlagen — so ein
       <firstterm>Patzer</firstterm> kann, je nach Situation, durchaus
       lebensbedrohlich werden.</para>
 
@@ -254,7 +333,7 @@
         eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
         Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 16 zwei Erfolge
         erzielt. Elris hatte ebenfalls zwei Erfolge, doch mehr Würfel zur
-        Verfügung - der Hausherr gewinnt also den Vergleichswurf. Das
+        Verfügung — der Hausherr gewinnt also den Vergleichswurf. Das
         Ergebnis: Er wird misstrauisch und durchsucht das Haus...</para>
       </informalexample>
 
@@ -403,6 +482,15 @@
       die gleiche Ini, entscheiden zusätzliche W20-Würfe über ihre Reihenfolge
       untereinander.</para>
 
+      <sidebar>
+        <para>Das häufige Würfeln der Initiative kann bei längeren Kämpfen
+        lästig sein. Es steht dem Meister daher frei, die Initiative nur zu
+        Beginn eines Kampfes und nach nennenswerten Veränderungen in der
+        Kampfsituation (z.B. Positionswechsel) würfeln zu lassen. Die
+        Reihenfolge der Kämpfer bleibt dann über mehrere Runden
+        unverändert.</para>
+      </sidebar>
+
       <informalexample>
         <para>Elris hat sich von der anstrengenden Flucht über die Dächer,
         nachdem er bei der Arbeit überrascht wurde, wieder etwas erholt.
@@ -421,18 +509,41 @@
         schneller als ihre Gegner, die erst bei 13 und 17 an die Reihe
         kommen.</para>
       </informalexample>
+    </section>
 
-      <para>Nun muss jeder Kämpfer (beginnend mit dem „langsamsten“)
-      ankündigen, welche <firstterm>Aktion</firstterm> (Angriff, Waffe
-      wechseln, Zaubern, etc.) er während seiner Aktionsphase durchführen wird
-      und welche <firstterm>Reaktion</firstterm> (z.B. Ausweichen, Parieren
-      oder Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt
-      (ob diese vor oder nach seiner eigenen abgewickelt werden, ist
-      unerheblich) – wobei er auch auf eins der beiden verzichten kann. Er
-      darf den abgerundeten Mittelwert der beiden <emphasis
-      role="bold">Würfelanzahlen auf Aktion und Reaktion</emphasis> verteilen,
-      wobei er jeweils nur so viele Würfel zuteilen kann, wie er tatsächlich
-      dafür besitzt.</para>
+    <section>
+      <title>Ankündigungsphase</title>
+
+      <para>Nach der Initiativephase folgt die
+      <firstterm>Ankündigungsphase</firstterm>, in der nacheinander alle
+      Kämpfer (beginnend mit dem „langsamsten“) ankündigen, was sie in der
+      Runde tun werden. Durch diese Ankündigung können schnellere Kämpfer mit
+      höherer Initiative auf die langsameren reagieren und haben einen
+      taktischen Vorteil.</para>
+
+      <para>Bei der Ankündigung legt der Kämpfer fest, welche
+      <firstterm>Aktion</firstterm> (Angriff, Waffe wechseln, Zaubern, etc.)
+      er während seiner Aktionsphase durchführen wird und welche
+      <firstterm>Reaktion</firstterm> (z.B. Ausweichen, Parieren oder
+      Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt (ob
+      die Reaktion dann vor oder nach seiner eigenen Aktion abgewickelt wird,
+      steht zu diesem Zeitpunkt übrigens noch nicht fest). Er darf den
+      abgerundeten Mittelwert der beiden <emphasis role="bold">Würfelanzahlen
+      auf Aktion und Reaktion</emphasis> verteilen, wobei er jeweils nur so
+      viele Würfel zuteilen kann, wie er tatsächlich für den entsprechenden
+      Wurf besitzt. Alternativ darf der Kämpfer auch auf Aktion oder Reaktion
+      komplett verzichten und erhält dann für die verbliebene Handlung deren
+      reguläre Würfelanzahl.</para>
+
+      <sidebar>
+        <para>Beachten Sie, dass die konkrete Verteilung der Würfelanzahlen
+        eines Kämpfers für die anderen Charaktere nicht offensichtlich ist —
+        es geht lediglich darum, dass sie vom jeweiligen Kämpfer (insbesondere
+        den Spielercharakteren) zu Beginn der Runde festgelegt werden muss und
+        nicht etwa später, nach Bedarf, angepasst werden kann. Der Meister
+        muss also keineswegs die Spielwerte der von ihm verkörperten
+        Nichtspielercharaktere offenbaren.</para>
+      </sidebar>
 
       <informalexample>
         <para>Der Meister teilt den Spielern mit, dass sich einer der Schläger
@@ -458,14 +569,14 @@
     <section>
       <title>Der Angriff</title>
 
-      <para>Der eigentliche Trefferwurf wird mit den dafür zugeteilten Würfeln
-      gegen die bei der Waffe angegebene Schwierigkeit durchgeführt. Diese
-      kann, je nach Situation, noch modifiziert werden; das Anvisieren des
-      Kopfes entspricht zum Beispiel +6. Die Anzahl der (nach dem
-      Ausweichen/Parieren – siehe unten – verbleibenden) Erfolge gibt dabei
-      an, wie gut der Schlag gelungen ist. Für je zwei Erfolge (abgerundet)
-      wird die Schwierigkeit des Schadenswurfs (s.u.) um eins gesenkt.
-      (<firstterm>Trefferbonus</firstterm>)</para>
+      <para>Der eigentliche Trefferwurf einer Nahkampfwaffe wird mit den dafür
+      zugeteilten Würfeln gegen die bei der Waffe angegebene Schwierigkeit
+      durchgeführt. Diese kann, je nach Situation, noch modifiziert werden;
+      das Anvisieren des Kopfes entspricht zum Beispiel +6. Die Anzahl der
+      (nach dem Ausweichen/Parieren – siehe unten – verbleibenden) Erfolge
+      gibt dabei an, wie gut der Schlag gelungen ist. Für je zwei Erfolge
+      (abgerundet) wird die Schwierigkeit des Schadenswurfs (s.u.) um eins
+      gesenkt. (<firstterm>Trefferbonus</firstterm>)</para>
     </section>
 
     <section>
@@ -480,7 +591,7 @@
 
       <informalexample>
         <para>Die Schwierigkeit für einen Dolch liegt laut Waffentabelle bei
-        8, für Elris bedeutet das 7 (wegen seines GE- Attributsbonus). Mit
+        8, für Elris bedeutet das 7 (wegen seines GE-Attributsbonus). Mit
         seinen fünf Würfeln schafft er vier Erfolge.</para>
 
         <para>Elris' Gegner versucht jetzt auszuweichen, wofür er zu Beginn
@@ -541,10 +652,10 @@
 
       <sidebar>
         <para><emphasis role="bold">Achtung:</emphasis> Das
-        Wizardry-Kampfsystem ist weit „tödlicher“ als das anderer
-        Fantasy-Systeme: Ein einzelner, gut gezielter Schwertschlag kann für
-        einen schwach gerüsteten Kämpfer die Kampfunfähigkeit zur Folge haben
-        – und ein, zwei weitere seinen Tod.</para>
+        Wizardry-Kampfsystem ist „tödlicher“ als das anderer Fantasy-Systeme:
+        Ein einzelner, gut gezielter Schwertschlag kann für einen schwach
+        gerüsteten Kämpfer die Kampfunfähigkeit zur Folge haben — und ein,
+        zwei weitere seinen Tod.</para>
       </sidebar>
     </section>
   </chapter>
