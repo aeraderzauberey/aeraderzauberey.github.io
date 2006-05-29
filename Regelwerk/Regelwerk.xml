@@ -48,6 +48,19 @@
         <revremark>Einleitung hinzugefügt, Regeln zur Initiative und
         Ankündigungsphase erweitert</revremark>
       </revision>
+
+      <revision>
+        <revnumber>4</revnumber>
+
+        <date>2005-05-29</date>
+
+        <revremark>Zauber-für-bestimmten-Zweck-Regel fallen gelassen (nicht zu
+        begründen); Entwicklungszeit von Sw-10 Monaten auf Sw-7 Tage gesenkt
+        (es ist ja bloßes Trainieren); "Zauberentwicklung" und "Erlernen von
+        Zaubern" getrennt und auf spontanes Regelerfinden näher eingegangen;
+        Sektion "Talente" geschrieben;
+        Trefferwurf/Parade/Schadens/Widerstandswurf klarer gefasst</revremark>
+      </revision>
     </revhistory>
   </bookinfo>
 
@@ -237,8 +250,18 @@
     <section>
       <title>Talente</title>
 
-      <para>{Talente erklären; Maximalwert 6; Grundset/Zusätzliche Talente}
-      Jedes Talent ist einem Attribut zugeordnet.</para>
+      <para>Talente repräsentieren die individuellen Kenntnisse und
+      Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jedes Talent ist
+      dabei einem Attribut zugeordnet, das bei Proben mit einbezogen wird.
+      Talentwerte reichen von eins bis sechs, und genau wie bei den Attributen
+      entspricht jeder Punkt einem Würfel, der bei Proben verwendet wird.
+      Anders als bei Attributen besitzen jedoch nicht alle Charaktere alle
+      Talente. Stattdessen werden für jeden Charakter nur die Talente notiert,
+      die er aufgrund seiner Vorgeschichte erlernt hat. Es sind zwar auf dem
+      Charakterblatt zur Orientierung schon einige Talente vorgedruckt, aber
+      dies soll Sie nicht dazu verleiten, alle diese Talente zu kaufen — warum
+      sollte z.B. in einer Fantasy-Welt jeder lesen und schreiben
+      können?</para>
     </section>
   </chapter>
 
@@ -262,8 +285,8 @@
       und Punkten im zugeordneten Attribut.</para>
 
       <sidebar>
-        <para>Wie immer hat der Spielleiter das letzte Wort – es kann gerade
-        bei Talenten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
+        <para>Wie immer hat der Meister das letzte Wort – es kann gerade bei
+        Talenten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
         anderes Attribut zu „proben“. Geht es zum Beispiel bei einer
         Etikette-Probe weniger um pures Wissen (wie die richtige Anrede für
         die unverheiratete Tochter eines Fürsten), sondern um das korrekte
@@ -292,7 +315,7 @@
 
       <sidebar>
         <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
-        solchen Fällen entscheidet der Spielleiter, ob die Aktion schlicht
+        solchen Fällen entscheidet der Meister, ob die Aktion schlicht
         unmöglich ist oder er eine Probe zulässt. In diesem Fall werden alle
         gerollten 20er als Erfolg gewertet.</para>
       </sidebar>
@@ -356,7 +379,7 @@
     </section>
   </chapter>
 
-  <chapter>
+  <chapter id="schaden">
     <title>Schaden und Regeneration</title>
 
     <section>
@@ -376,6 +399,14 @@
       auf Schadenswürfe und Widerstandsproben – gilt. Der gleiche Malus wird
       auch auf die Initiative angerechnet. Dabei zählt immer nur der Malus,
       der bei der letzten durchgestrichenen Stufe angegeben ist.</para>
+
+      <sidebar>
+        <para><emphasis role="bold">Achtung:</emphasis> Dieses
+        Gesundheitsstufen-System macht Wizardry „tödlicher“ als andere
+        Fantasy-Systeme: Ein einzelner, gut gezielter Schwertschlag kann für
+        einen schwach gerüsteten Kämpfer die Kampfunfähigkeit zur Folge haben
+        — und ein, zwei weitere seinen Tod.</para>
+      </sidebar>
 
       <para>Charaktere mit hoher Selbstbeherrschung werden von Verwundungen
       jedoch weniger stark beeinflusst. Regeltechnisch bedeutet dies, dass der
@@ -438,19 +469,19 @@
       <informalexample>
         <para>Erhält ein Charakter z.B. morgens vier mentale Schadenspunkte,
         kann er alle bis auf einen innerhalb kürzester Zeit wieder
-        regenerieren. Erhält er später nochmals 5 Schaden und erreicht dadurch
-        das mittlere Drittel der Skala, benötigen die Gesundheitsstufen 6 und
-        5 jeweils eine Viertelstunde zur Regeneration. Anschließend
-        regenerieren sich die Stufen 4 und 3 jeweils innerhalb von fünf
-        Minuten – die restlichen zwei Stufen werden jedoch erst am nächsten
-        Tag regeneriert sein.</para>
+        regenerieren. Erhält er später nochmals 5 Schadenspunkte und erreicht
+        dadurch das mittlere Drittel der Skala, benötigen die
+        Gesundheitsstufen 6 und 5 jeweils eine Viertelstunde zur Regeneration.
+        Anschließend regenerieren sich die Stufen 4 und 3 jeweils innerhalb
+        von fünf Minuten – die restlichen zwei Stufen werden jedoch erst am
+        nächsten Tag regeneriert sein.</para>
       </informalexample>
 
       <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
       selbständig vom Spieler durchzustreichen – stattdessen sollte hier kurz
-      Rücksprache mit dem Spielleiter gehalten werden. Insbesondere bei
+      Rücksprache mit dem Meister gehalten werden. Insbesondere bei
       Betäubungsschaden ist dies unerlässlich, denn schließlich hat nur der
-      Spielleiter einen genauen Überblick, wie viel gespielte Zeit bereits
+      Meister einen genauen Überblick, wie viel gespielte Zeit bereits
       vergangen ist. Außerdem steht es ihm natürlich frei, die
       Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
       anzupassen.</para>
@@ -547,14 +578,15 @@
 
       <informalexample>
         <para>Der Meister teilt den Spielern mit, dass sich einer der Schläger
-        auf Tharion stürzen und einem Angriff auszuweichen gedenkt, während
-        der andere mit vollem (Würfel-)Einsatz Elris attackieren wird.</para>
+        auf Elris stürzen und einen Angriff mit dem Säbel parieren möchte,
+        während der andere mit vollem (Würfel-)Einsatz Tharion attackieren
+        wird.</para>
 
-        <para>Elris (Geschick 5, Dolche 3, Ausweichen 4) will den anderen
-        Gauner attackieren, aber auch noch ausweichen können. Er hätte neun
-        Würfel fürs Ausweichen und acht fürs Angreifen, ergibt acht zum
-        Verteilen. Er entscheidet sich, von diesen Würfeln fünf zum Angriff zu
-        benutzen und drei zurückzuhalten.</para>
+        <para>Elris (Geschick 5, Dolche 3, Ausweichen 4) will einen der Gauner
+        attackieren, aber auch noch ausweichen können. Er hätte neun Würfel
+        fürs Ausweichen und acht fürs Angreifen, ergibt acht zum Verteilen. Er
+        entscheidet sich, von diesen Würfeln fünf zum Angriff zu benutzen und
+        drei zurückzuhalten.</para>
 
         <para>Tharion hat Geschicklichkeit 3 und Ausweichen 4 (macht sieben),
         für Telekinese hätte er acht Würfel – verteilen darf er also 7. Er
@@ -567,38 +599,42 @@
     </section>
 
     <section>
-      <title>Der Angriff</title>
+      <title>Trefferwurf</title>
 
       <para>Der eigentliche Trefferwurf einer Nahkampfwaffe wird mit den dafür
       zugeteilten Würfeln gegen die bei der Waffe angegebene Schwierigkeit
       durchgeführt. Diese kann, je nach Situation, noch modifiziert werden;
-      das Anvisieren des Kopfes entspricht zum Beispiel +6. Die Anzahl der
-      (nach dem Ausweichen/Parieren – siehe unten – verbleibenden) Erfolge
-      gibt dabei an, wie gut der Schlag gelungen ist. Für je zwei Erfolge
-      (abgerundet) wird die Schwierigkeit des Schadenswurfs (s.u.) um eins
-      gesenkt. (<firstterm>Trefferbonus</firstterm>)</para>
+      das Anvisieren des Kopfes entspricht zum Beispiel +6. Kommen keine
+      Erfolge zu stande, ist der Angriff fehlgeschlagen. Wurde mindestens ein
+      Erfolg erzielt, wird als nächstes ein eventuelles Ausweich- oder
+      Parademanöver berücksichtigt.</para>
     </section>
 
     <section>
       <title>Ausweichen und Parade</title>
 
-      <para>Im Wizardry-Kampfsystem ist ein Ausweichen in Abstufungen möglich:
-      Für jeden Erfolg, den man bei einer Ausweichen-Probe oder Parade
-      erzielt, wird von den Treffererfolgen des Gegners einer abgezogen –
-      danach wird entschieden, ob und wie gut getroffen wurde. Die
-      Schwierigkeit für Ausweichen liegt bei 11, die Paradeschwierigkeit hängt
-      von der Waffenkombination ab: 11 + GegnerRW – EigeneRW.</para>
+      <para>Für jeden Erfolg, den der Angegriffene bei einer Ausweichen-Probe
+      oder Parade erzielt, wird von den Treffererfolgen des Angreifers einer
+      abgezogen — erst danach wird entschieden, ob und wie gut getroffen
+      wurde. Die Schwierigkeit für diese Ausweichen-Probe liegt bei 11. Die
+      Paradeschwierigkeit hängt von der Reichweite der beteiligten Waffen ab
+      und ergibt sich aus <emphasis>11 + Reichweite der Angriffswaffe -
+      Reichweite der Paradewaffe</emphasis>. Grundlage dieser Regel ist die
+      Überlegung, dass man mit langen Waffen einen Gegner eher "auf Abstand"
+      halten kann als mit kurzen.</para>
 
       <informalexample>
         <para>Die Schwierigkeit für einen Dolch liegt laut Waffentabelle bei
         8, für Elris bedeutet das 7 (wegen seines GE-Attributsbonus). Mit
         seinen fünf Würfeln schafft er vier Erfolge.</para>
 
-        <para>Elris' Gegner versucht jetzt auszuweichen, wofür er zu Beginn
-        der Runde drei Würfel eingeteilt hat. Gegen eine 11 schafft er zwei
-        Erfolge, und vermeidet es damit, voll getroffen zu werden. Sein
-        Ausweichen-Erfolg wird von Elris’ Treffer-Erfolgen abgezogen, übrig
-        bleiben zwei.</para>
+        <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
+        Runde drei Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
+        (Grundschwierigkeit) + 1 (Dolch-Reichweite) - 3 (Säbel-Reichweite) =
+        9. Er erzielt zwei Erfolge, und kann damit den Dolch zwar nicht
+        vollständig parieren, aber zumindest zu weniger gefährlichen
+        Körperstellen ablenken. Seine Parade-Erfolge werden von Elris’
+        Treffer-Erfolgen abgezogen, übrig bleiben zwei.</para>
       </informalexample>
     </section>
 
@@ -606,41 +642,54 @@
       <title>Schadens- und Widerstandswurf</title>
 
       <para>Verursacht eine Waffe Schaden, wird eine Probe mit der bei der
-      Waffe unter „Schaden” angegebenen Würfelanzahl gegen eine 11
-      durchgeführt. Für Waffen, bei denen die Stärke in diese Würfelanzahl
-      einfließt (alle Nahkampfwaffen) wird der Stärke-Attributsbonus des
-      Angreifers auf die Schwierigkeit angerechnet. Jeder Erfolg steht hierbei
-      für einen Schadenspunkt.</para>
+      Waffe unter „Schaden” angegebenen Würfelanzahl durchgeführt. Die
+      Schwierigkeit für diesen <firstterm>Schadenswurf</firstterm> richtet
+      sich danach, wie erfolgreich Angriff und Ausweichen/Parade waren: für je
+      zwei verbliebene Erfolge (abgerundet) wird die Grundschwierigkeit von 11
+      um eins gesenkt (<firstterm>Trefferbonus</firstterm>). Des weiteren wird
+      der Stärke-Attributsbonus des Angreifers auf die Schwierigkeit
+      angerechnet, sofern es sich um eine Nahkampfwaffe handelt. Jeder Erfolg
+      in diesem Schadenswurf steht zunächst für einen Schadenspunkt.</para>
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
       Angegriffene versuchen, ihn zu minimieren. Dieser körperliche
-      Schadenswiderstandswurf (umgangssprachlich: Soak-Wurf, Schaden soaken)
-      ist eine Stärke-Probe, die sowohl die körperliche Widerstandsfähigkeit
-      repräsentiert als auch ein „Wegdrehen-in-letzter-Sekunde“. Die Anzahl
-      der Soak-Erfolge wird von den Schadenserfolgen abgezogen. Die übrigen
-      Erfolge sind die Schadenspunkte, die dem Charakter tatsächlich zugefügt
-      werden.</para>
+      <firstterm>Schadenswiderstandswurf</firstterm> (umgangssprachlich:
+      Soak-Wurf, Schaden soaken) ist eine Stärke-Probe, die sowohl die
+      körperliche Widerstandsfähigkeit repräsentiert als auch ein
+      „Wegdrehen-in-letzter-Sekunde“. Sie wird immer gegen eine Schwierigkeit
+      von 11 durchgeführt. Die Anzahl der Soak-Erfolge wird nun von den
+      Schadenserfolgen abgezogen. Die übrigen Erfolge sind die Schadenspunkte,
+      die dem Charakter tatsächlich zugefügt und auf seinem Charakterblatt
+      vermerkt werden (siehe <xref linkend="schaden" />).</para>
 
       <informalexample>
-        <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Elris
-        führt also seinen Schadenswurf mit 5 Würfeln (richtig geraten, Elris
-        hat ST 4) gegen eine 9 (11 - Trefferbonus - GE-Attributsbonus) aus. Er
-        erzielt drei Erfolge. Sein Gegner hat für seinen Widerstandswurf 3
-        Würfel zur Verfügung und erzielt einen Erfolg – es bleiben also noch
-        zwei Schadenspunkte übrig, die beim Gesundheitszustand vermerkt
-        werden.</para>
+        <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Für Elris,
+        der Stärke 4 hat, sind das also 5 Würfel. Die Schwierigkeit von 11
+        wird wegen der zwei verbliebenen Treffer-Erfolge und seines
+        Geschicklichkeits-Attributsbonus jeweils um eins gesenkt — ergibt 9.
+        Bei der Probe erzielt er drei Erfolge. Sein Gegner hat für seinen
+        Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg – es
+        bleiben also noch zwei Schadenspunkte übrig, die beim
+        Gesundheitszustand vermerkt werden.</para>
       </informalexample>
+
+      <sidebar>
+        <para>Widerstandswürfe sind selbstverständlich nicht auf
+        Kampfsituationen beschränkt. Vielmehr hat ein Charakter immer dann,
+        wenn er körperlichen Schaden erhält, Anrecht auf einen solchen
+        Wurf.</para>
+      </sidebar>
     </section>
 
     <section>
       <title>Rüstungen</title>
 
-      <para>Die verschiedenen Arten von Rüstungen werden durch vier
-      verschiedene Werte charakterisiert. Der sogenannte
-      <firstterm>Trefferabzug (TA)</firstterm> zieht Erfolge vom Angriffswurf
-      des Gegners ab, bevor dieser den Schadenswurf durchführt. Er verringert
-      also (genau wie Ausweichen/Parade) die Chance, überhaupt getroffen zu
-      werden. Der <firstterm>Rüstungsschutz (RS)</firstterm> zieht Erfolge vom
+      <para>Die verschiedenen Arten von Rüstungen werden durch bis zu vier
+      Werte charakterisiert. Der sogenannte <firstterm>Trefferabzug
+      (TA)</firstterm> zieht Erfolge vom Angriffswurf des Gegners ab, bevor
+      dieser den Schadenswurf durchführt. Er verringert also (genau wie
+      Ausweichen/Parade) die Chance, überhaupt getroffen zu werden. Der
+      <firstterm>Rüstungsschutz (RS)</firstterm> zieht Erfolge vom
       Schadenswurf ab, verhindert also tatsächliche Schadenspunkte.</para>
 
       <para>Rüstungen haben jedoch auch Nachteile: Zum einen verlangsamt das
@@ -649,14 +698,6 @@
       schränken viele Rüstungen auch massiv die Bewegungsfreiheit ein, was
       regeltechnisch durch einen <firstterm>Geschicklichkeitsabzug
       (GA)</firstterm> dargestellt wird.</para>
-
-      <sidebar>
-        <para><emphasis role="bold">Achtung:</emphasis> Das
-        Wizardry-Kampfsystem ist „tödlicher“ als das anderer Fantasy-Systeme:
-        Ein einzelner, gut gezielter Schwertschlag kann für einen schwach
-        gerüsteten Kämpfer die Kampfunfähigkeit zur Folge haben — und ein,
-        zwei weitere seinen Tod.</para>
-      </sidebar>
     </section>
   </chapter>
 
@@ -962,26 +1003,17 @@
     <section>
       <title>Zauberentwicklung</title>
 
-      <para>Zauber müssen immer für einen bestimmten Zweck entwickelt sein –
-      es darf sich auf keinen Fall um den uneingeschränkten Aspekt eines
-      Magiebereichs handeln. Es ist nicht erlaubt, einen Zauber namens
-      „Telekinetischer Schlag“ entwickeln (mit dem man dann alles und jeden
-      irgendwie schlagen könnte, so wie mit dem puren Magiebereich) – Tharion
-      wird also eher einen Zauber „Loslassen“ entwickeln, der die Finger
-      auseinander drückt.</para>
+      <para>Unter "Zauberentwicklung" verstehen wir das Erstellen einer Regel,
+      wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
+      geschieht meist während des Spielabends aufgrund des spontanen Einfalls
+      eines Spielers. Der Meister muss hier zunächst festlegen, welche
+      Magiebereiche für den entsprechenden Effekt benötigt werden. Besitzt der
+      der Spielercharakter nicht alle diese Bereiche, kann er den
+      entsprechenden Effekt nicht erzielen.</para>
 
-      <para>Der Charakter bezahlt das Entwickeln eines Zaubers zuerst einmal
-      mit Zeit (Faustregel: Schwierigkeit-10 in Monaten). Außerdem gibt er
-      eine bestimmte Menge Erfahrungspunkte dafür aus, siehe Anhang. Eine
-      andere Möglichkeit ist das Lernen, entweder aus Büchern, in denen der
-      Zaubervorgang und die Funktionsweise bis ins kleinste Detail und mit
-      vielen Skizzen erläutert wird, oder direkt von anderen. Beides braucht
-      viel Zeit, mindestens halb so viel wie das Entwickeln (meist etwa drei
-      viertel davon).</para>
-
-      <para>Bei der Zauberentwicklung setzt man sich mit dem Meister zusammen
-      und versucht eine Regelung zu finden. Vergleicht den Zauber mit anderen
-      dieses Gebiets, und stellt euch folgende Fragen:</para>
+      <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Meister —
+      evtl. zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
+      sich zumindest mit den ersten drei der folgenden Fragen befasst:</para>
 
       <itemizedlist>
         <listitem>
@@ -992,7 +1024,7 @@
         </listitem>
 
         <listitem>
-          <para>Wie kraftaufwendig ist dieser Spruch? Wird er eher durch
+          <para>Wie kraftaufwändig ist dieser Spruch? Wird er eher durch
           höhere Qualität oder durch Quantität effektiver? Braucht man
           vielleicht sogar einen Mindestkrafteinsatz, oder ist zuviel Kraft
           für den Nutznießer (z.B. der Kampfgefährte, den man beschleunigen
@@ -1024,21 +1056,49 @@
         </listitem>
 
         <listitem>
-          <para>Welche Gegenmaßnahmen könntet ihr euch vorstellen? Kein gut
+          <para>Welche Gegenmaßnahmen können Sie sich vorstellen? Kein gut
           konzipierter Zauber ist völlig unschlagbar. Wenn es wirklich gar
-          keine gibt, überlegt, ob ihr diesen Zauber wirklich haben wollt.
-          Alles, was Spieler einsetzen, steht auch ihren Gegnern zur
+          keine gibt, überlegen Sie, ob Sie diesen Zauber wirklich haben
+          wollen. Alles, was Spieler einsetzen, steht auch ihren Gegnern zur
           Verfügung!</para>
         </listitem>
       </itemizedlist>
 
-      <para>Allgemein sollten neue Zaubersprüche in möglichst vielen Gruppen
-      getestet und gegebenenfalls nachträglich angepasst werden. Je mehr Leute
-      sich den Zauber anschauen, desto besser ist die Spielbalance.</para>
+      <para>Dabei ist es besonders wichtig, schnell zu einem Ergebnis zu
+      kommen. Primär geht es darum, dass der Spieler eine Probe würfeln und
+      das Spiel sofort weiter gehen kann. Schrecken Sie daher nicht davor
+      zurück, zunächst bewusst eine "temporäre" Regelung zu finden! Für eine
+      genaue Ausarbeitung, schriftliche Fixierung und Ausbalancieren mit
+      anderen Zaubern ist nach dem Spielabend noch genug Zeit. Außerdem ist es
+      empfehlenswert, die Regelung noch einmal zu überprüfen und ggf. zu
+      überarbeiten, nachdem der neue Zauber einige Male angewendet
+      wurde.</para>
+    </section>
+
+    <section>
+      <title>Erlernen von Zaubern</title>
+
+      <para>Für die Charaktere gibt es keine wirkliche "Entwicklung" von
+      Zaubern, da der Wert in einem Zauber ja vielmehr ein gewisses Training
+      symbolisiert. Um den ersten Punkt in einem Zauber zu erlangen, ist es
+      also lediglich notwendig, den gewünschten Effekt mit "Rohmagie" zu üben.
+      Dies dauert üblicherweise etwa <emphasis>Schwierigkeit - 7</emphasis>
+      Tage.</para>
+
+      <para>Alternativ kann der Charakter auch einen existierenden Zauber
+      lernen — entweder aus Büchern, in denen der Zaubervorgang und die
+      Funktionsweise bis ins kleinste Detail und mit vielen Skizzen erläutert
+      wird, oder direkt von anderen Charakteren. Beides braucht viel Zeit,
+      mindestens halb so viel wie das Entwickeln (meist etwa drei viertel
+      davon).</para>
+
+      <para>Neben Zeit müssen in jedem Fall aber auch Erfahrungspunkte
+      investiert werden — Details dazu finden Sie in <xref
+      linkend="steigerung" />.</para>
     </section>
   </chapter>
 
-  <appendix>
+  <appendix id="steigerung">
     <title>Steigerung</title>
 
     <para>Im Laufe seiner Karriere kann ein Charakter seine Fähigkeiten
@@ -1128,7 +1188,7 @@
     sinnvoll und für das Charakterkonzept wichtig ist).</para>
 
     <para>Die Verwendung von EP zur Charaktererschaffung ermöglicht es dem
-    Spielleiter, neue Rollenspielrunden mit erfahreneren oder unerfahreneren
+    Meister, neue Rollenspielrunden mit erfahreneren oder unerfahreneren
     Charakteren auszustatten, in dem er den Wert von 450 erhöht oder
     senkt.</para>
 
