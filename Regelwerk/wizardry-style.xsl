@@ -12,6 +12,8 @@
   <xsl:param name="hyphenate">false</xsl:param>
   <xsl:param name="page.margin.inner">2cm</xsl:param>
   <xsl:param name="page.margin.outer">2cm</xsl:param>
+  <xsl:param name="toc.section.depth">1</xsl:param>
+
 
   <xsl:param name="region.before.extent">3cm</xsl:param>
 
@@ -66,6 +68,17 @@
     <xsl:attribute name="border-bottom-width">0.05cm</xsl:attribute>
     <xsl:attribute name="border-right-width">0.05cm</xsl:attribute>
   </xsl:attribute-set>
+  
+  <!-- Titles of chapters and top-level sections within a chapter -->
+  <xsl:attribute-set name="section.title.level1.properties">
+    <xsl:attribute name="space-before">0.3em</xsl:attribute>
+    <xsl:attribute name="space-after">-0.2em</xsl:attribute>
+  </xsl:attribute-set>
+
+  <!-- Titles of second-level sections within chapters -->
+  <xsl:attribute-set name="section.title.level2.properties">
+    <xsl:attribute name="space-after">-0.6em</xsl:attribute>
+  </xsl:attribute-set>
 
   <xsl:template name="table.cell.block.properties">
     <!-- highlight this entry? -->
@@ -79,7 +92,6 @@
       <xsl:apply-templates/>
     </fo:block>
   </xsl:template>
-
 
   <xsl:template name="header.content">
     <xsl:param name="pageclass" select="''"/>
