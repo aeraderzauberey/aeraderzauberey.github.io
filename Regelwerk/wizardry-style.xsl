@@ -12,7 +12,11 @@
   <xsl:param name="hyphenate">false</xsl:param>
   <xsl:param name="page.margin.inner">2cm</xsl:param>
   <xsl:param name="page.margin.outer">2cm</xsl:param>
+
   <xsl:param name="toc.section.depth">1</xsl:param>
+  <xsl:attribute-set name="toc.line.properties">
+    <xsl:attribute name="line-height">1.5</xsl:attribute>
+  </xsl:attribute-set>
 
 
   <xsl:param name="region.before.extent">3cm</xsl:param>
@@ -68,7 +72,7 @@
     <xsl:attribute name="border-bottom-width">0.05cm</xsl:attribute>
     <xsl:attribute name="border-right-width">0.05cm</xsl:attribute>
   </xsl:attribute-set>
-  
+
   <!-- Titles of chapters and top-level sections within a chapter -->
   <xsl:attribute-set name="section.title.level1.properties">
     <xsl:attribute name="space-before">0.3em</xsl:attribute>
@@ -82,10 +86,17 @@
 
   <xsl:template name="table.cell.block.properties">
     <!-- highlight this entry? -->
-    <xsl:if test="ancestor::thead or ancestor::tfoot">
+    <xsl:if test="ancestor::thead or ancestor::tfoot or @role='head'">
       <xsl:attribute name="font-family">Carolingia</xsl:attribute>
     </xsl:if>
+    <xsl:if test="@role='nowrap' or @role='head'">
+      <xsl:attribute name="wrap-option">no-wrap</xsl:attribute>
+    </xsl:if>
   </xsl:template>
+
+  <xsl:attribute-set name="table.cell.padding">
+    <xsl:attribute name="padding-right">1em</xsl:attribute>
+  </xsl:attribute-set>
 
   <xsl:template match="informaltable//para">
     <fo:block space-before="0">
