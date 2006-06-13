@@ -11,7 +11,7 @@
       <surname>Bannmann</surname>
     </author>
 
-    <pubdate>2006-06-03</pubdate>
+    <pubdate>2006-06-13</pubdate>
 
     <copyright>
       <year>1999</year>
@@ -71,6 +71,16 @@
         Größenmodifikatoren hinzufgefügt; Sehr-nah-Distanz hinzugefügt und
         Reichweitenklassen überarbeitet; Voraussetzungen für Bereiche des
         zweiten und vierten Grades erhöht</revremark>
+      </revision>
+
+      <revision>
+        <revnumber>6</revnumber>
+
+        <date>2005-06-13</date>
+
+        <revremark>Regenerationszeit verkürzt und genauer beschrieben;
+        Ausführlichere Einleitung im Magiekapitel; Text zur Zauberprobe besser
+        strukturiert</revremark>
       </revision>
     </revhistory>
   </bookinfo>
@@ -149,7 +159,7 @@
     </section>
   </chapter>
 
-  <chapter>
+  <chapter id="werte">
     <title>Charaktere und ihre Werte</title>
 
     <section>
@@ -230,8 +240,8 @@
 
               <entry>EB</entry>
 
-              <entry>Maß für das eigentliche Aussehen, Gesicht, Körperbau
-              usw.</entry>
+              <entry>Maß für körperliche Attraktivität, bestimmt zusammen mit
+              Stärke und Geschicklichkeit das Aussehen</entry>
             </row>
 
             <row>
@@ -411,26 +421,27 @@
       kann ihn nur noch der sofortige Einsatz von Magie retten.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
-      er. Bei jeder Gesundheitsstufe (genauer: bei allen außer der ersten und
-      der letzten) ist ein Würfelmalus angegeben, der bei allen Proben – bis
-      auf Schadenswürfe und Widerstandsproben – gilt. Der gleiche Malus wird
-      auch auf die Initiative angerechnet. Dabei zählt immer nur der Malus,
-      der bei der letzten durchgestrichenen Stufe angegeben ist.</para>
+      er. Bei den Gesundheitsstufen 2 bis 6 ist ein Würfelmalus angegeben, der
+      bei allen Proben — bis auf Schadenswürfe und Widerstandsproben — gilt.
+      Der gleiche Malus wird auch auf die Initiative angerechnet. Dabei zählt
+      immer nur der Malus, der bei der letzten durchgestrichenen Stufe
+      angegeben ist.</para>
 
       <sidebar>
         <para><emphasis role="bold">Achtung:</emphasis> Dieses
-        Gesundheitsstufen-System macht Wizardry „tödlicher“ als andere
-        Fantasy-Systeme: Ein einzelner, gut gezielter Schwertschlag kann für
-        einen schwach gerüsteten Kämpfer die Kampfunfähigkeit zur Folge haben
-        — und ein, zwei weitere seinen Tod.</para>
+        Gesundheitsstufen-System und insbesondere der Würfelmalus macht
+        Wizardry „tödlicher“ als andere Fantasy-Systeme: Ein einzelner, gut
+        gezielter Schwertschlag kann für einen schwach gerüsteten Kämpfer die
+        Kampfunfähigkeit zur Folge haben — und ein, zwei weitere seinen
+        Tod.</para>
       </sidebar>
 
       <para>Charaktere mit hoher Selbstbeherrschung werden von Verwundungen
       jedoch weniger stark beeinflusst. Regeltechnisch bedeutet dies, dass der
-      Attributsbonus von SB mit dem Malus verrechnet wird, und ihn ganz oder
-      teilweise aufhebt. Ein Charakter mit einer SB von z.B. 6 erhält also
-      erst bei der vierten Gesundheitsstufe einen Abzug, nämlich einen
-      Würfel.</para>
+      Selbstbeherrschungs-Attributsbonus mit dem Malus verrechnet wird und ihn
+      ganz oder teilweise aufhebt. Ein Charakter mit Selbstbeherrschung 6
+      (Attributsbonus 2) erhält also erst bei der vierten Gesundheitsstufe
+      einen Abzug, nämlich einen Würfel.</para>
     </section>
 
     <section>
@@ -459,29 +470,44 @@
       <title>Regeneration</title>
 
       <para>Im Zuge der Heilung werden nach und nach die durchgestrichenen
-      Gesundheitsstufen wieder „frei“, beginnend mit der letzten. Dabei heilt
-      körperlicher Schaden nur sehr langsam. Hat ein Charakter z.B. insgesamt
-      acht Schadenspunkte erhalten und befindet sich auf der letzten
-      Gesundheitsstufe, kann es je nach Art der Verletzungen (Brüche?
-      Quetschungen? Schnittwunden?) zwischen einem und drei Monaten dauern,
-      bis er auf natürlichem Wege wieder vollständig genesen ist –
-      vorausgesetzt, diese Wunden werden ordnungsgemäß behandelt (Wunden
-      ausgewaschen, Brüche geschient, etc.) und der Charakter verhält sich
-      angemessen. Bei schweren Wunden sollte der Meister daher auch das
-      Verhalten des Charakters berücksichtigen: So haben halb verheilte Wunden
-      die Angewohnheit, bei körperlicher Anstrengung wieder aufzuplatzen;
-      Knochenbrüche heilen beim Marschieren auch nicht schneller...
-      etc.</para>
+      Gesundheitsstufen wieder frei, beginnend mit der letzten. Pro
+      Gesundheitsstufe sind dafür im Normalfall ein bis drei
+      Regenerationsphasen (ausreichender Nachtschlaf) anzusetzen, abhängig von
+      der Art der Verletzungen (Blutergüsse? Leichte/tiefe Schnittwunden?
+      Quetschungen?).</para>
 
-      <para>Betäubungsschaden heilt wesentlich schneller, solange der
-      Charakter keine größeren Anstrengungen wie Kampf oder Zaubern
-      unternimmt. Leichter Schaden heilt dabei schneller als schwerer: Jedes
-      der ersten vier Kästchen darf nach etwa fünf Minuten regeneriert werden.
-      Die mittleren vier benötigen jeweils 15, die letzten jeweils 30 Minuten.
-      Eine solche Regeneration „zwischendurch“ ist jedoch nicht vollständig –
-      pro Drittel der Gesundheitsskala, das ein Charakter an einem Tag
-      erreicht hat, bleibt ein Schadenspunkt stehen und wird erst regeneriert,
-      wenn der Charakter das nächste Mal ausreichend lange schläft.</para>
+      <sidebar>
+        <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
+        Orientierung dienen kann und selbstverständlich für manche Fälle (z.B.
+        Knochenbrüche) völlig ungeeignet ist. Hier gilt dann stattdessen die
+        Einschätzung des Meisters.</para>
+
+        <para>Übrigens bezieht sich die Regeneration von Gesundheitsstufen
+        eher auf den Abbau der negativen Auswirkungen von Verletzungen als den
+        Abschluss der Heilung aus medizinischer Sicht. Das bedeutet, dass eine
+        Schnittwunde, für die eine Gesundheitsstufe gestrichen wurde, nach
+        deren natürlicher Regeneration natürlich nicht vollständig
+        verschwunden ist, sondern lediglich keine Schmerzen mehr
+        verursacht.</para>
+      </sidebar>
+
+      <para>Verhält sich der Charakter nicht seinen Verletzungen entsprechend,
+      in dem er z.B. Wunden nicht reinigt und verbindet oder trotz schwerer
+      Verletzungen Gewaltmärsche unternimmt, findet im günstigsten Fall keine
+      Regeneration statt, während im ungünstigsten Fall Komplikationen wie
+      Wundbrand, wieder aufplatzende Wunden oder andere Folgeschäden
+      auftreten.</para>
+
+      <para>Betäubungsschaden heilt wesentlich schneller als körperlicher
+      Schaden, solange der Charakter keine größeren Anstrengungen wie Kampf
+      oder Zaubern unternimmt. Leichter Schaden heilt dabei schneller als
+      schwerer: Jedes der ersten vier Kästchen darf nach etwa fünf Minuten
+      regeneriert werden. Die mittleren vier benötigen jeweils 15, die letzten
+      jeweils 30 Minuten. Eine solche Regeneration „zwischendurch“ ist jedoch
+      nicht vollständig – pro Drittel der Gesundheitsskala, das ein Charakter
+      an einem Tag erreicht hat, bleibt ein Schadenspunkt stehen und wird erst
+      regeneriert, wenn der Charakter das nächste Mal ausreichend lange
+      schläft.</para>
 
       <informalexample>
         <para>Erhält ein Charakter z.B. morgens vier mentale Schadenspunkte,
@@ -545,16 +571,16 @@
         Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
         zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Säbel ziehen. Elris hat Intuition 4 und
-        Reaktion 5. Sein W20-Wurf ergibt eine 16, macht 25. Er kämpft mit
+        Reaktion 5. Sein W20-Wurf ergibt eine 12, macht 21. Er kämpft mit
         einem Dolch, erhält also keine Abzüge. Tharion hat Intuition und
-        Reaktion jeweils auf 4 und würfelt eine 12, ergibt 20. Er beschränkt
+        Reaktion jeweils auf 4 und würfelt eine 16, ergibt 24. Er beschränkt
         sich auf Zauberei und erhält deswegen ebenfalls keine Abzüge. Der
-        erste Gegner (IN 5, Reaktion 4) würfelt eine 7 – ergibt 16, der andere
-        (IN 4, Reaktion 3) eine 13 – ergibt 20. Beide kämpfen mit Säbeln, die
+        erste Gegner (IN 5, Reaktion 4) würfelt eine 7, ergibt 16. Der andere
+        (IN 4, Reaktion 3) eine 14, ergibt 21. Beide kämpfen mit Säbeln, die
         verglichen mit einem Dolch und blitzschneller Magie natürlich
-        langsamer sind – der Initiativemalus liegt bei 3 (siehe <xref
+        langsamer sind — der Initiativemalus liegt bei 3 (siehe <xref
         linkend="waffen" />). Elris hat also Glück: er und Tharion sind beide
-        schneller als ihre Gegner, die erst bei 13 und 17 an die Reihe
+        schneller als ihre Gegner, die erst bei 13 und 18 an die Reihe
         kommen.</para>
       </informalexample>
     </section>
@@ -609,22 +635,25 @@
         für Telekinese hätte er acht Würfel – verteilen darf er also 7. Er
         teilt der Aktion vier Würfel und der Reaktion drei Würfel zu.</para>
 
-        <para>Die Kampfrunde beginnt nun mit Tharions Aktionsphase: Seine
-        Zauberprobe gelingt (wie wird später erklärt), und so schlägt er
-        seinem Gegner den Säbel aus der Hand.</para>
+        <para>Die Kampfrunde beginnt nun bei der höchsten Initative, und damit
+        mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird später
+        erklärt), und er kann seinem Gegner den Säbel aus der Hand schlagen.
+        Als nächstes ist Elris an der Reihe und greift seinen Gegner mit dem
+        Dolch an...</para>
       </informalexample>
     </section>
 
     <section>
       <title>Trefferwurf</title>
 
-      <para>Der eigentliche Trefferwurf einer Nahkampfwaffe wird mit den dafür
-      zugeteilten Würfeln gegen die bei der Waffe angegebene Schwierigkeit
-      durchgeführt. Diese kann, je nach Situation, noch modifiziert werden;
-      das Anvisieren des Kopfes entspricht zum Beispiel +6. Kommen keine
-      Erfolge zu stande, ist der Angriff fehlgeschlagen. Wurde mindestens ein
-      Erfolg erzielt, wird als nächstes ein eventuelles Ausweich- oder
-      Parademanöver berücksichtigt.</para>
+      <para>Um festzustellen, ob ein Angriff gelingt, wird ein
+      <firstterm>Trefferwurf</firstterm> mit den dafür zugeteilten Würfeln
+      gegen die bei der Waffe angegebene Schwierigkeit durchgeführt. Diese
+      kann, je nach Situation, noch modifiziert werden; das Anvisieren des
+      Kopfes entspricht zum Beispiel +6. Kommen keine Erfolge zu stande, ist
+      der Angriff fehlgeschlagen. Wurde mindestens ein Erfolg erzielt, wird
+      als nächstes ein eventuelles Ausweich- oder Parademanöver
+      berücksichtigt.</para>
     </section>
 
     <section>
@@ -669,15 +698,15 @@
       in diesem Schadenswurf steht zunächst für einen Schadenspunkt.</para>
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
-      Angegriffene versuchen, ihn zu minimieren. Dieser körperliche
-      <firstterm>Schadenswiderstandswurf</firstterm> (umgangssprachlich:
-      Soak-Wurf, Schaden soaken) ist eine Stärke-Probe, die sowohl die
-      körperliche Widerstandsfähigkeit repräsentiert als auch ein
-      „Wegdrehen-in-letzter-Sekunde“. Sie wird immer gegen eine Schwierigkeit
-      von 11 durchgeführt. Die Anzahl der Soak-Erfolge wird nun von den
-      Schadenserfolgen abgezogen. Die übrigen Erfolge sind die Schadenspunkte,
-      die dem Charakter tatsächlich zugefügt und auf seinem Charakterblatt
-      vermerkt werden (siehe <xref linkend="schaden" />).</para>
+      Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
+      Schadenswiderstandswurf</firstterm> (kurz: Widerstandswurf) ist eine
+      Stärke-Probe, die sowohl die körperliche Widerstandsfähigkeit
+      repräsentiert als auch ein „Wegdrehen-in-letzter-Sekunde“. Sie wird
+      immer gegen eine Schwierigkeit von 11 durchgeführt. Die Anzahl der
+      Erfolge des Widerstandswurfs wird nun von den Schadenserfolgen
+      abgezogen. Die übrigen Erfolge sind die Schadenspunkte, die dem
+      Charakter tatsächlich zugefügt und auf seinem Charakterblatt vermerkt
+      werden (siehe <xref linkend="schaden" />).</para>
 
       <informalexample>
         <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Für Elris,
@@ -971,25 +1000,38 @@
     Welt, pulsiert durch jeden Gegenstand und jedes Lebewesen; sie schafft
     Realität und hält sie zusammen. Zauberer sind Wesen, welche die Gabe
     besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
-    können, um damit ihre Umgebung zu beeinflussen.</para>
+    können, um damit ihre Umgebung zu beeinflussen. Doch dies ist nur
+    <emphasis>eine</emphasis> Erklärung — die Theorien zur Herkunft und
+    Beschaffenheit der Magie sind so vielfältig wie die verschiedenen
+    Traditionen der Zauberkundigen.</para>
 
-    <para>Das Wizardry-RPG erlaubt Gebietsmagie, eine Art eingeschränkte
-    Freizauberei. Ein auf dem entsprechenden Magiegebiet bewanderter Zauberer
-    kann einen magischen Effekt auch ohne die Kenntnis eines speziellen
-    Zauberspruchs hervorrufen, sofern er eine Ahnung hat, wie. Will er diesen
-    Effekt öfters benutzen, wird er daraus einen neuen Zauber entwickeln, um
-    ihn leichter und sicherer anwenden zu können.</para>
+    <para>Trotz dieser verschiedenen Lehrmeinungen in der Spielwelt beschreibt
+    dieses Regelwerk ein einheitliches, quasi "neutrales" Magiesystem. Die
+    Namen von Magiebereichen und Effekten bzw. Zaubersprüchen sind bewusst
+    sachlich gehalten — dennoch werden in der Spielwelt natürlich
+    Zauberkundige verschiedener Traditionen ein und denselben Effekt durchaus
+    mit verschiedenen klangvollen Namen bezeichnen.</para>
+
+    <para>Zauberkundige Wizardry-Charaktere nutzen dabei
+    <firstterm>Gebietsmagie</firstterm>, eine Art eingeschränkte Freizauberei.
+    Ein auf dem entsprechenden Magiegebiet bewanderter Zauberer kann einen
+    magischen Effekt auch ohne die Kenntnis eines speziellen Zauberspruchs
+    hervorrufen, sofern er eine Ahnung hat, wie. Durch wiederholte Anwendung
+    und Studium kann der Charakter diesen Effekt dann immer leichter und
+    sicherer anwenden.</para>
 
     <section>
       <title>Magiebereiche</title>
 
-      <para>Die magischen Kenntnisse eines Charakters werden durch Attribute
-      für die einzelnen Magiebereiche dargestellt. Diese bauen aufeinander
-      auf, d.h. für manche Bereiche benötigt man zuerst Kenntnisse in einem
-      oder mehreren anderen. Die folgende Übersicht teilt die Magiebereiche
-      dazu in verschiedene Grade ein: Einen Bereich, für den man z.B.
-      Kenntnisse in insgesamt zwei anderen Bereichen benötigt, nennen wir
-      einen Bereich des Dritten Grades.</para>
+      <para>Die magischen Fähigkeiten eines Charakters werden hauptsächlich
+      durch Magiebereiche repräsentiert. Diese bauen aufeinander auf, d.h. für
+      manche Bereiche benötigt man zuerst Kenntnisse in einem oder mehreren
+      anderen. Die folgende Übersicht teilt die Magiebereiche dazu in
+      verschiedene Grade ein: Einen Bereich, für den man z.B. Kenntnisse in
+      insgesamt zwei anderen Bereichen benötigt, nennen wir einen Bereich des
+      Dritten Grades.</para>
+
+      <?dbfo-need height="10cm"?>
 
       <informaltable>
         <tgroup cols="2">
@@ -1099,7 +1141,7 @@
                   <listitem>
                     <para>Artefaktmagie</para>
 
-                    <para>(Unbelebte Materie &amp; Umleiten auf 3)</para>
+                    <para>(Unbelebte Materie &amp; Umleiten auf 2)</para>
                   </listitem>
 
                   <listitem>
@@ -1110,7 +1152,7 @@
                   <listitem>
                     <para>Beschwörung</para>
 
-                    <para>(Sphärologie &amp; Beherrschung)</para>
+                    <para>(Sphärologie auf 2 &amp; Beherrschung)</para>
                   </listitem>
                 </itemizedlist></entry>
             </row>
@@ -1118,53 +1160,81 @@
         </tgroup>
       </informaltable>
 
-      <para>Die Magiebereichs-Attribute werden im Spiel genauso gehandhabt wie
-      die normalen Attribute eines Charakters — insbesondere gilt auch hier
-      ein Attributsbonus.</para>
+      <para>Jeder dieser Magiebereiche ist ein eigenes
+      <firstterm>Magiebereichs-Attribut</firstterm>, das im Spiel genauso
+      gehandhabt wird wie die normalen Attribute eines Charakters —
+      insbesondere gilt auch hier ein Attributsbonus bei besonders niedrigen
+      oder hohen Werten (siehe <xref linkend="werte" />).</para>
 
       <para>Details zur Abgrenzung der einzelnen Bereiche voneinander sowie
       Richtlinien zu ihrer Handhabung im Spiel finden sich im Dokument
-      "Magiebereiche".</para>
+      "Magiebereiche"</para>
     </section>
 
     <section>
-      <title>Zauberprobe</title>
+      <title>Spontane Magie und Zaubersprüche</title>
 
-      <para>Zauberproben werden wie normale Proben durchgeführt – die Sprüche
-      werden dabei wie Talente behandelt. Genau wie bei weltlichen Attributen
-      beeinflusst auch die Höhe eines Magie-Attributs die Schwierigkeit der
-      Probe – zusätzlich wird aber auch der Attributsbonus von Klugheit
-      angerechnet.</para>
+      <para>Immer, wenn ein Charakter zu zaubern versucht, entscheidet eine
+      <firstterm>Zauberprobe</firstterm> darüber, ob es gelingt.</para>
 
-      <para>Wird ein Zauber spontan, d.h. ohne dass der Magier im
-      entsprechenden Spruch geübt ist, gewirkt, steigt die Schwierigkeit um
-      zwei Punkte.</para>
+      <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
+      bestimmt der Meister zunächst den passenden Magiebereich. Der Spieler
+      benutzt dann für die Probe so viele Würfel, wie er Punkte in diesem
+      Magiebereich besitzt. Außerdem legt der Meister die genaue
+      regeltechnische Wirkungsweise des Zaubers und insbesondere die
+      Schwierigkeit fest (siehe <xref linkend="zauberentwicklung" />).</para>
 
-      <para>Das Ergebnis (die Erfolgsanzahl) der Zauberprobe nennen wir die
-      <firstterm>Qualität</firstterm> des Zaubers.</para>
+      <para>Hat der Charakter diesen Effekt bereits angewendet und ihn als
+      <firstterm>Zauberspruch</firstterm> auf dem Charakterblatt notiert, kann
+      er diese Würfel zusätzlich zu denen des Attributs bei der Zauberprobe
+      verwenden (Zaubersprüche sind also vergleichbar mit Talenten).
+      Wirkungsweise und Schwierigkeit wurden in diesem Fall natürlich bereits
+      festgelegt und ebenfalls notiert, wobei die Schwierigkeit eines
+      Zauberspruchs immer zwei Punkte niedriger ist als bei spontaner
+      Anwendung.</para>
     </section>
 
     <section>
       <title>Krafteinsatz</title>
 
       <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
-      wie viel Kraft der Charakter an sich zieht. Ein Charakter kann jedoch
-      pro Runde nur so viele Kraftpunkte an sich ziehen, wie die Höhe seiner
-      Willenskraft angibt. Ihm steht es frei, das „Kraft-Ziehen“ auf mehrere
-      Runden auszudehnen.</para>
+      wieviel Kraft der Charakter an sich zieht. Dieser Wert ist prinzipiell
+      beliebig, ein Charakter kann jedoch pro Runde nur so viele Kraftpunkte
+      an sich ziehen, wie die Höhe seiner Willenskraft angibt. Ihm steht es
+      frei, die Kraftaufnahme auf mehrere Runden auszudehnen.</para>
+    </section>
 
-      <para>Je nachdem, wie gut ihm dann der Zauber gelingt, fließt die
-      angezogene Kraft voll oder nur teilweise in den Zauber ein. Die über die
-      Qualität hinausgehende angezogene Kraft fließt nur zur Hälfte
-      (aufrunden) in den Zauber ein. Bei einer Qualität von 4 werden von 6
-      Kraftpunkten also nur 5 umgesetzt.</para>
+    <section>
+      <title>Zauberprobe</title>
+
+      <para>Auf die Schwierigkeit der eigentlichen Zauberprobe werden nun der
+      Attributsbonus des Magiebereichs und der von Klugheit angerechnet. Die
+      Probe selbst wird dann genauso wie eine Attribut- bzw. Talentprobe
+      durchgeführt.</para>
+
+      <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
+      <firstterm>Qualität</firstterm> des Zaubers.</para>
+
+      <para>Je nachdem, wie gut dem Charakter der Zauber gelungen ist, fließt
+      die angezogene Kraft voll oder nur teilweise in den Zauber ein: Die über
+      die Qualität hinausgehende angezogene Kraft fließt nur zur Hälfte in den
+      Zauber ein, wobei kaufmännisch gerundet wird.</para>
+
+      <sidebar>
+        <para><emphasis role="bold">Anmerkung: </emphasis>Wenn bei den
+        Magiebereichen oder in Spruchbeschreibungen von „eingesetzter Kraft“
+        oder „Kraftaufwand“ die Rede ist, ist immer die umgesetzte Kraft, also
+        die tatsächlich im Zauber enthaltene Energiemenge gemeint. Die Menge
+        der angezogenen Kraft ist für den eigentlichen Effekt
+        unwichtig.</para>
+      </sidebar>
 
       <informalexample>
         <para>Im letzten Beispiel schlug Tharion seinem Gegner mit Hilfe von
-        Telekinese die Waffe aus der Hand. Gemäß den Magierichtlinien zählt in
-        dieser Situation jeder Kraftpunkt wie ein Erfolg bei einer
-        Stärke-Probe, und die Schwierigkeit beträgt 11 – da er aber „Rohmagie“
-        anwendet, beträgt sie 13.</para>
+        Telekinese die Waffe aus der Hand. Laut den Telekinese-Richtlinien
+        zählt in dieser Situation jeder Kraftpunkt wie ein Erfolg bei einer
+        Stärke-Probe, und die Schwierigkeit beträgt 11 — da er den Zauber aber
+        spontan und ungeübt anwendet, beträgt sie 13.</para>
 
         <para>Tharion setzt 5 Kraftpunkte ein und rollt seine drei
         Telekinese-Würfel, um dem Handgelenk des Diebes einen Schlag zu
@@ -1174,30 +1244,23 @@
         gerundet 4). Das reicht aus, um die Hand des Gauners beiseite zu
         schlagen und den Säbel in hohem Boden wegfliegen zu lassen.</para>
       </informalexample>
-
-      <sidebar>
-        <para><emphasis role="bold">Anmerkung: </emphasis>Wenn in den
-        Magierichtlinien oder bei Sprüchen von „eingesetzter Kraft“ oder
-        „Kraftaufwand“ die Rede ist, ist immer die umgesetzte Kraft, also die
-        Energiemenge, die wirklich im Zauber „drin steckt“, gemeint. Die Menge
-        der angezogenen Kraft ist für den eigentlichen Effekt
-        unwichtig.</para>
-      </sidebar>
     </section>
 
     <section>
       <title>Magieschaden</title>
 
       <para>Ein Zaubernder lenkt die Kraft durch sich selbst hindurch in den
-      Zauber. Dadurch kommt es am Ende des Zaubervorgangs (regeltechnisch:
-      nach der Probe) zu einer Art geistiger „Rückkopplung“, die mentalen
-      Schaden verursacht und z.B. Kopfschmerzen und Erschöpfung bis hin zur
-      Bewusstlosigkeit zur Folge haben kann. Regeltechnisch gesehen erhält er
-      – unabhängig vom Ausgang der Probe – für jeden Kraftpunkt, den er an
-      sich gezogen hat, einen mentalen Schadenspunkt. Diesem Schaden darf er
-      mit einer Selbstbeherrschungsprobe (Schwierigkeit 11) widerstehen – pro
-      Erfolg bei diesem Widerstandswurf erhält er einen Schadenspunkt
-      weniger.</para>
+      Zauber. Dadurch kommt es am Ende des Zaubervorgangs zu einer Art
+      geistiger „Rückkopplung“, die je nach ihrer Stärke Unkonzentriertheit,
+      Erschöpfung, Kopfschmerzen und fieberartige Halluzinationen bis hin zu
+      Schockzuständen und Bewusstlosigkeit zur Folge haben kann.</para>
+
+      <para>Regeltechnisch gesehen erhält der Charakter nach der Zauberprobe
+      für jeden Kraftpunkt, den er an sich gezogen hat, einen Punkt
+      Betäubungsschaden — und zwar unabhängig davon, ob der Zauber gelungen
+      ist. Diesem Schaden darf er mit einer Selbstbeherrschungsprobe
+      (Schwierigkeit 11) widerstehen; pro Erfolg bei diesem Widerstandswurf
+      erhält er einen Schadenspunkt weniger.</para>
 
       <informalexample>
         <para>Tharion hat für seinen Zauber Kraft in Höhe von 5 Punkten an
@@ -1226,29 +1289,32 @@
       Würfeln wie bei der ersten.</para>
 
       <sidebar>
-        <para><emphasis role="bold">Beachte:</emphasis> Ein Charakter darf
-        niemals mehr als eine mentale Widerstandsprobe pro Runde durchführen –
-        erhält er also z.B. während einer Runde nach dem „Auffüllen“ eines
-        Zaubers zusätzlichen mentalen Schaden, kann er diesen nicht mehr
-        vermeiden!</para>
+        <para><emphasis role="bold">Beachten Sie:</emphasis> Ein Charakter
+        darf niemals mehr als eine mentale Widerstandsprobe pro Runde
+        durchführen – erhält er also z.B. während einer Runde nach dem
+        „Auffüllen“ eines Zaubers zusätzlichen mentalen Schaden, kann er
+        diesen nicht mehr vermeiden!</para>
       </sidebar>
 
-      <para>Viele Zauber laufen „von alleine“, manche erfordern aber ständige
-      Konzentration des Zaubernden (was jeweils bei Dauer vermerkt ist) und
-      damit seine Anwesenheit auch nach dem eigentlichen Zaubervorgang. Durch
-      das Konzentrieren auf einen Zauber steigt die Schwierigkeit für alle
-      anderen Aktionen um eins. Kann oder will er sich nicht mehr
-      konzentrieren, endet die Wirkung des Zaubers sofort.</para>
+      <para>Viele Zauber erhalten sich selbstständig, in dem sie sich aus der
+      enthaltenen Kraft speisen. Manche Zauber erfordern hingegen ständige
+      Konzentration des Zaubernden (was jeweils bei <emphasis>Dauer</emphasis>
+      vermerkt ist) und damit seine Anwesenheit auch nach dem eigentlichen
+      Zaubervorgang. Für jeden Zauber, den ein Charakter auf diese Weise
+      aufrecht erhält, steigt die Schwierigkeit für alle Aktionen um eins.
+      Kann oder will er sich nicht mehr konzentrieren, endet die Wirkung des
+      Zaubers sofort.</para>
     </section>
 
     <section>
       <title>Mehrere Bereiche</title>
 
       <para>Manche Zauber sind nicht nur einem, sondern mehreren
-      Magiebereichen zugeordnet. Der zuerst gelistete Bereich ist dabei
-      derjenige, der die Wirkung des Zaubers hauptsächlich bestimmt – der
-      sogenannte Primärbereich. Solche komplexen Zauber werden im Spiel
-      genauso gehandhabt wie alle anderen – es gelten lediglich folgende
+      Magiebereichen zugeordnet. Der bei der Beschreibung des Zaubers zuerst
+      gelistete Bereich ist dabei derjenige, der die Wirkung des Zaubers
+      hauptsächlich bestimmt – der sogenannte
+      <firstterm>Primärbereich</firstterm>. Solche komplexen Zauber werden im
+      Spiel genauso gehandhabt wie alle anderen — es gelten lediglich folgende
       Zusatzregeln:</para>
 
       <para>In die Würfelanzahl der Probe fließt neben den Zauberpunkten nur
@@ -1269,7 +1335,7 @@
       </informalexample>
     </section>
 
-    <section>
+    <section id="zauberentwicklung">
       <title>Zauberentwicklung</title>
 
       <para>Unter "Zauberentwicklung" verstehen wir das Erstellen einer Regel,
@@ -1281,15 +1347,18 @@
       entsprechenden Effekt nicht erzielen.</para>
 
       <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Meister —
-      evtl. zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
-      sich zumindest mit den ersten drei der folgenden Fragen befasst:</para>
+      eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
+      sich zumindest mit den ersten drei der folgenden Punkte befasst:</para>
 
       <itemizedlist>
         <listitem>
           <para>Wie komplex soll dieser Zauber sein? Soll ihn jeder Scholar
           wirken können, oder können ihn nur erfahrene Magier meistern? Ist
           die Schwierigkeit festgelegt oder variabel? Welche Faktoren
-          beeinflussen sie?</para>
+          beeinflussen sie? Beachten Sie, dass Sie zunächst die Schwierigkeit
+          für eine spontane Anwendung dieses Effekts festlegen — kauft der
+          Charakter den entsprechenden Zauberspruch, sinkt die Schwierigkeit
+          um zwei.</para>
         </listitem>
 
         <listitem>
@@ -1339,27 +1408,26 @@
       zurück, zunächst bewusst eine "temporäre" Regelung zu finden! Für eine
       genaue Ausarbeitung, schriftliche Fixierung und Ausbalancieren mit
       anderen Zaubern ist nach dem Spielabend noch genug Zeit. Außerdem ist es
-      empfehlenswert, die Regelung noch einmal zu überprüfen und ggf. zu
-      überarbeiten, nachdem der neue Zauber einige Male angewendet
-      wurde.</para>
+      empfehlenswert, die Regelung noch einmal zu überprüfen und
+      gegebenenfalls zu überarbeiten, nachdem der neue Zauber einige Male
+      angewendet wurde.</para>
     </section>
 
     <section>
       <title>Erlernen von Zaubern</title>
 
-      <para>Für die Charaktere gibt es keine wirkliche "Entwicklung" von
-      Zaubern, da der Wert in einem Zauber ja vielmehr ein gewisses Training
-      symbolisiert. Um den ersten Punkt in einem Zauber zu erlangen, ist es
-      also lediglich notwendig, den gewünschten Effekt mit "Rohmagie" zu üben.
-      Dies dauert üblicherweise etwa <emphasis>Schwierigkeit - 7</emphasis>
-      Tage.</para>
+      <para>Ein Charakter entwickelt einen Zauber nicht, er trainiert dessen
+      Anwendung, bis er seine Feinheiten beherrscht. Um den ersten Punkt in
+      einem Zauber zu erlangen, ist es also lediglich notwendig, den
+      gewünschten Effekt mittels spontaner Anwendung durch pures Probieren zu
+      üben. Dies dauert üblicherweise etwa <emphasis>Schwierigkeit -
+      7</emphasis> Tage.</para>
 
-      <para>Alternativ kann der Charakter auch einen existierenden Zauber
-      lernen — entweder aus Büchern, in denen der Zaubervorgang und die
-      Funktionsweise bis ins kleinste Detail und mit vielen Skizzen erläutert
-      wird, oder direkt von anderen Charakteren. Beides braucht viel Zeit,
-      mindestens halb so viel wie das Entwickeln (meist etwa drei viertel
-      davon).</para>
+      <para>Alternativ kann der Charakter auch einen Zauber erlernen —
+      entweder aus Büchern, in denen der Zaubervorgang und die Funktionsweise
+      bis ins kleinste Detail und mit vielen Skizzen erläutert wird, oder
+      direkt von anderen Charakteren. Dies dauert etwa die Hälfte bis drei
+      Viertel der oben angegebenen Zeit.</para>
 
       <para>Neben Zeit müssen in jedem Fall aber auch Erfahrungspunkte
       investiert werden — Details dazu finden Sie in <xref
@@ -1370,14 +1438,16 @@
   <appendix id="steigerung">
     <title>Steigerung</title>
 
+    <para><emphasis>{TODO: EP erklären, Vergaberichtlinien}</emphasis></para>
+
     <para>Im Laufe seiner Karriere kann ein Charakter seine Fähigkeiten
     verbessern – er wird z.B. stärker, geschickter, erfahrener im Umgang mit
-    Magie usw. Steigerungen werden mit Erfahrungspunkten (EP) bezahlt. Je
-    höher der Wert, desto höher der Zeitaufwand und damit die EP-Kosten:
-    Talente oder Zaubersprüche um einen Punkt zu steigern, kostet AW (Alter
-    Wert) mal 2. Attribute und Magiebereiche kosten AW mal 5. Ein neues Talent
-    zu erlernen (also der erste Punkt) kostet 4 EP, ein neuer Magiebereich
-    10.</para>
+    Magie usw. Diese sogenannten <firstterm>Steigerungen</firstterm> werden
+    mit <firstterm>Erfahrungspunkten</firstterm> (EP) bezahlt. Je höher der
+    Wert, desto höher der Zeitaufwand und damit die EP-Kosten: Talente oder
+    Zaubersprüche um einen Punkt zu steigern, kostet AW (Alter Wert) mal 2.
+    Attribute und Magiebereiche kosten AW mal 5. Ein neues Talent zu erlernen
+    (also der erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
 
     <sidebar>
       <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine normalen
@@ -1388,14 +1458,14 @@
 
     <para>Zaubersprüche sind ein Spezialfall: Pro beteiligtem Magiebereich
     kostet das Erlernen eines Zaubers (von anderen oder aus einem Buch) 3 EP,
-    das Entwickeln eines Zauberspruchs 5 EP. Will jemand also einen
+    das Einüben eines Zauberspruchs 5 EP. Will jemand also einen
     Standard-Feuerball (aus 2 Bereichen zusammengesetzt) lernen, kostet das 6
     EP – will er eine neue Variante erschaffen, kostet ihn das 10 EP.</para>
 
     <para>Bei allen Steigerungen ist zu beachten, dass man auch einen
     Lehrmeister oder entsprechende Fachliteratur zur Verfügung haben sollte.
     Wer den Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine
-    Übung und Training besser werden – Geographie jedoch wird schwerlich ohne
+    Übung und Training besser werden — Geographie jedoch wird schwerlich ohne
     Atlanten oder Bücher und allein im Kämmerchen zu verbessern sein... Das
     letzte Wort bei jeder Steigerung hat wie immer der Meister.</para>
 
