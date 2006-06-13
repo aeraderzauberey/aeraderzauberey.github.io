@@ -15,7 +15,7 @@
 
   <xsl:param name="toc.section.depth">1</xsl:param>
   <xsl:attribute-set name="toc.line.properties">
-    <xsl:attribute name="line-height">1.5</xsl:attribute>
+    <xsl:attribute name="line-height">1.2</xsl:attribute>
   </xsl:attribute-set>
 
 
