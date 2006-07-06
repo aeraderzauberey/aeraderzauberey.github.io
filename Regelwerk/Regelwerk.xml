@@ -33,7 +33,7 @@
       <revision>
         <revnumber>2</revnumber>
 
-        <date>2005-05-28</date>
+        <date>2006-05-28</date>
 
         <revremark>Kapitel reorganisiert ("Charaktere und ihre Werte",
         "Schaden und Regeneration"); "Proben" überarbeitet und
@@ -43,7 +43,7 @@
       <revision>
         <revnumber>3</revnumber>
 
-        <date>2005-05-28</date>
+        <date>2006-05-28</date>
 
         <revremark>Einleitung hinzugefügt, Regeln zur Initiative und
         Ankündigungsphase erweitert</revremark>
@@ -52,7 +52,7 @@
       <revision>
         <revnumber>4</revnumber>
 
-        <date>2005-05-29</date>
+        <date>2006-05-29</date>
 
         <revremark>Zauber-für-bestimmten-Zweck-Regel fallen gelassen (nicht zu
         begründen); Entwicklungszeit von Sw-10 Monaten auf Sw-7 Tage gesenkt
@@ -65,10 +65,10 @@
       <revision>
         <revnumber>5</revnumber>
 
-        <date>2005-06-03</date>
+        <date>2006-06-03</date>
 
         <revremark>Waffentabelle integriert; Fernkampfregeln beschrieben und
-        Größenmodifikatoren hinzufgefügt; Sehr-nah-Distanz hinzugefügt und
+        Größenmodifikatoren hinzugefügt; Sehr-nah-Distanz hinzugefügt und
         Reichweitenklassen überarbeitet; Voraussetzungen für Bereiche des
         zweiten und vierten Grades erhöht</revremark>
       </revision>
@@ -76,11 +76,23 @@
       <revision>
         <revnumber>6</revnumber>
 
-        <date>2005-06-13</date>
+        <date>2006-06-13</date>
 
         <revremark>Regenerationszeit verkürzt und genauer beschrieben;
         Ausführlichere Einleitung im Magiekapitel; Text zur Zauberprobe besser
         strukturiert</revremark>
+      </revision>
+
+      <revision>
+        <revnumber>7</revnumber>
+
+        <date>2006-07-06</date>
+
+        <revremark>Attributsmaximum (von 10) und Talentmaximum (von 6) auf 8
+        vereinheitlicht; Erschaffungs-EP auf 550 erhöht und den
+        Attributs-Startwert von 2 abgeschafft; E-Reichweite hinzugefügt;
+        Waffenpreise überarbeitet; Text zu Steigerungen erweitert und
+        überarbeitet</revremark>
       </revision>
     </revhistory>
   </bookinfo>
@@ -167,9 +179,8 @@
 
       <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich in
       acht Attributen nieder. Diese Attribute liegen auf einer Skala zwischen
-      eins und zehn, wobei der allgemeine Durchschnitt in der Bevölkerung
-      zwischen 3 und 4 und der höchste für Menschen erreichbare Wert bei 8
-      liegt.</para>
+      eins und acht, wobei der allgemeine Durchschnitt in der Bevölkerung
+      zwischen 3 und 4 liegt.</para>
 
       <informaltable>
         <tgroup cols="3">
@@ -268,7 +279,7 @@
       <para>Die Attributwerte entsprechen zunächst einmal Würfelanzahlen.
       Zusätzlich wird die Schwierigkeit einer Probe (siehe dort) noch je nach
       Höhe des Attributs modifiziert („Attributsbonus“). Bei einem Wert unter
-      3 steigt sie um eins, bei 4, 6, 8 und 10 sinkt sie jeweils um eins,
+      3 steigt sie um eins, bei 4, 6 und 8 sinkt sie jeweils um eins,
       kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend ein
       Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
       Attributsbonus davon unbeeinflusst.</para>
@@ -280,7 +291,7 @@
       <para>Talente repräsentieren die individuellen Kenntnisse und
       Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jedes Talent ist
       dabei einem Attribut zugeordnet, das bei Proben mit einbezogen wird.
-      Talentwerte reichen von eins bis sechs, und genau wie bei den Attributen
+      Talentwerte reichen von eins bis acht, und genau wie bei den Attributen
       entspricht jeder Punkt einem Würfel, der bei Proben verwendet wird.
       Anders als bei Attributen besitzen jedoch nicht alle Charaktere alle
       Talente. Stattdessen werden für jeden Charakter nur die Talente notiert,
@@ -358,7 +369,7 @@
 
         <para>Elris hat Geschick 5 (was seine Schwierigkeit um 1 auf 16 senkt)
         und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie zeigen: 7, 2,
-        13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge – Elris
+        13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge — Elris
         schafft es also, kaum verräterische Geräusche zu verursachen. Hätte er
         keine Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende
         Diele getreten.</para>
@@ -423,9 +434,9 @@
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
       er. Bei den Gesundheitsstufen 2 bis 6 ist ein Würfelmalus angegeben, der
       bei allen Proben — bis auf Schadenswürfe und Widerstandsproben — gilt.
-      Der gleiche Malus wird auch auf die Initiative angerechnet. Dabei zählt
-      immer nur der Malus, der bei der letzten durchgestrichenen Stufe
-      angegeben ist.</para>
+      Der gleiche Malus wird auch auf die Initiative (siehe <xref
+      linkend="kampf" />) angerechnet. Dabei zählt immer nur der Malus, der
+      bei der letzten durchgestrichenen Stufe angegeben ist.</para>
 
       <sidebar>
         <para><emphasis role="bold">Achtung:</emphasis> Dieses
@@ -531,7 +542,7 @@
     </section>
   </chapter>
 
-  <chapter>
+  <chapter id="kampf">
     <title>Kampf</title>
 
     <section>
@@ -550,11 +561,11 @@
       addiert dazu Intuition und Reaktion. Je nach dem, welche Waffe er führt,
       wird das Ergebnis noch modifiziert – ein Dolchkämpfer ist eben oft
       schneller und wendiger als einer, der ein großes Zweihandschwert führt.
-      Weiterhin spielt der aktuelle Gesundheitszustand eine Rolle (siehe
-      dort). Außerdem kann der Meister natürlich zusätzliche Modifikatoren
-      auferlegen, z.B. für überraschte Charaktere. Haben mehrere Beteiligte
-      die gleiche Ini, entscheiden zusätzliche W20-Würfe über ihre Reihenfolge
-      untereinander.</para>
+      Weiterhin spielt der aktuelle Gesundheitszustand eine Rolle (siehe <xref
+      linkend="schaden" />). Außerdem kann der Meister natürlich zusätzliche
+      Modifikatoren auferlegen, z.B. für überraschte Charaktere. Haben mehrere
+      Beteiligte die gleiche Initiative, entscheiden zusätzliche W20-Würfe
+      über ihre Reihenfolge untereinander.</para>
 
       <sidebar>
         <para>Das häufige Würfeln der Initiative kann bei längeren Kämpfen
@@ -842,7 +853,7 @@
             <row>
               <entry></entry>
 
-              <entry>fern</entry>
+              <entry>weit</entry>
 
               <entry>+9</entry>
 
@@ -873,6 +884,8 @@
           </tbody>
         </tgroup>
       </informaltable>
+
+      <?dbfo-need height="7cm"?>
 
       <para>In welche Distanz ein Ziel fällt, ergibt sich aus der in der
       Waffentabelle (siehe <xref linkend="waffen" />) angegebenen
@@ -906,7 +919,7 @@
 
               <entry>Mittel</entry>
 
-              <entry>Fern</entry>
+              <entry>Weit</entry>
 
               <entry></entry>
             </row>
@@ -976,13 +989,29 @@
 
               <entry></entry>
             </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>E</entry>
+
+              <entry>50</entry>
+
+              <entry>100</entry>
+
+              <entry>150</entry>
+
+              <entry>200</entry>
+
+              <entry></entry>
+            </row>
           </tbody>
         </tgroup>
       </informaltable>
 
       <informalexample>
         <para>Ein Schütze möchte mit einem Kriegsbogen (Schwierigkeit 11,
-        Reichweitenklasse C) einen Gegner treffen, der etwa 30 Schritt
+        Reichweitenklasse D) einen Gegner treffen, der etwa 60 Schritt
         entfernt ist. Diese Entfernung entspricht der mittleren Distanz, die
         Schwierigkeit steigt daher um 4. Bei seinem Gegner handelt es sich um
         einen Menschen, der damit in die mittlere Größenklasse fällt — ergibt
@@ -1164,17 +1193,18 @@
       <firstterm>Magiebereichs-Attribut</firstterm>, das im Spiel genauso
       gehandhabt wird wie die normalen Attribute eines Charakters —
       insbesondere gilt auch hier ein Attributsbonus bei besonders niedrigen
-      oder hohen Werten (siehe <xref linkend="werte" />).</para>
+      oder hohen Werten (siehe <xref linkend="werte" />). Der maximale in
+      einem Magiebereich erreichbare Wert ist 8.</para>
 
       <para>Details zur Abgrenzung der einzelnen Bereiche voneinander sowie
       Richtlinien zu ihrer Handhabung im Spiel finden sich im Dokument
-      "Magiebereiche"</para>
+      "Magiebereiche".</para>
     </section>
 
     <section>
       <title>Spontane Magie und Zaubersprüche</title>
 
-      <para>Immer, wenn ein Charakter zu zaubern versucht, entscheidet eine
+      <para>Immer wenn ein Charakter zu zaubern versucht, entscheidet eine
       <firstterm>Zauberprobe</firstterm> darüber, ob es gelingt.</para>
 
       <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
@@ -1187,11 +1217,13 @@
       <para>Hat der Charakter diesen Effekt bereits angewendet und ihn als
       <firstterm>Zauberspruch</firstterm> auf dem Charakterblatt notiert, kann
       er diese Würfel zusätzlich zu denen des Attributs bei der Zauberprobe
-      verwenden (Zaubersprüche sind also vergleichbar mit Talenten).
-      Wirkungsweise und Schwierigkeit wurden in diesem Fall natürlich bereits
-      festgelegt und ebenfalls notiert, wobei die Schwierigkeit eines
-      Zauberspruchs immer zwei Punkte niedriger ist als bei spontaner
-      Anwendung.</para>
+      verwenden. Wirkungsweise und Schwierigkeit wurden in diesem Fall
+      natürlich bereits festgelegt und ebenfalls notiert, wobei die
+      Schwierigkeit eines Zauberspruchs immer zwei Punkte niedriger ist als
+      bei spontaner Anwendung.</para>
+
+      <para>Zaubersprüche sind vergleichbar mit Talenten, und sind ebenfalls
+      auf eine maximale Höhe von 8 begrenzt.</para>
     </section>
 
     <section>
@@ -1242,7 +1274,7 @@
         Kraft von 4 Punkten resultiert (die ersten 2 durch die Qualität voll
         umgesetzt, die anderen drei nur zur Hälfte, ergibt insgesamt 3,5 –
         gerundet 4). Das reicht aus, um die Hand des Gauners beiseite zu
-        schlagen und den Säbel in hohem Boden wegfliegen zu lassen.</para>
+        schlagen und den Säbel in hohem Bogen wegfliegen zu lassen.</para>
       </informalexample>
     </section>
 
@@ -1343,8 +1375,8 @@
       geschieht meist während des Spielabends aufgrund des spontanen Einfalls
       eines Spielers. Der Meister muss hier zunächst festlegen, welche
       Magiebereiche für den entsprechenden Effekt benötigt werden. Besitzt der
-      der Spielercharakter nicht alle diese Bereiche, kann er den
-      entsprechenden Effekt nicht erzielen.</para>
+      Spielercharakter nicht alle diese Bereiche, kann er den entsprechenden
+      Effekt nicht erzielen.</para>
 
       <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Meister —
       eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
@@ -1438,36 +1470,42 @@
   <appendix id="steigerung">
     <title>Steigerung</title>
 
-    <para><emphasis>{TODO: EP erklären, Vergaberichtlinien}</emphasis></para>
-
-    <para>Im Laufe seiner Karriere kann ein Charakter seine Fähigkeiten
-    verbessern – er wird z.B. stärker, geschickter, erfahrener im Umgang mit
-    Magie usw. Diese sogenannten <firstterm>Steigerungen</firstterm> werden
-    mit <firstterm>Erfahrungspunkten</firstterm> (EP) bezahlt. Je höher der
-    Wert, desto höher der Zeitaufwand und damit die EP-Kosten: Talente oder
-    Zaubersprüche um einen Punkt zu steigern, kostet AW (Alter Wert) mal 2.
-    Attribute und Magiebereiche kosten AW mal 5. Ein neues Talent zu erlernen
-    (also der erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
+    <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
+    Fähigkeiten verbessern — er wird z.B. stärker und geschickter, oder
+    erfahrener im Umgang mit Magie. Das Maß für diese Erfahrungen sind
+    <firstterm>Erfahrungspunkte</firstterm> (EP). Diese werden vom Meister am
+    Ende eines Abenteuers, häufig auch nach jedem Spielabend, verteilt. Die
+    Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
+    gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
+    überraschende Einfälle oder gutes Ausspielen der eigenen Rolle
+    zusammensetzen.</para>
 
     <sidebar>
-      <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine normalen
-      Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen – schließlich
-      wäre es nur schwer erklärbar, wie man (von magoplastischer Chirurgie
-      einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann.</para>
+      <para>Es ist unmöglich, genaue Regeln für die Höhe der vergebenen EP
+      festzulegen. Zum einen ist diese stark davon abhängig, wieviel Zeit in
+      der Spielwelt vergangen ist und ob das Abenteuer eher aus alltäglichen
+      oder weltbewegenden Geschehnissen bestand — zum anderen ist es auch
+      schlicht Geschmackssache, wie schnell eine Gruppe erfahrener werden
+      soll. Dennoch sei an dieser Stelle die grobe Richtschnur angegeben, dass
+      ein Spielabend von vier bis fünf Stunden Dauer mit durchschnittlichem
+      Inhalt etwa 12 EP wert sein sollte.</para>
     </sidebar>
+
+    <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
+    Charakters zu steigern. Der Zeitaufwand und damit die EP-Kosten dafür sind
+    um so höher, je höher der Wert bereits ist: Talente oder Zaubersprüche um
+    einen Punkt zu steigern, kostet das Doppelte des bisherigen Wertes in EP,
+    kurz: Alter Wert (AW) mal 2. Attribute und Magiebereiche kosten AW mal 5.
+    Ein neues Talent zu erlernen (also der erste Punkt) kostet 4 EP, ein neuer
+    Magiebereich 10.</para>
 
     <para>Zaubersprüche sind ein Spezialfall: Pro beteiligtem Magiebereich
     kostet das Erlernen eines Zaubers (von anderen oder aus einem Buch) 3 EP,
     das Einüben eines Zauberspruchs 5 EP. Will jemand also einen
     Standard-Feuerball (aus 2 Bereichen zusammengesetzt) lernen, kostet das 6
-    EP – will er eine neue Variante erschaffen, kostet ihn das 10 EP.</para>
-
-    <para>Bei allen Steigerungen ist zu beachten, dass man auch einen
-    Lehrmeister oder entsprechende Fachliteratur zur Verfügung haben sollte.
-    Wer den Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine
-    Übung und Training besser werden — Geographie jedoch wird schwerlich ohne
-    Atlanten oder Bücher und allein im Kämmerchen zu verbessern sein... Das
-    letzte Wort bei jeder Steigerung hat wie immer der Meister.</para>
+    EP — will er eine neue Variante erschaffen, kostet ihn das 10 EP. Die
+    folgenden Steigerungen kosten jedoch wieder genauso viel wie die von
+    Talenten.</para>
 
     <informaltable>
       <tgroup align="center" cols="5">
@@ -1499,7 +1537,7 @@
           <row>
             <entry>Erster Punkt</entry>
 
-            <entry>-</entry>
+            <entry>10</entry>
 
             <entry>4</entry>
 
@@ -1522,29 +1560,46 @@
         </tbody>
       </tgroup>
     </informaltable>
+
+    <sidebar>
+      <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine normalen
+      Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen – schließlich
+      wäre es nur schwer erklärbar, wie man (von magoplastischer Chirurgie
+      einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann. In diesem
+      Fall sind natürlich bei der Erschaffung (siehe nächster Abschnitt),
+      sofern es sinnvoll und für das Charakterkonzept wichtig ist, für dieses
+      Attribut höhere Werte als 6 zulässig.</para>
+    </sidebar>
+
+    <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des Spiels
+    erklärbar sein müssen. So kann sich der Spieler von Elris nach dessen
+    missglückten Raubzug sicherlich entscheiden, dass Erlis seine
+    Schleichen-Fertigkeit verbessert hat — die Steigerung von Magiekunde
+    dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
+    dass man gerade bei neuen Talenten einen Lehrmeister oder entsprechende
+    Fachliteratur zur Verfügung haben sollte. Wer den Schwertkampf in
+    Grundzügen beherrscht, kann vielleicht durch reine Übung und Training
+    besser werden — der Versuch, sich das Kämpfen mit dem Schwert selbst
+    beizubringen wäre jedoch von vornherein zum Scheitern verurteilt. Bei
+    allen Steigerungen hat daher, wie immer, der Meister das letzte
+    Wort.</para>
   </appendix>
 
   <appendix>
     <title>Charaktererschaffung</title>
 
-    <para>Ein neuer Charakter beginnt lediglich mit 2 Punkten in jedem seiner
-    acht Attribute. Dem Spieler stehen dann 450 Erfahrungspunkte für die
-    Ausgestaltung des Charakters zur Verfügung, die praktisch dessen
-    Vorgeschichte und Ausbildung symbolisieren. Es können beliebig viele
-    Attribute, Talente, Magiebereiche oder Zaubersprüche jeweils beliebig hoch
-    „gekauft“ werden – mit einer Einschränkung: der höchste für einen neuen
-    (menschlichen) Charakter zulässige Wert liegt bei 6. Verwendet eine Gruppe
-    die Erscheinungsbild-Sonderregel aus dem letzten Abschnitt, kann der
-    Meister natürlich Charaktere mit höherem EB als 6 zulassen (wenn dies
-    sinnvoll und für das Charakterkonzept wichtig ist).</para>
+    <para>Für die Charaktererschaffung stehen dem Spieler 550 Erfahrungspunkte
+    zur Verfügung, welche die Vorgeschichte und Ausbildung des Charakters
+    symbolisieren. Der Spieler kann mit diesen Erfahrungspunkten beliebig
+    viele Attribute, Talente, Magiebereiche oder Zaubersprüche jeweils
+    beliebig hoch „kaufen“ — mit zwei Einschränkungen: der höchste für einen
+    neuen Charakter zulässige Wert liegt bei 6, und jeder Charakter muss alle
+    acht Attribute besitzen. Sollten die Erfahrungspunkte nicht vollständig
+    aufgebraucht werden, verfallen sie nicht, sondern können später im Spiel
+    zum Steigern verwendet werden.</para>
 
-    <para>Die Verwendung von EP zur Charaktererschaffung ermöglicht es dem
-    Meister, neue Rollenspielrunden mit erfahreneren oder unerfahreneren
-    Charakteren auszustatten, in dem er den Wert von 450 erhöht oder
-    senkt.</para>
-
-    <para>Gemäß den obigen Steigerungsregeln gelten die folgenden Gesamtkosten
-    für die jeweiligen Werte:</para>
+    <para>Gemäß den Steigerungsregeln aus dem vorigen Abschnitt ergeben sich
+    folgende Gesamtkosten für die jeweiligen Werte:</para>
 
     <informaltable>
       <tgroup align="center" cols="5">
@@ -1576,7 +1631,7 @@
           <row>
             <entry>1</entry>
 
-            <entry>+5 *</entry>
+            <entry>10</entry>
 
             <entry>4</entry>
 
@@ -1588,7 +1643,7 @@
           <row>
             <entry>2</entry>
 
-            <entry>0</entry>
+            <entry>15</entry>
 
             <entry>6</entry>
 
@@ -1600,7 +1655,7 @@
           <row>
             <entry>3</entry>
 
-            <entry>10</entry>
+            <entry>25</entry>
 
             <entry>10</entry>
 
@@ -1612,7 +1667,7 @@
           <row>
             <entry>4</entry>
 
-            <entry>25</entry>
+            <entry>40</entry>
 
             <entry>16</entry>
 
@@ -1624,7 +1679,7 @@
           <row>
             <entry>5</entry>
 
-            <entry>45</entry>
+            <entry>60</entry>
 
             <entry>24</entry>
 
@@ -1636,7 +1691,7 @@
           <row>
             <entry>6</entry>
 
-            <entry>70</entry>
+            <entry>85</entry>
 
             <entry>34</entry>
 
@@ -1645,36 +1700,42 @@
             <entry>X+30</entry>
           </row>
 
-          <row>
+          <row role="gray">
             <entry>7</entry>
 
-            <entry>100</entry>
+            <entry>115</entry>
 
-            <entry>-</entry>
+            <entry>46</entry>
 
             <entry>115</entry>
 
             <entry>X+42</entry>
           </row>
 
-          <row>
+          <row role="gray">
             <entry>8</entry>
-
-            <entry>135</entry>
-
-            <entry>-</entry>
 
             <entry>150</entry>
 
-            <entry>X+54</entry>
+            <entry>60</entry>
+
+            <entry>150</entry>
+
+            <entry>X+56</entry>
           </row>
         </tbody>
       </tgroup>
     </informaltable>
 
-    <para>* Soll ein Charakter ausnahmsweise einen Wert von eins in einem
-    Attribut erhalten, erhält er die 5 EP, die das Steigern auf zwei gekostet
-    hätte, zurück.</para>
+    <sidebar>
+      <para>Der Meister kann neue Rollenspielrunden mit erfahreneren oder
+      unerfahreneren Charakteren ausstatten, in dem er den Wert von 550 erhöht
+      oder senkt — fairerweise für alle Spieler. Durch die Verwendung von EP
+      kommt es dennoch nicht zu einem nicht mehr einholbaren oder je nach
+      Verwendung der Punkte unterschiedlich ausgeprägtem Ungleichgewicht,
+      sondern lediglich zu einem "Vorsprung" dieser Charaktere gegenüber
+      anderen Runden.</para>
+    </sidebar>
   </appendix>
 
   <appendix>
@@ -2087,7 +2148,7 @@
 
             <entry>kg.</entry>
 
-            <entry>Preis</entry>
+            <entry>Preis (S)</entry>
 
             <entry>Anm.</entry>
           </row>
@@ -2109,7 +2170,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+4</entry>
+            <entry>ST+3</entry>
 
             <entry>4</entry>
 
@@ -2117,7 +2178,7 @@
 
             <entry>2</entry>
 
-            <entry>60 S</entry>
+            <entry>30</entry>
           </row>
 
           <row>
@@ -2133,7 +2194,7 @@
 
             <entry>3</entry>
 
-            <entry>110 S</entry>
+            <entry>110</entry>
           </row>
 
           <row>
@@ -2157,9 +2218,9 @@
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>0,8</entry>
 
-            <entry>12 S</entry>
+            <entry>12</entry>
 
             <entry><xref linkend="wbt" />)</entry>
           </row>
@@ -2169,15 +2230,15 @@
 
             <entry>8</entry>
 
-            <entry>ST+1</entry>
+            <entry>ST+2</entry>
 
             <entry>0</entry>
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>1</entry>
 
-            <entry>30-40 S</entry>
+            <entry>150</entry>
 
             <entry><xref linkend="wfd" />)</entry>
           </row>
@@ -2193,9 +2254,9 @@
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>0,5</entry>
 
-            <entry>2-3 S</entry>
+            <entry>20</entry>
           </row>
 
           <row>
@@ -2209,9 +2270,9 @@
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>0,75</entry>
 
-            <entry>3-5 S</entry>
+            <entry>40</entry>
           </row>
 
           <row>
@@ -2225,9 +2286,9 @@
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>1,2</entry>
 
-            <entry>160 S</entry>
+            <entry>160</entry>
 
             <entry><xref linkend="wvi" />)</entry>
           </row>
@@ -2251,9 +2312,9 @@
 
             <entry>2</entry>
 
-            <entry></entry>
+            <entry>1,5</entry>
 
-            <entry>?</entry>
+            <entry>1</entry>
           </row>
 
           <row>
@@ -2266,6 +2327,10 @@
             <entry>4</entry>
 
             <entry>3</entry>
+
+            <entry>4,5</entry>
+
+            <entry>120</entry>
           </row>
 
           <row>
@@ -2287,9 +2352,9 @@
 
             <entry>3</entry>
 
-            <entry></entry>
+            <entry>1,5</entry>
 
-            <entry>?</entry>
+            <entry>100</entry>
           </row>
 
           <row>
@@ -2313,7 +2378,7 @@
 
             <entry>4</entry>
 
-            <entry>120 S</entry>
+            <entry>200</entry>
           </row>
 
           <row>
@@ -2329,7 +2394,7 @@
 
             <entry>2</entry>
 
-            <entry>80 S</entry>
+            <entry>80</entry>
           </row>
 
           <row>
@@ -2345,7 +2410,7 @@
 
             <entry>3</entry>
 
-            <entry>100 S</entry>
+            <entry>180</entry>
           </row>
 
           <row>
@@ -2361,7 +2426,7 @@
 
             <entry>9</entry>
 
-            <entry>170 S</entry>
+            <entry>250</entry>
           </row>
 
           <row>
@@ -2385,9 +2450,9 @@
 
             <entry>5</entry>
 
-            <entry></entry>
+            <entry>2</entry>
 
-            <entry>1-10 S</entry>
+            <entry>40</entry>
           </row>
 
           <row>
@@ -2401,9 +2466,9 @@
 
             <entry>6</entry>
 
-            <entry></entry>
+            <entry>3,5</entry>
 
-            <entry>50-60 S</entry>
+            <entry>75</entry>
           </row>
 
           <row>
@@ -2417,9 +2482,9 @@
 
             <entry>5</entry>
 
-            <entry></entry>
+            <entry>2,5</entry>
 
-            <entry>150 S</entry>
+            <entry>220</entry>
 
             <entry><xref linkend="wks" />)</entry>
           </row>
@@ -2429,15 +2494,15 @@
 
             <entry>11</entry>
 
-            <entry>ST+2</entry>
+            <entry>ST+5</entry>
 
             <entry>2</entry>
 
             <entry>5</entry>
 
-            <entry></entry>
+            <entry>2</entry>
 
-            <entry>4 S</entry>
+            <entry>30</entry>
           </row>
 
           <row>
@@ -2461,9 +2526,9 @@
 
             <entry>3</entry>
 
-            <entry>0.8</entry>
+            <entry>0,8</entry>
 
-            <entry>60 S</entry>
+            <entry>180</entry>
           </row>
 
           <row>
@@ -2477,9 +2542,9 @@
 
             <entry>3</entry>
 
-            <entry>1.3</entry>
+            <entry>1</entry>
 
-            <entry>70 S</entry>
+            <entry>120</entry>
           </row>
 
           <row>
@@ -2503,9 +2568,9 @@
 
             <entry>C</entry>
 
-            <entry>0,9</entry>
+            <entry>1</entry>
 
-            <entry>50 S</entry>
+            <entry>80</entry>
           </row>
 
           <row>
@@ -2517,11 +2582,11 @@
 
             <entry>3</entry>
 
-            <entry>C</entry>
+            <entry>D</entry>
 
-            <entry>1,3</entry>
+            <entry>1</entry>
 
-            <entry>40 S</entry>
+            <entry>100</entry>
           </row>
 
           <row>
@@ -2537,7 +2602,7 @@
 
             <entry>0,5</entry>
 
-            <entry>15 S</entry>
+            <entry>45</entry>
           </row>
 
           <row>
@@ -2549,11 +2614,11 @@
 
             <entry>2</entry>
 
-            <entry>D</entry>
+            <entry>E</entry>
 
-            <entry>1,2</entry>
+            <entry>0,75</entry>
 
-            <entry>28 S</entry>
+            <entry>60</entry>
           </row>
 
           <row>
@@ -2579,7 +2644,7 @@
 
             <entry>3</entry>
 
-            <entry>200 S</entry>
+            <entry>160</entry>
           </row>
 
           <row>
@@ -2595,7 +2660,7 @@
 
             <entry>5</entry>
 
-            <entry>280 S</entry>
+            <entry>200</entry>
           </row>
 
           <row>
@@ -2611,7 +2676,7 @@
 
             <entry>5</entry>
 
-            <entry>500 S</entry>
+            <entry>310</entry>
 
             <entry><xref linkend="wda" />)</entry>
           </row>
@@ -2633,9 +2698,43 @@
 
             <entry>1</entry>
 
-            <entry></entry>
+            <entry>A</entry>
 
-            <entry>2</entry>
+            <entry>1,5</entry>
+
+            <entry>35</entry>
+          </row>
+
+          <row>
+            <entry>Wurfdolch</entry>
+
+            <entry>13</entry>
+
+            <entry>ST/2 + 3</entry>
+
+            <entry>0</entry>
+
+            <entry>A</entry>
+
+            <entry>0,5</entry>
+
+            <entry>30</entry>
+          </row>
+
+          <row>
+            <entry>Wurfmesser</entry>
+
+            <entry>12</entry>
+
+            <entry>ST/2 + 1</entry>
+
+            <entry>0</entry>
+
+            <entry>A</entry>
+
+            <entry>0,25</entry>
+
+            <entry>15</entry>
           </row>
         </tbody>
       </tgroup>
@@ -2649,12 +2748,13 @@
 
       <listitem id="wfd">
         <para>Fangdolch: Bleibt wegen Widerhaken stecken. Herausreißen
-        verursacht einen Schaden (kein Widerstandswurf möglich).</para>
+        verursacht einen Schadenspunkt (kein Widerstandswurf möglich).</para>
       </listitem>
 
       <listitem id="wvi">
-        <para>Viper: An den Unterarm geschnallte Klinge, die auf Knopfdruck
-        herausschießt. Sehr sperrig - lässt sich kaum verstecken.</para>
+        <para>Viper: An den Unterarm geschnallte, etwa 20cm lange Klinge, die
+        auf Knopfdruck herausschießt. Lässt sich allenfalls in weiten Ärmeln
+        verstecken.</para>
       </listitem>
 
       <listitem id="wks">
