@@ -11,7 +11,7 @@
       <surname>Bannmann</surname>
     </author>
 
-    <pubdate>2006-05-30</pubdate>
+    <pubdate>2006-07-16</pubdate>
 
     <copyright>
       <year>1999</year>
@@ -28,6 +28,15 @@
         <date>2006-05-30</date>
 
         <revremark>Zu DocBook konvertiert</revremark>
+      </revision>
+
+      <revision>
+        <revnumber>2</revnumber>
+
+        <date>2006-07-16</date>
+
+        <revremark>Voraussetzungen angepasst; Telekineserichtlinien
+        ergänzt</revremark>
       </revision>
     </revhistory>
   </bookinfo>
@@ -82,7 +91,9 @@
       <para>ist das beliebige magische Bewegen von Gegenständen. Genauso ist
       es aber möglich, einfach irgendwo ”draufzuschlagen”, d.h. die magische
       in physische Kraft umzuwandeln und damit Gegenstände (oder Wesen)
-      wegzuschleudern.</para>
+      wegzuschleudern — in diesem Fall beträgt die Schwierigkeit 11 und jeder
+      Kraftpunkt wird wie ein Erfolg bei einer Stärke-Probe gewertet, z.B. in
+      Vergleichswürfen.</para>
     </section>
 
     <section>
@@ -193,7 +204,7 @@
       <section>
         <title>Voraussetzung</title>
 
-        <para>Telepathie</para>
+        <para>Telepathie 4</para>
       </section>
 
       <section>
@@ -277,7 +288,7 @@
       <section>
         <title>Voraussetzung</title>
 
-        <para>Spüren</para>
+        <para>Spüren 2</para>
       </section>
     </section>
 
@@ -296,7 +307,7 @@
       <section>
         <title>Voraussetzung</title>
 
-        <para>Telepathie</para>
+        <para>Telepathie 3</para>
       </section>
 
       <section>
@@ -328,7 +339,7 @@
       <section>
         <title>Voraussetzung</title>
 
-        <para>Telepathie</para>
+        <para>Telepathie 2</para>
       </section>
 
       <section>
@@ -375,7 +386,7 @@
       <section>
         <title>Voraussetzung</title>
 
-        <para>Spüren</para>
+        <para>Spüren 3</para>
       </section>
     </section>
 
@@ -484,7 +495,7 @@
       <section>
         <title>Voraussetzungen</title>
 
-        <para>Unbelebte Materie &amp; Umleiten auf 3 [Spüren]</para>
+        <para>Unbelebte Materie &amp; Umleiten auf 2 [Spüren]</para>
       </section>
     </section>
 
@@ -500,7 +511,7 @@
       <section>
         <title>Voraussetzungen</title>
 
-        <para>Wetter [Wasser &amp; Feuer]</para>
+        <para>Wetter 2 [Wasser &amp; Feuer]</para>
       </section>
     </section>
   </chapter>
@@ -512,14 +523,12 @@
       <title>Beschwörung</title>
 
       <para>ist das Öffnen eines Spalts in eine andere Sphäre, um ein Wesen
-      von dort in diese Welt zu rufen. Meist werden Wesen aus der Traumwelt
-      beschworen, doch es müsste auch möglich sein, Wesenheiten aus anderen
-      Sphären zu beschwören...</para>
+      von dort in diese Welt zu rufen und zu kontrollieren.</para>
 
       <section>
         <title>Voraussetzungen</title>
 
-        <para>Sphärologie [Spüren] &amp; Beherrschung [Telepathie]</para>
+        <para>Sphärologie 2 [Spüren] &amp; Beherrschung [Telepathie]</para>
       </section>
     </section>
   </chapter>
