@@ -11,12 +11,12 @@
       <surname>Bannmann</surname>
     </author>
 
-    <pubdate>2006-06-13</pubdate>
+    <pubdate></pubdate>
 
     <copyright>
       <year>1999</year>
 
-      <year>2006</year>
+      <year>2007</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -94,6 +94,19 @@
         Waffenpreise überarbeitet; Text zu Steigerungen erweitert und
         überarbeitet</revremark>
       </revision>
+
+      <revision>
+        <revnumber>8</revnumber>
+
+        <date>2007-08-27</date>
+
+        <revremark>Gesamtwürfelanzahl wird bei Vergleichswürfen nicht mehr
+        beachtet (z.B. weil Schwierigkeit unterschiedlich sein kann); Talente
+        in Fertigkeiten umbenannt; Aufteilung in Fertigkeits-Grundset und
+        zusätzliche Fertigkeiten durch "Talente", "Wissen" und "Kampf"
+        ersetzt; Verwirrende X+2-Notation bei EP-Kosten für Zauber
+        entfernt</revremark>
+      </revision>
     </revhistory>
   </bookinfo>
 
@@ -114,12 +127,12 @@
 
       <para>Die Flexibilität des Magiesystems von Wizardry geht so weit, dass
       die Charaktere spontan magische Effekte hervorrufen können, ohne zuvor
-      einen entsprechenden Zauberspruch gelernt oder geübt haben müssen: Jeder
-      Spieler, dessen Charakter grundsätzlich in einem bestimmten Bereich der
-      Magie bewandert ist, kann aus heiterem Himmel eine Idee für einen
-      bestimmten magischen Effekt haben, und in diesem Moment muss der Meister
-      eine Würfelregelung (er)finden, die nicht nur Auskunft gibt über Erfolg
-      oder Misserfolg des Zauberns, sondern auch über die konkreten
+      einen entsprechenden Zauberspruch gelernt oder geübt haben zu müssen:
+      Jeder Spieler, dessen Charakter grundsätzlich in einem bestimmten
+      Bereich der Magie bewandert ist, kann aus heiterem Himmel eine Idee für
+      einen bestimmten magischen Effekt haben, und in diesem Moment muss der
+      Meister eine Würfelregelung (er)finden, die nicht nur Auskunft gibt über
+      Erfolg oder Misserfolg des Zauberns, sondern auch über die konkreten
       Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer, Schnelligkeit
       etc.)</para>
 
@@ -154,7 +167,7 @@
 
       <para>Wizardry soll ein schnell spielbares System mit leicht zu
       merkenden Regeln sein, welche dem Erzählen nicht "im Weg stehen". Es
-      enthält daher weit weniger Regeln als andere Systeme, und geht davon aus
+      enthält daher weit weniger Regeln als andere Systeme und geht davon aus,
       dass der Meister viele Entscheidungen besser mit Einsatz von gesundem
       Menschenverstand als mit dem Konsultieren eines umfangreichen Katalogs
       aus genauen Regeln und Tabellen fällen kann.</para>
@@ -166,7 +179,7 @@
       gewürfelten Werte werden direkt mit einem bestimmten Wert verglichen und
       gezählt — sie werden weder addiert noch miteinander verrechnet. Man
       könnte sogar sagen, dass die hohe Anzahl der Würfel vielmehr die
-      Dramatik der Situation ausdrückt, in der einer Probe verlangt
+      Dramatik der Situation ausdrückt, in der eine Probe verlangt
       wird.</para>
     </section>
   </chapter>
@@ -178,9 +191,9 @@
       <title>Attribute</title>
 
       <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich in
-      acht Attributen nieder. Diese Attribute liegen auf einer Skala zwischen
-      eins und acht, wobei der allgemeine Durchschnitt in der Bevölkerung
-      zwischen 3 und 4 liegt.</para>
+      acht <firstterm>Attributen</firstterm> nieder. Diese Attribute liegen
+      auf einer Skala zwischen eins und acht, wobei der allgemeine
+      Durchschnitt in der Bevölkerung zwischen 3 und 4 liegt.</para>
 
       <informaltable>
         <tgroup cols="3">
@@ -225,7 +238,7 @@
               <entry>IN</entry>
 
               <entry>Geistesschärfe, schnelles und richtiges Handeln,
-              Improvisation... und eben Intuition(!)</entry>
+              Improvisation und eben Intuition(!)</entry>
             </row>
 
             <row>
@@ -233,8 +246,8 @@
 
               <entry>KL</entry>
 
-              <entry>= Intelligenz: logisches Denkvermögen, auch die Lern-
-              &amp; Merkfähigkeit</entry>
+              <entry>Intelligenz, logisches Denkvermögen, Lern- und
+              Merkfähigkeit</entry>
             </row>
 
             <row>
@@ -261,7 +274,7 @@
               <entry>SB</entry>
 
               <entry>Sowohl die Fähigkeit zur geistigen Konzentration als auch
-              das Ertragen von Schmerzen</entry>
+              zum Ertragen von Schmerzen</entry>
             </row>
 
             <row>
@@ -269,7 +282,7 @@
 
               <entry>WK</entry>
 
-              <entry>Entschlossenheit, Stärke der Abwehr gegen geistige
+              <entry>Entschlossenheit, Stärke der Abwehr geistiger
               Beeinflussung</entry>
             </row>
           </tbody>
@@ -278,28 +291,25 @@
 
       <para>Die Attributwerte entsprechen zunächst einmal Würfelanzahlen.
       Zusätzlich wird die Schwierigkeit einer Probe (siehe dort) noch je nach
-      Höhe des Attributs modifiziert („Attributsbonus“). Bei einem Wert unter
-      3 steigt sie um eins, bei 4, 6 und 8 sinkt sie jeweils um eins,
-      kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend ein
-      Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
+      Höhe des Attributs modifiziert (<firstterm>Attributsbonus</firstterm>).
+      Bei einem Wert unter 3 steigt sie um 1, bei 4, 6 und 8 sinkt sie jeweils
+      um 1, kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend
+      ein Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
       Attributsbonus davon unbeeinflusst.</para>
     </section>
 
     <section>
-      <title>Talente</title>
+      <title>Fertigkeiten</title>
 
-      <para>Talente repräsentieren die individuellen Kenntnisse und
-      Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jedes Talent ist
-      dabei einem Attribut zugeordnet, das bei Proben mit einbezogen wird.
-      Talentwerte reichen von eins bis acht, und genau wie bei den Attributen
-      entspricht jeder Punkt einem Würfel, der bei Proben verwendet wird.
-      Anders als bei Attributen besitzen jedoch nicht alle Charaktere alle
-      Talente. Stattdessen werden für jeden Charakter nur die Talente notiert,
-      die er aufgrund seiner Vorgeschichte erlernt hat. Es sind zwar auf dem
-      Charakterblatt zur Orientierung schon einige Talente vorgedruckt, aber
-      dies soll Sie nicht dazu verleiten, alle diese Talente zu kaufen — warum
-      sollte z.B. in einer Fantasy-Welt jeder lesen und schreiben
-      können?</para>
+      <para>Fertigkeiten repräsentieren die individuellen Kenntnisse und
+      Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jede Fertigkeit
+      ist dabei einem Attribut zugeordnet, das bei Proben mit einbezogen wird.
+      Fertigkeitswerte reichen von eins bis acht, und genau wie bei den
+      Attributen entspricht jeder Punkt einem Würfel, der bei Proben verwendet
+      wird. Anders als bei Attributen besitzen jedoch nicht alle Charaktere
+      alle Fertigkeiten. Stattdessen werden für jeden Charakter nur die
+      Fertigkeiten notiert, die er aufgrund seiner Vorgeschichte erlernt
+      hat.</para>
     </section>
   </chapter>
 
@@ -308,7 +318,7 @@
 
     <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
     Meister eine <firstterm>Probe </firstterm>verlangen. Meist wird dies eine
-    <firstterm>Talentprobe</firstterm> sein, es sind jedoch auch
+    <firstterm>Fertigkeitsprobe</firstterm> sein, es sind jedoch auch
     <firstterm>Attributproben</firstterm> möglich. Des weiteren werden auch
     Proben auf Magiebereiche und Zauber durchgeführt (siehe <xref
     linkend="magie" />).</para>
@@ -319,12 +329,12 @@
       <para>Eine Probe wird durch das Rollen mehrerer zwanzigseitiger Würfel
       (kurz: <firstterm>W20</firstterm>) durchgeführt. Zunächst wird die
       Anzahl der Würfel ermittelt. Sie entspricht der Anzahl der Punkte im
-      jeweiligen Attribut, oder, bei Talentproben, der Summe aus Talentpunkten
-      und Punkten im zugeordneten Attribut.</para>
+      jeweiligen Attribut oder, bei Fertigkeitsproben, der Summe aus
+      Fertigkeitspunkten und Punkten im zugeordneten Attribut.</para>
 
       <sidebar>
         <para>Wie immer hat der Meister das letzte Wort – es kann gerade bei
-        Talenten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
+        Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
         anderes Attribut zu „proben“. Geht es zum Beispiel bei einer
         Etikette-Probe weniger um pures Wissen (wie die richtige Anrede für
         die unverheiratete Tochter eines Fürsten), sondern um das korrekte
@@ -338,18 +348,20 @@
       <title>Schwierigkeit und Erfolge</title>
 
       <para>Der Meister gibt nun unter Berücksichtigung der Situation eine
-      Schwierigkeit für die Aktion vor (Standard: 11). Diese Schwierigkeit
-      wird dann mit eventuellen Boni oder Mali des Charakters verrechnet (z.B.
-      Attributsbonus). Anschließend rollt der Spieler seine Würfel, und
-      versucht die ermittelte Schwierigkeit mit möglichst vielen Würfeln zu
-      erreichen oder zu übertreffen. Jeden dieser Würfel zählt der Spieler als
-      „einen <firstterm>Erfolg</firstterm>“. Für jeden Würfel, der eine Eins
-      zeigt, wird ein Erfolg abgezogen. Bleibt am Ende mindestens ein Erfolg
-      übrig, ist die Probe gelungen. Hat ein Spieler keine Erfolge, ist die
-      Aktion gescheitert; hat er mehr Einsen als Erfolge gewürfelt (d.h. eine
-      negative Anzahl Erfolge), ist sie katastrophal fehlgeschlagen — so ein
-      <firstterm>Patzer</firstterm> kann, je nach Situation, durchaus
-      lebensbedrohlich werden.</para>
+      <firstterm>Schwierigkeit</firstterm> für die Aktion vor (Standard: 11).
+      Diese Schwierigkeit wird dann mit eventuellen
+      <firstterm>Boni</firstterm> oder <firstterm>Mali</firstterm> des
+      Charakters verrechnet (z.B. Attributsbonus). Anschließend rollt der
+      Spieler seine Würfel und versucht die ermittelte Schwierigkeit mit
+      möglichst vielen Würfeln zu erreichen oder zu übertreffen. Jeden dieser
+      Würfel zählt der Spieler als einen <firstterm>Erfolg</firstterm>. Für
+      jeden Würfel, der eine Eins zeigt, wird ein Erfolg abgezogen. Bleibt am
+      Ende mindestens ein Erfolg übrig, ist die Probe
+      <firstterm>gelungen</firstterm>. Hat ein Spieler keine Erfolge, ist die
+      Aktion <firstterm>gescheitert</firstterm>; hat er mehr Einsen als
+      Erfolge gewürfelt (d.h. eine negative Anzahl Erfolge), ist sie
+      katastrophal fehlgeschlagen — so ein <firstterm>Patzer</firstterm> kann,
+      je nach Situation, durchaus lebensbedrohlich werden.</para>
 
       <sidebar>
         <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
@@ -367,12 +379,12 @@
         unpassendsten Momenten zu knarren und zu quietschen, sagt der Meister
         eine Schwierigkeit von 17 an.</para>
 
-        <para>Elris hat Geschick 5 (was seine Schwierigkeit um 1 auf 16 senkt)
-        und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie zeigen: 7, 2,
-        13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge — Elris
-        schafft es also, kaum verräterische Geräusche zu verursachen. Hätte er
-        keine Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende
-        Diele getreten.</para>
+        <para>Elris hat Geschicklichkeit 5 (was seine Schwierigkeit um 1 auf
+        16 senkt) und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie
+        zeigen: 7, 2, 13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge
+        — Elris schafft es also, kaum verräterische Geräusche zu verursachen.
+        Hätte er keine Erfolge gehabt, wäre er direkt und lautstark auf eine
+        knarrende Diele getreten.</para>
       </informalexample>
     </section>
 
@@ -381,10 +393,10 @@
 
       <para>Um zwei gelungene Proben zu vergleichen, wird einfach die Anzahl
       der Erfolge herangezogen. Derjenige mit mehr Erfolgen hat „gewonnen“.
-      Sollte die Anzahl der Erfolge gleich sein, gewinnt derjenige, der
-      weniger Würfel zur Verfügung hatte. War auch die Würfelanzahl gleich,
-      gibt die Höhe des jeweiligen Attributs den Ausschlag, gefolgt von der
-      Höhe des Talents.</para>
+      Sollte die Anzahl der Erfolge gleich sein, gilt der Vergleich als
+      unentschieden. Falls diese Regel auf eine Situation nicht anwendbar ist,
+      entscheidet ein einfacher W20-Wurf, welcher der beiden Charaktere
+      gewinnt.</para>
 
       <para>Ein solcher <firstterm>Vergleichswurf</firstterm> findet auch in
       unserem Beispiel statt:</para>
@@ -392,10 +404,10 @@
       <informalexample>
         <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
         eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
-        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 16 zwei Erfolge
-        erzielt. Elris hatte ebenfalls zwei Erfolge, doch mehr Würfel zur
-        Verfügung — der Hausherr gewinnt also den Vergleichswurf. Das
-        Ergebnis: Er wird misstrauisch und durchsucht das Haus...</para>
+        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 16 drei Erfolge
+        erzielt. Elris hatte nur zwei Erfolge — der Hausherr gewinnt also den
+        Vergleichswurf. Das Ergebnis: Er wird misstrauisch und durchsucht das
+        Haus...</para>
       </informalexample>
 
       <para>Die Schwierigkeit für einen Vergleichswurf (in diesem Fall die
@@ -407,13 +419,13 @@
     </section>
 
     <section>
-      <title>Fehlendes Talent</title>
+      <title>Fehlende Fertigkeit</title>
 
-      <para>Besitzt ein Charakter das für eine bestimmte Aktion zuständige
-      Talent nicht, darf er streng genommen keine Probe durchführen. Der
-      Meister kann jedoch gestatten, eine Probe auf ein anderes, verwandtes
-      Talent oder das reine Attribut durchzuführen, sofern es für die
-      Situation passt (evtl. auch mit erhöhter Schwierigkeit)</para>
+      <para>Besitzt ein Charakter die für eine bestimmte Aktion zuständige
+      Fertigkeit nicht, darf er streng genommen keine Probe durchführen. Der
+      Meister kann jedoch gestatten, eine Probe auf eine andere, verwandte
+      Fertigkeit oder das reine Attribut durchzuführen, sofern es für die
+      Situation passt (evtl. auch mit erhöhter Schwierigkeit).</para>
     </section>
   </chapter>
 
@@ -461,8 +473,8 @@
       <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
       verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
       Verletzungen – eben blaue Flecken oder harmlose Abschürfungen. Auch
-      Zauberei verursacht beim Anwender sogenannten Betäubungs- oder auch
-      mentalen Schaden. Dieser Schaden wird durch eine separate Skala von
+      Zauberei kann beim Anwender sogenannten Betäubungs- oder auch mentalen
+      Schaden verursachen. Dieser Schaden wird durch eine separate Skala von
       zwölf Gesundheitsstufen dargestellt. Hat ein Charakter Betäubungsschaden
       erhalten, wird er zunehmend unkonzentrierter und erschöpfter, bis zur
       völligen Bewusstlosigkeit auf der letzten mentalen Gesundheitsstufe.
@@ -549,13 +561,13 @@
       <title>Kampfrunde &amp; Initiative</title>
 
       <para>Geraten Charaktere in einen Kampf, werden alle Aktionen in Runden
-      abgewickelt. Eine Kampfrunde entspricht dabei etwa drei Sekunden der
-      gespielten Zeit. Innerhalb einer Kampfrunde passiert zwar alles nahezu
-      gleichzeitig – dennoch gibt es immer Beteiligte, die einen Tick
-      schneller reagieren und den Überblick über das Kampfgeschehen haben. Um
-      diesen Umstand darzustellen, wird zu Beginn einer jeden Runde die
-      <firstterm>Initiative</firstterm> ermittelt, um die Reihenfolge der
-      einzelnen Kämpfer (genau genommen Ihrer
+      abgewickelt. Eine <firstterm>Kampfrunde</firstterm> entspricht dabei
+      etwa drei Sekunden der gespielten Zeit. Innerhalb einer Kampfrunde
+      passiert zwar alles nahezu gleichzeitig – dennoch gibt es immer
+      Beteiligte, die einen Tick schneller reagieren und den Überblick über
+      das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
+      einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
+      die Reihenfolge der einzelnen Kämpfer (genau genommen Ihrer
       <firstterm>Aktionsphasen</firstterm>) festzulegen. Jeder Beteiligte
       (also Spieler- wie Nichtspielercharaktere) rollt dazu einen W20 und
       addiert dazu Intuition und Reaktion. Je nach dem, welche Waffe er führt,
@@ -636,11 +648,11 @@
         während der andere mit vollem (Würfel-)Einsatz Tharion attackieren
         wird.</para>
 
-        <para>Elris (Geschick 5, Dolche 3, Ausweichen 4) will einen der Gauner
-        attackieren, aber auch noch ausweichen können. Er hätte neun Würfel
-        fürs Ausweichen und acht fürs Angreifen, ergibt acht zum Verteilen. Er
-        entscheidet sich, von diesen Würfeln fünf zum Angriff zu benutzen und
-        drei zurückzuhalten.</para>
+        <para>Elris (Geschicklichkeit 5, Dolche 3, Ausweichen 4) will einen
+        der Gauner attackieren, aber auch noch ausweichen können. Er hätte
+        neun Würfel fürs Ausweichen und acht fürs Angreifen, ergibt acht zum
+        Verteilen. Er entscheidet sich, von diesen Würfeln fünf zum Angriff zu
+        benutzen und drei zurückzuhalten.</para>
 
         <para>Tharion hat Geschicklichkeit 3 und Ausweichen 4 (macht sieben),
         für Telekinese hätte er acht Würfel – verteilen darf er also 7. Er
@@ -688,7 +700,7 @@
         <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
         Runde drei Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
         (Grundschwierigkeit) + 1 (Dolch-Reichweite) - 3 (Säbel-Reichweite) =
-        9. Er erzielt zwei Erfolge, und kann damit den Dolch zwar nicht
+        9. Er erzielt zwei Erfolge und kann damit den Dolch zwar nicht
         vollständig parieren, aber zumindest zu weniger gefährlichen
         Körperstellen ablenken. Seine Parade-Erfolge werden von Elris’
         Treffer-Erfolgen abgezogen, übrig bleiben zwei.</para>
@@ -762,8 +774,8 @@
 
       <para>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt
       wie Nahkampfwaffen: Der Trefferwurf wird mit den Würfeln aus
-      Geschicklichkeit und dem entsprechenden Talent ausgeführt. Die bei der
-      Waffe angegebene Schwierigkeit wird — neben einem eventuellen
+      Geschicklichkeit und der entsprechenden Fertigkeit ausgeführt. Die bei
+      der Waffe angegebene Schwierigkeit wird — neben einem eventuellen
       Geschicklichkeits-Attributsbonus — jedoch noch je nach Distanz und Größe
       des Ziels modifiziert:</para>
 
@@ -1021,8 +1033,8 @@
     </section>
   </chapter>
 
-  <chapter>
-    <title id="magie">Magie</title>
+  <chapter id="magie">
+    <title>Magie</title>
 
     <para>Magie ist nichts Übernatürliches. Glaubt man den Magiern, ist sie
     lediglich die Anwendung der alles umgebenden Kraft. Diese durchzieht die
@@ -1222,8 +1234,8 @@
       Schwierigkeit eines Zauberspruchs immer zwei Punkte niedriger ist als
       bei spontaner Anwendung.</para>
 
-      <para>Zaubersprüche sind vergleichbar mit Talenten, und sind ebenfalls
-      auf eine maximale Höhe von 8 begrenzt.</para>
+      <para>Zaubersprüche sind vergleichbar mit Fertigkeiten, und sind
+      ebenfalls auf eine maximale Höhe von 8 begrenzt.</para>
     </section>
 
     <section>
@@ -1241,7 +1253,7 @@
 
       <para>Auf die Schwierigkeit der eigentlichen Zauberprobe werden nun der
       Attributsbonus des Magiebereichs und der von Klugheit angerechnet. Die
-      Probe selbst wird dann genauso wie eine Attribut- bzw. Talentprobe
+      Probe selbst wird dann genauso wie eine Attribut- bzw. Fertigkeitsprobe
       durchgeführt.</para>
 
       <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
@@ -1493,11 +1505,11 @@
 
     <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
     Charakters zu steigern. Der Zeitaufwand und damit die EP-Kosten dafür sind
-    um so höher, je höher der Wert bereits ist: Talente oder Zaubersprüche um
-    einen Punkt zu steigern, kostet das Doppelte des bisherigen Wertes in EP,
-    kurz: Alter Wert (AW) mal 2. Attribute und Magiebereiche kosten AW mal 5.
-    Ein neues Talent zu erlernen (also der erste Punkt) kostet 4 EP, ein neuer
-    Magiebereich 10.</para>
+    um so höher, je höher der Wert bereits ist: Fertigkeiten oder
+    Zaubersprüche um einen Punkt zu steigern, kostet das Doppelte des
+    bisherigen Wertes in EP, kurz: Alter Wert (AW) mal 2. Attribute und
+    Magiebereiche kosten AW mal 5. Eine neue Fertigkeit zu erlernen (also der
+    erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
 
     <para>Zaubersprüche sind ein Spezialfall: Pro beteiligtem Magiebereich
     kostet das Erlernen eines Zaubers (von anderen oder aus einem Buch) 3 EP,
@@ -1505,7 +1517,7 @@
     Standard-Feuerball (aus 2 Bereichen zusammengesetzt) lernen, kostet das 6
     EP — will er eine neue Variante erschaffen, kostet ihn das 10 EP. Die
     folgenden Steigerungen kosten jedoch wieder genauso viel wie die von
-    Talenten.</para>
+    Fertigkeiten.</para>
 
     <informaltable>
       <tgroup align="center" cols="5">
@@ -1525,7 +1537,7 @@
 
             <entry>Attribut</entry>
 
-            <entry>Talent</entry>
+            <entry>Fertigkeit</entry>
 
             <entry>Magiebereich</entry>
 
@@ -1573,15 +1585,15 @@
 
     <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des Spiels
     erklärbar sein müssen. So kann sich der Spieler von Elris nach dessen
-    missglückten Raubzug sicherlich entscheiden, dass Erlis seine
+    missglückten Raubzug sicherlich entscheiden, dass Elris seine
     Schleichen-Fertigkeit verbessert hat — die Steigerung von Magiekunde
     dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
-    dass man gerade bei neuen Talenten einen Lehrmeister oder entsprechende
-    Fachliteratur zur Verfügung haben sollte. Wer den Schwertkampf in
-    Grundzügen beherrscht, kann vielleicht durch reine Übung und Training
-    besser werden — der Versuch, sich das Kämpfen mit dem Schwert selbst
-    beizubringen wäre jedoch von vornherein zum Scheitern verurteilt. Bei
-    allen Steigerungen hat daher, wie immer, der Meister das letzte
+    dass man gerade bei neuen Fertigkeiten einen Lehrmeister oder
+    entsprechende Fachliteratur zur Verfügung haben sollte. Wer den
+    Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine Übung
+    und Training besser werden — der Versuch, sich das Kämpfen mit dem Schwert
+    selbst beizubringen wäre jedoch von vornherein zum Scheitern verurteilt.
+    Bei allen Steigerungen hat daher, wie immer, der Meister das letzte
     Wort.</para>
   </appendix>
 
@@ -1591,7 +1603,7 @@
     <para>Für die Charaktererschaffung stehen dem Spieler 550 Erfahrungspunkte
     zur Verfügung, welche die Vorgeschichte und Ausbildung des Charakters
     symbolisieren. Der Spieler kann mit diesen Erfahrungspunkten beliebig
-    viele Attribute, Talente, Magiebereiche oder Zaubersprüche jeweils
+    viele Attribute, Fertigkeiten, Magiebereiche oder Zaubersprüche jeweils
     beliebig hoch „kaufen“ — mit zwei Einschränkungen: der höchste für einen
     neuen Charakter zulässige Wert liegt bei 6, und jeder Charakter muss alle
     acht Attribute besitzen. Sollten die Erfahrungspunkte nicht vollständig
@@ -1619,11 +1631,11 @@
 
             <entry>Attribut</entry>
 
-            <entry>Talent</entry>
+            <entry>Fertigkeit</entry>
 
             <entry>Magiebereich</entry>
 
-            <entry>Zauberspruch</entry>
+            <entry>Zauberspruch*</entry>
           </row>
         </thead>
 
@@ -1637,7 +1649,7 @@
 
             <entry>10</entry>
 
-            <entry role="nowrap">pro Bereich 3 oder 5</entry>
+            <entry role="nowrap">3 / 5</entry>
           </row>
 
           <row>
@@ -1649,7 +1661,7 @@
 
             <entry>15</entry>
 
-            <entry>X+2</entry>
+            <entry>5 / 7</entry>
           </row>
 
           <row>
@@ -1661,7 +1673,7 @@
 
             <entry>25</entry>
 
-            <entry>X+6</entry>
+            <entry>9 / 11</entry>
           </row>
 
           <row>
@@ -1673,7 +1685,7 @@
 
             <entry>40</entry>
 
-            <entry>X+12</entry>
+            <entry>15 / 17</entry>
           </row>
 
           <row>
@@ -1685,7 +1697,7 @@
 
             <entry>60</entry>
 
-            <entry>X+20</entry>
+            <entry>23 / 25</entry>
           </row>
 
           <row>
@@ -1697,7 +1709,7 @@
 
             <entry>85</entry>
 
-            <entry>X+30</entry>
+            <entry>33 / 35</entry>
           </row>
 
           <row role="gray">
@@ -1709,7 +1721,7 @@
 
             <entry>115</entry>
 
-            <entry>X+42</entry>
+            <entry>45 / 47</entry>
           </row>
 
           <row role="gray">
@@ -1721,11 +1733,17 @@
 
             <entry>150</entry>
 
-            <entry>X+56</entry>
+            <entry>59 / 61</entry>
           </row>
         </tbody>
       </tgroup>
     </informaltable>
+
+    <para>* Die hier angegebenen Kosten gelten für Zauber, die einem einzelnen
+    Magiebereich zugeordnet sind — die erste Zahl steht für einen erlernten
+    Zauber, die zweite für einen selbst entwickelten. Bei Zaubern, die mehr
+    als einem Bereich zugeordnet sind, werden pro weiterem Bereich 3 bzw. 5 EP
+    (für den ersten Zauberspruchpunkt) addiert.</para>
 
     <sidebar>
       <para>Der Meister kann neue Rollenspielrunden mit erfahreneren oder
@@ -1739,131 +1757,14 @@
   </appendix>
 
   <appendix>
-    <title>Talentset</title>
+    <title>Fertigkeiten</title>
 
-    <para><emphasis role="bold">Grundset</emphasis></para>
+    <para>Die Fertigkeiten sind in diesem Anhang in die Bereiche „Talente“,
+    „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung, die auch auf dem
+    Charakterblatt verwendet wird, dient jedoch nur der Orientierung — sie hat
+    keinerlei regeltechnische Wirkung.</para>
 
-    <informaltable>
-      <tgroup cols="3">
-        <colspec colnum="1" />
-
-        <colspec align="center" colnum="2" />
-
-        <colspec colnum="3" />
-
-        <thead>
-          <row>
-            <entry>Talent</entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Kurzbeschreibung</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>Körperbeherrschung</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Lesen &amp; Schreiben</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Lehren</entry>
-
-            <entry>KL</entry>
-
-            <entry>für Wissensvermittlung auf magischem, religiösem und
-            weltlichem Gebiet</entry>
-          </row>
-
-          <row>
-            <entry>Magiekunde</entry>
-
-            <entry>KL</entry>
-
-            <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
-            Gruppierungen...)</entry>
-          </row>
-
-          <row>
-            <entry>Menschenkenntnis</entry>
-
-            <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Schleichen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Sinnesschärfe</entry>
-
-            <entry>IN</entry>
-
-            <entry>= Aufmerksamkeit</entry>
-          </row>
-
-          <row>
-            <entry>Sprachen</entry>
-
-            <entry>KL</entry>
-
-            <entry>Pro Punkt beherrscht man eine zusätzliche Sprache</entry>
-          </row>
-
-          <row>
-            <entry></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry><emphasis>Kampftalente</emphasis></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Reaktion</entry>
-
-            <entry>IN</entry>
-
-            <entry>Initiativewurf</entry>
-          </row>
-
-          <row>
-            <entry>Ausweichen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-
-    <para><emphasis role="bold">Zusätzlich</emphasis></para>
+    <para><emphasis role="bold">Talente</emphasis></para>
 
     <informaltable>
       <tgroup cols="3">
@@ -1875,7 +1776,7 @@
 
         <thead>
           <row>
-            <entry>Talent</entry>
+            <entry>Fertigkeit</entry>
 
             <entry>Attribut</entry>
 
@@ -1884,53 +1785,10 @@
         </thead>
 
         <tbody>
-          <row>
-            <entry>Alchemie</entry>
-
-            <entry>KL</entry>
-
-            <entry>Das Brauen und Identifizieren von Elixieren, evtl. auch
-            magische Tinkturen</entry>
-          </row>
-
-          <row>
-            <entry>Etikette</entry>
-
-            <entry>KL</entry>
-
-            <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp; Titel,
-            höfische Tänze</entry>
-          </row>
-
           <row>
             <entry>Falschspiel</entry>
 
             <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Führungsqualitäten</entry>
-
-            <entry>CH</entry>
-
-            <entry>Truppen aufstellen, organisieren, kommandieren, motivieren
-            und Ähnliches</entry>
-          </row>
-
-          <row>
-            <entry>Geographie</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Geschichte</entry>
-
-            <entry>KL</entry>
 
             <entry></entry>
           </row>
@@ -1944,21 +1802,11 @@
           </row>
 
           <row>
-            <entry>Mathematik</entry>
+            <entry>Körperbeherrschung</entry>
 
-            <entry>KL</entry>
+            <entry>GE</entry>
 
-            <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
-            Geometrie</entry>
-          </row>
-
-          <row>
-            <entry>Mechanik</entry>
-
-            <entry>KL</entry>
-
-            <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug), Verständnis
-            für Fallen, Riegel etc.</entry>
+            <entry></entry>
           </row>
 
           <row>
@@ -1970,19 +1818,11 @@
           </row>
 
           <row>
-            <entry>Medizin</entry>
-
-            <entry>KL</entry>
-
-            <entry>bei 1 oder 2 = Erste Hilfe, später echter Medicus</entry>
-          </row>
-
-          <row>
             <entry>Musizieren</entry>
 
             <entry>IN</entry>
 
-            <entry>Separate Talente je Musikinstrument</entry>
+            <entry>Separate Fertigkeiten je Musikinstrument</entry>
           </row>
 
           <row>
@@ -1994,27 +1834,19 @@
           </row>
 
           <row>
-            <entry>Religionskunde</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Pflanzenkunde</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
             <entry>Schauspielerei</entry>
 
             <entry>IN</entry>
 
             <entry>Sowohl Lügen als auch überzeugend zu wirken</entry>
+          </row>
+
+          <row>
+            <entry>Schleichen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
           </row>
 
           <row>
@@ -2043,20 +1875,11 @@
           </row>
 
           <row>
-            <entry>Spurensuche</entry>
+            <entry>Sinnesschärfe</entry>
 
-            <entry>KL</entry>
+            <entry>IN</entry>
 
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Taktik</entry>
-
-            <entry>KL</entry>
-
-            <entry>richtiges militärisches Vorgehen in einzelnen
-            Situationen</entry>
+            <entry>= Aufmerksamkeit</entry>
           </row>
 
           <row>
@@ -2074,9 +1897,162 @@
 
             <entry></entry>
           </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+
+    <para><emphasis role="bold">Wissen</emphasis></para>
+
+    <informaltable>
+      <tgroup cols="3">
+        <colspec colnum="1" />
+
+        <colspec align="center" colnum="2" />
+
+        <colspec colnum="3" />
+
+        <thead>
+          <row>
+            <entry>Fertigkeit</entry>
+
+            <entry>Attribut</entry>
+
+            <entry>Kurzbeschreibung</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>Alchemie</entry>
+
+            <entry>KL</entry>
+
+            <entry>Brauen und Identifizieren von komplexen Elixieren, Giften,
+            evtl. auch magische Tinkturen</entry>
+          </row>
 
           <row>
-            <entry>Tierkunde</entry>
+            <entry>Etikette</entry>
+
+            <entry>KL</entry>
+
+            <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp; Titel,
+            höfische Tänze</entry>
+          </row>
+
+          <row>
+            <entry>Führungsqualitäten</entry>
+
+            <entry>CH</entry>
+
+            <entry>Truppen aufstellen, organisieren, kommandieren, motivieren
+            und Ähnliches</entry>
+          </row>
+
+          <row>
+            <entry>Geographie</entry>
+
+            <entry>KL</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Geschichte</entry>
+
+            <entry>KL</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Lehren</entry>
+
+            <entry>KL</entry>
+
+            <entry>für Wissensvermittlung auf magischem, religiösem und
+            weltlichem Gebiet</entry>
+          </row>
+
+          <row>
+            <entry>Lesen &amp; Schreiben</entry>
+
+            <entry>KL</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Magiekunde</entry>
+
+            <entry>KL</entry>
+
+            <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
+            Gruppierungen...)</entry>
+          </row>
+
+          <row>
+            <entry>Mathematik</entry>
+
+            <entry>KL</entry>
+
+            <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
+            Geometrie</entry>
+          </row>
+
+          <row>
+            <entry>Mechanik</entry>
+
+            <entry>KL</entry>
+
+            <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug), Verständnis
+            für Fallen, Riegel etc.</entry>
+          </row>
+
+          <row>
+            <entry>Medizin</entry>
+
+            <entry>KL</entry>
+
+            <entry>bei 1 oder 2 = Erste Hilfe, später echter Medicus</entry>
+          </row>
+
+          <row>
+            <entry>Menschenkenntnis</entry>
+
+            <entry>IN</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Pflanzenkunde</entry>
+
+            <entry>KL</entry>
+
+            <entry>Wissen über Verbreitung und Wirkung von Pflanzen (besonders
+            Heilpflanzen) sowie einfache Verarbeitung zu bspw. Tee,
+            Pasten</entry>
+          </row>
+
+          <row>
+            <entry>Religionskunde</entry>
+
+            <entry>KL</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Sprachen</entry>
+
+            <entry>KL</entry>
+
+            <entry>Pro Punkt beherrscht man eine zusätzliche Sprache</entry>
+          </row>
+
+          <row>
+            <entry>Spurensuche</entry>
 
             <entry>KL</entry>
 
@@ -2093,24 +2069,258 @@
           </row>
 
           <row>
+            <entry>Taktik</entry>
+
+            <entry>KL</entry>
+
+            <entry>richtiges militärisches Vorgehen in einzelnen
+            Situationen</entry>
+          </row>
+
+          <row>
+            <entry>Tierkunde</entry>
+
+            <entry>KL</entry>
+
+            <entry>Erkennen verschiedener Tierarten, Wissen um deren Verhalten
+            und Verbreitung</entry>
+          </row>
+
+          <row>
             <entry>Wildnisleben</entry>
 
             <entry>KL</entry>
 
-            <entry>Lagerplatz suchen, Jagen, Wasser oder essbare Pflanzen
-            finden</entry>
+            <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder essbare
+            Pflanzen finden</entry>
           </row>
         </tbody>
       </tgroup>
     </informaltable>
 
-    <para><emphasis>Kampftalente</emphasis> (alle auf GE)</para>
+    <para><emphasis role="bold">Kampf</emphasis></para>
 
-    <para>Äxte, Dolche, Scharfe Hiebwaffen, Stumpfe Hiebwaffen, Stabwaffen,
-    Stichwaffen, Schwerter, Peitschen, Zweihänder, Infanteriewaffen,
-    Bogenschießen, Armbrust, verschiedene Wurfwaffen</para>
+    <informaltable>
+      <tgroup cols="3">
+        <colspec colnum="1" />
 
-    <para>Raufen, Boxen, verschiedene Kampftechniken</para>
+        <colspec align="center" colnum="2" />
+
+        <colspec colnum="3" />
+
+        <thead>
+          <row>
+            <entry>Fertigkeit</entry>
+
+            <entry>Attribut</entry>
+
+            <entry>Kurzbeschreibung</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>Reaktion</entry>
+
+            <entry>IN</entry>
+
+            <entry>Initiativewurf</entry>
+          </row>
+
+          <row>
+            <entry>Ausweichen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry><emphasis>Waffenlos</emphasis></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Boxen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Raufen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>&lt;verschiedene Kampftechniken&gt;</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry><emphasis>Nahkampf</emphasis></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Äxte</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Dolche</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Infanteriewaffen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Scharfe Hiebwaffen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Schwerter</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Stabwaffen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Stichwaffen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Stumpfe Hiebwaffen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Peitschen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Zweihänder</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry><emphasis>Fernkampf</emphasis></entry>
+
+            <entry></entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Armbrust</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Bogen</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Wurfaxt</entry>
+
+            <entry>GE</entry>
+
+            <entry></entry>
+          </row>
+
+          <row>
+            <entry>Wurfmesser</entry>
+
+            <entry>GE</entry>
+
+            <entry>Auch für Wurfdolche</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
   </appendix>
 
   <appendix id="waffen">
