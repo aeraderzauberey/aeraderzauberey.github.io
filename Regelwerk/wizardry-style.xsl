@@ -89,6 +89,9 @@
     <xsl:if test="ancestor::thead or ancestor::tfoot or @role='head'">
       <xsl:attribute name="font-family">Carolingia</xsl:attribute>
     </xsl:if>
+    <xsl:if test="ancestor::row[@role='gray']">
+      <xsl:attribute name="color">#A0A0A0</xsl:attribute>
+    </xsl:if>
     <xsl:if test="@role='nowrap' or @role='head'">
       <xsl:attribute name="wrap-option">no-wrap</xsl:attribute>
     </xsl:if>
