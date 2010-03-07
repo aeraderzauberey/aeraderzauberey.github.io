@@ -44,7 +44,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Wirkung</para>
+              <para>Beliebig, siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -57,13 +57,70 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Die Bewegungen des Zaubernden werden übernatürlich
               schnell. Er erhält pro Kraftpunkt abwechselnd Initiative +2 und
               einen zusätzlichen Würfel zur Verteilung auf
               Kampfaktionen.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Nachtsicht</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Bereiche</term>
+
+            <listitem>
+              <para>Belebte Materie, Licht</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>14</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>beliebig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>pro Kraftpunkt 10 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Ziel erhält durch eine vorübergehende Veränderung der
+              Augen die Fähigkeit zur Nachtsicht (Restlichtverstärkung). Bei
+              plötzlichem Blenden kann das Opfer 3-Q Runden nichts mehr
+              sehen.</para>
             </listitem>
           </varlistentry>
 
@@ -114,7 +171,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Pro Erfolg verringert sich die Stärke des Opfers um eins.
@@ -171,7 +228,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Pro Erfolg erhöht sich die Stärke der Zielperson um
@@ -226,7 +283,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Entzieht dem Opfer Lebenskraft und überträgt sie auf den
@@ -268,7 +325,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Wirkung</para>
+              <para>Beliebig, siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -281,7 +338,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Die Bewegungen der Zielperson werden verlangsamt. Sie
@@ -337,7 +394,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Die Schwierigkeit richtet sich nach der Gesundheitsstufe,
@@ -378,7 +435,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>9</para>
+              <para>4-16, siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -386,8 +443,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt entflammt eine etwa handtellergroﬂe
-              Fläche</para>
+              <para>Mindestens ein Punkt pro handtellergroßer entzündeter
+              Fläche, siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -395,17 +452,20 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>Einmalig, das Objekt beginnt nach 4-Q Runden zu
+              brennen.</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
-              <para>Ein Objekt, das prinzipiell brennbar und der Luft
-              ausgesetzt sein muss, fängt Feuer. Dieses Feuer kann jedoch
-              wieder normal gelöscht werden.</para>
+              <para>Ein Objekt fängt Feuer, kann jedoch wieder normal gelöscht
+              werden. Das Objekt muss der Luft ausgesetzt sein. Die
+              Schwierigkeit liegt bei 4 (Stoff, Stroh), 8 (Holz), 12 (Schwer
+              entflammbares Holz) oder 16 (Stahl, Stein). Im letzten Fall wird
+              die doppelte Menge Kraft benötigt.</para>
             </listitem>
           </varlistentry>
 
@@ -456,7 +516,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Feuerregeln fürs Zentrum, pro Meter -1
@@ -511,7 +571,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Pro Meter Entfernung ein halber Meter breiter, und ein
@@ -566,7 +626,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Um den Zaubernden entsteht ein Flammenring, der pro
@@ -623,7 +683,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -681,7 +741,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Das Gesicht der Zielperson wird von einem so starken Licht
@@ -738,7 +798,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>(wie DSA-Flimflam)</para>
@@ -750,62 +810,6 @@
 
             <listitem>
               <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Nachtsicht</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Bereiche</term>
-
-            <listitem>
-              <para>Licht, Belebte Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>14</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>beliebig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>pro Kraftpunkt 10 Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkung</term>
-
-            <listitem>
-              <para>Das Ziel erhält durch eine vorübergehende Veränderung der
-              Augen die Fähigkeit zur Nachtsicht
-              (Restlichtverstärkung).</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -835,7 +839,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>2=Menschengröﬂe, 3=Pferdegröﬂe...</para>
+              <para>2=Menschengröße, 3=Pferdegröße...</para>
             </listitem>
           </varlistentry>
 
@@ -848,7 +852,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Erschafft lichtabsorbierende Sphäre um Objekte oder
@@ -903,7 +907,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -944,7 +948,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>1=Faustgröﬂe, 3=Menschengröﬂe, 4=Pferd mit Reiter,
+              <para>1=Faustgröße, 3=Menschengröße, 4=Pferd mit Reiter,
               6=Kleine Kutsche, ...</para>
             </listitem>
           </varlistentry>
@@ -958,7 +962,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Biegt das Licht um Gegenstände oder Personen herum und
@@ -1007,7 +1011,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Je nach Objekt: 1 = Münzgröﬂe, 2 = Maus, 3 = Katze, 4 =
+              <para>Je nach Objekt: 1 = Münzgröße, 2 = Maus, 3 = Katze, 4 =
               Truhe, 5 = Mensch</para>
             </listitem>
           </varlistentry>
@@ -1022,7 +1026,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde erkennt, ob und welche Zaubersprüche auf dem
@@ -1030,7 +1034,7 @@
               zur Kraftmenge oder sogar dem Zeitpunkt der Verzauberung. Ein
               Misserfolg ist vom Ergebnis "Nicht verzaubert" nicht zu
               unterscheiden, bei komplexen Zaubern sind sogar
-              Fehleinschätzungen möglich. Auﬂerdem fallen die Ergebnisse bei
+              Fehleinschätzungen möglich. Außerdem fallen die Ergebnisse bei
               mangelnder Kenntnis der entsprechenden Magiebereiche recht vage
               aus.</para>
             </listitem>
@@ -1062,7 +1066,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>12</para>
+              <para>12, Rw=A</para>
             </listitem>
           </varlistentry>
 
@@ -1083,7 +1087,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>[1 Erfolg] Kann zaubern? [2] Anzahl der Magiepunkte in
@@ -1142,10 +1146,10 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
-              <para>Der Zaubernde spürt Position und Gröﬂe aller Lebewesen in
+              <para>Der Zaubernde spürt Position und Größe aller Lebewesen in
               seiner Umgebung.</para>
             </listitem>
           </varlistentry>
@@ -1197,7 +1201,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde spürt Position und Form von Objekten und
@@ -1258,10 +1262,10 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
-              <para>Das Zielobjekt wird festgehalten (bei gröﬂeren Objekten,
+              <para>Das Zielobjekt wird festgehalten (bei größeren Objekten,
               wie z.B. Menschen, muss die Stelle benannt werden).</para>
             </listitem>
           </varlistentry>
@@ -1313,7 +1317,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -1338,7 +1342,7 @@
             <term>Bereiche</term>
 
             <listitem>
-              <para></para>
+              <para>Telekinese</para>
             </listitem>
           </varlistentry>
 
@@ -1367,7 +1371,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Wie Motoricus</para>
@@ -1421,7 +1425,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -1475,7 +1479,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Falls ihn keine Hindernisse aufhalten, folgt der
@@ -1531,7 +1535,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>- verringert Sturzschaden (wie hoch wäre der eigentlich?)
@@ -1587,7 +1591,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Drücken/Schieben/Ziehen</para>
@@ -1641,7 +1645,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Wie waffenloser Angriff.</para>
@@ -1663,7 +1667,7 @@
       <title>Telepathie</title>
 
       <section>
-        <title>Lautloses Gespräch</title>
+        <title>Ferner Ruf</title>
 
         <variablelist>
           <varlistentry>
@@ -1678,7 +1682,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>12</para>
+              <para>2 bis 14, siehe Wirkung.</para>
             </listitem>
           </varlistentry>
 
@@ -1686,8 +1690,122 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>pro 20m Radius der "Gesprächszone" oder Person (ab der
-              dritten) ein Punkt</para>
+              <para>Ein Punkt pro 50 km Entfernung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Q * 30 Sekunden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Sendet eine Botschaft zu einem Ziel. Schwierigkeit je nach
+              Beziehung zur Zielperson: Naher Blutsverwandter = 6,
+              Langjähriger Freund = 8, Bekannter = 10, Flüchtige Bekanntschaft
+              = 12. Richtung bekannt = -2, Entfernung bekannt = -2.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Gedankenrede</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Bereiche</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>4 bis 14, siehe Wirkung.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Ein Punkt pro 25 km Entfernung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Q * 2 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Beidseitige Verbindung zu einem Ziel. Schwierigkeit je
+              nach Beziehung zur Zielperson: Naher Blutsverwandter = 8,
+              Langjähriger Freund = 10, Bekannter = 12, Flüchtige
+              Bekanntschaft = 14. Richtung bekannt = -2, Entfernung bekannt =
+              -2.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Gesprächszone</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Bereiche</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>pro 20m Radius der Gesprächszone ein Punkt</para>
             </listitem>
           </varlistentry>
 
@@ -1700,11 +1818,13 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde öffnet eine beidseitige telepathische
-              Verbindung zu einer oder mehreren Personen.</para>
+              Verbindung zu einer oder mehreren Personen, die sich zum
+              Zeitpunkt des Zaubers im Sichtfeld des Zaubernden befinden
+              müssen. Die Gesprächszone bewegt sich mit dem Zaubernden.</para>
             </listitem>
           </varlistentry>
 
@@ -1755,7 +1875,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -1788,7 +1908,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>Doppelte WK + 5 [verdeckter Wurf]</para>
+              <para>Doppelte WK + 5 [verdeckter Wurf], Rw=A</para>
             </listitem>
           </varlistentry>
 
@@ -1809,7 +1929,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Bei 6 Erfolgen erhält der Zaubernde einen umfassenden, bei
@@ -1869,7 +1989,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -1923,7 +2043,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Boden wird aufgerissen. Die Schwierigkeit liegt
@@ -1980,7 +2100,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Die verzauberten Münzen erhalten die Eigenschaften von
@@ -2041,7 +2161,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Wasser aus der umgebenden Luft wird von der Zieloberfläche
@@ -2099,7 +2219,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Zieht Grundwasser aus dem Boden.</para>
@@ -2161,7 +2281,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Ein ohrenbetäubender Lärm ertönt.</para>
@@ -2215,7 +2335,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>(ähnlich DSA-Silentium)</para>
@@ -2273,7 +2393,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Das Opfer muss für jede Lüge (oder Verschweigen) die
@@ -2329,7 +2449,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -2383,7 +2503,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Das Opfer verspürt eine gewaltige Furcht vor dem
@@ -2439,7 +2559,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -2497,7 +2617,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Macht Gegenstand/Person gegen Spüren-Versuche
@@ -2552,7 +2672,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Pro Kraftpunkt erscheint das Ziel insgesamt um vier
@@ -2609,7 +2729,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Das Muster eines Zaubers und die ihm innewohnende Kraft
@@ -2671,7 +2791,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
@@ -2729,7 +2849,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Das Opfer führt einen SB-Vergleichswurf mit der Höhe des
@@ -2785,7 +2905,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Sicht und Gleichgewichtssinn des Opfers werden gestört, es
@@ -2846,7 +2966,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>(wie DSA-Fortifex)</para>
@@ -2900,7 +3020,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die ihn
@@ -2955,11 +3075,11 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Der Zaubernde erschafft eine Sphäre, die ihn vor Wind,
-              Regen, Schnee, Staub u.ƒ. schützt. Bei starkem Wind baut sich
+              Regen, Schnee, Staub u.ä. schützt. Bei starkem Wind baut sich
               die Sphäre doppelt so schnell ab, gegen festere Gegenstände wie
               Hagelkörner oder gar Waffen schützt sie überhaupt nicht. Der
               Radius der Sphäre beträgt maximal Q in Schritt.</para>
@@ -3004,7 +3124,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Je nach Objekt: 1 = Münzgröﬂe, ..., 4 = Truhe</para>
+              <para>Je nach Objekt: 1 = Münzgröße, ..., 4 = Truhe</para>
             </listitem>
           </varlistentry>
 
@@ -3017,7 +3137,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Gegenstand wird "aus der Phase" genommen und damit
@@ -3079,7 +3199,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Hebt die Wirkung eines anhaltenden Zaubers auf.
@@ -3135,7 +3255,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Sphäre, die destruktive Zauber auflöst und sich nach und
@@ -3190,7 +3310,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Löst einen gerade gesprochenen Zauber auf, falls genauso
@@ -3249,10 +3369,10 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
-              <para>ƒndert die Richtung eines gerade gesprochenen Zaubers,
+              <para>ändert die Richtung eines gerade gesprochenen Zaubers,
               falls ein Drittel der Original-Erfolge erreicht werden.</para>
             </listitem>
           </varlistentry>
@@ -3312,7 +3432,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>?</para>
@@ -3357,7 +3477,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Wirkung</para>
+              <para>Beliebig, siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -3370,7 +3490,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Verursacht je nach Krafteinsatz nicht soakbare Betäubungs-
@@ -3426,7 +3546,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Zufällig überspringender Blitz. Schlägt auch des öfteren
@@ -3482,7 +3602,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>Wie Kettenblitz, der Zaubernde bestimmt jedoch die
@@ -3537,7 +3657,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>Wirkung</term>
+            <term>Beschreibung</term>
 
             <listitem>
               <para>abwechselnd mental/körperlich? Soaken mit sb oder
