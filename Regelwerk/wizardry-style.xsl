@@ -3,7 +3,7 @@
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
     xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
 
-  <xsl:import href="file:///C:/Programme/docbook-xsl/fo/docbook.xsl"/>
+  <xsl:import href="file:////Library/Tools/docbook-xsl-1.74.0/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
 
   <xsl:param name="paper.type" select="'A4'"></xsl:param>
@@ -18,10 +18,12 @@
     <xsl:attribute name="line-height">1.2</xsl:attribute>
   </xsl:attribute-set>
 
+  <xsl:param name="page.margin.top">1cm</xsl:param>
+  <xsl:param name="body.margin.top">2cm</xsl:param>
+  <xsl:param name="region.before.extent">2cm</xsl:param>
+  <xsl:param name="header.image.height">1.25cm</xsl:param>
 
-  <xsl:param name="region.before.extent">3cm</xsl:param>
-
-  <xsl:param name="header.image.filename">file:///D:/Daten/Rollenspiel/Wizardry/Bilder/temp.png</xsl:param>
+  <xsl:param name="header.image.filename">file:////Users/jens/Documents/Rollenspiel/Wizardry/Logo/Logo.svg</xsl:param>
   <xsl:param name="footer.rule" select="0"></xsl:param>
   
   <!-- This template always returns the string '1', which
@@ -37,7 +39,7 @@
     </xsl:choose>
   </xsl:template>
 
-
+  <xsl:param name="insert.xref.page.number">yes</xsl:param>
 
   <xsl:param name="column.count.body" select="1"></xsl:param>
   <xsl:param name="body.start.indent" select="'0pt'"></xsl:param>
@@ -119,7 +121,7 @@
       <xsl:choose>
 
         <xsl:when test="$position = 'left'">
-          <fo:external-graphic content-height="0.75cm">
+          <fo:external-graphic content-height="1.25cm">
             <xsl:attribute name="src">
               <xsl:call-template name="fo-external-image">
                 <xsl:with-param name="filename" select="$header.image.filename"/>
