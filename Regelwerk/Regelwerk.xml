@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<book lang="de">
-  <bookinfo>
+<book version="5.0" xml:lang="de" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:m="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info>
     <title>Wizardry Regelwerk</title>
 
     <author>
-      <firstname>Jens</firstname>
-
-      <surname>Bannmann</surname>
+      <personname><firstname>Jens</firstname><surname>Bannmann</surname></personname>
     </author>
 
-    <pubdate></pubdate>
+    <pubdate>2009-01-23</pubdate>
 
     <copyright>
       <year>1999</year>
 
-      <year>2007</year>
+      <year>2009</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -107,8 +109,20 @@
         ersetzt; Verwirrende X+2-Notation bei EP-Kosten für Zauber
         entfernt</revremark>
       </revision>
+
+      <revision>
+        <revnumber>9</revnumber>
+
+        <date>2009-01-23</date>
+
+        <revremark>Attributsbonus abgeschafft. EP-Kosten für Zauber
+        vereinheitlicht und den Fertigkeiten angepasst. Initiative
+        verlässlicher gemacht. Charaktere &amp; Werte-Kapitel ausgebaut.
+        Magiebereiche integriert und Reichweiten angegeben. Tabellenbreiten
+        spezifiziert.</revremark>
+      </revision>
     </revhistory>
-  </bookinfo>
+  </info>
 
   <chapter>
     <title>Einleitung</title>
@@ -184,136 +198,1090 @@
     </section>
   </chapter>
 
-  <chapter id="werte">
+  <chapter xml:id="werte">
     <title>Charaktere und ihre Werte</title>
 
     <section>
-      <title>Attribute</title>
+      <title>Eigenschaften</title>
 
-      <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich in
-      acht <firstterm>Attributen</firstterm> nieder. Diese Attribute liegen
-      auf einer Skala zwischen eins und acht, wobei der allgemeine
-      Durchschnitt in der Bevölkerung zwischen 3 und 4 liegt.</para>
+      <para>Charaktere werden durch vier Typen von Eigenschaften beschrieben:
+      Attribute, Fertigkeiten, Magiebereiche und Zaubersprüche. Die Werte
+      dieser Eigenschaften liegen im Bereich von 1 bis 8; für jeden Punkt
+      steht dem Charakter ein Würfel zur Verfügung, den er bei Proben auf die
+      jeweilige Eigenschaft verwendet (siehe <xref
+      linkend="proben" />).</para>
+
+      <para>Während jeder Charakter alle Attribute besitzt, gilt dies für
+      Fertigkeiten, Magiebereiche und Zaubersprüche nicht: hier werden auf dem
+      Charakterblatt jeweils nur die Eigenschaften notiert, die der Charakter
+      auch tatsächlich besitzt.</para>
+
+      <section>
+        <title>Attribute</title>
+
+        <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich
+        in acht <firstterm>Attributen</firstterm> nieder. Der allgemeine
+        Durchschnitt in der Bevölkerung für ein Attribut liegt zwischen 3 und
+        4.</para>
+
+        <informaltable>
+          <tgroup cols="3">
+            <colspec colnum="1" colwidth="2*" />
+
+            <colspec align="center" colnum="2" colwidth="1*" />
+
+            <colspec colnum="3" colwidth="7*" />
+
+            <thead>
+              <row>
+                <entry>Attribut</entry>
+
+                <entry>Abk.</entry>
+
+                <entry>Bedeutung</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>Stärke</entry>
+
+                <entry>ST</entry>
+
+                <entry>Bezeichnet die rein physische Kraft,
+                Widerstandsfähigkeit und Ausdauer</entry>
+              </row>
+
+              <row>
+                <entry>Geschicklichkeit</entry>
+
+                <entry>GE</entry>
+
+                <entry>Schnelligkeit und Gewandtheit, auch
+                Fingerfertigkeit</entry>
+              </row>
+
+              <row>
+                <entry>Intuition</entry>
+
+                <entry>IN</entry>
+
+                <entry>Geistesschärfe, schnelles und richtiges Handeln,
+                Improvisation und eben Intuition(!)</entry>
+              </row>
+
+              <row>
+                <entry>Klugheit</entry>
+
+                <entry>KL</entry>
+
+                <entry>Intelligenz, logisches Denkvermögen, Lern- und
+                Merkfähigkeit</entry>
+              </row>
+
+              <row>
+                <entry>Charisma</entry>
+
+                <entry>CH</entry>
+
+                <entry>Wirkung auf andere, Ausstrahlung; auch wie gut man
+                andere beeinflussen kann</entry>
+              </row>
+
+              <row>
+                <entry>Erscheinungsbild</entry>
+
+                <entry>EB</entry>
+
+                <entry>Maß für körperliche Attraktivität, bestimmt zusammen
+                mit Stärke und Geschicklichkeit das Aussehen</entry>
+              </row>
+
+              <row>
+                <entry>Selbstbeherrschung</entry>
+
+                <entry>SB</entry>
+
+                <entry>Sowohl die Fähigkeit zur geistigen Konzentration als
+                auch zum Ertragen von Schmerzen</entry>
+              </row>
+
+              <row>
+                <entry>Willenskraft</entry>
+
+                <entry>WK</entry>
+
+                <entry>Entschlossenheit, Stärke der Abwehr geistiger
+                Beeinflussung</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </section>
+
+      <section>
+        <title>Fertigkeiten</title>
+
+        <para><firstterm>Fertigkeiten</firstterm> repräsentieren die
+        individuellen Kenntnisse und Fähigkeiten eines Charakters auf dem
+        jeweiligen Gebiet. Jede Fertigkeit ist dabei einem Attribut
+        zugeordnet, das bei Proben mit einbezogen wird.</para>
+
+        <para>Die Fertigkeiten sind in der unten stehenden Liste in die
+        Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung,
+        die auch auf dem Charakterblatt verwendet wird, dient jedoch nur der
+        Orientierung — sie hat keinerlei regeltechnische Wirkung.</para>
+
+        <section>
+          <title>Talente</title>
+
+          <informaltable>
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="3*" />
+
+              <colspec align="center" colnum="2" colwidth="1*" />
+
+              <colspec colnum="3" colwidth="6*" />
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Falschspiel</entry>
+
+                  <entry>IN</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Führungsqualitäten</entry>
+
+                  <entry>CH</entry>
+
+                  <entry>Truppen aufstellen, organisieren, kommandieren,
+                  motivieren und Ähnliches</entry>
+                </row>
+
+                <row>
+                  <entry>Heimlichkeit</entry>
+
+                  <entry>GE</entry>
+
+                  <entry>Schleichen, sich verstecken, unauffällig Personen
+                  verfolgen</entry>
+                </row>
+
+                <row>
+                  <entry>Klettern</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Körperbeherrschung</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Meditation</entry>
+
+                  <entry>SB</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Musizieren</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Separate Fertigkeiten je Musikinstrument</entry>
+                </row>
+
+                <row>
+                  <entry>Reiten</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Schauspielerei</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Sowohl Lügen als auch überzeugend zu wirken</entry>
+                </row>
+
+                <row>
+                  <entry>Schlösser knacken</entry>
+
+                  <entry>IN</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Schwimmen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry>Alles, was über bloßes "über Wasser halten"
+                  hinausgeht: Tauchen, Ausweichen; auch Maß für
+                  Schnelligkeit</entry>
+                </row>
+
+                <row>
+                  <entry>Singen</entry>
+
+                  <entry>IN</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Sinnesschärfe</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>= Aufmerksamkeit</entry>
+                </row>
+
+                <row>
+                  <entry>Tanzen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Taschendiebstahl</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+
+        <section>
+          <title>Wissen</title>
+
+          <informaltable>
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="3*" />
+
+              <colspec align="center" colnum="2" colwidth="1*" />
+
+              <colspec colnum="3" colwidth="6*" />
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Alchemie</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Brauen und Identifizieren von komplexen Elixieren,
+                  Giften, evtl. auch magische Tinkturen</entry>
+                </row>
+
+                <row>
+                  <entry>Etikette</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp;
+                  Titel, höfische Tänze</entry>
+                </row>
+
+                <row>
+                  <entry>Geographie</entry>
+
+                  <entry>KL</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Geschichte</entry>
+
+                  <entry>KL</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Lehren</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>für Wissensvermittlung auf magischem, religiösem und
+                  weltlichem Gebiet</entry>
+                </row>
+
+                <row>
+                  <entry>Lesen &amp; Schreiben</entry>
+
+                  <entry>KL</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Magiekunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
+                  Gruppierungen...)</entry>
+                </row>
+
+                <row>
+                  <entry>Mathematik</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
+                  Geometrie</entry>
+                </row>
+
+                <row>
+                  <entry>Mechanik</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug),
+                  Verständnis für Fallen, Riegel etc.</entry>
+                </row>
+
+                <row>
+                  <entry>Medizin</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>bei 1 oder 2 = Erste Hilfe, später echter
+                  Medicus</entry>
+                </row>
+
+                <row>
+                  <entry>Menschenkenntnis</entry>
+
+                  <entry>IN</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Pflanzenkunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Wissen über Verbreitung und Wirkung von Pflanzen
+                  (besonders Heilpflanzen) sowie einfache Verarbeitung zu
+                  bspw. Tee, Pasten</entry>
+                </row>
+
+                <row>
+                  <entry>Religionskunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Sprachen</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Pro Punkt beherrscht man eine zusätzliche
+                  Sprache</entry>
+                </row>
+
+                <row>
+                  <entry>Spurensuche</entry>
+
+                  <entry>KL</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Strategie</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Schlachtpläne entwerfen, Truppenbewegungen
+                  koordinieren</entry>
+                </row>
+
+                <row>
+                  <entry>Taktik</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>richtiges militärisches Vorgehen in einzelnen
+                  Situationen</entry>
+                </row>
+
+                <row>
+                  <entry>Tierkunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Erkennen verschiedener Tierarten, Wissen um deren
+                  Verhalten und Verbreitung</entry>
+                </row>
+
+                <row>
+                  <entry>Wildnisleben</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder
+                  essbare Pflanzen finden</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+
+        <section>
+          <title>Kampf</title>
+
+          <informaltable>
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="3*" />
+
+              <colspec align="center" colnum="2" colwidth="1*" />
+
+              <colspec colnum="3" colwidth="6*" />
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Reaktion</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Initiativewurf</entry>
+                </row>
+
+                <row>
+                  <entry>Ausweichen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Waffenlos</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Boxen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Raufen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>&lt;verschiedene Kampftechniken&gt;</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Nahkampf</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Äxte</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Dolche</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Infanteriewaffen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Scharfe Hiebwaffen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Schwerter</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Stabwaffen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Stichwaffen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Stumpfe Hiebwaffen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Peitschen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Zweihänder</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Fernkampf</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Armbrust</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Bogen</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Wurfaxt</entry>
+
+                  <entry>GE</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Wurfmesser</entry>
+
+                  <entry>GE</entry>
+
+                  <entry>Auch für Wurfdolche</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+      </section>
+
+      <section>
+        <title>Magiebereiche</title>
+
+        <para>Die magischen Fähigkeiten eines Charakters werden hauptsächlich
+        durch Magiebereiche repräsentiert. Diese bauen aufeinander auf, d.h.
+        für manche Bereiche benötigt man zuerst Kenntnisse in einem oder
+        mehreren anderen. Die folgende Übersicht teilt die Magiebereiche dazu
+        in verschiedene Grade ein: Einen Bereich, für den man z.B. Kenntnisse
+        in insgesamt zwei anderen Bereichen benötigt, nennen wir einen Bereich
+        des Dritten Grades.</para>
+
+        <?dbfo-need height="10cm"?>
+
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry><para><emphasis role="bold">Erster
+                Grad</emphasis></para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Belebte Materie</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Feuer</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Licht</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Spüren</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Telekinese</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Telepathie</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Umwandlung</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Unbelebte Materie</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Wasser</para>
+                    </listitem>
+                  </itemizedlist></entry>
+
+                <entry><para><emphasis role="bold">Zweiter
+                Grad</emphasis></para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Akustik (Telekinese)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Beherrschung (Telepathie 4)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Dämpfen (Spüren 2)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Gedächtnis (Telepathie 3)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Halluzination (Telepathie 2)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Schildung (Telekinese)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Sphärologie (Spüren 3)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Umleiten (Spüren)</para>
+                    </listitem>
+                  </itemizedlist></entry>
+              </row>
+
+              <row>
+                <entry><para><emphasis role="bold">Dritter
+                Grad</emphasis></para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Elementarerschaffung</para>
+
+                      <para>(Element auf 3, Telepathie auf 4)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Nekromantie</para>
+
+                      <para>(Belebte &amp; Unbelebte Materie jew. auf
+                      2)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Teleportation (Sphärologie)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Wetter (Wasser &amp; Feuer)</para>
+                    </listitem>
+                  </itemizedlist></entry>
+
+                <entry><para><emphasis role="bold">Vierter
+                Grad</emphasis></para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Artefaktmagie</para>
+
+                      <para>(Unbelebte Materie &amp; Umleiten auf 2)</para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Elektrizität (Wetter 2)</para>
+                    </listitem>
+                  </itemizedlist><para><emphasis role="bold">Fünfter
+                Grad</emphasis></para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Beschwörung</para>
+
+                      <para>(Sphärologie auf 2 &amp; Beherrschung)</para>
+                    </listitem>
+                  </itemizedlist></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>Details zur Abgrenzung der einzelnen Bereiche voneinander sowie
+        Richtlinien zu ihrer Handhabung im Spiel finden sich in <xref
+        linkend="magiebereiche" />.</para>
+      </section>
+
+      <section>
+        <title>Zaubersprüche</title>
+
+        <para>Zauberkundige können allein mit ihrer Kenntnis der Magiebereiche
+        bereits verschiedenste Zaubersprüche wirken. Dennoch haben Charaktere
+        natürlich ihre Lieblingszauber, in deren Anwendung sie sicherer sind.
+        Diese werden als <firstterm>Zaubersprüche</firstterm> auf dem
+        Charakterblatt eingetragen.</para>
+
+        <para>Weil Zauberkundige je nach Situation nahezu beliebige magische
+        Effekte wirken können, gibt es anders als bei Attributen, Fertigkeiten
+        und Magiebereichen keine abschließende Liste von Zaubersprüchen. Eine
+        beispielhafte Liste von bisher ausgearbeiteten Zaubersprüchen findet
+        sich jedoch im Anhang.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Charaktererschaffung</title>
+
+      <para>Für die Charaktererschaffung stehen dem Spieler 550
+      <firstterm>Erfahrungspunkte</firstterm> (EP) zur Verfügung, welche die
+      Vorgeschichte und Ausbildung des Charakters symbolisieren. Diese
+      sogenannte <firstterm>EP-Basis</firstterm> wird auf dem Charakterblatt
+      notiert. Der Spieler kann mit diesen Erfahrungspunkten nun beliebig
+      viele Attribute, Fertigkeiten, Magiebereiche oder Zaubersprüche jeweils
+      beliebig hoch „kaufen“ — mit zwei Einschränkungen: der höchste für einen
+      neuen Charakter zulässige Wert liegt bei 6, und jeder Charakter muss
+      alle acht Attribute besitzen. Sollten die Erfahrungspunkte nicht
+      vollständig aufgebraucht werden, verfallen sie nicht, sondern können
+      später im Spiel zum Steigern verwendet werden.</para>
+
+      <para>Gemäß den Steigerungsregeln aus dem folgenden Abschnitt ergeben
+      sich folgende Gesamtkosten für die jeweiligen Werte:</para>
 
       <informaltable>
-        <tgroup cols="3">
-          <colspec colnum="1" />
+        <tgroup align="center" cols="3">
+          <colspec colwidth="1*" />
 
-          <colspec align="center" colnum="2" />
+          <colspec colwidth="4*" />
 
-          <colspec colnum="3" />
+          <colspec colwidth="4*" />
+
+          <colspec colwidth="4*" />
+
+          <colspec colwidth="4*" />
 
           <thead>
             <row>
-              <entry>Attribut</entry>
+              <entry></entry>
 
-              <entry>Abk.</entry>
+              <entry>Attribut / Magiebereich</entry>
 
-              <entry>Bedeutung</entry>
+              <entry>Fertigkeit / Zauberspruch</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>Stärke</entry>
+              <entry>1</entry>
 
-              <entry>ST</entry>
+              <entry>10</entry>
 
-              <entry>Bezeichnet die rein physische Kraft, Widerstandsfähigkeit
-              und Ausdauer</entry>
+              <entry>4</entry>
             </row>
 
             <row>
-              <entry>Geschicklichkeit</entry>
+              <entry>2</entry>
 
-              <entry>GE</entry>
+              <entry>15</entry>
 
-              <entry>Schnelligkeit und Gewandtheit, auch
-              Fingerfertigkeit</entry>
+              <entry>6</entry>
             </row>
 
             <row>
-              <entry>Intuition</entry>
+              <entry>3</entry>
 
-              <entry>IN</entry>
+              <entry>25</entry>
 
-              <entry>Geistesschärfe, schnelles und richtiges Handeln,
-              Improvisation und eben Intuition(!)</entry>
+              <entry>10</entry>
             </row>
 
             <row>
-              <entry>Klugheit</entry>
+              <entry>4</entry>
 
-              <entry>KL</entry>
+              <entry>40</entry>
 
-              <entry>Intelligenz, logisches Denkvermögen, Lern- und
-              Merkfähigkeit</entry>
+              <entry>16</entry>
             </row>
 
             <row>
-              <entry>Charisma</entry>
+              <entry>5</entry>
 
-              <entry>CH</entry>
+              <entry>60</entry>
 
-              <entry>Wirkung auf andere, Ausstrahlung; auch wie gut man andere
-              beeinflussen kann</entry>
+              <entry>24</entry>
             </row>
 
             <row>
-              <entry>Erscheinungsbild</entry>
+              <entry>6</entry>
 
-              <entry>EB</entry>
+              <entry>85</entry>
 
-              <entry>Maß für körperliche Attraktivität, bestimmt zusammen mit
-              Stärke und Geschicklichkeit das Aussehen</entry>
+              <entry>34</entry>
             </row>
 
-            <row>
-              <entry>Selbstbeherrschung</entry>
+            <row role="gray">
+              <entry>7</entry>
 
-              <entry>SB</entry>
+              <entry>115</entry>
 
-              <entry>Sowohl die Fähigkeit zur geistigen Konzentration als auch
-              zum Ertragen von Schmerzen</entry>
+              <entry>46</entry>
             </row>
 
-            <row>
-              <entry>Willenskraft</entry>
+            <row role="gray">
+              <entry>8</entry>
 
-              <entry>WK</entry>
+              <entry>150</entry>
 
-              <entry>Entschlossenheit, Stärke der Abwehr geistiger
-              Beeinflussung</entry>
+              <entry>60</entry>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
 
-      <para>Die Attributwerte entsprechen zunächst einmal Würfelanzahlen.
-      Zusätzlich wird die Schwierigkeit einer Probe (siehe dort) noch je nach
-      Höhe des Attributs modifiziert (<firstterm>Attributsbonus</firstterm>).
-      Bei einem Wert unter 3 steigt sie um 1, bei 4, 6 und 8 sinkt sie jeweils
-      um 1, kumulativ (d.h. bei einem Wert von 8 sinkt sie um 3). Lässt irgend
-      ein Effekt ein Attribut vorübergehend sinken oder steigen, bleibt der
-      Attributsbonus davon unbeeinflusst.</para>
+      <sidebar>
+        <para>Der Meister kann neue Rollenspielrunden mit erfahreneren oder
+        unerfahreneren Charakteren ausstatten, in dem er den Wert von 550
+        erhöht oder senkt — fairerweise für alle Spieler. Durch die Verwendung
+        von EP kommt es dennoch nicht zu einem nicht mehr einholbaren oder je
+        nach Verwendung der Punkte unterschiedlich ausgeprägtem
+        Ungleichgewicht, sondern lediglich zu einem "Vorsprung" dieser
+        Charaktere gegenüber anderen Runden.</para>
+      </sidebar>
     </section>
 
-    <section>
-      <title>Fertigkeiten</title>
+    <section xml:id="steigerung">
+      <title>Steigerung von Eigenschaften</title>
 
-      <para>Fertigkeiten repräsentieren die individuellen Kenntnisse und
-      Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jede Fertigkeit
-      ist dabei einem Attribut zugeordnet, das bei Proben mit einbezogen wird.
-      Fertigkeitswerte reichen von eins bis acht, und genau wie bei den
-      Attributen entspricht jeder Punkt einem Würfel, der bei Proben verwendet
-      wird. Anders als bei Attributen besitzen jedoch nicht alle Charaktere
-      alle Fertigkeiten. Stattdessen werden für jeden Charakter nur die
-      Fertigkeiten notiert, die er aufgrund seiner Vorgeschichte erlernt
-      hat.</para>
+      <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
+      Fähigkeiten verbessern — er wird z.B. stärker und geschickter oder
+      erfahrener im Umgang mit Magie. Für die im Spiel gemachten Erfahrungen
+      verteilt der Meister am Ende eines Abenteuers, häufig auch nach jedem
+      Spielabend, weitere Erfahrungspunkte. Die Anzahl der EP sollte sich aus
+      einem Basiswert für das Erreichen des gesetzten Ziels und zusätzlichen
+      Punkten für gute Zusammenarbeit, überraschende Einfälle oder gutes
+      Ausspielen der eigenen Rolle zusammensetzen.</para>
+
+      <sidebar>
+        <para>Es ist unmöglich, genaue Regeln für die Höhe der vergebenen EP
+        festzulegen. Zum einen ist diese stark davon abhängig, wieviel Zeit in
+        der Spielwelt vergangen ist und ob das Abenteuer eher aus alltäglichen
+        oder weltbewegenden Geschehnissen bestand — zum anderen ist es auch
+        schlicht Geschmackssache, wie schnell eine Gruppe erfahrener werden
+        soll. Dennoch sei an dieser Stelle die grobe Richtschnur angegeben,
+        dass ein Spielabend von vier bis fünf Stunden Dauer mit
+        durchschnittlichem Inhalt etwa 12 EP wert sein sollte.</para>
+      </sidebar>
+
+      <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
+      Charakters zu steigern. Der Zeitaufwand und damit die EP-Kosten dafür
+      sind um so höher, je höher der Wert bereits ist: Fertigkeiten oder
+      Zaubersprüche um einen Punkt zu steigern, kostet das Doppelte des
+      bisherigen Wertes in EP, kurz: Alter Wert (AW) mal 2. Attribute und
+      Magiebereiche kosten AW mal 5. Neue Fertigkeiten und Zauber zu erlernen
+      (also der erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
+
+      <informaltable>
+        <tgroup align="center" cols="3">
+          <colspec colwidth="*" />
+
+          <colspec colwidth="*" />
+
+          <colspec colwidth="*" />
+
+          <colspec colwidth="*" />
+
+          <colspec colwidth="*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Attribut / Magiebereich</entry>
+
+              <entry>Fertigkeit / Zauber</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Erster Punkt</entry>
+
+              <entry>10</entry>
+
+              <entry>4</entry>
+            </row>
+
+            <row>
+              <entry>Um 1 steigern</entry>
+
+              <entry>Alter Wert * 5</entry>
+
+              <entry>Alter Wert * 2</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <sidebar>
+        <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine
+        normalen Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen –
+        schließlich wäre es nur schwer erklärbar, wie man (von magoplastischer
+        Chirurgie einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann.
+        In diesem Fall sind natürlich bei der Erschaffung (siehe voriger
+        Abschnitt), sofern es sinnvoll und für das Charakterkonzept wichtig
+        ist, für dieses Attribut höhere Werte als 6 zulässig.</para>
+      </sidebar>
+
+      <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des
+      Spiels erklärbar sein müssen. So kann sich der Spieler von Elris nach
+      dessen missglückten Raubzug sicherlich entscheiden, dass Elris seine
+      Schleichen-Fertigkeit verbessert hat — die Steigerung von Magiekunde
+      dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
+      dass man gerade bei neuen Fertigkeiten einen Lehrmeister oder
+      entsprechende Fachliteratur zur Verfügung haben sollte. Wer den
+      Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine Übung
+      und Training besser werden — der Versuch, sich das Kämpfen mit dem
+      Schwert selbst beizubringen wäre jedoch von vornherein zum Scheitern
+      verurteilt. Bei allen Steigerungen hat daher, wie immer, der Meister das
+      letzte Wort.</para>
     </section>
   </chapter>
 
-  <chapter>
+  <chapter xml:id="proben">
     <title>Proben</title>
 
     <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
@@ -349,19 +1317,16 @@
 
       <para>Der Meister gibt nun unter Berücksichtigung der Situation eine
       <firstterm>Schwierigkeit</firstterm> für die Aktion vor (Standard: 11).
-      Diese Schwierigkeit wird dann mit eventuellen
-      <firstterm>Boni</firstterm> oder <firstterm>Mali</firstterm> des
-      Charakters verrechnet (z.B. Attributsbonus). Anschließend rollt der
-      Spieler seine Würfel und versucht die ermittelte Schwierigkeit mit
-      möglichst vielen Würfeln zu erreichen oder zu übertreffen. Jeden dieser
-      Würfel zählt der Spieler als einen <firstterm>Erfolg</firstterm>. Für
-      jeden Würfel, der eine Eins zeigt, wird ein Erfolg abgezogen. Bleibt am
-      Ende mindestens ein Erfolg übrig, ist die Probe
-      <firstterm>gelungen</firstterm>. Hat ein Spieler keine Erfolge, ist die
-      Aktion <firstterm>gescheitert</firstterm>; hat er mehr Einsen als
-      Erfolge gewürfelt (d.h. eine negative Anzahl Erfolge), ist sie
-      katastrophal fehlgeschlagen — so ein <firstterm>Patzer</firstterm> kann,
-      je nach Situation, durchaus lebensbedrohlich werden.</para>
+      Anschließend rollt der Spieler seine Würfel und versucht die angesagte
+      Schwierigkeit mit möglichst vielen Würfeln zu erreichen oder zu
+      übertreffen. Jeden dieser Würfel zählt der Spieler als einen
+      <firstterm>Erfolg</firstterm>. Für jeden Würfel, der eine Eins zeigt,
+      wird ein Erfolg abgezogen. Bleibt am Ende mindestens ein Erfolg übrig,
+      ist die Probe <firstterm>gelungen</firstterm>. Hat ein Spieler keine
+      Erfolge, ist die Aktion <firstterm>gescheitert</firstterm>; hat er mehr
+      Einsen als Erfolge gewürfelt (d.h. eine negative Anzahl Erfolge), ist
+      sie katastrophal fehlgeschlagen — so ein <firstterm>Patzer</firstterm>
+      kann, je nach Situation, durchaus lebensbedrohlich werden.</para>
 
       <sidebar>
         <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
@@ -429,42 +1394,179 @@
     </section>
   </chapter>
 
-  <chapter id="schaden">
+  <chapter xml:id="schaden">
     <title>Schaden und Regeneration</title>
 
     <section>
       <title>Körperlicher Schaden</title>
 
-      <para>Der Gesundheitszustand jedes Charakters wird durch acht Stufen
+      <para>Der Gesundheitszustand eines Charakters wird durch acht Stufen
       dargestellt. Für jeden Schadenspunkt, den er erhält, wird eine dieser
-      Stufen durchgestrichen. Ist ein Charakter auf der letzten
-      Gesundheitsstufe, so ist er dem Tod nahe und zu keiner Aktion mehr fähig
-      (abgesehen davon ist er sowieso bewusstlos). Wird er nicht sofort
-      versorgt, fällt er ins Koma. Hat er sogar noch mehr Schaden erhalten,
-      kann ihn nur noch der sofortige Einsatz von Magie retten.</para>
+      Stufen durchgestrichen.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
-      er. Bei den Gesundheitsstufen 2 bis 6 ist ein Würfelmalus angegeben, der
-      bei allen Proben — bis auf Schadenswürfe und Widerstandsproben — gilt.
-      Der gleiche Malus wird auch auf die Initiative (siehe <xref
-      linkend="kampf" />) angerechnet. Dabei zählt immer nur der Malus, der
-      bei der letzten durchgestrichenen Stufe angegeben ist.</para>
+      er. Abhängig von seiner Selbstbeherrschung gelten für einen Charakter
+      die folgenden Würfelmali:</para>
 
-      <sidebar>
-        <para><emphasis role="bold">Achtung:</emphasis> Dieses
-        Gesundheitsstufen-System und insbesondere der Würfelmalus macht
-        Wizardry „tödlicher“ als andere Fantasy-Systeme: Ein einzelner, gut
-        gezielter Schwertschlag kann für einen schwach gerüsteten Kämpfer die
-        Kampfunfähigkeit zur Folge haben — und ein, zwei weitere seinen
-        Tod.</para>
-      </sidebar>
+      <informaltable>
+        <tgroup cols="11">
+          <colspec colnum="1" colwidth="*" />
 
-      <para>Charaktere mit hoher Selbstbeherrschung werden von Verwundungen
-      jedoch weniger stark beeinflusst. Regeltechnisch bedeutet dies, dass der
-      Selbstbeherrschungs-Attributsbonus mit dem Malus verrechnet wird und ihn
-      ganz oder teilweise aufhebt. Ein Charakter mit Selbstbeherrschung 6
-      (Attributsbonus 2) erhält also erst bei der vierten Gesundheitsstufe
-      einen Abzug, nämlich einen Würfel.</para>
+          <colspec colnum="2" colwidth="4*" />
+
+          <colspec colnum="3" colwidth="1*" />
+
+          <colspec colnum="2" colwidth="1*" />
+
+          <colspec colnum="5" colwidth="1*" />
+
+          <colspec colnum="6" colwidth="1*" />
+
+          <colspec colnum="7" colwidth="1*" />
+
+          <colspec colnum="8" colwidth="1*" />
+
+          <colspec colnum="9" colwidth="1*" />
+
+          <colspec colnum="10" colwidth="1*" />
+
+          <colspec colnum="11" colwidth="*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Selbstbeherrschung</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>bis 3</entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry>-5</entry>
+
+              <entry>-6</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>ab 4</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry>-5</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>ab 6</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>8</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <para>Der bei der zuletzt durchgestrichenen Stufe angegebene Malus wird
+      auf alle Proben außer Schadens- und Widerstandswürfen angewendet sowie
+      auf die Initiative (siehe <xref linkend="kampf" />) angerechnet.</para>
+
+      <para>Wird die letzte Stufe durchgestrichen, verliert der Charakter das
+      Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
+      kann er gerettet werden. Hat der Charakter aber über die letzte
+      Gesundheitsstufe hinaus Schaden erhalten, kann ihn allenfalls der
+      sofortige Einsatz von Heilungsmagie retten.</para>
     </section>
 
     <section>
@@ -482,11 +1584,103 @@
       übertragen.</para>
 
       <para>Ebenso wie körperlicher Schaden schlägt sich auch
-      Betäubungsschaden in einem Würfelmalus nieder. Dieser Malus wird jedoch
-      nicht zu dem des körperlichen Schadens addiert, stattdessen gilt der
-      jeweils höhere. Außerdem findet, anders als bei körperlichem Schaden,
-      keine Verrechnung mit dem Attributsbonus von Selbstbeherrschung
-      statt.</para>
+      Betäubungsschaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
+      körperlichen als auch Betäubungsschaden erhalten, gilt der jeweils
+      höhere Malus.</para>
+
+      <informaltable>
+        <tgroup cols="14">
+          <colspec colnum="1" colwidth="*" />
+
+          <colspec colnum="1" colwidth="1*" />
+
+          <colspec colnum="1" colwidth="1*" />
+
+          <colspec colnum="4" colwidth="1*" />
+
+          <colspec colnum="5" colwidth="1*" />
+
+          <colspec colnum="6" colwidth="1*" />
+
+          <colspec colnum="7" colwidth="1*" />
+
+          <colspec colnum="8" colwidth="1*" />
+
+          <colspec colnum="9" colwidth="1*" />
+
+          <colspec colnum="1" colwidth="1*" />
+
+          <colspec colnum="11" colwidth="1*" />
+
+          <colspec colnum="12" colwidth="1*" />
+
+          <colspec colnum="13" colwidth="1*" />
+
+          <colspec colnum="14" colwidth="*" />
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry>-4</entry>
+
+              <entry>-5</entry>
+
+              <entry>-6</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
     </section>
 
     <section>
@@ -554,7 +1748,7 @@
     </section>
   </chapter>
 
-  <chapter id="kampf">
+  <chapter xml:id="kampf">
     <title>Kampf</title>
 
     <section>
@@ -568,12 +1762,13 @@
       das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
       einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
       die Reihenfolge der einzelnen Kämpfer (genau genommen Ihrer
-      <firstterm>Aktionsphasen</firstterm>) festzulegen. Jeder Beteiligte
-      (also Spieler- wie Nichtspielercharaktere) rollt dazu einen W20 und
-      addiert dazu Intuition und Reaktion. Je nach dem, welche Waffe er führt,
-      wird das Ergebnis noch modifiziert – ein Dolchkämpfer ist eben oft
-      schneller und wendiger als einer, der ein großes Zweihandschwert führt.
-      Weiterhin spielt der aktuelle Gesundheitszustand eine Rolle (siehe <xref
+      <firstterm>Aktionsphasen</firstterm>) festzulegen. Der
+      Initiative-Basiswert eines Charakters ist die doppelte Summe aus dessen
+      Intuition und Reaktion. Auf den Initiative-Basiswert wird das Ergebnis
+      eines W20-Wurfs addiert sowie abhängig davon, welche Waffe der Charakter
+      führt, noch modifiziert – ein Dolchkämpfer ist eben oft schneller und
+      wendiger als einer, der ein großes Zweihandschwert führt. Weiterhin
+      spielt der aktuelle Gesundheitszustand eine Rolle (siehe <xref
       linkend="schaden" />). Außerdem kann der Meister natürlich zusätzliche
       Modifikatoren auferlegen, z.B. für überraschte Charaktere. Haben mehrere
       Beteiligte die gleiche Initiative, entscheiden zusätzliche W20-Würfe
@@ -594,17 +1789,17 @@
         Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
         zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Säbel ziehen. Elris hat Intuition 4 und
-        Reaktion 5. Sein W20-Wurf ergibt eine 12, macht 21. Er kämpft mit
-        einem Dolch, erhält also keine Abzüge. Tharion hat Intuition und
-        Reaktion jeweils auf 4 und würfelt eine 16, ergibt 24. Er beschränkt
-        sich auf Zauberei und erhält deswegen ebenfalls keine Abzüge. Der
-        erste Gegner (IN 5, Reaktion 4) würfelt eine 7, ergibt 16. Der andere
-        (IN 4, Reaktion 3) eine 14, ergibt 21. Beide kämpfen mit Säbeln, die
-        verglichen mit einem Dolch und blitzschneller Magie natürlich
-        langsamer sind — der Initiativemalus liegt bei 3 (siehe <xref
-        linkend="waffen" />). Elris hat also Glück: er und Tharion sind beide
-        schneller als ihre Gegner, die erst bei 13 und 18 an die Reihe
-        kommen.</para>
+        Reaktion 5, der Initiative-Basiswert beträgt somit 18. Sein W20-Wurf
+        ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
+        Abzüge. Tharion hat Intuition und Reaktion jeweils auf 4 und würfelt
+        eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
+        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reaktion 4)
+        würfelt eine 7, ergibt 25. Der andere (IN 4, Reaktion 3) eine 19,
+        ergibt 30. Beide kämpfen mit Säbeln, die verglichen mit einem Dolch
+        und blitzschneller Magie natürlich langsamer sind — der
+        Initiativemalus liegt bei 3 (siehe <xref linkend="waffen" />). Elris
+        hat also Glück: er und Tharion sind beide schneller als ihre Gegner,
+        die erst bei 22 und 27 an die Reihe kommen.</para>
       </informalexample>
     </section>
 
@@ -694,8 +1889,7 @@
 
       <informalexample>
         <para>Die Schwierigkeit für einen Dolch liegt laut Waffentabelle bei
-        8, für Elris bedeutet das 7 (wegen seines GE-Attributsbonus). Mit
-        seinen fünf Würfeln schafft er vier Erfolge.</para>
+        8. Mit seinen fünf Würfeln schafft Elris vier Erfolge.</para>
 
         <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
         Runde drei Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
@@ -715,10 +1909,8 @@
       Schwierigkeit für diesen <firstterm>Schadenswurf</firstterm> richtet
       sich danach, wie erfolgreich Angriff und Ausweichen/Parade waren: für je
       zwei verbliebene Erfolge (abgerundet) wird die Grundschwierigkeit von 11
-      um eins gesenkt (<firstterm>Trefferbonus</firstterm>). Des weiteren wird
-      der Stärke-Attributsbonus des Angreifers auf die Schwierigkeit
-      angerechnet, sofern es sich um eine Nahkampfwaffe handelt. Jeder Erfolg
-      in diesem Schadenswurf steht zunächst für einen Schadenspunkt.</para>
+      um eins gesenkt (<firstterm>Trefferbonus</firstterm>). Jeder Erfolg in
+      diesem Schadenswurf steht zunächst für einen Schadenspunkt.</para>
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
       Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
@@ -734,11 +1926,10 @@
       <informalexample>
         <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Für Elris,
         der Stärke 4 hat, sind das also 5 Würfel. Die Schwierigkeit von 11
-        wird wegen der zwei verbliebenen Treffer-Erfolge und seines
-        Geschicklichkeits-Attributsbonus jeweils um eins gesenkt — ergibt 9.
-        Bei der Probe erzielt er drei Erfolge. Sein Gegner hat für seinen
-        Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg – es
-        bleiben also noch zwei Schadenspunkte übrig, die beim
+        wird wegen der zwei verbliebenen Treffer-Erfolge um eins gesenkt —
+        ergibt 10. Bei der Probe erzielt er drei Erfolge. Sein Gegner hat für
+        seinen Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg
+        – es bleiben also noch zwei Schadenspunkte übrig, die beim
         Gesundheitszustand vermerkt werden.</para>
       </informalexample>
 
@@ -751,14 +1942,14 @@
     </section>
 
     <section>
-      <title>Rüstungen</title>
+      <title>Rüstungen und Paradewaffen</title>
 
-      <para>Die verschiedenen Arten von Rüstungen werden durch bis zu vier
-      Werte charakterisiert. Der sogenannte <firstterm>Trefferabzug
-      (TA)</firstterm> zieht Erfolge vom Angriffswurf des Gegners ab, bevor
-      dieser den Schadenswurf durchführt. Er verringert also (genau wie
-      Ausweichen/Parade) die Chance, überhaupt getroffen zu werden. Der
-      <firstterm>Rüstungsschutz (RS)</firstterm> zieht Erfolge vom
+      <para>Die verschiedenen Arten von Rüstungen sowie Paradewaffen werden
+      durch bis zu vier Werte charakterisiert. Der sogenannte
+      <firstterm>Trefferabzug (TA)</firstterm> zieht Erfolge vom Angriffswurf
+      des Gegners ab, bevor dieser den Schadenswurf durchführt. Er verringert
+      also (genau wie Ausweichen/Parade) die Chance, überhaupt getroffen zu
+      werden. Der <firstterm>Rüstungsschutz (RS)</firstterm> zieht Erfolge vom
       Schadenswurf ab, verhindert also tatsächliche Schadenspunkte.</para>
 
       <para>Rüstungen haben jedoch auch Nachteile: Zum einen verlangsamt das
@@ -775,9 +1966,8 @@
       <para>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt
       wie Nahkampfwaffen: Der Trefferwurf wird mit den Würfeln aus
       Geschicklichkeit und der entsprechenden Fertigkeit ausgeführt. Die bei
-      der Waffe angegebene Schwierigkeit wird — neben einem eventuellen
-      Geschicklichkeits-Attributsbonus — jedoch noch je nach Distanz und Größe
-      des Ziels modifiziert:</para>
+      der Waffe angegebene Schwierigkeit wird jedoch noch je nach Distanz und
+      Größe des Ziels modifiziert:</para>
 
       <informaltable>
         <tgroup cols="7">
@@ -1033,185 +2223,14 @@
     </section>
   </chapter>
 
-  <chapter id="magie">
+  <chapter xml:id="magie">
     <title>Magie</title>
 
-    <para>Magie ist nichts Übernatürliches. Glaubt man den Magiern, ist sie
-    lediglich die Anwendung der alles umgebenden Kraft. Diese durchzieht die
-    Welt, pulsiert durch jeden Gegenstand und jedes Lebewesen; sie schafft
-    Realität und hält sie zusammen. Zauberer sind Wesen, welche die Gabe
-    besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
-    können, um damit ihre Umgebung zu beeinflussen. Doch dies ist nur
-    <emphasis>eine</emphasis> Erklärung — die Theorien zur Herkunft und
-    Beschaffenheit der Magie sind so vielfältig wie die verschiedenen
-    Traditionen der Zauberkundigen.</para>
-
-    <para>Trotz dieser verschiedenen Lehrmeinungen in der Spielwelt beschreibt
-    dieses Regelwerk ein einheitliches, quasi "neutrales" Magiesystem. Die
-    Namen von Magiebereichen und Effekten bzw. Zaubersprüchen sind bewusst
-    sachlich gehalten — dennoch werden in der Spielwelt natürlich
-    Zauberkundige verschiedener Traditionen ein und denselben Effekt durchaus
-    mit verschiedenen klangvollen Namen bezeichnen.</para>
-
-    <para>Zauberkundige Wizardry-Charaktere nutzen dabei
-    <firstterm>Gebietsmagie</firstterm>, eine Art eingeschränkte Freizauberei.
-    Ein auf dem entsprechenden Magiegebiet bewanderter Zauberer kann einen
+    <para>Ein im entsprechenden Magiebereich bewanderter Zauberer kann einen
     magischen Effekt auch ohne die Kenntnis eines speziellen Zauberspruchs
     hervorrufen, sofern er eine Ahnung hat, wie. Durch wiederholte Anwendung
     und Studium kann der Charakter diesen Effekt dann immer leichter und
     sicherer anwenden.</para>
-
-    <section>
-      <title>Magiebereiche</title>
-
-      <para>Die magischen Fähigkeiten eines Charakters werden hauptsächlich
-      durch Magiebereiche repräsentiert. Diese bauen aufeinander auf, d.h. für
-      manche Bereiche benötigt man zuerst Kenntnisse in einem oder mehreren
-      anderen. Die folgende Übersicht teilt die Magiebereiche dazu in
-      verschiedene Grade ein: Einen Bereich, für den man z.B. Kenntnisse in
-      insgesamt zwei anderen Bereichen benötigt, nennen wir einen Bereich des
-      Dritten Grades.</para>
-
-      <?dbfo-need height="10cm"?>
-
-      <informaltable>
-        <tgroup cols="2">
-          <tbody>
-            <row>
-              <entry><para><emphasis role="bold">Erster
-              Grad</emphasis></para><itemizedlist spacing="compact">
-                  <listitem>
-                    <para>Belebte Materie</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Feuer</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Licht</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Spüren</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Telekinese</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Telepathie</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Umwandlung</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Unbelebte Materie</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Wasser</para>
-                  </listitem>
-                </itemizedlist></entry>
-
-              <entry><para><emphasis role="bold">Zweiter
-              Grad</emphasis></para><itemizedlist spacing="compact">
-                  <listitem>
-                    <para>Akustik (Telekinese)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Beherrschung (Telepathie 4)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Dämpfen (Spüren 2)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Gedächtnis (Telepathie 3)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Halluzination (Telepathie 2)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Schildung (Telekinese)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Sphärologie (Spüren 3)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Umleiten (Spüren)</para>
-                  </listitem>
-                </itemizedlist></entry>
-            </row>
-
-            <row>
-              <entry><para><emphasis role="bold">Dritter
-              Grad</emphasis></para><itemizedlist spacing="compact">
-                  <listitem>
-                    <para>Elementarerschaffung</para>
-
-                    <para>(Element auf 3, Telepathie auf 4)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Nekromantie</para>
-
-                    <para>(Belebte &amp; Unbelebte Materie jew. auf 2)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Teleportation (Sphärologie)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Wetter (Wasser &amp; Feuer)</para>
-                  </listitem>
-                </itemizedlist></entry>
-
-              <entry><para><emphasis role="bold">Vierter
-              Grad</emphasis></para><itemizedlist spacing="compact">
-                  <listitem>
-                    <para>Artefaktmagie</para>
-
-                    <para>(Unbelebte Materie &amp; Umleiten auf 2)</para>
-                  </listitem>
-
-                  <listitem>
-                    <para>Elektrizität (Wetter 2)</para>
-                  </listitem>
-                </itemizedlist><para><emphasis role="bold">Fünfter
-              Grad</emphasis></para><itemizedlist spacing="compact">
-                  <listitem>
-                    <para>Beschwörung</para>
-
-                    <para>(Sphärologie auf 2 &amp; Beherrschung)</para>
-                  </listitem>
-                </itemizedlist></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-
-      <para>Jeder dieser Magiebereiche ist ein eigenes
-      <firstterm>Magiebereichs-Attribut</firstterm>, das im Spiel genauso
-      gehandhabt wird wie die normalen Attribute eines Charakters —
-      insbesondere gilt auch hier ein Attributsbonus bei besonders niedrigen
-      oder hohen Werten (siehe <xref linkend="werte" />). Der maximale in
-      einem Magiebereich erreichbare Wert ist 8.</para>
-
-      <para>Details zur Abgrenzung der einzelnen Bereiche voneinander sowie
-      Richtlinien zu ihrer Handhabung im Spiel finden sich im Dokument
-      "Magiebereiche".</para>
-    </section>
 
     <section>
       <title>Spontane Magie und Zaubersprüche</title>
@@ -1227,15 +2246,10 @@
       Schwierigkeit fest (siehe <xref linkend="zauberentwicklung" />).</para>
 
       <para>Hat der Charakter diesen Effekt bereits angewendet und ihn als
-      <firstterm>Zauberspruch</firstterm> auf dem Charakterblatt notiert, kann
-      er diese Würfel zusätzlich zu denen des Attributs bei der Zauberprobe
-      verwenden. Wirkungsweise und Schwierigkeit wurden in diesem Fall
-      natürlich bereits festgelegt und ebenfalls notiert, wobei die
-      Schwierigkeit eines Zauberspruchs immer zwei Punkte niedriger ist als
-      bei spontaner Anwendung.</para>
-
-      <para>Zaubersprüche sind vergleichbar mit Fertigkeiten, und sind
-      ebenfalls auf eine maximale Höhe von 8 begrenzt.</para>
+      Zauberspruch auf dem Charakterblatt notiert, kann er diese Würfel
+      zusätzlich zu denen des Attributs bei der Zauberprobe verwenden.
+      Wirkungsweise und Schwierigkeit wurden in diesem Fall natürlich bereits
+      festgelegt und ebenfalls notiert.</para>
     </section>
 
     <section>
@@ -1251,13 +2265,11 @@
     <section>
       <title>Zauberprobe</title>
 
-      <para>Auf die Schwierigkeit der eigentlichen Zauberprobe werden nun der
-      Attributsbonus des Magiebereichs und der von Klugheit angerechnet. Die
-      Probe selbst wird dann genauso wie eine Attribut- bzw. Fertigkeitsprobe
-      durchgeführt.</para>
-
-      <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
-      <firstterm>Qualität</firstterm> des Zaubers.</para>
+      <para>Die Zauberprobe wird mit den Würfeln des Magiebereichs und denen
+      des Zauberspruchs (wenn vorhanden) durchgeführt. Die Anzahl der Erfolge
+      bei der Zauberprobe nennen wir die <firstterm>Qualität</firstterm> des
+      Zaubers; diese fließt häufig in die Ermittlung der spieltechnischen
+      Wirkung eines Zaubers ein.</para>
 
       <para>Je nachdem, wie gut dem Charakter der Zauber gelungen ist, fließt
       die angezogene Kraft voll oder nur teilweise in den Zauber ein: Die über
@@ -1270,7 +2282,7 @@
         oder „Kraftaufwand“ die Rede ist, ist immer die umgesetzte Kraft, also
         die tatsächlich im Zauber enthaltene Energiemenge gemeint. Die Menge
         der angezogenen Kraft ist für den eigentlichen Effekt
-        unwichtig.</para>
+        unerheblich.</para>
       </sidebar>
 
       <informalexample>
@@ -1325,17 +2337,16 @@
     <section>
       <title>Wirkungsdauer</title>
 
-      <para>Sofern bei einem (nicht permanenten) Spruch nichts zur
-      Wirkungsdauer angegeben ist, hält der Effekt so viele Runden an, wie die
-      Qualität beträgt. Danach kann der Zauber jedoch wieder mit neuer Kraft
-      versorgt werden – das heißt, der Zaubernde muss erneut eine
+      <para>Die Wirkungsdauer ist bei jedem Zauberspruch jeweils angegeben.
+      Nach Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
+      versorgt werden — das heißt, der Zaubernde muss erneut eine
       Widerstandsprobe gegen den Magieschaden ablegen, mit genauso vielen
       Würfeln wie bei der ersten.</para>
 
       <sidebar>
         <para><emphasis role="bold">Beachten Sie:</emphasis> Ein Charakter
         darf niemals mehr als eine mentale Widerstandsprobe pro Runde
-        durchführen – erhält er also z.B. während einer Runde nach dem
+        durchführen — erhält er also z.B. während einer Runde nach dem
         „Auffüllen“ eines Zaubers zusätzlichen mentalen Schaden, kann er
         diesen nicht mehr vermeiden!</para>
       </sidebar>
@@ -1362,11 +2373,8 @@
       Zusatzregeln:</para>
 
       <para>In die Würfelanzahl der Probe fließt neben den Zauberpunkten nur
-      der Durchschnitt der Magiebereiche ein; bei einer Kommazahl gibt der
-      Wert des Primärbereichs den Ausschlag, ob auf- oder abgerundet wird.
-      Außerdem wird nur der Attributsbonus des Primärbereichs auf die
-      Schwierigkeit angerechnet, die Boni der anderen Bereiche werden
-      ignoriert.</para>
+      der Durchschnitt der Magiebereiche ein; ist der Durchschnitt keine ganze
+      Zahl, wird in Richtung des Werts des Primärbereichs gerundet.</para>
 
       <informalexample>
         <para>Der Spruch „Feuerball“ ist den Bereichen „Feuer, Telekinese“
@@ -1374,12 +2382,11 @@
         Telekinese 2, ergibt als Durchschnitt 3,5. Da der Wert des
         Primärbereichs darüber liegt, wird aufgerundet, der Zaubernde erhält
         also 4 Würfel aus seinen Magiebereichen, zu denen er noch seine
-        Zauberwürfel hinzunehmen darf. Außerdem zählt der Attributsbonus von
-        Feuer: die Schwierigkeit sinkt um eins.</para>
+        Zauberwürfel hinzunehmen darf.</para>
       </informalexample>
     </section>
 
-    <section id="zauberentwicklung">
+    <section xml:id="zauberentwicklung">
       <title>Zauberentwicklung</title>
 
       <para>Unter "Zauberentwicklung" verstehen wir das Erstellen einer Regel,
@@ -1479,851 +2486,7 @@
     </section>
   </chapter>
 
-  <appendix id="steigerung">
-    <title>Steigerung</title>
-
-    <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
-    Fähigkeiten verbessern — er wird z.B. stärker und geschickter, oder
-    erfahrener im Umgang mit Magie. Das Maß für diese Erfahrungen sind
-    <firstterm>Erfahrungspunkte</firstterm> (EP). Diese werden vom Meister am
-    Ende eines Abenteuers, häufig auch nach jedem Spielabend, verteilt. Die
-    Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
-    gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
-    überraschende Einfälle oder gutes Ausspielen der eigenen Rolle
-    zusammensetzen.</para>
-
-    <sidebar>
-      <para>Es ist unmöglich, genaue Regeln für die Höhe der vergebenen EP
-      festzulegen. Zum einen ist diese stark davon abhängig, wieviel Zeit in
-      der Spielwelt vergangen ist und ob das Abenteuer eher aus alltäglichen
-      oder weltbewegenden Geschehnissen bestand — zum anderen ist es auch
-      schlicht Geschmackssache, wie schnell eine Gruppe erfahrener werden
-      soll. Dennoch sei an dieser Stelle die grobe Richtschnur angegeben, dass
-      ein Spielabend von vier bis fünf Stunden Dauer mit durchschnittlichem
-      Inhalt etwa 12 EP wert sein sollte.</para>
-    </sidebar>
-
-    <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
-    Charakters zu steigern. Der Zeitaufwand und damit die EP-Kosten dafür sind
-    um so höher, je höher der Wert bereits ist: Fertigkeiten oder
-    Zaubersprüche um einen Punkt zu steigern, kostet das Doppelte des
-    bisherigen Wertes in EP, kurz: Alter Wert (AW) mal 2. Attribute und
-    Magiebereiche kosten AW mal 5. Eine neue Fertigkeit zu erlernen (also der
-    erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
-
-    <para>Zaubersprüche sind ein Spezialfall: Pro beteiligtem Magiebereich
-    kostet das Erlernen eines Zaubers (von anderen oder aus einem Buch) 3 EP,
-    das Einüben eines Zauberspruchs 5 EP. Will jemand also einen
-    Standard-Feuerball (aus 2 Bereichen zusammengesetzt) lernen, kostet das 6
-    EP — will er eine neue Variante erschaffen, kostet ihn das 10 EP. Die
-    folgenden Steigerungen kosten jedoch wieder genauso viel wie die von
-    Fertigkeiten.</para>
-
-    <informaltable>
-      <tgroup align="center" cols="5">
-        <colspec colwidth="*" />
-
-        <colspec colwidth="*" />
-
-        <colspec colwidth="*" />
-
-        <colspec colwidth="*" />
-
-        <colspec colwidth="*" />
-
-        <thead>
-          <row>
-            <entry></entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Fertigkeit</entry>
-
-            <entry>Magiebereich</entry>
-
-            <entry>Zauberspruch</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>Erster Punkt</entry>
-
-            <entry>10</entry>
-
-            <entry>4</entry>
-
-            <entry>10</entry>
-
-            <entry role="nowrap">pro Bereich 3 oder 5</entry>
-          </row>
-
-          <row>
-            <entry>Um 1 steigern</entry>
-
-            <entry>AW * 5</entry>
-
-            <entry>AW * 2</entry>
-
-            <entry>AW * 5</entry>
-
-            <entry>AW * 2</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-
-    <sidebar>
-      <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine normalen
-      Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen – schließlich
-      wäre es nur schwer erklärbar, wie man (von magoplastischer Chirurgie
-      einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann. In diesem
-      Fall sind natürlich bei der Erschaffung (siehe nächster Abschnitt),
-      sofern es sinnvoll und für das Charakterkonzept wichtig ist, für dieses
-      Attribut höhere Werte als 6 zulässig.</para>
-    </sidebar>
-
-    <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des Spiels
-    erklärbar sein müssen. So kann sich der Spieler von Elris nach dessen
-    missglückten Raubzug sicherlich entscheiden, dass Elris seine
-    Schleichen-Fertigkeit verbessert hat — die Steigerung von Magiekunde
-    dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
-    dass man gerade bei neuen Fertigkeiten einen Lehrmeister oder
-    entsprechende Fachliteratur zur Verfügung haben sollte. Wer den
-    Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine Übung
-    und Training besser werden — der Versuch, sich das Kämpfen mit dem Schwert
-    selbst beizubringen wäre jedoch von vornherein zum Scheitern verurteilt.
-    Bei allen Steigerungen hat daher, wie immer, der Meister das letzte
-    Wort.</para>
-  </appendix>
-
-  <appendix>
-    <title>Charaktererschaffung</title>
-
-    <para>Für die Charaktererschaffung stehen dem Spieler 550 Erfahrungspunkte
-    zur Verfügung, welche die Vorgeschichte und Ausbildung des Charakters
-    symbolisieren. Der Spieler kann mit diesen Erfahrungspunkten beliebig
-    viele Attribute, Fertigkeiten, Magiebereiche oder Zaubersprüche jeweils
-    beliebig hoch „kaufen“ — mit zwei Einschränkungen: der höchste für einen
-    neuen Charakter zulässige Wert liegt bei 6, und jeder Charakter muss alle
-    acht Attribute besitzen. Sollten die Erfahrungspunkte nicht vollständig
-    aufgebraucht werden, verfallen sie nicht, sondern können später im Spiel
-    zum Steigern verwendet werden.</para>
-
-    <para>Gemäß den Steigerungsregeln aus dem vorigen Abschnitt ergeben sich
-    folgende Gesamtkosten für die jeweiligen Werte:</para>
-
-    <informaltable>
-      <tgroup align="center" cols="5">
-        <colspec colwidth="1*" />
-
-        <colspec colwidth="4*" />
-
-        <colspec colwidth="4*" />
-
-        <colspec colwidth="4*" />
-
-        <colspec colwidth="4*" />
-
-        <thead>
-          <row>
-            <entry></entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Fertigkeit</entry>
-
-            <entry>Magiebereich</entry>
-
-            <entry>Zauberspruch*</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>1</entry>
-
-            <entry>10</entry>
-
-            <entry>4</entry>
-
-            <entry>10</entry>
-
-            <entry role="nowrap">3 / 5</entry>
-          </row>
-
-          <row>
-            <entry>2</entry>
-
-            <entry>15</entry>
-
-            <entry>6</entry>
-
-            <entry>15</entry>
-
-            <entry>5 / 7</entry>
-          </row>
-
-          <row>
-            <entry>3</entry>
-
-            <entry>25</entry>
-
-            <entry>10</entry>
-
-            <entry>25</entry>
-
-            <entry>9 / 11</entry>
-          </row>
-
-          <row>
-            <entry>4</entry>
-
-            <entry>40</entry>
-
-            <entry>16</entry>
-
-            <entry>40</entry>
-
-            <entry>15 / 17</entry>
-          </row>
-
-          <row>
-            <entry>5</entry>
-
-            <entry>60</entry>
-
-            <entry>24</entry>
-
-            <entry>60</entry>
-
-            <entry>23 / 25</entry>
-          </row>
-
-          <row>
-            <entry>6</entry>
-
-            <entry>85</entry>
-
-            <entry>34</entry>
-
-            <entry>85</entry>
-
-            <entry>33 / 35</entry>
-          </row>
-
-          <row role="gray">
-            <entry>7</entry>
-
-            <entry>115</entry>
-
-            <entry>46</entry>
-
-            <entry>115</entry>
-
-            <entry>45 / 47</entry>
-          </row>
-
-          <row role="gray">
-            <entry>8</entry>
-
-            <entry>150</entry>
-
-            <entry>60</entry>
-
-            <entry>150</entry>
-
-            <entry>59 / 61</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-
-    <para>* Die hier angegebenen Kosten gelten für Zauber, die einem einzelnen
-    Magiebereich zugeordnet sind — die erste Zahl steht für einen erlernten
-    Zauber, die zweite für einen selbst entwickelten. Bei Zaubern, die mehr
-    als einem Bereich zugeordnet sind, werden pro weiterem Bereich 3 bzw. 5 EP
-    (für den ersten Zauberspruchpunkt) addiert.</para>
-
-    <sidebar>
-      <para>Der Meister kann neue Rollenspielrunden mit erfahreneren oder
-      unerfahreneren Charakteren ausstatten, in dem er den Wert von 550 erhöht
-      oder senkt — fairerweise für alle Spieler. Durch die Verwendung von EP
-      kommt es dennoch nicht zu einem nicht mehr einholbaren oder je nach
-      Verwendung der Punkte unterschiedlich ausgeprägtem Ungleichgewicht,
-      sondern lediglich zu einem "Vorsprung" dieser Charaktere gegenüber
-      anderen Runden.</para>
-    </sidebar>
-  </appendix>
-
-  <appendix>
-    <title>Fertigkeiten</title>
-
-    <para>Die Fertigkeiten sind in diesem Anhang in die Bereiche „Talente“,
-    „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung, die auch auf dem
-    Charakterblatt verwendet wird, dient jedoch nur der Orientierung — sie hat
-    keinerlei regeltechnische Wirkung.</para>
-
-    <para><emphasis role="bold">Talente</emphasis></para>
-
-    <informaltable>
-      <tgroup cols="3">
-        <colspec colnum="1" />
-
-        <colspec align="center" colnum="2" />
-
-        <colspec colnum="3" />
-
-        <thead>
-          <row>
-            <entry>Fertigkeit</entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Kurzbeschreibung</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>Falschspiel</entry>
-
-            <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Klettern</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Körperbeherrschung</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Meditation</entry>
-
-            <entry>SB</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Musizieren</entry>
-
-            <entry>IN</entry>
-
-            <entry>Separate Fertigkeiten je Musikinstrument</entry>
-          </row>
-
-          <row>
-            <entry>Reiten</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Schauspielerei</entry>
-
-            <entry>IN</entry>
-
-            <entry>Sowohl Lügen als auch überzeugend zu wirken</entry>
-          </row>
-
-          <row>
-            <entry>Schleichen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Schlösser knacken</entry>
-
-            <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Schwimmen</entry>
-
-            <entry>GE</entry>
-
-            <entry>Alles außer "Über Wasser halten": Tauchen, Ausweichen; auch
-            Maß für Schnelligkeit</entry>
-          </row>
-
-          <row>
-            <entry>Singen</entry>
-
-            <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Sinnesschärfe</entry>
-
-            <entry>IN</entry>
-
-            <entry>= Aufmerksamkeit</entry>
-          </row>
-
-          <row>
-            <entry>Tanzen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Taschendiebstahl</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-
-    <para><emphasis role="bold">Wissen</emphasis></para>
-
-    <informaltable>
-      <tgroup cols="3">
-        <colspec colnum="1" />
-
-        <colspec align="center" colnum="2" />
-
-        <colspec colnum="3" />
-
-        <thead>
-          <row>
-            <entry>Fertigkeit</entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Kurzbeschreibung</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>Alchemie</entry>
-
-            <entry>KL</entry>
-
-            <entry>Brauen und Identifizieren von komplexen Elixieren, Giften,
-            evtl. auch magische Tinkturen</entry>
-          </row>
-
-          <row>
-            <entry>Etikette</entry>
-
-            <entry>KL</entry>
-
-            <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp; Titel,
-            höfische Tänze</entry>
-          </row>
-
-          <row>
-            <entry>Führungsqualitäten</entry>
-
-            <entry>CH</entry>
-
-            <entry>Truppen aufstellen, organisieren, kommandieren, motivieren
-            und Ähnliches</entry>
-          </row>
-
-          <row>
-            <entry>Geographie</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Geschichte</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Lehren</entry>
-
-            <entry>KL</entry>
-
-            <entry>für Wissensvermittlung auf magischem, religiösem und
-            weltlichem Gebiet</entry>
-          </row>
-
-          <row>
-            <entry>Lesen &amp; Schreiben</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Magiekunde</entry>
-
-            <entry>KL</entry>
-
-            <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
-            Gruppierungen...)</entry>
-          </row>
-
-          <row>
-            <entry>Mathematik</entry>
-
-            <entry>KL</entry>
-
-            <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
-            Geometrie</entry>
-          </row>
-
-          <row>
-            <entry>Mechanik</entry>
-
-            <entry>KL</entry>
-
-            <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug), Verständnis
-            für Fallen, Riegel etc.</entry>
-          </row>
-
-          <row>
-            <entry>Medizin</entry>
-
-            <entry>KL</entry>
-
-            <entry>bei 1 oder 2 = Erste Hilfe, später echter Medicus</entry>
-          </row>
-
-          <row>
-            <entry>Menschenkenntnis</entry>
-
-            <entry>IN</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Pflanzenkunde</entry>
-
-            <entry>KL</entry>
-
-            <entry>Wissen über Verbreitung und Wirkung von Pflanzen (besonders
-            Heilpflanzen) sowie einfache Verarbeitung zu bspw. Tee,
-            Pasten</entry>
-          </row>
-
-          <row>
-            <entry>Religionskunde</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Sprachen</entry>
-
-            <entry>KL</entry>
-
-            <entry>Pro Punkt beherrscht man eine zusätzliche Sprache</entry>
-          </row>
-
-          <row>
-            <entry>Spurensuche</entry>
-
-            <entry>KL</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Strategie</entry>
-
-            <entry>KL</entry>
-
-            <entry>Schlachtpläne entwerfen, Truppenbewegungen
-            koordinieren</entry>
-          </row>
-
-          <row>
-            <entry>Taktik</entry>
-
-            <entry>KL</entry>
-
-            <entry>richtiges militärisches Vorgehen in einzelnen
-            Situationen</entry>
-          </row>
-
-          <row>
-            <entry>Tierkunde</entry>
-
-            <entry>KL</entry>
-
-            <entry>Erkennen verschiedener Tierarten, Wissen um deren Verhalten
-            und Verbreitung</entry>
-          </row>
-
-          <row>
-            <entry>Wildnisleben</entry>
-
-            <entry>KL</entry>
-
-            <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder essbare
-            Pflanzen finden</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-
-    <para><emphasis role="bold">Kampf</emphasis></para>
-
-    <informaltable>
-      <tgroup cols="3">
-        <colspec colnum="1" />
-
-        <colspec align="center" colnum="2" />
-
-        <colspec colnum="3" />
-
-        <thead>
-          <row>
-            <entry>Fertigkeit</entry>
-
-            <entry>Attribut</entry>
-
-            <entry>Kurzbeschreibung</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry>Reaktion</entry>
-
-            <entry>IN</entry>
-
-            <entry>Initiativewurf</entry>
-          </row>
-
-          <row>
-            <entry>Ausweichen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry><emphasis>Waffenlos</emphasis></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Boxen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Raufen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>&lt;verschiedene Kampftechniken&gt;</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry><emphasis>Nahkampf</emphasis></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Äxte</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Dolche</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Infanteriewaffen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Scharfe Hiebwaffen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Schwerter</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Stabwaffen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Stichwaffen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Stumpfe Hiebwaffen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Peitschen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Zweihänder</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry><emphasis>Fernkampf</emphasis></entry>
-
-            <entry></entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Armbrust</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Bogen</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Wurfaxt</entry>
-
-            <entry>GE</entry>
-
-            <entry></entry>
-          </row>
-
-          <row>
-            <entry>Wurfmesser</entry>
-
-            <entry>GE</entry>
-
-            <entry>Auch für Wurfdolche</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
-  </appendix>
-
-  <appendix id="waffen">
+  <appendix xml:id="waffen">
     <title>Waffen</title>
 
     <informaltable pgwide="1">
@@ -2951,31 +3114,564 @@
     </informaltable>
 
     <orderedlist numeration="loweralpha">
-      <listitem id="wbt">
+      <listitem xml:id="wbt">
         <para>Bärentatze: Verstärkter Handschuh mit drei fest stehenden
         Klingen, etwa fünf cm lang.</para>
       </listitem>
 
-      <listitem id="wfd">
+      <listitem xml:id="wfd">
         <para>Fangdolch: Bleibt wegen Widerhaken stecken. Herausreißen
         verursacht einen Schadenspunkt (kein Widerstandswurf möglich).</para>
       </listitem>
 
-      <listitem id="wvi">
+      <listitem xml:id="wvi">
         <para>Viper: An den Unterarm geschnallte, etwa 20cm lange Klinge, die
         auf Knopfdruck herausschießt. Lässt sich allenfalls in weiten Ärmeln
         verstecken.</para>
       </listitem>
 
-      <listitem id="wks">
+      <listitem xml:id="wks">
         <para>Klingenstab: Kampfstab mit jeweils drei an den Enden befestigten
         Klingen, selten.</para>
       </listitem>
 
-      <listitem id="wda">
+      <listitem xml:id="wda">
         <para>Doppelarmbrust: Eigentlich zwei leichte Armbrüste in einem, mit
         getrennten Auslösern, kann beide Bolzen in einer Runde abfeuern</para>
       </listitem>
     </orderedlist>
+  </appendix>
+
+  <appendix xml:id="magiebereiche">
+    <title>Magiebereiche</title>
+
+    <section>
+      <title>Einleitung zur Magietheorie</title>
+
+      <para>Magie ist nichts Übernatürliches. Glaubt man den Magiern, ist sie
+      lediglich die Anwendung der alles umgebenden Kraft. Diese durchzieht die
+      Welt, pulsiert durch jeden Gegenstand und jedes Lebewesen; sie schafft
+      Realität und hält sie zusammen. Zauberer sind Wesen, welche die Gabe
+      besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
+      können, um damit ihre Umgebung zu beeinflussen. Doch dies ist nur
+      <emphasis>eine</emphasis> Erklärung — die Theorien zur Herkunft und
+      Beschaffenheit der Magie sind so vielfältig wie die verschiedenen
+      Traditionen der Zauberkundigen.</para>
+
+      <para>Trotz dieser verschiedenen Lehrmeinungen in der Spielwelt
+      beschreibt dieses Regelwerk ein einheitliches, quasi "neutrales"
+      Magiesystem. Die Namen von Magiebereichen und Zaubersprüchen sind
+      bewusst sachlich gehalten — dennoch werden in der Spielwelt natürlich
+      Zauberkundige verschiedener Traditionen ein und denselben Effekt
+      durchaus mit verschiedenen klangvollen Namen bezeichnen.</para>
+
+      <para><emphasis>{pseudo-wissenschaftlichen ansatz
+      erklären}</emphasis></para>
+    </section>
+
+    <section>
+      <title>Erster Grad</title>
+
+      <section>
+        <title>Belebte Materie</title>
+
+        <para>umfasst alle Manipulationen an lebendigen Wesen. Damit ist
+        sowohl das einfache Verformen von Lebewesen als auch solche Dinge wie
+        Heilung gemeint. Prinzipiell wären sogar komplette Verwandlungen in
+        andere Tiere denkbar – die allerdings sehr schwierig sein
+        sollten.</para>
+      </section>
+
+      <section>
+        <title>Feuer</title>
+
+        <para>bezeichnet alle magischen Effekte, die Flammen erzeugen oder
+        verändern sowie Temperaturänderungen (in beide Richtungen, also z.B.
+        auch Einfrieren). Dabei wird häufig die vorhandene Umgebungswärme
+        zusammengezogen und konzentriert. Feuer taucht besonders bei
+        Kampfzaubern wie dem Feuerball häufig in Kombination mit anderen
+        Bereichen auf.</para>
+      </section>
+
+      <section>
+        <title>Licht</title>
+
+        <para>ist sowohl für das Erschaffen von Licht wie auch für Dunkelheit
+        (durch Lichtentzug) zuständig. Es ist ebenfalls möglich, wenn auch
+        sehr schwer, durch Erzeugen von Millionen einzelner Lichtpunkte oder
+        durch Biegen des Lichtes echte Illusionen zu erzeugen.</para>
+      </section>
+
+      <section>
+        <title>Spüren</title>
+
+        <para>umfasst alle Effekte, die gemeinhin als Hellsicht bezeichnet
+        werden. Dabei ist es dem Zaubernden möglich, über das alles umgebende
+        Kraftgewebe Eindrücke zu empfangen, sowohl in seiner Umgebung als auch
+        weiter entfernt. Diese Eindrücke sind jedoch kaum mit denen der
+        „normalen“ Welt zu vergleichen, man sieht nur Ansammlungen von
+        Kraftlinien und Auren. Die Auren von Lebewesen zu interpretieren fällt
+        ebenfalls in diesen Bereich.</para>
+
+        <para>Reichweite: D (Auren: A)</para>
+      </section>
+
+      <section>
+        <title>Telekinese</title>
+
+        <para>ist das beliebige magische Bewegen von Gegenständen. Genauso ist
+        es aber möglich, einfach irgendwo ”draufzuschlagen”, d.h. die magische
+        in physische Kraft umzuwandeln und damit Gegenstände (oder Wesen)
+        wegzuschleudern — in diesem Fall beträgt die Schwierigkeit 11 und
+        jeder Kraftpunkt wird wie ein Erfolg bei einer Stärke-Probe gewertet,
+        z.B. in Vergleichswürfen.</para>
+
+        <para>Reichweite C, keine Modifikation nach Größe des Ziels.</para>
+      </section>
+
+      <section>
+        <title>Telepathie</title>
+
+        <para>ist die Fähigkeit des Gedankenlesens sowie der mentalen
+        Verständigung. Obwohl hauptsächlich für Menschen gedacht, lässt sich
+        diese Fähigkeit auch bei den meisten Tiere einsetzen.</para>
+
+        <section>
+          <title>Schwierigkeit</title>
+
+          <informaltable>
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry>Doppelte WK + X:</entry>
+
+                  <entry>2</entry>
+
+                  <entry>Emotionen oder Gesundheitszustand ermitteln</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>4</entry>
+
+                  <entry>Geistige Botschaft / Telepathische Verbindung</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>ab 8</entry>
+
+                  <entry>Gedankenlesen, auch Wahrheit/Lüge</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+
+        <section>
+          <title>Kraftaufwand</title>
+
+          <para>Eigentlich recht gering, steigt über die Entfernung aber
+          stark.</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Unbelebte Materie</title>
+
+        <para>beschäftigt sich mit dem Verformen von allen toten Materialien.
+        Änderungen von einfachen Stoffeigenschaften sind ebenfalls möglich,
+        wie z.B. Farbe, Oberflächenbeschaffenheit sowie bedingt auch
+        Festigkeit. Aus diesem Gebiet stammen so nützliche Zauber wie
+        Erdspalte oder Treibsand...</para>
+      </section>
+
+      <section>
+        <title>Umwandlung</title>
+
+        <para>ist die Fähigkeit, ein Material in ein anderes zu verwandeln.
+        Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
+        möglich - dummerweise hat diese den Tod des Lebewesens zur
+        Folge...</para>
+      </section>
+
+      <section>
+        <title>Wasser</title>
+
+        <para>ermöglicht die Beeinflussung von Wasser und Flüssigkeiten im
+        allgemeinen, wie zum Beispiel zusammenziehen der Luftfeuchtigkeit,
+        verdampfen oder kondensieren lassen. Kann – in Kombination mit Feuer –
+        Schnee und Eis erzeugen.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Zweiter Grad</title>
+
+      <section>
+        <title>Akustik</title>
+
+        <para>ist eine sehr „feinfühlige“ Variante der Telekinese, nämlich die
+        Beeinflussung und Erzeugung von Schallwellen. Abgesehen von magischem
+        Bauchreden (bei dem die Stimme <emphasis>wirklich</emphasis> aus einer
+        anderen Richtung kommt) ist z.B. auch die Erzeugung einer magischen
+        Stille möglich.</para>
+
+        <para>Reichweite: B</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Telekinese</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Beherrschung</title>
+
+        <para>bezeichnet die Fähigkeit in den Geist eines Menschen
+        einzudringen und seine Gedanken zu beeinflussen oder zu kontrollieren.
+        Dabei ist sowohl ein direkter Befehl, wie auch ein unterschwelliger
+        Zwang möglich. Die Übermittlung der Befehle geschieht über eine
+        telepathische Verbindung.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Telepathie 4</para>
+        </section>
+
+        <section>
+          <title>Schwierigkeit</title>
+
+          <informaltable>
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry>Doppelte WK des Opfers +</entry>
+
+                  <entry>5</entry>
+
+                  <entry>Kein Widerstand; Opfer erkennt für sich keinen
+                  Nachteil bei dieser Aktion</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>6</entry>
+
+                  <entry>Geringer Widerstand; Aktion bedeutet Anstrengung /
+                  Opfer unwillig</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>7</entry>
+
+                  <entry>Starker Widerwillen; Aktion wäre gefährlich</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>8</entry>
+
+                  <entry>Starke Gefahr / Aktion verstößt gegen
+                  Grundsätze/Befehle des Opfers</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>10</entry>
+
+                  <entry>Aktion bedeutet sicheren Tod für Opfer und/oder viele
+                  andere</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <para>Reichweite: A</para>
+        </section>
+
+        <section>
+          <title>Kraftaufwand</title>
+
+          <para>Gering, selbst für einen mehrere Tage anhaltenden Zwang werden
+          nur etwa 4-6 Kraft benötigt.</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Dämpfen</title>
+
+        <para>ist die Fähigkeit, das Pulsieren der Kraft in einem bestimmten
+        Umkreis „lahmzulegen“. In diesem Bereich ist zwar die Realität
+        unverändert, es lässt sich aber keine Magie mehr anwenden. Befindet
+        sich ein Zauberer in einem solchen Bereich, kann er keine Kraft an
+        sich ziehen, zaubert er von außen in einen solches Gebiet hinein, wird
+        sein Zauber „verschluckt“. Auf diese Weise lassen sich auch magische
+        Barrieren bilden, durch die kein Zauber dringen kann (hinter denen
+        aber gezaubert werden kann).</para>
+
+        <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
+        vorübergehend keine Magie lenken kann – selbst permanente Dämpfungen
+        sind, mit hohem Aufwand, möglich.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Spüren 2</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Gedächtnis</title>
+
+        <para>Mit dieser Fähigkeit kann unbemerkt in den Erinnerungen des
+        Opfers gestöbert werden. Sie können außerdem beinahe beliebig
+        manipuliert werden – es können sogar völlig neue Erinnerungen in den
+        Geist des Opfers „eingepflanzt“ werden oder ganze Ereignisse gelöscht
+        werden.</para>
+
+        <para>Wie bei Beherrschung ist auch hier eine telepathische Verbindung
+        absolute Voraussetzung.</para>
+
+        <para>Reichweite: A</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Telepathie 3</para>
+        </section>
+
+        <section>
+          <title>Schwierigkeit</title>
+
+          <para>Doppelte WK. des Opfers +6 bis +12, je nach Komplexität,
+          Wichtigkeit oder Folgen des Ereignisses</para>
+        </section>
+
+        <section>
+          <title>Kraftaufwand</title>
+
+          <para>Gering. Auch für aufwendige Änderungen sind nur 2 bis 4 Kraft
+          nötig.</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Halluzination</title>
+
+        <para>dringt im Gegensatz zur Beherrschung kaum in den Geist des
+        Opfers ein, sondern beeinflusst nur seine Sinneswahrnehmungen. So ist
+        es zum Beispiel möglich, einem Wesen vorzugaukeln, es sehe seinen
+        schlimmsten Alptraum vor sich, oder einfach nur eine Wand an einer
+        bestimmten Stelle. Obwohl die meisten Magiekundigen mit diesem Gebiet
+        nur die Augen täuschen, ist es genauso möglich, den Tast-, Geschmacks-
+        und Geruchssinn oder das Schmerzempfinden zu beeinflussen.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Telepathie 2</para>
+        </section>
+
+        <section>
+          <title>Schwierigkeit</title>
+
+          <para>Doppelte WK. +4 bis +10 (Um so komplexer / größer /
+          unwahrscheinlicher das Bild, desto schwieriger der Zauber).</para>
+
+          <para>Reichweite: B.</para>
+        </section>
+
+        <section>
+          <title>Kraftaufwand</title>
+
+          <para>Gering, je nach Täuschung etwa 2 Kraft pro Runde und
+          Person.</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Schildung</title>
+
+        <para>Im Gegensatz zur Telekinese, die sich mit der Bewegung von
+        Objekten beschäftigt, ist dieser Unterbereich für das Aufhalten
+        selbiger zuständig. Damit ist kein Festhalten gemeint, sondern die
+        Erzeugung eines Felds von Gegenkraft, das Bewegungen unterbindet. Die
+        klassische Anwendung dieses Gebiets besteht natürlich in der
+        Erschaffung aller Arten von magischen Rüstungen und Barrieren.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Telekinese</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Sphärologie</title>
+
+        <para>ist das Gebiet, das sich mit der Beschaffenheit der Welt
+        beschäftigt. Es ermöglicht sowohl das Sehen als auch das Betreten
+        anderer Sphären.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Spüren 3</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Umleiten</title>
+
+        <para>bezeichnet das Lenken von Kraftströmen anderer, die klassische
+        Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die Kraft zu
+        entziehen oder auch das ihn zusammenhaltende „Gewebe“ aufzulösen.
+        Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln zum
+        „gemeinsamen“ Zaubern.</para>
+
+        <section>
+          <title>Voraussetzung</title>
+
+          <para>Spüren</para>
+        </section>
+      </section>
+    </section>
+
+    <section>
+      <title>Dritter Grad</title>
+
+      <section>
+        <title>Elementarerschaffung</title>
+
+        <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, eine
+        Art Elementargeist zu erschaffen (Elemente im Sinn dieses Bereichs
+        sind Unbelebt, Belebt, Feuer, Wasser und Kraft/Umleiten). Dabei zieht
+        er eine entsprechende Menge des Elements zusammen um daraus ein Wesen
+        zu formen. Dieses Wesen wird dann mit Leben erfüllt, in dem der
+        Zauberer einen Teil seines Geistes hineinprojiziert.</para>
+
+        <para>Beherrscht ein Charakter diesen Bereich, kann er ihn mit allen
+        Elementen (die er gut genug beherrscht) benutzen. Es sind auch
+        Elementkombinationen möglich – wie z.B. Feuer &amp; Wasser für ein
+        Eiselementar.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Jeweiliges Element auf 3 &amp; Telepathie auf 4</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Nekromantie</title>
+
+        <para>ermöglicht es, totes Fleisch wieder in „lebendes“ umzuwandeln
+        und damit Leichen wieder mit einem Scheinleben zu erfüllen. Bedingung
+        dafür ist einerseits natürlich noch das Vorhandensein von Fleisch,
+        andererseits das eines Bewusstseins für den Körper – denn sonst kann
+        der Zombie nur als Zimmerdekoration dienen.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Belebte &amp; Unbelebte Materie jeweils auf 2</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Teleportation</title>
+
+        <para>umfasst alle Effekte, die eine Bewegung innerhalb einer Sphäre
+        in Nullzeit ermöglichen. Dazu zählt zunächst das klassische
+        Teleportieren, also das Versetzen eines Stücks der Realität
+        (üblicherweise einen Menschen) an eine andere Stelle – aber auch das
+        Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
+        Orten.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Sphärologie [Spüren]</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Wetter</title>
+
+        <para>ermöglicht es auf magische Weise, das komplexe Zusammenspiel von
+        Luftfeuchtigkeit und –temperatur zu beeinflussen und damit das Wetter
+        (in einem recht kleinen Bereich) zu kontrollieren. Dabei sind nicht
+        nur Wolken, Regen, Schnee und Hagel möglich, sondern natürlich auch
+        Stürme und Orkane (vorausgesetzt man benutzt genug Kraft).</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Wasser &amp; Feuer</para>
+        </section>
+      </section>
+    </section>
+
+    <section>
+      <title>Vierter Grad</title>
+
+      <section>
+        <title>Artefaktmagie</title>
+
+        <para>Mit diesem Gebiet ist es möglich, Gegenstände dahingehend zu
+        verändern, dass sie Zauber speichern können, die dann auf Abruf
+        ausgelöst werden. Weiterhin können selbige Artefakte auch wieder
+        „entzaubert“ werden.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Unbelebte Materie &amp; Umleiten auf 2 [Spüren]</para>
+        </section>
+      </section>
+
+      <section>
+        <title>Elektrizität</title>
+
+        <para>ist das Verständnis von elektrischen Ladungen und damit der
+        Entstehung von Blitzen. Obwohl das Erzeugen selbiger in Wolken
+        leichter fällt, ist deren Vorhandensein keineswegs Bedingung.
+        Ebenfalls im Bereich des Möglichen liegt das simple „Aufladen“ von
+        Gegenständen mit Elektrizität.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Wetter 2 [Wasser &amp; Feuer]</para>
+        </section>
+      </section>
+    </section>
+
+    <section>
+      <title>Fünfter Grad</title>
+
+      <section>
+        <title>Beschwörung</title>
+
+        <para>ist das Öffnen eines Spalts in eine andere Sphäre, um ein Wesen
+        von dort in diese Welt zu rufen und zu kontrollieren.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Sphärologie 2 [Spüren] &amp; Beherrschung [Telepathie]</para>
+        </section>
+      </section>
+    </section>
   </appendix>
 </book>
