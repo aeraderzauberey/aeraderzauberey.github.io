@@ -121,6 +121,14 @@
         Magiebereiche integriert und Reichweiten angegeben. Tabellenbreiten
         spezifiziert.</revremark>
       </revision>
+
+      <revision>
+        <revnumber>10</revnumber>
+
+        <date>2010-08-04 Patzer-Regelung entfernt. Reichweitenmodifikatoren
+        verringert. Magiebereichsbeschreibungen ergänzt. Übersichtsdiagramm
+        für die Magiebereiche eingebunden.</date>
+      </revision>
     </revhistory>
   </info>
 
@@ -267,7 +275,8 @@
                 <entry>IN</entry>
 
                 <entry>Geistesschärfe, schnelles und richtiges Handeln,
-                Improvisation und eben Intuition(!)</entry>
+                Improvisation, soziales Feingefühl und eben
+                Intuition(!)</entry>
               </row>
 
               <row>
@@ -425,7 +434,8 @@
 
                   <entry>IN</entry>
 
-                  <entry>Sowohl Lügen als auch überzeugend zu wirken</entry>
+                  <entry>Überzeugend wirken, Lügen, Geschichten erzählen
+                  (CH)</entry>
                 </row>
 
                 <row>
@@ -898,6 +908,8 @@
               </tbody>
             </tgroup>
           </informaltable>
+
+          <?hard-pagebreak ?>
         </section>
       </section>
 
@@ -912,14 +924,12 @@
         in insgesamt zwei anderen Bereichen benötigt, nennen wir einen Bereich
         des Dritten Grades.</para>
 
-        <?dbfo-need height="10cm"?>
-
         <informaltable>
           <tgroup cols="2">
             <tbody>
               <row>
-                <entry><para><emphasis role="bold">Erster
-                Grad</emphasis></para><itemizedlist spacing="compact">
+                <entry><para role="compactheading">Erster
+                Grad</para><itemizedlist spacing="compact">
                     <listitem>
                       <para>Belebte Materie</para>
                     </listitem>
@@ -955,10 +965,8 @@
                     <listitem>
                       <para>Wasser</para>
                     </listitem>
-                  </itemizedlist></entry>
-
-                <entry><para><emphasis role="bold">Zweiter
-                Grad</emphasis></para><itemizedlist spacing="compact">
+                  </itemizedlist><para role="compactheading">Zweiter
+                Grad</para><itemizedlist spacing="compact">
                     <listitem>
                       <para>Akustik (Telekinese)</para>
                     </listitem>
@@ -990,12 +998,8 @@
                     <listitem>
                       <para>Umleiten (Spüren)</para>
                     </listitem>
-                  </itemizedlist></entry>
-              </row>
-
-              <row>
-                <entry><para><emphasis role="bold">Dritter
-                Grad</emphasis></para><itemizedlist spacing="compact">
+                  </itemizedlist><para role="compactheading">Dritter
+                Grad</para><itemizedlist spacing="compact">
                     <listitem>
                       <para>Elementarerschaffung</para>
 
@@ -1018,8 +1022,18 @@
                     </listitem>
                   </itemizedlist></entry>
 
-                <entry><para><emphasis role="bold">Vierter
-                Grad</emphasis></para><itemizedlist spacing="compact">
+                <entry><mediaobject>
+                    <imageobject>
+                      <imagedata align="center" annotations=""
+                                 fileref="MagiebereicheV.png" format=""
+                                 role="" scale="50" scalefit="0"></imagedata>
+                    </imageobject>
+                  </mediaobject></entry>
+              </row>
+
+              <row>
+                <entry><para role="compactheading">Vierter
+                Grad</para><itemizedlist spacing="compact">
                     <listitem>
                       <para>Artefaktmagie</para>
 
@@ -1029,12 +1043,13 @@
                     <listitem>
                       <para>Elektrizität (Wetter 2)</para>
                     </listitem>
-                  </itemizedlist><para><emphasis role="bold">Fünfter
-                Grad</emphasis></para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Beschwörung</para>
+                  </itemizedlist></entry>
 
-                      <para>(Sphärologie auf 2 &amp; Beherrschung)</para>
+                <entry><para role="compactheading">Fünfter
+                Grad</para><itemizedlist spacing="compact">
+                    <listitem>
+                      <para>Beschwörung (Sphärologie auf 2 &amp;
+                      Beherrschung)</para>
                     </listitem>
                   </itemizedlist></entry>
               </row>
@@ -1258,7 +1273,7 @@
 
       <sidebar>
         <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine
-        normalen Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen –
+        normalen Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen —
         schließlich wäre es nur schwer erklärbar, wie man (von magoplastischer
         Chirurgie einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann.
         In diesem Fall sind natürlich bei der Erschaffung (siehe voriger
@@ -1267,9 +1282,9 @@
       </sidebar>
 
       <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des
-      Spiels erklärbar sein müssen. So kann sich der Spieler von Elris nach
-      dessen missglückten Raubzug sicherlich entscheiden, dass Elris seine
-      Schleichen-Fertigkeit verbessert hat — die Steigerung von Magiekunde
+      Spiels erklärbar sein müssen. So kann sich ein Spieler nach einem
+      Wüstenabenteuer sicherlich entscheiden, dass der Charakter seine
+      Geographie-Fertigkeit verbessert hat — die Steigerung von Schwimmen
       dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
       dass man gerade bei neuen Fertigkeiten einen Lehrmeister oder
       entsprechende Fachliteratur zur Verfügung haben sollte. Wer den
@@ -1301,7 +1316,7 @@
       Fertigkeitspunkten und Punkten im zugeordneten Attribut.</para>
 
       <sidebar>
-        <para>Wie immer hat der Meister das letzte Wort – es kann gerade bei
+        <para>Wie immer hat der Meister das letzte Wort — es kann gerade bei
         Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
         anderes Attribut zu „proben“. Geht es zum Beispiel bei einer
         Etikette-Probe weniger um pures Wissen (wie die richtige Anrede für
@@ -1320,19 +1335,15 @@
       Anschließend rollt der Spieler seine Würfel und versucht die angesagte
       Schwierigkeit mit möglichst vielen Würfeln zu erreichen oder zu
       übertreffen. Jeden dieser Würfel zählt der Spieler als einen
-      <firstterm>Erfolg</firstterm>. Für jeden Würfel, der eine Eins zeigt,
-      wird ein Erfolg abgezogen. Bleibt am Ende mindestens ein Erfolg übrig,
-      ist die Probe <firstterm>gelungen</firstterm>. Hat ein Spieler keine
-      Erfolge, ist die Aktion <firstterm>gescheitert</firstterm>; hat er mehr
-      Einsen als Erfolge gewürfelt (d.h. eine negative Anzahl Erfolge), ist
-      sie katastrophal fehlgeschlagen — so ein <firstterm>Patzer</firstterm>
-      kann, je nach Situation, durchaus lebensbedrohlich werden.</para>
+      <firstterm>Erfolg</firstterm>. Ist mindestens ein Erfolg vorhanden, ist
+      die Probe <firstterm>gelungen</firstterm>. Hat ein Spieler keine
+      Erfolge, ist die Aktion <firstterm>gescheitert</firstterm>.</para>
 
       <sidebar>
         <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
         solchen Fällen entscheidet der Meister, ob die Aktion schlicht
-        unmöglich ist oder er eine Probe zulässt. In diesem Fall werden alle
-        gerollten 20er als Erfolg gewertet.</para>
+        unmöglich ist oder er eine Probe zulässt — dann werden alle gerollten
+        20er als Erfolg gewertet.</para>
       </sidebar>
 
       <informalexample>
@@ -1342,14 +1353,13 @@
         verlangt der Meister von Elris eine Schleichen-Probe. Und weil ja
         ausnahmslos alle Holzdielen die Angewohnheit haben, in den
         unpassendsten Momenten zu knarren und zu quietschen, sagt der Meister
-        eine Schwierigkeit von 17 an.</para>
+        eine Schwierigkeit von 16 an.</para>
 
-        <para>Elris hat Geschicklichkeit 5 (was seine Schwierigkeit um 1 auf
-        16 senkt) und Schleichen 4, macht 9. Er rollt seine 9 Würfel, sie
-        zeigen: 7, 2, 13, 16, 14, 1, 17, 15, 16, ergibt insgesamt zwei Erfolge
-        — Elris schafft es also, kaum verräterische Geräusche zu verursachen.
-        Hätte er keine Erfolge gehabt, wäre er direkt und lautstark auf eine
-        knarrende Diele getreten.</para>
+        <para>Elris hat Geschicklichkeit 5 und Schleichen 4, macht 9. Er rollt
+        seine 9 Würfel, sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt
+        insgesamt zwei Erfolge — Elris schafft es also, kaum verräterische
+        Geräusche zu verursachen. Hätte er keine Erfolge gehabt, wäre er
+        direkt und lautstark auf eine knarrende Diele getreten.</para>
       </informalexample>
     </section>
 
@@ -1462,7 +1472,7 @@
             <row>
               <entry></entry>
 
-              <entry>bis 3</entry>
+              <entry>1-3</entry>
 
               <entry></entry>
 
@@ -1486,7 +1496,7 @@
             <row>
               <entry></entry>
 
-              <entry>ab 4</entry>
+              <entry>4-5</entry>
 
               <entry></entry>
 
@@ -1510,7 +1520,7 @@
             <row>
               <entry></entry>
 
-              <entry>ab 6</entry>
+              <entry>6-7</entry>
 
               <entry></entry>
 
@@ -1574,7 +1584,7 @@
 
       <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
       verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
-      Verletzungen – eben blaue Flecken oder harmlose Abschürfungen. Auch
+      Verletzungen — eben blaue Flecken oder harmlose Abschürfungen. Auch
       Zauberei kann beim Anwender sogenannten Betäubungs- oder auch mentalen
       Schaden verursachen. Dieser Schaden wird durch eine separate Skala von
       zwölf Gesundheitsstufen dargestellt. Hat ein Charakter Betäubungsschaden
@@ -1721,7 +1731,7 @@
       schwerer: Jedes der ersten vier Kästchen darf nach etwa fünf Minuten
       regeneriert werden. Die mittleren vier benötigen jeweils 15, die letzten
       jeweils 30 Minuten. Eine solche Regeneration „zwischendurch“ ist jedoch
-      nicht vollständig – pro Drittel der Gesundheitsskala, das ein Charakter
+      nicht vollständig — pro Drittel der Gesundheitsskala, das ein Charakter
       an einem Tag erreicht hat, bleibt ein Schadenspunkt stehen und wird erst
       regeneriert, wenn der Charakter das nächste Mal ausreichend lange
       schläft.</para>
@@ -1733,12 +1743,12 @@
         dadurch das mittlere Drittel der Skala, benötigen die
         Gesundheitsstufen 6 und 5 jeweils eine Viertelstunde zur Regeneration.
         Anschließend regenerieren sich die Stufen 4 und 3 jeweils innerhalb
-        von fünf Minuten – die restlichen zwei Stufen werden jedoch erst am
+        von fünf Minuten — die restlichen zwei Stufen werden jedoch erst am
         nächsten Tag regeneriert sein.</para>
       </informalexample>
 
       <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
-      selbständig vom Spieler durchzustreichen – stattdessen sollte hier kurz
+      selbständig vom Spieler durchzustreichen — stattdessen sollte hier kurz
       Rücksprache mit dem Meister gehalten werden. Insbesondere bei
       Betäubungsschaden ist dies unerlässlich, denn schließlich hat nur der
       Meister einen genauen Überblick, wie viel gespielte Zeit bereits
@@ -1757,7 +1767,7 @@
       <para>Geraten Charaktere in einen Kampf, werden alle Aktionen in Runden
       abgewickelt. Eine <firstterm>Kampfrunde</firstterm> entspricht dabei
       etwa drei Sekunden der gespielten Zeit. Innerhalb einer Kampfrunde
-      passiert zwar alles nahezu gleichzeitig – dennoch gibt es immer
+      passiert zwar alles nahezu gleichzeitig — dennoch gibt es immer
       Beteiligte, die einen Tick schneller reagieren und den Überblick über
       das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
       einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
@@ -1766,7 +1776,7 @@
       Initiative-Basiswert eines Charakters ist die doppelte Summe aus dessen
       Intuition und Reaktion. Auf den Initiative-Basiswert wird das Ergebnis
       eines W20-Wurfs addiert sowie abhängig davon, welche Waffe der Charakter
-      führt, noch modifiziert – ein Dolchkämpfer ist eben oft schneller und
+      führt, noch modifiziert — ein Dolchkämpfer ist eben oft schneller und
       wendiger als einer, der ein großes Zweihandschwert führt. Weiterhin
       spielt der aktuelle Gesundheitszustand eine Rolle (siehe <xref
       linkend="schaden" />). Außerdem kann der Meister natürlich zusätzliche
@@ -1850,7 +1860,7 @@
         benutzen und drei zurückzuhalten.</para>
 
         <para>Tharion hat Geschicklichkeit 3 und Ausweichen 4 (macht sieben),
-        für Telekinese hätte er acht Würfel – verteilen darf er also 7. Er
+        für Telekinese hätte er acht Würfel — verteilen darf er also 7. Er
         teilt der Aktion vier Würfel und der Reaktion drei Würfel zu.</para>
 
         <para>Die Kampfrunde beginnt nun bei der höchsten Initative, und damit
@@ -1914,14 +1924,15 @@
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
       Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
-      Schadenswiderstandswurf</firstterm> (kurz: Widerstandswurf) ist eine
-      Stärke-Probe, die sowohl die körperliche Widerstandsfähigkeit
-      repräsentiert als auch ein „Wegdrehen-in-letzter-Sekunde“. Sie wird
-      immer gegen eine Schwierigkeit von 11 durchgeführt. Die Anzahl der
-      Erfolge des Widerstandswurfs wird nun von den Schadenserfolgen
-      abgezogen. Die übrigen Erfolge sind die Schadenspunkte, die dem
-      Charakter tatsächlich zugefügt und auf seinem Charakterblatt vermerkt
-      werden (siehe <xref linkend="schaden" />).</para>
+      Schadenswiderstandswurf</firstterm> (kurz:
+      <firstterm>Widerstandswurf</firstterm>) ist eine Stärke-Probe, die
+      sowohl die körperliche Widerstandsfähigkeit repräsentiert als auch ein
+      „Wegdrehen-in-letzter-Sekunde“. Sie wird immer gegen eine Schwierigkeit
+      von 11 durchgeführt. Die Anzahl der Erfolge des Widerstandswurfs wird
+      nun von den Schadenserfolgen abgezogen. Die übrigen Erfolge sind die
+      Schadenspunkte, die dem Charakter tatsächlich zugefügt und auf seinem
+      Charakterblatt vermerkt werden (siehe <xref
+      linkend="schaden" />).</para>
 
       <informalexample>
         <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Für Elris,
@@ -1929,15 +1940,15 @@
         wird wegen der zwei verbliebenen Treffer-Erfolge um eins gesenkt —
         ergibt 10. Bei der Probe erzielt er drei Erfolge. Sein Gegner hat für
         seinen Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg
-        – es bleiben also noch zwei Schadenspunkte übrig, die beim
+        — es bleiben also noch zwei Schadenspunkte übrig, die beim
         Gesundheitszustand vermerkt werden.</para>
       </informalexample>
 
       <sidebar>
         <para>Widerstandswürfe sind selbstverständlich nicht auf
-        Kampfsituationen beschränkt. Vielmehr hat ein Charakter immer dann,
-        wenn er körperlichen Schaden erhält, Anrecht auf einen solchen
-        Wurf.</para>
+        Kampfsituationen beschränkt. Vielmehr wird für einen Charakter immer
+        dann, wenn er körperlichen Schaden erhält, ein solcher Wurf
+        durchgeführt.</para>
       </sidebar>
     </section>
 
@@ -2009,7 +2020,7 @@
 
               <entry>sehr nah</entry>
 
-              <entry>0</entry>
+              <entry>+0</entry>
 
               <entry></entry>
 
@@ -2025,7 +2036,7 @@
 
               <entry>nah</entry>
 
-              <entry>+2</entry>
+              <entry>+1</entry>
 
               <entry></entry>
 
@@ -2041,7 +2052,7 @@
 
               <entry>mittel</entry>
 
-              <entry>+5</entry>
+              <entry>+3</entry>
 
               <entry></entry>
 
@@ -2057,7 +2068,7 @@
 
               <entry>weit</entry>
 
-              <entry>+9</entry>
+              <entry>+6</entry>
 
               <entry></entry>
 
@@ -2115,13 +2126,14 @@
 
               <entry align="center" role="nowrap">Rw-Klasse</entry>
 
-              <entry align="center">Sehr nah</entry>
+              <entry align="center"><para>Sehr
+              nah</para><para>+0</para></entry>
 
-              <entry>Nah</entry>
+              <entry><para>Nah</para><para>+1</para></entry>
 
-              <entry>Mittel</entry>
+              <entry><para>Mittel</para><para>+3</para></entry>
 
-              <entry>Weit</entry>
+              <entry><para>Weit</para><para>+6</para></entry>
 
               <entry></entry>
             </row>
@@ -2215,10 +2227,10 @@
         <para>Ein Schütze möchte mit einem Kriegsbogen (Schwierigkeit 11,
         Reichweitenklasse D) einen Gegner treffen, der etwa 60 Schritt
         entfernt ist. Diese Entfernung entspricht der mittleren Distanz, die
-        Schwierigkeit steigt daher um 4. Bei seinem Gegner handelt es sich um
+        Schwierigkeit steigt daher um 3. Bei seinem Gegner handelt es sich um
         einen Menschen, der damit in die mittlere Größenklasse fällt — ergibt
         +0. Seinen Trefferwurf führt der Schütze also gegen eine Schwierigkeit
-        von 15 aus.</para>
+        von 14 aus.</para>
       </informalexample>
     </section>
   </chapter>
@@ -2296,7 +2308,7 @@
         Telekinese-Würfel, um dem Handgelenk des Diebes einen Schlag zu
         versetzen. Er würfelt eine Qualität von 2, was in einer umgesetzten
         Kraft von 4 Punkten resultiert (die ersten 2 durch die Qualität voll
-        umgesetzt, die anderen drei nur zur Hälfte, ergibt insgesamt 3,5 –
+        umgesetzt, die anderen drei nur zur Hälfte, ergibt insgesamt 3,5 —
         gerundet 4). Das reicht aus, um die Hand des Gauners beiseite zu
         schlagen und den Säbel in hohem Bogen wegfliegen zu lassen.</para>
       </informalexample>
@@ -2367,7 +2379,7 @@
       <para>Manche Zauber sind nicht nur einem, sondern mehreren
       Magiebereichen zugeordnet. Der bei der Beschreibung des Zaubers zuerst
       gelistete Bereich ist dabei derjenige, der die Wirkung des Zaubers
-      hauptsächlich bestimmt – der sogenannte
+      hauptsächlich bestimmt — der sogenannte
       <firstterm>Primärbereich</firstterm>. Solche komplexen Zauber werden im
       Spiel genauso gehandhabt wie alle anderen — es gelten lediglich folgende
       Zusatzregeln:</para>
@@ -2406,10 +2418,7 @@
           <para>Wie komplex soll dieser Zauber sein? Soll ihn jeder Scholar
           wirken können, oder können ihn nur erfahrene Magier meistern? Ist
           die Schwierigkeit festgelegt oder variabel? Welche Faktoren
-          beeinflussen sie? Beachten Sie, dass Sie zunächst die Schwierigkeit
-          für eine spontane Anwendung dieses Effekts festlegen — kauft der
-          Charakter den entsprechenden Zauberspruch, sinkt die Schwierigkeit
-          um zwei.</para>
+          beeinflussen sie?</para>
         </listitem>
 
         <listitem>
@@ -3178,7 +3187,7 @@
         <para>umfasst alle Manipulationen an lebendigen Wesen. Damit ist
         sowohl das einfache Verformen von Lebewesen als auch solche Dinge wie
         Heilung gemeint. Prinzipiell wären sogar komplette Verwandlungen in
-        andere Tiere denkbar – die allerdings sehr schwierig sein
+        andere Tiere denkbar — die allerdings sehr schwierig sein
         sollten.</para>
       </section>
 
@@ -3213,18 +3222,17 @@
         Kraftlinien und Auren. Die Auren von Lebewesen zu interpretieren fällt
         ebenfalls in diesen Bereich.</para>
 
+        <para>Dieser Bereich gehört in nahezu allen strukturierten
+        Magieausbildungen zum Standard.</para>
+
         <para>Reichweite: D (Auren: A)</para>
       </section>
 
       <section>
         <title>Telekinese</title>
 
-        <para>ist das beliebige magische Bewegen von Gegenständen. Genauso ist
-        es aber möglich, einfach irgendwo ”draufzuschlagen”, d.h. die magische
-        in physische Kraft umzuwandeln und damit Gegenstände (oder Wesen)
-        wegzuschleudern — in diesem Fall beträgt die Schwierigkeit 11 und
-        jeder Kraftpunkt wird wie ein Erfolg bei einer Stärke-Probe gewertet,
-        z.B. in Vergleichswürfen.</para>
+        <para>ist das beliebige magische Bewegen von Gegenständen, aber auch
+        die Umwandlung von magischer in rohe physische Kraft.</para>
 
         <para>Reichweite C, keine Modifikation nach Größe des Ziels.</para>
       </section>
@@ -3286,6 +3294,9 @@
         wie z.B. Farbe, Oberflächenbeschaffenheit sowie bedingt auch
         Festigkeit. Aus diesem Gebiet stammen so nützliche Zauber wie
         Erdspalte oder Treibsand...</para>
+
+        <para>Eine vorhandene Stoffeigenschaft leicht zu verändern entspricht
+        einer Schwierigkeit von 7.</para>
       </section>
 
       <section>
@@ -3293,7 +3304,7 @@
 
         <para>ist die Fähigkeit, ein Material in ein anderes zu verwandeln.
         Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
-        möglich - dummerweise hat diese den Tod des Lebewesens zur
+        möglich — dummerweise hat diese den Tod des Lebewesens zur
         Folge...</para>
       </section>
 
@@ -3301,8 +3312,8 @@
         <title>Wasser</title>
 
         <para>ermöglicht die Beeinflussung von Wasser und Flüssigkeiten im
-        allgemeinen, wie zum Beispiel zusammenziehen der Luftfeuchtigkeit,
-        verdampfen oder kondensieren lassen. Kann – in Kombination mit Feuer –
+        allgemeinen, wie zum Beispiel Zusammenziehen der Luftfeuchtigkeit,
+        verdampfen oder kondensieren lassen. Kann — in Kombination mit Feuer —
         Schnee und Eis erzeugen.</para>
       </section>
     </section>
@@ -3420,7 +3431,7 @@
         aber gezaubert werden kann).</para>
 
         <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
-        vorübergehend keine Magie lenken kann – selbst permanente Dämpfungen
+        vorübergehend keine Magie lenken kann — selbst permanente Dämpfungen
         sind, mit hohem Aufwand, möglich.</para>
 
         <section>
@@ -3435,7 +3446,7 @@
 
         <para>Mit dieser Fähigkeit kann unbemerkt in den Erinnerungen des
         Opfers gestöbert werden. Sie können außerdem beinahe beliebig
-        manipuliert werden – es können sogar völlig neue Erinnerungen in den
+        manipuliert werden — es können sogar völlig neue Erinnerungen in den
         Geist des Opfers „eingepflanzt“ werden oder ganze Ereignisse gelöscht
         werden.</para>
 
@@ -3562,7 +3573,7 @@
 
         <para>Beherrscht ein Charakter diesen Bereich, kann er ihn mit allen
         Elementen (die er gut genug beherrscht) benutzen. Es sind auch
-        Elementkombinationen möglich – wie z.B. Feuer &amp; Wasser für ein
+        Elementkombinationen möglich — wie z.B. Feuer &amp; Wasser für ein
         Eiselementar.</para>
 
         <section>
@@ -3578,7 +3589,7 @@
         <para>ermöglicht es, totes Fleisch wieder in „lebendes“ umzuwandeln
         und damit Leichen wieder mit einem Scheinleben zu erfüllen. Bedingung
         dafür ist einerseits natürlich noch das Vorhandensein von Fleisch,
-        andererseits das eines Bewusstseins für den Körper – denn sonst kann
+        andererseits das eines Bewusstseins für den Körper — denn sonst kann
         der Zombie nur als Zimmerdekoration dienen.</para>
 
         <section>
@@ -3594,7 +3605,7 @@
         <para>umfasst alle Effekte, die eine Bewegung innerhalb einer Sphäre
         in Nullzeit ermöglichen. Dazu zählt zunächst das klassische
         Teleportieren, also das Versetzen eines Stücks der Realität
-        (üblicherweise einen Menschen) an eine andere Stelle – aber auch das
+        (üblicherweise einen Menschen) an eine andere Stelle — aber auch das
         Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
         Orten.</para>
 

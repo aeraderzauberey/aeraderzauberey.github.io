@@ -103,10 +103,33 @@
     <xsl:attribute name="padding-right">1em</xsl:attribute>
   </xsl:attribute-set>
 
-  <xsl:template match="informaltable//para">
+  <!-- remove leading space for paras in tables, but keep it between successive paras -->
+  <xsl:template match="informaltable//para[1]">
     <fo:block space-before="0">
       <xsl:apply-templates/>
     </fo:block>
+  </xsl:template>
+
+  <xsl:template match="listitem//para">
+    <fo:block space-before="0">
+      <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:attribute-set name="list.block.spacing">
+<!--    <xsl:if test="ancestor::informaltable">-->
+      <xsl:attribute name="space-before">0</xsl:attribute>
+<!--    </xsl:if>-->
+  </xsl:attribute-set>
+
+  <xsl:template match="para[@role='compactheading']">
+    <fo:block space-after="0" font-weight="bold">
+      <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:template match="processing-instruction('hard-pagebreak')">
+    <fo:block break-after='page'/>
   </xsl:template>
 
   <xsl:template name="header.content">
