@@ -125,9 +125,22 @@
       <revision>
         <revnumber>10</revnumber>
 
-        <date>2010-08-04 Patzer-Regelung entfernt. Reichweitenmodifikatoren
+        <date>2010-08-04</date>
+
+        <revremark>Patzer-Regelung entfernt. Reichweitenmodifikatoren
         verringert. Magiebereichsbeschreibungen ergänzt. Übersichtsdiagramm
-        für die Magiebereiche eingebunden.</date>
+        für die Magiebereiche eingebunden.</revremark>
+      </revision>
+
+      <revision>
+        <revnumber>11</revnumber>
+
+        <date>2010-08-08</date>
+
+        <revremark>Magiebereiche zu Fertigkeiten gemacht, Zaubersprüche als
+        Charakterwerte abgeschafft. Neue Attribute 'Energie' und 'Materie'
+        hinzugefügt. Trivialbereichsregelung hinzugefügt. Einige Magiebereiche
+        umbenannt.</revremark>
       </revision>
     </revhistory>
   </info>
@@ -169,7 +182,7 @@
       anderen Verlauf nehmen.</para>
 
       <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab:
-      anders als in anderen Rollenspielen haben sie keine exakte Liste der
+      anders als in anderen Rollenspielen haben sie keine Liste aller
       Zaubersprüche, die ihr Charakter wirken kann und die sie mechanisch auf
       die Verwendbarkeit in der aktuellen Situation hin überprüfen können. Sie
       benötigen daher einen gewissen Einfallsreichtum, um immer wieder
@@ -212,25 +225,19 @@
     <section>
       <title>Eigenschaften</title>
 
-      <para>Charaktere werden durch vier Typen von Eigenschaften beschrieben:
-      Attribute, Fertigkeiten, Magiebereiche und Zaubersprüche. Die Werte
-      dieser Eigenschaften liegen im Bereich von 1 bis 8; für jeden Punkt
-      steht dem Charakter ein Würfel zur Verfügung, den er bei Proben auf die
-      jeweilige Eigenschaft verwendet (siehe <xref
-      linkend="proben" />).</para>
-
-      <para>Während jeder Charakter alle Attribute besitzt, gilt dies für
-      Fertigkeiten, Magiebereiche und Zaubersprüche nicht: hier werden auf dem
-      Charakterblatt jeweils nur die Eigenschaften notiert, die der Charakter
-      auch tatsächlich besitzt.</para>
+      <para>Charaktere werden durch zwei Typen von Eigenschaften beschrieben:
+      Attribute und Fertigkeiten. Die Werte dieser Eigenschaften liegen im
+      Bereich von 1 bis 8; für jeden Punkt steht dem Charakter ein Würfel zur
+      Verfügung, den er bei Proben auf die jeweilige Eigenschaft verwendet
+      (siehe <xref linkend="proben" />).</para>
 
       <section>
         <title>Attribute</title>
 
         <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich
-        in acht <firstterm>Attributen</firstterm> nieder. Der allgemeine
-        Durchschnitt in der Bevölkerung für ein Attribut liegt zwischen 3 und
-        4.</para>
+        in zehn <firstterm>Attributen</firstterm> nieder — zwei davon sind
+        Magiebegabten vorbehalten. Der allgemeine Durchschnitt in der
+        Bevölkerung für die anderen Attribute liegt zwischen 3 und 4.</para>
 
         <informaltable>
           <tgroup cols="3">
@@ -302,7 +309,7 @@
 
                 <entry>EB</entry>
 
-                <entry>Maß für körperliche Attraktivität, bestimmt zusammen
+                <entry>Maß für körperliche Attraktivität; bestimmt zusammen
                 mit Stärke und Geschicklichkeit das Aussehen</entry>
               </row>
 
@@ -311,8 +318,8 @@
 
                 <entry>SB</entry>
 
-                <entry>Sowohl die Fähigkeit zur geistigen Konzentration als
-                auch zum Ertragen von Schmerzen</entry>
+                <entry>Konzentration, Ertragen von Schmerzen, Verminderung der
+                Ermüdung beim Zaubern</entry>
               </row>
 
               <row>
@@ -321,7 +328,26 @@
                 <entry>WK</entry>
 
                 <entry>Entschlossenheit, Stärke der Abwehr geistiger
-                Beeinflussung</entry>
+                Beeinflussung, Schnelligkeit des Sammelns magischer Energie
+                </entry>
+              </row>
+
+              <row>
+                <entry>Energie</entry>
+
+                <entry>EN</entry>
+
+                <entry>Fähigkeit zur magischen Beeinflussung von Energie
+                (siehe Magiefertigkeiten)</entry>
+              </row>
+
+              <row>
+                <entry>Materie</entry>
+
+                <entry>MA</entry>
+
+                <entry>Fähigkeit zur magischen Beeinflussung von Materie
+                (siehe Magiefertigkeiten)</entry>
               </row>
             </tbody>
           </tgroup>
@@ -908,194 +934,348 @@
               </tbody>
             </tgroup>
           </informaltable>
-
-          <?hard-pagebreak ?>
         </section>
-      </section>
 
-      <section>
-        <title>Magiebereiche</title>
+        <section>
+          <title>Magie</title>
 
-        <para>Die magischen Fähigkeiten eines Charakters werden hauptsächlich
-        durch Magiebereiche repräsentiert. Diese bauen aufeinander auf, d.h.
-        für manche Bereiche benötigt man zuerst Kenntnisse in einem oder
-        mehreren anderen. Die folgende Übersicht teilt die Magiebereiche dazu
-        in verschiedene Grade ein: Einen Bereich, für den man z.B. Kenntnisse
-        in insgesamt zwei anderen Bereichen benötigt, nennen wir einen Bereich
-        des Dritten Grades.</para>
+          <para>Die magischen Fähigkeiten eines Charakters sind in zwei
+          Bereiche unterteilt, Energie und Materie. Jede Magiefertigkeit ist
+          einem dieser beiden Attribute zugeordnet.</para>
 
-        <informaltable>
-          <tgroup cols="2">
-            <tbody>
-              <row>
-                <entry><para role="compactheading">Erster
-                Grad</para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Belebte Materie</para>
-                    </listitem>
+          <para>Im Unterschied zu den anderen Fertigkeiten bauen die
+          Magiefertigkeiten aufeinander auf, d.h. für manche Fertigkeiten
+          benötigt man zuerst Kenntnisse in einer oder mehreren anderen. Die
+          folgende Übersicht teilt die Magiefertigkeiten dazu in verschiedene
+          <firstterm>Grade</firstterm> ein: Eine Fertigkeit, für die man z.B.
+          Kenntnisse in insgesamt zwei anderen Fertigkeiten benötigt, nennen
+          wir eine Fertigkeit des dritten Grades.</para>
 
-                    <listitem>
-                      <para>Feuer</para>
-                    </listitem>
+          <para>Details zur Abgrenzung der einzelnen Fertigkeiten voneinander
+          sowie Richtlinien zu ihrer Handhabung im Spiel finden sich in <xref
+          linkend="magiebereiche" />.</para>
 
-                    <listitem>
-                      <para>Licht</para>
-                    </listitem>
+          <informaltable>
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="3*" />
 
-                    <listitem>
-                      <para>Spüren</para>
-                    </listitem>
+              <colspec align="center" colnum="2" colwidth="1*" />
 
-                    <listitem>
-                      <para>Telekinese</para>
-                    </listitem>
+              <colspec colnum="3" colwidth="6*" />
 
-                    <listitem>
-                      <para>Telepathie</para>
-                    </listitem>
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
 
-                    <listitem>
-                      <para>Umwandlung</para>
-                    </listitem>
+                  <entry>Attribut</entry>
 
-                    <listitem>
-                      <para>Unbelebte Materie</para>
-                    </listitem>
+                  <entry>Voraussetzungen</entry>
+                </row>
+              </thead>
 
-                    <listitem>
-                      <para>Wasser</para>
-                    </listitem>
-                  </itemizedlist><para role="compactheading">Zweiter
-                Grad</para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Akustik (Telekinese)</para>
-                    </listitem>
+              <tbody>
+                <row>
+                  <entry><emphasis>Erster Grad</emphasis></entry>
 
-                    <listitem>
-                      <para>Beherrschung (Telepathie 4)</para>
-                    </listitem>
+                  <entry></entry>
 
-                    <listitem>
-                      <para>Dämpfen (Spüren 2)</para>
-                    </listitem>
+                  <entry></entry>
+                </row>
 
-                    <listitem>
-                      <para>Gedächtnis (Telepathie 3)</para>
-                    </listitem>
+                <row>
+                  <entry>Belebte Materie</entry>
 
-                    <listitem>
-                      <para>Halluzination (Telepathie 2)</para>
-                    </listitem>
+                  <entry>MA</entry>
 
-                    <listitem>
-                      <para>Schildung (Telekinese)</para>
-                    </listitem>
+                  <entry></entry>
+                </row>
 
-                    <listitem>
-                      <para>Sphärologie (Spüren 3)</para>
-                    </listitem>
+                <row>
+                  <entry>Flüssigkeiten</entry>
 
-                    <listitem>
-                      <para>Umleiten (Spüren)</para>
-                    </listitem>
-                  </itemizedlist><para role="compactheading">Dritter
-                Grad</para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Elementarerschaffung</para>
+                  <entry>MA</entry>
 
-                      <para>(Element auf 3, Telepathie auf 4)</para>
-                    </listitem>
+                  <entry></entry>
+                </row>
 
-                    <listitem>
-                      <para>Nekromantie</para>
+                <row>
+                  <entry>Licht</entry>
 
-                      <para>(Belebte &amp; Unbelebte Materie jew. auf
-                      2)</para>
-                    </listitem>
+                  <entry>EN</entry>
 
-                    <listitem>
-                      <para>Teleportation (Sphärologie)</para>
-                    </listitem>
+                  <entry></entry>
+                </row>
 
-                    <listitem>
-                      <para>Wetter (Wasser &amp; Feuer)</para>
-                    </listitem>
-                  </itemizedlist></entry>
+                <row>
+                  <entry>Spüren</entry>
 
-                <entry><mediaobject>
-                    <imageobject>
-                      <imagedata align="center" annotations=""
-                                 fileref="MagiebereicheV.png" format=""
-                                 role="" scale="50" scalefit="0"></imagedata>
-                    </imageobject>
-                  </mediaobject></entry>
-              </row>
+                  <entry>EN</entry>
 
-              <row>
-                <entry><para role="compactheading">Vierter
-                Grad</para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Artefaktmagie</para>
+                  <entry></entry>
+                </row>
 
-                      <para>(Unbelebte Materie &amp; Umleiten auf 2)</para>
-                    </listitem>
+                <row>
+                  <entry>Telekinese</entry>
 
-                    <listitem>
-                      <para>Elektrizität (Wetter 2)</para>
-                    </listitem>
-                  </itemizedlist></entry>
+                  <entry>EN</entry>
 
-                <entry><para role="compactheading">Fünfter
-                Grad</para><itemizedlist spacing="compact">
-                    <listitem>
-                      <para>Beschwörung (Sphärologie auf 2 &amp;
-                      Beherrschung)</para>
-                    </listitem>
-                  </itemizedlist></entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </informaltable>
+                  <entry></entry>
+                </row>
 
-        <para>Details zur Abgrenzung der einzelnen Bereiche voneinander sowie
-        Richtlinien zu ihrer Handhabung im Spiel finden sich in <xref
-        linkend="magiebereiche" />.</para>
-      </section>
+                <row>
+                  <entry>Telepathie</entry>
 
-      <section>
-        <title>Zaubersprüche</title>
+                  <entry>EN</entry>
 
-        <para>Zauberkundige können allein mit ihrer Kenntnis der Magiebereiche
-        bereits verschiedenste Zaubersprüche wirken. Dennoch haben Charaktere
-        natürlich ihre Lieblingszauber, in deren Anwendung sie sicherer sind.
-        Diese werden als <firstterm>Zaubersprüche</firstterm> auf dem
-        Charakterblatt eingetragen.</para>
+                  <entry></entry>
+                </row>
 
-        <para>Weil Zauberkundige je nach Situation nahezu beliebige magische
-        Effekte wirken können, gibt es anders als bei Attributen, Fertigkeiten
-        und Magiebereichen keine abschließende Liste von Zaubersprüchen. Eine
-        beispielhafte Liste von bisher ausgearbeiteten Zaubersprüchen findet
-        sich jedoch im Anhang.</para>
+                <row>
+                  <entry>Temperatur</entry>
+
+                  <entry>MA</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Umwandlung</entry>
+
+                  <entry>MA</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Unbelebte Materie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Zweiter Grad</emphasis></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Akustik</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>1 Punkt in Telekinese</entry>
+                </row>
+
+                <row>
+                  <entry>Beherrschung</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>4 Punkte in Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Dämpfen</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>2 Punkte in Spüren</entry>
+                </row>
+
+                <row>
+                  <entry>Gedächtnis</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>3 Punkte in Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Halluzination</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>2 Punkte in Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Kraftfelder</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>1 Punkt in Telekinese</entry>
+                </row>
+
+                <row>
+                  <entry>Sphärologie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>3 Punkte in Spüren</entry>
+                </row>
+
+                <row>
+                  <entry>Umleiten</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>1 Punkt in Spüren</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Dritter Grad</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Elementarerschaffung</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>3 Punkte im jeweiligen Element, 4 Punkte in
+                  Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Nekromantie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>jeweils 2 Punkte in Belebte und Unbelebte
+                  Materie</entry>
+                </row>
+
+                <row>
+                  <entry>Teleportation</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>1 Punkt in Sphärologie</entry>
+                </row>
+
+                <row>
+                  <entry>Wetter</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>jeweils 1 Punkt in Flüssigkeiten und
+                  Temperatur</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Vierter Grad</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Artefaktmagie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
+                  Umleiten</entry>
+                </row>
+
+                <row>
+                  <entry>Elektrizität</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>2 Punkte in Wetter</entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Fünfter Grad</emphasis></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Beschwörung</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>1 Punkt in Beherrschung, 2 Punkte in
+                  Sphärologie</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata align="center" fileref="Magiebereiche.png" role=""
+                         scale="50" scalefit="0"></imagedata>
+            </imageobject>
+          </mediaobject>
+        </section>
       </section>
     </section>
 
     <section>
       <title>Charaktererschaffung</title>
 
-      <para>Für die Charaktererschaffung stehen dem Spieler 550
+      <para>Für die Charaktererschaffung stehen dem Spieler 600
       <firstterm>Erfahrungspunkte</firstterm> (EP) zur Verfügung, welche die
       Vorgeschichte und Ausbildung des Charakters symbolisieren. Diese
       sogenannte <firstterm>EP-Basis</firstterm> wird auf dem Charakterblatt
       notiert. Der Spieler kann mit diesen Erfahrungspunkten nun beliebig
-      viele Attribute, Fertigkeiten, Magiebereiche oder Zaubersprüche jeweils
-      beliebig hoch „kaufen“ — mit zwei Einschränkungen: der höchste für einen
-      neuen Charakter zulässige Wert liegt bei 6, und jeder Charakter muss
-      alle acht Attribute besitzen. Sollten die Erfahrungspunkte nicht
-      vollständig aufgebraucht werden, verfallen sie nicht, sondern können
-      später im Spiel zum Steigern verwendet werden.</para>
+      viele Attribute und Fertigkeiten kaufen. Der höchste für einen neuen
+      Charakter zulässige Wert liegt bei 6 und jeder Charakter muss alle
+      Attribute außer <emphasis>Energie</emphasis> und
+      <emphasis>Materie</emphasis> besitzen.</para>
 
-      <para>Gemäß den Steigerungsregeln aus dem folgenden Abschnitt ergeben
-      sich folgende Gesamtkosten für die jeweiligen Werte:</para>
+      <para>Sollten die Erfahrungspunkte nicht vollständig aufgebraucht
+      werden, verfallen sie nicht, sondern können später im Spiel zum Steigern
+      verwendet werden.</para>
+
+      <para>Die Kosten sind der folgenden Tabelle zu entnehmen. Bei späteren
+      Steigerungen der Eigenschaften verändern sich die Kosten nicht — siehe
+      den folgenden Abschnitt.</para>
+
+      <?dbfo-need height="7cm"?>
 
       <informaltable>
         <tgroup align="center" cols="3">
@@ -1113,9 +1293,9 @@
             <row>
               <entry></entry>
 
-              <entry>Attribut / Magiebereich</entry>
+              <entry>Attribut</entry>
 
-              <entry>Fertigkeit / Zauberspruch</entry>
+              <entry>Fertigkeit</entry>
             </row>
           </thead>
 
@@ -1188,27 +1368,22 @@
       </informaltable>
 
       <sidebar>
-        <para>Der Meister kann neue Rollenspielrunden mit erfahreneren oder
-        unerfahreneren Charakteren ausstatten, in dem er den Wert von 550
-        erhöht oder senkt — fairerweise für alle Spieler. Durch die Verwendung
-        von EP kommt es dennoch nicht zu einem nicht mehr einholbaren oder je
-        nach Verwendung der Punkte unterschiedlich ausgeprägtem
-        Ungleichgewicht, sondern lediglich zu einem "Vorsprung" dieser
-        Charaktere gegenüber anderen Runden.</para>
+        <para>Der Meister kann für seine Spielrunde die EP-Basis frei wählen;
+        der Wert von 600 wird für wenig erfahrene Charaktere empfohlen.</para>
       </sidebar>
     </section>
 
     <section xml:id="steigerung">
-      <title>Steigerung von Eigenschaften</title>
+      <title linkend="steigerung" os="">Steigerung von Eigenschaften</title>
 
       <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
       Fähigkeiten verbessern — er wird z.B. stärker und geschickter oder
-      erfahrener im Umgang mit Magie. Für die im Spiel gemachten Erfahrungen
-      verteilt der Meister am Ende eines Abenteuers, häufig auch nach jedem
-      Spielabend, weitere Erfahrungspunkte. Die Anzahl der EP sollte sich aus
-      einem Basiswert für das Erreichen des gesetzten Ziels und zusätzlichen
-      Punkten für gute Zusammenarbeit, überraschende Einfälle oder gutes
-      Ausspielen der eigenen Rolle zusammensetzen.</para>
+      erfahrener im Umgang mit Magie. Dazu verteilt der Meister für die im
+      Spiel gemachten Erfahrungen regelmäßig weitere Erfahrungspunkte. Die
+      Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
+      gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
+      überraschende Einfälle oder gutes Ausspielen der eigenen Rolle
+      zusammensetzen.</para>
 
       <sidebar>
         <para>Es ist unmöglich, genaue Regeln für die Höhe der vergebenen EP
@@ -1216,18 +1391,15 @@
         der Spielwelt vergangen ist und ob das Abenteuer eher aus alltäglichen
         oder weltbewegenden Geschehnissen bestand — zum anderen ist es auch
         schlicht Geschmackssache, wie schnell eine Gruppe erfahrener werden
-        soll. Dennoch sei an dieser Stelle die grobe Richtschnur angegeben,
-        dass ein Spielabend von vier bis fünf Stunden Dauer mit
-        durchschnittlichem Inhalt etwa 12 EP wert sein sollte.</para>
+        soll. Dennoch sei an dieser Stelle als Orientierung angegeben, dass
+        ein Spielabend von vier bis fünf Stunden Dauer mit durchschnittlichem
+        Inhalt etwa 12 EP wert sein sollte.</para>
       </sidebar>
 
       <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
-      Charakters zu steigern. Der Zeitaufwand und damit die EP-Kosten dafür
-      sind um so höher, je höher der Wert bereits ist: Fertigkeiten oder
-      Zaubersprüche um einen Punkt zu steigern, kostet das Doppelte des
-      bisherigen Wertes in EP, kurz: Alter Wert (AW) mal 2. Attribute und
-      Magiebereiche kosten AW mal 5. Neue Fertigkeiten und Zauber zu erlernen
-      (also der erste Punkt) kostet 4 EP, ein neuer Magiebereich 10.</para>
+      Charakters zu steigern. Die EP-Kosten dafür sind um so höher, je höher
+      der Wert bereits ist: z.B. kostet es 6 EP, um eine Fertigkeit von 3 auf
+      4 zu steigern.</para>
 
       <informaltable>
         <tgroup align="center" cols="3">
@@ -1245,9 +1417,9 @@
             <row>
               <entry></entry>
 
-              <entry>Attribut / Magiebereich</entry>
+              <entry>Attribut</entry>
 
-              <entry>Fertigkeit / Zauber</entry>
+              <entry>Fertigkeit</entry>
             </row>
           </thead>
 
@@ -1261,15 +1433,28 @@
             </row>
 
             <row>
-              <entry>Um 1 steigern</entry>
+              <entry>Wert um 1 steigern</entry>
 
-              <entry>Alter Wert * 5</entry>
+              <entry>Bisheriger Wert * 5</entry>
 
-              <entry>Alter Wert * 2</entry>
+              <entry>Bisheriger Wert * 2</entry>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
+
+      <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des
+      Spiels erklärbar sein müssen. So kann sich ein Spieler nach einem
+      Wüstenabenteuer sicherlich entscheiden, dass der Charakter seine
+      <emphasis>Geographie</emphasis>-Fertigkeit verbessert hat — die
+      Steigerung von <emphasis>Schwimmen</emphasis> dürfte jedoch etwas
+      abwegig sein. Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
+      neuen Fertigkeiten einen Lehrmeister oder entsprechende Fachliteratur
+      zur Verfügung haben sollte. Wer den Schwertkampf in Grundzügen
+      beherrscht, kann vielleicht durch reine Übung und Training besser werden
+      — der Versuch, sich das Kämpfen mit dem Schwert selbst beizubringen wäre
+      jedoch von vornherein zum Scheitern verurteilt. Bei allen Steigerungen
+      hat daher, wie immer, der Meister das letzte Wort.</para>
 
       <sidebar>
         <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine
@@ -1280,19 +1465,6 @@
         Abschnitt), sofern es sinnvoll und für das Charakterkonzept wichtig
         ist, für dieses Attribut höhere Werte als 6 zulässig.</para>
       </sidebar>
-
-      <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des
-      Spiels erklärbar sein müssen. So kann sich ein Spieler nach einem
-      Wüstenabenteuer sicherlich entscheiden, dass der Charakter seine
-      Geographie-Fertigkeit verbessert hat — die Steigerung von Schwimmen
-      dürfte jedoch etwas abwegig sein. Zu dieser Erklärbarkeit gehört auch,
-      dass man gerade bei neuen Fertigkeiten einen Lehrmeister oder
-      entsprechende Fachliteratur zur Verfügung haben sollte. Wer den
-      Schwertkampf in Grundzügen beherrscht, kann vielleicht durch reine Übung
-      und Training besser werden — der Versuch, sich das Kämpfen mit dem
-      Schwert selbst beizubringen wäre jedoch von vornherein zum Scheitern
-      verurteilt. Bei allen Steigerungen hat daher, wie immer, der Meister das
-      letzte Wort.</para>
     </section>
   </chapter>
 
@@ -1302,9 +1474,7 @@
     <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
     Meister eine <firstterm>Probe </firstterm>verlangen. Meist wird dies eine
     <firstterm>Fertigkeitsprobe</firstterm> sein, es sind jedoch auch
-    <firstterm>Attributproben</firstterm> möglich. Des weiteren werden auch
-    Proben auf Magiebereiche und Zauber durchgeführt (siehe <xref
-    linkend="magie" />).</para>
+    <firstterm>Attributsproben</firstterm> möglich.</para>
 
     <section>
       <title>Würfelanzahl</title>
@@ -1318,12 +1488,9 @@
       <sidebar>
         <para>Wie immer hat der Meister das letzte Wort — es kann gerade bei
         Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
-        anderes Attribut zu „proben“. Geht es zum Beispiel bei einer
-        Etikette-Probe weniger um pures Wissen (wie die richtige Anrede für
-        die unverheiratete Tochter eines Fürsten), sondern um das korrekte
-        Ausführen der Schritte eines höfischen Tanzes, kann der Meister den
-        Spieler eine Probe auf Geschicklichkeit + Etikette (statt, wie üblich,
-        Klugheit) würfeln lassen.</para>
+        anderes Attribut würfeln zu lassen. Wenn zum Beispiel ein Charakter
+        ein Pferd beruhigen möchte, kann der Meister die Reiten-Probe mit
+        Charisma statt mit Geschicklichkeit durchführen lassen.</para>
       </sidebar>
     </section>
 
@@ -1338,13 +1505,6 @@
       <firstterm>Erfolg</firstterm>. Ist mindestens ein Erfolg vorhanden, ist
       die Probe <firstterm>gelungen</firstterm>. Hat ein Spieler keine
       Erfolge, ist die Aktion <firstterm>gescheitert</firstterm>.</para>
-
-      <sidebar>
-        <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
-        solchen Fällen entscheidet der Meister, ob die Aktion schlicht
-        unmöglich ist oder er eine Probe zulässt — dann werden alle gerollten
-        20er als Erfolg gewertet.</para>
-      </sidebar>
 
       <informalexample>
         <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den
@@ -1361,6 +1521,13 @@
         Geräusche zu verursachen. Hätte er keine Erfolge gehabt, wäre er
         direkt und lautstark auf eine knarrende Diele getreten.</para>
       </informalexample>
+
+      <sidebar>
+        <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
+        solchen Fällen entscheidet der Meister, ob die Aktion schlicht
+        unmöglich ist oder er eine Probe zulässt — dann werden alle gerollten
+        20er als Erfolg gewertet.</para>
+      </sidebar>
     </section>
 
     <section>
@@ -1379,7 +1546,7 @@
       <informalexample>
         <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
         eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
-        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 16 drei Erfolge
+        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 14 drei Erfolge
         erzielt. Elris hatte nur zwei Erfolge — der Hausherr gewinnt also den
         Vergleichswurf. Das Ergebnis: Er wird misstrauisch und durchsucht das
         Haus...</para>
@@ -1892,7 +2059,7 @@
       abgezogen — erst danach wird entschieden, ob und wie gut getroffen
       wurde. Die Schwierigkeit für diese Ausweichen-Probe liegt bei 11. Die
       Paradeschwierigkeit hängt von der Reichweite der beteiligten Waffen ab
-      und ergibt sich aus <emphasis>11 + Reichweite der Angriffswaffe -
+      und ergibt sich aus <emphasis>11 + Reichweite der Angriffswaffe —
       Reichweite der Paradewaffe</emphasis>. Grundlage dieser Regel ist die
       Überlegung, dass man mit langen Waffen einen Gegner eher "auf Abstand"
       halten kann als mit kurzen.</para>
@@ -1903,7 +2070,7 @@
 
         <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
         Runde drei Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
-        (Grundschwierigkeit) + 1 (Dolch-Reichweite) - 3 (Säbel-Reichweite) =
+        (Grundschwierigkeit) + 1 (Dolch-Reichweite) — 3 (Säbel-Reichweite) =
         9. Er erzielt zwei Erfolge und kann damit den Dolch zwar nicht
         vollständig parieren, aber zumindest zu weniger gefährlichen
         Körperstellen ablenken. Seine Parade-Erfolge werden von Elris’
@@ -2142,6 +2309,10 @@
           <tbody>
             <row>
               <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
 
               <entry>A</entry>
 
@@ -2238,83 +2409,138 @@
   <chapter xml:id="magie">
     <title>Magie</title>
 
-    <para>Ein im entsprechenden Magiebereich bewanderter Zauberer kann einen
-    magischen Effekt auch ohne die Kenntnis eines speziellen Zauberspruchs
-    hervorrufen, sofern er eine Ahnung hat, wie. Durch wiederholte Anwendung
-    und Studium kann der Charakter diesen Effekt dann immer leichter und
-    sicherer anwenden.</para>
+    <para>Ein in der entsprechenden Magiefertigkeit bewanderter Zauberer kann
+    einen magischen Effekt ohne die Kenntnis eines speziellen Zauberspruchs
+    hervorrufen. Magiefertigkeiten werden während des Spiels genauso
+    gehandhabt wie andere Fertigkeiten. Bei ihrer Anwendung gilt allerdings
+    die Sonderregel, dass die Probe nicht alternativ mit anderen Fertigkeiten
+    oder lediglich dem Attribut gewürfelt werden darf.</para>
 
-    <section>
-      <title>Spontane Magie und Zaubersprüche</title>
+    <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
+    bestimmt der Meister zunächst die passenden Magiefertigkeiten. Außerdem
+    legt der Meister die genaue regeltechnische Wirkungsweise des Zaubers und
+    insbesondere die Schwierigkeit fest (siehe <xref
+    linkend="zauberentwicklung" />).</para>
 
-      <para>Immer wenn ein Charakter zu zaubern versucht, entscheidet eine
-      <firstterm>Zauberprobe</firstterm> darüber, ob es gelingt.</para>
-
-      <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
-      bestimmt der Meister zunächst den passenden Magiebereich. Der Spieler
-      benutzt dann für die Probe so viele Würfel, wie er Punkte in diesem
-      Magiebereich besitzt. Außerdem legt der Meister die genaue
-      regeltechnische Wirkungsweise des Zaubers und insbesondere die
-      Schwierigkeit fest (siehe <xref linkend="zauberentwicklung" />).</para>
-
-      <para>Hat der Charakter diesen Effekt bereits angewendet und ihn als
-      Zauberspruch auf dem Charakterblatt notiert, kann er diese Würfel
-      zusätzlich zu denen des Attributs bei der Zauberprobe verwenden.
-      Wirkungsweise und Schwierigkeit wurden in diesem Fall natürlich bereits
-      festgelegt und ebenfalls notiert.</para>
-    </section>
+    <para>Hat der Charakter diesen Effekt bereits angewendet und ihn auf dem
+    Charakterblatt notiert, wurden Wirkungsweise und Schwierigkeit natürlich
+    bereits festgelegt. Eine beispielhafte Liste von bisher ausgearbeiteten
+    Zaubersprüchen findet sich im Anhang.</para>
 
     <section>
       <title>Krafteinsatz</title>
 
       <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
-      wieviel Kraft der Charakter an sich zieht. Dieser Wert ist prinzipiell
-      beliebig, ein Charakter kann jedoch pro Runde nur so viele Kraftpunkte
+      wieviel Kraft der Charakter aus seiner unmittelbaren Umgebung an sich
+      zieht. Die Menge an Kraftpunkten, die für einen Zauber verwendet wird,
+      beeinflusst je nach Zauber z.B. die Stärke, Reichweite oder
+      Wirkungsdauer. Zuviel Kraft lässt den Zaubernden jedoch ermüden oder
+      schädigt ihn sogar (siehe <xref linkend="magieschaden" />).</para>
+
+      <para>Ein Charakter kann allerdings pro Runde nur so viele Kraftpunkte
       an sich ziehen, wie die Höhe seiner Willenskraft angibt. Ihm steht es
-      frei, die Kraftaufnahme auf mehrere Runden auszudehnen.</para>
+      frei, die Kraftaufnahme auf mehrere Runden auszudehnen, er kann
+      währenddessen jedoch keine anderen Aktionen durchführen.</para>
     </section>
 
     <section>
       <title>Zauberprobe</title>
 
-      <para>Die Zauberprobe wird mit den Würfeln des Magiebereichs und denen
-      des Zauberspruchs (wenn vorhanden) durchgeführt. Die Anzahl der Erfolge
-      bei der Zauberprobe nennen wir die <firstterm>Qualität</firstterm> des
-      Zaubers; diese fließt häufig in die Ermittlung der spieltechnischen
-      Wirkung eines Zaubers ein.</para>
+      <para>Die Zauberprobe wird mit den Würfeln der Magiefertigkeit und denen
+      des zugehörigen Attributs durchgeführt. Die Anzahl der Erfolge bei der
+      Zauberprobe nennen wir die <firstterm>Qualität</firstterm> des Zaubers;
+      diese fließt in die Ermittlung der spieltechnischen Wirkung eines
+      Zaubers ein.</para>
 
-      <para>Je nachdem, wie gut dem Charakter der Zauber gelungen ist, fließt
-      die angezogene Kraft voll oder nur teilweise in den Zauber ein: Die über
-      die Qualität hinausgehende angezogene Kraft fließt nur zur Hälfte in den
-      Zauber ein, wobei kaufmännisch gerundet wird.</para>
+      <para>Die Qualität bestimmt auch, wieviel der angezogenen Kraft in den
+      Zauber fließt: für jeden Erfolg fließt ein Kraftpunkt in den Zauber ein.
+      Hat der Zaubernde weitere Kraftpunkte an sich gezogen, fließen diese nur
+      zur Hälfte in den Zauber ein, wobei aufgerundet wird.</para>
 
-      <sidebar>
-        <para><emphasis role="bold">Anmerkung: </emphasis>Wenn bei den
-        Magiebereichen oder in Spruchbeschreibungen von „eingesetzter Kraft“
-        oder „Kraftaufwand“ die Rede ist, ist immer die umgesetzte Kraft, also
-        die tatsächlich im Zauber enthaltene Energiemenge gemeint. Die Menge
-        der angezogenen Kraft ist für den eigentlichen Effekt
-        unerheblich.</para>
-      </sidebar>
+      <?dbfo-need height="7cm"?>
+
+      <para><emphasis>Beispiel:</emphasis> Nachtsicht</para>
+
+      <variablelist>
+        <varlistentry>
+          <term>Fertigkeiten</term>
+
+          <listitem>
+            <para>Belebte Materie</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Schwierigkeit</term>
+
+          <listitem>
+            <para>14</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Krafteinsatz</term>
+
+          <listitem>
+            <para>beliebig</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Wirkungsdauer</term>
+
+          <listitem>
+            <para>pro Kraftpunkt 5 Minuten</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Beschreibung</term>
+
+          <listitem>
+            <para>Das Ziel erhält durch eine vorübergehende Veränderung der
+            Augen die Fähigkeit zur Nachtsicht (Restlichtverstärkung). Bei
+            plötzlichem Blenden kann das Opfer 3-Qualität Runden nichts mehr
+            sehen.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
 
       <informalexample>
-        <para>Im letzten Beispiel schlug Tharion seinem Gegner mit Hilfe von
-        Telekinese die Waffe aus der Hand. Laut den Telekinese-Richtlinien
-        zählt in dieser Situation jeder Kraftpunkt wie ein Erfolg bei einer
-        Stärke-Probe, und die Schwierigkeit beträgt 11 — da er den Zauber aber
-        spontan und ungeübt anwendet, beträgt sie 13.</para>
+        <para>Tharion hat Materie 1 und Belebte Materie 2 und damit 3 Würfel
+        für die Nachtsicht-Probe zur Verfügung. Er setzt 5 Kraftpunkte ein und
+        und rollt mit seinen drei Würfeln eine Qualität von 2. Dies ergibt
+        eine umgesetzte Kraft von 4 Punkten: die ersten 2 sind durch die
+        Qualität voll umgesetzt, die verbleibenden drei nur zur Hälfte, ergibt
+        insgesamt 3,5 — gerundet 4.</para>
 
-        <para>Tharion setzt 5 Kraftpunkte ein und rollt seine drei
-        Telekinese-Würfel, um dem Handgelenk des Diebes einen Schlag zu
-        versetzen. Er würfelt eine Qualität von 2, was in einer umgesetzten
-        Kraft von 4 Punkten resultiert (die ersten 2 durch die Qualität voll
-        umgesetzt, die anderen drei nur zur Hälfte, ergibt insgesamt 3,5 —
-        gerundet 4). Das reicht aus, um die Hand des Gauners beiseite zu
-        schlagen und den Säbel in hohem Bogen wegfliegen zu lassen.</para>
+        <sidebar>
+          <para><emphasis role="bold">Anmerkung: </emphasis>Die Anzahl der
+          angezogenen Kraftpunkte ist für den eigentlichen Effekt des Zaubers
+          unerheblich. Wenn also bei den Magiefertigkeiten oder in
+          Spruchbeschreibungen von „eingesetzter Kraft“ oder „Kraftaufwand“
+          die Rede ist, ist immer die umgesetzte Kraft, also die tatsächlich
+          im Zauber enthaltene Energiemenge gemeint.</para>
+        </sidebar>
       </informalexample>
     </section>
 
     <section>
+      <title>Triviale Zauber</title>
+
+      <para>Wie bei anderen Fertigkeiten wird für alltägliche, triviale
+      Situationen auch beim Zaubern keine Probe durchgeführt: Wenn die
+      Schwierigkeit 7 oder niedriger beträgt und der Krafteinsatz nicht höher
+      als 2 ist, muss keine Zauberprobe durchgeführt werden. Die Qualität
+      beträgt zwei, alle Kraftpunkte werden umgesetzt und die Widerstandsprobe
+      (siehe unten) wird übersprungen.</para>
+
+      <para>Eine Zauberprobe muss dennoch durchgeführt werden, wenn ein
+      Vergleichswurf gefordert wird oder der Spieler es wünscht — zum Beispiel
+      weil er eine besonders hohe Qualität erreichen kann.</para>
+    </section>
+
+    <section xml:id="magieschaden">
       <title>Magieschaden</title>
 
       <para>Ein Zaubernder lenkt die Kraft durch sich selbst hindurch in den
@@ -2337,23 +2563,15 @@
         beträgt) gegen eine 11 und schafft 3 Erfolge. Die verbliebenen zwei
         Schadenspunkte werden auf seinem Charakterblatt vermerkt.</para>
       </informalexample>
-
-      <para>Ist ein Charakter in einem Spruch bereits geübt, kann er jeden
-      Spruchwürfel auch beim Widerstandswurf anstatt bei der eigentlichen
-      Zauberprobe verwenden. Hätte jemand also einen Zauber auf 5, kann er
-      z.B. zwei dieser Würfel zusätzlich beim Widerstehen verwenden, und nur
-      drei Würfel bei der Zauberprobe zu denen des Magiebereichs
-      hinzunehmen.</para>
     </section>
 
     <section>
       <title>Wirkungsdauer</title>
 
-      <para>Die Wirkungsdauer ist bei jedem Zauberspruch jeweils angegeben.
-      Nach Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
+      <para>Die Wirkungsdauer ist bei jedem Zauberspruch angegeben. Nach
+      Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
       versorgt werden — das heißt, der Zaubernde muss erneut eine
-      Widerstandsprobe gegen den Magieschaden ablegen, mit genauso vielen
-      Würfeln wie bei der ersten.</para>
+      Widerstandsprobe gegen den Magieschaden ablegen.</para>
 
       <sidebar>
         <para><emphasis role="bold">Beachten Sie:</emphasis> Ein Charakter
@@ -2374,27 +2592,30 @@
     </section>
 
     <section>
-      <title>Mehrere Bereiche</title>
+      <title>Mehrere Fertigkeiten</title>
 
-      <para>Manche Zauber sind nicht nur einem, sondern mehreren
-      Magiebereichen zugeordnet. Der bei der Beschreibung des Zaubers zuerst
-      gelistete Bereich ist dabei derjenige, der die Wirkung des Zaubers
-      hauptsächlich bestimmt — der sogenannte
-      <firstterm>Primärbereich</firstterm>. Solche komplexen Zauber werden im
-      Spiel genauso gehandhabt wie alle anderen — es gelten lediglich folgende
-      Zusatzregeln:</para>
+      <para>Manche Zauber sind nicht nur einer, sondern mehreren
+      Magiefertigkeiten zugeordnet. Die bei der Beschreibung des Zaubers
+      zuerst gelistete Fertigkeit ist dabei diejenige, welche die Wirkung
+      hauptsächlich bestimmt — die sogenannte
+      <firstterm>Primärfertigkeit</firstterm>.</para>
 
-      <para>In die Würfelanzahl der Probe fließt neben den Zauberpunkten nur
-      der Durchschnitt der Magiebereiche ein; ist der Durchschnitt keine ganze
-      Zahl, wird in Richtung des Werts des Primärbereichs gerundet.</para>
+      <para>Die Würfelanzahl für die Probe ergibt sich aus dem Attribut der
+      Primärfertigkeit und dem Durchschnitt der angegebenen Magiefertigkeiten.
+      Ist der Durchschnitt keine ganze Zahl, wird in Richtung des Werts der
+      Primärfertigkeit gerundet.</para>
 
       <informalexample>
-        <para>Der Spruch „Feuerball“ ist den Bereichen „Feuer, Telekinese“
-        zugeordnet, Feuer ist der Primärbereich. Ein Zauberer hat Feuer 5 und
-        Telekinese 2, ergibt als Durchschnitt 3,5. Da der Wert des
-        Primärbereichs darüber liegt, wird aufgerundet, der Zaubernde erhält
-        also 4 Würfel aus seinen Magiebereichen, zu denen er noch seine
-        Zauberwürfel hinzunehmen darf.</para>
+        <para>Der Spruch „Feuerball“ ist den Fertigkeiten „Temperatur,
+        Telekinese“ zugeordnet, Temperatur ist die Primärfertigkeit. Die
+        zugeordneten Attribute sind Materie für Temperatur und Energie für
+        Telekinese. Weil Temperatur die Primärfertigkeit ist, wird für die
+        Feuerball-Probe Materie verwendet.</para>
+
+        <para>Ein Zauberer hat Materie 2, Temperatur 5 und Telekinese 2. Der
+        Durchschnitt der Fertigkeiten beträgt 3,5. Da der Wert der
+        Primärfertigkeit darüber liegt, wird aufgerundet, der Zaubernde erhält
+        also 4 Würfel aus seinen Magiefertigkeiten und 2 aus Materie.</para>
       </informalexample>
     </section>
 
@@ -2405,9 +2626,9 @@
       wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
       geschieht meist während des Spielabends aufgrund des spontanen Einfalls
       eines Spielers. Der Meister muss hier zunächst festlegen, welche
-      Magiebereiche für den entsprechenden Effekt benötigt werden. Besitzt der
-      Spielercharakter nicht alle diese Bereiche, kann er den entsprechenden
-      Effekt nicht erzielen.</para>
+      Magiefertigkeiten für den entsprechenden Effekt benötigt werden. Besitzt
+      der Spielercharakter nicht alle diese Fertigkeiten, kann er den
+      entsprechenden Effekt nicht erzielen.</para>
 
       <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Meister —
       eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
@@ -2471,27 +2692,6 @@
       empfehlenswert, die Regelung noch einmal zu überprüfen und
       gegebenenfalls zu überarbeiten, nachdem der neue Zauber einige Male
       angewendet wurde.</para>
-    </section>
-
-    <section>
-      <title>Erlernen von Zaubern</title>
-
-      <para>Ein Charakter entwickelt einen Zauber nicht, er trainiert dessen
-      Anwendung, bis er seine Feinheiten beherrscht. Um den ersten Punkt in
-      einem Zauber zu erlangen, ist es also lediglich notwendig, den
-      gewünschten Effekt mittels spontaner Anwendung durch pures Probieren zu
-      üben. Dies dauert üblicherweise etwa <emphasis>Schwierigkeit -
-      7</emphasis> Tage.</para>
-
-      <para>Alternativ kann der Charakter auch einen Zauber erlernen —
-      entweder aus Büchern, in denen der Zaubervorgang und die Funktionsweise
-      bis ins kleinste Detail und mit vielen Skizzen erläutert wird, oder
-      direkt von anderen Charakteren. Dies dauert etwa die Hälfte bis drei
-      Viertel der oben angegebenen Zeit.</para>
-
-      <para>Neben Zeit müssen in jedem Fall aber auch Erfahrungspunkte
-      investiert werden — Details dazu finden Sie in <xref
-      linkend="steigerung" />.</para>
     </section>
   </chapter>
 
@@ -3152,7 +3352,7 @@
   </appendix>
 
   <appendix xml:id="magiebereiche">
-    <title>Magiebereiche</title>
+    <title>Magiefertigkeiten</title>
 
     <section>
       <title>Einleitung zur Magietheorie</title>
@@ -3169,7 +3369,7 @@
 
       <para>Trotz dieser verschiedenen Lehrmeinungen in der Spielwelt
       beschreibt dieses Regelwerk ein einheitliches, quasi "neutrales"
-      Magiesystem. Die Namen von Magiebereichen und Zaubersprüchen sind
+      Magiesystem. Die Namen von Magiefertigkeiten und Zaubersprüchen sind
       bewusst sachlich gehalten — dennoch werden in der Spielwelt natürlich
       Zauberkundige verschiedener Traditionen ein und denselben Effekt
       durchaus mit verschiedenen klangvollen Namen bezeichnen.</para>
@@ -3192,14 +3392,12 @@
       </section>
 
       <section>
-        <title>Feuer</title>
+        <title>Flüssigkeiten</title>
 
-        <para>bezeichnet alle magischen Effekte, die Flammen erzeugen oder
-        verändern sowie Temperaturänderungen (in beide Richtungen, also z.B.
-        auch Einfrieren). Dabei wird häufig die vorhandene Umgebungswärme
-        zusammengezogen und konzentriert. Feuer taucht besonders bei
-        Kampfzaubern wie dem Feuerball häufig in Kombination mit anderen
-        Bereichen auf.</para>
+        <para>ermöglicht die Beeinflussung von Wasser und Flüssigkeiten im
+        allgemeinen, wie zum Beispiel Zusammenziehen der Luftfeuchtigkeit,
+        verdampfen oder kondensieren lassen. Kann — in Kombination mit
+        Temperatur — Schnee und Eis erzeugen.</para>
       </section>
 
       <section>
@@ -3218,11 +3416,11 @@
         werden. Dabei ist es dem Zaubernden möglich, über das alles umgebende
         Kraftgewebe Eindrücke zu empfangen, sowohl in seiner Umgebung als auch
         weiter entfernt. Diese Eindrücke sind jedoch kaum mit denen der
-        „normalen“ Welt zu vergleichen, man sieht nur Ansammlungen von
-        Kraftlinien und Auren. Die Auren von Lebewesen zu interpretieren fällt
-        ebenfalls in diesen Bereich.</para>
+        „normalen“ Welt zu vergleichen, man nimmt nur Ansammlungen von
+        Kraftlinien und Auren wahr. Die Auren von Lebewesen zu interpretieren
+        fällt ebenfalls in diesen Bereich.</para>
 
-        <para>Dieser Bereich gehört in nahezu allen strukturierten
+        <para>Diese Fertigkeit gehört in nahezu allen strukturierten
         Magieausbildungen zum Standard.</para>
 
         <para>Reichweite: D (Auren: A)</para>
@@ -3249,6 +3447,12 @@
 
           <informaltable>
             <tgroup cols="3">
+              <colspec colnum="1" colwidth="3*" />
+
+              <colspec colnum="1" colwidth="2*" />
+
+              <colspec colnum="3" colwidth="10*" />
+
               <tbody>
                 <row>
                   <entry>Doppelte WK + X:</entry>
@@ -3287,13 +3491,23 @@
       </section>
 
       <section>
+        <title>Temperatur</title>
+
+        <para>bezeichnet alle magischen Effekte, die Flammen erzeugen oder
+        verändern sowie Temperaturänderungen (in beide Richtungen, also z.B.
+        auch Einfrieren). Dabei wird häufig die vorhandene Umgebungswärme
+        zusammengezogen und konzentriert. Temperatur taucht besonders bei
+        Kampfzaubern wie dem Feuerball häufig in Kombination mit anderen
+        Fertigkeiten auf.</para>
+      </section>
+
+      <section>
         <title>Unbelebte Materie</title>
 
         <para>beschäftigt sich mit dem Verformen von allen toten Materialien.
         Änderungen von einfachen Stoffeigenschaften sind ebenfalls möglich,
         wie z.B. Farbe, Oberflächenbeschaffenheit sowie bedingt auch
-        Festigkeit. Aus diesem Gebiet stammen so nützliche Zauber wie
-        Erdspalte oder Treibsand...</para>
+        Festigkeit.</para>
 
         <para>Eine vorhandene Stoffeigenschaft leicht zu verändern entspricht
         einer Schwierigkeit von 7.</para>
@@ -3306,15 +3520,6 @@
         Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
         möglich — dummerweise hat diese den Tod des Lebewesens zur
         Folge...</para>
-      </section>
-
-      <section>
-        <title>Wasser</title>
-
-        <para>ermöglicht die Beeinflussung von Wasser und Flüssigkeiten im
-        allgemeinen, wie zum Beispiel Zusammenziehen der Luftfeuchtigkeit,
-        verdampfen oder kondensieren lassen. Kann — in Kombination mit Feuer —
-        Schnee und Eis erzeugen.</para>
       </section>
     </section>
 
@@ -3511,14 +3716,14 @@
       </section>
 
       <section>
-        <title>Schildung</title>
+        <title>Kraftfelder</title>
 
         <para>Im Gegensatz zur Telekinese, die sich mit der Bewegung von
-        Objekten beschäftigt, ist dieser Unterbereich für das Aufhalten
-        selbiger zuständig. Damit ist kein Festhalten gemeint, sondern die
-        Erzeugung eines Felds von Gegenkraft, das Bewegungen unterbindet. Die
-        klassische Anwendung dieses Gebiets besteht natürlich in der
-        Erschaffung aller Arten von magischen Rüstungen und Barrieren.</para>
+        Objekten beschäftigt, ist diese Fertigkeit für das Aufhalten selbiger
+        zuständig. Damit ist kein Festhalten gemeint, sondern die Erzeugung
+        eines Felds von Gegenkraft, das Bewegungen unterbindet. Die klassische
+        Anwendung dieses Gebiets besteht natürlich in der Erschaffung aller
+        Arten von magischen Rüstungen und Barrieren.</para>
 
         <section>
           <title>Voraussetzung</title>
@@ -3565,16 +3770,16 @@
         <title>Elementarerschaffung</title>
 
         <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, eine
-        Art Elementargeist zu erschaffen (Elemente im Sinn dieses Bereichs
-        sind Unbelebt, Belebt, Feuer, Wasser und Kraft/Umleiten). Dabei zieht
-        er eine entsprechende Menge des Elements zusammen um daraus ein Wesen
-        zu formen. Dieses Wesen wird dann mit Leben erfüllt, in dem der
-        Zauberer einen Teil seines Geistes hineinprojiziert.</para>
+        Art Elementargeist zu erschaffen (Elemente im Sinn dieser Fertigkeit
+        sind Unbelebt, Belebt, Temperatur, Flüssigkeiten und Kraft/Umleiten).
+        Dabei zieht er eine entsprechende Menge des Elements zusammen um
+        daraus ein Wesen zu formen. Dieses Wesen wird dann mit Leben erfüllt,
+        in dem der Zauberer einen Teil seines Geistes hineinprojiziert.</para>
 
-        <para>Beherrscht ein Charakter diesen Bereich, kann er ihn mit allen
+        <para>Beherrscht ein Charakter diese Fertigkeit, kann er sie mit allen
         Elementen (die er gut genug beherrscht) benutzen. Es sind auch
-        Elementkombinationen möglich — wie z.B. Feuer &amp; Wasser für ein
-        Eiselementar.</para>
+        Elementkombinationen möglich — wie z.B. Temperatur &amp; Flüssigkeiten
+        für ein Eiselementar.</para>
 
         <section>
           <title>Voraussetzungen</title>
@@ -3628,7 +3833,7 @@
         <section>
           <title>Voraussetzungen</title>
 
-          <para>Wasser &amp; Feuer</para>
+          <para>Flüssigkeiten &amp; Temperatur</para>
         </section>
       </section>
     </section>
@@ -3663,7 +3868,7 @@
         <section>
           <title>Voraussetzungen</title>
 
-          <para>Wetter 2 [Wasser &amp; Feuer]</para>
+          <para>Wetter 2 [Flüssigkeiten &amp; Temperatur]</para>
         </section>
       </section>
     </section>

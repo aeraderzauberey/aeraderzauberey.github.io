@@ -67,7 +67,8 @@
   </xsl:attribute-set>
 
   <xsl:attribute-set name="sidebar.properties">
-    <xsl:attribute name="margin-left">25%</xsl:attribute>
+    <xsl:attribute name="margin-left">12.5%</xsl:attribute>
+    <xsl:attribute name="margin-right">12.5%</xsl:attribute>
     <xsl:attribute name="padding-top">-0.5em</xsl:attribute>
     <xsl:attribute name="border-top-width">0.01cm</xsl:attribute>
     <xsl:attribute name="border-left-width">0.01cm</xsl:attribute>
@@ -104,7 +105,14 @@
   </xsl:attribute-set>
 
   <!-- remove leading space for paras in tables, but keep it between successive paras -->
-  <xsl:template match="informaltable//para[1]">
+  <xsl:template match="informaltable//tbody//para[1]">
+    <fo:block space-before="0">
+      <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
+
+  <!-- remove all para margins in table headers -->
+  <xsl:template match="informaltable//thead//para">
     <fo:block space-before="0">
       <xsl:apply-templates/>
     </fo:block>
