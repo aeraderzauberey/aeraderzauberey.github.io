@@ -1,15 +1,28 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
-    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+    xmlns:fn="http://www.w3.org/2005/02/xpath-functions"
+	xmlns:diffmk="http://diffmk.sf.net/ns/diff"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:java="http://xml.apache.org/xslt/java" exclude-result-prefixes="java">
 
   <xsl:import href="file:////Library/Tools/docbook-xsl-1.74.0/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
 
-  <xsl:param name="paper.type" select="'A4'"></xsl:param>
+  <xsl:variable name="date" select="java:format(java:java.text.SimpleDateFormat.new('dd.MM.yyyy'), java:java.util.Date.new())"/>
+
+  <xsl:param name="fop1.extensions">1</xsl:param>
+
+  <xsl:param name="paper.type">A4</xsl:param>
   <xsl:param name="draft.mode">no</xsl:param>
   <xsl:param name="double.sided">0</xsl:param>
-  <xsl:param name="hyphenate">false</xsl:param>
+
+  <xsl:param name="hyphenate">true</xsl:param>
+  <!-- turn off hyphenation in tables -->
+  <xsl:attribute-set name="table.table.properties">
+    <xsl:attribute name="hyphenate">false</xsl:attribute>
+  </xsl:attribute-set>
+
   <xsl:param name="page.margin.inner">2cm</xsl:param>
   <xsl:param name="page.margin.outer">2cm</xsl:param>
 
@@ -18,16 +31,14 @@
     <xsl:attribute name="line-height">1.2</xsl:attribute>
   </xsl:attribute-set>
 
-  <xsl:param name="page.margin.top">1cm</xsl:param>
-  <xsl:param name="body.margin.top">2cm</xsl:param>
-  <xsl:param name="region.before.extent">2cm</xsl:param>
-  <xsl:param name="header.image.height">1.25cm</xsl:param>
+  <xsl:param name="page.margin.top">1.5cm</xsl:param>
+  <xsl:param name="body.margin.top">0</xsl:param>
+  <xsl:param name="region.before.extent">0</xsl:param>
 
-  <xsl:param name="header.image.filename">file:////Users/jens/Documents/Rollenspiel/Wizardry/Logo/Logo.svg</xsl:param>
+  <xsl:param name="header.rule" select="0"></xsl:param>
   <xsl:param name="footer.rule" select="0"></xsl:param>
   
-  <!-- This template always returns the string '1', which
-       sets the page number format to 1,2,3,... -->
+  <!-- Set the page number format to 1,2,3,... -->
   <xsl:template name="page.number.format">1</xsl:template>
 
   <!-- Let the TOC start at page 3, then always continue page numbers. -->
@@ -37,6 +48,64 @@
       <xsl:when test="$element = 'toc' and self::book">3</xsl:when>
       <xsl:otherwise>auto</xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="book.titlepage.recto">
+      <fo:table table-layout="fixed" width="100%">
+        <fo:table-column column-width="proportional-column-width(1)"/>
+        <fo:table-body>
+          <fo:table-row height="200mm">
+            <fo:table-cell display-align="center">
+              <fo:block text-align="center">
+                <fo:external-graphic src="url('../Logo/Logo.svg')" content-width="12cm"/>
+              </fo:block>
+
+              <xsl:choose>
+                <xsl:when test="bookinfo/subtitle">
+                  <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="bookinfo/subtitle"/>
+                </xsl:when>
+                <xsl:when test="info/subtitle">
+                  <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="info/subtitle"/>
+                </xsl:when>
+                <xsl:when test="subtitle">
+                  <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="subtitle"/>
+                </xsl:when>
+              </xsl:choose>
+
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+  </xsl:template>
+
+  <xsl:template match="subtitle" mode="book.titlepage.recto.auto.mode">
+    <fo:block xsl:use-attribute-sets="book.titlepage.recto.style" text-align="center" font-size="30pt" space-before="30pt" font-family="{$title.fontset}">
+      <xsl:apply-templates select="." mode="book.titlepage.recto.mode"/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:template match="releaseinfo">
+    <xsl:variable name="info"><xsl:apply-templates/></xsl:variable>
+	
+    <fo:block>x<xsl:value-of select="$info"/></fo:block>
+  </xsl:template>
+
+  <xsl:template match="releaseinfo" mode="book.titlepage.verso.auto.mode">
+    <xsl:variable name="info"><xsl:value-of select="."/></xsl:variable>
+
+    <fo:block xsl:use-attribute-sets="book.titlepage.verso.style" space-before="0.5em">
+<!--
+      b<xsl:value-of select="$info"/>a
+	  <xsl:value-of select="fn:replace('aabaa', 'b', 'X')"/>
+      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="fn:substring($info, 11, 15)"/>
+	  <xsl:value-of select="fn:index-of('helloworld', 'world')"/>
+	  <xsl:value-of select="fn:replace('test', 't', '*')"/>
+	  <xsl:value-of select="fn:substring('foobar', 2, 3)"/>
+	  
+	  http://stackoverflow.com/questions/3645507/string-functions-missing-in-xalan-2-7-java-lang-string-used-instead
+-->
+      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="fn:substring($info, 11, fn:index-of($info, ' $'))"/>
+    </fo:block>
   </xsl:template>
 
   <xsl:param name="insert.xref.page.number">yes</xsl:param>
@@ -125,9 +194,7 @@
   </xsl:template>
 
   <xsl:attribute-set name="list.block.spacing">
-<!--    <xsl:if test="ancestor::informaltable">-->
       <xsl:attribute name="space-before">0</xsl:attribute>
-<!--    </xsl:if>-->
   </xsl:attribute-set>
 
   <xsl:template match="para[@role='compactheading']">
@@ -140,96 +207,99 @@
     <fo:block break-after='page'/>
   </xsl:template>
 
+  <!-- disable default header -->
   <xsl:template name="header.content">
-    <xsl:param name="pageclass" select="''"/>
-    <xsl:param name="sequence" select="''"/>
-    <xsl:param name="position" select="''"/>
-    <xsl:param name="gentext-key" select="''"/>
-
-    <xsl:variable name="candidate">
-      <!-- sequence can be odd, even, first, blank -->
-      <!-- position can be left, center, right -->
-      <xsl:choose>
-
-        <xsl:when test="$position = 'left'">
-          <fo:external-graphic content-height="1.25cm">
-            <xsl:attribute name="src">
-              <xsl:call-template name="fo-external-image">
-                <xsl:with-param name="filename" select="$header.image.filename"/>
-              </xsl:call-template>
-            </xsl:attribute>
-          </fo:external-graphic>
-        </xsl:when>
-
-        <xsl:when test="$position = 'center'">
-          <xsl:value-of select="//title[1]"/>
-        </xsl:when>
-
-      </xsl:choose>
-
-    </xsl:variable>
-
-    <xsl:choose>
-
-      <xsl:when test="$sequence='blank' and $headers.on.blank.pages=0">
-        <!-- no output -->
-      </xsl:when>
-
-      <!-- titlepages have no headers -->
-      <xsl:when test="$pageclass = 'titlepage'">
-        <!-- no output -->
-      </xsl:when>
-
-      <xsl:otherwise>
-        <xsl:copy-of select="$candidate"/>
-      </xsl:otherwise>
-    </xsl:choose>
-
   </xsl:template>
 
+<!--
   <xsl:template name="footer.content">
     <xsl:param name="pageclass" select="''"/>
     <xsl:param name="sequence" select="''"/>
     <xsl:param name="position" select="''"/>
     <xsl:param name="gentext-key" select="''"/>
 
-    <xsl:variable name="candidate">
-      <!-- sequence can be odd, even, first, blank -->
-      <!-- position can be left, center, right -->
       <xsl:choose>
-
-        <xsl:when test="$position = 'left'">
-          <xsl:value-of select="//title[1]"/>
+        <xsl:when test="$position='left'">
+		  <fo:page-number/>
         </xsl:when>
 
         <xsl:when test="$position = 'center'">
-          <fo:page-number/>
+          <xsl:value-of select="$date"/>
         </xsl:when>
 
         <xsl:when test="$position = 'right'">
-          <xsl:value-of select="//pubdate[1]"/>
+            x<xsl:value-of select="position()"/>
         </xsl:when>
 
       </xsl:choose>
 
-    </xsl:variable>
 
+  </xsl:template>
+-->
+
+<xsl:template name="footer.content">
+  <xsl:param name="pageclass" select="''"/>
+  <xsl:param name="sequence" select="''"/>
+  <xsl:param name="position" select="''"/>
+  <xsl:param name="gentext-key" select="''"/>
+  
+  <fo:block>
+    <!-- pageclass can be front, body, back -->
+    <!-- sequence can be odd, even, first, blank -->
+    <!-- position can be left, center, right -->
     <xsl:choose>
-
-      <xsl:when test="$sequence='blank' and $headers.on.blank.pages=0">
-        <!-- no output -->
-      </xsl:when>
-
-      <!-- titlepages have no headers -->
       <xsl:when test="$pageclass = 'titlepage'">
-        <!-- no output -->
+        <!-- nop; no footer on title pages -->
       </xsl:when>
+
+      <xsl:when test="$double.sided = 0 and $position='left'">
+        <xsl:value-of select="$date"/>
+      </xsl:when>
+
+      <xsl:when test="$double.sided != 0 and $sequence = 'even'
+                      and $position='left'">
+        <fo:page-number/>
+      </xsl:when>
+
+      <xsl:when test="$double.sided != 0 and ($sequence = 'odd' or $sequence = 'first')
+                      and $position='right'">
+        <fo:page-number/>
+      </xsl:when>
+
+      <xsl:when test="$double.sided = 0 and $position='center'">
+        <fo:page-number/>
+      </xsl:when>
+
+      <xsl:when test="$double.sided != 0 and $position='center'">
+        <xsl:value-of select="$date"/>
+      </xsl:when>
+
+      <xsl:when test="$sequence='blank'">
+        <xsl:choose>
+          <xsl:when test="$double.sided != 0 and $position = 'left'">
+            <fo:page-number/>
+          </xsl:when>
+          <xsl:when test="$double.sided = 0 and $position = 'center'">
+            <fo:page-number/>
+          </xsl:when>
+          <xsl:otherwise>
+            <!-- nop -->
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+
 
       <xsl:otherwise>
-        <xsl:copy-of select="$candidate"/>
+        <!-- nop -->
       </xsl:otherwise>
     </xsl:choose>
+  </fo:block>
+</xsl:template>
 
+  <xsl:template match="diffmk:wrapper">
+    <fo:inline background-color="#a0a0a0">
+      <xsl:apply-templates/>
+    </fo:inline>
   </xsl:template>
 
 

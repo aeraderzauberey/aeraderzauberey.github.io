@@ -7,142 +7,23 @@
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
   <info>
-    <title>Wizardry Regelwerk</title>
+    <title>Wizardry</title>
+
+    <subtitle>Regelwerk</subtitle>
 
     <author>
       <personname><firstname>Jens</firstname><surname>Bannmann</surname></personname>
     </author>
 
-    <pubdate>2009-01-23</pubdate>
-
     <copyright>
       <year>1999</year>
 
-      <year>2009</year>
+      <year>2010</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
 
-    <revhistory>
-      <revision>
-        <revnumber>1</revnumber>
-
-        <date>2006-05-21</date>
-
-        <revremark>Zu DocBook konvertiert</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>2</revnumber>
-
-        <date>2006-05-28</date>
-
-        <revremark>Kapitel reorganisiert ("Charaktere und ihre Werte",
-        "Schaden und Regeneration"); "Proben" überarbeitet und
-        "Vergleichswürfe" konkretisiert</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>3</revnumber>
-
-        <date>2006-05-28</date>
-
-        <revremark>Einleitung hinzugefügt, Regeln zur Initiative und
-        Ankündigungsphase erweitert</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>4</revnumber>
-
-        <date>2006-05-29</date>
-
-        <revremark>Zauber-für-bestimmten-Zweck-Regel fallen gelassen (nicht zu
-        begründen); Entwicklungszeit von Sw-10 Monaten auf Sw-7 Tage gesenkt
-        (es ist ja bloßes Trainieren); "Zauberentwicklung" und "Erlernen von
-        Zaubern" getrennt und auf spontanes Regelerfinden näher eingegangen;
-        Sektion "Talente" geschrieben;
-        Trefferwurf/Parade/Schadens/Widerstandswurf klarer gefasst</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>5</revnumber>
-
-        <date>2006-06-03</date>
-
-        <revremark>Waffentabelle integriert; Fernkampfregeln beschrieben und
-        Größenmodifikatoren hinzugefügt; Sehr-nah-Distanz hinzugefügt und
-        Reichweitenklassen überarbeitet; Voraussetzungen für Bereiche des
-        zweiten und vierten Grades erhöht</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>6</revnumber>
-
-        <date>2006-06-13</date>
-
-        <revremark>Regenerationszeit verkürzt und genauer beschrieben;
-        Ausführlichere Einleitung im Magiekapitel; Text zur Zauberprobe besser
-        strukturiert</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>7</revnumber>
-
-        <date>2006-07-06</date>
-
-        <revremark>Attributsmaximum (von 10) und Talentmaximum (von 6) auf 8
-        vereinheitlicht; Erschaffungs-EP auf 550 erhöht und den
-        Attributs-Startwert von 2 abgeschafft; E-Reichweite hinzugefügt;
-        Waffenpreise überarbeitet; Text zu Steigerungen erweitert und
-        überarbeitet</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>8</revnumber>
-
-        <date>2007-08-27</date>
-
-        <revremark>Gesamtwürfelanzahl wird bei Vergleichswürfen nicht mehr
-        beachtet (z.B. weil Schwierigkeit unterschiedlich sein kann); Talente
-        in Fertigkeiten umbenannt; Aufteilung in Fertigkeits-Grundset und
-        zusätzliche Fertigkeiten durch "Talente", "Wissen" und "Kampf"
-        ersetzt; Verwirrende X+2-Notation bei EP-Kosten für Zauber
-        entfernt</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>9</revnumber>
-
-        <date>2009-01-23</date>
-
-        <revremark>Attributsbonus abgeschafft. EP-Kosten für Zauber
-        vereinheitlicht und den Fertigkeiten angepasst. Initiative
-        verlässlicher gemacht. Charaktere &amp; Werte-Kapitel ausgebaut.
-        Magiebereiche integriert und Reichweiten angegeben. Tabellenbreiten
-        spezifiziert.</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>10</revnumber>
-
-        <date>2010-08-04</date>
-
-        <revremark>Patzer-Regelung entfernt. Reichweitenmodifikatoren
-        verringert. Magiebereichsbeschreibungen ergänzt. Übersichtsdiagramm
-        für die Magiebereiche eingebunden.</revremark>
-      </revision>
-
-      <revision>
-        <revnumber>11</revnumber>
-
-        <date>2010-08-08</date>
-
-        <revremark>Magiebereiche zu Fertigkeiten gemacht, Zaubersprüche als
-        Charakterwerte abgeschafft. Neue Attribute 'Energie' und 'Materie'
-        hinzugefügt. Trivialbereichsregelung hinzugefügt. Einige Magiebereiche
-        umbenannt.</revremark>
-      </revision>
-    </revhistory>
+    <releaseinfo>$Revision$</releaseinfo>
   </info>
 
   <chapter>
@@ -328,8 +209,8 @@
                 <entry>WK</entry>
 
                 <entry>Entschlossenheit, Stärke der Abwehr geistiger
-                Beeinflussung, Schnelligkeit des Sammelns magischer Energie
-                </entry>
+                Beeinflussung, Schnelligkeit des Sammelns magischer
+                Energie</entry>
               </row>
 
               <row>
