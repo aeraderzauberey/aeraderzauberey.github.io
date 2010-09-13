@@ -15,7 +15,7 @@
 
   <xsl:param name="paper.type">A4</xsl:param>
   <xsl:param name="draft.mode">no</xsl:param>
-  <xsl:param name="double.sided">0</xsl:param>
+  <xsl:param name="double.sided">1</xsl:param>
 
   <xsl:param name="hyphenate">true</xsl:param>
   <!-- turn off hyphenation in tables -->
@@ -84,27 +84,11 @@
     </fo:block>
   </xsl:template>
 
-  <xsl:template match="releaseinfo">
-    <xsl:variable name="info"><xsl:apply-templates/></xsl:variable>
-	
-    <fo:block>x<xsl:value-of select="$info"/></fo:block>
-  </xsl:template>
-
   <xsl:template match="releaseinfo" mode="book.titlepage.verso.auto.mode">
     <xsl:variable name="info"><xsl:value-of select="."/></xsl:variable>
 
     <fo:block xsl:use-attribute-sets="book.titlepage.verso.style" space-before="0.5em">
-<!--
-      b<xsl:value-of select="$info"/>a
-	  <xsl:value-of select="fn:replace('aabaa', 'b', 'X')"/>
-      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="fn:substring($info, 11, 15)"/>
-	  <xsl:value-of select="fn:index-of('helloworld', 'world')"/>
-	  <xsl:value-of select="fn:replace('test', 't', '*')"/>
-	  <xsl:value-of select="fn:substring('foobar', 2, 3)"/>
-	  
-	  http://stackoverflow.com/questions/3645507/string-functions-missing-in-xalan-2-7-java-lang-string-used-instead
--->
-      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="fn:substring($info, 11, fn:index-of($info, ' $'))"/>
+      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="substring-before(substring-after($info, ': '), ' $')"/>
     </fo:block>
   </xsl:template>
 
