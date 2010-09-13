@@ -108,7 +108,7 @@
 
       <para>Charaktere werden durch zwei Typen von Eigenschaften beschrieben:
       Attribute und Fertigkeiten. Die Werte dieser Eigenschaften liegen im
-      Bereich von 1 bis 8; für jeden Punkt steht dem Charakter ein Würfel zur
+      Bereich von 1 bis 8. Für jeden Punkt steht dem Charakter ein Würfel zur
       Verfügung, den er bei Proben auf die jeweilige Eigenschaft verwendet
       (siehe <xref linkend="proben" />).</para>
 
@@ -116,9 +116,10 @@
         <title>Attribute</title>
 
         <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich
-        in zehn <firstterm>Attributen</firstterm> nieder — zwei davon sind
-        Magiebegabten vorbehalten. Der allgemeine Durchschnitt in der
-        Bevölkerung für die anderen Attribute liegt zwischen 3 und 4.</para>
+        in elf <firstterm baseform="Attribut">Attributen</firstterm> nieder —
+        drei davon sind Magiebegabten vorbehalten. Der allgemeine Durchschnitt
+        in der Bevölkerung für die anderen Attribute liegt zwischen 3 und
+        4.</para>
 
         <informaltable>
           <tgroup cols="3">
@@ -142,7 +143,7 @@
               <row>
                 <entry>Stärke</entry>
 
-                <entry>ST</entry>
+                <entry>STÄ</entry>
 
                 <entry>Bezeichnet die rein physische Kraft,
                 Widerstandsfähigkeit und Ausdauer</entry>
@@ -151,7 +152,7 @@
               <row>
                 <entry>Geschicklichkeit</entry>
 
-                <entry>GE</entry>
+                <entry>GES</entry>
 
                 <entry>Schnelligkeit und Gewandtheit, auch
                 Fingerfertigkeit</entry>
@@ -160,7 +161,7 @@
               <row>
                 <entry>Intuition</entry>
 
-                <entry>IN</entry>
+                <entry>INT</entry>
 
                 <entry>Geistesschärfe, schnelles und richtiges Handeln,
                 Improvisation, soziales Feingefühl und eben
@@ -170,7 +171,7 @@
               <row>
                 <entry>Klugheit</entry>
 
-                <entry>KL</entry>
+                <entry>KLU</entry>
 
                 <entry>Intelligenz, logisches Denkvermögen, Lern- und
                 Merkfähigkeit</entry>
@@ -179,7 +180,7 @@
               <row>
                 <entry>Charisma</entry>
 
-                <entry>CH</entry>
+                <entry>CHA</entry>
 
                 <entry>Wirkung auf andere, Ausstrahlung; auch wie gut man
                 andere beeinflussen kann</entry>
@@ -188,7 +189,7 @@
               <row>
                 <entry>Erscheinungsbild</entry>
 
-                <entry>EB</entry>
+                <entry>ERS</entry>
 
                 <entry>Maß für körperliche Attraktivität; bestimmt zusammen
                 mit Stärke und Geschicklichkeit das Aussehen</entry>
@@ -197,7 +198,7 @@
               <row>
                 <entry>Selbstbeherrschung</entry>
 
-                <entry>SB</entry>
+                <entry>SEL</entry>
 
                 <entry>Konzentration, Ertragen von Schmerzen, Verminderung der
                 Ermüdung beim Zaubern</entry>
@@ -206,7 +207,7 @@
               <row>
                 <entry>Willenskraft</entry>
 
-                <entry>WK</entry>
+                <entry>WIL</entry>
 
                 <entry>Entschlossenheit, Stärke der Abwehr geistiger
                 Beeinflussung, Schnelligkeit des Sammelns magischer
@@ -216,16 +217,25 @@
               <row>
                 <entry>Energie</entry>
 
-                <entry>EN</entry>
+                <entry>ENE</entry>
 
                 <entry>Fähigkeit zur magischen Beeinflussung von Energie
                 (siehe Magiefertigkeiten)</entry>
               </row>
 
               <row>
+                <entry>Geist</entry>
+
+                <entry>GEI</entry>
+
+                <entry>Fähigkeit zur magischen Beeinflussung des Geistes
+                (siehe Magiefertigkeiten)</entry>
+              </row>
+
+              <row>
                 <entry>Materie</entry>
 
-                <entry>MA</entry>
+                <entry>MAT</entry>
 
                 <entry>Fähigkeit zur magischen Beeinflussung von Materie
                 (siehe Magiefertigkeiten)</entry>
@@ -238,10 +248,10 @@
       <section>
         <title>Fertigkeiten</title>
 
-        <para><firstterm>Fertigkeiten</firstterm> repräsentieren die
-        individuellen Kenntnisse und Fähigkeiten eines Charakters auf dem
-        jeweiligen Gebiet. Jede Fertigkeit ist dabei einem Attribut
-        zugeordnet, das bei Proben mit einbezogen wird.</para>
+        <para><firstterm baseform="Fertigkeit">Fertigkeiten</firstterm>
+        repräsentieren die individuellen Kenntnisse und Fähigkeiten eines
+        Charakters auf dem jeweiligen Gebiet. Jede Fertigkeit ist dabei einem
+        Attribut zugeordnet, das bei Proben mit einbezogen wird.</para>
 
         <para>Die Fertigkeiten sind in der unten stehenden Liste in die
         Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung,
@@ -273,7 +283,7 @@
                 <row>
                   <entry>Falschspiel</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry></entry>
                 </row>
@@ -281,7 +291,7 @@
                 <row>
                   <entry>Führungsqualitäten</entry>
 
-                  <entry>CH</entry>
+                  <entry>CHA</entry>
 
                   <entry>Truppen aufstellen, organisieren, kommandieren,
                   motivieren und Ähnliches</entry>
@@ -290,7 +300,7 @@
                 <row>
                   <entry>Heimlichkeit</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry>Schleichen, sich verstecken, unauffällig Personen
                   verfolgen</entry>
@@ -299,7 +309,7 @@
                 <row>
                   <entry>Klettern</entry>
 
-                  <entry>GE</entry>
+                  <entry>STÄ</entry>
 
                   <entry></entry>
                 </row>
@@ -307,7 +317,7 @@
                 <row>
                   <entry>Körperbeherrschung</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -315,7 +325,7 @@
                 <row>
                   <entry>Meditation</entry>
 
-                  <entry>SB</entry>
+                  <entry>SEL</entry>
 
                   <entry></entry>
                 </row>
@@ -323,7 +333,7 @@
                 <row>
                   <entry>Musizieren</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry>Separate Fertigkeiten je Musikinstrument</entry>
                 </row>
@@ -331,7 +341,7 @@
                 <row>
                   <entry>Reiten</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -339,16 +349,16 @@
                 <row>
                   <entry>Schauspielerei</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry>Überzeugend wirken, Lügen, Geschichten erzählen
-                  (CH)</entry>
+                  (CHA)</entry>
                 </row>
 
                 <row>
                   <entry>Schlösser knacken</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry></entry>
                 </row>
@@ -356,7 +366,7 @@
                 <row>
                   <entry>Schwimmen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry>Alles, was über bloßes "über Wasser halten"
                   hinausgeht: Tauchen, Ausweichen; auch Maß für
@@ -366,7 +376,7 @@
                 <row>
                   <entry>Singen</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry></entry>
                 </row>
@@ -374,7 +384,7 @@
                 <row>
                   <entry>Sinnesschärfe</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry>= Aufmerksamkeit</entry>
                 </row>
@@ -382,7 +392,7 @@
                 <row>
                   <entry>Tanzen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -390,7 +400,7 @@
                 <row>
                   <entry>Taschendiebstahl</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -424,7 +434,7 @@
                 <row>
                   <entry>Alchemie</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Brauen und Identifizieren von komplexen Elixieren,
                   Giften, evtl. auch magische Tinkturen</entry>
@@ -433,7 +443,7 @@
                 <row>
                   <entry>Etikette</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp;
                   Titel, höfische Tänze</entry>
@@ -442,7 +452,7 @@
                 <row>
                   <entry>Geographie</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry></entry>
                 </row>
@@ -450,7 +460,7 @@
                 <row>
                   <entry>Geschichte</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry></entry>
                 </row>
@@ -458,7 +468,7 @@
                 <row>
                   <entry>Lehren</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>für Wissensvermittlung auf magischem, religiösem und
                   weltlichem Gebiet</entry>
@@ -467,7 +477,7 @@
                 <row>
                   <entry>Lesen &amp; Schreiben</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry></entry>
                 </row>
@@ -475,7 +485,7 @@
                 <row>
                   <entry>Magiekunde</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
                   Gruppierungen...)</entry>
@@ -484,7 +494,7 @@
                 <row>
                   <entry>Mathematik</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
                   Geometrie</entry>
@@ -493,7 +503,7 @@
                 <row>
                   <entry>Mechanik</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug),
                   Verständnis für Fallen, Riegel etc.</entry>
@@ -502,7 +512,7 @@
                 <row>
                   <entry>Medizin</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>bei 1 oder 2 = Erste Hilfe, später echter
                   Medicus</entry>
@@ -511,7 +521,7 @@
                 <row>
                   <entry>Menschenkenntnis</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry></entry>
                 </row>
@@ -519,7 +529,7 @@
                 <row>
                   <entry>Pflanzenkunde</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Wissen über Verbreitung und Wirkung von Pflanzen
                   (besonders Heilpflanzen) sowie einfache Verarbeitung zu
@@ -529,7 +539,7 @@
                 <row>
                   <entry>Religionskunde</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry></entry>
                 </row>
@@ -537,7 +547,7 @@
                 <row>
                   <entry>Sprachen</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Pro Punkt beherrscht man eine zusätzliche
                   Sprache</entry>
@@ -546,7 +556,7 @@
                 <row>
                   <entry>Spurensuche</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry></entry>
                 </row>
@@ -554,7 +564,7 @@
                 <row>
                   <entry>Strategie</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Schlachtpläne entwerfen, Truppenbewegungen
                   koordinieren</entry>
@@ -563,7 +573,7 @@
                 <row>
                   <entry>Taktik</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>richtiges militärisches Vorgehen in einzelnen
                   Situationen</entry>
@@ -572,7 +582,7 @@
                 <row>
                   <entry>Tierkunde</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Erkennen verschiedener Tierarten, Wissen um deren
                   Verhalten und Verbreitung</entry>
@@ -581,7 +591,7 @@
                 <row>
                   <entry>Wildnisleben</entry>
 
-                  <entry>KL</entry>
+                  <entry>KLU</entry>
 
                   <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder
                   essbare Pflanzen finden</entry>
@@ -616,7 +626,7 @@
                 <row>
                   <entry>Reaktion</entry>
 
-                  <entry>IN</entry>
+                  <entry>INT</entry>
 
                   <entry>Initiativewurf</entry>
                 </row>
@@ -624,7 +634,7 @@
                 <row>
                   <entry>Ausweichen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -648,7 +658,7 @@
                 <row>
                   <entry>Boxen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -656,7 +666,7 @@
                 <row>
                   <entry>Raufen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -664,7 +674,7 @@
                 <row>
                   <entry>&lt;verschiedene Kampftechniken&gt;</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -688,7 +698,7 @@
                 <row>
                   <entry>Äxte</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -696,7 +706,7 @@
                 <row>
                   <entry>Dolche</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -704,7 +714,7 @@
                 <row>
                   <entry>Infanteriewaffen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -712,7 +722,7 @@
                 <row>
                   <entry>Scharfe Hiebwaffen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -720,7 +730,7 @@
                 <row>
                   <entry>Schwerter</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -728,7 +738,7 @@
                 <row>
                   <entry>Stabwaffen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -736,7 +746,7 @@
                 <row>
                   <entry>Stichwaffen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -744,7 +754,7 @@
                 <row>
                   <entry>Stumpfe Hiebwaffen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -752,7 +762,7 @@
                 <row>
                   <entry>Peitschen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -760,7 +770,7 @@
                 <row>
                   <entry>Zweihänder</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -784,7 +794,7 @@
                 <row>
                   <entry>Armbrust</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -792,7 +802,7 @@
                 <row>
                   <entry>Bogen</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -800,7 +810,7 @@
                 <row>
                   <entry>Wurfaxt</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry></entry>
                 </row>
@@ -808,7 +818,7 @@
                 <row>
                   <entry>Wurfmesser</entry>
 
-                  <entry>GE</entry>
+                  <entry>GES</entry>
 
                   <entry>Auch für Wurfdolche</entry>
                 </row>
@@ -820,9 +830,9 @@
         <section>
           <title>Magie</title>
 
-          <para>Die magischen Fähigkeiten eines Charakters sind in zwei
-          Bereiche unterteilt, Energie und Materie. Jede Magiefertigkeit ist
-          einem dieser beiden Attribute zugeordnet.</para>
+          <para>Die magischen Fähigkeiten eines Charakters sind in drei
+          Bereiche unterteilt: Energie, Geist und Materie. Jede
+          Magiefertigkeit ist einem dieser drei Attribute zugeordnet.</para>
 
           <para>Im Unterschied zu den anderen Fertigkeiten bauen die
           Magiefertigkeiten aufeinander auf, d.h. für manche Fertigkeiten
@@ -837,18 +847,22 @@
           linkend="magiebereiche" />.</para>
 
           <informaltable>
-            <tgroup cols="3">
+            <tgroup cols="4">
               <colspec colnum="1" colwidth="3*" />
 
-              <colspec align="center" colnum="2" colwidth="1*" />
+              <colspec align="center" colnum="2" colwidth="2*" />
 
-              <colspec colnum="3" colwidth="6*" />
+              <colspec align="center" colnum="3" colwidth="2*" />
+
+              <colspec colnum="4" colwidth="6*" />
 
               <thead>
                 <row>
                   <entry>Fertigkeit</entry>
 
                   <entry>Attribut</entry>
+
+                  <entry>Reichweite</entry>
 
                   <entry>Voraussetzungen</entry>
                 </row>
@@ -857,24 +871,14 @@
               <tbody>
                 <row>
                   <entry><emphasis>Erster Grad</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
                 </row>
 
                 <row>
-                  <entry>Belebte Materie</entry>
+                  <entry>Lebewesen*</entry>
 
-                  <entry>MA</entry>
+                  <entry>MAT</entry>
 
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Flüssigkeiten</entry>
-
-                  <entry>MA</entry>
+                  <entry>B</entry>
 
                   <entry></entry>
                 </row>
@@ -882,7 +886,19 @@
                 <row>
                   <entry>Licht</entry>
 
-                  <entry>EN</entry>
+                  <entry>ENE</entry>
+
+                  <entry>C</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Luft*</entry>
+
+                  <entry>MAT</entry>
+
+                  <entry>B</entry>
 
                   <entry></entry>
                 </row>
@@ -890,7 +906,9 @@
                 <row>
                   <entry>Spüren</entry>
 
-                  <entry>EN</entry>
+                  <entry>ENE</entry>
+
+                  <entry>A / D</entry>
 
                   <entry></entry>
                 </row>
@@ -898,7 +916,9 @@
                 <row>
                   <entry>Telekinese</entry>
 
-                  <entry>EN</entry>
+                  <entry>ENE</entry>
+
+                  <entry>C</entry>
 
                   <entry></entry>
                 </row>
@@ -906,15 +926,19 @@
                 <row>
                   <entry>Telepathie</entry>
 
-                  <entry>EN</entry>
+                  <entry>GEI</entry>
+
+                  <entry>speziell</entry>
 
                   <entry></entry>
                 </row>
 
                 <row>
-                  <entry>Temperatur</entry>
+                  <entry>Teleportation</entry>
 
-                  <entry>MA</entry>
+                  <entry>MAT</entry>
+
+                  <entry>G</entry>
 
                   <entry></entry>
                 </row>
@@ -922,208 +946,152 @@
                 <row>
                   <entry>Umwandlung</entry>
 
-                  <entry>MA</entry>
+                  <entry>MAT</entry>
+
+                  <entry>B</entry>
 
                   <entry></entry>
                 </row>
 
                 <row>
-                  <entry>Unbelebte Materie</entry>
+                  <entry>Unbelebte Materie*</entry>
 
-                  <entry>MA</entry>
+                  <entry>MAT</entry>
+
+                  <entry>B</entry>
 
                   <entry></entry>
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry>Wasser*</entry>
+
+                  <entry>MAT</entry>
+
+                  <entry>B</entry>
 
                   <entry></entry>
+                </row>
 
+                <row>
                   <entry></entry>
                 </row>
 
                 <row>
                   <entry><emphasis>Zweiter Grad</emphasis></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Akustik</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>1 Punkt in Telekinese</entry>
-                </row>
-
-                <row>
-                  <entry>Beherrschung</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>4 Punkte in Telepathie</entry>
-                </row>
-
-                <row>
-                  <entry>Dämpfen</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>2 Punkte in Spüren</entry>
-                </row>
-
-                <row>
-                  <entry>Gedächtnis</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>3 Punkte in Telepathie</entry>
-                </row>
-
-                <row>
-                  <entry>Halluzination</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>2 Punkte in Telepathie</entry>
-                </row>
-
-                <row>
-                  <entry>Kraftfelder</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>1 Punkt in Telekinese</entry>
-                </row>
-
-                <row>
-                  <entry>Sphärologie</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>3 Punkte in Spüren</entry>
-                </row>
-
-                <row>
-                  <entry>Umleiten</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>1 Punkt in Spüren</entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>Dritter Grad</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Elementarerschaffung</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>3 Punkte im jeweiligen Element, 4 Punkte in
-                  Telepathie</entry>
-                </row>
-
-                <row>
-                  <entry>Nekromantie</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>jeweils 2 Punkte in Belebte und Unbelebte
-                  Materie</entry>
-                </row>
-
-                <row>
-                  <entry>Teleportation</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>1 Punkt in Sphärologie</entry>
-                </row>
-
-                <row>
-                  <entry>Wetter</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>jeweils 1 Punkt in Flüssigkeiten und
-                  Temperatur</entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>Vierter Grad</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Artefaktmagie</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
-                  Umleiten</entry>
                 </row>
 
                 <row>
                   <entry>Elektrizität</entry>
 
-                  <entry>EN</entry>
+                  <entry>MAT</entry>
 
-                  <entry>2 Punkte in Wetter</entry>
+                  <entry>A</entry>
+
+                  <entry>2 Punkte im jeweiligen Element* (außer
+                  Kraftmanipulation)</entry>
+                </row>
+
+                <row>
+                  <entry>Geistmanipulation</entry>
+
+                  <entry>GEI</entry>
+
+                  <entry>A / B</entry>
+
+                  <entry>3 Punkte in Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Kraftmanipulation*</entry>
+
+                  <entry>ENE</entry>
+
+                  <entry>C</entry>
+
+                  <entry>1 Punkt in Spüren</entry>
+                </row>
+
+                <row>
+                  <entry>Sphärologie</entry>
+
+                  <entry>MAT</entry>
+
+                  <entry>speziell</entry>
+
+                  <entry>1 Punkt in Teleportation</entry>
                 </row>
 
                 <row>
                   <entry></entry>
+                </row>
 
-                  <entry></entry>
+                <row>
+                  <entry><emphasis>Dritter Grad</emphasis></entry>
+                </row>
 
+                <row>
+                  <entry>Elementarerschaffung</entry>
+
+                  <entry>MAT</entry>
+
+                  <entry>A</entry>
+
+                  <entry>3 Punkte im jeweiligen Element*, 1 Punkt in
+                  Telepathie</entry>
+                </row>
+
+                <row>
+                  <entry>Wetter</entry>
+
+                  <entry>MAT</entry>
+
+                  <entry>H</entry>
+
+                  <entry>jeweils 1 Punkt in Luft und Wasser</entry>
+                </row>
+
+                <row>
                   <entry></entry>
                 </row>
 
                 <row>
-                  <entry><emphasis>Fünfter Grad</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
+                  <entry><emphasis>Vierter Grad</emphasis></entry>
                 </row>
 
                 <row>
-                  <entry>Beschwörung</entry>
+                  <entry>Artefaktmagie</entry>
 
-                  <entry>MA</entry>
+                  <entry>ENE &amp; MAT</entry>
 
-                  <entry>1 Punkt in Beherrschung, 2 Punkte in
-                  Sphärologie</entry>
+                  <entry>A</entry>
+
+                  <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
+                  Kraftmanipulation</entry>
+                </row>
+
+                <row>
+                  <entry>Nekromantie</entry>
+
+                  <entry>GEI &amp; MAT</entry>
+
+                  <entry>A</entry>
+
+                  <entry>jeweils 2 Punkte in Belebte und Unbelebte Materie, 1
+                  Punkt in Telepathie</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
+
+          <para xml:id="elemente">* Die Voraussetzungen der Fertigkeiten
+          Elementarerschaffung und Elektrizität beziehen sich auf ein
+          <firstterm>Element</firstterm>. Als Elemente gelten die Fertigkeiten
+          Lebewesen, Luft, Unbelebte Materie, Wasser und Kraftmanipulation.
+          Ein Charakter muss mindestens eins dieser Elemente beherrschen,
+          bevor er Elementarerschaffung oder Elektrizität erlernen kann. Er
+          kann diese Fertigkeit dann jedoch mit jedem Element anwenden,
+          welches die Voraussetzungen erfüllt.</para>
 
           <mediaobject>
             <imageobject>
@@ -1145,8 +1113,8 @@
       notiert. Der Spieler kann mit diesen Erfahrungspunkten nun beliebig
       viele Attribute und Fertigkeiten kaufen. Der höchste für einen neuen
       Charakter zulässige Wert liegt bei 6 und jeder Charakter muss alle
-      Attribute außer <emphasis>Energie</emphasis> und
-      <emphasis>Materie</emphasis> besitzen.</para>
+      Attribute außer <emphasis>Energie</emphasis>, <emphasis>Geist</emphasis>
+      und <emphasis>Materie</emphasis> besitzen.</para>
 
       <para>Sollten die Erfahrungspunkte nicht vollständig aufgebraucht
       werden, verfallen sie nicht, sondern können später im Spiel zum Steigern
@@ -1449,6 +1417,38 @@
       Meister kann jedoch gestatten, eine Probe auf eine andere, verwandte
       Fertigkeit oder das reine Attribut durchzuführen, sofern es für die
       Situation passt (evtl. auch mit erhöhter Schwierigkeit).</para>
+    </section>
+
+    <section>
+      <title>Unterstützende Fertigkeiten</title>
+
+      <para>Häufig haben Charaktere mehrere Fertigkeiten, die in einer
+      bestimmten Situation hilfreich sind. Obwohl eine Probe nur mit einer
+      einzelnen Fertigkeit durchgeführt werden kann, ist es möglich eine
+      zusätzliche Fertigkeit als Unterstützung zu verwenden. Wenn der Meister
+      diese zusätzliche Fertigkeit für die konkrete Aufgabe als passend
+      erachtet, erhält der Charakter Bonuswürfel für die Fertigkeitsprobe. Die
+      Anzahl der Bonuswürfel beträgt ein Drittel des Werts der unterstützenden
+      Fertigkeit (aufgerundet).<informalexample>
+          <para><emphasis>Beispiele:</emphasis></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Medizin-Probe unterstützt durch Magiefertigkeit
+              Lebewesen</para>
+            </listitem>
+
+            <listitem>
+              <para>Telekinese-Probe zum Öffnen eines Schlosses unterstützt
+              durch Fertigkeit Schlösser knacken</para>
+            </listitem>
+
+            <listitem>
+              <para>Schauspielerei-Probe zum Überreden unterstützt durch
+              Menschenkenntnis</para>
+            </listitem>
+          </itemizedlist>
+        </informalexample></para>
     </section>
   </chapter>
 
@@ -2251,7 +2251,7 @@
 
               <entry>100</entry>
 
-              <entry>150</entry>
+              <entry>200</entry>
 
               <entry></entry>
             </row>
@@ -2265,9 +2265,57 @@
 
               <entry>100</entry>
 
-              <entry>150</entry>
+              <entry>200</entry>
+
+              <entry>500</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>F</entry>
+
+              <entry>100</entry>
 
               <entry>200</entry>
+
+              <entry>500</entry>
+
+              <entry>1000</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>G</entry>
+
+              <entry>200</entry>
+
+              <entry>500</entry>
+
+              <entry>1000</entry>
+
+              <entry>2000</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>H</entry>
+
+              <entry>500</entry>
+
+              <entry>1000</entry>
+
+              <entry>2000</entry>
+
+              <entry>5000</entry>
 
               <entry></entry>
             </row>
@@ -2290,12 +2338,18 @@
   <chapter xml:id="magie">
     <title>Magie</title>
 
-    <para>Ein in der entsprechenden Magiefertigkeit bewanderter Zauberer kann
-    einen magischen Effekt ohne die Kenntnis eines speziellen Zauberspruchs
-    hervorrufen. Magiefertigkeiten werden während des Spiels genauso
-    gehandhabt wie andere Fertigkeiten. Bei ihrer Anwendung gilt allerdings
-    die Sonderregel, dass die Probe nicht alternativ mit anderen Fertigkeiten
-    oder lediglich dem Attribut gewürfelt werden darf.</para>
+    <para>Zauberer verwenden magische Energie aus ihrer unmittelbaren
+    Umgebung, um einen Effekt hervorzurufen. Diese Energie wird als
+    <firstterm>Kraft</firstterm> bezeichnet.</para>
+
+    <para>Dazu benötigen Zauberer die passenden Attribute (Energie, Geist,
+    Materie) und Fertigkeiten für den gewünschten Effekt; die Kenntnis
+    spezieller Zaubersprüche ist dabei nicht erforderlich.</para>
+
+    <para>Magiefertigkeiten werden während des Spiels genauso gehandhabt wie
+    andere Fertigkeiten. Bei ihrer Anwendung gilt allerdings die Sonderregel,
+    dass die Probe nicht alternativ mit anderen Fertigkeiten oder lediglich
+    dem Attribut gewürfelt werden darf.</para>
 
     <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
     bestimmt der Meister zunächst die passenden Magiefertigkeiten. Außerdem
@@ -2309,34 +2363,134 @@
     Zaubersprüchen findet sich im Anhang.</para>
 
     <section>
-      <title>Krafteinsatz</title>
+      <title>Überblick</title>
 
-      <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
-      wieviel Kraft der Charakter aus seiner unmittelbaren Umgebung an sich
-      zieht. Die Menge an Kraftpunkten, die für einen Zauber verwendet wird,
-      beeinflusst je nach Zauber z.B. die Stärke, Reichweite oder
-      Wirkungsdauer. Zuviel Kraft lässt den Zaubernden jedoch ermüden oder
-      schädigt ihn sogar (siehe <xref linkend="magieschaden" />).</para>
+      <para>Das Zaubern beginnt mit dem Sammeln von Kraft. Die Menge an
+      <firstterm baseform="Kraftpunkte">Kraftpunkten</firstterm>, die für
+      einen Zauber verwendet wird, beeinflusst die Auswirkungen des Zaubers,
+      z.B. seine Stärke, Reichweite oder Wirkungsdauer.</para>
 
-      <para>Ein Charakter kann allerdings pro Runde nur so viele Kraftpunkte
-      an sich ziehen, wie die Höhe seiner Willenskraft angibt. Ihm steht es
-      frei, die Kraftaufnahme auf mehrere Runden auszudehnen, er kann
-      währenddessen jedoch keine anderen Aktionen durchführen.</para>
+      <para>Ein Charakter lenkt diese Kraft durch sich selbst hindurch in den
+      Zauber. Dadurch kommt es zu einer Art geistiger „Rückkopplung“. Diese
+      ist umso stärker, je mehr Kraft für den Zauber verwendet wird: die
+      Folgen reichen von Unkonzentriertheit und Erschöpfung über Kopfschmerzen
+      und Halluzinationen bis hin zu Schockzuständen und Bewusstlosigkeit.
+      Dieser <firstterm>Magieschaden</firstterm> lässt sich mit einer
+      Widerstandsprobe vermeiden.</para>
+
+      <para>Den Abschluss des Zauberns bildet die Zauberprobe. Sie
+      entscheidet, ob der Zauber ingesamt gelungen ist und wenn ja, wie
+      gut.</para>
+
+      <para>Die folgenden Abschnitte beschreiben den genauen Ablauf des
+      Zauberns.</para>
+    </section>
+
+    <section>
+      <title>Fertigkeitswürfel einteilen</title>
+
+      <para>Vor Beginn des Zaubers kann der Charakter Fertigkeitswürfel zur
+      Seite legen, um sie für die Widerstandsprobe statt bei der Zauberprobe
+      zu verwenden.</para>
+
+      <informalexample>
+        <para>Tharion möchte den Zauber „Nachtsicht“ wirken. Nachtsicht ist
+        der Fertigkeit Lebewesen zugeordnet. Tharion entscheidet sich, keinen
+        seiner 2 Lebewesen-Würfel für die Widerstandsprobe zur Seite zu legen,
+        um nicht zu riskieren, dass der Zauber scheitert.</para>
+      </informalexample>
+    </section>
+
+    <section>
+      <title>Kraft sammeln</title>
+
+      <para>In jeder Runde, in der ein Charakter Kraft sammelt, wird eine
+      <firstterm>Sammelprobe</firstterm> durchgeführt. Für diese Probe wird
+      das der Magiefertigkeit zugeordnete Attribut (Geist, Energie oder
+      Materie) und Willenskraft verwendet; die Schwierigkeit beträgt 11. Die
+      Anzahl der Erfolge ist die Menge an Kraftpunkten, die der Charakter in
+      dieser Runde an sich ziehen konnte.</para>
+
+      <para>Um zu vermeiden, zu viel Kraft zu verwenden, kann der Spieler vor
+      der Probe ansagen, wieviel Kraft er in dieser Runde höchstens sammeln
+      will. Überschüssige Erfolge werden dann nicht gezählt.</para>
+
+      <para>Das Sammeln von Kraft ist im Kampf eine volle Aktion. Ein
+      Charakter kann zwar noch Würfel für eine Reaktion, z.B. Ausweichen,
+      einteilen (siehe <xref linkend="kampf" />). Davon abgesehen darf das
+      Sammeln jedoch nicht unterbrochen werden, sonst ist die bisher
+      gesammelte Kraft verloren.</para>
+
+      <para>Nach jeder Sammelprobe kann der Spieler entscheiden, ob er nun den
+      Zauber abschließen oder weiter Kraft sammeln möchte.</para>
+
+      <informalexample>
+        <para>Tharion möchte für die Nachtsicht 5 Kraftpunkte verwenden. Die
+        verwendete Fertigkeit Lebewesen ist dem Attribut Materie zugeordnet,
+        in der Tharion einen Wert von 1 hat. Seine Willenskraft beträgt 4,
+        Tharion verwendet für die Sammelprobe also 5 Wüfel.</para>
+
+        <para>In der ersten Runde erzielt er 2 Erfolge und hat damit bereits 2
+        Kraftpunkte gesammelt. In der zweiten Runde sagt er an, maximal 3
+        Kraftpunkte sammeln zu wollen. Er erzielt 2 Erfolge und hat damit nun
+        4 Kraftpunkte gesammelt. In der dritten Runde sagt er an, maximal 1
+        Kraftpunkt sammeln zu wollen. Er erzielt 3 Erfolge und erhält damit
+        wie gewünscht den 5. und letzten Kraftpunkt. Tharion entscheidet sich,
+        den Zauber nun abzuschließen.</para>
+      </informalexample>
+    </section>
+
+    <section xml:id="magieschaden">
+      <title>Magieschaden</title>
+
+      <para>Während des Kraftsammelns muss der Charakter in regelmäßigen
+      Abständen eine Widerstandsprobe gegen die gesamte bisher gesammelten
+      Kraft ablegen. Der Abstand zwischen diesen Widerstandsproben beträgt so
+      viele Runden, wie der Charakter Punkte in der jeweiligen Fertigkeit hat.
+      Vor dem Abschluss des Zaubers, der Zauberprobe, ist eine weitere
+      Widerstandsprobe fällig, es sei denn in dieser Runde wurde bereits eine
+      durchgeführt.</para>
+
+      <para>Die Widerstandsprobe wird mit Selbstbeherrschung und den eventuell
+      zur Seite gelegten Fertigkeitswürfeln gegen eine Schwierigkeit von 11
+      durchgeführt. Der erhaltene Magieschaden entspricht der Gesamtanzahl der
+      bisher gesammelten Kraftpunkte, vermindert um die bei der
+      Widerstandsprobe erzielten Erfolge.</para>
+
+      <informalexample>
+        <para>Tharions Wert in Lebewesen beträgt 2, er muss also nach jeweils
+        zwei Sammelproben eine Widerstandsprobe durchführen. Da er keine
+        Fertigkeitswürfel für die Widerstandsprobe zur Seite gelegt hat,
+        stehen ihm dafür nur seine 5 Selbstbeherrschungs-Würfel zur Verfügung.
+        Nach der zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt.
+        Bei der Widerstandsprobe erzielt er 3 Erfolge und erhält damit einen
+        geistigen Schadenspunkt. Nach der dritten Sammelprobe schließt er den
+        Zauber ab und muss erneut eine Widerstandsprobe ablegen. Er hat nun
+        insgesamt 5 Kraftpunkte gesammelt. Bei der Probe erzielt er 2 Erfolge,
+        erhält also 3 geistige Schadenspunkte.</para>
+      </informalexample>
+
+      <para>Obwohl die Widerstandsproben bereits vor der abschließenden
+      Zauberprobe durchgeführt werden, kommt der Schaden erst nach dem Zaubern
+      zum Tragen; der Würfelmalus für erhaltenen Schaden (siehe <xref
+      linkend="schaden" />) greift bei der Zauberprobe also nur für den
+      Schaden, den der Charakter bereits vorher erhalten hatte.</para>
     </section>
 
     <section>
       <title>Zauberprobe</title>
 
-      <para>Die Zauberprobe wird mit den Würfeln der Magiefertigkeit und denen
-      des zugehörigen Attributs durchgeführt. Die Anzahl der Erfolge bei der
-      Zauberprobe nennen wir die <firstterm>Qualität</firstterm> des Zaubers;
-      diese fließt in die Ermittlung der spieltechnischen Wirkung eines
-      Zaubers ein.</para>
+      <para>Die Zauberprobe findet direkt im Anschluss an die letzte
+      Sammelprobe und noch in der gleichen Runde statt. Die Probe wird mit den
+      Würfeln der Magiefertigkeit und denen des zugehörigen Attributs
+      durchgeführt. Manche Magiefertigkeiten sind mehreren Attributen
+      zugeordnet, z.B. Artefaktmagie (Energie und Materie). In diesem Fall
+      gilt der aufgerundete Mittelwert der beiden Attribute.</para>
 
-      <para>Die Qualität bestimmt auch, wieviel der angezogenen Kraft in den
-      Zauber fließt: für jeden Erfolg fließt ein Kraftpunkt in den Zauber ein.
-      Hat der Zaubernde weitere Kraftpunkte an sich gezogen, fließen diese nur
-      zur Hälfte in den Zauber ein, wobei aufgerundet wird.</para>
+      <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
+      <firstterm>Qualität</firstterm> des Zaubers; diese fließt neben der
+      Kraftmenge in die Ermittlung der spieltechnischen Wirkung eines Zaubers
+      ein.</para>
 
       <?dbfo-need height="7cm"?>
 
@@ -2344,15 +2498,15 @@
 
       <variablelist>
         <varlistentry>
-          <term>Fertigkeiten</term>
+          <term>Fertigkeit:</term>
 
           <listitem>
-            <para>Belebte Materie</para>
+            <para>Lebewesen</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Schwierigkeit</term>
+          <term>Schwierigkeit:</term>
 
           <listitem>
             <para>14</para>
@@ -2360,7 +2514,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Krafteinsatz</term>
+          <term>Krafteinsatz:</term>
 
           <listitem>
             <para>beliebig</para>
@@ -2368,7 +2522,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Wirkungsdauer</term>
+          <term>Wirkungsdauer:</term>
 
           <listitem>
             <para>pro Kraftpunkt 5 Minuten</para>
@@ -2376,33 +2530,25 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Beschreibung</term>
+          <term>Beschreibung:</term>
 
           <listitem>
             <para>Das Ziel erhält durch eine vorübergehende Veränderung der
             Augen die Fähigkeit zur Nachtsicht (Restlichtverstärkung). Bei
-            plötzlichem Blenden kann das Opfer 3-Qualität Runden nichts mehr
-            sehen.</para>
+            plötzlichem Blenden kann das Opfer (3 - Qualität) Runden nichts
+            mehr sehen.</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <informalexample>
-        <para>Tharion hat Materie 1 und Belebte Materie 2 und damit 3 Würfel
-        für die Nachtsicht-Probe zur Verfügung. Er setzt 5 Kraftpunkte ein und
-        und rollt mit seinen drei Würfeln eine Qualität von 2. Dies ergibt
-        eine umgesetzte Kraft von 4 Punkten: die ersten 2 sind durch die
-        Qualität voll umgesetzt, die verbleibenden drei nur zur Hälfte, ergibt
-        insgesamt 3,5 — gerundet 4.</para>
-
-        <sidebar>
-          <para><emphasis role="bold">Anmerkung: </emphasis>Die Anzahl der
-          angezogenen Kraftpunkte ist für den eigentlichen Effekt des Zaubers
-          unerheblich. Wenn also bei den Magiefertigkeiten oder in
-          Spruchbeschreibungen von „eingesetzter Kraft“ oder „Kraftaufwand“
-          die Rede ist, ist immer die umgesetzte Kraft, also die tatsächlich
-          im Zauber enthaltene Energiemenge gemeint.</para>
-        </sidebar>
+        <para>Tharion hat Materie 1 und Lebewesen 2, also 3 Würfel für die
+        Nachtsicht-Probe zur Verfügung. Er würfelt gegen eine Schwierigkeit
+        von 14. Er erzielt 2 Erfolge, die Qualität beträgt also 2. Da er 5
+        Kraftpunkte gesammelt hat, hält die Wirkung des Zaubers nun 25 Minuten
+        an. Sollte er später plötzlich geblendet werden, kann er aufgrund der
+        hohen Qualität seines Zaubers bereits nach einer Runde wieder
+        sehen.</para>
       </informalexample>
     </section>
 
@@ -2410,40 +2556,14 @@
       <title>Triviale Zauber</title>
 
       <para>Wie bei anderen Fertigkeiten wird für alltägliche, triviale
-      Situationen auch beim Zaubern keine Probe durchgeführt: Wenn die
+      Situationen auch beim Zaubern keine Probe durchgeführt. Wenn die
       Schwierigkeit 7 oder niedriger beträgt und der Krafteinsatz nicht höher
       als 2 ist, muss keine Zauberprobe durchgeführt werden. Die Qualität
-      beträgt zwei, alle Kraftpunkte werden umgesetzt und die Widerstandsprobe
-      (siehe unten) wird übersprungen.</para>
+      beträgt zwei und der Charaker erhält keinen Magieschaden.</para>
 
       <para>Eine Zauberprobe muss dennoch durchgeführt werden, wenn ein
       Vergleichswurf gefordert wird oder der Spieler es wünscht — zum Beispiel
       weil er eine besonders hohe Qualität erreichen kann.</para>
-    </section>
-
-    <section xml:id="magieschaden">
-      <title>Magieschaden</title>
-
-      <para>Ein Zaubernder lenkt die Kraft durch sich selbst hindurch in den
-      Zauber. Dadurch kommt es am Ende des Zaubervorgangs zu einer Art
-      geistiger „Rückkopplung“, die je nach ihrer Stärke Unkonzentriertheit,
-      Erschöpfung, Kopfschmerzen und fieberartige Halluzinationen bis hin zu
-      Schockzuständen und Bewusstlosigkeit zur Folge haben kann.</para>
-
-      <para>Regeltechnisch gesehen erhält der Charakter nach der Zauberprobe
-      für jeden Kraftpunkt, den er an sich gezogen hat, einen Punkt
-      Betäubungsschaden — und zwar unabhängig davon, ob der Zauber gelungen
-      ist. Diesem Schaden darf er mit einer Selbstbeherrschungsprobe
-      (Schwierigkeit 11) widerstehen; pro Erfolg bei diesem Widerstandswurf
-      erhält er einen Schadenspunkt weniger.</para>
-
-      <informalexample>
-        <para>Tharion hat für seinen Zauber Kraft in Höhe von 5 Punkten an
-        sich gezogen, das entspricht also zunächst einmal 5 Schadenspunkten.
-        Er würfelt nun mit seiner Selbstbeherrschung (die zufällig ebenfalls 5
-        beträgt) gegen eine 11 und schafft 3 Erfolge. Die verbliebenen zwei
-        Schadenspunkte werden auf seinem Charakterblatt vermerkt.</para>
-      </informalexample>
     </section>
 
     <section>
@@ -2481,22 +2601,26 @@
       hauptsächlich bestimmt — die sogenannte
       <firstterm>Primärfertigkeit</firstterm>.</para>
 
-      <para>Die Würfelanzahl für die Probe ergibt sich aus dem Attribut der
-      Primärfertigkeit und dem Durchschnitt der angegebenen Magiefertigkeiten.
-      Ist der Durchschnitt keine ganze Zahl, wird in Richtung des Werts der
-      Primärfertigkeit gerundet.</para>
+      <para>Für die Sammelprobe wird das Attribut der Primärfertigkeit
+      verwendet. Die Würfelanzahl für die eigentliche Zauberprobe ergibt sich
+      aus dem Attribut der Primärfertigkeit und dem Durchschnitt der
+      angegebenen Magiefertigkeiten. Ist der Durchschnitt keine ganze Zahl,
+      wird in Richtung des Werts der Primärfertigkeit gerundet.</para>
 
       <informalexample>
-        <para>Der Spruch „Feuerball“ ist den Fertigkeiten „Temperatur,
-        Telekinese“ zugeordnet, Temperatur ist die Primärfertigkeit. Die
-        zugeordneten Attribute sind Materie für Temperatur und Energie für
-        Telekinese. Weil Temperatur die Primärfertigkeit ist, wird für die
-        Feuerball-Probe Materie verwendet.</para>
+        <para>Der Spruch „Verletzungen heilen“ ist den Fertigkeiten
+        „Lebewesen, Spüren“ zugeordnet, Lebewesen ist die Primärfertigkeit.
+        Die zugeordneten Attribute sind Materie für Lebewesen und Energie für
+        Spüren. Weil Lebewesen die Primärfertigkeit ist, wird als Attribut für
+        Sammel- und Zauberprobe Materie verwendet.</para>
 
-        <para>Ein Zauberer hat Materie 2, Temperatur 5 und Telekinese 2. Der
-        Durchschnitt der Fertigkeiten beträgt 3,5. Da der Wert der
-        Primärfertigkeit darüber liegt, wird aufgerundet, der Zaubernde erhält
-        also 4 Würfel aus seinen Magiefertigkeiten und 2 aus Materie.</para>
+        <para>Ein Zauberer hat die Attribute Willenskraft auf 5 und Materie
+        auf 2 sowie die Fertigkeiten Lebewesen auf 4 und Spüren auf 1. Für die
+        Sammelprobe verwendet er 7 Würfel (WIL + MAT). Für die Zauberprobe
+        wird der Durchschnitt der Fertigkeiten gebildet, er beträgt 2,5. Da
+        der Wert der Primärfertigkeit darüber liegt, wird aufgerundet, der
+        Zaubernde erhält also 3 Würfel aus seinen Magiefertigkeiten und 2 aus
+        Materie.</para>
       </informalexample>
     </section>
 
@@ -3257,28 +3381,35 @@
 
       <para><emphasis>{pseudo-wissenschaftlichen ansatz
       erklären}</emphasis></para>
+
+      <para><emphasis>- Veränderte Gegenstände bleiben, wie sie sind. Der
+      Originalzustand wird nicht "gespeichert", er geht verloren: ein zur
+      Tasse verformter Teller ist eine Tasse und kann nicht per Entzauberung
+      zurückverwandelt - wohl aber erneut zu einem Teller geformt
+      werden.</emphasis></para>
     </section>
 
     <section>
       <title>Erster Grad</title>
 
       <section>
-        <title>Belebte Materie</title>
+        <title>Lebewesen</title>
 
         <para>umfasst alle Manipulationen an lebendigen Wesen. Damit ist
         sowohl das einfache Verformen von Lebewesen als auch solche Dinge wie
         Heilung gemeint. Prinzipiell wären sogar komplette Verwandlungen in
         andere Tiere denkbar — die allerdings sehr schwierig sein
         sollten.</para>
-      </section>
 
-      <section>
-        <title>Flüssigkeiten</title>
+        <para>hat stoffwechsel</para>
 
-        <para>ermöglicht die Beeinflussung von Wasser und Flüssigkeiten im
-        allgemeinen, wie zum Beispiel Zusammenziehen der Luftfeuchtigkeit,
-        verdampfen oder kondensieren lassen. Kann — in Kombination mit
-        Temperatur — Schnee und Eis erzeugen.</para>
+        <para>spezielle energie, die lebewesen schützt</para>
+
+        <para>Selbstbeharrungsvermögen, korporale Identität - sie "wissen",
+        was und wie sie sein sollen</para>
+
+        <para>Verstärkungen von Körperfunktionen wie Heilung, Bewegung = OK,
+        Herz stoppen = NICHT</para>
       </section>
 
       <section>
@@ -3291,6 +3422,34 @@
       </section>
 
       <section>
+        <title>Luft</title>
+
+        <para>Beeinflussen von Luft, Kraftfelder,
+        Akustik;;;;;;;;;;;;;;;;;;;;;;;</para>
+
+        <para></para>
+
+        <para></para>
+
+        <para>m Gegensatz zur Telekinese, die sich mit der Bewegung von
+        Objekten beschäftigt, ist diese Fertigkeit für das Aufhalten selbiger
+        zuständig. Damit ist kein Festhalten gemeint, sondern die Erzeugung
+        eines Felds von Gegenkraft, das Bewegungen unterbindet. Die klassische
+        Anwendung dieses Gebiets besteht natürlich in der Erschaffung aller
+        Arten von magischen Rüstungen und Barrieren.</para>
+
+        <para></para>
+
+        <para>ist eine sehr „feinfühlige“ Variante der Telekinese, nämlich die
+        Beeinflussung und Erzeugung von Schallwellen. Abgesehen von magischem
+        Bauchreden (bei dem die Stimme <emphasis>wirklich</emphasis> aus einer
+        anderen Richtung kommt) ist z.B. auch die Erzeugung einer magischen
+        Stille möglich.</para>
+
+        <para>Reichweite: B</para>
+      </section>
+
+      <section>
         <title>Spüren</title>
 
         <para>umfasst alle Effekte, die gemeinhin als Hellsicht bezeichnet
@@ -3300,6 +3459,10 @@
         „normalen“ Welt zu vergleichen, man nimmt nur Ansammlungen von
         Kraftlinien und Auren wahr. Die Auren von Lebewesen zu interpretieren
         fällt ebenfalls in diesen Bereich.</para>
+
+        <para>sehen, was andere zaubern</para>
+
+        <para>dinge beeinflussen, die man nicht sehen kann</para>
 
         <para>Diese Fertigkeit gehört in nahezu allen strukturierten
         Magieausbildungen zum Standard.</para>
@@ -3348,7 +3511,8 @@
 
                   <entry>4</entry>
 
-                  <entry>Geistige Botschaft / Telepathische Verbindung</entry>
+                  <entry>Geistige Botschaft / Telepathische Verbindung /
+                  Sinneswahrnehmungen teilen</entry>
                 </row>
 
                 <row>
@@ -3372,14 +3536,23 @@
       </section>
 
       <section>
-        <title>Temperatur</title>
+        <title>Teleportation</title>
 
-        <para>bezeichnet alle magischen Effekte, die Flammen erzeugen oder
-        verändern sowie Temperaturänderungen (in beide Richtungen, also z.B.
-        auch Einfrieren). Dabei wird häufig die vorhandene Umgebungswärme
-        zusammengezogen und konzentriert. Temperatur taucht besonders bei
-        Kampfzaubern wie dem Feuerball häufig in Kombination mit anderen
-        Fertigkeiten auf.</para>
+        <para>umfasst alle Effekte, die eine Bewegung innerhalb einer Sphäre
+        in Nullzeit ermöglichen. Dazu zählt zunächst das klassische
+        Teleportieren, also das Versetzen eines Stücks der Realität
+        (üblicherweise einen Menschen) an eine andere Stelle — aber auch das
+        Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
+        Orten.</para>
+      </section>
+
+      <section>
+        <title>Umwandlung</title>
+
+        <para>ist die Fähigkeit, ein Material in ein anderes zu verwandeln.
+        Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
+        möglich — dummerweise hat diese den Tod des Lebewesens zur
+        Folge...</para>
       </section>
 
       <section>
@@ -3395,12 +3568,12 @@
       </section>
 
       <section>
-        <title>Umwandlung</title>
+        <title>Wasser</title>
 
-        <para>ist die Fähigkeit, ein Material in ein anderes zu verwandeln.
-        Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
-        möglich — dummerweise hat diese den Tod des Lebewesens zur
-        Folge...</para>
+        <para>ermöglicht die Beeinflussung von Wasser in allen
+        Aggregatzuständen, wie zum Beispiel Zusammenziehen der
+        Luftfeuchtigkeit, verdampfen oder kondensieren lassen. Kann auch
+        Schnee und Eis erzeugen.</para>
       </section>
     </section>
 
@@ -3408,40 +3581,57 @@
       <title>Zweiter Grad</title>
 
       <section>
-        <title>Akustik</title>
+        <title>Elektrizität</title>
 
-        <para>ist eine sehr „feinfühlige“ Variante der Telekinese, nämlich die
-        Beeinflussung und Erzeugung von Schallwellen. Abgesehen von magischem
-        Bauchreden (bei dem die Stimme <emphasis>wirklich</emphasis> aus einer
-        anderen Richtung kommt) ist z.B. auch die Erzeugung einer magischen
-        Stille möglich.</para>
-
-        <para>Reichweite: B</para>
+        <para>ist das Verständnis von elektrischen Ladungen und damit der
+        Entstehung von Blitzen. Obwohl das Erzeugen selbiger in Wolken
+        leichter fällt, ist deren Vorhandensein keineswegs Bedingung.
+        Ebenfalls im Bereich des Möglichen liegt das simple „Aufladen“ von
+        Gegenständen mit Elektrizität.</para>
 
         <section>
-          <title>Voraussetzung</title>
+          <title>Voraussetzungen</title>
 
-          <para>Telekinese</para>
+          <para>Wetter 2 [Flüssigkeiten &amp; Temperatur]</para>
         </section>
       </section>
 
       <section>
-        <title>Beherrschung</title>
+        <title>Geistmanipulation</title>
 
-        <para>bezeichnet die Fähigkeit in den Geist eines Menschen
-        einzudringen und seine Gedanken zu beeinflussen oder zu kontrollieren.
-        Dabei ist sowohl ein direkter Befehl, wie auch ein unterschwelliger
-        Zwang möglich. Die Übermittlung der Befehle geschieht über eine
-        telepathische Verbindung.</para>
+        <para>Halluzination dringt im Gegensatz zur Beherrschung kaum in den
+        Geist des Opfers ein, sondern beeinflusst nur seine
+        Sinneswahrnehmungen. So ist es zum Beispiel möglich, einem Wesen
+        vorzugaukeln, es sehe seinen schlimmsten Alptraum vor sich, oder
+        einfach nur eine Wand an einer bestimmten Stelle. Obwohl die meisten
+        Magiekundigen mit diesem Gebiet nur die Augen täuschen, ist es genauso
+        möglich, den Tast-, Geschmacks- und Geruchssinn oder das
+        Schmerzempfinden zu beeinflussen.</para>
+
+        <para>Beherrschung bezeichnet die Fähigkeit in den Geist eines
+        Menschen einzudringen und seine Gedanken zu beeinflussen oder zu
+        kontrollieren. Dabei ist sowohl ein direkter Befehl als auch ein
+        unterschwelliger Zwang möglich. Die Übermittlung der Befehle geschieht
+        über eine telepathische Verbindung.</para>
+
+        <para>Mit Gedächtnis kann unbemerkt in den Erinnerungen des Opfers
+        gestöbert werden. Sie können außerdem beinahe beliebig manipuliert
+        werden — es können sogar völlig neue Erinnerungen in den Geist des
+        Opfers „eingepflanzt“ werden oder ganze Ereignisse gelöscht
+        werden.</para>
 
         <section>
           <title>Voraussetzung</title>
 
-          <para>Telepathie 4</para>
+          <para>Telepathie 3</para>
         </section>
 
         <section>
           <title>Schwierigkeit</title>
+
+          <para>Halluzination : Doppelte WK. +4 bis +10 (Um so komplexer /
+          größer / unwahrscheinlicher das Bild, desto schwieriger der
+          Zauber).</para>
 
           <informaltable>
             <tgroup cols="3">
@@ -3493,28 +3683,43 @@
             </tgroup>
           </informaltable>
 
-          <para>Reichweite: A</para>
+          <para>Gedächtnis: Doppelte WK. des Opfers +6 bis +12, je nach
+          Komplexität, Wichtigkeit oder Folgen des Ereignisses</para>
+
+          <para>Reichweite: A (Halluzination B?)</para>
         </section>
 
         <section>
           <title>Kraftaufwand</title>
 
-          <para>Gering, selbst für einen mehrere Tage anhaltenden Zwang werden
-          nur etwa 4-6 Kraft benötigt.</para>
+          <para>Beherrschung: Gering, selbst für einen mehrere Tage
+          anhaltenden Zwang werden nur etwa 4-6 Kraft benötigt.</para>
+
+          <para>Gedächtnis: Gering. Auch für aufwendige Änderungen sind nur 2
+          bis 4 Kraft nötig.</para>
+
+          <para>Halluzination: Gering, je nach Täuschung etwa 2 Kraft pro
+          Minute und Person.</para>
         </section>
       </section>
 
       <section>
-        <title>Dämpfen</title>
+        <title>Kraftmanipulation</title>
 
-        <para>ist die Fähigkeit, das Pulsieren der Kraft in einem bestimmten
-        Umkreis „lahmzulegen“. In diesem Bereich ist zwar die Realität
-        unverändert, es lässt sich aber keine Magie mehr anwenden. Befindet
-        sich ein Zauberer in einem solchen Bereich, kann er keine Kraft an
-        sich ziehen, zaubert er von außen in einen solches Gebiet hinein, wird
-        sein Zauber „verschluckt“. Auf diese Weise lassen sich auch magische
-        Barrieren bilden, durch die kein Zauber dringen kann (hinter denen
-        aber gezaubert werden kann).</para>
+        <para>bezeichnet das Lenken von Kraftströmen anderer, die klassische
+        Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die Kraft zu
+        entziehen oder auch das ihn zusammenhaltende „Gewebe“ aufzulösen.
+        Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln zum
+        „gemeinsamen“ Zaubern.</para>
+
+        <para>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in einem
+        bestimmten Umkreis „lahmzulegen“. In diesem Bereich ist zwar die
+        Realität unverändert, es lässt sich aber keine Magie mehr anwenden.
+        Befindet sich ein Zauberer in einem solchen Bereich, kann er keine
+        Kraft an sich ziehen, zaubert er von außen in einen solches Gebiet
+        hinein, wird sein Zauber „verschluckt“. Auf diese Weise lassen sich
+        auch magische Barrieren bilden, durch die kein Zauber dringen kann
+        (hinter denen aber gezaubert werden kann).</para>
 
         <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
         vorübergehend keine Magie lenken kann — selbst permanente Dämpfungen
@@ -3523,93 +3728,7 @@
         <section>
           <title>Voraussetzung</title>
 
-          <para>Spüren 2</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Gedächtnis</title>
-
-        <para>Mit dieser Fähigkeit kann unbemerkt in den Erinnerungen des
-        Opfers gestöbert werden. Sie können außerdem beinahe beliebig
-        manipuliert werden — es können sogar völlig neue Erinnerungen in den
-        Geist des Opfers „eingepflanzt“ werden oder ganze Ereignisse gelöscht
-        werden.</para>
-
-        <para>Wie bei Beherrschung ist auch hier eine telepathische Verbindung
-        absolute Voraussetzung.</para>
-
-        <para>Reichweite: A</para>
-
-        <section>
-          <title>Voraussetzung</title>
-
-          <para>Telepathie 3</para>
-        </section>
-
-        <section>
-          <title>Schwierigkeit</title>
-
-          <para>Doppelte WK. des Opfers +6 bis +12, je nach Komplexität,
-          Wichtigkeit oder Folgen des Ereignisses</para>
-        </section>
-
-        <section>
-          <title>Kraftaufwand</title>
-
-          <para>Gering. Auch für aufwendige Änderungen sind nur 2 bis 4 Kraft
-          nötig.</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Halluzination</title>
-
-        <para>dringt im Gegensatz zur Beherrschung kaum in den Geist des
-        Opfers ein, sondern beeinflusst nur seine Sinneswahrnehmungen. So ist
-        es zum Beispiel möglich, einem Wesen vorzugaukeln, es sehe seinen
-        schlimmsten Alptraum vor sich, oder einfach nur eine Wand an einer
-        bestimmten Stelle. Obwohl die meisten Magiekundigen mit diesem Gebiet
-        nur die Augen täuschen, ist es genauso möglich, den Tast-, Geschmacks-
-        und Geruchssinn oder das Schmerzempfinden zu beeinflussen.</para>
-
-        <section>
-          <title>Voraussetzung</title>
-
-          <para>Telepathie 2</para>
-        </section>
-
-        <section>
-          <title>Schwierigkeit</title>
-
-          <para>Doppelte WK. +4 bis +10 (Um so komplexer / größer /
-          unwahrscheinlicher das Bild, desto schwieriger der Zauber).</para>
-
-          <para>Reichweite: B.</para>
-        </section>
-
-        <section>
-          <title>Kraftaufwand</title>
-
-          <para>Gering, je nach Täuschung etwa 2 Kraft pro Runde und
-          Person.</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Kraftfelder</title>
-
-        <para>Im Gegensatz zur Telekinese, die sich mit der Bewegung von
-        Objekten beschäftigt, ist diese Fertigkeit für das Aufhalten selbiger
-        zuständig. Damit ist kein Festhalten gemeint, sondern die Erzeugung
-        eines Felds von Gegenkraft, das Bewegungen unterbindet. Die klassische
-        Anwendung dieses Gebiets besteht natürlich in der Erschaffung aller
-        Arten von magischen Rüstungen und Barrieren.</para>
-
-        <section>
-          <title>Voraussetzung</title>
-
-          <para>Telekinese</para>
+          <para>Spüren</para>
         </section>
       </section>
 
@@ -3626,22 +3745,6 @@
           <para>Spüren 3</para>
         </section>
       </section>
-
-      <section>
-        <title>Umleiten</title>
-
-        <para>bezeichnet das Lenken von Kraftströmen anderer, die klassische
-        Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die Kraft zu
-        entziehen oder auch das ihn zusammenhaltende „Gewebe“ aufzulösen.
-        Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln zum
-        „gemeinsamen“ Zaubern.</para>
-
-        <section>
-          <title>Voraussetzung</title>
-
-          <para>Spüren</para>
-        </section>
-      </section>
     </section>
 
     <section>
@@ -3651,54 +3754,19 @@
         <title>Elementarerschaffung</title>
 
         <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, eine
-        Art Elementargeist zu erschaffen (Elemente im Sinn dieser Fertigkeit
-        sind Unbelebt, Belebt, Temperatur, Flüssigkeiten und Kraft/Umleiten).
-        Dabei zieht er eine entsprechende Menge des Elements zusammen um
-        daraus ein Wesen zu formen. Dieses Wesen wird dann mit Leben erfüllt,
-        in dem der Zauberer einen Teil seines Geistes hineinprojiziert.</para>
+        Art Elementargeist zu erschaffen. Dabei zieht er eine entsprechende
+        Menge des Elements zusammen um daraus ein Wesen zu formen. Dieses
+        Wesen wird dann mit Leben erfüllt, in dem der Zauberer einen Teil
+        seines Geistes hineinprojiziert.</para>
 
         <para>Beherrscht ein Charakter diese Fertigkeit, kann er sie mit allen
-        Elementen (die er gut genug beherrscht) benutzen. Es sind auch
-        Elementkombinationen möglich — wie z.B. Temperatur &amp; Flüssigkeiten
-        für ein Eiselementar.</para>
+        Elementen (die er gut genug beherrscht) benutzen. Mehr zu Elementen
+        siehe <xref linkend="elemente" />.</para>
 
         <section>
           <title>Voraussetzungen</title>
 
           <para>Jeweiliges Element auf 3 &amp; Telepathie auf 4</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Nekromantie</title>
-
-        <para>ermöglicht es, totes Fleisch wieder in „lebendes“ umzuwandeln
-        und damit Leichen wieder mit einem Scheinleben zu erfüllen. Bedingung
-        dafür ist einerseits natürlich noch das Vorhandensein von Fleisch,
-        andererseits das eines Bewusstseins für den Körper — denn sonst kann
-        der Zombie nur als Zimmerdekoration dienen.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Belebte &amp; Unbelebte Materie jeweils auf 2</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Teleportation</title>
-
-        <para>umfasst alle Effekte, die eine Bewegung innerhalb einer Sphäre
-        in Nullzeit ermöglichen. Dazu zählt zunächst das klassische
-        Teleportieren, also das Versetzen eines Stücks der Realität
-        (üblicherweise einen Menschen) an eine andere Stelle — aber auch das
-        Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
-        Orten.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Sphärologie [Spüren]</para>
         </section>
       </section>
 
@@ -3738,35 +3806,17 @@
       </section>
 
       <section>
-        <title>Elektrizität</title>
+        <title>Nekromantie</title>
 
-        <para>ist das Verständnis von elektrischen Ladungen und damit der
-        Entstehung von Blitzen. Obwohl das Erzeugen selbiger in Wolken
-        leichter fällt, ist deren Vorhandensein keineswegs Bedingung.
-        Ebenfalls im Bereich des Möglichen liegt das simple „Aufladen“ von
-        Gegenständen mit Elektrizität.</para>
+        <para>ermöglicht es, totes Fleisch wieder in „lebendes“ umzuwandeln
+        und damit Leichen wieder mit einem Scheinleben zu erfüllen. Bedingung
+        dafür ist natürlich noch das Vorhandensein von Fleisch.</para>
 
         <section>
           <title>Voraussetzungen</title>
 
-          <para>Wetter 2 [Flüssigkeiten &amp; Temperatur]</para>
-        </section>
-      </section>
-    </section>
-
-    <section>
-      <title>Fünfter Grad</title>
-
-      <section>
-        <title>Beschwörung</title>
-
-        <para>ist das Öffnen eines Spalts in eine andere Sphäre, um ein Wesen
-        von dort in diese Welt zu rufen und zu kontrollieren.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Sphärologie 2 [Spüren] &amp; Beherrschung [Telepathie]</para>
+          <para>Belebte &amp; Unbelebte Materie jeweils auf 2, Telepathie auf
+          1</para>
         </section>
       </section>
     </section>

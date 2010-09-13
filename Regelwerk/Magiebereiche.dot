@@ -3,67 +3,57 @@ digraph untitled
 		rankdir=LR;
 		
 		{ rank="same"
-		"Belebte Materie" [shape=box]
-		Temperatur [shape=box]/*[fontcolor=white style=filled fillcolor=black]*/
+		Lebewesen [shape=box]
 		Licht [group=1]
+		Luft [shape=box]
 		Spüren [group=1]
 		Telekinese
 		Telepathie
-		Umwandlung
+		Teleportation
 		"Unbelebte Materie" [shape=box]
-		Flüssigkeiten [shape=box]
+		Umwandlung
+		Wasser [shape=box]
 		}
 
-		{ /*rank="same"*/
-		Akustik
-		Beherrschung
-		Dämpfen
-		Gedächtnis
-		Halluzination
-		Kraftfelder
+		{
+		Geistmanipulation
 		Sphärologie
-		Umleiten [shape=box]
+		Kraftmanipulation [shape=box]
 		}
 		
-		{ /*rank="same"*/
+		{
 		Elementarerschaffung
-		Nekromantie
-		Teleportation
 		Wetter
 		}
 		
-		{ /*rank="same"*/
+		{
 		Artefaktmagie
 		Elektrizität
-		}
-		
-		{ /*rank="same"*/
-		Beschwörung
+		Nekromantie
 		}
 	
 		"(Element)" [shape=box]
 
-		Telekinese -> Akustik [label=" 1"];
-		Telepathie -> Beherrschung [label=" 4"];
-		Spüren -> Dämpfen [label=" 2"];
-		Telepathie -> Gedächtnis [label=" 3"];
-		Telepathie -> Halluzination [label=" 2"];
-		Telekinese -> Kraftfelder [label=" 1"];
-		Spüren -> Sphärologie [label=" 3"];
-		Spüren -> Umleiten [label=" 1"];
-		"Belebte Materie" -> Nekromantie [label=" 2"];
-		"Unbelebte Materie" -> Nekromantie [label=" 2"];
-		Sphärologie -> Teleportation [label=" 1"];
-		Flüssigkeiten -> Wetter [label=" 1"];
-		Temperatur -> Wetter [label=" 1"];
-		"Unbelebte Materie" -> Artefaktmagie [label=" 1"];
-		Umleiten -> Artefaktmagie [label=" 2"];
-		Wetter -> Elektrizität [label=" 2"];
-		Sphärologie -> Beschwörung [label=" 2"];
-		Beherrschung -> Beschwörung [label=" 1"];
-		
-		
-		Telepathie -> Elementarerschaffung [label=" 4"];
-		"(Element)" -> Elementarerschaffung [label=" 3"];
+
+		Telepathie -> Geistmanipulation [label="3"];
+
+		Spüren -> Kraftmanipulation [label="1"];
+
+		Lebewesen -> Nekromantie [label="2"];
+		"Unbelebte Materie" -> Nekromantie [label="2"];
+		Telepathie -> Nekromantie [label="1"];
+
+		Teleportation -> Sphärologie [label="1"];
+
+		Wasser -> Wetter [label="1"];
+		Luft -> Wetter [label="1"];
+
+		"Unbelebte Materie" -> Artefaktmagie [label="1"];
+		Kraftmanipulation -> Artefaktmagie [label="2"];
+
+		Telepathie -> Elementarerschaffung [label="1"];
+		"(Element)" -> Elementarerschaffung [label="3"];
+
+		"(Element)" -> Elektrizität [label="2"];
 		}
 	}
