@@ -908,7 +908,7 @@
 
                   <entry>ENE</entry>
 
-                  <entry>A / D</entry>
+                  <entry>speziell</entry>
 
                   <entry></entry>
                 </row>
@@ -1085,11 +1085,11 @@
           </informaltable>
 
           <para xml:id="elemente">* Die Voraussetzungen der Fertigkeiten
-          Elementarerschaffung und Elektrizität beziehen sich auf ein
+          Elektrizität und Elementarerschaffung beziehen sich auf ein
           <firstterm>Element</firstterm>. Als Elemente gelten die Fertigkeiten
           Lebewesen, Luft, Unbelebte Materie, Wasser und Kraftmanipulation.
           Ein Charakter muss mindestens eins dieser Elemente beherrschen,
-          bevor er Elementarerschaffung oder Elektrizität erlernen kann. Er
+          bevor er Elektrizität oder Elementarerschaffung erlernen kann. Er
           kann diese Fertigkeit dann jedoch mit jedem Element anwenden,
           welches die Voraussetzungen erfüllt.</para>
 
@@ -1226,7 +1226,7 @@
       <title linkend="steigerung" os="">Steigerung von Eigenschaften</title>
 
       <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
-      Fähigkeiten verbessern — er wird z.B. stärker und geschickter oder
+      Fähigkeiten verbessern — er wird z.B. stärker, geschickter oder
       erfahrener im Umgang mit Magie. Dazu verteilt der Meister für die im
       Spiel gemachten Erfahrungen regelmäßig weitere Erfahrungspunkte. Die
       Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
@@ -1878,12 +1878,11 @@
       Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt (ob
       die Reaktion dann vor oder nach seiner eigenen Aktion abgewickelt wird,
       steht zu diesem Zeitpunkt übrigens noch nicht fest). Er darf den
-      abgerundeten Mittelwert der beiden <emphasis role="bold">Würfelanzahlen
-      auf Aktion und Reaktion</emphasis> verteilen, wobei er jeweils nur so
-      viele Würfel zuteilen kann, wie er tatsächlich für den entsprechenden
-      Wurf besitzt. Alternativ darf der Kämpfer auch auf Aktion oder Reaktion
-      komplett verzichten und erhält dann für die verbliebene Handlung deren
-      reguläre Würfelanzahl.</para>
+      abgerundeten Mittelwert der beiden Würfelanzahlen auf Aktion und
+      Reaktion verteilen. Dabei darf er jeweils nur so viele Würfel zuteilen,
+      wie er tatsächlich für den entsprechenden Wurf besitzt. Alternativ darf
+      der Kämpfer auch auf Aktion oder Reaktion komplett verzichten und erhält
+      dann für die verbliebene Handlung deren reguläre Würfelanzahl.</para>
 
       <sidebar>
         <para>Beachten Sie, dass die konkrete Verteilung der Würfelanzahlen
@@ -3460,14 +3459,20 @@
         Kraftlinien und Auren wahr. Die Auren von Lebewesen zu interpretieren
         fällt ebenfalls in diesen Bereich.</para>
 
-        <para>sehen, was andere zaubern</para>
+        <para>sehen und analysieren, was andere zaubern. lernen durch
+        zuschauen.</para>
 
         <para>dinge beeinflussen, die man nicht sehen kann</para>
 
         <para>Diese Fertigkeit gehört in nahezu allen strukturierten
         Magieausbildungen zum Standard.</para>
 
-        <para>Reichweite: D (Auren: A)</para>
+        <para>Reichweite: Beim Empfangen von Eindrücken ist die Schwierigkeit
+        entfernungsunabhängig. Der Zaubernde kann mit Kraft die Eindrücke
+        verstärken und so die die "Sichtweite" vergrößern. Richtet sich das
+        Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen oder Objekte zu
+        analysieren, gilt für die Schwierigkeit die Reichweitenkategorie
+        A.</para>
       </section>
 
       <section>
@@ -3598,6 +3603,26 @@
 
       <section>
         <title>Geistmanipulation</title>
+
+        <para>Von leicht bis schwer:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Emotionsebene</para>
+          </listitem>
+
+          <listitem>
+            <para>Wahrnehmungsebene</para>
+          </listitem>
+
+          <listitem>
+            <para>Denk- und Entsscheidungsprozesse</para>
+          </listitem>
+
+          <listitem>
+            <para>Erinnerungen</para>
+          </listitem>
+        </itemizedlist>
 
         <para>Halluzination dringt im Gegensatz zur Beherrschung kaum in den
         Geist des Opfers ein, sondern beeinflusst nur seine
@@ -3753,11 +3778,11 @@
       <section>
         <title>Elementarerschaffung</title>
 
-        <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, eine
-        Art Elementargeist zu erschaffen. Dabei zieht er eine entsprechende
-        Menge des Elements zusammen um daraus ein Wesen zu formen. Dieses
-        Wesen wird dann mit Leben erfüllt, in dem der Zauberer einen Teil
-        seines Geistes hineinprojiziert.</para>
+        <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, in
+        einem Ritual eine Art Elementargeist zu erschaffen. Dabei zieht er
+        eine entsprechende Menge des Elements zusammen um daraus ein Wesen zu
+        formen. Dieses Wesen wird dann mit Leben erfüllt, in dem der Zauberer
+        einen Teil seines Geistes hineinprojiziert.</para>
 
         <para>Beherrscht ein Charakter diese Fertigkeit, kann er sie mit allen
         Elementen (die er gut genug beherrscht) benutzen. Mehr zu Elementen
@@ -3808,9 +3833,10 @@
       <section>
         <title>Nekromantie</title>
 
-        <para>ermöglicht es, totes Fleisch wieder in „lebendes“ umzuwandeln
-        und damit Leichen wieder mit einem Scheinleben zu erfüllen. Bedingung
-        dafür ist natürlich noch das Vorhandensein von Fleisch.</para>
+        <para>ermöglicht es, in einem Ritual totes Fleisch wieder in
+        „lebendes“ umzuwandeln und damit Leichen wieder mit einem Scheinleben
+        zu erfüllen. Bedingung dafür ist natürlich noch das Vorhandensein von
+        Fleisch.</para>
 
         <section>
           <title>Voraussetzungen</title>
