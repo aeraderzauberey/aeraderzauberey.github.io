@@ -7,18 +7,30 @@
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
   <info>
-    <title>Wizardry Zauber</title>
+    <title>Wizardry</title>
+
+    <subtitle>Zauber</subtitle>
 
     <author>
       <personname><firstname>Jens</firstname><surname>Bannmann</surname></personname>
     </author>
+
+    <copyright>
+      <year>1999</year>
+
+      <year>2010</year>
+
+      <holder>Jens Bannmann</holder>
+    </copyright>
+
+    <releaseinfo>$Revision$</releaseinfo>
   </info>
 
   <chapter>
     <title>Erster Grad</title>
 
     <section>
-      <title>Belebte Materie</title>
+      <title>Lebewesen</title>
 
       <section>
         <title>Beschleunigen</title>
@@ -28,7 +40,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -85,7 +97,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -150,7 +162,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -206,7 +218,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie, Spüren</para>
+              <para>Lebewesen, Spüren</para>
             </listitem>
           </varlistentry>
 
@@ -260,7 +272,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie, Spüren</para>
+              <para>Lebewesen, Spüren</para>
             </listitem>
           </varlistentry>
 
@@ -317,7 +329,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -374,7 +386,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -429,7 +441,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -486,7 +498,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -541,7 +553,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -597,7 +609,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie, Spüren</para>
+              <para>Lebewesen, Spüren</para>
             </listitem>
           </varlistentry>
 
@@ -655,7 +667,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Belebte Materie</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -698,346 +710,6 @@
 
             <listitem>
               <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Feuer</title>
-
-      <section>
-        <title>Entzünden</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>4-16, siehe Beschreibung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Mindestens ein Punkt pro handtellergroßer entzündeter
-              Fläche, siehe Beschreibung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig, das Objekt beginnt nach 4-Qualität Runden zu
-              brennen.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Ein Objekt fängt Feuer, kann jedoch wieder normal gelöscht
-              werden. Das Objekt muss der Luft ausgesetzt sein. Die
-              Schwierigkeit liegt bei 4 (Stoff, Stroh), 8 (Holz), 12 (Schwer
-              entflammbares Holz) oder 16 (Stahl, Stein). Im letzten Fall wird
-              die doppelte Menge Kraft benötigt.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Fertig</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Feuerball</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer, Telekinese, Umwandlung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>14 ?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Feuerregeln fürs Zentrum, pro Meter -1
-              Schadenserfolg</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Feuerkegel</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer, Umwandlung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>13 ?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Pro Meter Entfernung ein halber Meter breiter, und ein
-              Schaden weniger als der normale Flammenstrahl.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Flammenring</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer, Umwandlung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>15</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität in Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Um den Zaubernden entsteht ein Flammenring, der pro
-              Kraftpunkt einen halben Meter hoch ist. Der Radius beträgt dabei
-              zwei Meter. Bei einem Halbkreis sind die Kraftkosten zu
-              halbieren.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Flammenstrahl</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer, Umwandlung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>14 ?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Tanzende Flamme</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Feuer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>7</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>KP in Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine schwebende Flamme. Die Größe
-              beträgt bei Qualität=1 Fingergröße, 2 = Handgröße</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -1372,6 +1044,514 @@
               erreichen, ist für einen Unsichtbaren kein normales Sehen mehr
               möglich. Bei schnellen Bewegungen ist eventuell ein leichtes
               Flimmern der Luft wahrnehmbar.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+
+    <section>
+      <title>Luft</title>
+
+      <section>
+        <title>Abhörschutz</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Anti-Telekinese-Zone</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Radius in Metern + Dauer in Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Siehe Beschreibung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erschafft eine Zone um das Ziel (Objekt,
+              Lebewesen, Ort), in der Telekinese verhindert wird: die Qualität
+              des Telekinese-Zaubers muss größer oder gleich der Qualität
+              dieses Zaubers sein, damit er wirkt. Die Zone bewegt sich mit
+              dem Ziel.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Barriere</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>(wie DSA-Fortifex)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Krach</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 2 Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Ein ohrenbetäubender Lärm ertönt.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Magische Stille</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>10</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>1 Punkt pro Meter Durchmesser</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Q/2 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erschafft eine Zone um das Ziel (Objekt,
+              Lebewesen, Ort), in die kein Schall eindringen und in der kein
+              Schall erzeugt werden kann. Die Zone bewegt sich mit dem
+              Ziel.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Magische Rüstung</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>14</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Pro Kraftpunkt abwechselnd 1 TA und 1 RS</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 3 Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
+              Ziel wie eine zweite Haut umgibt.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Schallschwall</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Beliebig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Erzeugt über ohrenbetäubenden Lärm Flächenschaden.
+              Außerhalb des Wirkungsbereiches ist der Lärm zu hören, erzeugt
+              aber keinen Schaden. Kraft kann entweder Radius erhöhen
+              (Standard = 3 Meter, pro KP + 3) oder Schaden verursachen (bis 3
+              KP mental, darüber körperlich).</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Schutzsphäre</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Beliebig, siehe Dauer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>pro Kraftpunkt 30 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erschafft eine Sphäre, die vor Wind, Regen,
+              Schnee, Staub u.ä. schützt sowie eine gewünschte Temperatur
+              zwischen 15 und 25 °C hält. Bei starkem Wind baut sich die
+              Sphäre doppelt so schnell ab, gegen festere Gegenstände wie
+              Hagelkörner oder gar Waffen schützt sie überhaupt nicht. Der
+              Radius der Sphäre beträgt maximal Qualität in Schritt.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Treffer ablenken</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>13</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Pro KP ein TA</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 4 Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
+              Ziel wie eine zweite Haut umgibt.</para>
             </listitem>
           </varlistentry>
 
@@ -2691,7 +2871,70 @@
     </section>
 
     <section>
+      <title>Teleportation</title>
+
+      <para></para>
+    </section>
+
+    <section>
       <title>Umwandlung</title>
+
+      <section>
+        <title>Flammenring</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Umwandlung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>15</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Beliebig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität in Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Um den Zaubernden entsteht ein Flammenring, der pro
+              Kraftpunkt einen halben Meter hoch ist. Der Radius beträgt dabei
+              zwei Meter. Bei einem Halbkreis sind die Kraftkosten zu
+              halbieren.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
 
       <section>
         <title>Gift herstellen</title>
@@ -2755,6 +2998,66 @@
 
     <section>
       <title>Unbelebte Materie</title>
+
+      <section>
+        <title>Entzünden</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Unbelebte Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>4-16, siehe Beschreibung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Mindestens ein Punkt pro handtellergroßer entzündeter
+              Fläche, siehe Beschreibung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig, das Objekt beginnt nach 4-Qualität Runden zu
+              brennen.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Ein Objekt fängt Feuer, kann jedoch wieder normal gelöscht
+              werden. Das Objekt muss der Luft ausgesetzt sein. Die
+              Schwierigkeit liegt bei 4 (Stoff, Stroh), 8 (Holz), 12 (Schwer
+              entflammbares Holz) oder 16 (Stahl, Stein). Im letzten Fall wird
+              die doppelte Menge Kraft benötigt.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Fertig</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
 
       <section>
         <title>Erdbeben</title>
@@ -3220,1622 +3523,6 @@
     <title>Zweiter Grad</title>
 
     <section>
-      <title>Akustik</title>
-
-      <section>
-        <title>Abhörschutz</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Akustik</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Krach</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Akustik</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>8</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 2 Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Ein ohrenbetäubender Lärm ertönt.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Magische Stille</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Akustik</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>10</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>1 Punkt pro Meter Durchmesser</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Q/2 Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine Zone um das Ziel (Objekt,
-              Lebewesen, Ort), in die kein Schall eindringen und in der kein
-              Schall erzeugt werden kann. Die Zone bewegt sich mit dem
-              Ziel.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Schallschwall</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Akustik</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Erzeugt über ohrenbetäubenden Lärm Flächenschaden.
-              Außerhalb des Wirkungsbereiches ist der Lärm zu hören, erzeugt
-              aber keinen Schaden. Kraft kann entweder Radius erhöhen
-              (Standard = 3 Meter, pro KP + 3) oder Schaden verursachen (bis 3
-              KP mental, darüber körperlich).</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Beherrschung</title>
-
-      <section>
-        <title>Ausfragen</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Beherrschung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Doppelte WK + 5</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>mind. halbe WK</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>pro Kraft 1 Minute</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Das Opfer muss für jede Lüge (oder Verschweigen) die
-              Anzahl der Erfolge mit einer WK-Probe gegen 16
-              übertreffen</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Fertig</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Freundschaft</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Beherrschung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Furcht</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Beherrschung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Das Opfer verspürt eine gewaltige Furcht vor dem
-              Zaubernden und versucht panisch, vor ihm zu fliehen. In die Enge
-              gedrängt, wird es jedoch um sein Leben kämpfen.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Lähmung</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Beherrschung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Dämpfen</title>
-
-      <section>
-        <title>Astrale Unsichtbarkeit</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Dämpfen</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Macht Gegenstand/Person gegen Spüren-Versuche
-              unsichtbar.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Aura tarnen</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Dämpfen</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig, siehe Wirkung.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität in Stunden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Pro Kraftpunkt erscheint das Ziel insgesamt um vier
-              Magiepunkte schwächer. Angaben zu einzelnen Bereichen werden
-              anteilig vermindert. ‹bertrifft ein Auralesen-Versuch die Anzahl
-              der Erfolge, wird die echte Aura erkennbar.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Fertig</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Zauber tarnen</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Dämpfen, Umleiten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>17</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 3</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>So lange der Originalzauber wirkt</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Das Muster eines Zaubers und die ihm innewohnende Kraft
-              wird verborgen. Die Anzahl der Erfolge muss von denen eines
-              Entdeckungsversuchs (bei verzauberten Objekten/Personen Analyse,
-              sonst Spüren/Magische Sicht) übertroffen werden. Langwierig: pro
-              Kraftpunkt des Originalzaubers etwa eine Minute.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Fertig</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Halluzination</title>
-
-      <section>
-        <title>Aura des gütigen Vaters</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Halluzination</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Höchste WK * 2 + 4 + Anz. Opfer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>2 + 1 pro Opfer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 3 Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
-              und seine Ideen einleuchtender, sie sind eher geneigt, seine
-              Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
-              Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
-              Würfel.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Höllenschmerz</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Halluzination</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>16</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>In Höhe des imaginären Betäubungsschadens</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 2 Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Das Opfer führt einen SB-Vergleichswurf mit der Höhe des
-              Schadens gegen 15 durch. Bei Misslingen wird es vorübergehend so
-              behandelt, als hätte es den Schaden erhalten.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Trunkenheit</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Halluzination</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>14</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig, siehe Dauer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Pro Kraftpunkt drei Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Sicht und Gleichgewichtssinn des Opfers werden gestört, es
-              leidet unter ähnlichen Symptomen wie denen eines Alkoholrauschs.
-              Der Geschicklichkeits-Wert des Opfers sinkt um die Qualität des
-              Zaubers.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Schildung</title>
-
-      <section>
-        <title>Anti-Telekinese-Zone</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Schildung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Radius in Metern + Dauer in Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Siehe Beschreibung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine Zone um das Ziel (Objekt,
-              Lebewesen, Ort), in der Telekinese verhindert wird: die Qualität
-              des Telekinese-Zaubers muss größer oder gleich der Qualität
-              dieses Zaubers sein, damit er wirkt. Die Zone bewegt sich mit
-              dem Ziel.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Barriere</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Schildung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>(wie DSA-Fortifex)</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Magische Rüstung</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Schildung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>14</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Pro Kraftpunkt abwechselnd 1 TA und 1 RS</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 3 Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
-              Ziel wie eine zweite Haut umgibt.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Treffer ablenken</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Schildung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>13</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Pro KP ein TA</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 4 Runden</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
-              Ziel wie eine zweite Haut umgibt.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Schutzsphäre</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Schildung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Beliebig, siehe Dauer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>pro Kraftpunkt 30 Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erschafft eine Sphäre, die ihn vor Wind,
-              Regen, Schnee, Staub u.ä. schützt. Bei starkem Wind baut sich
-              die Sphäre doppelt so schnell ab, gegen festere Gegenstände wie
-              Hagelkörner oder gar Waffen schützt sie überhaupt nicht. Der
-              Radius der Sphäre beträgt maximal Qualität in Schritt.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Sphärologie</title>
-
-      <section>
-        <title>Dematerialisation</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Sphärologie, Unbelebte Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>16</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Je nach Objekt: 1 = Münzgröße, ..., 4 = Truhe</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Permanent</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Gegenstand wird "aus der Phase" genommen und damit
-              materie- und lichtdurchlässig, bleibt für Magie aber noch sicht-
-              und beeinflussbar. Er ist nicht mehr der Schwerkraft und anderen
-              physischen Kräften ausgesetzt. Das Zurückholen des Objekts
-              geschieht mit dem gleichen Zauber.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Umleiten</title>
-
-      <section>
-        <title>Entzauberung</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Umleiten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Orig. - 1</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 3</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Hebt die Wirkung eines anhaltenden Zaubers auf.
-              Langwierig: pro Kraftpunkt des Originalzaubers etwa eine
-              Minute.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Immunität</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Umleiten, Spüren</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Sphäre, die destruktive Zauber auflöst und sich nach und
-              nach verbraucht.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Kontern</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Umleiten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Orig. - 1, mind. 12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 2</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Löst einen gerade gesprochenen Zauber auf, falls genauso
-              viele Erfolge wie bei der Original-Probe erreicht werden. Werden
-              weniger erzielt, verliert der Zauber pro Erfolg einen Punkt
-              Qualität und Kraft. Die Schwierigkeit richtet sich nach der
-              unmodifizierten Schwierigkeit des zu konternden Zaubers.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Kraftimpuls</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Umleiten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>7</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>nach Reichweite: 1 = 1km, 2 = 10km, 3 = 50km, 4 = 200km, 5
-              = 500km</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Sendet einen magisch spürbaren Impuls aus, der sich
-              ringförmig ausbreitet. Die Geschwindigkeit beträgt 50km pro
-              Minute. Wahrnehmung mit üblichen Spüren-Zaubern oder mit Spüren
-              gegen Schwierigkeit 7, 1KP.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Zauber umlenken</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Umleiten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Orig. - 2</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Drittel bis Hälfte des Originalzaubers, abhängig vom
-              Winkel der Richtungsänderung</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>ändert die Richtung eines gerade gesprochenen Zaubers,
-              falls ein Drittel der Original-Erfolge erreicht werden.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-  </chapter>
-
-  <chapter>
-    <title>Vierter Grad</title>
-
-    <section>
-      <title>Artefaktmagie</title>
-
-      <section>
-        <title>Spüren-Verstärker</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Artefaktmagie, Spüren</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>1 pro 5 Krafpunkte durchzuleitender Zauber</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Permanent</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Gegenstand dient als Verstärker für Spüren-Zauber. Das
-              Verbinden mit einem Verstärker ist ein Spüren-Zauber mit
-              Schwierigkeit 8 und Reichweite D. Danach kann der Zaubernde vom
-              Verstärker aus weitere Spüren-Zauber wirken, so als befände er
-              sich dort.</para>
-
-              <para>Ein Verstärker leitet maximal das fünffache der
-              Kraftmenge, die bei seiner Erschaffung verwendet wurde, für
-              Zauber weiter. Danach ist der Verstärker unbrauchbar. Diese
-              Beschränkung gilt nicht für das Verbinden zu weiteren
-              Verstärkern oder das erneute Versorgen von beendeten Zaubern mit
-              Kraft.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Entwurf</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Wächter</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Artefaktmagie, Spüren, Telepathie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Versieht Bereich mit einem Wächterzauber, der telepathisch
-              Alarm schlägt (ggf. weckt), sobald Personen die Bereichsgrenze
-              übertreten.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Zauber speichern</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Artefaktmagie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>?</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Status</term>
-
-            <listitem>
-              <para>Idee</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
       <title>Elektrizität</title>
 
       <section>
@@ -5059,6 +3746,1125 @@
           </varlistentry>
         </variablelist>
       </section>
+    </section>
+
+    <section>
+      <title>Geistmanipulation</title>
+
+      <section>
+        <title>Aura des gütigen Vaters</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Höchste WK * 2 + 4 + Anz. Opfer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>2 + 1 pro Opfer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 3 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
+              und seine Ideen einleuchtender, sie sind eher geneigt, seine
+              Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
+              Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
+              Würfel.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Ausfragen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Doppelte WK + 5</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>mind. halbe WK</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>pro Kraft 1 Minute</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Opfer muss für jede Lüge (oder Verschweigen) die
+              Anzahl der Erfolge mit einer WK-Probe gegen 16
+              übertreffen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Fertig</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Freundschaft</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Furcht</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Opfer verspürt eine gewaltige Furcht vor dem
+              Zaubernden und versucht panisch, vor ihm zu fliehen. In die Enge
+              gedrängt, wird es jedoch um sein Leben kämpfen.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Höllenschmerz</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>16</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>In Höhe des imaginären Betäubungsschadens</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 2 Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Opfer führt einen SB-Vergleichswurf mit der Höhe des
+              Schadens gegen 15 durch. Bei Misslingen wird es vorübergehend so
+              behandelt, als hätte es den Schaden erhalten.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Lähmung</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Trunkenheit</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>14</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Beliebig, siehe Dauer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Pro Kraftpunkt drei Runden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Sicht und Gleichgewichtssinn des Opfers werden gestört, es
+              leidet unter ähnlichen Symptomen wie denen eines Alkoholrauschs.
+              Der Geschicklichkeits-Wert des Opfers sinkt um die Qualität des
+              Zaubers.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+
+    <section>
+      <title>Kraftmanipulation</title>
+
+      <section>
+        <title>Astrale Unsichtbarkeit</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Macht Gegenstand/Person gegen Spüren-Versuche
+              unsichtbar.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Aura tarnen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Beliebig, siehe Wirkung.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität in Stunden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Pro Kraftpunkt erscheint das Ziel insgesamt um vier
+              Magiepunkte schwächer. Angaben zu einzelnen Bereichen werden
+              anteilig vermindert. ‹bertrifft ein Auralesen-Versuch die Anzahl
+              der Erfolge, wird die echte Aura erkennbar.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Fertig</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Entzauberung</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Orig. - 1</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Kraftaufwand des Originalzaubers durch 3</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Hebt die Wirkung eines anhaltenden Zaubers auf.
+              Langwierig: pro Kraftpunkt des Originalzaubers etwa eine
+              Minute.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Immunität</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation, Spüren</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Sphäre, die destruktive Zauber auflöst und sich nach und
+              nach verbraucht.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Kontern</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Orig. - 1, mind. 12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Kraftaufwand des Originalzaubers durch 2</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Löst einen gerade gesprochenen Zauber auf, falls genauso
+              viele Erfolge wie bei der Original-Probe erreicht werden. Werden
+              weniger erzielt, verliert der Zauber pro Erfolg einen Punkt
+              Qualität und Kraft. Die Schwierigkeit richtet sich nach der
+              unmodifizierten Schwierigkeit des zu konternden Zaubers.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Kraftimpuls</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>7</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>nach Reichweite: 1 = 1km, 2 = 10km, 3 = 50km, 4 = 200km, 5
+              = 500km</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Sendet einen magisch spürbaren Impuls aus, der sich
+              ringförmig ausbreitet. Die Geschwindigkeit beträgt 50km pro
+              Minute. Wahrnehmung mit üblichen Spüren-Zaubern oder mit Spüren
+              gegen Schwierigkeit 7, 1KP.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Zauber tarnen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>17</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Kraftaufwand des Originalzaubers durch 3</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>So lange der Originalzauber wirkt</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Muster eines Zaubers und die ihm innewohnende Kraft
+              wird verborgen. Die Anzahl der Erfolge muss von denen eines
+              Entdeckungsversuchs (bei verzauberten Objekten/Personen Analyse,
+              sonst Spüren/Magische Sicht) übertroffen werden. Langwierig: pro
+              Kraftpunkt des Originalzaubers etwa eine Minute.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Fertig</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Zauber umlenken</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Orig. - 2</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Drittel bis Hälfte des Originalzaubers, abhängig vom
+              Winkel der Richtungsänderung</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>ändert die Richtung eines gerade gesprochenen Zaubers,
+              falls ein Drittel der Original-Erfolge erreicht werden.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+
+    <section>
+      <title>Sphärologie</title>
+
+      <section>
+        <title>Dematerialisation</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Sphärologie, Unbelebte Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>16</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Je nach Objekt: 1 = Münzgröße, ..., 4 = Truhe</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Permanent</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Gegenstand wird "aus der Phase" genommen und damit
+              materie- und lichtdurchlässig, bleibt für Magie aber noch sicht-
+              und beeinflussbar. Er ist nicht mehr der Schwerkraft und anderen
+              physischen Kräften ausgesetzt. Das Zurückholen des Objekts
+              geschieht mit dem gleichen Zauber.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Dritter Grad</title>
+
+    <section>
+      <title>Elemenarerschaffung</title>
+
+      <para></para>
+    </section>
+
+    <section>
+      <title>Wetter</title>
+
+      <para></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Vierter Grad</title>
+
+    <section>
+      <title>Artefaktmagie</title>
+
+      <section>
+        <title>Spüren-Verstärker</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Artefaktmagie, Spüren</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>1 pro 5 Krafpunkte durchzuleitender Zauber</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Permanent</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Gegenstand dient als Verstärker für Spüren-Zauber. Das
+              Verbinden mit einem Verstärker ist ein Spüren-Zauber mit
+              Schwierigkeit 8 und Reichweite D. Danach kann der Zaubernde vom
+              Verstärker aus weitere Spüren-Zauber wirken, so als befände er
+              sich dort.</para>
+
+              <para>Ein Verstärker leitet maximal das fünffache der
+              Kraftmenge, die bei seiner Erschaffung verwendet wurde, für
+              Zauber weiter. Danach ist der Verstärker unbrauchbar. Diese
+              Beschränkung gilt nicht für das Verbinden zu weiteren
+              Verstärkern oder das erneute Versorgen von beendeten Zaubern mit
+              Kraft.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Entwurf</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Wächter</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Artefaktmagie, Spüren, Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Versieht Bereich mit einem Wächterzauber, der telepathisch
+              Alarm schlägt (ggf. weckt), sobald Personen die Bereichsgrenze
+              übertreten.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Zauber speichern</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Artefaktmagie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Status</term>
+
+            <listitem>
+              <para>Idee</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+
+    <section>
+      <title>Nekromantie</title>
+
+      <para></para>
     </section>
   </chapter>
 </book>
