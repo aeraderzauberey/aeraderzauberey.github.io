@@ -323,8 +323,9 @@
             <listitem>
               <para>Das Ziel erhält durch eine vorübergehende Veränderung der
               Augen die Fähigkeit zur Nachtsicht (Restlichtverstärkung). Bei
-              plötzlichem Blenden kann das Opfer 3-Qualität Runden nichts mehr
-              sehen.</para>
+              plötzlichem Blenden kann das Opfer <inlineequation>
+                  <mathphrase>3 - Qualität</mathphrase>
+                </inlineequation> Runden nichts mehr sehen.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -824,7 +825,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para></para>
+              <para>Licht</para>
             </listitem>
           </varlistentry>
 
@@ -2437,7 +2438,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>Doppelte WK + 5 [verdeckter Wurf], Rw=A</para>
+              <para>Doppelte WIL + 5 [verdeckter Wurf], Rw=A</para>
             </listitem>
           </varlistentry>
 
@@ -2697,7 +2698,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>11 bis 19</para>
+              <para>11 (Lockerer Erdboden) bis 19 (Granit)</para>
             </listitem>
           </varlistentry>
 
@@ -2721,10 +2722,10 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Der Boden wird aufgerissen. Die Schwierigkeit liegt
-              zwischen 11 (Lockerer Erdboden) und 19 (Granit). Im Anschluss an
-              die Probe öffnet sich die Erdspalte innerhalb von 6-Q
-              Runden.</para>
+              <para>Der Boden wird aufgerissen. Im Anschluss an die Probe
+              öffnet sich die Erdspalte innerhalb von <inlineequation>
+                  <mathphrase>6 - Qualität</mathphrase>
+                </inlineequation> Runden.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2977,7 +2978,10 @@
             <listitem>
               <para>Ein mit Wasser vollgesogenes/nasses Objekt wird
               getrocknet; das Wasser sammelt sich am Boden. Es dauert
-              10-Qualität Runden, bis die Trocknung abgeschlossen ist.</para>
+              <inlineequation>
+                  <mathphrase>10-Qualität</mathphrase>
+                </inlineequation> Runden, bis die Trocknung abgeschlossen
+              ist.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3045,7 +3049,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Elektrizität</para>
+              <para>Elektrizität, Luft</para>
             </listitem>
           </varlistentry>
 
@@ -3061,7 +3065,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Beschreibung</para>
+              <para>Siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -3077,9 +3081,12 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Verursacht je nach Krafteinsatz nicht soakbare Betäubungs-
-              und körperliche Schadenspunkte wie folgt: 1B, 2B + 1K, 4B + 1K,
-              6B + 2K, 8B + 3K, 10B + 4K, 12B+ 6K</para>
+              <para>Verursacht <inlineequation>
+                  <mathphrase>Kraft * 2 - 1</mathphrase>
+                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                  <mathphrase>Kraft - 1</mathphrase>
+                </inlineequation> Punkte körperlichen Schaden, für den keine
+              Widerstandsprobe erlaubt ist.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3093,7 +3100,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Elektrizität</para>
+              <para>Elektrizität, Luft</para>
             </listitem>
           </varlistentry>
 
@@ -3109,7 +3116,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>siehe Blitzschlag + 1 zusätzlicher Kraftpunkt</para>
+              <para>Mindestens 2 Punkte</para>
             </listitem>
           </varlistentry>
 
@@ -3126,8 +3133,13 @@
 
             <listitem>
               <para>Zufällig überspringender Blitz. Schlägt auch des öfteren
-              in Metallgegenstände ein. Verliert nach jedem getroffenen Ziel
-              einen Kraftpunkt.</para>
+              in Metallgegenstände ein. Verursacht <inlineequation>
+                  <mathphrase>(Kraft - 1) * 2 - 1</mathphrase>
+                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                  <mathphrase>Kraft - 2</mathphrase>
+                </inlineequation> Punkte körperlichen Schaden, für den keine
+              Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
+              Ziel einen Kraftpunkt.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3173,8 +3185,14 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Wie Kettenblitz, der Zaubernde bestimmt jedoch die
-              Ziele.</para>
+              <para>Auf mehrere Ziele überspringender Blitz. Verursacht
+              <inlineequation>
+                  <mathphrase>(Kraft - 1) * 2 - 1</mathphrase>
+                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                  <mathphrase>Kraft - 2</mathphrase>
+                </inlineequation> Punkte körperlichen Schaden, für den keine
+              Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
+              Ziel einen Kraftpunkt.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3204,7 +3222,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>?</para>
+              <para>Siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -3220,8 +3238,12 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>abwechselnd mental/körperlich? Soaken mit sb oder
-              wk?</para>
+              <para>Der nächste Nahkampfangriff verursacht <inlineequation>
+                  <mathphrase>(Kraft + 1) * 2 - 1</mathphrase>
+                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                  <mathphrase>Kraft</mathphrase>
+                </inlineequation> Punkte körperlichen Schaden, für den keine
+              Widerstandsprobe erlaubt ist.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3230,56 +3252,6 @@
 
     <section>
       <title>Geistmanipulation</title>
-
-      <section>
-        <title>Aura des gütigen Vaters</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Geistmanipulation</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>Höchste WK * 2 + 4 + Anz. Opfer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>2 + 1 pro Opfer</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Qualität * 3 Minuten</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
-              und seine Ideen einleuchtender, sie sind eher geneigt, seine
-              Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
-              Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
-              Würfel.</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
 
       <section>
         <title>Ausfragen</title>
@@ -3297,7 +3269,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>Doppelte WK + 5</para>
+              <para>Doppelte WIL + 5</para>
             </listitem>
           </varlistentry>
 
@@ -3305,7 +3277,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>mind. halbe WK</para>
+              <para>mind. halbe WIL</para>
             </listitem>
           </varlistentry>
 
@@ -3322,8 +3294,8 @@
 
             <listitem>
               <para>Das Opfer muss für jede Lüge (oder Verschweigen) die
-              Anzahl der Erfolge mit einer WK-Probe gegen 16
-              übertreffen</para>
+              Anzahl der Erfolge mit einer WIL-Probe gegen 16
+              übertreffen.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3463,7 +3435,7 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Das Opfer führt einen SB-Vergleichswurf mit der Höhe des
+              <para>Das Opfer führt einen SEL-Vergleichswurf mit der Höhe des
               Schadens gegen 15 durch. Bei Misslingen wird es vorübergehend so
               behandelt, als hätte es den Schaden erhalten.</para>
             </listitem>
@@ -3565,6 +3537,56 @@
           </varlistentry>
         </variablelist>
       </section>
+
+      <section>
+        <title>Überzeugungskraft</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>Höchste WIL * 2 + 4 + Anz. Opfer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>2 + 1 pro Opfer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität * 3 Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
+              und seine Ideen einleuchtender, sie sind eher geneigt, seine
+              Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
+              Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
+              Würfel.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
     </section>
 
     <section>
@@ -3659,7 +3681,7 @@
             <listitem>
               <para>Pro Kraftpunkt erscheint das Ziel insgesamt um vier
               Magiepunkte schwächer. Angaben zu einzelnen Bereichen werden
-              anteilig vermindert. ‹bertrifft ein Auralesen-Versuch die Anzahl
+              anteilig vermindert. Übertrifft ein Auralesen-Versuch die Anzahl
               der Erfolge, wird die echte Aura erkennbar.</para>
             </listitem>
           </varlistentry>

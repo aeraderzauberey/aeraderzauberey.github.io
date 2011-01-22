@@ -116,10 +116,10 @@
         <title>Attribute</title>
 
         <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich
-        in elf <firstterm baseform="Attribut">Attributen</firstterm> nieder —
-        drei davon sind Magiebegabten vorbehalten. Der allgemeine Durchschnitt
-        in der Bevölkerung für die anderen Attribute liegt zwischen 3 und
-        4.</para>
+        in elf <firstterm baseform="Attribut">Attributen</firstterm> nieder,
+        von denen drei Magiebegabten vorbehalten sind. Der allgemeine
+        Durchschnitt in der Bevölkerung für die anderen Attribute liegt
+        zwischen 3 und 4.</para>
 
         <informaltable>
           <tgroup cols="3">
@@ -251,7 +251,8 @@
         <para><firstterm baseform="Fertigkeit">Fertigkeiten</firstterm>
         repräsentieren die individuellen Kenntnisse und Fähigkeiten eines
         Charakters auf dem jeweiligen Gebiet. Jede Fertigkeit ist dabei einem
-        Attribut zugeordnet, das bei Proben mit einbezogen wird.</para>
+        Attribut zugeordnet, das bei Proben mit einbezogen wird (siehe <xref
+        linkend="proben" />).</para>
 
         <para>Die Fertigkeiten sind in der unten stehenden Liste in die
         Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung,
@@ -1033,7 +1034,7 @@
                 <row>
                   <entry>Elementarerschaffung</entry>
 
-                  <entry>MAT</entry>
+                  <entry>GEI &amp; MAT</entry>
 
                   <entry>A</entry>
 
@@ -3378,8 +3379,12 @@
       Zauberkundige verschiedener Traditionen ein und denselben Effekt
       durchaus mit verschiedenen klangvollen Namen bezeichnen.</para>
 
-      <para><emphasis>{pseudo-wissenschaftlichen ansatz
-      erklären}</emphasis></para>
+      <para><emphasis>{pseudo-wissenschaftlichen ansatz erklären. trotz den
+      namen einiger fertigkeiten kein elementarismus}</emphasis></para>
+
+      <para><emphasis>Einschränkung: Magie kann keine Materie "aus dem Nichts"
+      erschaffen, daher kein purer "Feuerball" oder
+      "Flammenstrahl"</emphasis></para>
 
       <para><emphasis>- Veränderte Gegenstände bleiben, wie sie sind. Der
       Originalzustand wird nicht "gespeichert", er geht verloren: ein zur
