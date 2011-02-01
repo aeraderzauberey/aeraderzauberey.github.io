@@ -82,6 +82,105 @@
       </section>
 
       <section>
+        <title>Blutgerinnung beschleunigen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>2</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Beschleunigt den Blutgerinnungsprozess, sodass innere und
+              äußere Blutungen schneller gestillt werden. Große Wunden müssen
+              zuvor physisch versorgt werden. Es besteht eine Chance von 20%,
+              dass sich Blutgerinnsel bilden, die mit jedem Erfolg um 5%
+              sinkt.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Einblick in das Körperempfinden</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen, Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>9</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>1</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität in Kampfrunden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zauberer spürt das derzeitige Körperempfinden seines
+              Ziels; etwa Ort, Charakter und Stärke seiner Wahrnehmung von
+              Schmerzen, Unwohlsein etc. Fremdartige Lebewesen Schwierigkeit
+              bis zu +5.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Einschlafen</title>
 
         <variablelist>
@@ -133,6 +232,55 @@
               <para>Die Müdigkeitsstufe reicht von 0 (hellwach) bis 4
               (eingeschlafen). Anfangs beträgt sie mindestens ein Drittel des
               erhaltenen geistigen Schadens (abgerundet).</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Fieber senken/auslösen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>7</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>1</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität in Stunden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Erhöht oder senkt die Körpertemperatur des Ziels, in dem
+              die natürlichen Regelprozesse beeinflusst werden. Dies kann die
+              Stoffwechseltätigkeit sowie Krankheitsverläufe und Symptomatik
+              beeinflussen.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -194,7 +342,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Lebewesen, Spüren</para>
+              <para>Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -202,7 +350,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>?</para>
+              <para>9 + Krankheitsstufe</para>
             </listitem>
           </varlistentry>
 
@@ -210,7 +358,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>?</para>
+              <para>Pro zu heilender Krankheitsstufe zwei Kraftpunkte</para>
             </listitem>
           </varlistentry>
 
@@ -226,7 +374,13 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>?</para>
+              <para>Bekämpft die Krankheitserreger im Körper des Ziels. Wird
+              die Krankheitsstufe nicht auf 1 oder 0 reduziert, kann die
+              Krankheit erneut ausbrechen. Ist die Krankheit nicht bekannt,
+              steigt die Schwierigkeit um 5. Langwierig: <inlineequation>
+                  <mathphrase>(geheilte Krankheitsstufen - Qualität + 1)
+                  </mathphrase>
+                </inlineequation>Stunden, mindestens jedoch eine.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -379,6 +533,101 @@
       </section>
 
       <section>
+        <title>Schmerzen erzeugen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>9</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>In Höhe des imaginären Schadens</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Qualität in Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Erzeugt Schmerzempfindungen im Nervengewebe des Ziels. Es
+              wird so behandelt, als ob es körperlichen Schaden in der
+              entsprechenden Höhe erhalten hätte.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Schmerzen lindern</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>beliebig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Kraft * 1 h</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Ziel kann vorübergehend keine Schmerzen empfinden.
+              Körperlicher Schaden führt nicht zu einem Würfelmalus.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Schwäche</title>
 
         <variablelist>
@@ -523,57 +772,7 @@
       </section>
 
       <section>
-        <title>Verletzungen heilen</title>
-
-        <variablelist>
-          <varlistentry>
-            <term>Fertigkeiten</term>
-
-            <listitem>
-              <para>Lebewesen, Spüren</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit</term>
-
-            <listitem>
-              <para>12 + St.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Krafteinsatz</term>
-
-            <listitem>
-              <para>Pro Gesundheitsstufe ein Kraftpunkt</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Wirkungsdauer</term>
-
-            <listitem>
-              <para>Einmalig</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Beschreibung</term>
-
-            <listitem>
-              <para>Die Schwierigkeit richtet sich nach der Gesundheitsstufe,
-              auf der sich das Opfer momentan befindet. Die gleichen
-              Verletzungen können nicht mehrfach auf magische Weise geheilt
-              werden. Der Zauber ist langwierig, pro Gesundheitsstufe etwa
-              fünf Minuten.</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Wunden heilen</title>
+        <title>Verletzungen heilen (äußere)</title>
 
         <variablelist>
           <varlistentry>
@@ -596,7 +795,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Gesundheitsstufe ein Kraftpunkt</para>
+              <para>Pro zu heilender Gesundheitsstufe ein Kraftpunkt</para>
             </listitem>
           </varlistentry>
 
@@ -613,8 +812,61 @@
 
             <listitem>
               <para>Heilt äußere Verletzungen, mit Medizin 2 auch
-              Knochenbrüche. Langwierig: pro Gesundheitsstufe etwa fünf
-              Minuten.</para>
+              Knochenbrüche. Langwierig: <inlineequation>
+                  <mathphrase>(geheilte Gesundheitsstufen - Qualität + 1) *
+                  5</mathphrase>
+                </inlineequation> Minuten, mindestens jedoch 5.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Verletzungen heilen (innere)</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Lebewesen, Spüren</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>12 + Gesundheitsstufe</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Pro zu heilender Gesundheitsstufe ein Kraftpunkt</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Einmalig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Die Schwierigkeit richtet sich nach der körperlichen
+              Gesundheitsstufe, auf der sich das Ziel momentan befindet.
+              Langwierig: <inlineequation>
+                  <mathphrase>(geheilte Gesundheitsstufen - Qualität + 1) *
+                  5</mathphrase>
+                </inlineequation> Minuten, mindestens jedoch 5.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -1597,6 +1849,55 @@
             <listitem>
               <para>Der Zaubernde spürt Kraftströme und -ansammlungen in
               seiner Umgebung.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Krankheit erspüren</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Spüren, Lebewesen</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>14</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>beliebig</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Kraft * 30 sec</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zauberer identifiziert eine Krankheit an deren
+              charakteristischen Mustern und physiologischen Auswirkungen. Bei
+              unbekannten Erkrankungen kann ggf. auf den Charakter der
+              Erkrankung geschlossen werden.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3579,7 +3880,7 @@
 
             <listitem>
               <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
-              und seine Ideen einleuchtender, sie sind eher geneigt, seine
+              und seine Ideen einleuchtender. Sie sind eher geneigt, seine
               Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
               Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
               Würfel.</para>

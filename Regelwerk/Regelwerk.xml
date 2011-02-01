@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2010</year>
+      <year>2011</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -879,7 +879,7 @@
 
                   <entry>MAT</entry>
 
-                  <entry>B</entry>
+                  <entry>speziell</entry>
 
                   <entry></entry>
                 </row>
@@ -1454,7 +1454,7 @@
   </chapter>
 
   <chapter xml:id="schaden">
-    <title>Schaden und Regeneration</title>
+    <title>Gesundheit</title>
 
     <section>
       <title>Körperlicher Schaden</title>
@@ -1805,6 +1805,19 @@
       Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
       anzupassen.</para>
     </section>
+
+    <section>
+      <title>Krankheiten</title>
+
+      <para>Die Auswirkungen von Krankheiten auf einen Charakter werden in
+      Krankheitsstufen analog zu den Gesundheitsstufen repräsentiert. Diese
+      verursachen den gleichen Würfelmalus, addieren sich jedoch nicht. Es
+      zählt der jeweils höhere Malus.</para>
+
+      <para>Eine Krankheit beginnt bei der Krankheitsstufe 1. Diese Stufe
+      steigt im weiteren Fortschreiten der Krankheit und sinkt bei Genesung
+      oder Heilung.</para>
+    </section>
   </chapter>
 
   <chapter xml:id="kampf">
@@ -2048,7 +2061,7 @@
             <row>
               <entry></entry>
 
-              <entry align="center">Distanz</entry>
+              <entry align="center">Distanzklasse</entry>
 
               <entry>Modifikator</entry>
 
@@ -2148,9 +2161,11 @@
 
       <?dbfo-need height="7cm"?>
 
-      <para>In welche Distanz ein Ziel fällt, ergibt sich aus der in der
+      <para>In welche Distanzklasse ein Ziel fällt, ergibt sich aus der in der
       Waffentabelle (siehe <xref linkend="waffen" />) angegebenen
-      Reichweitenklasse der Waffe und folgender Tabelle:</para>
+      Reichweitenklasse der Waffe und folgender Tabelle. Sie gibt die maximale
+      Distanz in Metern an, die noch zur jeweiligen Distanzklasse
+      gehört.</para>
 
       <informaltable>
         <tgroup cols="7">
@@ -2325,8 +2340,8 @@
 
       <informalexample>
         <para>Ein Schütze möchte mit einem Kriegsbogen (Schwierigkeit 11,
-        Reichweitenklasse D) einen Gegner treffen, der etwa 60 Schritt
-        entfernt ist. Diese Entfernung entspricht der mittleren Distanz, die
+        Reichweitenklasse D) einen Gegner treffen, der etwa 60 Meter entfernt
+        ist. Diese Entfernung entspricht der mittleren Distanz, die
         Schwierigkeit steigt daher um 3. Bei seinem Gegner handelt es sich um
         einen Menschen, der damit in die mittlere Größenklasse fällt — ergibt
         +0. Seinen Trefferwurf führt der Schütze also gegen eine Schwierigkeit
@@ -2353,7 +2368,7 @@
 
     <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
     bestimmt der Meister zunächst die passenden Magiefertigkeiten. Außerdem
-    legt der Meister die genaue regeltechnische Wirkungsweise des Zaubers und
+    legt er die genaue regeltechnische Wirkungsweise des Zaubers und
     insbesondere die Schwierigkeit fest (siehe <xref
     linkend="zauberentwicklung" />).</para>
 
@@ -3362,35 +3377,104 @@
     <section>
       <title>Einleitung zur Magietheorie</title>
 
-      <para>Magie ist nichts Übernatürliches. Glaubt man den Magiern, ist sie
-      lediglich die Anwendung der alles umgebenden Kraft. Diese durchzieht die
-      Welt, pulsiert durch jeden Gegenstand und jedes Lebewesen; sie schafft
-      Realität und hält sie zusammen. Zauberer sind Wesen, welche die Gabe
+      <para>Die Theorien zur Herkunft und Beschaffenheit der Magie sind so
+      vielfältig wie die verschiedenen Traditionen der Zauberkundigen, und
+      genauso vielfältig sind die von ihnen verwendeten Begriffe und
+      Techniken. Ein akademisch geprägter Gildenmagier mag Formeln rezitieren,
+      ein Schamane in einem Ritual seine Götter anrufen oder ein Adept sich
+      meditierend in Einklang mit dem Universum bringen. Zauberkundige
+      bezeichnen das was sie tun, oft nicht mal als Zauberei, und selbst wenn,
+      werden sie selbst vergleichbaren oder gar gleichen Zaubern
+      unterschiedlichste, zu ihrer Tradition passende Namen geben. Tatsächlich
+      funktioniert ihre Magie jedoch auf die gleiche Weise, und so behandelt
+      auch dieses Regelwerk alle Zauberkundigen gleich. Die Basis bildet eine
+      einheitliche, quasi "neutrale" Magietheorie.</para>
+
+      <para>Magie ist nichts Übersinnliches. Sie ist vielmehr die Anwendung
+      einer natürlichen, alles umgebenden Kraft. Diese durchzieht in einem
+      feinen Netz jeden Gegenstand und jedes Lebewesen; sie schafft Realität
+      und hält sie zusammen. Zauberkundige sind Wesen, welche die Gabe
       besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
-      können, um damit ihre Umgebung zu beeinflussen. Doch dies ist nur
-      <emphasis>eine</emphasis> Erklärung — die Theorien zur Herkunft und
-      Beschaffenheit der Magie sind so vielfältig wie die verschiedenen
-      Traditionen der Zauberkundigen.</para>
+      können, um damit ihre Umgebung zu beeinflussen.</para>
 
-      <para>Trotz dieser verschiedenen Lehrmeinungen in der Spielwelt
-      beschreibt dieses Regelwerk ein einheitliches, quasi "neutrales"
-      Magiesystem. Die Namen von Magiefertigkeiten und Zaubersprüchen sind
-      bewusst sachlich gehalten — dennoch werden in der Spielwelt natürlich
-      Zauberkundige verschiedener Traditionen ein und denselben Effekt
-      durchaus mit verschiedenen klangvollen Namen bezeichnen.</para>
+      <para>Auf regeltechnischer Ebene verwendet das Wizardry-Magiesystem
+      einen "pseudo-wissenschaftlichen" Ansatz, es orientiert sich in gewisser
+      Weise an den Naturgesetzen. Die Existenz von magischer Energie wird zwar
+      in den Naturgesetzen nicht konstatiert, aber deren innere Logik und
+      Prinzipien, insbesondere das von Ursache und Wirkung, sind Vorbild für
+      die Erklärung der Funktionsweise von Zaubern. So wie chemische
+      Reaktionen oder mechanische Prinzipien in der realen Welt zusammenwirken
+      und komplexe Abläufe erklärbar machen, erklärt Wizardry magische Effekte
+      aus dem Zusammenwirken von verschiedenen Magiefertigkeiten untereinander
+      sowie mit den Naturgesetzen. Dabei gelten die folgenden
+      Grundsätze:</para>
 
-      <para><emphasis>{pseudo-wissenschaftlichen ansatz erklären. trotz den
-      namen einiger fertigkeiten kein elementarismus}</emphasis></para>
+      <orderedlist>
+        <listitem>
+          <para>Über das Kraftnetz ist alles mit allem verbunden.</para>
 
-      <para><emphasis>Einschränkung: Magie kann keine Materie "aus dem Nichts"
-      erschaffen, daher kein purer "Feuerball" oder
-      "Flammenstrahl"</emphasis></para>
+          <para>Wie ein Puppenspieler, der an Fäden zieht, manipuliert der
+          Zaubernde das ihn umgebende Kraftnetz so, dass am gewünschten Ort
+          der Effekt eintritt. Um einen magischen Effekt auf Distanz
+          hervorzurufen, muss er also nicht etwa seinen Geist aussenden. Die
+          Distanz zum Ziel wirkt sich jedoch, je nach Zauber und
+          Magiefertigkeit, auf Kraftaufwand oder Schwierigkeit aus.</para>
+        </listitem>
 
-      <para><emphasis>- Veränderte Gegenstände bleiben, wie sie sind. Der
-      Originalzustand wird nicht "gespeichert", er geht verloren: ein zur
-      Tasse verformter Teller ist eine Tasse und kann nicht per Entzauberung
-      zurückverwandelt - wohl aber erneut zu einem Teller geformt
-      werden.</emphasis></para>
+        <listitem>
+          <para>Kraft ist immer vorhanden, sie fließt ohne
+          Zeitverzögerung.</para>
+
+          <para>Beim Sammeln von Kraft wird die Geschwindigkeit nur von den
+          Fähigkeiten des Zaubernden begrenzt. Dieser sammelt die Kraft
+          zunächst in seinem Körper, zur Wirkung kommt sie aber am
+          Zielort.</para>
+        </listitem>
+
+        <listitem>
+          <para>Es gibt keine feste Relation zwischen Kraft und physischen
+          Bezugsgrößen.</para>
+
+          <para>Relationen von Kraft zu beispielsweise Masse oder Volumen sind
+          zwar bei vielen Zaubern angegeben, müssen aber nur im Vergleich zu
+          verwandten Zaubern plausibel sein.</para>
+        </listitem>
+
+        <listitem>
+          <para>Es kann keine Materie aus dem Nichts erschaffen werden.</para>
+
+          <para>So können zum Beispiel die Magiefertigkeiten Feuer oder Wasser
+          nicht für Angriffe oder zur Erschaffung von elementaren Wänden
+          verwendet werden, wenn nicht genug entsprechendes Material vorhanden
+          ist. Materie kann jedoch in ihren Eigenschaften verändert, verformt
+          oder in andere Stoffe umgewandelt werden.</para>
+        </listitem>
+
+        <listitem>
+          <para>Zauberwirkungen sind permanent.</para>
+
+          <para>Wenn ein Zauber abgeschlossen ist und einen Gegenstand
+          verändert hat, ist dessen ursprünglicher Zustand verloren. Er kann
+          nicht durch eine Art "Entzauberung" wieder zurückverwandelt werden.
+          So ist beispielsweise ein Teller, der in die Form einer Tasse
+          gebracht wurde, zu einer <emphasis>echten</emphasis> Tasse geworden.
+          Die Tasse könnte zwar wieder zu einem Teller verformt werden, der
+          ursprüngliche Teller ist jedoch nicht mehr existent.</para>
+        </listitem>
+
+        <listitem>
+          <para>Die Regeln für Zauber werden nicht im Hinblick auf ihre
+          Mächtigkeit ausbalanciert.</para>
+
+          <para>Ein solcher Ansatz wäre durch die Flexibilität des
+          Magiesystems letzlich zum Scheitern verurteilt. Zauber mit besonders
+          drastischen Folgen oder welche, die sich von üblen Zeitgenossen
+          missbrauchen lassen, werden deswegen nicht mit einer hohen
+          Schwierigkeit oder immensen Kraftkosten ausgestattet. Diese
+          Parameter sollen lediglich mit den anderen Zaubern der gleichen oder
+          verwandter Magiefertigkeiten stimmig sein.</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>
@@ -3405,7 +3489,7 @@
         andere Tiere denkbar — die allerdings sehr schwierig sein
         sollten.</para>
 
-        <para>hat stoffwechsel</para>
+        <para>Lebewesen = hat stoffwechsel</para>
 
         <para>spezielle energie, die lebewesen schützt</para>
 
@@ -3414,6 +3498,12 @@
 
         <para>Verstärkungen von Körperfunktionen wie Heilung, Bewegung = OK,
         Herz stoppen = NICHT</para>
+
+        <para>Die gleichen Verletzungen können auf magische Weise nur einmal
+        geheilt werden.</para>
+
+        <para>Reichweite: Normalerweise Berührung, ansonsten steigt die
+        Schwierigkeit pro angefangenem Meter Distanz um 3.</para>
       </section>
 
       <section>
@@ -3435,7 +3525,7 @@
 
         <para></para>
 
-        <para>m Gegensatz zur Telekinese, die sich mit der Bewegung von
+        <para>im Gegensatz zur Telekinese, die sich mit der Bewegung von
         Objekten beschäftigt, ist diese Fertigkeit für das Aufhalten selbiger
         zuständig. Damit ist kein Festhalten gemeint, sondern die Erzeugung
         eines Felds von Gegenkraft, das Bewegungen unterbindet. Die klassische
@@ -3449,8 +3539,6 @@
         Bauchreden (bei dem die Stimme <emphasis>wirklich</emphasis> aus einer
         anderen Richtung kommt) ist z.B. auch die Erzeugung einer magischen
         Stille möglich.</para>
-
-        <para>Reichweite: B</para>
       </section>
 
       <section>
@@ -3466,6 +3554,8 @@
 
         <para>sehen und analysieren, was andere zaubern. lernen durch
         zuschauen.</para>
+
+        <para>fließen von Kraft kann wahrgenommen werden</para>
 
         <para>dinge beeinflussen, die man nicht sehen kann</para>
 
@@ -3613,42 +3703,33 @@
 
         <itemizedlist>
           <listitem>
-            <para>Emotionsebene</para>
+            <para>Emotionen</para>
           </listitem>
 
           <listitem>
-            <para>Wahrnehmungsebene</para>
+            <para>Wahrnehmung</para>
+
+            <para>Ermöglicht zum Beispiel, einem Wesen vorzugaukeln, es sehe
+            seinen schlimmsten Alptraum vor sich, oder einfach nur eine Wand
+            an einer bestimmten Stelle. Obwohl die meisten Magiekundigen nur
+            die Augen täuschen, ist es genauso möglich, den Tast-, Geschmacks-
+            und Geruchssinn oder das Schmerzempfinden zu beeinflussen.</para>
           </listitem>
 
           <listitem>
-            <para>Denk- und Entsscheidungsprozesse</para>
+            <para>Denk- und Entscheidungsprozesse</para>
+
+            <para>Injektion von Gedanken, Befehl zu einzelner Aktion,
+            unterschwelliger dauerhafter Zwang</para>
           </listitem>
 
           <listitem>
             <para>Erinnerungen</para>
+
+            <para>Im Gedächtnis stöbern, Veränderung oder Löschung von
+            Erinnerungen, Einpflanzen neuer Erinnerungen</para>
           </listitem>
         </itemizedlist>
-
-        <para>Halluzination dringt im Gegensatz zur Beherrschung kaum in den
-        Geist des Opfers ein, sondern beeinflusst nur seine
-        Sinneswahrnehmungen. So ist es zum Beispiel möglich, einem Wesen
-        vorzugaukeln, es sehe seinen schlimmsten Alptraum vor sich, oder
-        einfach nur eine Wand an einer bestimmten Stelle. Obwohl die meisten
-        Magiekundigen mit diesem Gebiet nur die Augen täuschen, ist es genauso
-        möglich, den Tast-, Geschmacks- und Geruchssinn oder das
-        Schmerzempfinden zu beeinflussen.</para>
-
-        <para>Beherrschung bezeichnet die Fähigkeit in den Geist eines
-        Menschen einzudringen und seine Gedanken zu beeinflussen oder zu
-        kontrollieren. Dabei ist sowohl ein direkter Befehl als auch ein
-        unterschwelliger Zwang möglich. Die Übermittlung der Befehle geschieht
-        über eine telepathische Verbindung.</para>
-
-        <para>Mit Gedächtnis kann unbemerkt in den Erinnerungen des Opfers
-        gestöbert werden. Sie können außerdem beinahe beliebig manipuliert
-        werden — es können sogar völlig neue Erinnerungen in den Geist des
-        Opfers „eingepflanzt“ werden oder ganze Ereignisse gelöscht
-        werden.</para>
 
         <section>
           <title>Voraussetzung</title>
@@ -3659,9 +3740,8 @@
         <section>
           <title>Schwierigkeit</title>
 
-          <para>Halluzination : Doppelte WK. +4 bis +10 (Um so komplexer /
-          größer / unwahrscheinlicher das Bild, desto schwieriger der
-          Zauber).</para>
+          <para>Wahrnehmung: Doppelte WK. +4 bis +10 (Um so komplexer / größer
+          / unwahrscheinlicher das Bild, desto schwieriger der Zauber).</para>
 
           <informaltable>
             <tgroup cols="3">
@@ -3713,7 +3793,7 @@
             </tgroup>
           </informaltable>
 
-          <para>Gedächtnis: Doppelte WK. des Opfers +6 bis +12, je nach
+          <para>Erinnerung: Doppelte WK. des Opfers +6 bis +12, je nach
           Komplexität, Wichtigkeit oder Folgen des Ereignisses</para>
 
           <para>Reichweite: A (Halluzination B?)</para>
