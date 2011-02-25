@@ -230,8 +230,8 @@
               Stampede.</para>
 
               <para>Die Müdigkeitsstufe reicht von 0 (hellwach) bis 4
-              (eingeschlafen). Anfangs beträgt sie mindestens ein Drittel des
-              erhaltenen geistigen Schadens (abgerundet).</para>
+              (eingeschlafen). Anfangs beträgt sie mindestens ein Drittel der
+              geistigen Schadensstufe (abgerundet).</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -378,8 +378,8 @@
               die Krankheitsstufe nicht auf 1 oder 0 reduziert, kann die
               Krankheit erneut ausbrechen. Ist die Krankheit nicht bekannt,
               steigt die Schwierigkeit um 5. Langwierig: <inlineequation>
-                  <mathphrase>(geheilte Krankheitsstufen - Qualität + 1)
-                  </mathphrase>
+                  <mathphrase>(geheilte Krankheitsstufen - Qualität +
+                  1)</mathphrase>
                 </inlineequation>Stunden, mindestens jedoch eine.</para>
             </listitem>
           </varlistentry>
@@ -1498,7 +1498,7 @@
               Außerhalb des Wirkungsbereiches ist der Lärm zu hören, erzeugt
               aber keinen Schaden. Kraft kann entweder Radius erhöhen
               (Standard = 3 Meter, pro KP + 3) oder Schaden verursachen (bis 3
-              KP mental, darüber körperlich).</para>
+              KP geistig, darüber körperlich).</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2873,7 +2873,7 @@
               <para>Wandelt Wasser in Gift um. Krafteinsatz und Schwierigkeit
               je nach Giftklasse (Langsam: eine Dosis pro Stunde, Mittel: pro
               20 min, Schnell: pro Runde). Jede Dosis verursacht Qualität
-              körperliche Schadenspunkte. Für Betäubungsgifte (mentaler
+              körperliche Schadenspunkte. Für Betäubungsgifte (geistiger
               Schaden, aber ohne Übertragung auf körperlichen) sinkt die
               Schwierigkeit um 1.</para>
             </listitem>
@@ -3384,7 +3384,7 @@
             <listitem>
               <para>Verursacht <inlineequation>
                   <mathphrase>Kraft * 2 - 1</mathphrase>
-                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft - 1</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
               Widerstandsprobe erlaubt ist.</para>
@@ -3436,7 +3436,7 @@
               <para>Zufällig überspringender Blitz. Schlägt auch des öfteren
               in Metallgegenstände ein. Verursacht <inlineequation>
                   <mathphrase>(Kraft - 1) * 2 - 1</mathphrase>
-                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft - 2</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
               Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
@@ -3489,7 +3489,7 @@
               <para>Auf mehrere Ziele überspringender Blitz. Verursacht
               <inlineequation>
                   <mathphrase>(Kraft - 1) * 2 - 1</mathphrase>
-                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft - 2</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
               Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
@@ -3541,7 +3541,7 @@
             <listitem>
               <para>Der nächste Nahkampfangriff verursacht <inlineequation>
                   <mathphrase>(Kraft + 1) * 2 - 1</mathphrase>
-                </inlineequation> Punkte Betäubungs- und <inlineequation>
+                </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
               Widerstandsprobe erlaubt ist.</para>
@@ -3720,7 +3720,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>In Höhe des imaginären Betäubungsschadens</para>
+              <para>In Höhe des imaginären geistigen Schadens</para>
             </listitem>
           </varlistentry>
 

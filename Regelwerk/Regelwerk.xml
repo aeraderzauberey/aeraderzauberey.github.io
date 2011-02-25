@@ -1459,9 +1459,11 @@
     <section>
       <title>Körperlicher Schaden</title>
 
-      <para>Der Gesundheitszustand eines Charakters wird durch acht Stufen
-      dargestellt. Für jeden Schadenspunkt, den er erhält, wird eine dieser
-      Stufen durchgestrichen.</para>
+      <para>Der Gesundheitszustand eines Charakters wird durch die acht Stufen
+      seiner <firstterm baseform="Körperliche Schadensleiste">körperlichen
+      Schadensleiste</firstterm> repräsentiert. Für jeden Punkt <firstterm
+      baseform="Körperlicher Schaden">körperlichen Schadens</firstterm>, den
+      er erhält, wird eine dieser Stufen angekreuzt.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
       er. Abhängig von seiner Selbstbeherrschung gelten für einen Charakter
@@ -1617,34 +1619,36 @@
         </tgroup>
       </informaltable>
 
-      <para>Der bei der zuletzt durchgestrichenen Stufe angegebene Malus wird
-      auf alle Proben außer Schadens- und Widerstandswürfen angewendet sowie
-      auf die Initiative (siehe <xref linkend="kampf" />) angerechnet.</para>
+      <para>Der bei der zuletzt angekreuzten Stufe angegebene Malus wird auf
+      alle Proben außer Schadens- und Widerstandswürfen angewendet sowie auf
+      die Initiative (siehe <xref linkend="kampf" />) angerechnet.</para>
 
-      <para>Wird die letzte Stufe durchgestrichen, verliert der Charakter das
+      <para>Wird die letzte Stufe angekreuzt, verliert der Charakter das
       Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
-      kann er gerettet werden. Hat der Charakter aber über die letzte
-      Gesundheitsstufe hinaus Schaden erhalten, kann ihn allenfalls der
-      sofortige Einsatz von Heilungsmagie retten.</para>
+      kann er gerettet werden. Hat der Charakter aber über die letzte Stufe
+      hinaus Schaden erhalten, kann ihn allenfalls der sofortige Einsatz von
+      Heilungsmagie retten.</para>
     </section>
 
     <section>
-      <title>Betäubungsschaden</title>
+      <title>Geistiger Schaden</title>
 
       <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
       verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
       Verletzungen — eben blaue Flecken oder harmlose Abschürfungen. Auch
-      Zauberei kann beim Anwender sogenannten Betäubungs- oder auch mentalen
-      Schaden verursachen. Dieser Schaden wird durch eine separate Skala von
-      zwölf Gesundheitsstufen dargestellt. Hat ein Charakter Betäubungsschaden
-      erhalten, wird er zunehmend unkonzentrierter und erschöpfter, bis zur
-      völligen Bewusstlosigkeit auf der letzten mentalen Gesundheitsstufe.
-      Darüber hinaus gehender mentaler Schaden wird als körperlicher Schaden
+      Zauberei kann beim Anwender solchen <firstterm
+      baseform="Geistiger Schaden">geistigen Schaden</firstterm> verursachen.
+      Dieser Schaden wird durch die zwölf Stufen der <firstterm
+      baseform="Geistige Schadensleiste">geistigen Schadensleiste</firstterm>
+      dargestellt. Hat ein Charakter geistigen Schaden erhalten, wird er
+      zunehmend unkonzentrierter und erschöpfter, bis zur völligen
+      Bewusstlosigkeit auf der letzten geistigen Schadensstufe. Darüber hinaus
+      gehender geistiger Schaden wird auf die körperliche Schadensleiste
       übertragen.</para>
 
-      <para>Ebenso wie körperlicher Schaden schlägt sich auch
-      Betäubungsschaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
-      körperlichen als auch Betäubungsschaden erhalten, gilt der jeweils
+      <para>Ebenso wie körperlicher Schaden schlägt sich auch geistiger
+      Schaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
+      körperlichen als auch geistigen Schaden erhalten, gilt der jeweils
       höhere Malus.</para>
 
       <informaltable>
@@ -1745,12 +1749,11 @@
     <section>
       <title>Regeneration</title>
 
-      <para>Im Zuge der Heilung werden nach und nach die durchgestrichenen
-      Gesundheitsstufen wieder frei, beginnend mit der letzten. Pro
-      Gesundheitsstufe sind dafür im Normalfall ein bis drei
-      Regenerationsphasen (ausreichender Nachtschlaf) anzusetzen, abhängig von
-      der Art der Verletzungen (Blutergüsse? Leichte/tiefe Schnittwunden?
-      Quetschungen?).</para>
+      <para>Im Zuge der Heilung werden nach und nach die Schadensstufen wieder
+      abgebaut, beginnend mit der letzten. Pro Schadensstufe sind dafür im
+      Normalfall ein bis drei Regenerationsphasen (ausreichender Nachtschlaf)
+      anzusetzen, abhängig von der Art der Verletzungen (Blutergüsse?
+      Leichte/tiefe Schnittwunden? Quetschungen?).</para>
 
       <sidebar>
         <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
@@ -1758,13 +1761,12 @@
         Knochenbrüche) völlig ungeeignet ist. Hier gilt dann stattdessen die
         Einschätzung des Meisters.</para>
 
-        <para>Übrigens bezieht sich die Regeneration von Gesundheitsstufen
-        eher auf den Abbau der negativen Auswirkungen von Verletzungen als den
-        Abschluss der Heilung aus medizinischer Sicht. Das bedeutet, dass eine
-        Schnittwunde, für die eine Gesundheitsstufe gestrichen wurde, nach
-        deren natürlicher Regeneration natürlich nicht vollständig
-        verschwunden ist, sondern lediglich keine Schmerzen mehr
-        verursacht.</para>
+        <para>Übrigens bezieht sich der Abbau von Schadensstufen eher auf das
+        Nachlassen der negativen Auswirkungen von Verletzungen als auf den
+        Abschluss der Heilung aus medizinischer Sicht. So ist z.B. eine
+        Schnittwunde nach ihrer regeltechnischen Regeneration natürlich nicht
+        vollständig verschwunden, sondern verursacht lediglich keine Schmerzen
+        mehr.</para>
       </sidebar>
 
       <para>Verhält sich der Charakter nicht seinen Verletzungen entsprechend,
@@ -1774,7 +1776,7 @@
       Wundbrand, wieder aufplatzende Wunden oder andere Folgeschäden
       auftreten.</para>
 
-      <para>Betäubungsschaden heilt wesentlich schneller als körperlicher
+      <para>Geistiger Schaden heilt wesentlich schneller als körperlicher
       Schaden, solange der Charakter keine größeren Anstrengungen wie Kampf
       oder Zaubern unternimmt. Leichter Schaden heilt dabei schneller als
       schwerer: Jedes der ersten vier Kästchen darf nach etwa fünf Minuten
@@ -1786,37 +1788,110 @@
       schläft.</para>
 
       <informalexample>
-        <para>Erhält ein Charakter z.B. morgens vier mentale Schadenspunkte,
+        <para>Erhält ein Charakter z.B. morgens vier geistige Schadenspunkte,
         kann er alle bis auf einen innerhalb kürzester Zeit wieder
         regenerieren. Erhält er später nochmals 5 Schadenspunkte und erreicht
-        dadurch das mittlere Drittel der Skala, benötigen die
-        Gesundheitsstufen 6 und 5 jeweils eine Viertelstunde zur Regeneration.
-        Anschließend regenerieren sich die Stufen 4 und 3 jeweils innerhalb
-        von fünf Minuten — die restlichen zwei Stufen werden jedoch erst am
-        nächsten Tag regeneriert sein.</para>
+        dadurch das mittlere Drittel der Skala, benötigen die Schadensstufen 6
+        und 5 jeweils eine Viertelstunde zur Regeneration. Anschließend
+        regenerieren sich die Stufen 4 und 3 jeweils innerhalb von fünf
+        Minuten — die restlichen zwei Stufen werden jedoch erst am nächsten
+        Tag regeneriert sein.</para>
       </informalexample>
 
       <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
       selbständig vom Spieler durchzustreichen — stattdessen sollte hier kurz
-      Rücksprache mit dem Meister gehalten werden. Insbesondere bei
-      Betäubungsschaden ist dies unerlässlich, denn schließlich hat nur der
-      Meister einen genauen Überblick, wie viel gespielte Zeit bereits
-      vergangen ist. Außerdem steht es ihm natürlich frei, die
-      Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
-      anzupassen.</para>
+      Rücksprache mit dem Meister gehalten werden. Insbesondere bei geistigem
+      Schaden ist dies unerlässlich, denn schließlich hat nur der Meister
+      einen genauen Überblick, wie viel gespielte Zeit bereits vergangen ist.
+      Außerdem steht es ihm natürlich frei, die Regenerationszeit wegen
+      besonders günstiger oder ungünstiger Umstände anzupassen.</para>
     </section>
 
     <section>
       <title>Krankheiten</title>
 
       <para>Die Auswirkungen von Krankheiten auf einen Charakter werden in
-      Krankheitsstufen analog zu den Gesundheitsstufen repräsentiert. Diese
-      verursachen den gleichen Würfelmalus, addieren sich jedoch nicht. Es
-      zählt der jeweils höhere Malus.</para>
+      einer <firstterm>Krankheitsleiste</firstterm> analog zur körperlichen
+      Schadensleiste repräsentiert. Eine Krankheit beginnt bei der
+      Krankheitsstufe 1. Diese Stufe steigt im weiteren Fortschreiten der
+      Krankheit und sinkt bei Genesung oder Heilung.</para>
 
-      <para>Eine Krankheit beginnt bei der Krankheitsstufe 1. Diese Stufe
-      steigt im weiteren Fortschreiten der Krankheit und sinkt bei Genesung
-      oder Heilung.</para>
+      <para>Wie bei körperlichem und geistigem Schaden verursacht auch die
+      aktuelle Krankheitsstufe einen Würfelmalus, nach unten stehender
+      Tabelle. Es gilt auch hier jedoch immer nur der jeweils höchste Malus
+      (körperlich, geistig oder Krankheit).</para>
+
+      <informaltable>
+        <tgroup cols="10">
+          <colspec colnum="1" colwidth="*" />
+
+          <colspec colnum="2" colwidth="1*" />
+
+          <colspec colnum="3" colwidth="1*" />
+
+          <colspec colnum="4" colwidth="1*" />
+
+          <colspec colnum="5" colwidth="1*" />
+
+          <colspec colnum="6" colwidth="1*" />
+
+          <colspec colnum="7" colwidth="1*" />
+
+          <colspec colnum="8" colwidth="1*" />
+
+          <colspec colnum="9" colwidth="1*" />
+
+          <colspec colnum="11" colwidth="*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry>⃟</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry></entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry>-5</entry>
+
+              <entry>-6</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
     </section>
   </chapter>
 
@@ -2591,9 +2666,9 @@
 
       <sidebar>
         <para><emphasis role="bold">Beachten Sie:</emphasis> Ein Charakter
-        darf niemals mehr als eine mentale Widerstandsprobe pro Runde
+        darf niemals mehr als eine geistige Schadenswiderstandsprobe pro Runde
         durchführen — erhält er also z.B. während einer Runde nach dem
-        „Auffüllen“ eines Zaubers zusätzlichen mentalen Schaden, kann er
+        „Auffüllen“ eines Zaubers zusätzlichen geistigen Schaden, kann er
         diesen nicht mehr vermeiden!</para>
       </sidebar>
 
