@@ -10,7 +10,4 @@
 
   <xsl:param name="double.sided">0</xsl:param>
 
-  <xsl:template name="book.titlepage.before.verso"/>
-  <xsl:template name="book.titlepage.verso"/>
-
 </xsl:stylesheet>

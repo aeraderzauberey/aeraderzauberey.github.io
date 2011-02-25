@@ -55,7 +55,7 @@
         <fo:table-column column-width="proportional-column-width(1)"/>
         <fo:table-body>
           <fo:table-row height="200mm">
-            <fo:table-cell display-align="center">
+            <fo:table-cell display-align="before" padding-top="5.4cm">
               <fo:block text-align="center">
                 <fo:external-graphic src="url('../Logo/Logo.svg')" content-width="12cm"/>
               </fo:block>
@@ -71,6 +71,10 @@
                   <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="subtitle"/>
                 </xsl:when>
               </xsl:choose>
+
+              <fo:block text-align="center" space-before="9cm">
+                <fo:external-graphic src="url('../Logo/cc by-nc-sa.eu.svg')" content-width="2.5cm"/>
+              </fo:block>
 
             </fo:table-cell>
           </fo:table-row>
