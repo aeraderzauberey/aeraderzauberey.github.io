@@ -110,7 +110,9 @@
       Attribute und Fertigkeiten. Die Werte dieser Eigenschaften liegen im
       Bereich von 1 bis 8. Für jeden Punkt steht dem Charakter ein Würfel zur
       Verfügung, den er bei Proben auf die jeweilige Eigenschaft verwendet
-      (siehe <xref linkend="proben" />).</para>
+      (siehe <xref linkend="proben" />). Neben Attributen und Fertigkeiten
+      gibt es noch sogenannte abgeleitete Eigenschaften, deren Werte von den
+      anderen Eigenschaften abhängen.</para>
 
       <section>
         <title>Attribute</title>
@@ -145,8 +147,8 @@
 
                 <entry>STÄ</entry>
 
-                <entry>Bezeichnet die rein physische Kraft,
-                Widerstandsfähigkeit und Ausdauer</entry>
+                <entry>Physische Kraft, Widerstandsfähigkeit, Ausdauer,
+                Verminderung von erhaltenem Schaden</entry>
               </row>
 
               <row>
@@ -154,27 +156,8 @@
 
                 <entry>GES</entry>
 
-                <entry>Schnelligkeit und Gewandtheit, auch
-                Fingerfertigkeit</entry>
-              </row>
-
-              <row>
-                <entry>Intuition</entry>
-
-                <entry>INT</entry>
-
-                <entry>Geistesschärfe, schnelles und richtiges Handeln,
-                Improvisation, soziales Feingefühl und eben
-                Intuition(!)</entry>
-              </row>
-
-              <row>
-                <entry>Klugheit</entry>
-
-                <entry>KLU</entry>
-
-                <entry>Intelligenz, logisches Denkvermögen, Lern- und
-                Merkfähigkeit</entry>
+                <entry>Schnelligkeit und Gewandtheit, auch Fingerfertigkeit.
+                Wichtig im Kampf.</entry>
               </row>
 
               <row>
@@ -196,12 +179,32 @@
               </row>
 
               <row>
+                <entry>Klugheit</entry>
+
+                <entry>KLU</entry>
+
+                <entry>Intelligenz, logisches Denkvermögen, Lern- und
+                Merkfähigkeit</entry>
+              </row>
+
+              <row>
                 <entry>Selbstbeherrschung</entry>
 
                 <entry>SEL</entry>
 
-                <entry>Konzentration, Ertragen von Schmerzen, Verminderung der
-                Ermüdung beim Zaubern</entry>
+                <entry>Konzentration, Ertragen von Schmerzen, Geringere
+                Würfelmali durch Verletzungen, Verminderung der Ermüdung beim
+                Zaubern</entry>
+              </row>
+
+              <row>
+                <entry>Intuition</entry>
+
+                <entry>INT</entry>
+
+                <entry>Geistesschärfe, schnelles und richtiges Handeln,
+                Initiative im Kampf, Improvisation, soziales Feingefühl und
+                eben Intuition(!)</entry>
               </row>
 
               <row>
@@ -255,9 +258,9 @@
         linkend="proben" />).</para>
 
         <para>Die Fertigkeiten sind in der unten stehenden Liste in die
-        Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung,
-        die auch auf dem Charakterblatt verwendet wird, dient jedoch nur der
-        Orientierung — sie hat keinerlei regeltechnische Wirkung.</para>
+        Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung
+        dient jedoch nur der Orientierung, sie hat keinerlei regeltechnische
+        Wirkung.</para>
 
         <section>
           <title>Talente</title>
@@ -320,7 +323,7 @@
 
                   <entry>GES</entry>
 
-                  <entry></entry>
+                  <entry>Balancieren, Springen</entry>
                 </row>
 
                 <row>
@@ -367,7 +370,7 @@
                 <row>
                   <entry>Schwimmen</entry>
 
-                  <entry>GES</entry>
+                  <entry>STÄ</entry>
 
                   <entry>Alles, was über bloßes "über Wasser halten"
                   hinausgeht: Tauchen, Ausweichen; auch Maß für
@@ -462,6 +465,14 @@
                   <entry>Geschichte</entry>
 
                   <entry>KLU</entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry>Kochen</entry>
+
+                  <entry>INT</entry>
 
                   <entry></entry>
                 </row>
@@ -625,11 +636,12 @@
 
               <tbody>
                 <row>
-                  <entry>Reaktion</entry>
+                  <entry>Reflexe</entry>
 
                   <entry>INT</entry>
 
-                  <entry>Initiativewurf</entry>
+                  <entry>Schnelles Reagieren. Fließt in den
+                  Initiativebasiswert ein</entry>
                 </row>
 
                 <row>
@@ -1102,6 +1114,187 @@
           </mediaobject>
         </section>
       </section>
+
+      <section xml:id="abgeleitet">
+        <title>Abgeleitete Eigenschaften</title>
+
+        <para>Die abgeleiteten Eigenschaften errechnen sich aus Attributen und
+        Fertigkeiten. Sie sind jedoch nicht mit Würfelanzahlen gleichzusetzen
+        und für diese Eigenschaften werden keine Proben durchgeführt.</para>
+
+        <section xml:id="initiativebasis">
+          <title>Initiative-Basiswert</title>
+
+          <para>Für den Initiativewurf im Kampf (siehe <xref
+          linkend="kampf" />) besitzt jeder Charakter einen
+          Initiative-Basiswert. Dieser errechnet sich aus dem Attribut
+          Intuition und der Fertigkeit Reflexe wie folgt: <emphasis>(Intuition
+          + Reflexe) * 2</emphasis>.</para>
+        </section>
+
+        <section xml:id="verletzungsmali">
+          <title>Würfelmali bei Verletzungen</title>
+
+          <para>Für körperliche Verletzungen erhält ein Charakter Würfelmali,
+          die um so geringer ausfallen, je höher seine Selbstbeherrschung
+          ist.</para>
+
+          <informaltable>
+            <tgroup cols="11">
+              <colspec colnum="1" colwidth="*" />
+
+              <colspec colnum="2" colwidth="4*" />
+
+              <colspec colnum="3" colwidth="1*" />
+
+              <colspec colnum="2" colwidth="1*" />
+
+              <colspec colnum="5" colwidth="1*" />
+
+              <colspec colnum="6" colwidth="1*" />
+
+              <colspec colnum="7" colwidth="1*" />
+
+              <colspec colnum="8" colwidth="1*" />
+
+              <colspec colnum="9" colwidth="1*" />
+
+              <colspec colnum="10" colwidth="1*" />
+
+              <colspec colnum="11" colwidth="*" />
+
+              <thead>
+                <row>
+                  <entry></entry>
+
+                  <entry>Selbstbeherrschung</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry>⃟</entry>
+
+                  <entry></entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry></entry>
+
+                  <entry>1-3</entry>
+
+                  <entry></entry>
+
+                  <entry>-1</entry>
+
+                  <entry>-2</entry>
+
+                  <entry>-3</entry>
+
+                  <entry>-4</entry>
+
+                  <entry>-5</entry>
+
+                  <entry>-6</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>4-5</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry>-1</entry>
+
+                  <entry>-2</entry>
+
+                  <entry>-3</entry>
+
+                  <entry>-4</entry>
+
+                  <entry>-5</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>6-7</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry>-1</entry>
+
+                  <entry>-2</entry>
+
+                  <entry>-3</entry>
+
+                  <entry>-4</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+
+                <row>
+                  <entry></entry>
+
+                  <entry>8</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+
+                  <entry>-1</entry>
+
+                  <entry>-2</entry>
+
+                  <entry>-3</entry>
+
+                  <entry></entry>
+
+                  <entry></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <para>Hat z.B. ein Charakter mit Selbstbeherrschung 5 bereits 4
+          körperliche Schadenspunkte erhalten, gilt für ihn ein Malus von 2
+          Würfeln. Details zu diesen Mali und zur Handhabung von Schaden
+          finden Sie in <xref linkend="schaden" />.</para>
+        </section>
+      </section>
     </section>
 
     <section>
@@ -1229,8 +1422,8 @@
       <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
       Fähigkeiten verbessern — er wird z.B. stärker, geschickter oder
       erfahrener im Umgang mit Magie. Dazu verteilt der Meister für die im
-      Spiel gemachten Erfahrungen regelmäßig weitere Erfahrungspunkte. Die
-      Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
+      Spiel gemachten Erfahrungen regelmäßig weitere Erfahrungspunkte (EP).
+      Die Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
       gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
       überraschende Einfälle oder gutes Ausspielen der eigenen Rolle
       zusammensetzen.</para>
@@ -1306,14 +1499,18 @@
       jedoch von vornherein zum Scheitern verurteilt. Bei allen Steigerungen
       hat daher, wie immer, der Meister das letzte Wort.</para>
 
+      <para>Abgeleitete Eigenschaften (siehe <xref linkend="abgeleitet" />)
+      können nur indirekt über die jeweiligen Attribute und Fertigkeiten
+      gesteigert werden.</para>
+
       <sidebar>
         <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine
         normalen Steigerungen (oder nur in sehr begrenztem Maß) zuzulassen —
-        schließlich wäre es nur schwer erklärbar, wie man (von magoplastischer
-        Chirurgie einmal abgesehen) sein Aussehen von 3 auf 8 steigern kann.
-        In diesem Fall sind natürlich bei der Erschaffung (siehe voriger
-        Abschnitt), sofern es sinnvoll und für das Charakterkonzept wichtig
-        ist, für dieses Attribut höhere Werte als 6 zulässig.</para>
+        schließlich wäre es nur schwer erklärbar, wie man sein Aussehen von 3
+        auf 8 steigern kann. In diesem Fall sind natürlich bei der Erschaffung
+        (siehe voriger Abschnitt), sofern es sinnvoll und für das
+        Charakterkonzept wichtig ist, für dieses Attribut höhere Werte als 6
+        zulässig.</para>
       </sidebar>
     </section>
   </chapter>
@@ -1467,13 +1664,13 @@
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
       er. Abhängig von seiner Selbstbeherrschung gelten für einen Charakter
-      die folgenden Würfelmali:</para>
+      verschiedene Würfelmali (siehe <xref linkend="verletzungsmali" />), für
+      einen Charakter mit Selbstbeherrschung 3 betragen diese
+      beispielsweise:</para>
 
       <informaltable>
-        <tgroup cols="11">
+        <tgroup cols="10">
           <colspec colnum="1" colwidth="*" />
-
-          <colspec colnum="2" colwidth="4*" />
 
           <colspec colnum="3" colwidth="1*" />
 
@@ -1493,11 +1690,9 @@
 
           <colspec colnum="11" colwidth="*" />
 
-          <thead>
+          <tbody>
             <row>
               <entry></entry>
-
-              <entry>Selbstbeherrschung</entry>
 
               <entry>⃟</entry>
 
@@ -1517,13 +1712,9 @@
 
               <entry></entry>
             </row>
-          </thead>
 
-          <tbody>
             <row>
               <entry></entry>
-
-              <entry>1-3</entry>
 
               <entry></entry>
 
@@ -1538,78 +1729,6 @@
               <entry>-5</entry>
 
               <entry>-6</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-            </row>
-
-            <row>
-              <entry></entry>
-
-              <entry>4-5</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry>-1</entry>
-
-              <entry>-2</entry>
-
-              <entry>-3</entry>
-
-              <entry>-4</entry>
-
-              <entry>-5</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-            </row>
-
-            <row>
-              <entry></entry>
-
-              <entry>6-7</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry>-1</entry>
-
-              <entry>-2</entry>
-
-              <entry>-3</entry>
-
-              <entry>-4</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-            </row>
-
-            <row>
-              <entry></entry>
-
-              <entry>8</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry>-1</entry>
-
-              <entry>-2</entry>
-
-              <entry>-3</entry>
 
               <entry></entry>
 
@@ -1909,17 +2028,37 @@
       das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
       einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
       die Reihenfolge der einzelnen Kämpfer (genau genommen Ihrer
-      <firstterm>Aktionsphasen</firstterm>) festzulegen. Der
-      Initiative-Basiswert eines Charakters ist die doppelte Summe aus dessen
-      Intuition und Reaktion. Auf den Initiative-Basiswert wird das Ergebnis
-      eines W20-Wurfs addiert sowie abhängig davon, welche Waffe der Charakter
-      führt, noch modifiziert — ein Dolchkämpfer ist eben oft schneller und
-      wendiger als einer, der ein großes Zweihandschwert führt. Weiterhin
-      spielt der aktuelle Gesundheitszustand eine Rolle (siehe <xref
-      linkend="schaden" />). Außerdem kann der Meister natürlich zusätzliche
-      Modifikatoren auferlegen, z.B. für überraschte Charaktere. Haben mehrere
-      Beteiligte die gleiche Initiative, entscheiden zusätzliche W20-Würfe
-      über ihre Reihenfolge untereinander.</para>
+      <firstterm>Aktionsphasen</firstterm>) festzulegen. Die Initiative ist
+      die Summe aus folgenden Werten:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Initiative-Basiswert (siehe <xref
+          linkend="initiativebasis" />)</para>
+        </listitem>
+
+        <listitem>
+          <para>Initiativemalus der geführten Waffe</para>
+        </listitem>
+
+        <listitem>
+          <para>Verletzungsmalus durch körperlichen Schaden oder geistigen
+          Schaden (siehe <xref linkend="schaden" />). Es gilt der jeweils
+          höhere Malus.</para>
+        </listitem>
+
+        <listitem>
+          <para>Boni oder Mali je nach Situation, z.B. Malus für überraschte
+          Charaktere.</para>
+        </listitem>
+
+        <listitem>
+          <para>Das Ergebnis eines W20-Wurfs.</para>
+        </listitem>
+      </orderedlist>
+
+      <para>Haben mehrere Beteiligte die gleiche Initiative, entscheiden
+      zusätzliche W20-Würfe über ihre Reihenfolge untereinander.</para>
 
       <sidebar>
         <para>Das häufige Würfeln der Initiative kann bei längeren Kämpfen
@@ -1936,12 +2075,12 @@
         Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
         zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Säbel ziehen. Elris hat Intuition 4 und
-        Reaktion 5, der Initiative-Basiswert beträgt somit 18. Sein W20-Wurf
+        Reflexe 5, der Initiative-Basiswert beträgt somit 18. Sein W20-Wurf
         ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
-        Abzüge. Tharion hat Intuition und Reaktion jeweils auf 4 und würfelt
+        Abzüge. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reaktion 4)
-        würfelt eine 7, ergibt 25. Der andere (IN 4, Reaktion 3) eine 19,
+        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reflexe 4)
+        würfelt eine 7, ergibt 25. Der andere (IN 4, Reflexe 3) eine 19,
         ergibt 30. Beide kämpfen mit Säbeln, die verglichen mit einem Dolch
         und blitzschneller Magie natürlich langsamer sind — der
         Initiativemalus liegt bei 3 (siehe <xref linkend="waffen" />). Elris
@@ -2817,13 +2956,13 @@
 
             <entry>Schw.</entry>
 
-            <entry>Schaden</entry>
+            <entry><para>Schadens-</para><para>würfel</para></entry>
 
-            <entry>Ini</entry>
+            <entry><para>Initiative-</para><para>malus</para></entry>
 
-            <entry>Rw</entry>
+            <entry>Reichweite</entry>
 
-            <entry>kg.</entry>
+            <entry><para>Gewicht</para><para>in kg</para></entry>
 
             <entry>Preis (S)</entry>
 
@@ -2849,7 +2988,7 @@
 
             <entry>ST+3</entry>
 
-            <entry>4</entry>
+            <entry>-4</entry>
 
             <entry>3</entry>
 
@@ -2865,7 +3004,7 @@
 
             <entry>ST+6</entry>
 
-            <entry>4</entry>
+            <entry>-4</entry>
 
             <entry>4</entry>
 
@@ -2985,7 +3124,7 @@
 
             <entry>ST+1</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>2</entry>
 
@@ -3001,7 +3140,7 @@
 
             <entry>ST+6</entry>
 
-            <entry>4</entry>
+            <entry>-4</entry>
 
             <entry>3</entry>
 
@@ -3025,7 +3164,7 @@
 
             <entry>ST+3</entry>
 
-            <entry>3</entry>
+            <entry>-3</entry>
 
             <entry>3</entry>
 
@@ -3049,7 +3188,7 @@
 
             <entry>ST+5</entry>
 
-            <entry>3</entry>
+            <entry>-3</entry>
 
             <entry>4</entry>
 
@@ -3065,7 +3204,7 @@
 
             <entry>ST+2</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>2</entry>
 
@@ -3081,7 +3220,7 @@
 
             <entry>ST+4</entry>
 
-            <entry>3</entry>
+            <entry>-3</entry>
 
             <entry>3</entry>
 
@@ -3097,7 +3236,7 @@
 
             <entry>ST+7</entry>
 
-            <entry>4</entry>
+            <entry>-4</entry>
 
             <entry>4</entry>
 
@@ -3123,7 +3262,7 @@
 
             <entry>ST+2</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>5</entry>
 
@@ -3139,7 +3278,7 @@
 
             <entry>ST+3</entry>
 
-            <entry>5</entry>
+            <entry>-5</entry>
 
             <entry>6</entry>
 
@@ -3155,7 +3294,7 @@
 
             <entry>ST+3</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>5</entry>
 
@@ -3173,7 +3312,7 @@
 
             <entry>ST+5</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>5</entry>
 
@@ -3199,7 +3338,7 @@
 
             <entry>ST+2</entry>
 
-            <entry>1</entry>
+            <entry>-1</entry>
 
             <entry>3</entry>
 
@@ -3215,7 +3354,7 @@
 
             <entry>ST+3</entry>
 
-            <entry>1</entry>
+            <entry>-1</entry>
 
             <entry>3</entry>
 
@@ -3241,7 +3380,7 @@
 
             <entry>8</entry>
 
-            <entry>3</entry>
+            <entry>-3</entry>
 
             <entry>C</entry>
 
@@ -3257,7 +3396,7 @@
 
             <entry>10</entry>
 
-            <entry>3</entry>
+            <entry>-3</entry>
 
             <entry>D</entry>
 
@@ -3273,7 +3412,7 @@
 
             <entry>7</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>B</entry>
 
@@ -3289,7 +3428,7 @@
 
             <entry>8</entry>
 
-            <entry>2</entry>
+            <entry>-2</entry>
 
             <entry>E</entry>
 
@@ -3315,7 +3454,7 @@
 
             <entry>9</entry>
 
-            <entry>5</entry>
+            <entry>-5</entry>
 
             <entry>C</entry>
 
@@ -3331,7 +3470,7 @@
 
             <entry>13</entry>
 
-            <entry>5</entry>
+            <entry>-5</entry>
 
             <entry>D</entry>
 
@@ -3347,7 +3486,7 @@
 
             <entry>2 x 8</entry>
 
-            <entry>5</entry>
+            <entry>-5</entry>
 
             <entry>C</entry>
 
@@ -3373,7 +3512,7 @@
 
             <entry>ST/2 + 4</entry>
 
-            <entry>1</entry>
+            <entry>-1</entry>
 
             <entry>A</entry>
 
@@ -3473,7 +3612,7 @@
       können, um damit ihre Umgebung zu beeinflussen.</para>
 
       <para>Auf regeltechnischer Ebene verwendet das Wizardry-Magiesystem
-      einen "pseudo-wissenschaftlichen" Ansatz, es orientiert sich in gewisser
+      einen "pseudo-wissenschaftlichen" Ansatz; es orientiert sich in gewisser
       Weise an den Naturgesetzen. Die Existenz von magischer Energie wird zwar
       in den Naturgesetzen nicht konstatiert, aber deren innere Logik und
       Prinzipien, insbesondere das von Ursache und Wirkung, sind Vorbild für
@@ -3550,8 +3689,128 @@
           verwandter Magiefertigkeiten stimmig sein.</para>
         </listitem>
       </orderedlist>
+    </section>
 
-      <para><emphasis>[Hier folgen noch Beschreibungen der einzelnen
+    <section>
+      <title>Erster Grad</title>
+
+      <section>
+        <title>Lebewesen</title>
+
+        <para>Die Fertigkeit Lebewesen umfasst alle Manipulationen an
+        lebendigen Wesen. Als "Lebewesen" gelten hierbei alle Einheiten, die
+        einen Stoffwechsel besitzen und zur Fortpflanzung fähig sind. Dazu
+        zählen neben Tieren und Pflanzen auch Einzeller wie Amöben, nicht
+        jedoch Viren.</para>
+
+        <para>In magischer Hinsicht besteht der Unterschied zwischen
+        unbelebter Materie und Lebewesen hauptsächlich darin, dass sich
+        Lebewesen gewissen Manipulationen widersetzen. Selbst Organismen, die
+        keine Form von Intelligenz besitzen, setzen dem Versuch ihr Leben zu
+        beenden eine spezielle Energie entgegen, welche die
+        Zauberschwierigkeit erhöht. Das Anstoßen, Verbessern, Beschleunigen
+        oder Wiederherstellen von natürlichen Körperfunktionen wie Heilung
+        oder Bewegung ist jedoch möglich.</para>
+
+        <para>Verwandlungen von lebendem Gewebe sind ebenfalls möglich, aber
+        nur mit hoher Schwierigkeit. Darüber hinaus besitzen Lebewesen eine
+        Art Selbstbeharrungsvermögen — der Körper "weiß" also, was und wie er
+        sein sollte. Durch Zauber hervorgerufene Veränderungen, welche dieser
+        körperlichen Identität widersprechen, werden vom Körper langsam, aber
+        sicher wieder rückgängig gemacht.</para>
+
+        <para>Bei Heilungen ist zu beachten, dass dieselben Verletzungen auf
+        magische Weise nur einmal geheilt werden können. Werden also z.B. die
+        von einem Schwerthieb verursachten 5 Punkte körperlicher Schaden
+        zunächst nur in Höhe von 3 Punkten geheilt, ist danach kein weiterer
+        Heilzauber, wohl aber noch nichtmagische medizinische Versorgung
+        möglich.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>Normalerweise Berührung, ansonsten steigt die
+              Schwierigkeit pro angefangenem Meter Distanz um 3.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Heilung, Verbesserung körperlicher Fähigkeiten,
+              Beeinflussung von Schmerzen</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Licht</title>
+
+        <para>Mit dieser Fertigkeit kann auf vielfältige Weise Licht
+        erschaffen, manipuliert und entzogen werden. Es ist ebenfalls möglich,
+        wenn auch schwierig, durch Erzeugen von Millionen einzelner
+        Lichtpunkte oder durch Biegen des Lichtes echte Illusionen zu
+        erzeugen.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>C</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Magische Fackel, Blenden von Gegnern, Dunkelheit,
+              Unsichtbarkeit</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Luft</title>
+
+        <para>Diese Fertigkeit erlaubt die Manipulation der Eigenschaften von
+        Luft, z.B. Temperatur, Dichte oder Farbe. Außerdem kann in einem
+        bestimmten Bereich die Bewegung von Objekten (sei sie natürlich oder
+        magisch) unterbunden werden. Dies kann auch dazu dienen, Barrieren zu
+        erschaffen. Des weiteren können Schallwellen beeinflusst und erzeugt
+        werden.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Magische Rüstung, Stille, magisches Bauchreden,
+              Raumtemperatur beeinflussen</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+
+    <section>
+      <title>...</title>
+
+      <para><emphasis>[Hier folgen noch Beschreibungen weiterer
       Magiefertigkeiten.]</emphasis></para>
     </section>
   </appendix>

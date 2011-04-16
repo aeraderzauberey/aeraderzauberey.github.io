@@ -33,79 +33,46 @@
       <title>Erster Grad</title>
 
       <section>
-        <title>Lebewesen</title>
-
-        <para>umfasst alle Manipulationen an lebendigen Wesen. Damit ist
-        sowohl das einfache Verformen von Lebewesen als auch solche Dinge wie
-        Heilung gemeint. Prinzipiell wären sogar komplette Verwandlungen in
-        andere Tiere denkbar — die allerdings sehr schwierig sein
-        sollten.</para>
-
-        <para>Lebewesen = hat stoffwechsel</para>
-
-        <para>spezielle energie, die lebewesen schützt</para>
-
-        <para>Selbstbeharrungsvermögen, korporale Identität - sie "wissen",
-        was und wie sie sein sollen</para>
-
-        <para>Verstärkungen von Körperfunktionen wie Heilung, Bewegung = OK,
-        Herz stoppen = NICHT</para>
-
-        <para>Die gleichen Verletzungen können auf magische Weise nur einmal
-        geheilt werden.</para>
-
-        <para>Reichweite: Normalerweise Berührung, ansonsten steigt die
-        Schwierigkeit pro angefangenem Meter Distanz um 3.</para>
-      </section>
-
-      <section>
-        <title>Licht</title>
-
-        <para>ist sowohl für das Erschaffen von Licht wie auch für Dunkelheit
-        (durch Lichtentzug) zuständig. Es ist ebenfalls möglich, wenn auch
-        sehr schwer, durch Erzeugen von Millionen einzelner Lichtpunkte oder
-        durch Biegen des Lichtes echte Illusionen zu erzeugen.</para>
-      </section>
-
-      <section>
-        <title>Luft</title>
-
-        <para>Beeinflussen von Luft, Kraftfelder,
-        Akustik;;;;;;;;;;;;;;;;;;;;;;;</para>
-
-        <para></para>
-
-        <para></para>
-
-        <para>im Gegensatz zur Telekinese, die sich mit der Bewegung von
-        Objekten beschäftigt, ist diese Fertigkeit für das Aufhalten selbiger
-        zuständig. Damit ist kein Festhalten gemeint, sondern die Erzeugung
-        eines Felds von Gegenkraft, das Bewegungen unterbindet. Die klassische
-        Anwendung dieses Gebiets besteht natürlich in der Erschaffung aller
-        Arten von magischen Rüstungen und Barrieren.</para>
-
-        <para></para>
-
-        <para>ist eine sehr „feinfühlige“ Variante der Telekinese, nämlich die
-        Beeinflussung und Erzeugung von Schallwellen. Abgesehen von magischem
-        Bauchreden (bei dem die Stimme <emphasis>wirklich</emphasis> aus einer
-        anderen Richtung kommt) ist z.B. auch die Erzeugung einer magischen
-        Stille möglich.</para>
-      </section>
-
-      <section>
         <title>Spüren</title>
 
-        <para>umfasst alle Effekte, die gemeinhin als Hellsicht bezeichnet
-        werden. Dabei ist es dem Zaubernden möglich, über das alles umgebende
-        Kraftgewebe Eindrücke zu empfangen, sowohl in seiner Umgebung als auch
-        weiter entfernt. Diese Eindrücke sind jedoch kaum mit denen der
-        „normalen“ Welt zu vergleichen, man nimmt nur Ansammlungen von
-        Kraftlinien und Auren wahr. Die Auren von Lebewesen zu interpretieren
-        fällt ebenfalls in diesen Bereich.</para>
+        <para>Die Fertigkeit Spüren erlaubt dem Zaubernden, über das Kraftnetz
+        Sinneseindrücke zu empfangen. Diese Eindrücke sind nicht
+        richtungsabhängig und werden weder von Lebewesen noch von Hindernissen
+        wie Mauern aufgehalten.</para>
 
-        <para>sehen und analysieren, was andere zaubern. lernen durch
-        zuschauen.</para>
+        <para></para>
+
+        <para>Mit diesem zusätzlichen Sinn kann der Zaubernde die Größe,
+        Anzahl und Position von Lebewesen wahrnehmen</para>
+
+        <para></para>
+
+        <para></para>
+
+        <para> sowie KraftSie sind jedoch nicht mit normalen Sinnen zu
+        vergleichen, Lebewesen erscheinen als Auren, Gegenstände Diese
+        umfassenDiese Eindrücke sind jedoch kaum mit denen der „normalen“ Welt
+        zu vergleichen, man nimmt nur Ansammlungen von Kraftlinien und Auren
+        wahr.</para>
+
+        <para>Spüren ist die Voraussetzung, um auf magische Weise Dinge zu
+        beeinflussen, die man mit bloßem Auge nicht erkennen kann - sei es,
+        weil es sich um innere Organe handelt, sei es, weil sie hinter einer
+        Wand verborgen sind.</para>
+
+        <para>Die Fertigkeit erlaubt weiterhin, anderen beim Zaubern zu
+        beobachten. Dabei können die verwendeten Magiefertigkeiten
+        identifiziert werden, sofern sie dem Spürenden bekannt sind. Außerdem
+        ermöglicht Spüren auch das Lernen von Magiefertigkeiten
+        anderen.</para>
+
+        <para></para>
+
+        <para>umfasst alle Effekte, die gemeinhin als Hellsicht bezeichnet
+        werden. Dabei ist es dem Zaubernden möglich</para>
+
+        <para>Die Auren von Lebewesen zu interpretieren fällt ebenfalls in
+        diesen Bereich.</para>
 
         <para>fließen von Kraft kann wahrgenommen werden</para>
 
@@ -114,12 +81,28 @@
         <para>Diese Fertigkeit gehört in nahezu allen strukturierten
         Magieausbildungen zum Standard.</para>
 
-        <para>Reichweite: Beim Empfangen von Eindrücken ist die Schwierigkeit
-        entfernungsunabhängig. Der Zaubernde kann mit Kraft die Eindrücke
-        verstärken und so die die "Sichtweite" vergrößern. Richtet sich das
-        Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen oder Objekte zu
-        analysieren, gilt für die Schwierigkeit die Reichweitenkategorie
-        A.</para>
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>Beim Empfangen von Eindrücken ist die Schwierigkeit
+              entfernungsunabhängig. Der Zaubernde kann mit Kraft die
+              Eindrücke verstärken und so die die "Sichtweite" vergrößern.
+              Richtet sich das Spüren auf ein bestimmtes Ziel, z.B. um Auren
+              zu lesen oder Objekte zu analysieren, gilt für die Schwierigkeit
+              die Reichweitenkategorie A.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -128,7 +111,23 @@
         <para>ist das beliebige magische Bewegen von Gegenständen, aber auch
         die Umwandlung von magischer in rohe physische Kraft.</para>
 
-        <para>Reichweite C, keine Modifikation nach Größe des Ziels.</para>
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>C, keine Modifikation nach Größe des Ziels</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -137,6 +136,24 @@
         <para>ist die Fähigkeit des Gedankenlesens sowie der mentalen
         Verständigung. Obwohl hauptsächlich für Menschen gedacht, lässt sich
         diese Fähigkeit auch bei den meisten Tiere einsetzen.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>Abhängig vom Krafteinsatz</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
 
         <section>
           <title>Schwierigkeit</title>
@@ -178,13 +195,6 @@
             </tgroup>
           </informaltable>
         </section>
-
-        <section>
-          <title>Kraftaufwand</title>
-
-          <para>Eigentlich recht gering, steigt über die Entfernung aber
-          stark.</para>
-        </section>
       </section>
 
       <section>
@@ -196,6 +206,24 @@
         (üblicherweise einen Menschen) an eine andere Stelle — aber auch das
         Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
         Orten.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>G</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -205,6 +233,24 @@
         Mit diesem Gebiet ist zum Beispiel die klassische Versteinerung
         möglich — dummerweise hat diese den Tod des Lebewesens zur
         Folge...</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -217,6 +263,24 @@
 
         <para>Eine vorhandene Stoffeigenschaft leicht zu verändern entspricht
         einer Schwierigkeit von 7.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -226,6 +290,24 @@
         Aggregatzuständen, wie zum Beispiel Zusammenziehen der
         Luftfeuchtigkeit, verdampfen oder kondensieren lassen. Kann auch
         Schnee und Eis erzeugen.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
     </section>
 
@@ -241,11 +323,32 @@
         Ebenfalls im Bereich des Möglichen liegt das simple „Aufladen“ von
         Gegenständen mit Elektrizität.</para>
 
-        <section>
-          <title>Voraussetzungen</title>
+        <variablelist>
+          <varlistentry>
+            <term>Voraussetzungen</term>
 
-          <para>Wetter 2 [Flüssigkeiten &amp; Temperatur]</para>
-        </section>
+            <listitem>
+              <para>2 Punkte im jeweiligen Element (außer
+              Kraftmanipulation)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -282,6 +385,48 @@
             Erinnerungen, Einpflanzen neuer Erinnerungen</para>
           </listitem>
         </itemizedlist>
+
+        <variablelist>
+          <varlistentry>
+            <term>Voraussetzungen</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
 
         <section>
           <title>Voraussetzung</title>
