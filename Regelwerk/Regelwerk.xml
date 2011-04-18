@@ -1133,11 +1133,11 @@
         und für diese Eigenschaften werden keine Proben durchgeführt.</para>
 
         <section xml:id="initiativebasis">
-          <title>Initiative-Basiswert</title>
+          <title>Initiativebasiswert</title>
 
           <para>Für den Initiativewurf im Kampf (siehe <xref
           linkend="kampf" />) besitzt jeder Charakter einen
-          Initiative-Basiswert. Dieser errechnet sich aus dem Attribut
+          Initiativebasiswert. Dieser errechnet sich aus dem Attribut
           Intuition und der Fertigkeit Reflexe wie folgt: <emphasis>(Intuition
           + Reflexe) * 2</emphasis>.</para>
         </section>
@@ -1748,9 +1748,10 @@
         </tgroup>
       </informaltable>
 
-      <para>Der bei der zuletzt angekreuzten Stufe angegebene Malus wird auf
-      alle Proben außer Schadens- und Widerstandswürfen angewendet sowie auf
-      die Initiative (siehe <xref linkend="kampf" />) angerechnet.</para>
+      <para>Der bei der zuletzt angekreuzten Stufe angegebene
+      <firstterm>Verletzungsmalus</firstterm> wird auf alle Proben außer
+      Schadens- und Widerstandswürfen angewendet sowie auf die Initiative
+      (siehe <xref linkend="kampf" />) angerechnet.</para>
 
       <para>Wird die letzte Stufe angekreuzt, verliert der Charakter das
       Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
@@ -2037,13 +2038,13 @@
       Beteiligte, die einen Tick schneller reagieren und den Überblick über
       das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
       einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
-      die Reihenfolge der einzelnen Kämpfer (genau genommen Ihrer
+      die Reihenfolge der einzelnen Kämpfer (genau genommen ihrer
       <firstterm>Aktionsphasen</firstterm>) festzulegen. Die Initiative ist
       die Summe aus folgenden Werten:</para>
 
       <orderedlist>
         <listitem>
-          <para>Initiative-Basiswert (siehe <xref
+          <para>Initiativebasiswert (siehe <xref
           linkend="initiativebasis" />)</para>
         </listitem>
 
@@ -2085,7 +2086,7 @@
         Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
         zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Säbel ziehen. Elris hat Intuition 4 und
-        Reflexe 5, der Initiative-Basiswert beträgt somit 18. Sein W20-Wurf
+        Reflexe 5, der Initiativebasiswert beträgt somit 18. Sein W20-Wurf
         ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
         Abzüge. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
@@ -2111,11 +2112,11 @@
 
       <para>Bei der Ankündigung legt der Kämpfer fest, welche
       <firstterm>Aktion</firstterm> (Angriff, Waffe wechseln, Zaubern, etc.)
-      er während seiner Aktionsphase durchführen wird und welche
-      <firstterm>Reaktion</firstterm> (z.B. Ausweichen, Parieren oder
-      Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt (ob
-      die Reaktion dann vor oder nach seiner eigenen Aktion abgewickelt wird,
-      steht zu diesem Zeitpunkt übrigens noch nicht fest). Er darf den
+      er während seiner <firstterm>Aktionsphase</firstterm> durchführen wird
+      und welche <firstterm>Reaktion</firstterm> (z.B. Ausweichen, Parieren
+      oder Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt
+      (ob die Reaktion dann vor oder nach seiner eigenen Aktion abgewickelt
+      wird, steht zu diesem Zeitpunkt übrigens noch nicht fest). Er darf den
       abgerundeten Mittelwert der beiden Würfelanzahlen auf Aktion und
       Reaktion verteilen. Dabei darf er jeweils nur so viele Würfel zuteilen,
       wie er tatsächlich für den entsprechenden Wurf besitzt. Alternativ darf
@@ -2148,11 +2149,11 @@
         für Telekinese hätte er acht Würfel — verteilen darf er also 7. Er
         teilt der Aktion vier Würfel und der Reaktion drei Würfel zu.</para>
 
-        <para>Die Kampfrunde beginnt nun bei der höchsten Initative, und damit
-        mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird später
-        erklärt), und er kann seinem Gegner den Säbel aus der Hand schlagen.
-        Als nächstes ist Elris an der Reihe und greift seinen Gegner mit dem
-        Dolch an...</para>
+        <para>Die Kampfrunde beginnt nun bei der höchsten Initiative, und
+        damit mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird
+        später erklärt), und er kann seinem Gegner den Säbel aus der Hand
+        schlagen. Als nächstes ist Elris an der Reihe und greift seinen Gegner
+        mit dem Dolch an...</para>
       </informalexample>
     </section>
 
@@ -2593,8 +2594,8 @@
       <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
       und Dolch, bildet der abgerundete Mittelwert aller Würfelanzahlen
       (inklusive weiterer Handlungen wie Ausweichen oder Zaubern) die Basis
-      für die Verteilung auf Handungen. Dabei können für eine Handlung niemals
-      mehr Würfel eingeteilt werden, als der Charakter unter normalen
+      für die Verteilung auf Handlungen. Dabei können für eine Handlung
+      niemals mehr Würfel eingeteilt werden, als der Charakter unter normalen
       Umständen hätte verwenden dürfen.</para>
 
       <informalexample>
@@ -2690,7 +2691,7 @@
       Widerstandsprobe vermeiden.</para>
 
       <para>Den Abschluss des Zauberns bildet die Zauberprobe. Sie
-      entscheidet, ob der Zauber ingesamt gelungen ist und wenn ja, wie
+      entscheidet, ob der Zauber insgesamt gelungen ist und wenn ja, wie
       gut.</para>
 
       <para>Die folgenden Abschnitte beschreiben den genauen Ablauf des
@@ -2739,7 +2740,7 @@
         <para>Tharion möchte für die Nachtsicht 5 Kraftpunkte verwenden. Die
         verwendete Fertigkeit Lebewesen ist dem Attribut Materie zugeordnet,
         in der Tharion einen Wert von 1 hat. Seine Willenskraft beträgt 4,
-        Tharion verwendet für die Sammelprobe also 5 Wüfel.</para>
+        Tharion verwendet für die Sammelprobe also 5 Würfel.</para>
 
         <para>In der ersten Runde erzielt er 2 Erfolge und hat damit bereits 2
         Kraftpunkte gesammelt. In der zweiten Runde sagt er an, maximal 3
@@ -2870,7 +2871,7 @@
       Situationen auch beim Zaubern keine Probe durchgeführt. Wenn die
       Schwierigkeit 7 oder niedriger beträgt und der Krafteinsatz nicht höher
       als 2 ist, muss keine Zauberprobe durchgeführt werden. Die Qualität
-      beträgt zwei und der Charaker erhält keinen Magieschaden.</para>
+      beträgt zwei und der Charakter erhält keinen Magieschaden.</para>
 
       <para>Eine Zauberprobe muss dennoch durchgeführt werden, wenn ein
       Vergleichswurf gefordert wird oder der Spieler es wünscht — zum Beispiel
@@ -3803,10 +3804,10 @@
           Mächtigkeit ausbalanciert.</para>
 
           <para>Ein solcher Ansatz wäre durch die Flexibilität des
-          Magiesystems letzlich zum Scheitern verurteilt. Zauber mit besonders
-          drastischen Folgen oder welche, die sich von üblen Zeitgenossen
-          missbrauchen lassen, werden deswegen nicht mit einer hohen
-          Schwierigkeit oder immensen Kraftkosten ausgestattet. Diese
+          Magiesystems letztlich zum Scheitern verurteilt. Zauber mit
+          besonders drastischen Folgen oder welche, die sich von üblen
+          Zeitgenossen missbrauchen lassen, werden deswegen nicht mit einer
+          hohen Schwierigkeit oder immensen Kraftkosten ausgestattet. Diese
           Parameter sollen lediglich mit den anderen Zaubern der gleichen oder
           verwandter Magiefertigkeiten stimmig sein.</para>
         </listitem>
@@ -3954,7 +3955,7 @@
 
         <para>Spüren wird auch dazu benötigt, neue Magiefertigkeiten zu
         erlernen. Aus diesem Grund beherrschen so gut wie alle Magiekundigen,
-        die eine Ausbildung genossen haben, diese Fertigkeit. </para>
+        die eine Ausbildung genossen haben, diese Fertigkeit.</para>
 
         <variablelist>
           <varlistentry>
@@ -3963,10 +3964,10 @@
             <listitem>
               <para>Beim Empfangen von Eindrücken ist die Schwierigkeit
               entfernungsunabhängig. Der Zaubernde kann mit Kraft die
-              Eindrücke verstärken und so die die "Sichtweite" vergrößern.
-              Richtet sich das Spüren auf ein bestimmtes Ziel, z.B. um Auren
-              zu lesen oder Objekte zu analysieren, gilt für die Schwierigkeit
-              die Reichweitenkategorie A.</para>
+              Eindrücke verstärken und so die "Sichtweite" vergrößern. Richtet
+              sich das Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen
+              oder Objekte zu analysieren, gilt für die Schwierigkeit die
+              Reichweitenkategorie A.</para>
             </listitem>
           </varlistentry>
 
