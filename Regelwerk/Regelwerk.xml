@@ -47,17 +47,17 @@
       Jeder Spieler, dessen Charakter grundsätzlich in einem bestimmten
       Bereich der Magie bewandert ist, kann aus heiterem Himmel eine Idee für
       einen bestimmten magischen Effekt haben, und in diesem Moment muss der
-      Meister eine Würfelregelung (er)finden, die nicht nur Auskunft gibt über
-      Erfolg oder Misserfolg des Zauberns, sondern auch über die konkreten
-      Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer, Schnelligkeit
-      etc.)</para>
+      Spielleiter eine Würfelregelung (er)finden, die nicht nur Auskunft gibt
+      über Erfolg oder Misserfolg des Zauberns, sondern auch über die
+      konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer,
+      Schnelligkeit etc.)</para>
 
-      <para>Dies erfordert vom Meister einen hohen Grad an
+      <para>Dies erfordert vom Spielleiter einen hohen Grad an
       Improvisationstalent. Zum einen macht das oben erwähnte spontane
-      Erfinden von Würfelregelungen für magische Effekte das Meistern
+      Erfinden von Würfelregelungen für magische Effekte das Spielleiten
       aufwändiger als in anderen Rollenspielen. Zum anderen sorgt das
       Magiesystem auch dafür, dass die Spieler noch unberechenbarer als üblich
-      sind: ein Meister kann beim Planen des Abenteuers unmöglich an alle
+      sind: der Spielleiter kann beim Planen des Abenteuers unmöglich an alle
       Zauber denken, welche die Spielercharaktere wirken könnten, und so kann
       ein Abenteuer aufgrund eines einzigen überraschenden Zaubers einen ganz
       anderen Verlauf nehmen.</para>
@@ -84,9 +84,9 @@
       <para>Wizardry soll ein schnell spielbares System mit leicht zu
       merkenden Regeln sein, welche dem Erzählen nicht "im Weg stehen". Es
       enthält daher weit weniger Regeln als andere Systeme und geht davon aus,
-      dass der Meister viele Entscheidungen besser mit Einsatz von gesundem
-      Menschenverstand als mit dem Konsultieren eines umfangreichen Katalogs
-      aus genauen Regeln und Tabellen fällen kann.</para>
+      dass der Spielleiter viele Entscheidungen besser mit Einsatz von
+      gesundem Menschenverstand als mit dem Konsultieren eines umfangreichen
+      Katalogs aus genauen Regeln und Tabellen fällen kann.</para>
 
       <para>Die einzelnen Proben wirken aufgrund der Anzahl der gerollten
       Würfel, die durchaus über zehn liegen kann, zunächst aufwändig. Lassen
@@ -1421,8 +1421,9 @@
       </informaltable>
 
       <sidebar>
-        <para>Der Meister kann für seine Spielrunde die EP-Basis frei wählen;
-        der Wert von 600 wird für wenig erfahrene Charaktere empfohlen.</para>
+        <para>Der Spielleiter kann für seine Spielrunde die EP-Basis frei
+        wählen; der Wert von 600 wird für wenig erfahrene Charaktere
+        empfohlen.</para>
       </sidebar>
     </section>
 
@@ -1431,7 +1432,7 @@
 
       <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
       Fähigkeiten verbessern — er wird z.B. stärker, geschickter oder
-      erfahrener im Umgang mit Magie. Dazu verteilt der Meister für die im
+      erfahrener im Umgang mit Magie. Dazu verteilt der Spielleiter für die im
       Spiel gemachten Erfahrungen regelmäßig weitere Erfahrungspunkte (EP).
       Die Anzahl der EP sollte sich aus einem Basiswert für das Erreichen des
       gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
@@ -1507,7 +1508,7 @@
       beherrscht, kann vielleicht durch reine Übung und Training besser werden
       — der Versuch, sich das Kämpfen mit dem Schwert selbst beizubringen wäre
       jedoch von vornherein zum Scheitern verurteilt. Bei allen Steigerungen
-      hat daher, wie immer, der Meister das letzte Wort.</para>
+      hat daher, wie immer, der Spielleiter das letzte Wort.</para>
 
       <para>Abgeleitete Eigenschaften (siehe <xref linkend="abgeleitet" />)
       können nur indirekt über die jeweiligen Attribute und Fertigkeiten
@@ -1529,8 +1530,8 @@
     <title>Proben</title>
 
     <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
-    Meister eine <firstterm>Probe </firstterm>verlangen. Meist wird dies eine
-    <firstterm>Fertigkeitsprobe</firstterm> sein, es sind jedoch auch
+    Spielleiter eine <firstterm>Probe </firstterm>verlangen. Meist wird dies
+    eine <firstterm>Fertigkeitsprobe</firstterm> sein, es sind jedoch auch
     <firstterm>Attributsproben</firstterm> möglich.</para>
 
     <section>
@@ -1543,18 +1544,19 @@
       Fertigkeitspunkten und Punkten im zugeordneten Attribut.</para>
 
       <sidebar>
-        <para>Wie immer hat der Meister das letzte Wort — es kann gerade bei
-        Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf ein
-        anderes Attribut würfeln zu lassen. Wenn zum Beispiel ein Charakter
-        ein Pferd beruhigen möchte, kann der Meister die Reiten-Probe mit
-        Charisma statt mit Geschicklichkeit durchführen lassen.</para>
+        <para>Wie immer hat der Spielleiter das letzte Wort — es kann gerade
+        bei Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf
+        ein anderes Attribut würfeln zu lassen. Wenn zum Beispiel ein
+        Charakter ein Pferd beruhigen möchte, kann der Spielleiter die
+        Reiten-Probe mit Charisma statt mit Geschicklichkeit durchführen
+        lassen.</para>
       </sidebar>
     </section>
 
     <section>
       <title>Schwierigkeit und Erfolge</title>
 
-      <para>Der Meister gibt nun unter Berücksichtigung der Situation eine
+      <para>Der Spielleiter gibt nun unter Berücksichtigung der Situation eine
       <firstterm>Schwierigkeit</firstterm> für die Aktion vor (Standard: 11).
       Anschließend rollt der Spieler seine Würfel und versucht die angesagte
       Schwierigkeit mit möglichst vielen Würfeln zu erreichen oder zu
@@ -1567,10 +1569,10 @@
         <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den
         frühen Morgenstunden im Haus eines reichen Bürgers bei der Arbeit. Da
         man sich in Elris’ Gewerbe jedoch möglichst lautlos bewegen sollte,
-        verlangt der Meister von Elris eine Schleichen-Probe. Und weil ja
+        verlangt der Spielleiter von Elris eine Schleichen-Probe. Und weil ja
         ausnahmslos alle Holzdielen die Angewohnheit haben, in den
-        unpassendsten Momenten zu knarren und zu quietschen, sagt der Meister
-        eine Schwierigkeit von 16 an.</para>
+        unpassendsten Momenten zu knarren und zu quietschen, sagt der
+        Spielleiter eine Schwierigkeit von 16 an.</para>
 
         <para>Elris hat Geschicklichkeit 5 und Schleichen 4, macht 9. Er rollt
         seine 9 Würfel, sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt
@@ -1581,7 +1583,7 @@
 
       <sidebar>
         <para>Es kann vorkommen, dass eine Schwierigkeit über 20 liegt. In
-        solchen Fällen entscheidet der Meister, ob die Aktion schlicht
+        solchen Fällen entscheidet der Spielleiter, ob die Aktion schlicht
         unmöglich ist oder er eine Probe zulässt — dann werden alle gerollten
         20er als Erfolg gewertet.</para>
       </sidebar>
@@ -1613,8 +1615,8 @@
       Sinnesschärfe-Probe) sollte natürlich <emphasis>nicht</emphasis> vom
       Ergebnis der ursprünglichen Probe abhängig gemacht werden, was ja durch
       den Vergleich der Erfolgsanzahlen sowieso geschieht. In unserem Beispiel
-      hat der Meister also die Schwierigkeit 16 bereits vorher festgelegt, und
-      nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
+      hat der Spielleiter also die Schwierigkeit 16 bereits vorher festgelegt,
+      und nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
     </section>
 
     <section>
@@ -1622,7 +1624,7 @@
 
       <para>Besitzt ein Charakter die für eine bestimmte Aktion zuständige
       Fertigkeit nicht, darf er streng genommen keine Probe durchführen. Der
-      Meister kann jedoch gestatten, eine Probe auf eine andere, verwandte
+      Spielleiter kann jedoch gestatten, eine Probe auf eine andere, verwandte
       Fertigkeit oder das reine Attribut durchzuführen, sofern es für die
       Situation passt (evtl. auch mit erhöhter Schwierigkeit).</para>
     </section>
@@ -1633,11 +1635,11 @@
       <para>Häufig haben Charaktere mehrere Fertigkeiten, die in einer
       bestimmten Situation hilfreich sind. Obwohl eine Probe nur mit einer
       einzelnen Fertigkeit durchgeführt werden kann, ist es möglich eine
-      zusätzliche Fertigkeit als Unterstützung zu verwenden. Wenn der Meister
-      diese zusätzliche Fertigkeit für die konkrete Aufgabe als passend
-      erachtet, erhält der Charakter Bonuswürfel für die Fertigkeitsprobe. Die
-      Anzahl der Bonuswürfel beträgt ein Drittel des Werts der unterstützenden
-      Fertigkeit (aufgerundet).<informalexample>
+      zusätzliche Fertigkeit als Unterstützung zu verwenden. Wenn der
+      Spielleiter diese zusätzliche Fertigkeit für die konkrete Aufgabe als
+      passend erachtet, erhält der Charakter Bonuswürfel für die
+      Fertigkeitsprobe. Die Anzahl der Bonuswürfel beträgt ein Drittel des
+      Werts der unterstützenden Fertigkeit (aufgerundet).<informalexample>
           <para><emphasis>Beispiele:</emphasis></para>
 
           <itemizedlist>
@@ -1889,7 +1891,7 @@
         <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
         Orientierung dienen kann und selbstverständlich für manche Fälle (z.B.
         Knochenbrüche) völlig ungeeignet ist. Hier gilt dann stattdessen die
-        Einschätzung des Meisters.</para>
+        Einschätzung des Spielleiters.</para>
 
         <para>Übrigens bezieht sich der Abbau von Schadensstufen eher auf das
         Nachlassen der negativen Auswirkungen von Verletzungen als auf den
@@ -1930,11 +1932,12 @@
 
       <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
       selbständig vom Spieler durchzustreichen — stattdessen sollte hier kurz
-      Rücksprache mit dem Meister gehalten werden. Insbesondere bei geistigem
-      Schaden ist dies unerlässlich, denn schließlich hat nur der Meister
-      einen genauen Überblick, wie viel gespielte Zeit bereits vergangen ist.
-      Außerdem steht es ihm natürlich frei, die Regenerationszeit wegen
-      besonders günstiger oder ungünstiger Umstände anzupassen.</para>
+      Rücksprache mit dem Spielleiter gehalten werden. Insbesondere bei
+      geistigem Schaden ist dies unerlässlich, denn schließlich hat nur der
+      Spielleiter einen genauen Überblick, wie viel gespielte Zeit bereits
+      vergangen ist. Außerdem steht es ihm natürlich frei, die
+      Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
+      anzupassen.</para>
     </section>
 
     <section>
@@ -2073,8 +2076,8 @@
 
       <sidebar>
         <para>Das häufige Würfeln der Initiative kann bei längeren Kämpfen
-        lästig sein. Es steht dem Meister daher frei, die Initiative nur zu
-        Beginn eines Kampfes und nach nennenswerten Veränderungen in der
+        lästig sein. Es steht dem Spielleiter daher frei, die Initiative nur
+        zu Beginn eines Kampfes und nach nennenswerten Veränderungen in der
         Kampfsituation (z.B. Positionswechsel) würfeln zu lassen. Die
         Reihenfolge der Kämpfer bleibt dann über mehrere Runden
         unverändert.</para>
@@ -2128,16 +2131,16 @@
         eines Kämpfers für die anderen Charaktere nicht offensichtlich ist —
         es geht lediglich darum, dass sie vom jeweiligen Kämpfer (insbesondere
         den Spielercharakteren) zu Beginn der Runde festgelegt werden muss und
-        nicht etwa später, nach Bedarf, angepasst werden kann. Der Meister
+        nicht etwa später, nach Bedarf, angepasst werden kann. Der Spielleiter
         muss also keineswegs die Spielwerte der von ihm verkörperten
         Nichtspielercharaktere offenbaren.</para>
       </sidebar>
 
       <informalexample>
-        <para>Der Meister teilt den Spielern mit, dass sich einer der Schläger
-        auf Elris stürzen und einen Angriff mit dem Säbel parieren möchte,
-        während der andere mit vollem (Würfel-)Einsatz Tharion attackieren
-        wird.</para>
+        <para>Der Spielleiter teilt den Spielern mit, dass sich einer der
+        Schläger auf Elris stürzen und einen Angriff mit dem Säbel parieren
+        möchte, während der andere mit vollem (Würfel-)Einsatz Tharion
+        attackieren wird.</para>
 
         <para>Elris (Geschicklichkeit 5, Dolche 3, Ausweichen 4) will einen
         der Gauner attackieren, aber auch noch ausweichen können. Er hätte
@@ -2664,8 +2667,8 @@
     dem Attribut gewürfelt werden darf.</para>
 
     <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
-    bestimmt der Meister zunächst die passenden Magiefertigkeiten. Außerdem
-    legt er die genaue regeltechnische Wirkungsweise des Zaubers und
+    bestimmt der Spielleiter zunächst die passenden Magiefertigkeiten.
+    Außerdem legt er die genaue regeltechnische Wirkungsweise des Zaubers und
     insbesondere die Schwierigkeit fest (siehe <xref
     linkend="zauberentwicklung" />).</para>
 
@@ -2942,14 +2945,15 @@
       <para>Unter "Zauberentwicklung" verstehen wir das Erstellen einer Regel,
       wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
       geschieht meist während des Spielabends aufgrund des spontanen Einfalls
-      eines Spielers. Der Meister muss hier zunächst festlegen, welche
+      eines Spielers. Der Spielleiter muss hier zunächst festlegen, welche
       Magiefertigkeiten für den entsprechenden Effekt benötigt werden. Besitzt
       der Spielercharakter nicht alle diese Fertigkeiten, kann er den
       entsprechenden Effekt nicht erzielen.</para>
 
-      <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Meister —
-      eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem er
-      sich zumindest mit den ersten drei der folgenden Punkte befasst:</para>
+      <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Spielleiter
+      — eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem
+      er sich zumindest mit den ersten drei der folgenden Punkte
+      befasst:</para>
 
       <itemizedlist>
         <listitem>
