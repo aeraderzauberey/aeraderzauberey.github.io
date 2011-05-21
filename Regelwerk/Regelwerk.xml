@@ -23,6 +23,13 @@
       <holder>Jens Bannmann</holder>
     </copyright>
 
+    <legalnotice>
+      <para>Dieses Werk steht unter einer Creative Commons
+      Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen
+      3.0 Deutschland Lizenz (CC BY-NC-SA 3.0). Mehr Informationen dazu
+      unter<address>http://wizardry-rpg.org/lizenz.html</address></para>
+    </legalnotice>
+
     <releaseinfo>$Revision$</releaseinfo>
   </info>
 
@@ -4086,7 +4093,51 @@
             <term>Typische Effekte:</term>
 
             <listitem>
-              <para></para>
+              <para>Magische Wahrnehmung, Analysieren, Aura lesen</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Telekinese</title>
+
+        <para>Mit Hilfe der Telekinese können Gegenstände und Personen
+        beliebig bewegt werden. Des weiteren kann magische in rohe physische
+        Kraft umgewandelt werden, um Schläge und Stöße auszuüben.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>C, keine Modifikation nach Größe des Ziels</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit:</term>
+
+            <listitem>
+              <para>Je filigraner die Manipulation, je genauer das Zielen,
+              umso schwieriger ist der Zauber.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para>Steigt durch große Geschwindigkeit, hohes Gewicht oder
+              lange Wirkungsdauer</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Objekt bewegen, Schlösser knacken, Sturz abfangen</para>
             </listitem>
           </varlistentry>
         </variablelist>

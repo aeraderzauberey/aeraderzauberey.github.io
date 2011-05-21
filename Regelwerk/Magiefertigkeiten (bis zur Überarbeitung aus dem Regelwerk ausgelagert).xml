@@ -33,31 +33,6 @@
       <title>Erster Grad</title>
 
       <section>
-        <title>Telekinese</title>
-
-        <para>ist das beliebige magische Bewegen von Gegenständen, aber auch
-        die Umwandlung von magischer in rohe physische Kraft.</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>C, keine Modifikation nach Größe des Ziels</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
         <title>Telepathie</title>
 
         <para>ist die Fähigkeit des Gedankenlesens sowie der mentalen
