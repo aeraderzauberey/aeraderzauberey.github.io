@@ -2040,10 +2040,11 @@
       passiert zwar alles nahezu gleichzeitig — dennoch gibt es immer
       Beteiligte, die einen Tick schneller reagieren und den Überblick über
       das Kampfgeschehen haben. Um diesen Umstand darzustellen, wird zu Beginn
-      einer jeden Runde die <firstterm>Initiative</firstterm> ermittelt, um
-      die Reihenfolge der einzelnen Kämpfer (genau genommen ihrer
-      <firstterm>Aktionsphasen</firstterm>) festzulegen. Die Initiative ist
-      die Summe aus folgenden Werten:</para>
+      einer jeden Runde in der sogenannten
+      <firstterm>Initiativephase</firstterm> die
+      <firstterm>Initiative</firstterm> ermittelt, um die Reihenfolge der
+      einzelnen Kämpfer festzulegen. Die Initiative ist die Summe aus
+      folgenden Werten:</para>
 
       <orderedlist>
         <listitem>
@@ -2093,14 +2094,110 @@
         ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
         Abzüge. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reflexe 4)
-        würfelt eine 7, ergibt 25. Der andere (IN 4, Reflexe 3) eine 19,
+        deswegen ebenfalls keine Abzüge. Der erste Gegner (INT 5, Reflexe 4)
+        würfelt eine 7, ergibt 25. Der andere (INT 4, Reflexe 3) eine 19,
         ergibt 30. Beide kämpfen mit Säbeln, die verglichen mit einem Dolch
         und blitzschneller Magie natürlich langsamer sind — der
-        Initiativemalus liegt bei 3 (siehe <xref linkend="waffen" />). Elris
+        Initiativemalus liegt bei -3 (siehe <xref linkend="waffen" />). Elris
         hat also Glück: er und Tharion sind beide schneller als ihre Gegner,
         die erst bei 22 und 27 an die Reihe kommen.</para>
       </informalexample>
+
+      <para>Jede Kampfrunde ist in <firstterm
+      baseform="Aktionsphase">Aktionsphasen</firstterm> eingeteilt, eine für
+      jeden Charakter. Während seiner Aktionsphase kann ein Charakter genau
+      eine Handlung durchführen, die sogenannte <firstterm>Aktion</firstterm>.
+      Des weiteren kann er eine <firstterm>Reaktion</firstterm> während der
+      Aktionsphasen anderer Charaktere durchführen. Diese Reaktion kann sowohl
+      vor als auch nach seiner eigenen Aktionsphase stattfinden.</para>
+
+      <para>Die folgende Tabelle enthält Beispiele für Handlungen:</para>
+
+      <informaltable>
+        <tgroup cols="4">
+          <colspec colnum="1" colwidth="2*" />
+
+          <colspec colnum="2" colwidth="7*" />
+
+          <colspec colnum="3" colwidth="4*" />
+
+          <colspec colnum="4" colwidth="2*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Handlung</entry>
+
+              <entry>Typ</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>Angriff</entry>
+
+              <entry>Aktion</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Waffe wechseln/ziehen</entry>
+
+              <entry>Aktion (ohne Probe)</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Zauber (offensiv/schützend/verstärkend)</entry>
+
+              <entry>Aktion</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Ausweichen</entry>
+
+              <entry>Reaktion</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Parade</entry>
+
+              <entry>Reaktion</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Zauber (abwehrend)</entry>
+
+              <entry>Reaktion</entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
     </section>
 
     <section>
@@ -2108,30 +2205,40 @@
 
       <para>Nach der Initiativephase folgt die
       <firstterm>Ankündigungsphase</firstterm>, in der nacheinander alle
-      Kämpfer (beginnend mit dem „langsamsten“) ankündigen, was sie in der
-      Runde tun werden. Durch diese Ankündigung können schnellere Kämpfer mit
-      höherer Initiative auf die langsameren reagieren und haben einen
-      taktischen Vorteil.</para>
+      Kämpfer (beginnend mit dem „langsamsten“) ankündigen, welche Handlungen
+      sie in dieser Runde durchführen wollen. Durch diese Ankündigung können
+      schnellere Kämpfer mit höherer Initiative auf die langsameren reagieren
+      und haben einen taktischen Vorteil.</para>
 
-      <para>Bei der Ankündigung legt der Kämpfer fest, welche
-      <firstterm>Aktion</firstterm> (Angriff, Waffe wechseln, Zaubern, etc.)
-      er während seiner <firstterm>Aktionsphase</firstterm> durchführen wird
-      und welche <firstterm>Reaktion</firstterm> (z.B. Ausweichen, Parieren
-      oder Gegenzauber) er sich für die Aktionsphasen seiner Gegner aufbewahrt
-      (ob die Reaktion dann vor oder nach seiner eigenen Aktion abgewickelt
-      wird, steht zu diesem Zeitpunkt übrigens noch nicht fest). Er darf den
-      abgerundeten Mittelwert der beiden Würfelanzahlen auf Aktion und
-      Reaktion verteilen. Dabei darf er jeweils nur so viele Würfel zuteilen,
-      wie er tatsächlich für den entsprechenden Wurf besitzt. Alternativ darf
-      der Kämpfer auch auf Aktion oder Reaktion komplett verzichten und erhält
-      dann für die verbliebene Handlung deren reguläre Würfelanzahl.</para>
+      <para>Bei der Ankündigung legt der Kämpfer fest, welche Aktion er
+      während seiner Aktionsphase durchführen wird und welche Reaktion er sich
+      für die Aktionsphasen seiner Gegner aufbewahrt. Bei Aktionen wird dabei
+      auch das Ziel festgelegt, z.B. "Schwertangriff auf den mittleren
+      Soldaten".</para>
+
+      <para>Außerdem werden die Würfelanzahlen festgelegt:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Erfordern beide Handlungen eine Probe, verteilt der Kämpfer
+          den abgerundeten Mittelwert der beiden Würfelanzahlen auf Aktion und
+          Reaktion. Dabei darf er höchstens so viele Würfel zuteilen, wie er
+          tatsächlich für den jeweiligen Wurf besitzt.</para>
+        </listitem>
+
+        <listitem>
+          <para>Verzichtet der Kämpfer auf Aktion oder Reaktion oder erfordert
+          eine der beiden Handlungen keine Probe, erhält er für die
+          verbliebene Handlung deren reguläre Würfelanzahl.</para>
+        </listitem>
+      </itemizedlist>
 
       <sidebar>
         <para>Beachten Sie, dass die konkrete Verteilung der Würfelanzahlen
         eines Kämpfers für die anderen Charaktere nicht offensichtlich ist —
         es geht lediglich darum, dass sie vom jeweiligen Kämpfer (insbesondere
         den Spielercharakteren) zu Beginn der Runde festgelegt werden muss und
-        nicht etwa später, nach Bedarf, angepasst werden kann. Der Spielleiter
+        nicht etwa später nach Bedarf angepasst werden kann. Der Spielleiter
         muss also keineswegs die Spielwerte der von ihm verkörperten
         Nichtspielercharaktere offenbaren.</para>
       </sidebar>
