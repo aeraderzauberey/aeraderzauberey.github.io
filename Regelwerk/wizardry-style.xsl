@@ -195,6 +195,11 @@
     <fo:block break-after='page'/>
   </xsl:template>
 
+  <!-- HACK: should be referenced by some native docbook means, so that it works for HTML output as well -->
+  <xsl:template match="processing-instruction('box')">
+    <fo:external-graphic src="url('Schadenskästchen.svg')" content-width="0.4cm"/>
+  </xsl:template>
+
   <!-- disable default header -->
   <xsl:template name="header.content">
   </xsl:template>
