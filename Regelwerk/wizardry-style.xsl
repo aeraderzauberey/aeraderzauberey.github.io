@@ -152,6 +152,10 @@
     <xsl:if test="ancestor::row[@role='gray']">
       <xsl:attribute name="color">#A0A0A0</xsl:attribute>
     </xsl:if>
+    <xsl:if test="self::node()[@role='group']">
+      <xsl:attribute name="border-bottom-style">solid</xsl:attribute>
+      <xsl:attribute name="border-bottom-color">black</xsl:attribute>
+    </xsl:if>
     <xsl:if test="@role='nowrap' or @role='head'">
       <xsl:attribute name="wrap-option">no-wrap</xsl:attribute>
     </xsl:if>
