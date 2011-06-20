@@ -968,7 +968,7 @@
 
                   <entry>MAT</entry>
 
-                  <entry>G</entry>
+                  <entry>speziell</entry>
 
                   <entry></entry>
                 </row>
@@ -2513,7 +2513,7 @@
       (GA)</firstterm> dargestellt wird.</para>
     </section>
 
-    <section>
+    <section xml:id="fernkampf">
       <title>Fernkampf</title>
 
       <para>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt
@@ -2644,8 +2644,8 @@
 
       <para>In welche Distanzklasse ein Ziel fällt, ergibt sich aus der in der
       Waffentabelle (siehe <xref linkend="waffen" />) angegebenen
-      Reichweitenklasse der Waffe und folgender Tabelle. Sie gibt die maximale
-      Distanz in Metern an, die noch zur jeweiligen Distanzklasse
+      Reichweitenklasse der Waffe und folgender Tabelle. Sie zeigt die
+      maximale Distanz in Metern, die noch zur jeweiligen Distanzklasse
       gehört.</para>
 
       <informaltable>
@@ -2779,7 +2779,7 @@
 
               <entry>500</entry>
 
-              <entry>1000</entry>
+              <entry>1.000</entry>
 
               <entry></entry>
             </row>
@@ -2793,9 +2793,9 @@
 
               <entry>500</entry>
 
-              <entry>1000</entry>
+              <entry>1.000</entry>
 
-              <entry>2000</entry>
+              <entry>2.000</entry>
 
               <entry></entry>
             </row>
@@ -2807,11 +2807,11 @@
 
               <entry>500</entry>
 
-              <entry>1000</entry>
+              <entry>1.000</entry>
 
-              <entry>2000</entry>
+              <entry>2.000</entry>
 
-              <entry>5000</entry>
+              <entry>5.000</entry>
 
               <entry></entry>
             </row>
@@ -3054,6 +3054,11 @@
       durchgeführt. Manche Magiefertigkeiten sind mehreren Attributen
       zugeordnet, z.B. Artefaktmagie (Energie und Materie). In diesem Fall
       gilt der aufgerundete Mittelwert der beiden Attribute.</para>
+
+      <para>Bei der Ermittlung der Schwierigkeit wird die Reichweitenklasse
+      der Magiefertigkeit mit angerechnet, falls beim Zauber nichts anderes
+      angegeben ist. Dies geschieht analog zu <xref
+      linkend="fernkampf" />.</para>
 
       <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
       <firstterm>Qualität</firstterm> des Zaubers; diese fließt neben der
@@ -4291,5 +4296,99 @@
       <para><emphasis>[Hier folgen noch Beschreibungen weiterer
       Magiefertigkeiten.]</emphasis></para>
     </section>
+  </appendix>
+
+  <appendix>
+    <title>Sonstiges</title>
+
+    <para>In diesem Abschnitt sind verschiedene Richtlinien aufgeführt, die
+    als regeltechnische Anhaltspunkte für bestimmte Situationen dienen
+    können.</para>
+
+    <sect1>
+      <title>Lügen</title>
+
+      <para>Für Zwecke von sozialen Fertigkeitsproben und Telepathiezaubern
+      kann man folgende Arten von Lügen unterscheiden:</para>
+
+      <informaltable>
+        <tgroup cols="5">
+          <colspec colwidth="1*" />
+
+          <colspec colwidth="2*" />
+
+          <colspec colwidth="4*" />
+
+          <colspec colwidth="12*" />
+
+          <colspec colwidth="1*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Stufe</entry>
+
+              <entry>Bezeichnung</entry>
+
+              <entry>Ziele</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>1</entry>
+
+              <entry>Soziale Lüge</entry>
+
+              <entry>Wohl des Belogenen / Harmonie der Gruppe</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>2</entry>
+
+              <entry>Notlüge</entry>
+
+              <entry>Vermeidung von Nachteilen (selbst/Gruppe),
+              strategisch</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>3</entry>
+
+              <entry>Gemeine Lüge</entry>
+
+              <entry>Eigener Vorteil, Nachteil anderer in Kauf nehmen</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>4</entry>
+
+              <entry>Intrige</entry>
+
+              <entry>Erhebliche Nachteile Anderer</entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect1>
   </appendix>
 </book>

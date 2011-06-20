@@ -26,6 +26,68 @@
     <releaseinfo>$Revision$</releaseinfo>
   </info>
 
+  <preface>
+    <title>Legende</title>
+
+    <para>Die Angaben zu Zaubern sind in diesem Dokument wie folgt
+    formatiert:</para>
+
+    <variablelist>
+      <varlistentry>
+        <term>Fertigkeiten</term>
+
+        <listitem>
+          <para>Die Magiefertigkeiten, beginnend mit der
+          Primärfertigkeit</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Schwierigkeit</term>
+
+        <listitem>
+          <para>Feste Angaben (oft als Zahlenbereich oder anhand von
+          Beispielen) oder Berechnung der Schwierigkeit. Genannte Attribute
+          sind die des Ziels. Hinweis auf verdeckte Proben.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Krafteinsatz</term>
+
+        <listitem>
+          <para>Angaben zur Berechnung des Krafteinsatzes, z.B. nach
+          Größe/Stärke des Effekts</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Wirkungsdauer</term>
+
+        <listitem>
+          <para>Berechnung der Wirkungsdauer abhängig von Qualität oder Kraft.
+          Hinweis auf Konzentration.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Beschreibung</term>
+
+        <listitem>
+          <para>Erläuterung des Zaubers, Auswirkungen hoher oder niedriger
+          Qualität, Hinweis auf langwierige Zauber.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <para>Für die Schwierigkeit gilt die reguläre Reichweitenklasse der
+    jeweiligen Primärfertigkeit. Reichweitenklassen sind beim Zauber nur dann
+    aufgeführt, wenn sie von der Fertigkeit abweichen oder wenn sie nicht auf
+    die Schwierigkeit, sondern auf den Krafteinsatz angerechnet werden. In
+    diesen Fällen wird beim jeweiligen Wert die Notation Rw=X verwendet, wobei
+    X für die Reichweitenklasse steht.</para>
+  </preface>
+
   <chapter>
     <title>Erster Grad</title>
 
@@ -56,7 +118,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Beschreibung</para>
+              <para>Abwechselnd Initiative +2 und +1 Kampfwürfel</para>
             </listitem>
           </varlistentry>
 
@@ -72,10 +134,11 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Die Bewegungen des Zaubernden werden übernatürlich
-              schnell. Er erhält pro Kraftpunkt abwechselnd Initiative +2 und
-              einen zusätzlichen Würfel zur Verteilung auf
-              Kampfaktionen.</para>
+              <para>Die Bewegungen der Zielperson werden übernatürlich
+              schnell. Für den ersten Kraftpunkt erhält sie Initiative +2, für
+              den zweiten einen zusätzlichen Würfel zur Verteilung auf
+              Kampfaktionen. Weitere Kraftpunkte bewirken abwechselnd
+              Initiative- und Würfelboni.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -204,7 +267,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Siehe Beschreibung</para>
+              <para>Differenz der Müdigkeitsstufen (0-4) +
+              Wirkungsdauer</para>
             </listitem>
           </varlistentry>
 
@@ -212,7 +276,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Mindestens 5 Minuten</para>
+              <para>Nach Kraft: 0=5min / 1=30min / 2=2h / 3=10h / 4=50h</para>
             </listitem>
           </varlistentry>
 
@@ -222,12 +286,12 @@
             <listitem>
               <para>Das Ziel wird müde und schläft ggf. ein. Der Krafteinsatz
               beträgt mindestens die Differenz von neuer und alter
-              Müdigkeitsstufe. Jeder weitere Kraftpunkt verfünffacht die
+              Müdigkeitsstufe. Jeder weitere Kraftpunkt verlängert die
               Wirkungsdauer (30 min, 2 h, 10 h).</para>
 
-              <para>Die Qualität bestimmt, wodurch das Ziel wieder aufwacht: 1
-              = Schritte hören, leichte Berührung; 3 = Rufen, rütteln; 6 =
-              Stampede.</para>
+              <para>Die Qualität bestimmt, wodurch das Ziel wieder aufwacht:
+              1=Schritte hören, leichte Berührung; 3=Rufen, rütteln;
+              6=Stampede.</para>
 
               <para>Die Müdigkeitsstufe reicht von 0 (hellwach) bis 4
               (eingeschlafen). Anfangs beträgt sie mindestens ein Drittel der
@@ -302,8 +366,8 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>8 = Ursprungszustand, 11 = Natürliche Farben, 13 =
-              Spezialeffekte</para>
+              <para>8=Ursprungszustand, 11=Natürliche Farben,
+              13=Spezialeffekte</para>
             </listitem>
           </varlistentry>
 
@@ -311,8 +375,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>1 = Kopf &amp; Hände, 2 = Ober- oder Unterkörper, 3 =
-              Körper</para>
+              <para>1=Kopf &amp; Hände, 2=Ober- oder Unterkörper,
+              3=Körper</para>
             </listitem>
           </varlistentry>
 
@@ -350,7 +414,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>9 + Krankheitsstufe</para>
+              <para>9 + Krankheitsstufe (+5)</para>
             </listitem>
           </varlistentry>
 
@@ -358,7 +422,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro zu heilender Krankheitsstufe zwei Kraftpunkte</para>
+              <para>Zu heilende Krankheitsstufen * 2</para>
             </listitem>
           </varlistentry>
 
@@ -366,7 +430,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -380,7 +444,7 @@
               steigt die Schwierigkeit um 5. Langwierig: <inlineequation>
                   <mathphrase>(geheilte Krankheitsstufen - Qualität +
                   1)</mathphrase>
-                </inlineequation>Stunden, mindestens jedoch eine.</para>
+                </inlineequation> Stunden, mindestens jedoch eine.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -410,7 +474,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>2 KP pro Gesundheitsstufe</para>
+              <para>Gesundheitsstufen * 2</para>
             </listitem>
           </varlistentry>
 
@@ -418,7 +482,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -459,7 +523,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>beliebig</para>
+              <para>Dauer in Minuten / 5</para>
             </listitem>
           </varlistentry>
 
@@ -467,7 +531,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>pro Kraftpunkt 5 Minuten</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -509,7 +573,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>beliebig</para>
+              <para>Dauer in Minuten</para>
             </listitem>
           </varlistentry>
 
@@ -517,7 +581,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>pro Kraftpunkt 1 Minute</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -556,7 +620,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>In Höhe des imaginären Schadens</para>
+              <para>Höhe des imaginären Schadens</para>
             </listitem>
           </varlistentry>
 
@@ -604,7 +668,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>beliebig</para>
+              <para>Dauer in Stunden</para>
             </listitem>
           </varlistentry>
 
@@ -612,7 +676,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Kraft * 1 h</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -651,7 +715,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Dauer</para>
+              <para>Dauer in Runden / 3</para>
             </listitem>
           </varlistentry>
 
@@ -659,7 +723,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Pro Kraftpunkt drei Runden</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -700,7 +764,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Dauer</para>
+              <para>Dauer in Runden / 3</para>
             </listitem>
           </varlistentry>
 
@@ -708,7 +772,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Pro Kraftpunkt drei Runden</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -747,7 +811,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Beschreibung</para>
+              <para>Abwechselnd Initiative -2 und -1 Kampfwürfel</para>
             </listitem>
           </varlistentry>
 
@@ -763,9 +827,11 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Die Bewegungen der Zielperson werden verlangsamt. Sie
-              erhält pro Kraftpunkt abwechselnd Initiative -2 und kann einen
-              Würfel weniger auf Kampfaktionen verteilen.</para>
+              <para>Die Bewegungen der Zielperson werden verlangsamt. Für den
+              ersten Kraftpunkt erhält sie Initiative -2, für den zweiten
+              einen Würfel weniger zur Verteilung auf Kampfaktionen. Weitere
+              Kraftpunkte bewirken abwechselnd Initiative- und
+              Würfelmali.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -795,7 +861,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro zu heilender Gesundheitsstufe ein Kraftpunkt</para>
+              <para>Zu heilende Schadensstufen</para>
             </listitem>
           </varlistentry>
 
@@ -803,7 +869,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -813,7 +879,7 @@
             <listitem>
               <para>Heilt äußere Verletzungen, mit Medizin 2 auch
               Knochenbrüche. Langwierig: <inlineequation>
-                  <mathphrase>(geheilte Gesundheitsstufen - Qualität + 1) *
+                  <mathphrase>(geheilte Schadensstufen - Qualität + 1) *
                   5</mathphrase>
                 </inlineequation> Minuten, mindestens jedoch 5.</para>
             </listitem>
@@ -837,7 +903,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>12 + Gesundheitsstufe</para>
+              <para>12 + Schadensstufe</para>
             </listitem>
           </varlistentry>
 
@@ -845,7 +911,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro zu heilender Gesundheitsstufe ein Kraftpunkt</para>
+              <para>Zu heilende Schadenssstufen</para>
             </listitem>
           </varlistentry>
 
@@ -853,7 +919,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -862,9 +928,9 @@
 
             <listitem>
               <para>Die Schwierigkeit richtet sich nach der körperlichen
-              Gesundheitsstufe, auf der sich das Ziel momentan befindet.
+              Schadensstufe, auf der sich das Ziel momentan befindet.
               Langwierig: <inlineequation>
-                  <mathphrase>(geheilte Gesundheitsstufen - Qualität + 1) *
+                  <mathphrase>(geheilte Schadensstufen - Qualität + 1) *
                   5</mathphrase>
                 </inlineequation> Minuten, mindestens jedoch 5.</para>
             </listitem>
@@ -900,7 +966,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Dauer.</para>
+              <para>Dauer in Runden * 2</para>
             </listitem>
           </varlistentry>
 
@@ -908,7 +974,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Pro 2 Kraftpunkte eine Runde (aufgerundet).</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -949,8 +1015,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>1 = Kerze, 2 = Fackel, 3 = Lagerfeuer..., 7 =
-              Tageslicht</para>
+              <para>1=Kerze, 2=Fackel, 3=Lagerfeuer..., 7=Tageslicht</para>
             </listitem>
           </varlistentry>
 
@@ -958,7 +1023,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Nach Qualität: 1 = 5min, 2 = 10, 3 = 20, 4 = 40</para>
+              <para>Nach Qualität: 1=5min, 2=10, 3=20, 4=40</para>
             </listitem>
           </varlistentry>
 
@@ -997,7 +1062,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Jeder Punkt verfünffacht die Wirkungsdauer</para>
+              <para>1=1min, 2=5min, 3=30min, 4=2h, 5=10h</para>
             </listitem>
           </varlistentry>
 
@@ -1005,7 +1070,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Bis zu eine Minute</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -1014,8 +1079,8 @@
 
             <listitem>
               <para>Erschafft eine oder mehrere Linien aus farbig glühendem
-              Licht, z.B. Schrift. Qualität 1 = wurstdicke Linien, einige
-              Buchstaben; 3 = fingerdicke Linien, einige Worte; 5 = filigrane
+              Licht, z.B. Schrift. Qualität 1=wurstdicke Linien, einige
+              Buchstaben; 3=fingerdicke Linien, einige Worte; 5=filigrane
               Linien, Sätze oder Zeichnungen</para>
             </listitem>
           </varlistentry>
@@ -1313,6 +1378,54 @@
       </section>
 
       <section>
+        <title>Entferntes hören</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>10</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Ziel kann Entferntes so hören, als ob es sich dort
+              befände. Pro Erfolg wird eine Distanz von 2 Metern
+              überbrückt.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Krach</title>
 
         <variablelist>
@@ -1382,7 +1495,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>1 Punkt pro Meter Durchmesser</para>
+              <para>Durchmesser in Metern</para>
             </listitem>
           </varlistentry>
 
@@ -1390,7 +1503,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Q/2 Minuten</para>
+              <para>Qualität/2 Minuten</para>
             </listitem>
           </varlistentry>
 
@@ -1448,7 +1561,8 @@
 
             <listitem>
               <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
-              Ziel wie eine zweite Haut umgibt.</para>
+              Ziel wie eine zweite Haut umgibt und sowohl Treffer ablenkt als
+              auch Schaden verringert.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -1478,7 +1592,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig</para>
+              <para>Siehe Beschreibung</para>
             </listitem>
           </varlistentry>
 
@@ -1486,7 +1600,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -1497,7 +1611,7 @@
               <para>Erzeugt über ohrenbetäubenden Lärm Flächenschaden.
               Außerhalb des Wirkungsbereiches ist der Lärm zu hören, erzeugt
               aber keinen Schaden. Kraft kann entweder Radius erhöhen
-              (Standard = 3 Meter, pro KP + 3) oder Schaden verursachen (bis 3
+              (Standard=3 Meter, pro KP + 3) oder Schaden verursachen (bis 3
               KP geistig, darüber körperlich).</para>
             </listitem>
           </varlistentry>
@@ -1528,7 +1642,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Dauer</para>
+              <para>Dauer in Minuten / 30</para>
             </listitem>
           </varlistentry>
 
@@ -1536,7 +1650,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>pro Kraftpunkt 30 Minuten</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -1596,7 +1710,7 @@
 
             <listitem>
               <para>Der Zaubernde erschafft eine unsichtbare Rüstung, die das
-              Ziel wie eine zweite Haut umgibt.</para>
+              Ziel wie eine zweite Haut umgibt und Treffer ablenkt.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -1622,7 +1736,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>14 [verdeckter Wurf]</para>
+              <para>14 [Verdeckter Wurf]</para>
             </listitem>
           </varlistentry>
 
@@ -1630,8 +1744,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Je nach Objekt: 1 = Münzgröße, 2 = Maus, 3 = Katze, 4 =
-              Truhe, 5 = Mensch</para>
+              <para>Je nach Objekt: 1=Münzgröße, 2=Maus, 3=Katze, 4=Truhe,
+              5=Mensch</para>
             </listitem>
           </varlistentry>
 
@@ -1654,8 +1768,8 @@
               Misserfolg ist vom Ergebnis "Nicht verzaubert" nicht zu
               unterscheiden, bei komplexen Zaubern sind sogar
               Fehleinschätzungen möglich. Außerdem fallen die Ergebnisse bei
-              mangelnder Kenntnis der entsprechenden Magiebereiche recht vage
-              aus.</para>
+              mangelnder Kenntnis der entsprechenden Magiefertigkeiten recht
+              vage aus.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -1685,7 +1799,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Entfernungsstufe mindestens 1 Punkt</para>
+              <para>1</para>
             </listitem>
           </varlistentry>
 
@@ -1693,7 +1807,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -1701,11 +1815,12 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>[1 Erfolg] Kann zaubern? [2] Anzahl der Magiepunkte in
-              10er-Schritten. [3] Anzahl der Magiebereiche. [4]
-              Herausragendster Bereich, Anzahl der Punkte darin in 4er
-              Schritten. [5] Anzahl der Magiepunkte in 5er-Schritten. [6]
-              weitere Magiebereiche, mit jeweiliger Stärke (in
+              <para>[1 Erfolg] Kann zaubern? [2] Gesamtanzahl der
+              Magiefertigkeitspunkte in 10er-Schritten. [3] Anzahl der
+              Magiefertigkeiten. [4] Herausragendste Magiefertigkeit, Anzahl
+              der Punkte darin in 4er Schritten. [5] Gesamtanzahl der
+              Magiefertigkeitspunkte in 5er-Schritten. [6 und folgende] Drei
+              weitere Magiefertigkeiten, mit jeweiliger Stärke (in
               4er-Schritten).</para>
             </listitem>
           </varlistentry>
@@ -1784,7 +1899,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 30 m Entfernung</para>
+              <para>Sichtweite in Metern / 30</para>
             </listitem>
           </varlistentry>
 
@@ -1831,7 +1946,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 20m Radius</para>
+              <para>Radius in Metern / 20</para>
             </listitem>
           </varlistentry>
 
@@ -1878,7 +1993,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>beliebig</para>
+              <para>Dauer in Sekunden / 30</para>
             </listitem>
           </varlistentry>
 
@@ -1886,7 +2001,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Kraft * 30 sec</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -1927,7 +2042,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 10m Radius</para>
+              <para>Radius in Metern / 10</para>
             </listitem>
           </varlistentry>
 
@@ -1974,7 +2089,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 10m Radius</para>
+              <para>Radius in Metern / 10</para>
             </listitem>
           </varlistentry>
 
@@ -1993,6 +2108,65 @@
               <para>Der Zaubernde spürt Position und Form von Objekten und
               Lebewesen sowie Kraftansammlungen und -ströme in seiner
               Umgebung. Auren sind jedoch nicht erkennbar.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Teleportation erkennen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Spüren, Teleportation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>14, Rw=A</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>2 ^ (Vergangene Runden)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>-</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde spürt Richtung und Entfernung eines aktiven
+              oder gerade beendeten Teleportationszaubers. Ist der
+              Teleportationszauber bereits abgeschlossen, verblassen die
+              Eindrücke sehr schnell und der Kraftaufwand dieses Zaubers
+              steigt. Er entspricht <inlineequation>
+                  <mathphrase>2 ^ (Vergangene Runden)</mathphrase>
+                </inlineequation>.</para>
+
+              <para>Die Reichweitenmodifikation bezieht sich auf den Endpunkt,
+              den der Zaubernde bereits wahrnehmen kann.</para>
+
+              <para>Je höher die Qualität, desto genauer die Aussage: 1=auf
+              1km, grobe Himmelsrichtung; 3=auf 100m, exakte Himmelsrichtung
+              (z.B. Süd-Südwest), 5=auf 5m, exakter Winkel.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2022,7 +2196,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 1km Radius</para>
+              <para>Radius in Kilometern</para>
             </listitem>
           </varlistentry>
 
@@ -2030,7 +2204,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Sofort</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -2040,8 +2214,8 @@
             <listitem>
               <para>Der Zaubernde spürt Position, Ausmaß und Zustand
               (fließend, stehend) von Wassermengen. Mindestgröße abhängig von
-              Qualität: 1 = kleiner See/großer Fluss, 3 = Weiher/kleiner
-              Fluss, 5 = Tümpel/Bach/Quelle, 7 = Badezuber.</para>
+              Qualität: 1=kleiner See/großer Fluss, 3=Weiher/kleiner Fluss,
+              5=Tümpel/Bach/Quelle, 7=Badezuber.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2121,8 +2295,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Anzahl Punkte muss bei Stärkevergleichswurf übertroffen
-              werden</para>
+              <para>Erfolgsanzahl bei Stärkevergleichswurf</para>
             </listitem>
           </varlistentry>
 
@@ -2139,7 +2312,9 @@
 
             <listitem>
               <para>Das Zielobjekt wird festgehalten (bei größeren Objekten,
-              wie z.B. Menschen, muss die Stelle benannt werden).</para>
+              wie z.B. Menschen, muss die Stelle benannt werden). Das Befreien
+              eines Objekts oder einer Person gelingt, wenn die Erfolgsanzahl
+              einer Stärkeprobe die Anzahl der Kraftpunkte übersteigt.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2458,7 +2633,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Sofort</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -2511,7 +2686,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Sofort</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -2553,7 +2728,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Ein Punkt pro 50 km Entfernung</para>
+              <para>Entfernung in Kilometern / 50</para>
             </listitem>
           </varlistentry>
 
@@ -2561,7 +2736,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Qualität * 30 Sekunden</para>
+              <para>Qualität * 30 Sekunden [Konzentration]</para>
             </listitem>
           </varlistentry>
 
@@ -2570,9 +2745,9 @@
 
             <listitem>
               <para>Sendet eine Botschaft zu einem Ziel. Schwierigkeit je nach
-              Beziehung zur Zielperson: Naher Blutsverwandter = 6,
-              Langjähriger Freund = 8, Bekannter = 10, Flüchtige Bekanntschaft
-              = 12. Richtung bekannt = -2, Entfernung bekannt = -2.</para>
+              Beziehung zur Zielperson: Naher Blutsverwandter=6, Langjähriger
+              Freund=8, Bekannter=10, Flüchtige Bekanntschaft=12. Richtung
+              bekannt=-2, Entfernung bekannt=-2.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2602,7 +2777,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Ein Punkt pro 25 km Entfernung</para>
+              <para>Entfernung in Kilometern / 25</para>
             </listitem>
           </varlistentry>
 
@@ -2610,7 +2785,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Qualität * 2 Minuten</para>
+              <para>Qualität * 2 Minuten [Konzentration]</para>
             </listitem>
           </varlistentry>
 
@@ -2619,10 +2794,10 @@
 
             <listitem>
               <para>Beidseitige Verbindung zu einem Ziel. Schwierigkeit je
-              nach Beziehung zur Zielperson: Naher Blutsverwandter = 8,
-              Langjähriger Freund = 10, Bekannter = 12, Flüchtige
-              Bekanntschaft = 14. Richtung bekannt = -2, Entfernung bekannt =
-              -2.</para>
+              nach Beziehung zur Zielperson: Naher Blutsverwandter=8,
+              Langjähriger Freund=10, Bekannter=12, Flüchtige
+              Bekanntschaft=14. Richtung bekannt=-2, Entfernung
+              bekannt=-2.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2652,7 +2827,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>pro 20m Radius der Gesprächszone ein Punkt</para>
+              <para>Radius in Metern / 20</para>
             </listitem>
           </varlistentry>
 
@@ -2660,7 +2835,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Qualität * 3 Minuten</para>
+              <para>Qualität * 3 Minuten [Konzentration]</para>
             </listitem>
           </varlistentry>
 
@@ -2672,6 +2847,55 @@
               Verbindung zu einer oder mehreren Personen, die sich zum
               Zeitpunkt des Zaubers im Sichtfeld des Zaubernden befinden
               müssen. Die Gesprächszone bewegt sich mit dem Zaubernden.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Lügen erkennen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>WK * 2 + 8 [Verdeckter Wurf]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft [Konzentration]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erkennt während der Wirkungsdauer, ob das
+              Ziel lügt. Jede Lüge, deren Schwere (1 bis 4, siehe "Lügen" im
+              Regelwerkanhang "Sonstiges") kleiner oder gleich der Qualität
+              ist, wird vom Zaubernden durchschaut.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2724,6 +2948,52 @@
       </section>
 
       <section>
+        <title>Traum beobachten</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>15</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Minuten / 10</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft [Konzentration]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erlebt die Träume des Ziels mit.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Wesen erkennen</title>
 
         <variablelist>
@@ -2747,7 +3017,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Entfernungsstufe mindestens 1 Punkt</para>
+              <para>1</para>
             </listitem>
           </varlistentry>
 
@@ -2755,7 +3025,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -2775,7 +3045,109 @@
     <section>
       <title>Teleportation</title>
 
-      <para></para>
+      <section>
+        <title>Teleport</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Teleportation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8/12/16 + Genauigkeit + Rw=A</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Größe (3=Mensch, 6=Reiter &amp; Pferd) + Distanz
+              (Rw=F)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>-</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Das Ziel wird an einen anderen Ort teleportiert. Die
+              Schwierigkeit hängt von der Vertrautheit mit dem Ziel (8=Sicht,
+              12=vor wenigen Minuten dort gewesen/viele Stunden dort
+              verbracht, 16=präzise Karte) sowie der Genauigkeit der
+              Teleportation (-2=bis 10m Abweichung, 0=5m, +2=1m, +4=exakt)
+              ab.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Tor</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Teleportation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8/12/16 + Genauigkeit + Rw=A</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Kantenlänge in Metern + (Distanz in km)/2 + Dauer in
+              Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft [Konzentration]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Am Zielort (Rw=A) öffnet sich ein Tor zu einem anderen
+              Ort. Pro Kraftpunkt kann das Tor eine Kantenlänge von bis zu 1
+              Meter besitzen, eine Distanz von bis zu 2 Kilometern überbrücken
+              oder bis zu eine Minute geöffnet bleiben. Der Zauber ist
+              langwierig, das Tor öffnet sich nach etwa 10 Minuten. Die
+              Schwierigkeit entspricht der des Teleports.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
     </section>
 
     <section>
@@ -2805,7 +3177,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig</para>
+              <para>Höhe in Zentimetern / 50 + Dauer in Runden</para>
             </listitem>
           </varlistentry>
 
@@ -2813,7 +3185,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Qualität in Runden</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -2821,10 +3193,9 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Um den Zaubernden entsteht ein Flammenring, der pro
-              Kraftpunkt einen halben Meter hoch ist. Der Radius beträgt dabei
-              zwei Meter. Bei einem Halbkreis sind die Kraftkosten zu
-              halbieren.</para>
+              <para>Um den Zielpunkt entsteht ein Flammenring. Der Radius
+              entspricht maximal der Qualität in Metern. Bei einem Halbkreis
+              sind die Kraftkosten zu halbieren.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3007,7 +3378,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro Punkt 1m Länge oder 1m Tiefe, Mindestens 2</para>
+              <para>Länge + Tiefe (jew. in Metern)</para>
             </listitem>
           </varlistentry>
 
@@ -3015,7 +3386,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3064,7 +3435,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3077,8 +3448,8 @@
               wird je nach Größenkategorie (bei Feststoffen/Flüssigkeiten:
               Faust, Truhe, Schrank) mit 1/2/3 multipliziert. Die
               Schwierigkeit richtet sich nach dem Ursprungszustand.
-              Zauberdauer nach Qualität: 1 = 5min, 2 = 3min, 3 = 1min, 4 =
-              30sec.</para>
+              Langwierig, je nach Qualität: 1=5min, 2=3min, 3=1min,
+              4=30sec.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3108,7 +3479,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Pro 5 Münzen 1 Punkt</para>
+              <para>Anzahl Münzen / 5</para>
             </listitem>
           </varlistentry>
 
@@ -3116,7 +3487,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>sofort</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3125,9 +3496,9 @@
 
             <listitem>
               <para>Die verzauberten Münzen erhalten die Eigenschaften von
-              Gold. 1E = Farbe und Glanz des Originals scheinen noch durch,
-              2E=Farbe/Glanz entsprechen vollständig Gold, 3E=Weichheit
-              entspricht Gold.</para>
+              Gold, abhängig von der Qualität: 1=Farbe und Glanz des Originals
+              scheinen noch durch, 2=Farbe/Glanz entsprechen vollständig Gold,
+              3=Weichheit entspricht Gold.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3161,7 +3532,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Quadratschritt * 2 * Ziel-Nässefaktor</para>
+              <para>Quadratmeter * 2 * Ziel-Nässefaktor</para>
             </listitem>
           </varlistentry>
 
@@ -3178,10 +3549,11 @@
 
             <listitem>
               <para>Wasser aus der umgebenden Luft wird von der Zieloberfläche
-              angezogen. Es dauert Quadratschritt - Qualität Runden, bis die
-              Wirkung einsetzt. Nässefaktor 1 = Fläche teilweise benetzt, 2 =
-              Fläche benetzt, vereinzelt tropfend, 3 = wie nach Platzregen,
-              rutschig.</para>
+              angezogen. Es dauert <inlineequation>
+                  <mathphrase>Quadratmeter - Qualität</mathphrase>
+                </inlineequation> Runden, bis die Wirkung einsetzt.
+              Nässefaktor 1=Fläche teilweise benetzt, 2=Fläche benetzt,
+              vereinzelt tropfend, 3=wie nach Platzregen, rutschig.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3211,7 +3583,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Quadratschritt * aktueller Nässefaktor</para>
+              <para>Quadratmeter * aktueller Nässefaktor</para>
             </listitem>
           </varlistentry>
 
@@ -3228,10 +3600,11 @@
 
             <listitem>
               <para>Eine benetzte Oberfläche trocknet, in dem das Wasser
-              verdunstet. Es dauert Quadratschritt - Qualität Runden, bis die
-              Wirkung einsetzt. Nässefaktor 1 = Fläche teilweise benetzt, 2 =
-              Fläche benetzt, vereinzelt tropfend, 3 = wie nach Platzregen,
-              rutschig.</para>
+              verdunstet. Es dauert <inlineequation>
+                  <mathphrase>Quadratmeter - Qualität</mathphrase>
+                </inlineequation> Runden, bis die Wirkung einsetzt.
+              Nässefaktor 1=Fläche teilweise benetzt, 2=Fläche benetzt,
+              vereinzelt tropfend, 3=wie nach Platzregen, rutschig.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3261,7 +3634,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>nach Objektgröße: 2 = Mensch mit Kleidung</para>
+              <para>nach Objektgröße: 2=Mensch mit Kleidung</para>
             </listitem>
           </varlistentry>
 
@@ -3304,7 +3677,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>...Lockeres Erdreich = 8...</para>
+              <para>...Lockeres Erdreich=8...</para>
             </listitem>
           </varlistentry>
 
@@ -3312,7 +3685,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>(2 = 2m Grundwasserspiegel)</para>
+              <para>(2=2m Grundwasserspiegel)</para>
             </listitem>
           </varlistentry>
 
@@ -3320,7 +3693,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>(5 - Q) Runden</para>
+              <para>(5 - Qualität) Runden</para>
             </listitem>
           </varlistentry>
 
@@ -3374,7 +3747,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3425,7 +3798,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3439,7 +3812,7 @@
                 </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft - 2</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
-              Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
+              Widerstandsprobe erlaubt ist. Verliert nach jedem getroffenen
               Ziel einen Kraftpunkt.</para>
             </listitem>
           </varlistentry>
@@ -3470,7 +3843,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>siehe Kettenblitz</para>
+              <para>Siehe Kettenblitz</para>
             </listitem>
           </varlistentry>
 
@@ -3478,7 +3851,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -3492,7 +3865,7 @@
                 </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft - 2</mathphrase>
                 </inlineequation> Punkte körperlichen Schaden, für den keine
-              Widerstandsprobe erlaubt ist.Verliert nach jedem getroffenen
+              Widerstandsprobe erlaubt ist. Verliert nach jedem getroffenen
               Ziel einen Kraftpunkt.</para>
             </listitem>
           </varlistentry>
@@ -3578,7 +3951,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>mind. halbe WIL</para>
+              <para>Dauer in Minuten</para>
             </listitem>
           </varlistentry>
 
@@ -3586,7 +3959,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>pro Kraft 1 Minute</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -3814,7 +4187,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Dauer</para>
+              <para>Dauer in Runden / 3</para>
             </listitem>
           </varlistentry>
 
@@ -3822,7 +4195,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Pro Kraftpunkt drei Runden</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -3882,7 +4255,7 @@
               <para>Der Zaubernde erscheint den Opfern unbewusst glaubwürdiger
               und seine Ideen einleuchtender. Sie sind eher geneigt, seine
               Vorschläge umzusetzen. Er erhält auf alle Proben "überzeugender"
-              Natur (z.B. CH, Schausp., Führungsq.) 4 zusätzliche
+              Natur (z.B. CHA, Schausp., Führungsq.) 4 zusätzliche
               Würfel.</para>
             </listitem>
           </varlistentry>
@@ -3941,6 +4314,58 @@
       </section>
 
       <section>
+        <title>Aura verschleiern</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Kraftmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>9</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Stunden</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Verhindert die Identifikation von <inlineequation>
+                  <mathphrase>Qualität * 3</mathphrase>
+                </inlineequation> Magiefertigkeiten (nach Wahl des Zaubernden)
+              und die Ermittlung ihrer Punktezahl in der Aura des Ziels, nicht
+              jedoch die Gesamtzahl der Fertigkeitspunkte oder die
+              Magiebegabung. Übertrifft ein Auralesen-Versuch die Anzahl der
+              Erfolge, wird die echte Aura erkennbar.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Aura tarnen</title>
 
         <variablelist>
@@ -3964,7 +4389,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Beliebig, siehe Wirkung.</para>
+              <para>Dauer in Stunden</para>
             </listitem>
           </varlistentry>
 
@@ -3972,7 +4397,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Qualität in Stunden</para>
+              <para>Nach Kraft</para>
             </listitem>
           </varlistentry>
 
@@ -3980,10 +4405,13 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Pro Kraftpunkt erscheint das Ziel insgesamt um vier
-              Magiepunkte schwächer. Angaben zu einzelnen Bereichen werden
-              anteilig vermindert. Übertrifft ein Auralesen-Versuch die Anzahl
-              der Erfolge, wird die echte Aura erkennbar.</para>
+              <para>Das Ziel erscheint insgesamt um <inlineequation>
+                  <mathphrase>Qualität * 4</mathphrase>
+                </inlineequation> Magiefertigkeitspunkte schwächer. Angaben zu
+              einzelnen Fertigkeiten werden anteilig vermindert. Werden alle
+              Magiefertigkeitspunkte getarnt, erscheint das Ziel als nicht
+              magiebegabt. Übertrifft ein Auralesen-Versuch die Anzahl der
+              Erfolge, wird die echte Aura erkennbar.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -4013,7 +4441,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 3</para>
+              <para>Kraftaufwand des Originalzaubers / 3</para>
             </listitem>
           </varlistentry>
 
@@ -4021,7 +4449,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -4108,7 +4536,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 2</para>
+              <para>Kraftaufwand des Originalzaubers / 2</para>
             </listitem>
           </varlistentry>
 
@@ -4116,7 +4544,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -4158,8 +4586,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>nach Reichweite: 1 = 1km, 2 = 10km, 3 = 50km, 4 = 200km, 5
-              = 500km</para>
+              <para>nach Reichweite: 1=1km, 2=10km, 3=50km, 4=200km,
+              5=500km</para>
             </listitem>
           </varlistentry>
 
@@ -4167,7 +4595,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -4208,7 +4636,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Kraftaufwand des Originalzaubers durch 3</para>
+              <para>Kraftaufwand des Originalzaubers / 3</para>
             </listitem>
           </varlistentry>
 
@@ -4267,7 +4695,7 @@
             <term>Wirkungsdauer</term>
 
             <listitem>
-              <para>Einmalig</para>
+              <para>-</para>
             </listitem>
           </varlistentry>
 
@@ -4275,7 +4703,7 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>ändert die Richtung eines gerade gesprochenen Zaubers,
+              <para>Ändert die Richtung eines gerade gesprochenen Zaubers,
               falls ein Drittel der Original-Erfolge erreicht werden.</para>
             </listitem>
           </varlistentry>
@@ -4310,7 +4738,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Je nach Objekt: 1 = Münzgröße, ..., 4 = Truhe</para>
+              <para>Je nach Objekt: 1=Münzgröße, ..., 4=Truhe</para>
             </listitem>
           </varlistentry>
 
@@ -4342,7 +4770,7 @@
     <title>Dritter Grad</title>
 
     <section>
-      <title>Elemenarerschaffung</title>
+      <title>Elementarerschaffung</title>
 
       <para></para>
     </section>
@@ -4384,7 +4812,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>1 pro 5 Krafpunkte durchzuleitender Zauber</para>
+              <para>Maximale Kraft durchzuleitender Zauber / 5</para>
             </listitem>
           </varlistentry>
 
@@ -4457,9 +4885,9 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Versieht Bereich mit einem Wächterzauber, der telepathisch
-              Alarm schlägt (ggf. weckt), sobald Personen die Bereichsgrenze
-              übertreten.</para>
+              <para>Versieht Bereich mit einem Wächterzauber, der beim
+              Zaubernden telepathisch Alarm schlägt (ggf. weckt), sobald
+              Personen die Bereichsgrenze übertreten.</para>
             </listitem>
           </varlistentry>
         </variablelist>
