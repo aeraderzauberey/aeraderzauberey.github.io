@@ -2434,10 +2434,10 @@
       abgezogen — erst danach wird entschieden, ob und wie gut getroffen
       wurde. Die Schwierigkeit für diese Ausweichen-Probe liegt bei 11. Die
       Paradeschwierigkeit hängt von der Reichweite der beteiligten Waffen ab
-      und ergibt sich aus <emphasis>11 + Reichweite der Angriffswaffe —
-      Reichweite der Paradewaffe</emphasis>. Grundlage dieser Regel ist die
-      Überlegung, dass man mit langen Waffen einen Gegner eher "auf Abstand"
-      halten kann als mit kurzen.</para>
+      und ergibt sich aus <emphasis xml:id="paradeschwierigkeit">11 +
+      Reichweite der Angriffswaffe - Reichweite der Paradewaffe</emphasis>.
+      Grundlage dieser Regel ist die Überlegung, dass man mit langen Waffen
+      einen Gegner eher "auf Abstand" halten kann als mit kurzen.</para>
 
       <informalexample>
         <para>Die Schwierigkeit für einen Dolch liegt laut Waffentabelle bei
@@ -2445,7 +2445,7 @@
 
         <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
         Runde 3 Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
-        (Grundschwierigkeit) + 1 (Dolch-Reichweite) — 3 (Säbel-Reichweite) =
+        (Grundschwierigkeit) + 1 (Dolch-Reichweite) - 3 (Säbel-Reichweite) =
         9. Er erzielt 2 Erfolge und kann damit den Dolch zwar nicht
         vollständig parieren, aber zumindest zu weniger gefährlichen
         Körperstellen ablenken. Seine Parade-Erfolge werden von Elris’
@@ -2648,7 +2648,7 @@
       maximale Distanz in Metern, die noch zur jeweiligen Distanzklasse
       gehört.</para>
 
-      <informaltable>
+      <informaltable xml:id="reichweitentabelle">
         <tgroup cols="7">
           <colspec colwidth="*" />
 
@@ -2975,9 +2975,10 @@
       <para>In jeder Runde, in der ein Charakter Kraft sammelt, wird eine
       <firstterm>Sammelprobe</firstterm> durchgeführt. Für diese Probe wird
       das der Magiefertigkeit zugeordnete Attribut (Geist, Energie oder
-      Materie) und Willenskraft verwendet; die Schwierigkeit beträgt 11. Die
-      Anzahl der Erfolge ist die Menge an Kraftpunkten, die der Charakter in
-      dieser Runde an sich ziehen konnte.</para>
+      Materie) und Willenskraft verwendet. Die Schwierigkeit beträgt 11, der
+      Verletzungsmalus wird ignoriert. Die Anzahl der Erfolge ist die Menge an
+      Kraftpunkten, die der Charakter in dieser Runde an sich ziehen
+      konnte.</para>
 
       <para>Um zu vermeiden, zu viel Kraft zu verwenden, kann der Spieler vor
       der Probe ansagen, wieviel Kraft er in dieser Runde höchstens sammeln
@@ -3035,14 +3036,14 @@
         geistigen Schadenspunkt. Nach der dritten Sammelprobe schließt er den
         Zauber ab und muss erneut eine Widerstandsprobe ablegen. Er hat nun
         insgesamt 5 Kraftpunkte gesammelt. Bei der Probe erzielt er 2 Erfolge,
-        erhält also 3 geistige Schadenspunkte.</para>
+        erhält also weitere 3 geistige Schadenspunkte.</para>
       </informalexample>
 
       <para>Obwohl die Widerstandsproben bereits vor der abschließenden
       Zauberprobe durchgeführt werden, kommt der Schaden erst nach dem Zaubern
-      zum Tragen; der Würfelmalus für erhaltenen Schaden (siehe <xref
-      linkend="schaden" />) greift bei der Zauberprobe also nur für den
-      Schaden, den der Charakter bereits vorher erhalten hatte.</para>
+      zum Tragen; der Verletzungsmalus (siehe <xref linkend="schaden" />)
+      basiert bei der Zauberprobe also nur auf dem Schaden, den der Charakter
+      bereits zuvor erhalten hatte.</para>
     </section>
 
     <section>
@@ -3277,7 +3278,7 @@
   <appendix xml:id="waffen">
     <title>Waffen</title>
 
-    <informaltable pgwide="1">
+    <informaltable pgwide="1" xml:id="waffentabelle">
       <tgroup cols="8">
         <colspec colwidth="6*" />
 
@@ -3937,7 +3938,7 @@
       </tgroup>
     </informaltable>
 
-    <orderedlist numeration="loweralpha">
+    <orderedlist numeration="loweralpha" xml:id="waffenanmerkungen">
       <listitem xml:id="wbt">
         <para>Bärentatze: Verstärkter Handschuh mit drei fest stehenden
         Klingen, etwa fünf cm lang.</para>
@@ -3982,7 +3983,7 @@
       Techniken. Ein akademisch geprägter Gildenmagier mag Formeln rezitieren,
       ein Schamane in einem Ritual seine Götter anrufen oder ein Adept sich
       meditierend in Einklang mit dem Universum bringen. Zauberkundige
-      bezeichnen das was sie tun, oft nicht mal als Zauberei, und selbst wenn,
+      bezeichnen das was sie tun oft nicht mal als Zauberei, und selbst wenn,
       werden sie selbst vergleichbaren oder gar gleichen Zaubern
       unterschiedlichste, zu ihrer Tradition passende Namen geben. Tatsächlich
       funktioniert ihre Magie jedoch auf die gleiche Weise, und so behandelt
@@ -3992,7 +3993,7 @@
       <para>Magie ist nichts Übersinnliches. Sie ist vielmehr die Anwendung
       einer natürlichen, alles umgebenden Kraft. Diese durchzieht in einem
       feinen Netz jeden Gegenstand und jedes Lebewesen; sie schafft Realität
-      und hält sie zusammen. Zauberkundige sind Wesen, welche die Gabe
+      und hält sie zusammen. Zauberkundige sind Personen, welche die Gabe
       besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
       können, um damit ihre Umgebung zu beeinflussen.</para>
 
@@ -4060,7 +4061,7 @@
           Die Tasse könnte zwar wieder zu einem Teller verformt werden, der
           ursprüngliche Teller ist jedoch nicht mehr existent. Für Lebewesen
           gilt diese Regel jedoch nur eingeschränkt, siehe <xref
-          linkend="???" />.</para>
+          linkend="lebewesen" />.</para>
         </listitem>
 
         <listitem>

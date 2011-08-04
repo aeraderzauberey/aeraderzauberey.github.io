@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="5.0" xml:lang="de" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Regelübersicht</title>
+
+  <section>
+    <title>Zaubern</title>
+
+    <variablelist>
+      <varlistentry>
+        <term>Fertigkeitswürfel einteilen</term>
+
+        <listitem>
+          <para>Optional: Fertigkeitswürfel für Widerstandsprobe zur Seite
+          legen.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Kraft sammeln</term>
+
+        <listitem>
+          <para><emphasis>Geist/Energie/Materie + Willenskraft</emphasis>
+          gegen 11. Kein Verletzungsmalus. Erfolge = Kraftpunkte.
+          Maximalanzahl kann vorher angesagt werden.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Magieschaden</term>
+
+        <listitem>
+          <para>Schaden in Höhe jeweils bisher gesammelter Kraft alle
+          <emphasis>Anzahl Fertigkeitspunkte</emphasis> Runden sowie vor
+          Zauberprobe. Widerstandsprobe mit <emphasis>SEL + zur seite gelegte
+          Fertigkeitswürfel</emphasis> gegen 11. Kein Verletzungsmalus.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Zauberprobe</term>
+
+        <listitem>
+          <para><emphasis>Geist/Energie/Materie + Magiefertigkeit</emphasis>.
+          Schwierigkeit inkl. Reichweitenmodifikator.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+
+  <section>
+    <title>Reichweiten</title>
+
+    <xi:include href="Regelwerk.xml"
+                xpointer="xpointer(id('reichweitentabelle'))" />
+  </section>
+
+  <section>
+    <title>Kampf</title>
+
+    <variablelist>
+      <varlistentry>
+        <term>Ankündigungsphase</term>
+
+        <listitem>
+          <para>Langsamster Kämpfer kündigt zuerst Aktion, Reaktion mit
+          Würfelverteilung an.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Trefferwurf</term>
+
+        <listitem>
+          <para>Zugeteilte Würfel gegen Waffenschwierigkeit. Erfolge werden um
+          Trefferabzug der Rüstung verringert.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Ausweichen/Parade</term>
+
+        <listitem>
+          <para>Ausweichen: 11, Parade: <xi:include href="Regelwerk.xml"
+          xpointer="xpointer(id('paradeschwierigkeit'))" />. Erfolge negieren
+          Angriffserfolge.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Schadenswurf</term>
+
+        <listitem>
+          <para>Schwierigkeit <emphasis>11 - abgerundete Hälfte der
+          verbleibenden Angriffserfolge</emphasis>. Kein Verletzungsmalus.
+          Erfolge werden um Rüstungsschutz des Opfers verringert. Erfolge =
+          Schadenspunkte.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Widerstandswurf</term>
+
+        <listitem>
+          <para>Schwierigkeit: 11, kein Verletzungsmalus. Erfolge negieren
+          Schadenspunkte.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+</article>
