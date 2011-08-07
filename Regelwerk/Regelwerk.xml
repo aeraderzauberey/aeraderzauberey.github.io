@@ -125,7 +125,7 @@
         <title>Attribute</title>
 
         <para>Die grundlegenden Eigenschaften eines Charakters schlagen sich
-        in elf <firstterm baseform="Attribut">Attributen</firstterm> nieder,
+        in zwölf <firstterm baseform="Attribut">Attributen</firstterm> nieder,
         von denen drei Magiebegabten vorbehalten sind. Der allgemeine
         Durchschnitt in der Bevölkerung für die anderen Attribute liegt
         zwischen 3 und 4.</para>
@@ -150,104 +150,119 @@
 
             <tbody>
               <row>
-                <entry>Stärke</entry>
+                <entry>Körperkraft</entry>
 
-                <entry>STÄ</entry>
+                <entry>KK</entry>
 
-                <entry>Physische Kraft, Widerstandsfähigkeit, Ausdauer,
-                Verminderung von erhaltenem Schaden</entry>
+                <entry>Physische Kraft, Ausdauer</entry>
               </row>
 
               <row>
-                <entry>Geschicklichkeit</entry>
+                <entry>Gewandtheit</entry>
 
-                <entry>GES</entry>
+                <entry>GW</entry>
 
-                <entry>Schnelligkeit und Gewandtheit, auch Fingerfertigkeit.
-                Wichtig im Kampf.</entry>
+                <entry>Beweglichkeit, Schnelligkeit, Balance, Eleganz der
+                Bewegungen. Wichtig im Nahkampf.</entry>
               </row>
 
               <row>
-                <entry>Charisma</entry>
+                <entry>Fingerfertigkeit</entry>
 
-                <entry>CHA</entry>
+                <entry>FF</entry>
 
-                <entry>Wirkung auf andere, Ausstrahlung; auch wie gut man
-                andere beeinflussen kann</entry>
+                <entry>Geschickter Einsatz der Hände, feinmotorische
+                Fähigkeiten, Hand-Augen-Koordination</entry>
+              </row>
+
+              <row>
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Konstitution</entry>
+
+                <entry>KO</entry>
+
+                <entry>Robustheit, Verminderung von erhaltenem Schaden,
+                geringere Anfälligkeit für Krankheiten</entry>
               </row>
 
               <row>
                 <entry>Erscheinungsbild</entry>
 
-                <entry>ERS</entry>
+                <entry>EB</entry>
 
-                <entry>Maß für körperliche Attraktivität; bestimmt zusammen
-                mit Stärke und Geschicklichkeit das Aussehen</entry>
+                <entry>Maß für körperliche Attraktivität</entry>
               </row>
 
               <row>
-                <entry>Klugheit</entry>
+                <entry>Charisma</entry>
 
-                <entry>KLU</entry>
+                <entry>CH</entry>
 
-                <entry>Intelligenz, logisches Denkvermögen, Lern- und
-                Merkfähigkeit</entry>
+                <entry>Wirkung auf andere, Ausstrahlung, Präsenz</entry>
               </row>
 
               <row>
-                <entry>Selbstbeherrschung</entry>
-
-                <entry>SEL</entry>
-
-                <entry>Konzentration, Ertragen von Schmerzen, Geringere
-                Würfelmali durch Verletzungen, Verminderung der Ermüdung beim
-                Zaubern</entry>
-              </row>
-
-              <row>
-                <entry>Intuition</entry>
-
-                <entry>INT</entry>
-
-                <entry>Geistesschärfe, schnelles und richtiges Handeln,
-                Initiative im Kampf, Improvisation, soziales Feingefühl und
-                eben Intuition(!)</entry>
+                <entry></entry>
               </row>
 
               <row>
                 <entry>Willenskraft</entry>
 
-                <entry>WIL</entry>
+                <entry>WK</entry>
 
-                <entry>Entschlossenheit, Stärke der Abwehr geistiger
-                Beeinflussung, Schnelligkeit des Sammelns magischer
-                Energie</entry>
+                <entry>Entschlossenheit, Konzentration, Ertragen von
+                Schmerzen. Wichtig für Magie.</entry>
               </row>
 
               <row>
-                <entry>Energie</entry>
+                <entry>Klugheit</entry>
 
-                <entry>ENE</entry>
+                <entry>KL</entry>
 
-                <entry>Fähigkeit zur magischen Beeinflussung von Energie
+                <entry>Analytisches Denken, Strukturierungsfähigkeit, Lern-
+                und Merkfähigkeit</entry>
+              </row>
+
+              <row>
+                <entry>Intuition</entry>
+
+                <entry>IN</entry>
+
+                <entry>Instinktives Erfassen, schnelles Entscheiden,
+                Improvisation, Aufmerksamkeit, Initiative im Kampf</entry>
+              </row>
+
+              <row>
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Materie</entry>
+
+                <entry>MA</entry>
+
+                <entry>Fähigkeit zur magischen Beeinflussung von Materie
                 (siehe Magiefertigkeiten)</entry>
               </row>
 
               <row>
                 <entry>Geist</entry>
 
-                <entry>GEI</entry>
+                <entry>GE</entry>
 
                 <entry>Fähigkeit zur magischen Beeinflussung des Geistes
                 (siehe Magiefertigkeiten)</entry>
               </row>
 
               <row>
-                <entry>Materie</entry>
+                <entry>Energie</entry>
 
-                <entry>MAT</entry>
+                <entry>EN</entry>
 
-                <entry>Fähigkeit zur magischen Beeinflussung von Materie
+                <entry>Fähigkeit zur magischen Beeinflussung von Energie
                 (siehe Magiefertigkeiten)</entry>
               </row>
             </tbody>
@@ -294,7 +309,7 @@
                 <row>
                   <entry>Falschspiel</entry>
 
-                  <entry>INT</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -302,7 +317,7 @@
                 <row>
                   <entry>Führungsqualitäten</entry>
 
-                  <entry>CHA</entry>
+                  <entry>CH</entry>
 
                   <entry>Truppen aufstellen, organisieren, kommandieren,
                   motivieren und Ähnliches</entry>
@@ -311,7 +326,7 @@
                 <row>
                   <entry>Heimlichkeit</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry>Schleichen, sich verstecken, unauffällig Personen
                   verfolgen</entry>
@@ -320,7 +335,7 @@
                 <row>
                   <entry>Klettern</entry>
 
-                  <entry>STÄ</entry>
+                  <entry>KK</entry>
 
                   <entry></entry>
                 </row>
@@ -328,7 +343,7 @@
                 <row>
                   <entry>Körperbeherrschung</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry>Balancieren, Springen</entry>
                 </row>
@@ -336,7 +351,7 @@
                 <row>
                   <entry>Meditation</entry>
 
-                  <entry>SEL</entry>
+                  <entry>WK</entry>
 
                   <entry></entry>
                 </row>
@@ -344,7 +359,7 @@
                 <row>
                   <entry>Musizieren</entry>
 
-                  <entry>INT</entry>
+                  <entry>FF</entry>
 
                   <entry>Separate Fertigkeiten je Musikinstrument</entry>
                 </row>
@@ -352,7 +367,7 @@
                 <row>
                   <entry>Reiten</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -360,16 +375,16 @@
                 <row>
                   <entry>Schauspielerei</entry>
 
-                  <entry>INT</entry>
+                  <entry>CH</entry>
 
-                  <entry>Überzeugend wirken, Lügen, Geschichten erzählen
-                  (CHA)</entry>
+                  <entry>Überzeugend wirken, Lügen, Geschichten
+                  erzählen</entry>
                 </row>
 
                 <row>
                   <entry>Schlösser knacken</entry>
 
-                  <entry>INT</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -377,7 +392,7 @@
                 <row>
                   <entry>Schwimmen</entry>
 
-                  <entry>STÄ</entry>
+                  <entry>GW</entry>
 
                   <entry>Alles, was über bloßes "über Wasser halten"
                   hinausgeht: Tauchen, Ausweichen; auch Maß für
@@ -387,7 +402,7 @@
                 <row>
                   <entry>Singen</entry>
 
-                  <entry>INT</entry>
+                  <entry>CH</entry>
 
                   <entry></entry>
                 </row>
@@ -395,7 +410,7 @@
                 <row>
                   <entry>Sinnesschärfe</entry>
 
-                  <entry>INT</entry>
+                  <entry>IN</entry>
 
                   <entry>= Aufmerksamkeit</entry>
                 </row>
@@ -403,7 +418,7 @@
                 <row>
                   <entry>Tanzen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -411,7 +426,7 @@
                 <row>
                   <entry>Taschendiebstahl</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -445,7 +460,7 @@
                 <row>
                   <entry>Alchemie</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Brauen und Identifizieren von komplexen Elixieren,
                   Giften, evtl. auch magische Tinkturen</entry>
@@ -454,7 +469,7 @@
                 <row>
                   <entry>Etikette</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp;
                   Titel, höfische Tänze</entry>
@@ -463,7 +478,7 @@
                 <row>
                   <entry>Geographie</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry></entry>
                 </row>
@@ -471,7 +486,7 @@
                 <row>
                   <entry>Geschichte</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry></entry>
                 </row>
@@ -479,7 +494,7 @@
                 <row>
                   <entry>Kochen</entry>
 
-                  <entry>INT</entry>
+                  <entry>IN</entry>
 
                   <entry></entry>
                 </row>
@@ -487,7 +502,7 @@
                 <row>
                   <entry>Lehren</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>für Wissensvermittlung auf magischem, religiösem und
                   weltlichem Gebiet</entry>
@@ -496,7 +511,7 @@
                 <row>
                   <entry>Lesen &amp; Schreiben</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry></entry>
                 </row>
@@ -504,7 +519,7 @@
                 <row>
                   <entry>Magiekunde</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
                   Gruppierungen...)</entry>
@@ -513,7 +528,7 @@
                 <row>
                   <entry>Mathematik</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
                   Geometrie</entry>
@@ -522,7 +537,7 @@
                 <row>
                   <entry>Mechanik</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug),
                   Verständnis für Fallen, Riegel etc.</entry>
@@ -531,7 +546,7 @@
                 <row>
                   <entry>Medizin</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>bei 1 oder 2 = Erste Hilfe, später echter
                   Medicus</entry>
@@ -540,7 +555,7 @@
                 <row>
                   <entry>Menschenkenntnis</entry>
 
-                  <entry>INT</entry>
+                  <entry>IN</entry>
 
                   <entry></entry>
                 </row>
@@ -548,7 +563,7 @@
                 <row>
                   <entry>Pflanzenkunde</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Wissen über Verbreitung und Wirkung von Pflanzen
                   (besonders Heilpflanzen) sowie einfache Verarbeitung zu
@@ -558,7 +573,7 @@
                 <row>
                   <entry>Religionskunde</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry></entry>
                 </row>
@@ -566,7 +581,7 @@
                 <row>
                   <entry>Sprachen</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Pro Punkt beherrscht man eine zusätzliche
                   Sprache</entry>
@@ -575,7 +590,7 @@
                 <row>
                   <entry>Spurensuche</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry></entry>
                 </row>
@@ -583,7 +598,7 @@
                 <row>
                   <entry>Strategie</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Schlachtpläne entwerfen, Truppenbewegungen
                   koordinieren</entry>
@@ -592,7 +607,7 @@
                 <row>
                   <entry>Taktik</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>richtiges militärisches Vorgehen in einzelnen
                   Situationen</entry>
@@ -601,7 +616,7 @@
                 <row>
                   <entry>Tierkunde</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Erkennen verschiedener Tierarten, Wissen um deren
                   Verhalten und Verbreitung</entry>
@@ -610,7 +625,7 @@
                 <row>
                   <entry>Wildnisleben</entry>
 
-                  <entry>KLU</entry>
+                  <entry>KL</entry>
 
                   <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder
                   essbare Pflanzen finden</entry>
@@ -645,7 +660,7 @@
                 <row>
                   <entry>Reflexe</entry>
 
-                  <entry>INT</entry>
+                  <entry>IN</entry>
 
                   <entry>Schnelles Reagieren. Fließt in den
                   Initiativebasiswert ein</entry>
@@ -654,7 +669,7 @@
                 <row>
                   <entry>Ausweichen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -688,7 +703,7 @@
                 <row>
                   <entry>Boxen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -696,7 +711,7 @@
                 <row>
                   <entry>Raufen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -704,7 +719,7 @@
                 <row>
                   <entry>&lt;verschiedene Kampftechniken&gt;</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -728,7 +743,7 @@
                 <row>
                   <entry>Äxte</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -736,7 +751,7 @@
                 <row>
                   <entry>Dolche</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -744,7 +759,7 @@
                 <row>
                   <entry>Infanteriewaffen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -752,7 +767,7 @@
                 <row>
                   <entry>Scharfe Hiebwaffen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -760,7 +775,7 @@
                 <row>
                   <entry>Schwerter</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -768,7 +783,7 @@
                 <row>
                   <entry>Stabwaffen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -776,7 +791,7 @@
                 <row>
                   <entry>Stichwaffen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -784,7 +799,7 @@
                 <row>
                   <entry>Stumpfe Hiebwaffen</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -792,7 +807,7 @@
                 <row>
                   <entry>Peitschen</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -800,7 +815,7 @@
                 <row>
                   <entry>Zweihänder</entry>
 
-                  <entry>GES</entry>
+                  <entry>GW</entry>
 
                   <entry></entry>
                 </row>
@@ -824,7 +839,7 @@
                 <row>
                   <entry>Armbrust</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -832,7 +847,7 @@
                 <row>
                   <entry>Bogen</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -840,7 +855,7 @@
                 <row>
                   <entry>Wurfaxt</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -848,7 +863,7 @@
                 <row>
                   <entry>Wurfmesser</entry>
 
-                  <entry>GES</entry>
+                  <entry>FF</entry>
 
                   <entry>Auch für Wurfdolche</entry>
                 </row>
@@ -906,7 +921,7 @@
                 <row>
                   <entry>Lebewesen*</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>speziell</entry>
 
@@ -916,7 +931,7 @@
                 <row>
                   <entry>Licht</entry>
 
-                  <entry>ENE</entry>
+                  <entry>EN</entry>
 
                   <entry>C</entry>
 
@@ -926,7 +941,7 @@
                 <row>
                   <entry>Luft*</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>B</entry>
 
@@ -936,7 +951,7 @@
                 <row>
                   <entry>Spüren</entry>
 
-                  <entry>ENE</entry>
+                  <entry>EN</entry>
 
                   <entry>speziell</entry>
 
@@ -946,7 +961,7 @@
                 <row>
                   <entry>Telekinese</entry>
 
-                  <entry>ENE</entry>
+                  <entry>EN</entry>
 
                   <entry>C</entry>
 
@@ -956,7 +971,7 @@
                 <row>
                   <entry>Telepathie</entry>
 
-                  <entry>GEI</entry>
+                  <entry>GE</entry>
 
                   <entry>speziell</entry>
 
@@ -966,7 +981,7 @@
                 <row>
                   <entry>Teleportation</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>speziell</entry>
 
@@ -976,7 +991,7 @@
                 <row>
                   <entry>Umwandlung</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>B</entry>
 
@@ -986,7 +1001,7 @@
                 <row>
                   <entry>Unbelebte Materie*</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>B</entry>
 
@@ -996,7 +1011,7 @@
                 <row>
                   <entry>Wasser*</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>B</entry>
 
@@ -1014,7 +1029,7 @@
                 <row>
                   <entry>Elektrizität</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>A</entry>
 
@@ -1025,7 +1040,7 @@
                 <row>
                   <entry>Geistmanipulation</entry>
 
-                  <entry>GEI</entry>
+                  <entry>GE</entry>
 
                   <entry>A / B</entry>
 
@@ -1035,7 +1050,7 @@
                 <row>
                   <entry>Kraftmanipulation*</entry>
 
-                  <entry>ENE</entry>
+                  <entry>EN</entry>
 
                   <entry>C</entry>
 
@@ -1045,7 +1060,7 @@
                 <row>
                   <entry>Sphärologie</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>speziell</entry>
 
@@ -1063,7 +1078,7 @@
                 <row>
                   <entry>Elementarerschaffung</entry>
 
-                  <entry>GEI &amp; MAT</entry>
+                  <entry>MA &amp; GE</entry>
 
                   <entry>A</entry>
 
@@ -1074,7 +1089,7 @@
                 <row>
                   <entry>Wetter</entry>
 
-                  <entry>MAT</entry>
+                  <entry>MA</entry>
 
                   <entry>H</entry>
 
@@ -1092,7 +1107,7 @@
                 <row>
                   <entry>Artefaktmagie</entry>
 
-                  <entry>ENE &amp; MAT</entry>
+                  <entry>MA &amp; EN</entry>
 
                   <entry>A</entry>
 
@@ -1103,7 +1118,7 @@
                 <row>
                   <entry>Nekromantie</entry>
 
-                  <entry>GEI &amp; MAT</entry>
+                  <entry>MA &amp; GE</entry>
 
                   <entry>A</entry>
 
@@ -1155,7 +1170,7 @@
           <para>Wenn sie körperlichen Schaden erhalten haben, gilt für
           Charaktere ein Würfelabzug, der sogenannte
           <firstterm>Verletzungsmalus</firstterm>. Dieser ist um so geringer,
-          je höher ihre Selbstbeherrschung ist:</para>
+          je höher ihre Willenskraft ist:</para>
 
           <informaltable>
             <tgroup cols="11">
@@ -1185,7 +1200,7 @@
                 <row>
                   <entry></entry>
 
-                  <entry>Selbstbeherrschung</entry>
+                  <entry>Willenskraft</entry>
 
                   <entry><?box ?></entry>
 
@@ -1307,7 +1322,7 @@
             </tgroup>
           </informaltable>
 
-          <para>Hat z.B. ein Charakter mit Selbstbeherrschung 5 bereits 4
+          <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4
           körperliche Schadenspunkte erhalten, gilt für ihn ein Malus von 2
           Würfeln. Details zu diesen Mali und zur Handhabung von Schaden
           finden Sie in <xref linkend="schaden" />.</para>
@@ -1323,10 +1338,11 @@
       Vorgeschichte und Ausbildung des Charakters symbolisieren. Diese
       sogenannte <firstterm>EP-Basis</firstterm> wird auf dem Charakterblatt
       notiert. Der Spieler kann mit diesen Erfahrungspunkten nun beliebig
-      viele Attribute und Fertigkeiten kaufen. Der höchste für einen neuen
-      Charakter zulässige Wert liegt bei 6 und jeder Charakter muss alle
-      Attribute außer <emphasis>Energie</emphasis>, <emphasis>Geist</emphasis>
-      und <emphasis>Materie</emphasis> besitzen.</para>
+      viele Punkte in Attributen und Fertigkeiten kaufen. Der höchste für
+      einen neuen Charakter zulässige Wert liegt bei 6 und jeder Charakter
+      muss alle Attribute außer <emphasis>Materie</emphasis>,
+      <emphasis>Geist</emphasis> und <emphasis>Energie</emphasis>
+      besitzen.</para>
 
       <para>Sollten die Erfahrungspunkte nicht vollständig aufgebraucht
       werden, verfallen sie nicht, sondern können später im Spiel zum Steigern
@@ -1593,7 +1609,7 @@
         bei Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf
         ein anderes Attribut würfeln zu lassen. Wenn zum Beispiel ein
         Charakter ein Pferd beruhigen möchte, kann der Spielleiter die
-        Reiten-Probe mit Charisma statt mit Geschicklichkeit durchführen
+        Reiten-Probe mit Charisma statt mit Gewandtheit durchführen
         lassen.</para>
       </sidebar>
     </section>
@@ -1619,7 +1635,7 @@
         unpassendsten Momenten zu knarren und zu quietschen, sagt der
         Spielleiter eine Schwierigkeit von 16 an.</para>
 
-        <para>Elris hat Geschicklichkeit 5 und Schleichen 4, macht 9. Er rollt
+        <para>Elris hat Gewandtheit 5 und Schleichen 4, macht 9. Er rollt
         seine 9 Würfel, sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt
         insgesamt zwei Erfolge — Elris schafft es also, kaum verräterische
         Geräusche zu verursachen. Hätte er keine Erfolge gehabt, wäre er
@@ -1720,10 +1736,9 @@
       er erhält, wird eine dieser Stufen angekreuzt.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
-      er. Abhängig von seiner Selbstbeherrschung gelten für einen Charakter
+      er. Abhängig von seiner Willenskraft gelten für einen Charakter
       verschiedene Würfelmali (siehe <xref linkend="verletzungsmali" />), für
-      einen Charakter mit Selbstbeherrschung 3 betragen diese
-      beispielsweise:</para>
+      einen Charakter mit Willenskraft 3 betragen diese beispielsweise:</para>
 
       <informaltable>
         <tgroup cols="10">
@@ -2203,9 +2218,9 @@
         </listitem>
 
         <listitem>
-          <para>Verletzungsmalus durch körperlichen Schaden oder geistigen
-          Schaden (siehe <xref linkend="schaden" />). Es gilt der jeweils
-          höhere Malus.</para>
+          <para>Verletzungsmalus durch körperlichen oder geistigen Schaden
+          (siehe <xref linkend="schaden" />). Es gilt der jeweils höhere
+          Malus.</para>
         </listitem>
 
         <listitem>
@@ -2240,8 +2255,8 @@
         ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
         Abzüge. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen ebenfalls keine Abzüge. Der erste Gegner (INT 5, Reflexe 4)
-        würfelt eine 7, ergibt 25. Der andere (INT 4, Reflexe 3) eine 19,
+        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reflexe 4)
+        würfelt eine 7, ergibt 25. Der andere (IN 4, Reflexe 3) eine 19,
         ergibt 30. Beide kämpfen mit Säbeln, die verglichen mit einem Dolch
         und blitzschneller Magie natürlich langsamer sind — der
         Initiativemalus liegt bei -3 (siehe <xref linkend="waffen" />). Elris
@@ -2395,15 +2410,15 @@
         möchte, während der andere mit vollem (Würfel-)Einsatz Tharion
         attackieren wird.</para>
 
-        <para>Elris (Geschicklichkeit 5, Dolche 3, Ausweichen 4) will einen
-        der Gauner attackieren, aber auch noch ausweichen können. Er hätte
-        neun Würfel fürs Ausweichen und acht fürs Angreifen, ergibt acht zum
-        Verteilen. Er entscheidet sich, von diesen Würfeln fünf zum Angriff zu
-        benutzen und drei zurückzuhalten.</para>
+        <para>Elris (Gewandtheit 5, Dolche 3, Ausweichen 4) will einen der
+        Gauner attackieren, aber auch noch ausweichen können. Er hätte 9
+        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt acht zum
+        Verteilen. Er entscheidet sich, von diesen Würfeln 5 zum Angriff zu
+        benutzen und 3 zurückzuhalten.</para>
 
-        <para>Tharion hat Geschicklichkeit 3 und Ausweichen 4 (macht sieben),
-        für Telekinese hätte er acht Würfel — verteilen darf er also 7. Er
-        teilt der Aktion vier Würfel und der Reaktion drei Würfel zu.</para>
+        <para>Tharion hat Gewandtheit 3 und Ausweichen 4 (macht sieben), für
+        Telekinese hätte er 8 Würfel — verteilen darf er also 7. Er teilt der
+        Aktion 4 Würfel und der Reaktion 3 Würfel zu.</para>
 
         <para>Die Kampfrunde beginnt nun bei der höchsten Initiative, und
         damit mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird
@@ -2467,7 +2482,7 @@
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
       Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
       Schadenswiderstandswurf</firstterm> (kurz:
-      <firstterm>Widerstandswurf</firstterm>) ist eine Stärke-Probe, die
+      <firstterm>Widerstandswurf</firstterm>) ist eine Konstitutionsprobe, die
       sowohl die körperliche Widerstandsfähigkeit repräsentiert als auch ein
       „Wegdrehen-in-letzter-Sekunde“. Sie wird immer gegen eine Schwierigkeit
       von 11 durchgeführt. Die Anzahl der Erfolge des Widerstandswurfs wird
@@ -2477,9 +2492,9 @@
       linkend="schaden" />).</para>
 
       <informalexample>
-        <para>Ein Dolch hat laut Waffentabelle ST+1 Schadenswürfel. Für Elris,
-        der Stärke 4 hat, sind das also 5 Würfel. Die Schwierigkeit von 11
-        wird wegen der zwei verbliebenen Treffer-Erfolge um eins gesenkt —
+        <para>Ein Dolch hat laut Waffentabelle KK+1 Schadenswürfel. Für Elris,
+        der Körperkraft 4 hat, sind das also 5 Würfel. Die Schwierigkeit von
+        11 wird wegen der zwei verbliebenen Treffer-Erfolge um eins gesenkt —
         ergibt 10. Bei der Probe erzielt er 3 Erfolge. Sein Gegner hat für
         seinen Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg
         — es bleiben also noch 2 Schadenspunkte übrig, die auf der
@@ -2509,8 +2524,8 @@
       Tragen von schweren Rüstungen den Kämpfer, was sich in einem
       <firstterm>Initiativemalus (IM)</firstterm> niederschlägt. Andererseits
       schränken viele Rüstungen auch massiv die Bewegungsfreiheit ein, was
-      regeltechnisch durch einen <firstterm>Geschicklichkeitsabzug
-      (GA)</firstterm> dargestellt wird.</para>
+      regeltechnisch durch einen <firstterm>Gewandtheitsabzug (GA)</firstterm>
+      dargestellt wird.</para>
     </section>
 
     <section xml:id="fernkampf">
@@ -2518,7 +2533,7 @@
 
       <para>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt
       wie Nahkampfwaffen: Der Trefferwurf wird mit den Würfeln aus
-      Geschicklichkeit und der entsprechenden Fertigkeit ausgeführt. Die bei
+      Fingerfertigkeit und der entsprechenden Fertigkeit ausgeführt. Die bei
       der Waffe angegebene Schwierigkeit wird jedoch noch je nach Distanz und
       Größe des Ziels modifiziert:</para>
 
@@ -2855,27 +2870,27 @@
       Umständen hätte verwenden dürfen.</para>
 
       <informalexample>
-        <para>Ein Charakter hat Geschicklichkeit 5, Schwerter 5, Dolche 3,
-        Ausweichen 4 und Beidhändigkeit 7. Die maximal möglichen
+        <para>Ein Charakter hat Gewandheit 4, Fingerfertigkeit 3, Schwerter 6,
+        Dolche 5, Ausweichen 5 und Beidhändigkeit 7. Die maximal möglichen
         Würfelanzahlen sind jeweils:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Angriff oder Parade mit Schwert: 10</para>
+            <para>Angriff oder Parade mit Schwert (GW + Schwerter): 10</para>
           </listitem>
 
           <listitem>
-            <para>Angriff oder Parade mit Dolch: 8</para>
+            <para>Angriff oder Parade mit Dolch (FF + Dolche): 8</para>
           </listitem>
 
           <listitem>
-            <para>Ausweichen: 9</para>
+            <para>Ausweichen (GW + Ausweichen): 9</para>
           </listitem>
         </itemizedlist>
 
         <para>Falls er beide Waffen einsetzen will, beträgt seine reguläre
-        Würfelanzahl 9 und er erhält 3 Bonuswürfel durch Beidhändigkeit.
-        Einige erlaubte Würfelverteilungen sind damit:</para>
+        Würfelanzahl 9 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
+        ergibt 12. Einige erlaubte Würfelverteilungen sind damit:</para>
 
         <itemizedlist>
           <listitem>
@@ -3020,8 +3035,8 @@
       Widerstandsprobe fällig, es sei denn in dieser Runde wurde bereits eine
       durchgeführt.</para>
 
-      <para>Die Widerstandsprobe wird mit Selbstbeherrschung und den eventuell
-      zur Seite gelegten Fertigkeitswürfeln gegen eine Schwierigkeit von 11
+      <para>Die Widerstandsprobe wird mit Willenskraft und den eventuell zur
+      Seite gelegten Fertigkeitswürfeln gegen eine Schwierigkeit von 11
       durchgeführt. Der erhaltene Magieschaden entspricht der Gesamtanzahl der
       bisher gesammelten Kraftpunkte, vermindert um die bei der
       Widerstandsprobe erzielten Erfolge.</para>
@@ -3030,9 +3045,9 @@
         <para>Tharions Wert in Lebewesen beträgt 2, er muss also nach jeweils
         zwei Sammelproben eine Widerstandsprobe durchführen. Da er keine
         Fertigkeitswürfel für die Widerstandsprobe zur Seite gelegt hat,
-        stehen ihm dafür nur seine 5 Selbstbeherrschungs-Würfel zur Verfügung.
-        Nach der zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt.
-        Bei der Widerstandsprobe erzielt er 3 Erfolge und erhält damit einen
+        stehen ihm dafür nur seine 5 Willenskraft-Würfel zur Verfügung. Nach
+        der zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt. Bei
+        der Widerstandsprobe erzielt er 3 Erfolge und erhält damit einen
         geistigen Schadenspunkt. Nach der dritten Sammelprobe schließt er den
         Zauber ab und muss erneut eine Widerstandsprobe ablegen. Er hat nun
         insgesamt 5 Kraftpunkte gesammelt. Bei der Probe erzielt er 2 Erfolge,
@@ -3190,9 +3205,9 @@
 
         <para>Ein Zauberer hat die Attribute Willenskraft auf 5 und Materie
         auf 2 sowie die Fertigkeiten Lebewesen auf 4 und Spüren auf 1. Für die
-        Sammelprobe verwendet er 7 Würfel (WIL + MAT). Für die Zauberprobe
-        wird der Durchschnitt der Fertigkeiten gebildet, er beträgt 2,5. Da
-        der Wert der Primärfertigkeit darüber liegt, wird aufgerundet, der
+        Sammelprobe verwendet er 7 Würfel (WK + MA). Für die Zauberprobe wird
+        der Durchschnitt der Fertigkeiten gebildet, er beträgt 2,5. Da der
+        Wert der Primärfertigkeit darüber liegt, wird aufgerundet, der
         Zaubernde erhält also 3 Würfel aus seinen Magiefertigkeiten und 2 aus
         Materie.</para>
       </informalexample>
@@ -3332,7 +3347,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-4</entry>
 
@@ -3348,7 +3363,7 @@
 
             <entry>14</entry>
 
-            <entry>ST+6</entry>
+            <entry>KK+6</entry>
 
             <entry>-4</entry>
 
@@ -3374,7 +3389,7 @@
 
             <entry>10</entry>
 
-            <entry>ST+1</entry>
+            <entry>KK+1</entry>
 
             <entry>0</entry>
 
@@ -3392,7 +3407,7 @@
 
             <entry>8</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>0</entry>
 
@@ -3410,7 +3425,7 @@
 
             <entry>8</entry>
 
-            <entry>ST+1</entry>
+            <entry>KK+1</entry>
 
             <entry>0</entry>
 
@@ -3426,7 +3441,7 @@
 
             <entry>8</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>0</entry>
 
@@ -3442,7 +3457,7 @@
 
             <entry>8</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>0</entry>
 
@@ -3468,7 +3483,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-4</entry>
 
@@ -3486,7 +3501,7 @@
 
             <entry>12</entry>
 
-            <entry>ST+1</entry>
+            <entry>KK+1</entry>
 
             <entry>-2</entry>
 
@@ -3502,7 +3517,7 @@
 
             <entry>14</entry>
 
-            <entry>ST+6</entry>
+            <entry>KK+6</entry>
 
             <entry>-4</entry>
 
@@ -3526,7 +3541,7 @@
 
             <entry>11</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-3</entry>
 
@@ -3542,7 +3557,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>-3</entry>
 
@@ -3568,7 +3583,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+5</entry>
+            <entry>KK+5</entry>
 
             <entry>-3</entry>
 
@@ -3584,7 +3599,7 @@
 
             <entry>11</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>-2</entry>
 
@@ -3600,7 +3615,7 @@
 
             <entry>12</entry>
 
-            <entry>ST+4</entry>
+            <entry>KK+4</entry>
 
             <entry>-3</entry>
 
@@ -3616,7 +3631,7 @@
 
             <entry>14</entry>
 
-            <entry>ST+7</entry>
+            <entry>KK+7</entry>
 
             <entry>-4</entry>
 
@@ -3642,7 +3657,7 @@
 
             <entry>11</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>-2</entry>
 
@@ -3658,7 +3673,7 @@
 
             <entry>13</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-5</entry>
 
@@ -3674,7 +3689,7 @@
 
             <entry>12</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-2</entry>
 
@@ -3692,7 +3707,7 @@
 
             <entry>11</entry>
 
-            <entry>ST+5</entry>
+            <entry>KK+5</entry>
 
             <entry>-2</entry>
 
@@ -3718,7 +3733,7 @@
 
             <entry>10</entry>
 
-            <entry>ST+2</entry>
+            <entry>KK+2</entry>
 
             <entry>-1</entry>
 
@@ -3734,7 +3749,7 @@
 
             <entry>10</entry>
 
-            <entry>ST+3</entry>
+            <entry>KK+3</entry>
 
             <entry>-1</entry>
 
@@ -3892,7 +3907,7 @@
 
             <entry>13</entry>
 
-            <entry>ST/2 + 4</entry>
+            <entry>KK/2 + 4</entry>
 
             <entry>-1</entry>
 
@@ -3908,7 +3923,7 @@
 
             <entry>13</entry>
 
-            <entry>ST/2 + 3</entry>
+            <entry>KK/2 + 3</entry>
 
             <entry>0</entry>
 
@@ -3924,7 +3939,7 @@
 
             <entry>12</entry>
 
-            <entry>ST/2 + 1</entry>
+            <entry>KK/2 + 1</entry>
 
             <entry>0</entry>
 
