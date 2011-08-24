@@ -1333,16 +1333,14 @@
     <section>
       <title>Charaktererschaffung</title>
 
-      <para>Für die Charaktererschaffung stehen dem Spieler 600
+      <para>Für die Charaktererschaffung stehen dem Spieler 630
       <firstterm>Erfahrungspunkte</firstterm> (EP) zur Verfügung, welche die
-      Vorgeschichte und Ausbildung des Charakters symbolisieren. Diese
-      sogenannte <firstterm>EP-Basis</firstterm> wird auf dem Charakterblatt
-      notiert. Der Spieler kann mit diesen Erfahrungspunkten nun beliebig
-      viele Punkte in Attributen und Fertigkeiten kaufen. Der höchste für
-      einen neuen Charakter zulässige Wert liegt bei 6 und jeder Charakter
-      muss alle Attribute außer <emphasis>Materie</emphasis>,
-      <emphasis>Geist</emphasis> und <emphasis>Energie</emphasis>
-      besitzen.</para>
+      Vorgeschichte und Ausbildung des Charakters symbolisieren. Der Spieler
+      kann mit diesen Erfahrungspunkten nun beliebig viele Punkte in
+      Attributen und Fertigkeiten kaufen. Der höchste für einen neuen
+      Charakter zulässige Wert liegt bei 6 und jeder Charakter muss alle
+      Attribute außer <emphasis>Materie</emphasis>, <emphasis>Geist</emphasis>
+      und <emphasis>Energie</emphasis> besitzen.</para>
 
       <para>Sollten die Erfahrungspunkte nicht vollständig aufgebraucht
       werden, verfallen sie nicht, sondern können später im Spiel zum Steigern
@@ -2263,7 +2261,7 @@
         <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
         kämpft mit einem Säbel (Initiativemalus -3) und würfelt eine 7, ergibt
         20. Der andere hat einen Initiativebasiswert von 14, kämpft mit einem
-        Knüppel (-2) und würfelt eine 15, ergibt 27. </para>
+        Knüppel (-2) und würfelt eine 15, ergibt 27.</para>
 
         <para>Elris hat also Glück: Tharion (32) und er (28) sind beide
         schneller als ihre Gegner, die erst bei 27 und 20 an die Reihe
