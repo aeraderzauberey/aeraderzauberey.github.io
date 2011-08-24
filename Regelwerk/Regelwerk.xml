@@ -1811,9 +1811,10 @@
       </informaltable>
 
       <para>Der bei der zuletzt angekreuzten Stufe angegebene Verletzungsmalus
-      wird auf alle Proben außer Schadens- und Widerstandswürfen angewendet
-      sowie auf die Initiative (siehe <xref linkend="kampf" />)
-      angerechnet.</para>
+      wird auf alle Proben außer Widerstandswürfen (siehe <xref
+      linkend="schaden_und_widerstand" />) und Kraftsammelproben (siehe <xref
+      linkend="kraft_sammeln" />) angewendet sowie auf die Initiative (siehe
+      <xref linkend="kampf" />) angerechnet.</para>
 
       <para>Wird die letzte Stufe angekreuzt, verliert der Charakter das
       Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
@@ -1841,7 +1842,7 @@
       <para>Ebenso wie körperlicher Schaden schlägt sich auch geistiger
       Schaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
       körperlichen als auch geistigen Schaden erhalten, gilt der jeweils
-      höhere Malus.</para>
+      höhere Verletzungsmalus.</para>
 
       <para>Die Summe des erhaltenen Schadens wird in
       <firstterm>leichten</firstterm>, <firstterm>mittleren</firstterm> und
@@ -2081,14 +2082,13 @@
       </informaltable>
 
       <informalexample>
-        <para>Erhält ein Charakter z.B. morgens vier geistige Schadenspunkte,
-        kann er alle bis auf einen innerhalb kürzester Zeit wieder
-        regenerieren. Erhält er später nochmals 5 Schadenspunkte und erreicht
-        mittleren Schaden, benötigen die Schadensstufen 6 und 5 jeweils eine
-        Viertelstunde zur Regeneration. Anschließend regenerieren sich die
-        Stufen 4 und 3 jeweils innerhalb von fünf Minuten — die restlichen
-        zwei Stufen werden jedoch erst am nächsten Tag regeneriert
-        sein.</para>
+        <para>Erhält ein Charakter z.B. morgens 4 geistige Schadenspunkte,
+        kann er 3 davon innerhalb kürzester Zeit wieder regenerieren. Erhält
+        er später nochmals 5 Schadenspunkte und erreicht mittleren Schaden,
+        benötigen die Schadensstufen 6 und 5 jeweils eine Viertelstunde zur
+        Regeneration. Anschließend regenerieren sich die Stufen 4 und 3
+        jeweils innerhalb von fünf Minuten — die restlichen zwei Stufen werden
+        jedoch erst am nächsten Tag regeneriert sein.</para>
       </informalexample>
 
       <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
@@ -2214,7 +2214,8 @@
         </listitem>
 
         <listitem>
-          <para>Initiativemalus der geführten Waffe</para>
+          <para>Initiativemalus der geführten Waffe (siehe <xref
+          linkend="waffen" />)</para>
         </listitem>
 
         <listitem>
@@ -2250,18 +2251,23 @@
         nachdem er bei der Arbeit überrascht wurde, wieder etwas erholt.
         Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
         zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
-        gegenüber, die wortlos ihre Säbel ziehen. Elris hat Intuition 4 und
-        Reflexe 5, der Initiativebasiswert beträgt somit 18. Sein W20-Wurf
-        ergibt eine 12, macht 30. Er kämpft mit einem Dolch, erhält also keine
-        Abzüge. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
+        gegenüber, die wortlos ihre Waffen ziehen.</para>
+
+        <para>Elris hat Intuition 4 und Reflexe 5, der Initiativebasiswert
+        beträgt somit 18. Sein W20-Wurf ergibt eine 13, macht 30. Er kämpft
+        mit einem Schwert und erhält deswegen einen Initiativemalus von -3,
+        ergibt 28. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen ebenfalls keine Abzüge. Der erste Gegner (IN 5, Reflexe 4)
-        würfelt eine 7, ergibt 25. Der andere (IN 4, Reflexe 3) eine 19,
-        ergibt 30. Beide kämpfen mit Säbeln, die verglichen mit einem Dolch
-        und blitzschneller Magie natürlich langsamer sind — der
-        Initiativemalus liegt bei -3 (siehe <xref linkend="waffen" />). Elris
-        hat also Glück: er und Tharion sind beide schneller als ihre Gegner,
-        die erst bei 22 und 27 an die Reihe kommen.</para>
+        deswegen ebenfalls keinen Initiativemalus.</para>
+
+        <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
+        kämpft mit einem Säbel (Initiativemalus -3) und würfelt eine 7, ergibt
+        20. Der andere hat einen Initiativebasiswert von 14, kämpft mit einem
+        Knüppel (-2) und würfelt eine 15, ergibt 27. </para>
+
+        <para>Elris hat also Glück: Tharion (32) und er (28) sind beide
+        schneller als ihre Gegner, die erst bei 27 und 20 an die Reihe
+        kommen.</para>
       </informalexample>
 
       <para>Jede Kampfrunde ist in <firstterm
@@ -2406,17 +2412,17 @@
 
       <informalexample>
         <para>Der Spielleiter teilt den Spielern mit, dass sich einer der
-        Schläger auf Elris stürzen und einen Angriff mit dem Säbel parieren
-        möchte, während der andere mit vollem (Würfel-)Einsatz Tharion
-        attackieren wird.</para>
+        Schläger auf Elris stürzen und einen Angriff mit seinem Knüppel
+        parieren möchte, während der andere mit seinem Säbel Tharion
+        attackieren will, ohne Würfel für eine Reaktion aufzuheben.</para>
 
-        <para>Elris (Gewandtheit 5, Dolche 3, Ausweichen 4) will einen der
-        Gauner attackieren, aber auch noch ausweichen können. Er hätte 9
-        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt acht zum
-        Verteilen. Er entscheidet sich, von diesen Würfeln 5 zum Angriff zu
-        benutzen und 3 zurückzuhalten.</para>
+        <para>Elris (Gewandtheit 5, Schwerter 3, Ausweichen 4) will seinen
+        Gegner attackieren, aber auch noch ausweichen können. Er hätte 9
+        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt 8 zum Verteilen.
+        Er entscheidet sich, von diesen Würfeln 5 zum Angriff zu benutzen und
+        3 zurückzuhalten.</para>
 
-        <para>Tharion hat Gewandtheit 3 und Ausweichen 4 (macht sieben), für
+        <para>Tharion hat Gewandtheit 3 und Ausweichen 4 (macht 7), für
         Telekinese hätte er 8 Würfel — verteilen darf er also 7. Er teilt der
         Aktion 4 Würfel und der Reaktion 3 Würfel zu.</para>
 
@@ -2424,7 +2430,7 @@
         damit mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird
         später erklärt), und er kann seinem Gegner den Säbel aus der Hand
         schlagen. Als nächstes ist Elris an der Reihe und greift seinen Gegner
-        mit dem Dolch an...</para>
+        mit dem Schwert an...</para>
       </informalexample>
     </section>
 
@@ -2455,29 +2461,33 @@
       einen Gegner eher "auf Abstand" halten kann als mit kurzen.</para>
 
       <informalexample>
-        <para>Die Schwierigkeit für einen Dolch liegt laut Waffentabelle bei
-        8. Mit seinen fünf Würfeln erzielt Elris 4 Erfolge.</para>
+        <para>Die Schwierigkeit für Schwerter liegt laut Waffentabelle bei 12.
+        Mit seinen fünf Würfeln erzielt Elris 3 Erfolge.</para>
 
         <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
         Runde 3 Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
-        (Grundschwierigkeit) + 1 (Dolch-Reichweite) - 3 (Säbel-Reichweite) =
-        9. Er erzielt 2 Erfolge und kann damit den Dolch zwar nicht
+        (Grundschwierigkeit) + 3 (Schwert-Reichweite) - 2 (Knüppel-Reichweite)
+        = 10. Er erzielt 1 Erfolg und kann damit den Angriff zwar nicht
         vollständig parieren, aber zumindest zu weniger gefährlichen
-        Körperstellen ablenken. Seine Parade-Erfolge werden von Elris’
+        Körperstellen ablenken. Sein Parade-Erfolg wird von Elris’
         Treffer-Erfolgen abgezogen, übrig bleiben 2.</para>
       </informalexample>
+
+      <para>Sofern nach einem eventuellen Ausweich- oder Parademanöver noch
+      Angriffserfolge übrig sind, wird als nächstes der Schaden
+      ermittelt.</para>
     </section>
 
-    <section>
-      <title>Schadens- und Widerstandswurf</title>
+    <section xml:id="schaden_und_widerstand">
+      <title>Schaden und Widerstandswurf</title>
 
-      <para>Verursacht eine Waffe Schaden, wird eine Probe mit der bei der
-      Waffe unter „Schaden” angegebenen Würfelanzahl durchgeführt. Die
-      Schwierigkeit für diesen <firstterm>Schadenswurf</firstterm> richtet
-      sich danach, wie erfolgreich Angriff und Ausweichen/Parade waren: für je
-      zwei verbliebene Erfolge (abgerundet) wird die Grundschwierigkeit von 11
-      um eins gesenkt (<firstterm>Trefferbonus</firstterm>). Jeder Erfolg in
-      diesem Schadenswurf steht zunächst für einen Schadenspunkt.</para>
+      <para>Der von einem Angriff angerichtete Schaden richtet sich nach dem
+      Typ der Waffe und danach, wie gut der Treffer war. Eine Waffe richtet
+      immer so viele Schadenspunkte an, wie in der Waffentabelle in der Spalte
+      "Schaden" angegeben ist. Darüber hinaus erhält der Angreifer den
+      sogenannten <firstterm>Trefferbonus</firstterm>: jeder verbliebene
+      Angriffserfolg außer dem ersten entspricht einem weiteren
+      Schadenspunkt.</para>
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
       Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
@@ -2486,19 +2496,20 @@
       sowohl die körperliche Widerstandsfähigkeit repräsentiert als auch ein
       „Wegdrehen-in-letzter-Sekunde“. Sie wird immer gegen eine Schwierigkeit
       von 11 durchgeführt. Die Anzahl der Erfolge des Widerstandswurfs wird
-      nun von den Schadenserfolgen abgezogen. Die übrigen Erfolge sind die
+      nun von den Schadenspunkten abgezogen. Die übrigen Erfolge sind die
       Schadenspunkte, die dem Charakter tatsächlich zugefügt und auf seinem
       Charakterblatt vermerkt werden (siehe <xref
       linkend="schaden" />).</para>
 
       <informalexample>
-        <para>Ein Dolch hat laut Waffentabelle KK+1 Schadenswürfel. Für Elris,
-        der Körperkraft 4 hat, sind das also 5 Würfel. Die Schwierigkeit von
-        11 wird wegen der zwei verbliebenen Treffer-Erfolge um eins gesenkt —
-        ergibt 10. Bei der Probe erzielt er 3 Erfolge. Sein Gegner hat für
-        seinen Widerstandswurf 3 Würfel zur Verfügung und erzielt einen Erfolg
-        — es bleiben also noch 2 Schadenspunkte übrig, die auf der
-        Schadensleiste eingetragen werden.</para>
+        <para>Ein Schwert richtet laut Waffentabelle 3 Schadenspunkte an. Von
+        Elris' Angriffswurf verbleiben nach der Parade seines Gegners noch 2
+        Erfolge, die 2 zusätzlichen Schadenspunkten entsprechen, ergibt
+        insgesamt also 5.</para>
+
+        <para>Sein Gegner hat für seinen Widerstandswurf 3 Würfel zur
+        Verfügung und erzielt 1 Erfolg — es bleiben also noch 4 Schadenspunkte
+        übrig, die auf seiner Schadensleiste eingetragen werden.</para>
       </informalexample>
 
       <sidebar>
@@ -2517,8 +2528,9 @@
       <firstterm>Trefferabzug (TA)</firstterm> zieht Erfolge vom Angriffswurf
       des Gegners ab, bevor dieser den Schadenswurf durchführt. Er verringert
       also (genau wie Ausweichen/Parade) die Chance, überhaupt getroffen zu
-      werden. Der <firstterm>Rüstungsschutz (RS)</firstterm> zieht Erfolge vom
-      Schadenswurf ab, verhindert also tatsächliche Schadenspunkte.</para>
+      werden. Der <firstterm>Rüstungsschutz (RS)</firstterm> verringert die
+      Anzahl der Schadenspunkte, wirkt also genauso wie Erfolge bei einem
+      Widerstandswurf.</para>
 
       <para>Rüstungen haben jedoch auch Nachteile: Zum einen verlangsamt das
       Tragen von schweren Rüstungen den Kämpfer, was sich in einem
@@ -2984,7 +2996,7 @@
       </informalexample>
     </section>
 
-    <section>
+    <section xml:id="kraft_sammeln">
       <title>Kraft sammeln</title>
 
       <para>In jeder Runde, in der ein Charakter Kraft sammelt, wird eine
@@ -3281,8 +3293,8 @@
       <para>Dabei ist es besonders wichtig, schnell zu einem Ergebnis zu
       kommen. Primär geht es darum, dass der Spieler eine Probe würfeln und
       das Spiel sofort weiter gehen kann. Schrecken Sie daher nicht davor
-      zurück, zunächst bewusst eine "temporäre" Regelung zu finden! Für eine
-      genaue Ausarbeitung, schriftliche Fixierung und Ausbalancieren mit
+      zurück, zunächst bewusst eine vorübergehende Regelung zu finden! Für
+      eine genaue Ausarbeitung, schriftliche Fixierung und Ausbalancieren mit
       anderen Zaubern ist nach dem Spielabend noch genug Zeit. Außerdem ist es
       empfehlenswert, die Regelung noch einmal zu überprüfen und
       gegebenenfalls zu überarbeiten, nachdem der neue Zauber einige Male
@@ -3317,7 +3329,7 @@
 
             <entry>Schw.</entry>
 
-            <entry><para>Schadens-</para><para>würfel</para></entry>
+            <entry><para>Schaden</para></entry>
 
             <entry><para>Initiative-</para><para>malus</para></entry>
 
@@ -3347,7 +3359,7 @@
 
             <entry>13</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-4</entry>
 
@@ -3363,7 +3375,7 @@
 
             <entry>14</entry>
 
-            <entry>KK+6</entry>
+            <entry>5</entry>
 
             <entry>-4</entry>
 
@@ -3389,7 +3401,7 @@
 
             <entry>10</entry>
 
-            <entry>KK+1</entry>
+            <entry>0</entry>
 
             <entry>0</entry>
 
@@ -3407,7 +3419,7 @@
 
             <entry>8</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>0</entry>
 
@@ -3425,7 +3437,7 @@
 
             <entry>8</entry>
 
-            <entry>KK+1</entry>
+            <entry>0</entry>
 
             <entry>0</entry>
 
@@ -3441,7 +3453,7 @@
 
             <entry>8</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>0</entry>
 
@@ -3457,7 +3469,7 @@
 
             <entry>8</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>0</entry>
 
@@ -3483,7 +3495,7 @@
 
             <entry>13</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-4</entry>
 
@@ -3501,7 +3513,7 @@
 
             <entry>12</entry>
 
-            <entry>KK+1</entry>
+            <entry>0</entry>
 
             <entry>-2</entry>
 
@@ -3517,7 +3529,7 @@
 
             <entry>14</entry>
 
-            <entry>KK+6</entry>
+            <entry>5</entry>
 
             <entry>-4</entry>
 
@@ -3541,7 +3553,7 @@
 
             <entry>11</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-3</entry>
 
@@ -3557,7 +3569,7 @@
 
             <entry>13</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>-3</entry>
 
@@ -3583,7 +3595,7 @@
 
             <entry>13</entry>
 
-            <entry>KK+5</entry>
+            <entry>4</entry>
 
             <entry>-3</entry>
 
@@ -3599,7 +3611,7 @@
 
             <entry>11</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>-2</entry>
 
@@ -3615,7 +3627,7 @@
 
             <entry>12</entry>
 
-            <entry>KK+4</entry>
+            <entry>3</entry>
 
             <entry>-3</entry>
 
@@ -3631,7 +3643,7 @@
 
             <entry>14</entry>
 
-            <entry>KK+7</entry>
+            <entry>6</entry>
 
             <entry>-4</entry>
 
@@ -3657,7 +3669,7 @@
 
             <entry>11</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>-2</entry>
 
@@ -3673,7 +3685,7 @@
 
             <entry>13</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-5</entry>
 
@@ -3689,7 +3701,7 @@
 
             <entry>12</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-2</entry>
 
@@ -3707,7 +3719,7 @@
 
             <entry>11</entry>
 
-            <entry>KK+5</entry>
+            <entry>4</entry>
 
             <entry>-2</entry>
 
@@ -3733,7 +3745,7 @@
 
             <entry>10</entry>
 
-            <entry>KK+2</entry>
+            <entry>1</entry>
 
             <entry>-1</entry>
 
@@ -3749,7 +3761,7 @@
 
             <entry>10</entry>
 
-            <entry>KK+3</entry>
+            <entry>2</entry>
 
             <entry>-1</entry>
 
@@ -3775,7 +3787,7 @@
 
             <entry>11</entry>
 
-            <entry>8</entry>
+            <entry>3</entry>
 
             <entry>-3</entry>
 
@@ -3791,7 +3803,7 @@
 
             <entry>12</entry>
 
-            <entry>10</entry>
+            <entry>4</entry>
 
             <entry>-3</entry>
 
@@ -3807,7 +3819,7 @@
 
             <entry>11</entry>
 
-            <entry>7</entry>
+            <entry>2</entry>
 
             <entry>-2</entry>
 
@@ -3823,7 +3835,7 @@
 
             <entry>12</entry>
 
-            <entry>8</entry>
+            <entry>3</entry>
 
             <entry>-2</entry>
 
@@ -3849,7 +3861,7 @@
 
             <entry>10</entry>
 
-            <entry>9</entry>
+            <entry>3</entry>
 
             <entry>-5</entry>
 
@@ -3865,7 +3877,7 @@
 
             <entry>11</entry>
 
-            <entry>13</entry>
+            <entry>5</entry>
 
             <entry>-5</entry>
 
@@ -3881,7 +3893,7 @@
 
             <entry>10</entry>
 
-            <entry>2 x 8</entry>
+            <entry>2 x 3</entry>
 
             <entry>-5</entry>
 
@@ -3907,7 +3919,7 @@
 
             <entry>13</entry>
 
-            <entry>KK/2 + 4</entry>
+            <entry>2</entry>
 
             <entry>-1</entry>
 
@@ -3923,7 +3935,7 @@
 
             <entry>13</entry>
 
-            <entry>KK/2 + 3</entry>
+            <entry>1</entry>
 
             <entry>0</entry>
 
@@ -3939,7 +3951,7 @@
 
             <entry>12</entry>
 
-            <entry>KK/2 + 1</entry>
+            <entry>0</entry>
 
             <entry>0</entry>
 
