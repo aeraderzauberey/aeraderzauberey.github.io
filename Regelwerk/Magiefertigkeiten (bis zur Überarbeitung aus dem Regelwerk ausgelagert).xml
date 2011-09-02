@@ -109,6 +109,14 @@
         Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
         Orten.</para>
 
+        <para>Ist jedes Tor an den jweiligen Orten beidseitig nutzbar?
+        Vermeidet dass man Rückseite des Portals als schwarz definieren muss
+        weil das Licht geschluckt wird. Vervielfacht aber auchdie
+        Transportkapazität.</para>
+
+        <para>Hinweis auf verdeckte Tore mit erhöhter Schwierigkeit (beim
+        Zauber?)</para>
+
         <variablelist>
           <varlistentry>
             <term>Reichweite:</term>
@@ -447,6 +455,12 @@
         <para>ist das Gebiet, das sich mit der Beschaffenheit der Welt
         beschäftigt. Es ermöglicht sowohl das Sehen als auch das Betreten
         anderer Sphären.</para>
+
+        <para></para>
+
+        <para>Krauftaufwand größer als Teleportation (das Reisen in der
+        eigenen Sphäre via Umweg über eine andere ist eher nicht
+        ökonomisch).</para>
 
         <section>
           <title>Voraussetzung</title>
