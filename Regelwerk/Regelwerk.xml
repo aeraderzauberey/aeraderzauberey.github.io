@@ -2386,9 +2386,9 @@
       <itemizedlist>
         <listitem>
           <para>Erfordern beide Handlungen eine Probe, verteilt der Kämpfer
-          den abgerundeten Mittelwert der beiden Würfelanzahlen auf Aktion und
-          Reaktion. Dabei darf er höchstens so viele Würfel zuteilen, wie er
-          tatsächlich für den jeweiligen Wurf besitzt.</para>
+          die höhere Würfelanzahl auf Aktion und Reaktion. Dabei darf er
+          höchstens so viele Würfel zuteilen, wie er tatsächlich für den
+          jeweiligen Wurf besitzt.</para>
         </listitem>
 
         <listitem>
@@ -2416,13 +2416,13 @@
 
         <para>Elris (Gewandtheit 5, Schwerter 3, Ausweichen 4) will seinen
         Gegner attackieren, aber auch noch ausweichen können. Er hätte 9
-        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt 8 zum Verteilen.
+        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt 9 zum Verteilen.
         Er entscheidet sich, von diesen Würfeln 5 zum Angriff zu benutzen und
-        3 zurückzuhalten.</para>
+        4 zurückzuhalten.</para>
 
         <para>Tharion hat Gewandtheit 3 und Ausweichen 4 (macht 7), für
-        Telekinese hätte er 8 Würfel — verteilen darf er also 7. Er teilt der
-        Aktion 4 Würfel und der Reaktion 3 Würfel zu.</para>
+        Telekinese hätte er 8 Würfel — verteilen darf er also 8. Er teilt der
+        Aktion 4 Würfel und der Reaktion 4 Würfel zu.</para>
 
         <para>Die Kampfrunde beginnt nun bei der höchsten Initiative, und
         damit mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird
@@ -2873,11 +2873,11 @@
       zweimal auszuweichen.</para>
 
       <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
-      und Dolch, bildet der abgerundete Mittelwert aller Würfelanzahlen
-      (inklusive weiterer Handlungen wie Ausweichen oder Zaubern) die Basis
-      für die Verteilung auf Handlungen. Dabei können für eine Handlung
-      niemals mehr Würfel eingeteilt werden, als der Charakter unter normalen
-      Umständen hätte verwenden dürfen.</para>
+      und Dolch, bildet die höchste Würfelanzahl (inklusive weiterer
+      Handlungen wie Ausweichen oder Zaubern) die Basis für die Verteilung auf
+      Handlungen. Dabei können für eine Handlung niemals mehr Würfel
+      eingeteilt werden, als der Charakter unter normalen Umständen hätte
+      verwenden dürfen.</para>
 
       <informalexample>
         <para>Ein Charakter hat Gewandheit 4, Fingerfertigkeit 3, Schwerter 6,
@@ -2899,16 +2899,16 @@
         </itemizedlist>
 
         <para>Falls er beide Waffen einsetzen will, beträgt seine reguläre
-        Würfelanzahl 9 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
-        ergibt 12. Einige erlaubte Würfelverteilungen sind damit:</para>
+        Würfelanzahl 10 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
+        ergibt 13. Einige erlaubte Würfelverteilungen sind damit:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Schwertangriff 6, Dolchparade 3, Ausweichen 3</para>
+            <para>Schwertangriff 6, Dolchparade 3, Ausweichen 4</para>
           </listitem>
 
           <listitem>
-            <para>Schwertangriff 9, Dolchangriff 3</para>
+            <para>Schwertangriff 9, Dolchangriff 4</para>
           </listitem>
         </itemizedlist>
 
@@ -2917,11 +2917,11 @@
 
         <itemizedlist>
           <listitem>
-            <para>Schwertangriff 11, Dolchangriff 1</para>
+            <para>Schwertangriff 11, Dolchangriff 2</para>
           </listitem>
 
           <listitem>
-            <para>Schwertangriff 7, Schwertangriff 5</para>
+            <para>Schwertangriff 7, Schwertangriff 6</para>
           </listitem>
         </itemizedlist>
       </informalexample>

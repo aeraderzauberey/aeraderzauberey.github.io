@@ -13,7 +13,7 @@
 
     <variablelist>
       <varlistentry>
-        <term>Fertigkeitswürfel einteilen</term>
+        <term>Würfel einteilen</term>
 
         <listitem>
           <para>Optional: Fertigkeitswürfel für Widerstandsprobe zur Seite
@@ -37,8 +37,9 @@
         <listitem>
           <para>Schaden in Höhe jeweils bisher gesammelter Kraft alle
           <emphasis>Anzahl Fertigkeitspunkte</emphasis> Runden sowie vor
-          Zauberprobe. Widerstandsprobe mit <emphasis>SEL + zur seite gelegte
-          Fertigkeitswürfel</emphasis> gegen 11. Kein Verletzungsmalus.</para>
+          Zauberprobe. Widerstandsprobe mit <emphasis>WK + zur Seite gelegte
+          Fertigkeitswürfeln</emphasis> gegen 11. Kein
+          Verletzungsmalus.</para>
         </listitem>
       </varlistentry>
 
@@ -65,11 +66,21 @@
 
     <variablelist>
       <varlistentry>
-        <term>Ankündigungsphase</term>
+        <term>Initiative</term>
 
         <listitem>
-          <para>Langsamster Kämpfer kündigt zuerst Aktion, Reaktion mit
-          Würfelverteilung an.</para>
+          <para><emphasis>Initiativebasis - Initiativemalus der Waffe -
+          Iniativemalus der Rüstung - Verletzungsmalus ± Situationsboni/mali +
+          W20</emphasis></para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>Ankündigung</term>
+
+        <listitem>
+          <para>Langsamster Kämpfer kündigt zuerst Aktion, Reaktion an. Höhere
+          Wurfelanzahl auf Aktion / Reaktion verteilen.</para>
         </listitem>
       </varlistentry>
 
@@ -83,7 +94,7 @@
       </varlistentry>
 
       <varlistentry>
-        <term>Ausweichen/Parade</term>
+        <term>Verteidigung</term>
 
         <listitem>
           <para>Ausweichen: 11, Parade: <xi:include href="Regelwerk.xml"
@@ -93,18 +104,16 @@
       </varlistentry>
 
       <varlistentry>
-        <term>Schadenswurf</term>
+        <term>Schaden</term>
 
         <listitem>
-          <para>Schwierigkeit <emphasis>11 - abgerundete Hälfte der
-          verbleibenden Angriffserfolge</emphasis>. Kein Verletzungsmalus.
-          Erfolge werden um Rüstungsschutz des Opfers verringert. Erfolge =
-          Schadenspunkte.</para>
+          <para><emphasis>Waffenschaden + Verbleibende Angriffserfolge - 1 -
+          Rüstungsschutz</emphasis></para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term>Widerstandswurf</term>
+        <term>Widerstand</term>
 
         <listitem>
           <para>Schwierigkeit: 11, kein Verletzungsmalus. Erfolge negieren
