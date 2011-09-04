@@ -2252,11 +2252,11 @@
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
         <para>Elris hat Intuition 4 und Reflexe 5, der Initiativebasiswert
-        beträgt somit 18. Sein W20-Wurf ergibt eine 13, macht 30. Er kämpft
+        beträgt somit 18. Sein W20-Wurf ergibt eine 13, macht 31. Er kämpft
         mit einem Schwert und erhält deswegen einen Initiativemalus von -3,
         ergibt 28. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
         eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen ebenfalls keinen Initiativemalus.</para>
+        deswegen keinen Initiativemalus.</para>
 
         <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
         kämpft mit einem Säbel (Initiativemalus -3) und würfelt eine 7, ergibt
@@ -2446,7 +2446,7 @@
     </section>
 
     <section>
-      <title>Ausweichen und Parade</title>
+      <title>Verteidigungswurf</title>
 
       <para>Für jeden Erfolg, den der Angegriffene bei einer Ausweichen-Probe
       oder Parade erzielt, wird von den Treffererfolgen des Angreifers einer
@@ -2521,14 +2521,13 @@
     <section>
       <title>Rüstungen und Paradewaffen</title>
 
-      <para>Die verschiedenen Arten von Rüstungen sowie Paradewaffen werden
-      durch bis zu vier Werte charakterisiert. Der sogenannte
-      <firstterm>Trefferabzug (TA)</firstterm> zieht Erfolge vom Angriffswurf
-      des Gegners ab, bevor dieser den Schadenswurf durchführt. Er verringert
-      also (genau wie Ausweichen/Parade) die Chance, überhaupt getroffen zu
-      werden. Der <firstterm>Rüstungsschutz (RS)</firstterm> verringert die
-      Anzahl der Schadenspunkte, wirkt also genauso wie Erfolge bei einem
-      Widerstandswurf.</para>
+      <para>Die verschiedenen Arten von Rüstungen werden durch bis zu vier
+      Werte charakterisiert. Der <firstterm>Rüstungsschutz (RS)</firstterm>
+      verringert die Anzahl der Schadenspunkte, wirkt also genauso wie Erfolge
+      bei einem Widerstandswurf. Der <firstterm>Trefferabzug (TA)</firstterm>
+      zieht Erfolge vom Angriffswurf des Gegners ab, bevor dieser den
+      Schadenswurf durchführt. Er verringert also (genau wie
+      Ausweichen/Parade) die Chance, überhaupt getroffen zu werden.</para>
 
       <para>Rüstungen haben jedoch auch Nachteile: Zum einen verlangsamt das
       Tragen von schweren Rüstungen den Kämpfer, was sich in einem
@@ -2536,6 +2535,13 @@
       schränken viele Rüstungen auch massiv die Bewegungsfreiheit ein, was
       regeltechnisch durch einen <firstterm>Gewandtheitsabzug (GA)</firstterm>
       dargestellt wird.</para>
+
+      <para>Schilde und Paradewaffen werden wie Rüstungen behandelt, nicht wie
+      Waffen. Ihr Einsatz erfordert daher keinerlei Proben und zählt nicht als
+      Kampf mit zwei Waffen (siehe <xref linkend="beidhaendigkeit" />).</para>
+
+      <para>Eine Liste von Rüstungen, Schilden und Paradewaffen findet sich in
+      <xref linkend="ausruestung" />.</para>
     </section>
 
     <section xml:id="fernkampf">
@@ -2859,18 +2865,14 @@
       <title>Beidhändiger Kampf</title>
 
       <para>Ist ein Charakter gezwungen, statt seiner Waffenhand die andere
-      Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln. Jeder
-      Punkt in der speziellen Fertigkeit Beidhändigkeit verringert diesen
-      Malus jedoch um 1. Besitzt der Charakter die Fertigkeit auf 5 oder
-      höher, kann er darüber hinaus gleichzeitig mit zwei Waffen kämpfen. Er
-      erhält für jeden Punkt Beidhändigkeit über 4 hinaus einen zusätzlichen
-      Würfel zur Verteilung im Kampf.</para>
+      Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln.</para>
 
-      <para>Im beidhändigen Kampf erhält der Charakter für die zweite Waffe
-      jeweils eine zusätzliche Aktion und Reaktion. Diese Handlungen müssen
-      nicht beide ausgeschöpft werden, sie müssen jedoch auf jeden Fall mit
-      der zweiten Waffe ausgeführt werden. Es ist also z.B. nicht möglich
-      zweimal auszuweichen.</para>
+      <para>Führt ein Charakter gleichzeitig zwei Waffen, erhält er für die
+      zweite Waffe jeweils eine zusätzliche Aktion und Reaktion, wobei jedoch
+      der oben genannte Malus gilt. Diese Handlungen müssen nicht beide
+      ausgeschöpft werden, sie müssen aber auf jeden Fall mit der zweiten
+      Waffe ausgeführt werden. Es ist also z.B. nicht möglich zweimal
+      auszuweichen.</para>
 
       <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
       und Dolch, bildet die höchste Würfelanzahl (inklusive weiterer
@@ -2878,6 +2880,14 @@
       Handlungen. Dabei können für eine Handlung niemals mehr Würfel
       eingeteilt werden, als der Charakter unter normalen Umständen hätte
       verwenden dürfen.</para>
+
+      <para>Die spezielle Fertigkeit Beidhändigkeit gibt die Fähigkeit eines
+      Charakters an, mit beiden Händen gleich gut kämpfen zu können,
+      repräsentiert aber auch das Training, mit beiden Händen koordiniert
+      besser kämpfen zu können. Für jeden Punkt Beidhändigkeit wird der Malus
+      von 4 Würfeln um 1 bis auf 0 abgesenkt. Im beidhändigen Kampf kann der
+      Charakter zusätzlich für jeden Fertigkeitspunkt über 4 hinaus einen
+      weiteren Würfel auf Handlungen verteilen.</para>
 
       <informalexample>
         <para>Ein Charakter hat Gewandheit 4, Fingerfertigkeit 3, Schwerter 6,
@@ -2935,8 +2945,8 @@
     Umgebung, um einen Effekt hervorzurufen. Diese Energie wird als
     <firstterm>Kraft</firstterm> bezeichnet.</para>
 
-    <para>Dazu benötigen Zauberer die passenden Attribute (Energie, Geist,
-    Materie) und Fertigkeiten für den gewünschten Effekt; die Kenntnis
+    <para>Dazu benötigen Zauberer die passenden Attribute (Materie, Geist,
+    Energie) und Fertigkeiten für den gewünschten Effekt; die Kenntnis
     spezieller Zaubersprüche ist dabei nicht erforderlich.</para>
 
     <para>Magiefertigkeiten werden während des Spiels genauso gehandhabt wie
@@ -3300,700 +3310,920 @@
     </section>
   </chapter>
 
-  <appendix xml:id="waffen">
-    <title>Waffen</title>
+  <appendix xml:id="ausruestung">
+    <title>Ausrüstung</title>
 
-    <informaltable pgwide="1" xml:id="waffentabelle">
-      <tgroup cols="8">
-        <colspec colwidth="6*" />
+    <section xml:id="waffen">
+      <title>Waffen</title>
 
-        <colspec align="center" colwidth="2*" />
+      <informaltable pgwide="1" xml:id="waffentabelle">
+        <tgroup cols="8">
+          <colspec colwidth="6*" />
 
-        <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*" />
 
-        <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*" />
 
-        <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*" />
 
-        <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*" />
 
-        <colspec align="center" colwidth="3*" />
+          <colspec align="center" colwidth="2*" />
 
-        <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="3*" />
 
-        <thead>
-          <row>
-            <entry>Typ</entry>
+          <colspec align="center" colwidth="2*" />
 
-            <entry>Schw.</entry>
+          <thead>
+            <row>
+              <entry>Typ</entry>
 
-            <entry><para>Schaden</para></entry>
+              <entry>Schw.</entry>
 
-            <entry><para>Initiative-</para><para>malus</para></entry>
+              <entry><para>Schaden</para></entry>
 
-            <entry>Reichweite</entry>
+              <entry>IM</entry>
 
-            <entry><para>Gewicht</para><para>in kg</para></entry>
+              <entry>Reichweite</entry>
 
-            <entry>Preis (S)</entry>
+              <entry><para>Gewicht</para><para>in kg</para></entry>
 
-            <entry>Anm.</entry>
-          </row>
-        </thead>
+              <entry>Preis (S)</entry>
 
-        <tbody>
-          <row>
-            <entry></entry>
+              <entry>Anm.</entry>
+            </row>
+          </thead>
 
-            <entry></entry>
-          </row>
+          <tbody>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Äxte</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Axt</entry>
+            <row>
+              <entry role="head">Äxte</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Axt</entry>
 
-            <entry>2</entry>
+              <entry>13</entry>
 
-            <entry>-4</entry>
+              <entry>2</entry>
 
-            <entry>3</entry>
+              <entry>-4</entry>
 
-            <entry>2</entry>
+              <entry>3</entry>
 
-            <entry>30</entry>
-          </row>
+              <entry>2</entry>
 
-          <row>
-            <entry>Zwiespalt</entry>
+              <entry>30</entry>
+            </row>
 
-            <entry>14</entry>
+            <row>
+              <entry>Zwiespalt</entry>
 
-            <entry>5</entry>
+              <entry>14</entry>
 
-            <entry>-4</entry>
+              <entry>5</entry>
 
-            <entry>4</entry>
+              <entry>-4</entry>
 
-            <entry>3</entry>
+              <entry>4</entry>
 
-            <entry>110</entry>
-          </row>
+              <entry>3</entry>
 
-          <row>
-            <entry></entry>
+              <entry>110</entry>
+            </row>
 
-            <entry></entry>
-          </row>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Dolche</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Bärentatze</entry>
+            <row>
+              <entry role="head">Dolche</entry>
+            </row>
 
-            <entry>10</entry>
+            <row>
+              <entry>Bärentatze</entry>
 
-            <entry>0</entry>
+              <entry>10</entry>
 
-            <entry>0</entry>
+              <entry>0</entry>
 
-            <entry>1</entry>
+              <entry>0</entry>
 
-            <entry>0,8</entry>
+              <entry>1</entry>
 
-            <entry>12</entry>
+              <entry>0,8</entry>
 
-            <entry>a)</entry>
-          </row>
+              <entry>12</entry>
 
-          <row>
-            <entry>Fangdolch</entry>
+              <entry>a)</entry>
+            </row>
 
-            <entry>8</entry>
+            <row>
+              <entry>Fangdolch</entry>
 
-            <entry>1</entry>
+              <entry>8</entry>
 
-            <entry>0</entry>
+              <entry>1</entry>
 
-            <entry>1</entry>
+              <entry>0</entry>
 
-            <entry>1</entry>
+              <entry>1</entry>
 
-            <entry>150</entry>
+              <entry>1</entry>
 
-            <entry>b)</entry>
-          </row>
+              <entry>150</entry>
 
-          <row>
-            <entry>Dolch</entry>
+              <entry>b)</entry>
+            </row>
 
-            <entry>8</entry>
+            <row>
+              <entry>Dolch</entry>
 
-            <entry>0</entry>
+              <entry>8</entry>
 
-            <entry>0</entry>
+              <entry>0</entry>
 
-            <entry>1</entry>
+              <entry>0</entry>
 
-            <entry>0,5</entry>
+              <entry>1</entry>
 
-            <entry>20</entry>
-          </row>
+              <entry>0,5</entry>
 
-          <row>
-            <entry>Schwerer Dolch</entry>
+              <entry>20</entry>
+            </row>
 
-            <entry>8</entry>
+            <row>
+              <entry>Schwerer Dolch</entry>
 
-            <entry>1</entry>
+              <entry>8</entry>
 
-            <entry>0</entry>
+              <entry>1</entry>
 
-            <entry>1</entry>
+              <entry>0</entry>
 
-            <entry>0,75</entry>
+              <entry>1</entry>
 
-            <entry>40</entry>
-          </row>
+              <entry>0,75</entry>
 
-          <row>
-            <entry>Viper</entry>
+              <entry>40</entry>
+            </row>
 
-            <entry>8</entry>
+            <row>
+              <entry>Viper</entry>
 
-            <entry>1</entry>
+              <entry>8</entry>
 
-            <entry>0</entry>
+              <entry>1</entry>
 
-            <entry>1</entry>
+              <entry>0</entry>
 
-            <entry>1,2</entry>
+              <entry>1</entry>
 
-            <entry>160</entry>
+              <entry>1,2</entry>
 
-            <entry>c)</entry>
-          </row>
+              <entry>160</entry>
 
-          <row>
-            <entry></entry>
-          </row>
+              <entry>c)</entry>
+            </row>
 
-          <row>
-            <entry role="head">Stumpfe Hiebwaffen</entry>
-          </row>
+            <row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Dreschflegel</entry>
+            <row>
+              <entry role="head">Stumpfe Hiebwaffen</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Dreschflegel</entry>
 
-            <entry>2</entry>
+              <entry>13</entry>
 
-            <entry>-4</entry>
+              <entry>2</entry>
 
-            <entry>5</entry>
+              <entry>-4</entry>
 
-            <entry>2</entry>
+              <entry>5</entry>
 
-            <entry></entry>
+              <entry>2</entry>
 
-            <entry>d)</entry>
-          </row>
+              <entry></entry>
 
-          <row>
-            <entry>Knüppel</entry>
+              <entry>d)</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Knüppel</entry>
 
-            <entry>0</entry>
+              <entry>12</entry>
 
-            <entry>-2</entry>
+              <entry>0</entry>
 
-            <entry>2</entry>
+              <entry>-2</entry>
 
-            <entry>1,5</entry>
+              <entry>2</entry>
 
-            <entry>1</entry>
-          </row>
+              <entry>1,5</entry>
 
-          <row>
-            <entry>Kriegshammer</entry>
+              <entry>1</entry>
+            </row>
 
-            <entry>14</entry>
+            <row>
+              <entry>Kriegshammer</entry>
 
-            <entry>5</entry>
+              <entry>14</entry>
 
-            <entry>-4</entry>
+              <entry>5</entry>
 
-            <entry>3</entry>
+              <entry>-4</entry>
 
-            <entry>4,5</entry>
+              <entry>3</entry>
 
-            <entry>120</entry>
-          </row>
+              <entry>4,5</entry>
 
-          <row>
-            <entry></entry>
-          </row>
+              <entry>120</entry>
+            </row>
 
-          <row>
-            <entry role="head">Scharfe Hiebwaffen</entry>
-          </row>
+            <row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Säbel</entry>
+            <row>
+              <entry role="head">Scharfe Hiebwaffen</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Säbel</entry>
 
-            <entry>2</entry>
+              <entry>11</entry>
 
-            <entry>-3</entry>
+              <entry>2</entry>
 
-            <entry>3</entry>
+              <entry>-3</entry>
 
-            <entry>1,5</entry>
+              <entry>3</entry>
 
-            <entry>100</entry>
-          </row>
+              <entry>1,5</entry>
 
-          <row>
-            <entry>Sense</entry>
+              <entry>100</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Sense</entry>
 
-            <entry>1</entry>
+              <entry>13</entry>
 
-            <entry>-3</entry>
+              <entry>1</entry>
 
-            <entry>4</entry>
+              <entry>-3</entry>
 
-            <entry>2</entry>
+              <entry>4</entry>
 
-            <entry></entry>
+              <entry>2</entry>
 
-            <entry>d)</entry>
-          </row>
+              <entry></entry>
 
-          <row>
-            <entry></entry>
-          </row>
+              <entry>d)</entry>
+            </row>
 
-          <row>
-            <entry role="head">Schwerter</entry>
-          </row>
+            <row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Bastardschwert</entry>
+            <row>
+              <entry role="head">Schwerter</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Bastardschwert</entry>
 
-            <entry>4</entry>
+              <entry>13</entry>
 
-            <entry>-3</entry>
+              <entry>4</entry>
 
-            <entry>4</entry>
+              <entry>-3</entry>
 
-            <entry>4</entry>
+              <entry>4</entry>
 
-            <entry>200</entry>
-          </row>
+              <entry>4</entry>
 
-          <row>
-            <entry>Kurzschwert</entry>
+              <entry>200</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Kurzschwert</entry>
 
-            <entry>1</entry>
+              <entry>11</entry>
 
-            <entry>-2</entry>
+              <entry>1</entry>
 
-            <entry>2</entry>
+              <entry>-2</entry>
 
-            <entry>2</entry>
+              <entry>2</entry>
 
-            <entry>80</entry>
-          </row>
+              <entry>2</entry>
 
-          <row>
-            <entry>Schwert</entry>
+              <entry>80</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Schwert</entry>
 
-            <entry>3</entry>
+              <entry>12</entry>
 
-            <entry>-3</entry>
+              <entry>3</entry>
 
-            <entry>3</entry>
+              <entry>-3</entry>
 
-            <entry>3</entry>
+              <entry>3</entry>
 
-            <entry>180</entry>
-          </row>
+              <entry>3</entry>
 
-          <row>
-            <entry>Zweihänder</entry>
+              <entry>180</entry>
+            </row>
 
-            <entry>14</entry>
+            <row>
+              <entry>Zweihänder</entry>
 
-            <entry>6</entry>
+              <entry>14</entry>
 
-            <entry>-4</entry>
+              <entry>6</entry>
 
-            <entry>4</entry>
+              <entry>-4</entry>
 
-            <entry>9</entry>
+              <entry>4</entry>
 
-            <entry>250</entry>
-          </row>
+              <entry>9</entry>
 
-          <row>
-            <entry></entry>
+              <entry>250</entry>
+            </row>
 
-            <entry></entry>
-          </row>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Stabwaffen</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Kampfstab</entry>
+            <row>
+              <entry role="head">Stabwaffen</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Kampfstab</entry>
 
-            <entry>1</entry>
+              <entry>11</entry>
 
-            <entry>-2</entry>
+              <entry>1</entry>
 
-            <entry>5</entry>
+              <entry>-2</entry>
 
-            <entry>2</entry>
+              <entry>5</entry>
 
-            <entry>40</entry>
-          </row>
+              <entry>2</entry>
 
-          <row>
-            <entry>Hellebarde</entry>
+              <entry>40</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Hellebarde</entry>
 
-            <entry>2</entry>
+              <entry>13</entry>
 
-            <entry>-5</entry>
+              <entry>2</entry>
 
-            <entry>6</entry>
+              <entry>-5</entry>
 
-            <entry>3,5</entry>
+              <entry>6</entry>
 
-            <entry>75</entry>
-          </row>
+              <entry>3,5</entry>
 
-          <row>
-            <entry>Klingenstab</entry>
+              <entry>75</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Klingenstab</entry>
 
-            <entry>2</entry>
+              <entry>12</entry>
 
-            <entry>-2</entry>
+              <entry>2</entry>
 
-            <entry>5</entry>
+              <entry>-2</entry>
 
-            <entry>2,5</entry>
+              <entry>5</entry>
 
-            <entry>220</entry>
+              <entry>2,5</entry>
 
-            <entry>e)</entry>
-          </row>
+              <entry>220</entry>
 
-          <row>
-            <entry>Speer</entry>
+              <entry>e)</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Speer</entry>
 
-            <entry>4</entry>
+              <entry>11</entry>
 
-            <entry>-2</entry>
+              <entry>4</entry>
 
-            <entry>5</entry>
+              <entry>-2</entry>
 
-            <entry>2</entry>
+              <entry>5</entry>
 
-            <entry>30</entry>
-          </row>
+              <entry>2</entry>
 
-          <row>
-            <entry></entry>
+              <entry>30</entry>
+            </row>
 
-            <entry></entry>
-          </row>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Stichwaffen</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Florett</entry>
+            <row>
+              <entry role="head">Stichwaffen</entry>
+            </row>
 
-            <entry>10</entry>
+            <row>
+              <entry>Florett</entry>
 
-            <entry>1</entry>
+              <entry>10</entry>
 
-            <entry>-1</entry>
+              <entry>1</entry>
 
-            <entry>3</entry>
+              <entry>-1</entry>
 
-            <entry>0,8</entry>
+              <entry>3</entry>
 
-            <entry>180</entry>
-          </row>
+              <entry>0,8</entry>
 
-          <row>
-            <entry>Rapier</entry>
+              <entry>180</entry>
+            </row>
 
-            <entry>10</entry>
+            <row>
+              <entry>Rapier</entry>
 
-            <entry>2</entry>
+              <entry>10</entry>
 
-            <entry>-1</entry>
+              <entry>2</entry>
 
-            <entry>3</entry>
+              <entry>-1</entry>
 
-            <entry>1</entry>
+              <entry>3</entry>
 
-            <entry>120</entry>
-          </row>
+              <entry>1</entry>
 
-          <row>
-            <entry></entry>
+              <entry>120</entry>
+            </row>
 
-            <entry></entry>
-          </row>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Bögen</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Kompositbogen</entry>
+            <row>
+              <entry role="head">Bögen</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Kompositbogen</entry>
 
-            <entry>3</entry>
+              <entry>11</entry>
 
-            <entry>-3</entry>
+              <entry>3</entry>
 
-            <entry>C</entry>
+              <entry>-3</entry>
 
-            <entry>1</entry>
+              <entry>C</entry>
 
-            <entry>80</entry>
-          </row>
+              <entry>1</entry>
 
-          <row>
-            <entry>Kriegsbogen</entry>
+              <entry>80</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Kriegsbogen</entry>
 
-            <entry>4</entry>
+              <entry>12</entry>
 
-            <entry>-3</entry>
+              <entry>4</entry>
 
-            <entry>D</entry>
+              <entry>-3</entry>
 
-            <entry>1</entry>
+              <entry>D</entry>
 
-            <entry>100</entry>
-          </row>
+              <entry>1</entry>
 
-          <row>
-            <entry>Kurzbogen</entry>
+              <entry>100</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Kurzbogen</entry>
 
-            <entry>2</entry>
+              <entry>11</entry>
 
-            <entry>-2</entry>
+              <entry>2</entry>
 
-            <entry>B</entry>
+              <entry>-2</entry>
 
-            <entry>0,5</entry>
+              <entry>B</entry>
 
-            <entry>45</entry>
-          </row>
+              <entry>0,5</entry>
 
-          <row>
-            <entry>Langbogen</entry>
+              <entry>45</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Langbogen</entry>
 
-            <entry>3</entry>
+              <entry>12</entry>
 
-            <entry>-2</entry>
+              <entry>3</entry>
 
-            <entry>E</entry>
+              <entry>-2</entry>
 
-            <entry>0,75</entry>
+              <entry>E</entry>
 
-            <entry>60</entry>
-          </row>
+              <entry>0,75</entry>
 
-          <row>
-            <entry></entry>
+              <entry>60</entry>
+            </row>
 
-            <entry></entry>
-          </row>
+            <row>
+              <entry></entry>
 
-          <row>
-            <entry role="head">Armbrüste</entry>
-          </row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Leichte Armbrust</entry>
+            <row>
+              <entry role="head">Armbrüste</entry>
+            </row>
 
-            <entry>10</entry>
+            <row>
+              <entry>Leichte Armbrust</entry>
 
-            <entry>3</entry>
+              <entry>10</entry>
 
-            <entry>-5</entry>
+              <entry>3</entry>
 
-            <entry>C</entry>
+              <entry>-5</entry>
 
-            <entry>3</entry>
+              <entry>C</entry>
 
-            <entry>160</entry>
-          </row>
+              <entry>3</entry>
 
-          <row>
-            <entry>Schwere Armbrust</entry>
+              <entry>160</entry>
+            </row>
 
-            <entry>11</entry>
+            <row>
+              <entry>Schwere Armbrust</entry>
 
-            <entry>5</entry>
+              <entry>11</entry>
 
-            <entry>-5</entry>
+              <entry>5</entry>
 
-            <entry>D</entry>
+              <entry>-5</entry>
 
-            <entry>5</entry>
+              <entry>D</entry>
 
-            <entry>200</entry>
-          </row>
+              <entry>5</entry>
 
-          <row>
-            <entry>Doppelarmbrust</entry>
+              <entry>200</entry>
+            </row>
 
-            <entry>10</entry>
+            <row>
+              <entry>Doppelarmbrust</entry>
 
-            <entry>2 x 3</entry>
+              <entry>10</entry>
 
-            <entry>-5</entry>
+              <entry>2 x 3</entry>
 
-            <entry>C</entry>
+              <entry>-5</entry>
 
-            <entry>5</entry>
+              <entry>C</entry>
 
-            <entry>310</entry>
+              <entry>5</entry>
 
-            <entry>f)</entry>
-          </row>
+              <entry>310</entry>
 
-          <row>
-            <entry></entry>
-          </row>
+              <entry>f)</entry>
+            </row>
 
-          <row>
-            <entry role="head">Wurfwaffen</entry>
-          </row>
+            <row>
+              <entry></entry>
+            </row>
 
-          <row>
-            <entry>Wurfaxt</entry>
+            <row>
+              <entry role="head">Wurfwaffen</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Wurfaxt</entry>
 
-            <entry>2</entry>
+              <entry>13</entry>
 
-            <entry>-1</entry>
+              <entry>2</entry>
 
-            <entry>A</entry>
+              <entry>-1</entry>
 
-            <entry>1,5</entry>
+              <entry>A</entry>
 
-            <entry>35</entry>
-          </row>
+              <entry>1,5</entry>
 
-          <row>
-            <entry>Wurfdolch</entry>
+              <entry>35</entry>
+            </row>
 
-            <entry>13</entry>
+            <row>
+              <entry>Wurfdolch</entry>
 
-            <entry>1</entry>
+              <entry>13</entry>
 
-            <entry>0</entry>
+              <entry>1</entry>
 
-            <entry>A</entry>
+              <entry>0</entry>
 
-            <entry>0,5</entry>
+              <entry>A</entry>
 
-            <entry>30</entry>
-          </row>
+              <entry>0,5</entry>
 
-          <row>
-            <entry>Wurfmesser</entry>
+              <entry>30</entry>
+            </row>
 
-            <entry>12</entry>
+            <row>
+              <entry>Wurfmesser</entry>
 
-            <entry>0</entry>
+              <entry>12</entry>
 
-            <entry>0</entry>
+              <entry>0</entry>
 
-            <entry>A</entry>
+              <entry>0</entry>
 
-            <entry>0,25</entry>
+              <entry>A</entry>
 
-            <entry>15</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>
+              <entry>0,25</entry>
 
-    <orderedlist numeration="loweralpha" xml:id="waffenanmerkungen">
-      <listitem xml:id="wbt">
-        <para>Bärentatze: Verstärkter Handschuh mit drei fest stehenden
-        Klingen, etwa fünf cm lang.</para>
-      </listitem>
+              <entry>15</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
 
-      <listitem xml:id="wfd">
-        <para>Fangdolch: Bleibt wegen Widerhaken stecken. Herausreißen
-        verursacht einen Schadenspunkt (kein Widerstandswurf möglich).</para>
-      </listitem>
+      <orderedlist numeration="loweralpha" xml:id="waffenanmerkungen">
+        <listitem xml:id="wbt">
+          <para>Bärentatze: Verstärkter Handschuh mit drei fest stehenden
+          Klingen, etwa fünf cm lang.</para>
+        </listitem>
 
-      <listitem xml:id="wvi">
-        <para>Viper: An den Unterarm geschnallte, etwa 20cm lange Klinge, die
-        auf Knopfdruck herausschießt. Lässt sich allenfalls in weiten Ärmeln
-        verstecken.</para>
-      </listitem>
+        <listitem xml:id="wfd">
+          <para>Fangdolch: Bleibt wegen Widerhaken stecken. Herausreißen
+          verursacht einen Schadenspunkt (kein Widerstandswurf
+          möglich).</para>
+        </listitem>
 
-      <listitem>
-        <para>Improvisiert als Waffe eingesetztes Werkzeug.</para>
-      </listitem>
+        <listitem xml:id="wvi">
+          <para>Viper: An den Unterarm geschnallte, etwa 20cm lange Klinge,
+          die auf Knopfdruck herausschießt. Lässt sich allenfalls in weiten
+          Ärmeln verstecken.</para>
+        </listitem>
 
-      <listitem xml:id="wks">
-        <para>Klingenstab: Kampfstab mit jeweils drei an den Enden befestigten
-        Klingen, selten.</para>
-      </listitem>
+        <listitem>
+          <para>Improvisiert als Waffe eingesetztes Werkzeug.</para>
+        </listitem>
 
-      <listitem xml:id="wda">
-        <para>Doppelarmbrust: Eigentlich zwei leichte Armbrüste in einem, mit
-        getrennten Auslösern, kann beide Bolzen in einer Runde abfeuern</para>
-      </listitem>
-    </orderedlist>
+        <listitem xml:id="wks">
+          <para>Klingenstab: Kampfstab mit jeweils drei an den Enden
+          befestigten Klingen, selten.</para>
+        </listitem>
+
+        <listitem xml:id="wda">
+          <para>Doppelarmbrust: Eigentlich zwei leichte Armbrüste in einem,
+          mit getrennten Auslösern, kann beide Bolzen in einer Runde
+          abfeuern</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Rüstungen, Schilde &amp; Paradewaffen</title>
+
+      <para><?dbfo-need height="7cm"?><informaltable>
+          <tgroup cols="6">
+            <colspec colwidth="7*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec colwidth="6*" />
+
+            <thead>
+              <row>
+                <entry>Rüstung</entry>
+
+                <entry>RS</entry>
+
+                <entry>TA</entry>
+
+                <entry>IM</entry>
+
+                <entry>GA</entry>
+
+                <entry></entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>Normale Kleidung</entry>
+
+                <entry>0</entry>
+
+                <entry></entry>
+
+                <entry>0</entry>
+
+                <entry>0</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Lederrüstung</entry>
+
+                <entry>2</entry>
+
+                <entry></entry>
+
+                <entry>2</entry>
+
+                <entry>0</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Kettenhemd, kurz</entry>
+
+                <entry>3</entry>
+
+                <entry></entry>
+
+                <entry>3</entry>
+
+                <entry>1</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Kettenhemd, lang</entry>
+
+                <entry>4</entry>
+
+                <entry></entry>
+
+                <entry>4</entry>
+
+                <entry>1</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Plattenpanzer, Arm- und Beinstücke</entry>
+
+                <entry>4</entry>
+
+                <entry></entry>
+
+                <entry>2</entry>
+
+                <entry>2</entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable><informaltable>
+          <tgroup cols="6">
+            <colspec colwidth="7*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec colwidth="6*" />
+
+            <thead>
+              <row>
+                <entry>Schild</entry>
+
+                <entry>RS</entry>
+
+                <entry>TA</entry>
+
+                <entry>IM</entry>
+
+                <entry>GA</entry>
+
+                <entry></entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>Rundschild, klein</entry>
+
+                <entry></entry>
+
+                <entry>2</entry>
+
+                <entry>1</entry>
+
+                <entry></entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Rundschild, groß</entry>
+
+                <entry></entry>
+
+                <entry>3</entry>
+
+                <entry>2</entry>
+
+                <entry></entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable><informaltable>
+          <tgroup cols="6">
+            <colspec colwidth="7*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec align="center" colwidth="1*" />
+
+            <colspec colwidth="6*" />
+
+            <thead>
+              <row>
+                <entry>Paradewaffe</entry>
+
+                <entry>RS</entry>
+
+                <entry>TA</entry>
+
+                <entry>IM</entry>
+
+                <entry>GA</entry>
+
+                <entry></entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>Parierdolch</entry>
+
+                <entry></entry>
+
+                <entry>1</entry>
+
+                <entry>0</entry>
+
+                <entry></entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable></para>
+    </section>
   </appendix>
 
   <appendix xml:id="magiebereiche">
