@@ -2,9 +2,11 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
     xmlns:fn="http://www.w3.org/2005/02/xpath-functions"
-	xmlns:diffmk="http://diffmk.sf.net/ns/diff"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:java="http://xml.apache.org/xslt/java" exclude-result-prefixes="java">
+    xmlns:diffmk="http://diffmk.sf.net/ns/diff"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:java="http://xml.apache.org/xslt/java"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    exclude-result-prefixes="java">
 
   <xsl:import href="file:////Library/Tools/docbook-xsl-1.74.0/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
@@ -97,7 +99,120 @@
   </xsl:template>
 
   <xsl:param name="insert.xref.page.number">yes</xsl:param>
+  
+  <!-- xref: leave out element type and numbering, just use the title. also, use "Seite X" instead of "[X]". -->
+  <xsl:param name="local.l10n.xml" select="document('')"/>
+  <l:i18n xmlns:l="http://docbook.sourceforge.net/xmlns/l10n/1.0">
+    <l:l10n language="de">
+      <l:context name="xref-number-and-title">
+        <l:template name="chapter" text="%t,&#160;"/>
+        <l:template name="appendix" text="%t,&#160;"/>
+      </l:context>
 
+      <l:context name="xref">
+        <l:template name="section" text="%t,&#160;"/>
+
+        <l:template name="page.citation" text="Seite %p"/>
+      </l:context>
+    </l:l10n>
+  </l:i18n>
+  
+  <!-- format ALL titles in xrefs using italics -->
+  <xsl:template match="*" mode="insert.title.markup">
+    <xsl:param name="purpose"/>
+    <xsl:param name="xrefstyle"/>
+    <xsl:param name="title"/>
+
+    <xsl:choose>
+      <xsl:when test="$purpose = 'xref'">
+        <fo:inline font-style="italic">
+          <xsl:copy-of select="$title"/>
+        </fo:inline>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy-of select="$title"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- leave out title in xrefs with xrefstyle="page" (copied and simplified from fo/xref.xsl) -->
+  <xsl:template match="xref" name="xref">
+    <xsl:param name="xhref" select="@xlink:href"/>
+    <!-- is the @xlink:href a local idref link? -->
+    <xsl:param name="xlink.idref">
+      <xsl:if test="starts-with($xhref,'#')
+                    and (not(contains($xhref,'&#40;'))
+                    or starts-with($xhref, '#xpointer&#40;id&#40;'))">
+        <xsl:call-template name="xpointer.idref">
+          <xsl:with-param name="xpointer" select="$xhref"/>
+        </xsl:call-template>
+     </xsl:if>
+    </xsl:param>
+    <xsl:param name="xlink.targets" select="key('id',$xlink.idref)"/>
+    <xsl:param name="linkend.targets" select="key('id',@linkend)"/>
+    <xsl:param name="target" select="($xlink.targets | $linkend.targets)[1]"/>
+    <xsl:param name="refelem" select="local-name($target)"/>
+
+    <xsl:variable name="xrefstyle">
+      <xsl:value-of select="@xrefstyle"/>
+    </xsl:variable>
+
+    <xsl:variable name="content">
+      <fo:inline xsl:use-attribute-sets="xref.properties">
+        <xsl:choose>
+          <xsl:when test="$target">
+            <xsl:apply-templates select="$target" mode="xref-to">
+              <xsl:with-param name="referrer" select="."/>
+              <xsl:with-param name="xrefstyle" select="$xrefstyle"/>
+            </xsl:apply-templates>
+    
+            <xsl:if test="not(parent::citation)">
+              <xsl:apply-templates select="$target" mode="xref-to-suffix"/>
+            </xsl:if>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message>
+              <xsl:text>ERROR: xref linking to </xsl:text>
+              <xsl:value-of select="@linkend|@xlink:href"/>
+              <xsl:text> has no generated link text.</xsl:text>
+            </xsl:message>
+            <xsl:text>???</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </fo:inline>
+    </xsl:variable>
+
+    <!-- Convert it into an active link -->
+    <xsl:if test="not($xrefstyle = 'page')">
+      <xsl:call-template name="simple.xlink">
+        <xsl:with-param name="content" select="$content"/>
+      </xsl:call-template>
+    </xsl:if>
+
+    <!-- Add standard page reference? -->
+    <xsl:choose>
+      <xsl:when test="not($target)">
+        <!-- page numbers only for local targets -->
+      </xsl:when>
+      <xsl:when test="starts-with(normalize-space($xrefstyle), 'select:') 
+                    and contains($xrefstyle, 'nopage')">
+        <!-- negative xrefstyle in instance turns it off -->
+      </xsl:when>
+      <!-- positive xrefstyle already handles it -->
+      <xsl:when test="not(starts-with(normalize-space($xrefstyle), 'select:') 
+                    and (contains($xrefstyle, 'page')
+                         or contains($xrefstyle, 'Page')))
+                    and ( $insert.xref.page.number = 'yes' 
+                       or $insert.xref.page.number = '1')
+                    or local-name($target) = 'para'">
+        <xsl:apply-templates select="$target" mode="page.citation">
+          <xsl:with-param name="id" select="$target/@id|$target/@xml:id"/>
+        </xsl:apply-templates>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
+  
   <xsl:param name="column.count.body" select="1"></xsl:param>
   <xsl:param name="body.start.indent" select="'0pt'"></xsl:param>
   <xsl:param name="body.font.master">12</xsl:param>

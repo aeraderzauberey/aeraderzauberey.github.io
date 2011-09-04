@@ -888,8 +888,8 @@
           wir eine Fertigkeit des dritten Grades.</para>
 
           <para>Details zur Abgrenzung der einzelnen Fertigkeiten voneinander
-          sowie Richtlinien zu ihrer Handhabung im Spiel finden sich in <xref
-          linkend="magiebereiche" />.</para>
+          sowie Richtlinien zu ihrer Handhabung im Spiel finden sich ab <xref
+          linkend="magiebereiche" xrefstyle="page" />.</para>
 
           <informaltable>
             <tgroup cols="4">
@@ -1569,9 +1569,9 @@
       jedoch von vornherein zum Scheitern verurteilt. Bei allen Steigerungen
       hat daher, wie immer, der Spielleiter das letzte Wort.</para>
 
-      <para>Abgeleitete Eigenschaften (siehe <xref linkend="abgeleitet" />)
-      können nur indirekt über die jeweiligen Attribute und Fertigkeiten
-      gesteigert werden.</para>
+      <para>Abgeleitete Eigenschaften (siehe <xref linkend="abgeleitet"
+      xrefstyle="page" />) können nur indirekt über die jeweiligen Attribute
+      und Fertigkeiten gesteigert werden.</para>
 
       <sidebar>
         <para>Es wird empfohlen, beim Attribut „Erscheinungsbild“ keine
@@ -1810,9 +1810,10 @@
 
       <para>Der bei der zuletzt angekreuzten Stufe angegebene Verletzungsmalus
       wird auf alle Proben außer Widerstandswürfen (siehe <xref
-      linkend="schaden_und_widerstand" />) und Kraftsammelproben (siehe <xref
-      linkend="kraft_sammeln" />) angewendet sowie auf die Initiative (siehe
-      <xref linkend="kampf" />) angerechnet.</para>
+      linkend="schaden_und_widerstand" xrefstyle="page" />) und
+      Kraftsammelproben (siehe <xref linkend="kraft_sammeln"
+      xrefstyle="page" />) angewendet sowie auf die Initiative (siehe <xref
+      linkend="kampf" xrefstyle="page" />) angerechnet.</para>
 
       <para>Wird die letzte Stufe angekreuzt, verliert der Charakter das
       Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
