@@ -316,7 +316,7 @@
         <section>
           <title>Talente</title>
 
-          <informaltable>
+          <informaltable role="breakable">
             <tgroup cols="3">
               <colspec colnum="1" colwidth="3*" />
 
@@ -467,7 +467,7 @@
         <section>
           <title>Wissen</title>
 
-          <informaltable>
+          <informaltable role="breakable">
             <tgroup cols="3">
               <colspec colnum="1" colwidth="3*" />
 
@@ -667,7 +667,7 @@
         <section>
           <title>Kampf</title>
 
-          <informaltable>
+          <informaltable role="breakable">
             <tgroup cols="3">
               <colspec colnum="1" colwidth="3*" />
 
@@ -930,7 +930,7 @@
           sowie Richtlinien zu ihrer Handhabung im Spiel finden sich ab <xref
           linkend="magiebereiche" xrefstyle="page" />.</para>
 
-          <informaltable>
+          <informaltable role="breakable">
             <tgroup cols="4">
               <colspec colnum="1" colwidth="3*" />
 
@@ -1181,8 +1181,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata align="center" fileref="Magiebereiche.png" role=""
-                         scale="50" scalefit="0"></imagedata>
+              <imagedata align="center" depth="13cm"
+                         fileref="Magiebereiche.png"></imagedata>
             </imageobject>
           </mediaobject>
         </section>
@@ -1250,21 +1250,61 @@
 
                   <entry>Willenskraft</entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
-                  <entry><?box ?></entry>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                   width="0.4cm"></imagedata>
+                      </imageobject>
+                    </inlinemediaobject></entry>
 
                   <entry></entry>
                 </row>
@@ -1404,8 +1444,6 @@
       <para>Die Kosten sind der folgenden Tabelle zu entnehmen. Bei späteren
       Steigerungen der Eigenschaften verändern sich die Kosten nicht — siehe
       den folgenden Abschnitt.</para>
-
-      <?dbfo-need height="7cm"?>
 
       <informaltable>
         <tgroup align="center" cols="5">
@@ -1842,21 +1880,61 @@
             <row>
               <entry></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
               <entry></entry>
             </row>
@@ -1989,29 +2067,89 @@
             <row>
               <entry></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
               <entry></entry>
             </row>
@@ -2244,21 +2382,61 @@
             <row>
               <entry></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
-              <entry><?box ?></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
               <entry></entry>
             </row>
@@ -2836,8 +3014,6 @@
           </tbody>
         </tgroup>
       </informaltable>
-
-      <?dbfo-need height="7cm"?>
 
       <para>In welche Distanzklasse ein Ziel fällt, ergibt sich aus der in der
       Waffentabelle (siehe <xref linkend="waffen" />) angegebenen
@@ -3524,7 +3700,7 @@
     <section xml:id="waffen">
       <title>Waffen</title>
 
-      <informaltable pgwide="1" xml:id="waffentabelle">
+      <informaltable role="breakable" xml:id="waffentabelle">
         <tgroup cols="8">
           <colspec colwidth="6*" />
 
@@ -4228,7 +4404,7 @@
           <primary>Paradewaffen</primary>
         </indexterm></title>
 
-      <para><?dbfo-need height="7cm"?><informaltable>
+      <para><informaltable>
           <tgroup cols="6">
             <colspec colwidth="7*" />
 

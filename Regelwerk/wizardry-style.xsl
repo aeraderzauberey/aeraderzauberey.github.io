@@ -8,7 +8,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     exclude-result-prefixes="java">
 
-  <xsl:import href="file:////Library/Tools/docbook-xsl-1.74.0/fo/docbook.xsl"/>
+  <xsl:import href="file:////Library/Tools/docbook-xsl-1.76.1/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
 
   <xsl:variable name="date" select="java:format(java:java.text.SimpleDateFormat.new('dd.MM.yyyy'), java:java.util.Date.new())"/>
@@ -223,6 +223,16 @@
   <xsl:param name="table.frame.border.style" select="'none'"></xsl:param>
   <xsl:param name="table.cell.border.style" select="'none'"></xsl:param>
 
+
+  <xsl:attribute-set name="informaltable.properties">
+    <xsl:attribute name="keep-together.within-column">
+      <xsl:choose>
+        <xsl:when test="@role='breakable'">never</xsl:when>
+        <xsl:otherwise>always</xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+  </xsl:attribute-set>
+
   <xsl:param name="title.font.family">Carolingia</xsl:param>
 
   <xsl:attribute-set name="component.title.properties">
@@ -312,11 +322,6 @@
 
   <xsl:template match="processing-instruction('hard-pagebreak')">
     <fo:block break-after='page'/>
-  </xsl:template>
-
-  <!-- HACK: should be referenced by some native docbook means, so that it works for HTML output as well -->
-  <xsl:template match="processing-instruction('box')">
-    <fo:external-graphic src="url('Schadenskästchen.svg')" content-width="0.4cm"/>
   </xsl:template>
 
   <!-- disable default header -->
