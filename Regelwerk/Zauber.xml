@@ -118,7 +118,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Abwechselnd Initiative +2 und +1 Kampfwürfel</para>
+              <para>Abwechselnd Initiative +4 und +1 Kampfwürfel</para>
             </listitem>
           </varlistentry>
 
@@ -135,7 +135,7 @@
 
             <listitem>
               <para>Die Bewegungen der Zielperson werden übernatürlich
-              schnell. Für den ersten Kraftpunkt erhält sie Initiative +2, für
+              schnell. Für den ersten Kraftpunkt erhält sie Initiative +4, für
               den zweiten einen zusätzlichen Würfel zur Verteilung auf
               Kampfaktionen. Weitere Kraftpunkte bewirken abwechselnd
               Initiative- und Würfelboni.</para>
@@ -637,8 +637,8 @@
 
             <listitem>
               <para>Erzeugt Schmerzempfindungen im Nervengewebe des Ziels. Es
-              wird so behandelt, als ob es körperlichen Schaden in der
-              entsprechenden Höhe erhalten hätte.</para>
+              wird so behandelt, als ob es (zusätzlichen) körperlichen Schaden
+              in der entsprechenden Höhe erhalten hätte.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -958,7 +958,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>15</para>
+              <para>13</para>
             </listitem>
           </varlistentry>
 
@@ -966,7 +966,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Dauer in Runden * 2</para>
+              <para>Dauer in Runden</para>
             </listitem>
           </varlistentry>
 
@@ -1347,7 +1347,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>?</para>
+              <para>? (15)</para>
             </listitem>
           </varlistentry>
 
@@ -1355,7 +1355,7 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>?</para>
+              <para>? (Tür = 5)</para>
             </listitem>
           </varlistentry>
 
@@ -1372,6 +1372,52 @@
 
             <listitem>
               <para>(wie DSA-Fortifex)</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Brücke</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Luft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>? (geringer als bei Barriere)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>?</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2902,6 +2948,56 @@
       </section>
 
       <section>
+        <title>Mit Tieren sprechen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>nach Tierart/Distanz, z.B. Maus bei Sicht/Spüren-Distanz =
+              13</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>?</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde kommuniziert mit dem Ziel-Tier. Die
+              geistigen Fähigkeiten (z.B. Sinneswahrnehmung, Konzept von Zeit)
+              und das Sprachverständnis sind je nach Tierart
+              unterschiedlich.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
         <title>Tier besänftigen</title>
 
         <variablelist>
@@ -4064,6 +4160,53 @@
               <para>Das Opfer verspürt eine gewaltige Furcht vor dem
               Zaubernden und versucht panisch, vor ihm zu fliehen. In die Enge
               gedrängt, wird es jedoch um sein Leben kämpfen.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Gefühle lesen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Geistmanipulation</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>WK * 2 + 6</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Minuten / 2</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde erfährt die aktuellen Gefühle des
+              Ziels.</para>
             </listitem>
           </varlistentry>
         </variablelist>
