@@ -59,7 +59,7 @@
           <fo:table-row height="200mm">
             <fo:table-cell display-align="before" padding-top="5.4cm">
               <fo:block text-align="center">
-                <fo:external-graphic src="url('../Logo/Logo.svg')" content-width="12cm"/>
+                <fo:external-graphic src="url('../Logo/Logo.svg')" content-width="14cm"/>
               </fo:block>
 
               <xsl:choose>

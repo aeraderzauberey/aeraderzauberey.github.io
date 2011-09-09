@@ -1,0 +1,8 @@
+Trennlinienhöhe beträgt (inkl. Kugelstück) 0,75 cm
+Kugel-, Mittel- und Endstück markieren, Objektmitten gleichmäßig verteilen
+
+Abstand der Oberkanten von Trennlinie und Textkasten (mit Spaltenüberschriften) darunter: 1,1 cm
+
+Überschriftskasten (Carolingia 20pt, Zeilenabstand 1,00pt, keine Abstände) 0,05 cm unterhalb der Trennlinie
+
+Summe der Breiten beider Trennlinien und des Überschriftskastens: 18,2

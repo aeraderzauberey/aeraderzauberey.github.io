@@ -7,7 +7,7 @@
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
   <info>
-    <title>Wizardry</title>
+    <title>Aera der Zauberey</title>
 
     <subtitle>Regelwerk</subtitle>
 
@@ -36,7 +36,7 @@
   <chapter>
     <title>Einleitung</title>
 
-    <para>Wizardry ist ein Fantasy-Rollenspiel, das einen besonderen
+    <para>Aera der Zauberey ist ein Fantasy-Rollenspiel, das einen besonderen
     Schwerpunkt auf flexible und dennoch spielbare Regeln legt. Dies gilt —
     nomen est omen — insbesondere für den Bereich der Magie. Obwohl in der
     Spielwelt nur ein kleiner Teil der Bevölkerung Magie wirken kann und auch
@@ -48,16 +48,16 @@
     <section>
       <title>Flexibles Magiesystem</title>
 
-      <para>Die Flexibilität des Magiesystems von Wizardry geht so weit, dass
-      die Charaktere spontan magische Effekte hervorrufen können, ohne zuvor
-      einen entsprechenden Zauberspruch gelernt oder geübt haben zu müssen:
-      Jeder Spieler, dessen Charakter grundsätzlich in einem bestimmten
-      Bereich der Magie bewandert ist, kann aus heiterem Himmel eine Idee für
-      einen bestimmten magischen Effekt haben, und in diesem Moment muss der
-      Spielleiter eine Würfelregelung (er)finden, die nicht nur Auskunft gibt
-      über Erfolg oder Misserfolg des Zauberns, sondern auch über die
-      konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer,
-      Schnelligkeit etc.)</para>
+      <para>Die Flexibilität des Magiesystems von Aera der Zauberey geht so
+      weit, dass die Charaktere spontan magische Effekte hervorrufen können,
+      ohne zuvor einen entsprechenden Zauberspruch gelernt oder geübt haben zu
+      müssen: Jeder Spieler, dessen Charakter grundsätzlich in einem
+      bestimmten Bereich der Magie bewandert ist, kann aus heiterem Himmel
+      eine Idee für einen bestimmten magischen Effekt haben, und in diesem
+      Moment muss der Spielleiter eine Würfelregelung (er)finden, die nicht
+      nur Auskunft gibt über Erfolg oder Misserfolg des Zauberns, sondern auch
+      über die konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite,
+      Dauer, Schnelligkeit etc.)</para>
 
       <para>Dies erfordert vom Spielleiter einen hohen Grad an
       Improvisationstalent. Zum einen macht das oben erwähnte spontane
@@ -77,9 +77,9 @@
       kreative Wege zu finden, wie sie die magischen Fähigkeiten ihrer
       Charaktere einsetzen können.</para>
 
-      <para>Kurzum: Wizardry ist nicht unbedingt das Spielsystem der Wahl für
-      eine Gruppe, die bisher kaum Rollenspielerfahrung hat oder die bisher
-      hauptsächlich vorgefertigte Kaufabenteuer gespielt hat. Es wird
+      <para>Kurzum: Aera der Zauberey ist nicht unbedingt das Spielsystem der
+      Wahl für eine Gruppe, die bisher kaum Rollenspielerfahrung hat oder die
+      bisher hauptsächlich vorgefertigte Kaufabenteuer gespielt hat. Es wird
       insbesondere Rollenspielern ans Herz gelegt, die ein Faible für Magie
       haben und die klassischen Spielsysteme als zu einschränkend
       empfinden.</para>
@@ -88,7 +88,7 @@
     <section>
       <title>Spielbarkeit</title>
 
-      <para>Wizardry soll ein schnell spielbares System mit leicht zu
+      <para>Aera der Zauberey soll ein schnell spielbares System mit leicht zu
       merkenden Regeln sein, welche dem Erzählen nicht "im Weg stehen". Es
       enthält daher weit weniger Regeln als andere Systeme und geht davon aus,
       dass der Spielleiter viele Entscheidungen besser mit Einsatz von
@@ -97,10 +97,10 @@
 
       <para>Die einzelnen Proben wirken aufgrund der Anzahl der gerollten
       Würfel, die durchaus über zehn liegen kann, zunächst aufwändig. Lassen
-      Sie sich beim Lesen davon jedoch nicht abschrecken! Das Spielen von
-      Wizardry wird weder zur Würfel- noch zur Rechenmeisterschaft, denn die
-      gewürfelten Werte werden direkt mit einem bestimmten Wert verglichen und
-      gezählt — sie werden weder addiert noch miteinander verrechnet. Man
+      Sie sich beim Lesen davon jedoch nicht abschrecken! Das Spielen von Aera
+      der Zauberey wird weder zur Würfel- noch zur Rechenmeisterschaft, denn
+      die gewürfelten Werte werden direkt mit einem bestimmten Wert verglichen
+      und gezählt — sie werden weder addiert noch miteinander verrechnet. Man
       könnte sogar sagen, dass die hohe Anzahl der Würfel vielmehr die
       Dramatik der Situation ausdrückt, in der eine Probe verlangt
       wird.</para>
@@ -4642,17 +4642,17 @@
       besitzen, einen kleinen Teil dieser Kraft an sich ziehen und lenken zu
       können, um damit ihre Umgebung zu beeinflussen.</para>
 
-      <para>Auf regeltechnischer Ebene verwendet das Wizardry-Magiesystem
-      einen "pseudo-wissenschaftlichen" Ansatz; es orientiert sich in gewisser
-      Weise an den Naturgesetzen. Die Existenz von magischer Energie wird zwar
-      in den Naturgesetzen nicht konstatiert, aber deren innere Logik und
+      <para>Auf regeltechnischer Ebene verwendet Aera der Zauberey einen
+      "pseudo-wissenschaftlichen" Ansatz; es orientiert sich in gewisser Weise
+      an den Naturgesetzen. Die Existenz von magischer Energie wird zwar in
+      den Naturgesetzen nicht konstatiert, aber deren innere Logik und
       Prinzipien, insbesondere das von Ursache und Wirkung, sind Vorbild für
       die Erklärung der Funktionsweise von Zaubern. So wie chemische
       Reaktionen oder mechanische Prinzipien in der realen Welt zusammenwirken
-      und komplexe Abläufe erklärbar machen, erklärt Wizardry magische Effekte
-      aus dem Zusammenwirken von verschiedenen Magiefertigkeiten untereinander
-      sowie mit den Naturgesetzen. Dabei gelten die folgenden
-      Grundsätze:</para>
+      und komplexe Abläufe erklärbar machen, erklärt Aera der Zauberey
+      magische Effekte aus dem Zusammenwirken von verschiedenen
+      Magiefertigkeiten untereinander sowie mit den Naturgesetzen. Dabei
+      gelten die folgenden Grundsätze:</para>
 
       <orderedlist>
         <listitem>

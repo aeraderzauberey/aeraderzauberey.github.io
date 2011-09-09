@@ -6,7 +6,7 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:java="http://xml.apache.org/xslt/java" exclude-result-prefixes="java">
 
-  <xsl:import href="wizardry-style.xsl"/>
+  <xsl:import href="base.xsl"/>
 
   <xsl:param name="generate.toc">nop</xsl:param>
 
