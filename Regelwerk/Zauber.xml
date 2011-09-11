@@ -2815,7 +2815,7 @@
             <term>Schwierigkeit</term>
 
             <listitem>
-              <para>4 bis 14, siehe Wirkung.</para>
+              <para>4 bis 14, siehe Wirkung. [Verdeckt]</para>
             </listitem>
           </varlistentry>
 
@@ -2842,8 +2842,8 @@
               <para>Beidseitige Verbindung zu einem Ziel. Schwierigkeit je
               nach Beziehung zur Zielperson: Naher Blutsverwandter=8,
               Langjähriger Freund=10, Bekannter=12, Flüchtige
-              Bekanntschaft=14. Richtung bekannt=-2, Entfernung
-              bekannt=-2.</para>
+              Bekanntschaft=14. Richtung bekannt=-2, Entfernung bekannt=-2.
+              Der Zauber ist langwierig, siehe Magiefertigkeiten.</para>
             </listitem>
           </varlistentry>
         </variablelist>

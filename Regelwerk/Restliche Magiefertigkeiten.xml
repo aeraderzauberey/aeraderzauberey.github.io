@@ -33,73 +33,6 @@
       <title>Erster Grad</title>
 
       <section>
-        <title>Telepathie</title>
-
-        <para>ist die Fähigkeit des Gedankenlesens sowie der mentalen
-        Verständigung. Obwohl hauptsächlich für Menschen gedacht, lässt sich
-        diese Fähigkeit auch bei den meisten Tiere einsetzen.</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>Abhängig vom Krafteinsatz</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-
-        <section>
-          <title>Schwierigkeit</title>
-
-          <informaltable>
-            <tgroup cols="3">
-              <colspec colnum="1" colwidth="3*" />
-
-              <colspec colnum="1" colwidth="2*" />
-
-              <colspec colnum="3" colwidth="10*" />
-
-              <tbody>
-                <row>
-                  <entry>Doppelte WK + X:</entry>
-
-                  <entry>2</entry>
-
-                  <entry>Emotionen oder Gesundheitszustand ermitteln</entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry>4</entry>
-
-                  <entry>Geistige Botschaft / Telepathische Verbindung /
-                  Sinneswahrnehmungen teilen</entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry>ab 8</entry>
-
-                  <entry>Gedankenlesen, auch Wahrheit/Lüge</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
-        </section>
-      </section>
-
-      <section>
         <title>Teleportation</title>
 
         <para>umfasst alle Effekte, die eine Bewegung innerhalb einer Sphäre
@@ -108,6 +41,8 @@
         (üblicherweise einen Menschen) an eine andere Stelle — aber auch das
         Krümmen oder Durchbohren des Raums zur Schaffung von Toren zu anderen
         Orten.</para>
+
+        <para></para>
 
         <para>Ist jedes Tor an den jweiligen Orten beidseitig nutzbar?
         Vermeidet dass man Rückseite des Portals als schwarz definieren muss

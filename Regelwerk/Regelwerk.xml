@@ -4940,6 +4940,56 @@
           </varlistentry>
         </variablelist>
       </section>
+
+      <section>
+        <title>Telepathie</title>
+
+        <para>Mit dieser Fertigkeit ist es möglich, mit anderen Personen
+        mental zu kommunizieren. Dabei ist sowohl das einfache Senden von
+        Botschaften an eine oder mehrere Personen als auch ein Gespräch
+        zwischen allen Beteiligten möglich. Telepathie funktioniert unabhängig
+        davon, ob die Zielpersonen selbst zaubern können.</para>
+
+        <para>Anders als bei den meisten Magiefertigkeiten ist Telepathie
+        nicht auf Sichtkontakt angewiesen. Die Reichweite ist abhängig vom
+        Krafteinsatz, kann jedoch abhängig vom verwendeten Zauber dutzende
+        Kilometer betragen. Die Schwierigkeit hängt davon ab, wie eng die
+        Beziehung von Zauberndem und Ziel ist, und ob dem Zaubernden die grobe
+        Position des Ziels bekannt ist.</para>
+
+        <para>Das Herstellen einer beidseitigen Verbindung ist immer ein
+        langwieriger Zauber: während der Zauberdauer muss der Zaubernde das
+        Ziel lokalisieren, was je nach Größe des in Frage kommenden Gebiets
+        von einigen Minuten (ein Quadratkilometer) bis hin zu einer Stunde
+        (ganzes Land von 20.000 km²) dauern kann. Die Zauberprobe wird vom
+        Spielleiter verdeckt gewürfelt; das Ergebnis "nicht gefunden" kann
+        daher sowohl bedeuten, dass das Ziel sich nicht in dem durchsuchten
+        Bereich aufhält als auch dass die Zauberprobe gescheitert ist.</para>
+
+        <para>Neben der Kommunikation erlaubt Telepathie auch Gedankenlesen,
+        das Erkennen von Lügen und das Mitansehen von Träumen. Dies geschieht
+        so, dass das Ziel sich der mentalen Gegenwart des Zaubernden nicht
+        bewusst wird. Die Schwierigkeit hängt dabei von der Willenskraft des
+        Ziels und der Entfernung (Reichweite A) ab.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>Abhängig vom Krafteinsatz</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Gedankenrede, Gedanken lesen, Lügen erkennen</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
     </section>
 
     <section>
