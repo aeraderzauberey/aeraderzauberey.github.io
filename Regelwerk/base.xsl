@@ -90,6 +90,57 @@
     </fo:block>
   </xsl:template>
 
+  <xsl:template name="book.titlepage.verso">
+    <xsl:choose>
+      <xsl:when test="bookinfo/title">
+        <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/title"/>
+      </xsl:when>
+      <xsl:when test="info/title">
+        <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/title"/>
+      </xsl:when>
+      <xsl:when test="title">
+        <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="title"/>
+      </xsl:when>
+    </xsl:choose>
+
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/corpauthor"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/corpauthor"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/authorgroup"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/authorgroup"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/author"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/author"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/othercredit"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/othercredit"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/releaseinfo"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/releaseinfo"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/pubdate"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/pubdate"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/copyright"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/copyright"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/abstract"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/abstract"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="bookinfo/legalnotice"/>
+    <xsl:apply-templates mode="book.titlepage.verso.auto.mode" select="info/legalnotice"/>
+
+    <fo:block margin-top="2cm" xsl:use-attribute-sets="book.titlepage.verso.style">
+      <fo:table>
+        <fo:table-body>
+          <fo:table-row>
+            <fo:table-cell width="1.75cm">
+              <fo:block>
+                <fo:external-graphic src="url('../Grafiken/qrcode.svg')" content-width="1.5cm"/>
+              </fo:block>
+            </fo:table-cell>
+            <fo:table-cell display-align="center">
+              <fo:block>Das aktuelle Regelwerk ist auf der Website</fo:block>
+              <fo:block>http://www.aeraderzauberey.de/ verfügbar.</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+    </fo:block>
+  </xsl:template>
+
   <xsl:template match="releaseinfo" mode="book.titlepage.verso.auto.mode">
     <xsl:variable name="info"><xsl:value-of select="."/></xsl:variable>
 
