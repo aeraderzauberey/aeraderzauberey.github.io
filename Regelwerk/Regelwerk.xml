@@ -308,10 +308,23 @@
         Fertigkeit ist dabei einem Attribut zugeordnet, das bei Proben mit
         einbezogen wird (siehe <xref linkend="proben" />).</para>
 
-        <para>Die Fertigkeiten sind in der unten stehenden Liste in die
-        Bereiche „Talente“, „Wissen“ und „Kampf“ aufgeteilt. Diese Aufteilung
-        dient jedoch nur der Orientierung, sie hat keinerlei regeltechnische
-        Wirkung.</para>
+        <para>Aera der Zauberey verwendet im Gegensatz zu den meisten anderen
+        Regelwerken kein abgeschlossenes Fertigkeitssystem. Ein solches
+        System, welches mit einer sinnvollen Anzahl Fertigkeiten alle
+        relevanten Fähigkeiten abdeckt und sie dennoch adäquat
+        ausdifferenziert, ist schlicht nicht machbar.</para>
+
+        <para>Anstatt hier einen womöglich falschen Kompromiss einzugehen,
+        verzichtet Aera der Zauberey auf eine abgeschlossene Liste von
+        Fertigkeiten. Stattdessen ist unten — zur Orientierung grob eingeteilt
+        in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein Standardsatz
+        van Fertigkeiten aufgeführt, welche häufig in Rollenspielen verwendet
+        werden und über die jeder Spieler bei der Charaktererschaffung
+        zumindest nachgedacht haben sollte. Spielleiter und Spieler sind
+        aufgefordert, je nach Bedarf weitere Fertigkeiten hinzuzufügen oder
+        Spezialisierungen zu verwenden. So kann ein Charakter beispielsweise
+        statt der groben Fertigkeit "Manipulation" die speziellere Fertigkeit
+        "Einschüchtern" besitzen.</para>
 
         <section>
           <title>Talente</title>
@@ -336,23 +349,6 @@
 
               <tbody>
                 <row>
-                  <entry>Falschspiel</entry>
-
-                  <entry>FF</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Führungsqualitäten</entry>
-
-                  <entry>CH</entry>
-
-                  <entry>Truppen aufstellen, organisieren, kommandieren,
-                  motivieren und Ähnliches</entry>
-                </row>
-
-                <row>
                   <entry>Heimlichkeit</entry>
 
                   <entry>GW</entry>
@@ -374,46 +370,21 @@
 
                   <entry>GW</entry>
 
-                  <entry>Balancieren, Springen</entry>
+                  <entry>Balancieren, Springen, Abrollen</entry>
                 </row>
 
                 <row>
-                  <entry>Meditation</entry>
+                  <entry>Manipulation</entry>
 
-                  <entry>WK</entry>
+                  <entry>CH</entry>
 
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Musizieren</entry>
-
-                  <entry>FF</entry>
-
-                  <entry>Separate Fertigkeiten je Musikinstrument</entry>
+                  <entry>Lügen, Überzeugen, Überreden, Verhandeln</entry>
                 </row>
 
                 <row>
                   <entry>Reiten</entry>
 
                   <entry>GW</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Schauspielerei</entry>
-
-                  <entry>CH</entry>
-
-                  <entry>Überzeugend wirken, Lügen, Geschichten
-                  erzählen</entry>
-                </row>
-
-                <row>
-                  <entry>Schlösser knacken</entry>
-
-                  <entry>FF</entry>
 
                   <entry></entry>
                 </row>
@@ -429,39 +400,23 @@
                 </row>
 
                 <row>
-                  <entry>Singen</entry>
-
-                  <entry>CH</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
                   <entry>Sinnesschärfe</entry>
 
                   <entry>IN</entry>
 
                   <entry>= Aufmerksamkeit</entry>
                 </row>
-
-                <row>
-                  <entry>Tanzen</entry>
-
-                  <entry>GW</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Taschendiebstahl</entry>
-
-                  <entry>FF</entry>
-
-                  <entry></entry>
-                </row>
               </tbody>
             </tgroup>
           </informaltable>
+
+          <section>
+            <title>Weitere Beispiele</title>
+
+            <para>Falschspiel, Meditation, Musizieren (je Instrument),
+            Schlösser knacken, Singen, Tanzen, Taschendiebstahl,
+            Verkleiden</para>
+          </section>
         </section>
 
         <section>
@@ -486,15 +441,6 @@
               </thead>
 
               <tbody>
-                <row>
-                  <entry>Alchemie</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Brauen und Identifizieren von komplexen Elixieren,
-                  Giften, evtl. auch magische Tinkturen</entry>
-                </row>
-
                 <row>
                   <entry>Etikette</entry>
 
@@ -521,20 +467,20 @@
                 </row>
 
                 <row>
+                  <entry>Kriegskunst</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Taktik und Strategie, Truppen kommandieren und
+                  motivieren</entry>
+                </row>
+
+                <row>
                   <entry>Kochen</entry>
 
                   <entry>IN</entry>
 
                   <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Lehren</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>für Wissensvermittlung auf magischem, religiösem und
-                  weltlichem Gebiet</entry>
                 </row>
 
                 <row>
@@ -561,15 +507,6 @@
 
                   <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
                   Geometrie</entry>
-                </row>
-
-                <row>
-                  <entry>Mechanik</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Kenntnis von Hebelwirkungen (z.B. Flaschenzug),
-                  Verständnis für Fallen, Riegel etc.</entry>
                 </row>
 
                 <row>
@@ -617,32 +554,6 @@
                 </row>
 
                 <row>
-                  <entry>Spurensuche</entry>
-
-                  <entry>KL</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Strategie</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Schlachtpläne entwerfen, Truppenbewegungen
-                  koordinieren</entry>
-                </row>
-
-                <row>
-                  <entry>Taktik</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>richtiges militärisches Vorgehen in einzelnen
-                  Situationen</entry>
-                </row>
-
-                <row>
                   <entry>Tierkunde</entry>
 
                   <entry>KL</entry>
@@ -656,12 +567,18 @@
 
                   <entry>KL</entry>
 
-                  <entry>Orientierung, Lagerplatz wählen, Jagen, Wasser oder
-                  essbare Pflanzen finden</entry>
+                  <entry>Orientierung, Lagerplatz wählen, Wasser oder essbare
+                  Pflanzen finden</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
+
+          <section>
+            <title>Weitere Beispiele</title>
+
+            <para>Alchemie, Fallenstellen, Pirsch, Spurensuche</para>
+          </section>
         </section>
 
         <section>
@@ -710,7 +627,7 @@
 
                   <entry>-</entry>
 
-                  <entry>Erlaubt Benutzung der anderen Hand mit geringeren
+                  <entry>Erlaubt Kämpfen mit der anderen Hand bei geringeren
                   Abzügen sowie Kampf mit zwei Waffen. Siehe <xref
                   linkend="beidhaendigkeit" />.</entry>
                 </row>
@@ -902,290 +819,289 @@
             </tgroup>
           </informaltable>
         </section>
+      </section>
 
-        <section>
-          <title>Magie</title>
+      <section>
+        <title>Magiefertigkeiten</title>
 
-          <para>Die magischen Fähigkeiten eines Charakters sind in drei
-          Bereiche unterteilt: Energie<indexterm>
-              <primary>Energie</primary>
-            </indexterm>, Geist<indexterm>
-              <primary>Geist</primary>
-            </indexterm> und <indexterm>
-              <primary>Materie</primary>
-            </indexterm>Materie. Jede Magiefertigkeit ist einem dieser drei
-          Attribute zugeordnet.</para>
+        <para>Die magischen Fähigkeiten eines Charakters sind in drei Bereiche
+        unterteilt: Energie<indexterm>
+            <primary>Energie</primary>
+          </indexterm>, Geist<indexterm>
+            <primary>Geist</primary>
+          </indexterm> und <indexterm>
+            <primary>Materie</primary>
+          </indexterm>Materie. Jede Magiefertigkeit ist einem dieser drei
+        Attribute zugeordnet.</para>
 
-          <para>Im Unterschied zu den anderen Fertigkeiten bauen die
-          Magiefertigkeiten aufeinander auf, d.h. für manche Fertigkeiten
-          benötigt man zuerst Kenntnisse in einer oder mehreren anderen. Die
-          folgende Übersicht teilt die Magiefertigkeiten dazu in verschiedene
-          <firstterm>Grade</firstterm><indexterm>
-              <primary>Grad</primary>
-            </indexterm> ein: Eine Fertigkeit, für die man z.B. Kenntnisse in
-          insgesamt zwei anderen Fertigkeiten benötigt, nennen wir eine
-          Fertigkeit des dritten Grades.</para>
+        <para>Im Unterschied zu den anderen Fertigkeiten bauen die
+        Magiefertigkeiten aufeinander auf, d.h. für manche Fertigkeiten
+        benötigt man zuerst Kenntnisse in einer oder mehreren anderen. Die
+        folgende Übersicht teilt die Magiefertigkeiten dazu in verschiedene
+        <firstterm>Grade</firstterm><indexterm>
+            <primary>Grad</primary>
+          </indexterm> ein: Eine Fertigkeit, für die man z.B. Kenntnisse in
+        insgesamt zwei anderen Fertigkeiten benötigt, nennen wir eine
+        Fertigkeit des dritten Grades.</para>
 
-          <para>Details zur Abgrenzung der einzelnen Fertigkeiten voneinander
-          sowie Richtlinien zu ihrer Handhabung im Spiel finden sich ab <xref
-          linkend="magiebereiche" xrefstyle="page" />.</para>
+        <para>Details zur Abgrenzung der einzelnen Fertigkeiten voneinander
+        sowie Richtlinien zu ihrer Handhabung im Spiel finden sich ab <xref
+        linkend="magiebereiche" xrefstyle="page" />.</para>
 
-          <informaltable role="breakable">
-            <tgroup cols="4">
-              <colspec colnum="1" colwidth="3*" />
+        <informaltable role="breakable">
+          <tgroup cols="4">
+            <colspec colnum="1" colwidth="3*" />
 
-              <colspec align="center" colnum="2" colwidth="2*" />
+            <colspec align="center" colnum="2" colwidth="2*" />
 
-              <colspec align="center" colnum="3" colwidth="2*" />
+            <colspec align="center" colnum="3" colwidth="2*" />
 
-              <colspec colnum="4" colwidth="6*" />
+            <colspec colnum="4" colwidth="6*" />
 
-              <thead>
-                <row>
-                  <entry>Fertigkeit</entry>
+            <thead>
+              <row>
+                <entry>Fertigkeit</entry>
 
-                  <entry>Attribut</entry>
+                <entry>Attribut</entry>
 
-                  <entry>Reichweite</entry>
+                <entry>Reichweite</entry>
 
-                  <entry>Voraussetzungen</entry>
-                </row>
-              </thead>
+                <entry>Voraussetzungen</entry>
+              </row>
+            </thead>
 
-              <tbody>
-                <row>
-                  <entry><emphasis>Erster Grad</emphasis></entry>
-                </row>
+            <tbody>
+              <row>
+                <entry><emphasis>Erster Grad</emphasis></entry>
+              </row>
 
-                <row>
-                  <entry>Lebewesen*</entry>
+              <row>
+                <entry>Lebewesen*</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>speziell</entry>
+                <entry>speziell</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Licht</entry>
+              <row>
+                <entry>Licht</entry>
 
-                  <entry>EN</entry>
+                <entry>EN</entry>
 
-                  <entry>C</entry>
+                <entry>C</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Luft*</entry>
+              <row>
+                <entry>Luft*</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>B</entry>
+                <entry>B</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Spüren</entry>
+              <row>
+                <entry>Spüren</entry>
 
-                  <entry>EN</entry>
+                <entry>EN</entry>
 
-                  <entry>speziell</entry>
+                <entry>speziell</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Telekinese</entry>
+              <row>
+                <entry>Telekinese</entry>
 
-                  <entry>EN</entry>
+                <entry>EN</entry>
 
-                  <entry>C</entry>
+                <entry>C</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Telepathie</entry>
+              <row>
+                <entry>Telepathie</entry>
 
-                  <entry>GE</entry>
+                <entry>GE</entry>
 
-                  <entry>speziell</entry>
+                <entry>speziell</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Teleportation</entry>
+              <row>
+                <entry>Teleportation</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>speziell</entry>
+                <entry>speziell</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Umwandlung</entry>
+              <row>
+                <entry>Umwandlung</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>B</entry>
+                <entry>B</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Unbelebte Materie*</entry>
+              <row>
+                <entry>Unbelebte Materie*</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>B</entry>
+                <entry>B</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry>Wasser*</entry>
+              <row>
+                <entry>Wasser*</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>B</entry>
+                <entry>B</entry>
 
-                  <entry></entry>
-                </row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry></entry>
-                </row>
+              <row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry><emphasis>Zweiter Grad</emphasis></entry>
-                </row>
+              <row>
+                <entry><emphasis>Zweiter Grad</emphasis></entry>
+              </row>
 
-                <row>
-                  <entry>Elektrizität</entry>
+              <row>
+                <entry>Elektrizität</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>A</entry>
+                <entry>A</entry>
 
-                  <entry>2 Punkte im jeweiligen Element* (außer
-                  Kraftmanipulation)</entry>
-                </row>
+                <entry>2 Punkte im jeweiligen Element* (außer
+                Kraftmanipulation)</entry>
+              </row>
 
-                <row>
-                  <entry>Geistmanipulation</entry>
+              <row>
+                <entry>Geistmanipulation</entry>
 
-                  <entry>GE</entry>
+                <entry>GE</entry>
 
-                  <entry>A / B</entry>
+                <entry>A / B</entry>
 
-                  <entry>3 Punkte in Telepathie</entry>
-                </row>
+                <entry>3 Punkte in Telepathie</entry>
+              </row>
 
-                <row>
-                  <entry>Kraftmanipulation*</entry>
+              <row>
+                <entry>Kraftmanipulation*</entry>
 
-                  <entry>EN</entry>
+                <entry>EN</entry>
 
-                  <entry>C</entry>
+                <entry>C</entry>
 
-                  <entry>1 Punkt in Spüren</entry>
-                </row>
+                <entry>1 Punkt in Spüren</entry>
+              </row>
 
-                <row>
-                  <entry>Sphärologie</entry>
+              <row>
+                <entry>Sphärologie</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>speziell</entry>
+                <entry>speziell</entry>
 
-                  <entry>1 Punkt in Teleportation</entry>
-                </row>
+                <entry>1 Punkt in Teleportation</entry>
+              </row>
 
-                <row>
-                  <entry></entry>
-                </row>
+              <row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry><emphasis>Dritter Grad</emphasis></entry>
-                </row>
+              <row>
+                <entry><emphasis>Dritter Grad</emphasis></entry>
+              </row>
 
-                <row>
-                  <entry>Elementarerschaffung</entry>
+              <row>
+                <entry>Elementarerschaffung</entry>
 
-                  <entry>MA &amp; GE</entry>
+                <entry>MA &amp; GE</entry>
 
-                  <entry>A</entry>
+                <entry>A</entry>
 
-                  <entry>3 Punkte im jeweiligen Element*, 1 Punkt in
-                  Telepathie</entry>
-                </row>
+                <entry>3 Punkte im jeweiligen Element*, 1 Punkt in
+                Telepathie</entry>
+              </row>
 
-                <row>
-                  <entry>Wetter</entry>
+              <row>
+                <entry>Wetter</entry>
 
-                  <entry>MA</entry>
+                <entry>MA</entry>
 
-                  <entry>H</entry>
+                <entry>H</entry>
 
-                  <entry>jeweils 1 Punkt in Luft und Wasser</entry>
-                </row>
+                <entry>jeweils 1 Punkt in Luft und Wasser</entry>
+              </row>
 
-                <row>
-                  <entry></entry>
-                </row>
+              <row>
+                <entry></entry>
+              </row>
 
-                <row>
-                  <entry><emphasis>Vierter Grad</emphasis></entry>
-                </row>
+              <row>
+                <entry><emphasis>Vierter Grad</emphasis></entry>
+              </row>
 
-                <row>
-                  <entry>Artefaktmagie</entry>
+              <row>
+                <entry>Artefaktmagie</entry>
 
-                  <entry>MA &amp; EN</entry>
+                <entry>MA &amp; EN</entry>
 
-                  <entry>A</entry>
+                <entry>A</entry>
 
-                  <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
-                  Kraftmanipulation</entry>
-                </row>
+                <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
+                Kraftmanipulation</entry>
+              </row>
 
-                <row>
-                  <entry>Nekromantie</entry>
+              <row>
+                <entry>Nekromantie</entry>
 
-                  <entry>MA &amp; GE</entry>
+                <entry>MA &amp; GE</entry>
 
-                  <entry>A</entry>
+                <entry>A</entry>
 
-                  <entry>jeweils 2 Punkte in Belebte und Unbelebte Materie, 1
-                  Punkt in Telepathie</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
+                <entry>jeweils 2 Punkte in Belebte und Unbelebte Materie, 1
+                Punkt in Telepathie</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
 
-          <para xml:id="elemente">* Die Voraussetzungen der Fertigkeiten
-          Elektrizität und Elementarerschaffung beziehen sich auf ein
-          <firstterm>Element</firstterm><indexterm>
-              <primary>Element</primary>
-            </indexterm>. Als Elemente gelten die Fertigkeiten Lebewesen,
-          Luft, Unbelebte Materie, Wasser und Kraftmanipulation. Ein Charakter
-          muss mindestens eins dieser Elemente beherrschen, bevor er
-          Elektrizität oder Elementarerschaffung erlernen kann. Er kann diese
-          Fertigkeit dann jedoch mit jedem Element anwenden, welches die
-          Voraussetzungen erfüllt.</para>
+        <para xml:id="elemente">* Die Voraussetzungen der Fertigkeiten
+        Elektrizität und Elementarerschaffung beziehen sich auf ein
+        <firstterm>Element</firstterm><indexterm>
+            <primary>Element</primary>
+          </indexterm>. Als Elemente gelten die Fertigkeiten Lebewesen, Luft,
+        Unbelebte Materie, Wasser und Kraftmanipulation. Ein Charakter muss
+        mindestens eins dieser Elemente beherrschen, bevor er Elektrizität
+        oder Elementarerschaffung erlernen kann. Er kann diese Fertigkeit dann
+        jedoch mit jedem Element anwenden, welches die Voraussetzungen
+        erfüllt.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata align="center" depth="13cm"
-                         fileref="Magiebereiche.png"></imagedata>
-            </imageobject>
-          </mediaobject>
-        </section>
+        <mediaobject>
+          <imageobject>
+            <imagedata align="center" depth="13cm" fileref="Magiebereiche.png"></imagedata>
+          </imageobject>
+        </mediaobject>
       </section>
 
       <section xml:id="abgeleitet">
@@ -1573,7 +1489,7 @@
 
       <sidebar>
         <para>Der Spielleiter kann für seine Spielrunde die EP-Basis frei
-        wählen; der Wert von 600 wird für wenig erfahrene Charaktere
+        wählen; der Wert von 630 wird für wenig erfahrene Charaktere
         empfohlen.</para>
       </sidebar>
     </section>
@@ -2859,7 +2775,7 @@
       <firstterm>Trefferabzug (TA)</firstterm><indexterm>
           <primary>Trefferabzug</primary>
         </indexterm> zieht Erfolge vom Angriffswurf des Gegners ab, bevor
-      dieser den Schadenswurf durchführt. Er verringert also (genau wie der
+      dieser den Schaden ermittelt. Er verringert also (genau wie der
       Verteidigungswurf<indexterm>
           <primary>Verteidigung</primary>
         </indexterm>) die Chance, überhaupt getroffen zu werden.</para>
@@ -3732,7 +3648,7 @@
 
               <entry><para>Gewicht</para><para>in kg</para></entry>
 
-              <entry>Preis (S)</entry>
+              <entry>Preis</entry>
 
               <entry>Anm.</entry>
             </row>
@@ -3766,7 +3682,7 @@
             </row>
 
             <row>
-              <entry>Zwiespalt</entry>
+              <entry>Doppelblättrige Axt</entry>
 
               <entry>14</entry>
 
@@ -3789,42 +3705,6 @@
 
             <row>
               <entry role="head">Dolche</entry>
-            </row>
-
-            <row>
-              <entry>Bärentatze</entry>
-
-              <entry>10</entry>
-
-              <entry>0</entry>
-
-              <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>0,8</entry>
-
-              <entry>12</entry>
-
-              <entry>a)</entry>
-            </row>
-
-            <row>
-              <entry>Fangdolch</entry>
-
-              <entry>8</entry>
-
-              <entry>1</entry>
-
-              <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>1</entry>
-
-              <entry>150</entry>
-
-              <entry>b)</entry>
             </row>
 
             <row>
@@ -3860,24 +3740,6 @@
             </row>
 
             <row>
-              <entry>Viper</entry>
-
-              <entry>8</entry>
-
-              <entry>1</entry>
-
-              <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>1,2</entry>
-
-              <entry>160</entry>
-
-              <entry>c)</entry>
-            </row>
-
-            <row>
               <entry></entry>
             </row>
 
@@ -3900,7 +3762,7 @@
 
               <entry></entry>
 
-              <entry>d)</entry>
+              <entry>a)</entry>
             </row>
 
             <row>
@@ -3974,7 +3836,7 @@
 
               <entry></entry>
 
-              <entry>d)</entry>
+              <entry>a)</entry>
             </row>
 
             <row>
@@ -4089,24 +3951,6 @@
               <entry>3,5</entry>
 
               <entry>75</entry>
-            </row>
-
-            <row>
-              <entry>Klingenstab</entry>
-
-              <entry>12</entry>
-
-              <entry>2</entry>
-
-              <entry>-2</entry>
-
-              <entry>5</entry>
-
-              <entry>2,5</entry>
-
-              <entry>220</entry>
-
-              <entry>e)</entry>
             </row>
 
             <row>
@@ -4252,6 +4096,24 @@
             </row>
 
             <row>
+              <entry>Doppelarmbrust</entry>
+
+              <entry>10</entry>
+
+              <entry>2 x 3</entry>
+
+              <entry>-5</entry>
+
+              <entry>C</entry>
+
+              <entry>5</entry>
+
+              <entry>310</entry>
+
+              <entry>b)</entry>
+            </row>
+
+            <row>
               <entry>Leichte Armbrust</entry>
 
               <entry>10</entry>
@@ -4281,24 +4143,6 @@
               <entry>5</entry>
 
               <entry>200</entry>
-            </row>
-
-            <row>
-              <entry>Doppelarmbrust</entry>
-
-              <entry>10</entry>
-
-              <entry>2 x 3</entry>
-
-              <entry>-5</entry>
-
-              <entry>C</entry>
-
-              <entry>5</entry>
-
-              <entry>310</entry>
-
-              <entry>f)</entry>
             </row>
 
             <row>
@@ -4361,30 +4205,8 @@
       </informaltable>
 
       <orderedlist numeration="loweralpha" xml:id="waffenanmerkungen">
-        <listitem xml:id="wbt">
-          <para>Bärentatze: Verstärkter Handschuh mit drei fest stehenden
-          Klingen, etwa fünf cm lang.</para>
-        </listitem>
-
-        <listitem xml:id="wfd">
-          <para>Fangdolch: Bleibt wegen Widerhaken stecken. Herausreißen
-          verursacht einen Schadenspunkt (kein Widerstandswurf
-          möglich).</para>
-        </listitem>
-
-        <listitem xml:id="wvi">
-          <para>Viper: An den Unterarm geschnallte, etwa 20cm lange Klinge,
-          die auf Knopfdruck herausschießt. Lässt sich allenfalls in weiten
-          Ärmeln verstecken.</para>
-        </listitem>
-
         <listitem>
           <para>Improvisiert als Waffe eingesetztes Werkzeug.</para>
-        </listitem>
-
-        <listitem xml:id="wks">
-          <para>Klingenstab: Kampfstab mit jeweils drei an den Enden
-          befestigten Klingen, selten.</para>
         </listitem>
 
         <listitem xml:id="wda">
@@ -4788,10 +4610,104 @@
         <title>Licht</title>
 
         <para>Mit dieser Fertigkeit kann auf vielfältige Weise Licht
-        erschaffen, manipuliert und entzogen werden. Es ist ebenfalls möglich,
-        wenn auch schwierig, durch Erzeugen von Millionen einzelner
-        Lichtpunkte oder durch Biegen des Lichtes echte Illusionen zu
-        erzeugen.</para>
+        erschaffen, manipuliert und entzogen werden.</para>
+
+        <para>Es ist ebenfalls möglich, wenn auch schwierig, durch
+        Kontrollieren der Lichtreflexion oder durch Biegen des Lichtes
+        Illusionen zu erzeugen, also dreidimensionale Bilder ohne stoffliche
+        Komponente. Der Kraftaufwand zum Erzeugen solcher Effekte hängt neben
+        der Größe der simulierten Oberfläche von seiner Beschaffenheit
+        ab:</para>
+
+        <informaltable>
+          <tgroup cols="5">
+            <colspec colwidth="4*" />
+
+            <colspec colwidth="2*" />
+
+            <colspec colwidth="4*" />
+
+            <colspec colwidth="8*" />
+
+            <colspec colwidth="4*" />
+
+            <thead>
+              <row>
+                <entry></entry>
+
+                <entry>Stufe</entry>
+
+                <entry>Oberfläche</entry>
+
+                <entry>Technik</entry>
+
+                <entry></entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry></entry>
+
+                <entry>1</entry>
+
+                <entry>Einfarbig</entry>
+
+                <entry>Teilweise Reflexion</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>2</entry>
+
+                <entry>Spiegelnd</entry>
+
+                <entry>Komplette Reflexion</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>3</entry>
+
+                <entry>Nachtschwarz</entry>
+
+                <entry>Komplette Absorption</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>4</entry>
+
+                <entry>Texturiert</entry>
+
+                <entry>Komplexe Reflexionen</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>5</entry>
+
+                <entry>Unsichtbarkeit</entry>
+
+                <entry>Licht biegen/durch Objekt leiten</entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
 
         <variablelist>
           <varlistentry>
@@ -5085,6 +5001,105 @@
               <entry>Intrige</entry>
 
               <entry>Erhebliche Nachteile Anderer</entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect1>
+
+    <sect1>
+      <title>Tiere</title>
+
+      <para>Die folgenden Werte können als Orientierung für die
+      regeltechnische Handhabung von <indexterm>
+          <primary>Tiere</primary>
+        </indexterm>Tieren verwendet werden.</para>
+
+      <informaltable>
+        <tgroup cols="5">
+          <colspec colwidth="3*" />
+
+          <colspec colwidth="3*" />
+
+          <colspec align="center" colwidth="2*" />
+
+          <colspec align="center" colwidth="2*" />
+
+          <colspec colwidth="3*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Tier</entry>
+
+              <entry>Konstitution</entry>
+
+              <entry>Körperliche Schadensstufen</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>Rabe</entry>
+
+              <entry>2</entry>
+
+              <entry>4</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Wolf</entry>
+
+              <entry>4</entry>
+
+              <entry>8</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Großkatze</entry>
+
+              <entry>6</entry>
+
+              <entry>9</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Bär</entry>
+
+              <entry>7</entry>
+
+              <entry>12</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Pferd</entry>
+
+              <entry>9</entry>
+
+              <entry>13</entry>
 
               <entry></entry>
             </row>
