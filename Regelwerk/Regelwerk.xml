@@ -70,12 +70,14 @@
       anderen Verlauf nehmen.</para>
 
       <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab:
-      anders als in anderen Rollenspielen haben sie keine Liste aller
-      Zaubersprüche, die ihr Charakter wirken kann und die sie mechanisch auf
-      die Verwendbarkeit in der aktuellen Situation hin überprüfen können. Sie
-      benötigen daher einen gewissen Einfallsreichtum, um immer wieder
-      kreative Wege zu finden, wie sie die magischen Fähigkeiten ihrer
-      Charaktere einsetzen können.</para>
+      anders als in anderen Rollenspielen ist nicht festgelegt, welche
+      Zaubersprüche ein Charakter wirken kann — ein Spieler kann also nicht
+      einfach eine bestimmte Liste von Zaubern systematisch auf ihre
+      Verwendbarkeit in der aktuellen Situation hin überprüfen. Im Gegenteil:
+      Weil die magischen Fähigkeiten eines Charakters in sehr allgemeinen
+      Fertigkeiten wie "Lebewesen" oder "Telekinese" ausgedrückt werden,
+      braucht man einen einen gewissen Einfallsreichtum, um sie für eine
+      Situation effektiv einsetzen zu können.</para>
 
       <para>Kurzum: Aera der Zauberey ist nicht unbedingt das Spielsystem der
       Wahl für eine Gruppe, die bisher kaum Rollenspielerfahrung hat oder die
@@ -4902,6 +4904,49 @@
 
             <listitem>
               <para>Gedankenrede, Gedanken lesen, Lügen erkennen</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Teleportation</title>
+
+        <para>Die Fertigkeit Teleportation umfasst alle Effekte, die eine
+        Bewegung innerhalb einer Welt (einer
+        <firstterm>Sphäre</firstterm><indexterm>
+            <primary>Sphäre</primary>
+          </indexterm>) in Nullzeit ermöglichen. Dazu zählt natürlich das
+        klassische Teleportieren, also das Versetzen eines Stücks der Realität
+        (meist einer Person) an eine andere Stelle — aber auch das Krümmen
+        oder Durchbohren des Raums zur Schaffung von Toren zu anderen
+        Orten.</para>
+
+        <para>Durch diese Tore werden zwei Orte so verbunden, als würden sie
+        direkt aneinander grenzen, ähnlich eines Durchgangs zwischen zwei
+        Räumen. Von der jeweiligen "Vorderseite" an einem der Orte blickt man
+        durch das Tor direkt zum anderen Ort. Die jeweilige Rückseite
+        erscheint als massive, schwarze Fläche. Das Tor selbst hat keinen
+        sichtbaren "Rahmen" und ist von der Seite nicht zu sehen.</para>
+
+        <para>Tore sind im Allgemeinen kraftaufwändiger als eine
+        Teleportation, eignen sich allerdings besser zur Überbrückung großer
+        Strecken und zum Transport einer größeren Anzahl von Personen.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>G</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Teleport, Tor</para>
             </listitem>
           </varlistentry>
         </variablelist>
