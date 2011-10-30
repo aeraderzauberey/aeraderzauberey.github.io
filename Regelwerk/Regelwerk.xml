@@ -4951,6 +4951,56 @@
           </varlistentry>
         </variablelist>
       </section>
+
+      <section>
+        <title>Umwandlung</title>
+
+        <para>Diese Fertigkeit erlaubt dem Zaubernden, einen Stoff durch einen
+        anderen zu ersetzen. So kann zum Beispiel der alte Traum der irdischen
+        Alchemisten wahr gemacht werden, in dem Blei zu Gold umgewandelt wird.
+        Auch könnten Kunstgegenstände zunächst in besonders leicht zu
+        bearbeitenden Materialien gefertigt und dann in ein anderes Material
+        umgewandelt werden.</para>
+
+        <para>Beliebt ist Umwandlung auch immer dann, wenn für einen Zauber
+        ein bestimmtes Material benötigt wird, das gerade nicht zur Verfügung
+        steht. So wird bei vielen Feuerzaubern das benötigte Material, bei
+        Normaltemperatur brennende Flüssigkeit, durch Umwandlung der
+        vorhandenen Erde oder Luft bereitgestellt.</para>
+
+        <para>Die Schwierigkeit richtet sich nach der Verwandtschaft von
+        Ausgangs- und Zielstoff. Eine grobe Richtschnur kann hier das moderne
+        Periodensystem der Elemente bilden (z.B. Nähe von Blei und Gold), aber
+        auch "unwissenschaftlichere" Vorstellungen der Zielwelt ("Alkohol und
+        Wasser sind fast dasselbe").</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para>Abhängig vom Gesamtgewicht der umzuwandelnden
+              Materie.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Flammenstrahl</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
     </section>
 
     <section>
