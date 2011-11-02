@@ -298,7 +298,7 @@
         </informaltable>
       </section>
 
-      <section>
+      <section xml:id="fertigkeitsliste">
         <title>Fertigkeiten</title>
 
         <para><firstterm
@@ -320,13 +320,14 @@
         verzichtet Aera der Zauberey auf eine abgeschlossene Liste von
         Fertigkeiten. Stattdessen ist unten — zur Orientierung grob eingeteilt
         in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein Standardsatz
-        van Fertigkeiten aufgeführt, welche häufig in Rollenspielen verwendet
+        von Fertigkeiten aufgeführt, welche häufig in Rollenspielen verwendet
         werden und über die jeder Spieler bei der Charaktererschaffung
         zumindest nachgedacht haben sollte. Spielleiter und Spieler sind
         aufgefordert, je nach Bedarf weitere Fertigkeiten hinzuzufügen oder
         Spezialisierungen zu verwenden. So kann ein Charakter beispielsweise
         statt der groben Fertigkeit "Manipulation" die speziellere Fertigkeit
-        "Einschüchtern" besitzen.</para>
+        "Einschüchtern" besitzen. Weiterführende Informationen dazu finden Sie
+        in <xref linkend="fertigkeitssystem" />.</para>
 
         <section>
           <title>Talente</title>
@@ -1619,14 +1620,30 @@
       jeweiligen Attribut oder, bei Fertigkeitsproben, der Summe aus
       Fertigkeitspunkten und Punkten im zugeordneten Attribut.</para>
 
-      <sidebar>
-        <para>Wie immer hat der Spielleiter das letzte Wort — es kann gerade
-        bei Fertigkeiten mit mehreren „Einsatzgebieten“ erforderlich sein, auf
-        ein anderes Attribut würfeln zu lassen. Wenn zum Beispiel ein
-        Charakter ein Pferd beruhigen möchte, kann der Spielleiter die
-        Reiten-Probe mit Charisma statt mit Gewandtheit durchführen
-        lassen.</para>
-      </sidebar>
+      <para>Fertigkeiten sind dem jeweils angegebenen Attribut jedoch nicht
+      fest zugeordnet. Stattdessen kann vom Spielleiter jederzeit ein besser
+      zur Situation passendes Attribut bestimmt werden.</para>
+
+      <informalexample>
+        <para><emphasis>Beispiele:</emphasis></para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Beruhigen eines Pferds mit Reiten + Charisma (statt
+            Gewandtheit)</para>
+          </listitem>
+
+          <listitem>
+            <para>Schienen des eigenen gebrochenen Arms mit Medizin +
+            Willenskraft (statt Klugheit)</para>
+          </listitem>
+
+          <listitem>
+            <para>Herstellung von Nitroglyzerin mit Alchemie +
+            Fingerfertigkeit (statt Klugheit)</para>
+          </listitem>
+        </itemizedlist>
+      </informalexample>
     </section>
 
     <section>
@@ -1635,10 +1652,118 @@
       <para>Der Spielleiter gibt nun unter Berücksichtigung der Situation eine
       <firstterm>Schwierigkeit</firstterm><indexterm>
           <primary>Schwierigkeit</primary>
-        </indexterm> für die Aktion vor (Standard: 11). Anschließend rollt der
-      Spieler seine Würfel und versucht die angesagte Schwierigkeit mit
-      möglichst vielen Würfeln zu erreichen oder zu übertreffen. Jeden dieser
-      Würfel zählt der Spieler als einen
+        </indexterm> für die Aktion vor und orientiert sich dabei an der
+      folgenden Tabelle:</para>
+
+      <informaltable xml:id="schwierigkeitstabelle">
+        <tgroup cols="4">
+          <colspec colwidth="1*" />
+
+          <colspec colwidth="6*" />
+
+          <colspec colwidth="2*" />
+
+          <colspec colwidth="1*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry>Art der Aufgabe</entry>
+
+              <entry>Schwierigkeit</entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>Kleinigkeit</entry>
+
+              <entry>(Keine Probe)</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Routineaufgabe</entry>
+
+              <entry>7</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Leicht</entry>
+
+              <entry>9</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Mittel, normale Aufgabe</entry>
+
+              <entry>11</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Herausforderung, ungewöhnliche Aufgabe</entry>
+
+              <entry>13</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Schwierig</entry>
+
+              <entry>15</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Extrem schwierig, Ausnahmesituation</entry>
+
+              <entry>17</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Fast unmöglich</entry>
+
+              <entry>20</entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <para>Anschließend rollt der Spieler seine Würfel und versucht die
+      angesagte Schwierigkeit mit möglichst vielen Würfeln zu erreichen oder
+      zu übertreffen. Jeden dieser Würfel zählt der Spieler als einen
       <firstterm>Erfolg</firstterm><indexterm>
           <primary>Erfolg</primary>
         </indexterm>. Ist mindestens ein Erfolg vorhanden, ist die Probe
@@ -1704,11 +1829,11 @@
     <section>
       <title>Fehlende Fertigkeit</title>
 
-      <para>Besitzt ein Charakter die für eine bestimmte Aktion zuständige
-      Fertigkeit nicht, darf er streng genommen keine Probe durchführen. Der
-      Spielleiter kann jedoch gestatten, eine Probe auf eine andere, verwandte
-      Fertigkeit oder das reine Attribut durchzuführen, sofern es für die
-      Situation passt (evtl. auch mit erhöhter Schwierigkeit).</para>
+      <para>Besitzt ein Charakter keine passende Fertigkeit für eine bestimmte
+      Aktion, darf er nach Spielleiterentscheid auch eine Probe mit einer grob
+      verwandten Fertigkeit oder eine Attributsprobe durchführen. In diesem
+      Fall steigt jedoch die Schwierigkeit je nach Verwandtschaft der
+      verwendeten Fertigkeit mit der geforderten.</para>
     </section>
 
     <section>
@@ -1917,11 +2042,12 @@
           <primary>Schadensleiste</primary>
 
           <secondary>geistig</secondary>
-        </indexterm> dargestellt. Hat ein Charakter geistigen Schaden
-      erhalten, wird er zunehmend unkonzentrierter und erschöpfter, bis zur
-      völligen Bewusstlosigkeit auf der letzten geistigen Schadensstufe.
-      Darüber hinaus gehender geistiger Schaden wird auf die körperliche
-      Schadensleiste übertragen.</para>
+        </indexterm> dargestellt.</para>
+
+      <para>Hat ein Charakter geistigen Schaden erhalten, wird er zunehmend
+      unkonzentrierter und erschöpfter, bis zur völligen Bewusstlosigkeit auf
+      der letzten geistigen Schadensstufe. Darüber hinaus gehender geistiger
+      Schaden wird auf die körperliche Schadensleiste übertragen.</para>
 
       <para>Ebenso wie körperlicher Schaden schlägt sich auch geistiger
       Schaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
@@ -5008,6 +5134,63 @@
 
       <para><emphasis>[Hier folgen noch Beschreibungen weiterer
       Magiefertigkeiten.]</emphasis></para>
+    </section>
+  </appendix>
+
+  <appendix xml:id="fertigkeitssystem">
+    <title>Offenes Fertigkeitssystem</title>
+
+    <para>Die Fertigkeitsliste in diesem Regelwerk (siehe <xref
+    linkend="fertigkeitsliste" xrefstyle="page" />) ist bewusst kurz gehalten,
+    um jeder Gruppe die Möglichkeit zu geben den Zuschnitt der Fertigkeiten
+    auf die eigenen Bedürfnisse anzupassen, umgekehrt aber auch keine
+    "überflüssigen" Fertigkeiten zu nennen.</para>
+
+    <section>
+      <title>Schwierigkeiten von Proben</title>
+
+      <para>Durch das offene Fertigkeitssystem ist es gut möglich, dass für
+      eine Aufgabe grundsätzlich mehrere Fertigkeiten in Frage kommen — sei
+      es, weil eine von ihnen eine Spezialisierung ist, sei es, weil eine
+      Aufgabe einfach in den Bereich mehrerer Fertigkeiten fällt.</para>
+
+      <para>Die Schwierigkeiten von Proben werden daher im Hinblick darauf
+      festgelegt, wie gut die verwendete Fertigkeit auf die Aufgabe passt. So
+      kann beispielsweise die Frage nach dem letzten bekannten Auftauchen des
+      Necronomicons mit der Fertigkeit "Allgemeinbildung" nur sehr schwer
+      beantwortet werden, für Charaktere mit der Fertigkeit "Okkultismus"
+      jedoch bedeutend einfacher. Verwenden Sie einfach die Tabelle auf <xref
+      linkend="schwierigkeitstabelle" xrefstyle="page" /> für aus Sicht der
+      jeweiligen Fertigkeit.</para>
+    </section>
+
+    <section>
+      <title>Auswahl von Fertigkeiten</title>
+
+      <para>Bei der Festlegung der zu verwendenden Fertigkeiten einer
+      Spielrunde sollte beachtet werden, dass eine Fertigkeit nicht einfach
+      eine Gruppe verschiedener Tätigkeiten zusammenfasst. So ist zum Beispiel
+      eine Fertigkeit "Gaukelei" als Gruppierung von Jonglieren, Balancieren
+      und Feuerschlucken problematisch, weil diese Tätigkeiten keinen
+      eindeutigen Zusammenhang besitzen. Es kommt daher leicht zu
+      Unklarheiten, ob bestimmte Tätigkeiten ebenfalls enthalten sind oder
+      nicht. In diesem Beispiel wäre es besser, für jede Tätigkeit eine eigene
+      Fertigkeit zu notieren, um genauer zu definieren, worauf sich der
+      Charakter versteht.</para>
+
+      <para>Bei einer Gruppierung von verschiedenen Arten von Tätigkeiten ist
+      es darüber hinaus ungleich schwerer für den Spielleiter, die
+      Schwierigkeit einer Aufgabe einzuschätzen: handelt es sich
+      beispielsweise beim Schlucken einer brennenden Fackel um eine
+      Standardaufgabe für alle Gaukler? Hat der Charakter hingegen die
+      Fertigkeit "Feuerschlucken", muss nur noch entschieden werden, ob die
+      Aufgabe innerhalb dieses Bereichs außergewöhnlich schwierig ist.</para>
+
+      <para>Bedenken Sie auch, dass es sich bei vielen "Berufsfertigkeiten"
+      ebenso um schlichte Gruppierungen handelt. Zum Beispiel sollte ein
+      gelernter Schneider nicht einfach die abstrakte Fertigkeit "Schneiderei"
+      besitzen, sondern die konkreteren Fertigkeiten "Nähen",
+      "Lederbearbeitung", "Stoffkunde" und "Buchhaltung".</para>
     </section>
   </appendix>
 
