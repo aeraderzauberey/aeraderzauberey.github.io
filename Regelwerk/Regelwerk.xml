@@ -5159,8 +5159,9 @@
       kann beispielsweise die Frage nach dem letzten bekannten Auftauchen des
       Necronomicons mit der Fertigkeit "Allgemeinbildung" nur sehr schwer
       beantwortet werden, für Charaktere mit der Fertigkeit "Okkultismus"
-      jedoch bedeutend einfacher. Verwenden Sie einfach die Tabelle auf <xref
-      linkend="schwierigkeitstabelle" xrefstyle="page" /> für aus Sicht der
+      jedoch bedeutend einfacher. Verwenden Sie zur Bestimmung der
+      Schwierigkeit daher einfach die Tabelle auf <xref
+      linkend="schwierigkeitstabelle" xrefstyle="page" /> aus Sicht der
       jeweiligen Fertigkeit.</para>
     </section>
 
@@ -5173,16 +5174,16 @@
       eine Fertigkeit "Gaukelei" als Gruppierung von Jonglieren, Balancieren
       und Feuerschlucken problematisch, weil diese Tätigkeiten keinen
       eindeutigen Zusammenhang besitzen. Es kommt daher leicht zu
-      Unklarheiten, ob bestimmte Tätigkeiten ebenfalls enthalten sind oder
-      nicht. In diesem Beispiel wäre es besser, für jede Tätigkeit eine eigene
-      Fertigkeit zu notieren, um genauer zu definieren, worauf sich der
-      Charakter versteht.</para>
+      Unklarheiten, ob eine andere Tätigkeit ebenfalls enthalten ist oder
+      nicht. Daher wäre es besser, für jede Tätigkeit eine eigene Fertigkeit
+      zu notieren, um genauer zu definieren, worauf sich der Charakter
+      versteht.</para>
 
       <para>Bei einer Gruppierung von verschiedenen Arten von Tätigkeiten ist
       es darüber hinaus ungleich schwerer für den Spielleiter, die
       Schwierigkeit einer Aufgabe einzuschätzen: handelt es sich
       beispielsweise beim Schlucken einer brennenden Fackel um eine
-      Standardaufgabe für alle Gaukler? Hat der Charakter hingegen die
+      Routineaufgabe für alle Gaukler? Hat der Charakter hingegen die
       Fertigkeit "Feuerschlucken", muss nur noch entschieden werden, ob die
       Aufgabe innerhalb dieses Bereichs außergewöhnlich schwierig ist.</para>
 
