@@ -264,7 +264,14 @@
   </xsl:template>
 
   
+  <!-- column configuration -->
   <xsl:param name="column.count.body" select="1"></xsl:param>
+  <xsl:attribute-set name="component.titlepage.properties">
+    <xsl:attribute name="span">all</xsl:attribute>
+    <xsl:attribute name="margin-bottom">1em</xsl:attribute>
+  </xsl:attribute-set>
+
+
   <xsl:param name="body.start.indent" select="'0pt'"></xsl:param>
   <xsl:param name="body.font.master">12</xsl:param>
   <xsl:param name="line-height" select="1.2"></xsl:param>
@@ -318,6 +325,12 @@
   <!-- Titles of second-level sections within chapters -->
   <xsl:attribute-set name="section.title.level2.properties">
     <xsl:attribute name="space-after">-0.6em</xsl:attribute>
+  </xsl:attribute-set>
+
+  <!-- Index customization -->
+  <xsl:param name="column.count.index">3</xsl:param>
+  <xsl:attribute-set name="index.div.title.properties">
+    <xsl:attribute name="space-after">0.5em</xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:template name="table.cell.block.properties">
