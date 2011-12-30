@@ -102,12 +102,21 @@
       <title>Eigenschaften</title>
 
       <para>Charaktere werden durch zwei Typen von Eigenschaften beschrieben:
-      Attribute und Fertigkeiten. Die Werte dieser Eigenschaften liegen im
-      Bereich von 1 bis 8. Für jeden Punkt steht dem Charakter ein Würfel zur
-      Verfügung, den er bei Proben auf die jeweilige Eigenschaft verwendet
-      (siehe <xref linkend="proben" />). Neben Attributen und Fertigkeiten
-      gibt es noch sogenannte abgeleitete Eigenschaften, deren Werte von den
-      anderen Eigenschaften abhängen.</para>
+      Attribute<indexterm>
+          <primary>Attribut</primary>
+        </indexterm> und Fertigkeiten<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm>. Die Werte dieser Eigenschaften liegen im Bereich von 1
+      bis 8. Für jeden Punkt steht dem Charakter ein Würfel zur Verfügung, den
+      er bei Proben<indexterm significance="preferred">
+          <primary>Probe</primary>
+        </indexterm> auf die jeweilige Eigenschaft verwendet (siehe <xref
+      linkend="proben" />). Neben Attributen<indexterm>
+          <primary>Attribut</primary>
+        </indexterm> und Fertigkeiten<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> gibt es noch sogenannte abgeleitete Eigenschaften, deren
+      Werte von den anderen Eigenschaften abhängen.</para>
 
       <section>
         <title>Attribute</title>
@@ -3603,9 +3612,12 @@
       Kraftpunkten, die der Charakter in dieser Runde an sich ziehen
       konnte.</para>
 
-      <para>Um zu vermeiden, zu viel Kraft zu verwenden, kann der Spieler vor
-      der Probe ansagen, wieviel Kraft er in dieser Runde höchstens sammeln
-      will. Überschüssige Erfolge werden dann nicht gezählt.</para>
+      <para>Insbesondere beim Sammeln über mehrere Runden kann es jedoch
+      vorkommen, dass bei der Sammelprobe "zu viele" Erfolge erreicht werden
+      und der Charakter so viel Kraft an sich zieht, dass er zu sehr ermüdet.
+      Falls ein Spieler dies verhindern will, kann er vor einer Sammelprobe
+      ansagen, wieviel Kraft er in dieser Runde höchstens sammeln will.
+      Überschüssige Erfolge werden dann nicht gezählt.</para>
 
       <para>Das Sammeln von Kraft ist im Kampf eine volle Aktion<indexterm>
           <primary>Aktion</primary>
@@ -3626,13 +3638,26 @@
         in der Tharion einen Wert von 1 hat. Seine Willenskraft beträgt 4,
         Tharion verwendet für die Sammelprobe also 5 Würfel.</para>
 
-        <para>In der ersten Runde erzielt er 2 Erfolge und hat damit bereits 2
-        Kraftpunkte gesammelt. In der zweiten Runde sagt er an, maximal 3
-        Kraftpunkte sammeln zu wollen. Er erzielt 2 Erfolge und hat damit nun
-        4 Kraftpunkte gesammelt. In der dritten Runde sagt er an, maximal 1
-        Kraftpunkt sammeln zu wollen. Er erzielt 3 Erfolge und erhält damit
-        wie gewünscht den 5. und letzten Kraftpunkt. Tharion entscheidet sich,
-        den Zauber nun abzuschließen.</para>
+        <orderedlist>
+          <listitem>
+            <para>Zunächst sagt Tharion keine maximale Anzahl Kraftpunkte an.
+            Bei der Probe erzielt er 2 Erfolge und hat damit bereits 2
+            Kraftpunkte gesammelt.</para>
+          </listitem>
+
+          <listitem>
+            <para>Nun sagt Tharion zur Sicherheit an, maximal 3 Kraftpunkte
+            sammeln zu wollen. Er erzielt 2 Erfolge und hat damit nun 4
+            Kraftpunkte gesammelt. </para>
+          </listitem>
+
+          <listitem>
+            <para>Schließlich sagt er an, maximal 1 Kraftpunkt sammeln zu
+            wollen. Tharion erzielt 3 Erfolge und erhält damit wie gewünscht
+            den 5. und letzten Kraftpunkt. Tharion entscheidet sich, den
+            Zauber nun abzuschließen.</para>
+          </listitem>
+        </orderedlist>
       </informalexample>
     </section>
 
