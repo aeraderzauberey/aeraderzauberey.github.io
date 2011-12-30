@@ -38,12 +38,12 @@
 
     <para>Aera der Zauberey ist ein Fantasy-Rollenspiel, das einen besonderen
     Schwerpunkt auf flexible und dennoch spielbare Regeln legt. Dies gilt —
-    nomen est omen — insbesondere für den Bereich der Magie. Obwohl in der
-    Spielwelt nur ein kleiner Teil der Bevölkerung Magie wirken kann und auch
-    nicht jedes Abenteuer, das die Charaktere erleben, sich um Magie drehen
-    wird, spielt sie immer eine wichtige Rolle — und sei es nur, weil die
-    Charaktere häufig auf sie zurückgreifen, um die ihnen gestellten Aufgaben
-    zu lösen.</para>
+    nomen est omen — insbesondere für den Bereich der Magie. Obwohl in den
+    meisten Spielwelten nur ein kleiner Teil der Bevölkerung Magie wirken kann
+    und auch nicht jedes Abenteuer, das die Charaktere erleben, sich um Magie
+    drehen wird, spielt sie immer eine wichtige Rolle — und sei es nur, weil
+    die Charaktere häufig auf sie zurückgreifen, um die ihnen gestellten
+    Aufgaben zu lösen.</para>
 
     <section>
       <title>Flexibles Magiesystem</title>
@@ -69,22 +69,11 @@
       ein Abenteuer aufgrund eines einzigen überraschenden Zaubers einen ganz
       anderen Verlauf nehmen.</para>
 
-      <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab:
-      anders als in anderen Rollenspielen ist nicht festgelegt, welche
-      Zaubersprüche ein Charakter wirken kann — ein Spieler kann also nicht
-      einfach eine bestimmte Liste von Zaubern systematisch auf ihre
-      Verwendbarkeit in der aktuellen Situation hin überprüfen. Im Gegenteil:
-      Weil die magischen Fähigkeiten eines Charakters in sehr allgemeinen
+      <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab: weil
+      die magischen Fähigkeiten eines Charakters in sehr allgemeinen
       Fertigkeiten wie "Lebewesen" oder "Telekinese" ausgedrückt werden,
       braucht man einen einen gewissen Einfallsreichtum, um sie für eine
       Situation effektiv einsetzen zu können.</para>
-
-      <para>Kurzum: Aera der Zauberey ist nicht unbedingt das Spielsystem der
-      Wahl für eine Gruppe, die bisher kaum Rollenspielerfahrung hat oder die
-      bisher hauptsächlich vorgefertigte Kaufabenteuer gespielt hat. Es wird
-      insbesondere Rollenspielern ans Herz gelegt, die ein Faible für Magie
-      haben und die klassischen Spielsysteme als zu einschränkend
-      empfinden.</para>
     </section>
 
     <section>
@@ -97,15 +86,12 @@
       gesundem Menschenverstand als mit dem Konsultieren eines umfangreichen
       Katalogs aus genauen Regeln und Tabellen fällen kann.</para>
 
-      <para>Die einzelnen Proben wirken aufgrund der Anzahl der gerollten
-      Würfel, die durchaus über zehn liegen kann, zunächst aufwändig. Lassen
-      Sie sich beim Lesen davon jedoch nicht abschrecken! Das Spielen von Aera
-      der Zauberey wird weder zur Würfel- noch zur Rechenmeisterschaft, denn
-      die gewürfelten Werte werden direkt mit einem bestimmten Wert verglichen
-      und gezählt — sie werden weder addiert noch miteinander verrechnet. Man
-      könnte sogar sagen, dass die hohe Anzahl der Würfel vielmehr die
-      Dramatik der Situation ausdrückt, in der eine Probe verlangt
-      wird.</para>
+      <para>Dadurch eignet sich Aera der Zauberey nicht unbedingt für Spieler
+      mit wenig Rollenspielerfahrung oder für Spielleiter, die bisher
+      hauptsächlich vorgefertigte Kaufabenteuer geleitet haben. Es wird
+      insbesondere Rollenspielern ans Herz gelegt, die ein Faible für Magie
+      haben und die klassischen Spielsysteme als zu einschränkend
+      empfinden.</para>
     </section>
   </chapter>
 
@@ -307,27 +293,43 @@
             <primary>Fertigkeit</primary>
           </indexterm> repräsentieren die individuellen Kenntnisse und
         Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jede
-        Fertigkeit ist dabei einem Attribut zugeordnet, das bei Proben mit
-        einbezogen wird (siehe <xref linkend="proben" />).</para>
+        Fertigkeit<indexterm significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm> ist dabei einem Attribut zugeordnet, das bei
+        Proben<indexterm significance="preferred">
+            <primary>Probe</primary>
+          </indexterm> mit einbezogen wird (siehe <xref
+        linkend="proben" />).</para>
 
         <para>Aera der Zauberey verwendet im Gegensatz zu den meisten anderen
-        Regelwerken kein abgeschlossenes Fertigkeitssystem. Ein solches
-        System, welches mit einer sinnvollen Anzahl Fertigkeiten alle
-        relevanten Fähigkeiten abdeckt und sie dennoch adäquat
-        ausdifferenziert, ist schlicht nicht machbar.</para>
+        Regelwerken kein abgeschlossenes Fertigkeitssystem<indexterm
+            significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm>. Ein solches System, welches mit einer sinnvollen
+        Anzahl Fertigkeiten<indexterm significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm> alle relevanten Fähigkeiten abdeckt und sie dennoch
+        adäquat ausdifferenziert, ist schlicht nicht machbar.</para>
 
         <para>Anstatt hier einen womöglich falschen Kompromiss einzugehen,
         verzichtet Aera der Zauberey auf eine abgeschlossene Liste von
-        Fertigkeiten. Stattdessen ist unten — zur Orientierung grob eingeteilt
-        in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein Standardsatz
-        von Fertigkeiten aufgeführt, welche häufig in Rollenspielen verwendet
+        Fertigkeiten<indexterm significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm>. Stattdessen ist unten — zur Orientierung grob
+        eingeteilt in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein
+        Standardsatz von Fertigkeiten<indexterm significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm> aufgeführt, welche häufig in Rollenspielen verwendet
         werden und über die jeder Spieler bei der Charaktererschaffung
         zumindest nachgedacht haben sollte. Spielleiter und Spieler sind
-        aufgefordert, je nach Bedarf weitere Fertigkeiten hinzuzufügen oder
-        Spezialisierungen zu verwenden. So kann ein Charakter beispielsweise
-        statt der groben Fertigkeit "Manipulation" die speziellere Fertigkeit
-        "Einschüchtern" besitzen. Weiterführende Informationen dazu finden Sie
-        in <xref linkend="fertigkeitssystem" />.</para>
+        aufgefordert, je nach Bedarf weitere Fertigkeiten<indexterm
+            significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm> hinzuzufügen oder Spezialisierungen zu verwenden. So
+        kann ein Charakter beispielsweise statt der groben Fertigkeit
+        "Manipulation" die speziellere Fertigkeit "Einschüchtern" besitzen.
+        Weiterführende Informationen dazu finden Sie in <xref
+        linkend="fertigkeitssystem" />.</para>
 
         <section>
           <title>Talente</title>
@@ -779,22 +781,41 @@
             <primary>Geist</primary>
           </indexterm> und <indexterm>
             <primary>Materie</primary>
-          </indexterm>Materie. Jede Magiefertigkeit ist einem dieser drei
-        Attribute zugeordnet.</para>
+          </indexterm>Materie. Jede Magiefertigkeit<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> ist einem dieser drei Attribute zugeordnet.</para>
 
-        <para>Im Unterschied zu den anderen Fertigkeiten bauen die
-        Magiefertigkeiten aufeinander auf, d.h. für manche Fertigkeiten
-        benötigt man zuerst Kenntnisse in einer oder mehreren anderen. Die
-        folgende Übersicht teilt die Magiefertigkeiten dazu in verschiedene
+        <para>Im Unterschied zu den anderen Fertigkeiten<indexterm
+            significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm> bauen die Magiefertigkeiten<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> aufeinander auf, d.h. für manche Fertigkeiten benötigt
+        man zuerst Kenntnisse in einer oder mehreren anderen. Die folgende
+        Übersicht teilt die Magiefertigkeiten<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> dazu in verschiedene
         <firstterm>Grade</firstterm><indexterm>
             <primary>Grad</primary>
-          </indexterm> ein: Eine Fertigkeit, für die man z.B. Kenntnisse in
-        insgesamt zwei anderen Fertigkeiten benötigt, nennen wir eine
-        Fertigkeit des dritten Grades.</para>
+          </indexterm> ein: Eine Fertigkeit<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm>, für die man z.B. Kenntnisse in insgesamt zwei anderen
+        Fertigkeiten<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> benötigt, nennen wir eine Fertigkeit<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> des dritten Grades.</para>
 
-        <para>Details zur Abgrenzung der einzelnen Fertigkeiten voneinander
-        sowie Richtlinien zu ihrer Handhabung im Spiel finden sich ab <xref
-        linkend="magiebereiche" xrefstyle="page" />.</para>
+        <para>Details zur Abgrenzung der einzelnen Fertigkeiten<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
+        Spiel finden sich ab <xref linkend="magiebereiche"
+        xrefstyle="page" />.</para>
 
         <informaltable role="breakable">
           <tgroup cols="4">
@@ -1034,16 +1055,22 @@
           </tgroup>
         </informaltable>
 
-        <para xml:id="elemente">* Die Voraussetzungen der Fertigkeiten
-        Elektrizität und Elementarerschaffung beziehen sich auf ein
-        <firstterm>Element</firstterm><indexterm>
+        <para xml:id="elemente">* Die Voraussetzungen der
+        Fertigkeiten<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> Elektrizität und Elementarerschaffung beziehen sich auf
+        ein <firstterm>Element</firstterm><indexterm>
             <primary>Element</primary>
-          </indexterm>. Als Elemente gelten die Fertigkeiten Lebewesen, Luft,
-        Unbelebte Materie, Wasser und Kraftmanipulation. Ein Charakter muss
-        mindestens eins dieser Elemente beherrschen, bevor er Elektrizität
-        oder Elementarerschaffung erlernen kann. Er kann diese Fertigkeit dann
-        jedoch mit jedem Element anwenden, welches die Voraussetzungen
-        erfüllt.</para>
+          </indexterm>. Als Elemente gelten die Fertigkeiten<indexterm
+            significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> Lebewesen, Luft, Unbelebte Materie, Wasser und
+        Kraftmanipulation. Ein Charakter muss mindestens eins dieser Elemente
+        beherrschen, bevor er Elektrizität oder Elementarerschaffung erlernen
+        kann. Er kann diese Fertigkeit<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> dann jedoch mit jedem Element anwenden, welches die
+        Voraussetzungen erfüllt.</para>
 
         <mediaobject>
           <imageobject>
@@ -1055,16 +1082,26 @@
       <section xml:id="abgeleitet">
         <title>Abgeleitete Eigenschaften</title>
 
-        <para>Die abgeleiteten Eigenschaften errechnen sich aus Attributen und
-        Fertigkeiten. Sie sind jedoch nicht mit Würfelanzahlen gleichzusetzen
-        und für diese Eigenschaften werden keine Proben durchgeführt.</para>
+        <para>Die abgeleiteten Eigenschaften errechnen sich aus
+        Attributen<indexterm significance="preferred">
+            <primary>Attribut</primary>
+          </indexterm> und Fertigkeiten<indexterm significance="preferred">
+            <primary>Fertigkeit</primary>
+          </indexterm>. Sie sind jedoch nicht mit Würfelanzahlen
+        gleichzusetzen und für diese Eigenschaften werden keine Proben
+        durchgeführt.</para>
 
         <section xml:id="initiativebasis">
-          <title>Initiativebasiswert</title>
+          <title>Initiativebasiswert<indexterm>
+              <primary>Initiativebasiswert</primary>
+            </indexterm></title>
 
-          <para>Für den Initiativewurf im Kampf (siehe <xref
-          linkend="kampf" />) besitzt jeder Charakter einen
-          Initiativebasiswert. Dieser errechnet sich aus dem Attribut
+          <para>Für den Initiativewurf<indexterm>
+              <primary>Initiative</primary>
+            </indexterm> im Kampf (siehe <xref linkend="kampf" />) besitzt
+          jeder Charakter einen Initiativebasiswert<indexterm>
+              <primary>Initiativebasiswert</primary>
+            </indexterm>. Dieser errechnet sich aus dem Attribut
           Intuition<indexterm>
               <primary>Intuition</primary>
             </indexterm> und der Fertigkeit Reflexe wie folgt:
@@ -1072,11 +1109,17 @@
         </section>
 
         <section xml:id="verletzungsmali">
-          <title>Verletzungsmalus</title>
+          <title>Verletzungsmalus<indexterm significance="preferred">
+              <primary>Verletzungsmalus</primary>
+            </indexterm></title>
 
-          <para>Wenn sie körperlichen Schaden erhalten haben, gilt für
-          Charaktere ein Würfelabzug, der sogenannte
-          <firstterm>Verletzungsmalus</firstterm><indexterm
+          <para>Wenn sie körperlichen Schaden<indexterm
+              significance="preferred">
+              <primary>Schaden</primary>
+
+              <secondary>körperlich</secondary>
+            </indexterm> erhalten haben, gilt für Charaktere ein Würfelabzug,
+          der sogenannte <firstterm>Verletzungsmalus</firstterm><indexterm
               significance="preferred">
               <primary>Verletzungsmalus</primary>
             </indexterm>. Dieser ist um so geringer, je höher ihre
@@ -1287,7 +1330,7 @@
 
       <para>Für die Charaktererschaffung stehen dem Spieler 630
       <firstterm>Erfahrungspunkte</firstterm><indexterm>
-          <primary>Verletzungsmalus</primary>
+          <primary>Erfahrungspunkte</primary>
         </indexterm> (EP) zur Verfügung, welche die Vorgeschichte und
       Ausbildung des Charakters symbolisieren. Der Spieler kann mit diesen
       Erfahrungspunkten nun beliebig viele Punkte in Attributen und
@@ -1553,21 +1596,37 @@
     Spielleiter eine <firstterm>Probe</firstterm><indexterm>
         <primary>Probe</primary>
       </indexterm> verlangen. Meist wird dies eine
-    <firstterm>Fertigkeitsprobe</firstterm> sein, es sind jedoch auch
-    <firstterm>Attributsproben</firstterm> möglich.</para>
+    <firstterm>Fertigkeitsprobe</firstterm><indexterm significance="preferred">
+        <primary>Fertigkeit</primary>
+      </indexterm> sein, es sind jedoch auch
+    <firstterm>Attributsproben</firstterm><indexterm significance="preferred">
+        <primary>Attribut</primary>
+      </indexterm> möglich.</para>
 
     <section>
       <title>Würfelanzahl</title>
 
-      <para>Eine Probe wird durch das Rollen mehrerer zwanzigseitiger Würfel
+      <para>Eine Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> wird durch das Rollen mehrerer zwanzigseitiger Würfel
       (kurz: <firstterm>W20</firstterm>) durchgeführt. Zunächst wird die
       Anzahl der Würfel ermittelt. Sie entspricht der Anzahl der Punkte im
       jeweiligen Attribut oder, bei Fertigkeitsproben, der Summe aus
-      Fertigkeitspunkten und Punkten im zugeordneten Attribut.</para>
+      Fertigkeitspunkten<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> und Punkten im zugeordneten Attribut<indexterm
+          significance="preferred">
+          <primary>Attribut</primary>
+        </indexterm>.</para>
 
-      <para>Fertigkeiten sind dem jeweils angegebenen Attribut jedoch nicht
-      fest zugeordnet. Stattdessen kann vom Spielleiter jederzeit ein besser
-      zur Situation passendes Attribut bestimmt werden.</para>
+      <para>Fertigkeiten sind dem jeweils angegebenen Attribut<indexterm
+          significance="preferred">
+          <primary>Attribut</primary>
+        </indexterm> jedoch nicht fest zugeordnet. Stattdessen kann vom
+      Spielleiter jederzeit ein besser zur Situation passendes
+      Attribut<indexterm significance="preferred">
+          <primary>Attribut</primary>
+        </indexterm> bestimmt werden.</para>
 
       <informalexample>
         <para><emphasis>Beispiele:</emphasis></para>
@@ -1707,13 +1766,17 @@
       </informaltable>
 
       <para>Anschließend rollt der Spieler seine Würfel und versucht die
-      angesagte Schwierigkeit mit möglichst vielen Würfeln zu erreichen oder
-      zu übertreffen. Jeden dieser Würfel zählt der Spieler als einen
+      angesagte Schwierigkeit<indexterm>
+          <primary>Schwierigkeit</primary>
+        </indexterm> mit möglichst vielen Würfeln zu erreichen oder zu
+      übertreffen. Jeden dieser Würfel zählt der Spieler als einen
       <firstterm>Erfolg</firstterm><indexterm>
           <primary>Erfolg</primary>
-        </indexterm>. Ist mindestens ein Erfolg vorhanden, ist die Probe
-      <firstterm>gelungen</firstterm>. Hat ein Spieler keine Erfolge, ist die
-      Aktion <firstterm>gescheitert</firstterm>.</para>
+        </indexterm>. Ist mindestens ein Erfolg vorhanden, ist die
+      Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> <firstterm>gelungen</firstterm>. Hat ein Spieler keine
+      Erfolge, ist die Aktion <firstterm>gescheitert</firstterm>.</para>
 
       <informalexample>
         <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den
@@ -1744,15 +1807,22 @@
 
       <para><indexterm>
           <primary>Vergleichswurf</primary>
-        </indexterm>Um zwei gelungene Proben zu vergleichen, wird einfach die
-      Anzahl der Erfolge herangezogen. Derjenige mit mehr Erfolgen hat
-      „gewonnen“. Sollte die Anzahl der Erfolge gleich sein, gilt der
-      Vergleich als unentschieden. Falls diese Regel auf eine Situation nicht
-      anwendbar ist, entscheidet ein einfacher W20-Wurf, welcher der beiden
-      Charaktere gewinnt.</para>
+        </indexterm>Um zwei gelungene Proben<indexterm>
+          <primary>Probe</primary>
+        </indexterm> zu vergleichen, wird einfach die Anzahl der
+      Erfolge<indexterm>
+          <primary>Erfolg</primary>
+        </indexterm> herangezogen. Derjenige mit mehr Erfolgen<indexterm>
+          <primary>Erfolg</primary>
+        </indexterm> hat „gewonnen“. Sollte die Anzahl der Erfolge<indexterm>
+          <primary>Erfolg</primary>
+        </indexterm> gleich sein, gilt der Vergleich als unentschieden. Falls
+      diese Regel auf eine Situation nicht anwendbar ist, entscheidet ein
+      einfacher W20-Wurf, welcher der beiden Charaktere gewinnt.</para>
 
-      <para>Ein solcher <firstterm>Vergleichswurf</firstterm> findet auch in
-      unserem Beispiel statt:</para>
+      <para>Ein solcher <firstterm>Vergleichswurf</firstterm><indexterm>
+          <primary>Vergleichswurf</primary>
+        </indexterm> findet auch in unserem Beispiel statt:</para>
 
       <informalexample>
         <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
@@ -1765,33 +1835,64 @@
 
       <para>Die Schwierigkeit für einen Vergleichswurf (in diesem Fall die
       Sinnesschärfe-Probe) sollte natürlich <emphasis>nicht</emphasis> vom
-      Ergebnis der ursprünglichen Probe abhängig gemacht werden, was ja durch
-      den Vergleich der Erfolgsanzahlen sowieso geschieht. In unserem Beispiel
-      hat der Spielleiter also die Schwierigkeit 16 bereits vorher festgelegt,
-      und nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
+      Ergebnis der ursprünglichen Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> abhängig gemacht werden, was ja durch den Vergleich der
+      Erfolgsanzahlen sowieso geschieht. In unserem Beispiel hat der
+      Spielleiter also die Schwierigkeit 16 bereits vorher festgelegt, und
+      nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
     </section>
 
     <section>
       <title>Fehlende Fertigkeit</title>
 
-      <para>Besitzt ein Charakter keine passende Fertigkeit für eine bestimmte
-      Aktion, darf er nach Spielleiterentscheid auch eine Probe mit einer grob
-      verwandten Fertigkeit oder eine Attributsprobe durchführen. In diesem
-      Fall steigt jedoch die Schwierigkeit je nach Verwandtschaft der
-      verwendeten Fertigkeit mit der geforderten.</para>
+      <para>Besitzt ein Charakter keine passende Fertigkeit<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> für eine bestimmte Aktion, darf er nach
+      Spielleiterentscheid auch eine Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> mit einer grob verwandten Fertigkeit<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> oder eine Attributsprobe<indexterm
+          significance="preferred">
+          <primary>Attribut</primary>
+        </indexterm><indexterm>
+          <primary>Probe</primary>
+        </indexterm> durchführen. In diesem Fall steigt jedoch die
+      Schwierigkeit je nach Verwandtschaft der verwendeten
+      Fertigkeit<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> mit der geforderten.</para>
     </section>
 
     <section>
       <title>Unterstützende Fertigkeiten</title>
 
-      <para>Häufig haben Charaktere mehrere Fertigkeiten, die in einer
-      bestimmten Situation hilfreich sind. Obwohl eine Probe nur mit einer
-      einzelnen Fertigkeit durchgeführt werden kann, ist es möglich eine
-      zusätzliche Fertigkeit als Unterstützung zu verwenden. Wenn der
-      Spielleiter diese zusätzliche Fertigkeit für die konkrete Aufgabe als
-      passend erachtet, erhält der Charakter Bonuswürfel für die
-      Fertigkeitsprobe. Die Anzahl der Bonuswürfel beträgt ein Drittel des
-      Werts der unterstützenden Fertigkeit (aufgerundet).<informalexample>
+      <para>Häufig haben Charaktere mehrere Fertigkeiten<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm>, die in einer bestimmten Situation hilfreich sind. Obwohl
+      eine Probe nur mit einer einzelnen Fertigkeit<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> durchgeführt werden kann, ist es möglich eine zusätzliche
+      Fertigkeit<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> als Unterstützung zu verwenden. Wenn der Spielleiter
+      diese zusätzliche Fertigkeit<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> für die konkrete Aufgabe als passend erachtet, erhält der
+      Charakter Bonuswürfel für die Fertigkeitsprobe<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm><indexterm>
+          <primary>Probe</primary>
+        </indexterm>. Die Anzahl der Bonuswürfel beträgt ein Drittel des Werts
+      der unterstützenden Fertigkeit<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> (aufgerundet).<informalexample>
           <para><emphasis>Beispiele:</emphasis></para>
 
           <itemizedlist>
@@ -1817,30 +1918,93 @@
   <chapter xml:id="schaden">
     <title>Gesundheit</title>
 
-    <section>
-      <title>Körperlicher Schaden</title>
+    <para>Der Gesundheitszustand eines Charakters schlägt sich regeltechnisch
+    in drei Aspekten nieder:</para>
 
-      <para><indexterm significance="preferred">
+    <itemizedlist>
+      <listitem>
+        <para>Körperlicher Schaden<indexterm significance="preferred">
+            <primary>Schaden</primary>
+
+            <secondary>körperlich</secondary>
+          </indexterm></para>
+      </listitem>
+
+      <listitem>
+        <para>Geistiger Schaden<indexterm>
+            <primary>Schaden</primary>
+
+            <secondary>geistig</secondary>
+          </indexterm></para>
+      </listitem>
+
+      <listitem>
+        <para>Krankheit<indexterm>
+            <primary>Krankheit</primary>
+          </indexterm></para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Gemeinsam ist allen drei Aspekten, dass Schädigungen durch Ankreuzen
+    der Stufen einer Leiste auf dem Charakterblatt vermerkt werden. Nach und
+    nach werden dann abhängig von den Umständen und der im Spiel vergangenen
+    Zeit diese Schädigungen wieder abgebaut.</para>
+
+    <para>Bei jeder Stufe ist ein Würfelmalus angegeben, der sogenannte
+    Verletzungsmalus<indexterm>
+        <primary>Verletzungsmalus</primary>
+      </indexterm>. Der bei der zuletzt angekreuzten Stufe angegebene
+    Verletzungsmalus<indexterm>
+        <primary>Verletzungsmalus</primary>
+      </indexterm> wird auf alle Proben<indexterm>
+        <primary>Probe</primary>
+      </indexterm> außer Widerstandswürfen<indexterm>
+        <primary>Widerstandswurf</primary>
+      </indexterm> (siehe <xref linkend="schaden_und_widerstand"
+    xrefstyle="page" />) und Kraftsammelproben (siehe <xref
+    linkend="kraft_sammeln" xrefstyle="page" />) angewendet sowie auf die
+    Initiative<indexterm>
+        <primary>Initiative</primary>
+      </indexterm> (siehe <xref linkend="kampf" xrefstyle="page" />)
+    angerechnet. Die durch körperlichen und geistigen Schaden sowie
+    Krankheiten verursachten Verletzungsmali<indexterm>
+        <primary>Verletzungsmalus</primary>
+      </indexterm> sind dabei nicht kumulativ; es gilt nur der jeweils höchste
+    Malus.</para>
+
+    <para>In den folgenden Abschnitten werden die Regelmechanismen der
+    einzelnen Aspekte vorgestellt.</para>
+
+    <section>
+      <title>Körperlicher Schaden<indexterm significance="preferred">
           <primary>Schaden</primary>
 
           <secondary>körperlich</secondary>
-        </indexterm>Der Gesundheitszustand eines Charakters wird durch die
-      acht Stufen seiner <firstterm
+        </indexterm></title>
+
+      <para>Die physische Verfassung eines Charakters wird durch die acht
+      Stufen seiner <firstterm
       baseform="Körperliche Schadensleiste">körperlichen
       Schadensleiste</firstterm><indexterm>
           <primary>Schadensleiste</primary>
 
           <secondary>körperlich</secondary>
         </indexterm> repräsentiert. Für jeden Punkt <firstterm
-      baseform="Körperlicher Schaden">körperlichen Schadens</firstterm>, den
-      er erhält, wird eine dieser Stufen angekreuzt.</para>
+      baseform="Körperlicher Schaden">körperlichen Schadens<indexterm
+          significance="preferred">
+          <primary>Schaden</primary>
+
+          <secondary>körperlich</secondary>
+        </indexterm></firstterm>, den er erhält, wird eine dieser Stufen
+      angekreuzt.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
-      er. Abhängig von seiner Willenskraft<indexterm>
+      er. Der Verletzungsmalus<indexterm>
+          <primary>Verletzungsmalus</primary>
+        </indexterm> ist dabei abhängig von seiner Willenskraft<indexterm>
           <primary>Willenskraft</primary>
-        </indexterm> gelten für einen Charakter verschiedene Würfelmali (siehe
-      <xref linkend="verletzungsmali" />), für einen Charakter mit
-      Willenskraft 3 betragen diese beispielsweise:</para>
+        </indexterm>; für einen Charakter mit Willenskraft 3 gelten
+      beispielsweise folgende Mali:</para>
 
       <informaltable>
         <tgroup cols="10">
@@ -1952,26 +2116,63 @@
         </tgroup>
       </informaltable>
 
-      <para>Der bei der zuletzt angekreuzten Stufe angegebene
-      Verletzungsmalus<indexterm>
-          <primary>Verletzungsmalus</primary>
-        </indexterm> wird auf alle Proben<indexterm>
-          <primary>Probe</primary>
-        </indexterm> außer Widerstandswürfen (siehe <xref
-      linkend="schaden_und_widerstand" xrefstyle="page" />) und
-      Kraftsammelproben (siehe <xref linkend="kraft_sammeln"
-      xrefstyle="page" />) angewendet sowie auf die Initiative (siehe <xref
-      linkend="kampf" xrefstyle="page" />) angerechnet.</para>
-
       <para>Wird die letzte Stufe angekreuzt, verliert der Charakter das
       Bewusstsein und ist dem Tod nahe. Werden seine Wunden umgehend versorgt,
       kann er gerettet werden. Hat der Charakter aber über die letzte Stufe
       hinaus Schaden erhalten, kann ihn allenfalls der sofortige Einsatz von
-      Heilungsmagie retten.</para>
+      Heilungsmagie<indexterm significance="preferred">
+          <primary>Heilung</primary>
+
+          <secondary>magisch</secondary>
+        </indexterm> retten.</para>
+
+      <para>Im Zuge der natürlichen Heilung<indexterm significance="preferred">
+          <primary>Heilung</primary>
+
+          <secondary>natürlich</secondary>
+        </indexterm> werden nach und nach die Schadensstufen wieder abgebaut,
+      beginnend mit der letzten. Pro körperlicher Schadensstufe sind dafür im
+      Normalfall ein bis drei Regenerationsphasen<indexterm>
+          <primary>Regeneration</primary>
+        </indexterm> (ausreichender Nachtschlaf) anzusetzen, abhängig von der
+      Art der Verletzungen (Blutergüsse? Leichte/tiefe Schnittwunden?
+      Quetschungen?).</para>
+
+      <sidebar>
+        <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
+        Orientierung dienen kann und selbstverständlich für manche Fälle (z.B.
+        Knochenbrüche) völlig ungeeignet ist. Hier gilt dann stattdessen die
+        Einschätzung des Spielleiters.</para>
+
+        <para>Übrigens bezieht sich der Abbau von Schadensstufen<indexterm>
+            <primary>Heilung</primary>
+
+            <secondary>natürlich</secondary>
+          </indexterm> eher auf das Nachlassen der negativen Auswirkungen von
+        Verletzungen als auf den Abschluss der Heilung aus medizinischer
+        Sicht. So ist z.B. eine Schnittwunde nach ihrer regeltechnischen
+        Regeneration<indexterm>
+            <primary>Regeneration</primary>
+          </indexterm> natürlich nicht vollständig verschwunden, sondern
+        verursacht lediglich keine Schmerzen mehr.</para>
+      </sidebar>
+
+      <para>Verhält sich der Charakter nicht seinen Verletzungen entsprechend,
+      in dem er z.B. Wunden nicht reinigt und verbindet oder trotz schwerer
+      Verletzungen Gewaltmärsche unternimmt, findet im günstigsten Fall keine
+      Regeneration<indexterm>
+          <primary>Regeneration</primary>
+        </indexterm> statt, während im ungünstigsten Fall Komplikationen wie
+      Wundbrand, wieder aufplatzende Wunden oder andere Folgeschäden
+      auftreten.</para>
     </section>
 
     <section>
-      <title>Geistiger Schaden</title>
+      <title>Geistiger Schaden<indexterm>
+          <primary>Schaden</primary>
+
+          <secondary>geistig</secondary>
+        </indexterm></title>
 
       <para>Nicht jeder Angriff hat körperlichen Schaden zur Folge. So
       verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
@@ -1981,31 +2182,48 @@
           <primary>Schaden</primary>
 
           <secondary>geistig</secondary>
-        </indexterm>verursachen. Dieser Schaden wird durch die zwölf Stufen
-      der <firstterm baseform="Geistige Schadensleiste">geistigen
+        </indexterm>, zum Beispiel in Form von Müdigkeit oder Kopfschmerzen,
+      verursachen. Dieser Schaden wird durch die zwölf Stufen der <firstterm
+      baseform="Geistige Schadensleiste">geistigen
       Schadensleiste</firstterm><indexterm>
           <primary>Schadensleiste</primary>
 
           <secondary>geistig</secondary>
         </indexterm> dargestellt.</para>
 
-      <para>Hat ein Charakter geistigen Schaden erhalten, wird er zunehmend
-      unkonzentrierter und erschöpfter, bis zur völligen Bewusstlosigkeit auf
-      der letzten geistigen Schadensstufe. Darüber hinaus gehender geistiger
-      Schaden wird auf die körperliche Schadensleiste übertragen.</para>
+      <para>Hat ein Charakter geistigen Schaden<indexterm>
+          <primary>Schaden</primary>
 
-      <para>Ebenso wie körperlicher Schaden schlägt sich auch geistiger
-      Schaden in einem Würfelmalus nieder. Hat ein Charakter sowohl
-      körperlichen als auch geistigen Schaden erhalten, gilt der jeweils
-      höhere Verletzungsmalus<indexterm>
+          <secondary>geistig</secondary>
+        </indexterm> erhalten, wird er zunehmend unkonzentrierter und
+      erschöpfter, bis zur völligen Bewusstlosigkeit auf der letzten geistigen
+      Schadensstufe. Darüber hinaus gehender geistiger Schaden<indexterm>
+          <primary>Schaden</primary>
+
+          <secondary>geistig</secondary>
+        </indexterm> wird auf die körperliche Schadensleiste
+      übertragen.</para>
+
+      <para>Die Summe des erhaltenen geistigen Schadens<indexterm>
+          <primary>Schaden</primary>
+
+          <secondary>geistig</secondary>
+        </indexterm> wird in <firstterm>leichten</firstterm>,
+      <firstterm>mittleren</firstterm> und <firstterm>schweren
+      Schaden</firstterm> eingeteilt, wobei jede Kategorie<indexterm>
+          <primary>Schadenskategorie</primary>
+        </indexterm> jeweils vier Schadenspunkte umfasst. In welcher Kategorie
+      sich ein Charakter befindet, ist für die Regeneration<indexterm>
+          <primary>Regeneration</primary>
+        </indexterm> wichtig.</para>
+
+      <para>Für geistigen Schaden<indexterm>
+          <primary>Schaden</primary>
+
+          <secondary>geistig</secondary>
+        </indexterm> gelten folgende Verletzungsmali<indexterm>
           <primary>Verletzungsmalus</primary>
-        </indexterm>.</para>
-
-      <para>Die Summe des erhaltenen Schadens wird in
-      <firstterm>leichten</firstterm>, <firstterm>mittleren</firstterm> und
-      <firstterm>schweren Schaden</firstterm> eingeteilt, wobei jede Kategorie
-      jeweils vier Schadenspunkte umfasst. In welcher Kategorie sich ein
-      Charakter befindet, ist für die Regeneration wichtig.</para>
+        </indexterm>:</para>
 
       <informaltable>
         <tgroup cols="14">
@@ -2175,61 +2393,33 @@
           </tbody>
         </tgroup>
       </informaltable>
-    </section>
 
-    <section>
-      <title>Regeneration<indexterm>
-          <primary>Heilung</primary>
+      <para>Geistiger Schaden<indexterm>
+          <primary>Schaden</primary>
 
-          <secondary>natürliche</secondary>
-        </indexterm><indexterm>
+          <secondary>geistig</secondary>
+        </indexterm> heilt wesentlich schneller als körperlicher Schaden,
+      solange der Charakter keine größeren Anstrengungen wie Kampf oder
+      Zaubern unternimmt. Die Geschwindigkeit ist abhängig von der
+      Schadenskategorie<indexterm>
+          <primary>Schadenskategorie</primary>
+        </indexterm>: Leichter Schaden reduziert sich etwa alle fünf Minuten
+      um eins, mittlerer Schaden alle fünfzehn und schwerer Schaden alle 30
+      Minuten. Dabei wird die jeweils schwerste Schadensstufe zuerst
+      geheilt.</para>
+
+      <para>Eine solche Regeneration<indexterm>
           <primary>Regeneration</primary>
-        </indexterm></title>
-
-      <para>Im Zuge der Heilung werden nach und nach die Schadensstufen wieder
-      abgebaut, beginnend mit der letzten. Pro körperlicher Schadensstufe sind
-      dafür im Normalfall ein bis drei Regenerationsphasen (ausreichender
-      Nachtschlaf) anzusetzen, abhängig von der Art der Verletzungen
-      (Blutergüsse? Leichte/tiefe Schnittwunden? Quetschungen?).</para>
-
-      <sidebar>
-        <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
-        Orientierung dienen kann und selbstverständlich für manche Fälle (z.B.
-        Knochenbrüche) völlig ungeeignet ist. Hier gilt dann stattdessen die
-        Einschätzung des Spielleiters.</para>
-
-        <para>Übrigens bezieht sich der Abbau von Schadensstufen<indexterm>
-            <primary>Heilung</primary>
-
-            <secondary>natürliche</secondary>
-          </indexterm> eher auf das Nachlassen der negativen Auswirkungen von
-        Verletzungen als auf den Abschluss der Heilung aus medizinischer
-        Sicht. So ist z.B. eine Schnittwunde nach ihrer regeltechnischen
-        Regeneration natürlich nicht vollständig verschwunden, sondern
-        verursacht lediglich keine Schmerzen mehr.</para>
-      </sidebar>
-
-      <para>Verhält sich der Charakter nicht seinen Verletzungen entsprechend,
-      in dem er z.B. Wunden nicht reinigt und verbindet oder trotz schwerer
-      Verletzungen Gewaltmärsche unternimmt, findet im günstigsten Fall keine
-      Regeneration statt, während im ungünstigsten Fall Komplikationen wie
-      Wundbrand, wieder aufplatzende Wunden oder andere Folgeschäden
-      auftreten.</para>
-
-      <para>Geistiger Schaden heilt wesentlich schneller als körperlicher
-      Schaden, solange der Charakter keine größeren Anstrengungen wie Kampf
-      oder Zaubern unternimmt. Die Geschwindigkeit ist abhängig von der
-      Schadenskategorie: Leichter Schaden reduziert sich etwa alle fünf
-      Minuten um eins, mittlerer Schaden alle fünfzehn und schwerer Schaden
-      alle 30 Minuten. Dabei wird die jeweils verbleibende schwerste
-      Schadensstufe zuerst geheilt.</para>
-
-      <para>Eine solche Regeneration „zwischendurch“ ist jedoch nicht
-      vollständig, im schlechtesten Fall bleiben die vordersten drei
-      Schadensstufen übrig. Pro Schadenskategorie, die ein Charakter an einem
-      Tag erreicht hat, kann eine Schadensstufe zunächst nicht regeneriert
-      werden. Dies geschieht erst dann, wenn der Charakter das nächste Mal
-      ausreichend lange schläft.</para>
+        </indexterm> „zwischendurch“ ist jedoch nicht vollständig, im
+      schlechtesten Fall bleiben die vordersten drei Schadensstufen übrig. Pro
+      Schadenskategorie<indexterm>
+          <primary>Schadenskategorie</primary>
+        </indexterm>, die ein Charakter seit der letzten
+      Regenerationsphase<indexterm>
+          <primary>Regeneration</primary>
+        </indexterm> erreicht hat, kann eine Schadensstufe zunächst nicht
+      regeneriert werden. Dies geschieht erst dann, wenn der Charakter das
+      nächste Mal ausreichend lange schläft.</para>
 
       <informaltable>
         <tgroup cols="6">
@@ -2253,7 +2443,9 @@
 
               <entry>Schadensstufen</entry>
 
-              <entry>Regenerationszeit</entry>
+              <entry>Regenerationszeit<indexterm>
+                  <primary>Regeneration</primary>
+                </indexterm></entry>
 
               <entry>Übrige Stufen</entry>
 
@@ -2307,43 +2499,45 @@
         </tgroup>
       </informaltable>
 
-      <informalexample>
-        <para>Erhält ein Charakter z.B. morgens 4 geistige Schadenspunkte,
-        kann er 3 davon innerhalb kürzester Zeit wieder regenerieren. Erhält
-        er später nochmals 5 Schadenspunkte und erreicht mittleren Schaden,
-        benötigen die Schadensstufen 6 und 5 jeweils eine Viertelstunde zur
-        Regeneration. Anschließend regenerieren sich die Stufen 4 und 3
-        jeweils innerhalb von fünf Minuten — die restlichen zwei Stufen werden
-        jedoch erst am nächsten Tag regeneriert sein.</para>
-      </informalexample>
-
-      <para>Für beide Schadensarten gilt: der erlittene Schaden ist nicht
-      selbständig vom Spieler durchzustreichen — stattdessen sollte hier kurz
-      Rücksprache mit dem Spielleiter gehalten werden. Insbesondere bei
-      geistigem Schaden ist dies unerlässlich, denn schließlich hat nur der
-      Spielleiter einen genauen Überblick, wie viel gespielte Zeit bereits
-      vergangen ist. Außerdem steht es ihm natürlich frei, die
-      Regenerationszeit wegen besonders günstiger oder ungünstiger Umstände
-      anzupassen.</para>
+      <para><informalexample>
+          <para>Erhält ein Charakter z.B. morgens 4 geistige Schadenspunkte,
+          kann er 3 davon innerhalb kürzester Zeit wieder regenerieren. Erhält
+          er später nochmals 5 Schadenspunkte und erreicht mittleren Schaden,
+          benötigen die Schadensstufen 6 und 5 jeweils eine Viertelstunde zur
+          Regeneration. Anschließend regenerieren sich die Stufen 4 und 3
+          jeweils innerhalb von fünf Minuten — die restlichen zwei Stufen
+          werden jedoch erst am nächsten Tag regeneriert sein.</para>
+        </informalexample></para>
     </section>
 
     <section>
-      <title>Krankheiten</title>
+      <title>Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm></title>
 
-      <para><indexterm>
-          <primary>Krankheiten</primary>
-        </indexterm>Die Auswirkungen von Krankheiten auf einen Charakter
-      werden in einer <firstterm>Krankheitsleiste</firstterm><indexterm>
+      <para>Die Auswirkungen von Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> auf einen Charakter werden in einer
+      <firstterm>Krankheitsleiste</firstterm><indexterm>
           <primary>Krankheitsleiste</primary>
         </indexterm> analog zur körperlichen Schadensleiste repräsentiert.
       Eine Krankheit beginnt bei der Krankheitsstufe 1. Diese Stufe steigt im
-      weiteren Fortschreiten der Krankheit und sinkt bei Genesung oder
-      Heilung.</para>
+      weiteren Fortschreiten der Krankheit<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> und sinkt bei Genesung oder Heilung. Anders als bei
+      körperlichem und geistigem Schaden gibt es bei Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> jedoch keine Zeitvorgaben. So ist es zum Beispiel
+      möglich, dass eine überwunden geglaubte, aber nicht völlig geheilte
+      Krankheit<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> wieder ausbricht.</para>
 
-      <para>Wie bei körperlichem und geistigem Schaden verursacht auch die
-      aktuelle Krankheitsstufe einen Würfelmalus, nach unten stehender
-      Tabelle. Es gilt auch hier jedoch immer nur der jeweils höchste Malus
-      (körperlich, geistig oder Krankheit).</para>
+      <para>Der durch Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> verursachte Verletzungsmalus<indexterm>
+          <primary>Verletzungsmalus</primary>
+        </indexterm> ist in der unten stehenden Tabelle angegeben.</para>
 
       <informaltable>
         <tgroup cols="10">
@@ -2463,31 +2657,31 @@
     <title>Kampf</title>
 
     <section>
-      <title>Kampfrunde &amp; Initiative</title>
+      <title>Initiative<indexterm>
+          <primary>Initiative</primary>
+        </indexterm></title>
 
-      <para>Geraten Charaktere in einen Kampf, werden alle Aktionen in Runden
-      abgewickelt. Eine <firstterm>Kampfrunde</firstterm><indexterm>
-          <primary>Kampfrunde</primary>
-        </indexterm> entspricht dabei etwa drei Sekunden der gespielten Zeit.
-      Innerhalb einer Kampfrunde passiert zwar alles nahezu gleichzeitig —
-      dennoch gibt es immer Beteiligte, die einen Tick schneller reagieren und
-      den Überblick über das Kampfgeschehen haben. Um diesen Umstand
-      darzustellen, wird zu Beginn einer jeden Runde in der sogenannten
-      <firstterm>Initiativephase</firstterm><indexterm>
-          <primary>Initiativephase</primary>
-        </indexterm> die <firstterm>Initiative</firstterm><indexterm>
+      <para>In jedem Kampf gibt es einige Beteiligte, die einen Tick schneller
+      reagieren und den Überblick über das Kampfgeschehen haben. Um diesen
+      Umstand darzustellen, wird zu Beginn des Kampfes die
+      <firstterm>Initiative</firstterm><indexterm>
           <primary>Initiative</primary>
         </indexterm> ermittelt, um die Reihenfolge der einzelnen Kämpfer
-      festzulegen. Die Initiative ist die Summe aus folgenden Werten:</para>
+      festzulegen. Die Initiative<indexterm>
+          <primary>Initiative</primary>
+        </indexterm> ist die Summe aus folgenden Werten:</para>
 
       <orderedlist>
         <listitem>
-          <para>Initiativebasiswert (siehe <xref
-          linkend="initiativebasis" />)</para>
+          <para>Initiativebasiswert<indexterm>
+              <primary>Initiativebasiswert</primary>
+            </indexterm> (siehe <xref linkend="initiativebasis" />)</para>
         </listitem>
 
         <listitem>
-          <para>Initiativemalus der geführten Waffe (siehe <xref
+          <para>Initiativemalus (IM)<indexterm>
+              <primary>Initiativemalus</primary>
+            </indexterm> der geführten Waffe (siehe <xref
           linkend="waffen" />)</para>
         </listitem>
 
@@ -2509,16 +2703,17 @@
         </listitem>
       </orderedlist>
 
-      <para>Haben mehrere Beteiligte die gleiche Initiative, entscheiden
-      zusätzliche W20-Würfe über ihre Reihenfolge untereinander.</para>
+      <para>Haben mehrere Beteiligte die gleiche Initiative<indexterm>
+          <primary>Initiative</primary>
+        </indexterm>, entscheiden zusätzliche W20-Würfe über ihre Reihenfolge
+      untereinander.</para>
 
       <sidebar>
-        <para>Das häufige Würfeln der Initiative kann bei längeren Kämpfen
-        lästig sein. Es steht dem Spielleiter daher frei, die Initiative nur
-        zu Beginn eines Kampfes und nach nennenswerten Veränderungen in der
-        Kampfsituation (z.B. Positionswechsel) würfeln zu lassen. Die
-        Reihenfolge der Kämpfer bleibt dann über mehrere Runden
-        unverändert.</para>
+        <para>Bei längeren Kämpfen sollte der Spielleiter nach nennenswerten
+        Veränderungen der Kampfsituation (z.B. Positionswechsel) die
+        Initiativewürfe<indexterm>
+            <primary>Initiative</primary>
+          </indexterm> wiederholen lassen.</para>
       </sidebar>
 
       <informalexample>
@@ -2544,12 +2739,28 @@
         schneller als ihre Gegner, die erst bei 27 und 20 an die Reihe
         kommen.</para>
       </informalexample>
+    </section>
 
-      <para>Jede Kampfrunde ist in <firstterm
+    <section>
+      <title>Kampfrunde<indexterm>
+          <primary>Kampfrunde</primary>
+        </indexterm></title>
+
+      <para>Während eines Kampfes werden alle Aktionen in Runden abgewickelt.
+      Eine <firstterm>Kampfrunde</firstterm><indexterm>
+          <primary>Kampfrunde</primary>
+        </indexterm> entspricht dabei etwa drei Sekunden der gespielten
+      Zeit.</para>
+
+      <para>Jede Kampfrunde<indexterm>
+          <primary>Kampfrunde</primary>
+        </indexterm> ist in <firstterm
       baseform="Aktionsphase">Aktionsphasen</firstterm><indexterm>
           <primary>Aktionsphase</primary>
         </indexterm> eingeteilt, eine für jeden Charakter. Während seiner
-      Aktionsphase kann ein Charakter genau eine Handlung<indexterm>
+      Aktionsphase<indexterm>
+          <primary>Aktionsphase</primary>
+        </indexterm> kann ein Charakter genau eine Handlung<indexterm>
           <primary>Handlung</primary>
         </indexterm> durchführen, die sogenannte
       <firstterm>Aktion</firstterm><indexterm significance="preferred">
@@ -2557,9 +2768,14 @@
         </indexterm>. Des weiteren kann er eine
       <firstterm>Reaktion</firstterm><indexterm>
           <primary>Reaktion</primary>
-        </indexterm> während der Aktionsphasen anderer Charaktere durchführen.
-      Diese Reaktion kann sowohl vor als auch nach seiner eigenen Aktionsphase
-      stattfinden.</para>
+        </indexterm> während der Aktionsphasen<indexterm>
+          <primary>Aktionsphase</primary>
+        </indexterm> anderer Charaktere durchführen. Diese Reaktion<indexterm>
+          <primary>Reaktion</primary>
+        </indexterm> kann sowohl vor als auch nach seiner eigenen
+      Aktionsphase<indexterm>
+          <primary>Aktionsphase</primary>
+        </indexterm> stattfinden.</para>
 
       <para>Die folgende Tabelle enthält Beispiele für Handlungen<indexterm>
           <primary>Handlung</primary>
@@ -2655,15 +2871,17 @@
     <section>
       <title>Ankündigungsphase</title>
 
-      <para>Nach der Initiativephase folgt die
+      <para>Am Beginn jeder Runde steht die
       <firstterm>Ankündigungsphase</firstterm><indexterm>
           <primary>Ankündigungsphase</primary>
         </indexterm>, in der nacheinander alle Kämpfer (beginnend mit dem
       „langsamsten“) ankündigen, welche Handlungen<indexterm>
           <primary>Handlung</primary>
         </indexterm> sie in dieser Runde durchführen wollen. Durch diese
-      Ankündigung können schnellere Kämpfer mit höherer Initiative auf die
-      langsameren reagieren und haben einen taktischen Vorteil.</para>
+      Ankündigung können schnellere Kämpfer mit höherer Initiative<indexterm>
+          <primary>Initiative</primary>
+        </indexterm> auf die langsameren reagieren und haben einen taktischen
+      Vorteil.</para>
 
       <para>Bei der Ankündigung legt der Kämpfer fest, welche Aktion<indexterm>
           <primary>Aktion</primary>
@@ -2672,24 +2890,37 @@
         </indexterm> durchführen wird und welche Reaktion<indexterm>
           <primary>Reaktion</primary>
         </indexterm> er sich für die Aktionsphasen seiner Gegner aufbewahrt.
-      Bei Aktionen wird dabei auch das Ziel festgelegt, z.B. "Schwertangriff
+      Bei Aktionen<indexterm>
+          <primary>Aktion</primary>
+        </indexterm> wird dabei auch das Ziel festgelegt, z.B. "Schwertangriff
       auf den mittleren Soldaten".</para>
 
       <para>Außerdem werden die Würfelanzahlen festgelegt:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Erfordern beide Handlungen eine Probe<indexterm>
+          <para>Erfordern beide Handlungen<indexterm>
+              <primary>Handlung</primary>
+            </indexterm> eine Probe<indexterm>
               <primary>Probe</primary>
             </indexterm>, verteilt der Kämpfer die höhere Würfelanzahl auf
-          Aktion und Reaktion. Dabei darf er höchstens so viele Würfel
-          zuteilen, wie er tatsächlich für den jeweiligen Wurf besitzt.</para>
+          Aktion<indexterm>
+              <primary>Aktion</primary>
+            </indexterm> und Reaktion<indexterm>
+              <primary>Reaktion</primary>
+            </indexterm>. Dabei darf er höchstens so viele Würfel zuteilen,
+          wie er tatsächlich für den jeweiligen Wurf besitzt.</para>
         </listitem>
 
         <listitem>
-          <para>Verzichtet der Kämpfer auf Aktion oder Reaktion oder erfordert
-          eine der beiden Handlungen keine Probe, erhält er für die
-          verbliebene Handlung deren reguläre Würfelanzahl.</para>
+          <para>Verzichtet der Kämpfer auf Aktion<indexterm>
+              <primary>Aktion</primary>
+            </indexterm> oder Reaktion<indexterm>
+              <primary>Reaktion</primary>
+            </indexterm> oder erfordert eine der beiden Handlungen<indexterm>
+              <primary>Handlung</primary>
+            </indexterm> keine Probe, erhält er für die verbliebene Handlung
+          deren reguläre Würfelanzahl.</para>
         </listitem>
       </itemizedlist>
 
@@ -2733,12 +2964,14 @@
         </indexterm></title>
 
       <para>Um festzustellen, ob ein Angriff gelingt, wird ein
-      <firstterm>Angriffswurf</firstterm> mit den dafür zugeteilten Würfeln
-      gegen die bei der Waffe angegebene Schwierigkeit durchgeführt. Diese
-      kann, je nach Situation, noch modifiziert werden; das Anvisieren des
-      Kopfes entspricht zum Beispiel +6. Kommen keine Erfolge zu stande, ist
-      der Angriff fehlgeschlagen. Wurde mindestens ein Erfolg erzielt, wird
-      als nächstes ein eventuelles Verteidigungsmanöver berücksichtigt.</para>
+      <firstterm>Angriffswurf</firstterm><indexterm>
+          <primary>Angriffswurf</primary>
+        </indexterm> mit den dafür zugeteilten Würfeln gegen die bei der Waffe
+      angegebene Schwierigkeit durchgeführt. Diese kann, je nach Situation,
+      noch modifiziert werden; das Anvisieren des Kopfes entspricht zum
+      Beispiel +6. Kommen keine Erfolge zu stande, ist der Angriff
+      fehlgeschlagen. Wurde mindestens ein Erfolg erzielt, wird als nächstes
+      ein eventuelles Verteidigungsmanöver berücksichtigt.</para>
     </section>
 
     <section>
@@ -2798,18 +3031,18 @@
       entspricht einem weiteren Schadenspunkt.</para>
 
       <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
-      Angegriffene versuchen, ihn zu minimieren. Dieser <firstterm>körperliche
-      Widerstandswurf</firstterm><indexterm>
+      Angegriffene mit seiner Konstitution versuchen, ihn zu minimieren.
+      Dieser <firstterm>körperliche Widerstandswurf</firstterm><indexterm>
           <primary>Widerstandswurf</primary>
 
           <secondary>körperlich</secondary>
-        </indexterm> ist eine Konstitutionsprobe<indexterm>
+        </indexterm> wird mit den Würfeln aus dem Attribut
+      Konstitution<indexterm significance="preferred">
           <primary>Konstitution</primary>
-        </indexterm>, die sowohl die körperliche Widerstandsfähigkeit
-      repräsentiert als auch ein „Wegdrehen-in-letzter-Sekunde“. Sie wird
-      immer gegen eine Schwierigkeit von 11 durchgeführt. Die Anzahl der
-      Erfolge des Widerstandswurfs wird nun von den Schadenspunkten abgezogen.
-      Die übrigen Erfolge sind die Schadenspunkte, die dem Charakter
+        </indexterm> gegen eine Schwierigkeit von 11 durchgeführt. Die Anzahl
+      der Erfolge wird nun von den Schadenspunkten abgezogen.</para>
+
+      <para>Die übrigen Erfolge sind die Schadenspunkte, die dem Charakter
       tatsächlich zugefügt und auf seinem Charakterblatt vermerkt werden
       (siehe <xref linkend="schaden" />).</para>
 
@@ -3715,7 +3948,9 @@
 
               <entry><para>Schaden</para></entry>
 
-              <entry>IM</entry>
+              <entry>IM<indexterm>
+                  <primary>Initiativemalus</primary>
+                </indexterm></entry>
 
               <entry>Reichweite</entry>
 
@@ -4618,7 +4853,7 @@
         <para>Bei Heilungen<indexterm>
             <primary>Heilung</primary>
 
-            <secondary>magische</secondary>
+            <secondary>magisch</secondary>
           </indexterm> ist zu beachten, dass dieselben Verletzungen auf
         magische Weise nur einmal geheilt werden können. Werden also z.B. die
         von einem Schwerthieb verursachten 5 Punkte körperlicher Schaden
@@ -4640,7 +4875,11 @@
             <term>Typische Effekte:</term>
 
             <listitem>
-              <para>Heilung, Verbesserung körperlicher Fähigkeiten,
+              <para>Heilung<indexterm>
+                  <primary>Heilung</primary>
+
+                  <secondary>magisch</secondary>
+                </indexterm>, Verbesserung körperlicher Fähigkeiten,
               Beeinflussung von Schmerzen</para>
             </listitem>
           </varlistentry>
