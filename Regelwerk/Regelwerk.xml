@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2011</year>
+      <year>2012</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -1906,17 +1906,17 @@
 
           <itemizedlist>
             <listitem>
-              <para>Medizin-Probe unterstützt durch Magiefertigkeit
+              <para>Medizinprobe unterstützt durch Magiefertigkeit
               Lebewesen</para>
             </listitem>
 
             <listitem>
-              <para>Telekinese-Probe zum Öffnen eines Schlosses unterstützt
+              <para>Telekineseprobe zum Öffnen eines Schlosses unterstützt
               durch Fertigkeit Schlösser knacken</para>
             </listitem>
 
             <listitem>
-              <para>Schauspielerei-Probe zum Überreden unterstützt durch
+              <para>Manipulationsprobe zum Überreden unterstützt durch
               Menschenkenntnis</para>
             </listitem>
           </itemizedlist>
@@ -2144,8 +2144,8 @@
       Normalfall ein bis drei Regenerationsphasen<indexterm>
           <primary>Regeneration</primary>
         </indexterm> (ausreichender Nachtschlaf) anzusetzen, abhängig von der
-      Art der Verletzungen (Blutergüsse? Leichte/tiefe Schnittwunden?
-      Quetschungen?).</para>
+      Art der Verletzungen (z.B. Blutergüsse, leichte/tiefe Schnittwunden oder
+      Quetschungen).</para>
 
       <sidebar>
         <para>Beachten Sie, dass die oben angegebene Faustregel nur als grobe
@@ -2187,7 +2187,7 @@
       verursacht eine simple (waffenlose) Prügelei im allgemeinen nur leichte
       Verletzungen — eben blaue Flecken oder harmlose Abschürfungen. Auch
       Zauberei kann beim Anwender solchen <firstterm
-      baseform="Geistiger Schaden">geistigen Schaden</firstterm> <indexterm>
+      baseform="Geistiger Schaden">geistigen Schaden</firstterm><indexterm>
           <primary>Schaden</primary>
 
           <secondary>geistig</secondary>
@@ -2697,18 +2697,16 @@
         <listitem>
           <para>Verletzungsmalus<indexterm>
               <primary>Verletzungsmalus</primary>
-            </indexterm> durch körperlichen oder geistigen Schaden (siehe
-          <xref linkend="schaden" />). Es gilt der jeweils höhere
-          Malus.</para>
+            </indexterm> (siehe <xref linkend="schaden" />)</para>
         </listitem>
 
         <listitem>
           <para>Boni oder Mali je nach Situation, z.B. Malus für überraschte
-          Charaktere.</para>
+          Charaktere</para>
         </listitem>
 
         <listitem>
-          <para>Das Ergebnis eines W20-Wurfs.</para>
+          <para>Das Ergebnis eines W20-Wurfs</para>
         </listitem>
       </orderedlist>
 
@@ -3253,7 +3251,10 @@
 
           <secondary>Fernkampf</secondary>
         </indexterm> der Waffe und folgender Tabelle. Sie zeigt die maximale
-      Distanz in Metern, die noch zur jeweiligen Distanzklasse gehört.</para>
+      Distanz in Metern, die noch zur jeweiligen Distanzklasse gehört. Einige
+      Reichweitenklassen werden übrigens nicht für Waffen, sondern nur für
+      Zauber verwendet, sind aber der Übersicht wegen ebenfalls hier
+      aufgeführt.</para>
 
       <informaltable xml:id="reichweitentabelle">
         <tgroup cols="7">
@@ -3648,7 +3649,7 @@
           <listitem>
             <para>Nun sagt Tharion zur Sicherheit an, maximal 3 Kraftpunkte
             sammeln zu wollen. Er erzielt 2 Erfolge und hat damit nun 4
-            Kraftpunkte gesammelt. </para>
+            Kraftpunkte gesammelt.</para>
           </listitem>
 
           <listitem>
@@ -3904,20 +3905,14 @@
         </listitem>
 
         <listitem>
-          <para>Ist der Zauber besonders gefährlich? Es ist z.B. denkbar, dass
-          der Widerstandswurf schwerer ist, oder dem Zaubernden grundsätzlich
-          Schaden zugefügt wird.</para>
-        </listitem>
-
-        <listitem>
           <para>Passt er ins Machtgefüge dieses Gebiets? Macht er vielleicht
           andere Zauber völlig überflüssig, oder kann der Effekt bereits
           einfacher mit vorhandenen Zaubern erreicht werden?</para>
         </listitem>
 
         <listitem>
-          <para>Weicht dieser Zauber von den Magierichtlinien ab?
-          Warum?</para>
+          <para>Widerspricht dieser Zauber der Beschreibung der
+          Magiefertigkeit? Warum?</para>
         </listitem>
 
         <listitem>
@@ -5130,7 +5125,7 @@
             <term>Reichweite:</term>
 
             <listitem>
-              <para>C, keine Modifikation nach Größe des Ziels</para>
+              <para>C</para>
             </listitem>
           </varlistentry>
 
@@ -5241,7 +5236,17 @@
             <term>Reichweite:</term>
 
             <listitem>
-              <para>G</para>
+              <para>A (zu teleportierendes Objekt bzw. Ort des diesseitigen
+              Tors)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para>Abhängig von der Größe des zu teleportierenden Objekts
+              bzw. des Tors sowie der zu überbrückenden Distanz</para>
             </listitem>
           </varlistentry>
 
@@ -5271,11 +5276,55 @@
         Normaltemperatur brennende Flüssigkeit, durch Umwandlung der
         vorhandenen Erde oder Luft bereitgestellt.</para>
 
-        <para>Die Schwierigkeit richtet sich nach der Verwandtschaft von
-        Ausgangs- und Zielstoff. Eine grobe Richtschnur kann hier das moderne
-        Periodensystem der Elemente bilden (z.B. Nähe von Blei und Gold), aber
-        auch "unwissenschaftlichere" Vorstellungen der Spielwelt ("Alkohol und
-        Wasser sind fast dasselbe").</para>
+        <variablelist>
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit:</term>
+
+            <listitem>
+              <para>Je geringer die Verwandtschaft von Ausgangs- und
+              Zielstoff, desto höher ist die Schwierigkeit. Eine grobe
+              Richtschnur kann hier das moderne Periodensystem der Elemente
+              bilden (z.B. Nähe von Blei und Gold), aber auch
+              "unwissenschaftlichere" Vorstellungen der Spielwelt ("Alkohol
+              und Wasser sind fast dasselbe").</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para>Abhängig vom Gesamtgewicht der umzuwandelnden
+              Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Flammenstrahl</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Unbelebte Materie</title>
+
+        <para>Die Fertigkeit Unbelebte Materie umfasst alle Veränderungen an
+        Form und Stoffeigenschaften von Objekten. Dazu zählen z.B. neben
+        einfachen Verformungen jegliche Änderungen an Farbe,
+        Oberflächenbeschaffenheit, Gewicht, Schmelz- und Siedepunkt. Des
+        weiteren können Objekte erhitzt oder abgekühlt werden.</para>
 
         <variablelist>
           <varlistentry>
@@ -5287,11 +5336,21 @@
           </varlistentry>
 
           <varlistentry>
+            <term>Schwierigkeit:</term>
+
+            <listitem>
+              <para>Extreme Veränderungen sind schwieriger als subtile. Eine
+              vorhandene Stoffeigenschaft leicht zu verändern entspricht z.B.
+              einer Schwierigkeit von 7.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Kraftaufwand:</term>
 
             <listitem>
-              <para>Abhängig vom Gesamtgewicht der umzuwandelnden
-              Materie.</para>
+              <para>Abhängig vom Gesamtgewicht der zu verändernden
+              Materie</para>
             </listitem>
           </varlistentry>
 
@@ -5299,7 +5358,7 @@
             <term>Typische Effekte:</term>
 
             <listitem>
-              <para>Flammenstrahl</para>
+              <para>Festigkeit verändern, Entzünden</para>
             </listitem>
           </varlistentry>
         </variablelist>

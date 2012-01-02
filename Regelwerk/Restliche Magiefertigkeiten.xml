@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2011</year>
+      <year>2012</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -31,36 +31,6 @@
 
     <section>
       <title>Erster Grad</title>
-
-      <section>
-        <title>Unbelebte Materie</title>
-
-        <para>beschäftigt sich mit dem Verformen von allen toten Materialien.
-        Änderungen von einfachen Stoffeigenschaften sind ebenfalls möglich,
-        wie z.B. Farbe, Oberflächenbeschaffenheit sowie bedingt auch
-        Festigkeit.</para>
-
-        <para>Eine vorhandene Stoffeigenschaft leicht zu verändern entspricht
-        einer Schwierigkeit von 7.</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>B</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
 
       <section>
         <title>Wasser</title>
