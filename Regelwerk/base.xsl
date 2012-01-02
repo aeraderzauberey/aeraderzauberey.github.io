@@ -37,8 +37,8 @@
   <xsl:param name="body.margin.top">0</xsl:param>
   <xsl:param name="region.before.extent">0</xsl:param>
 
-  <xsl:param name="header.rule" select="0"></xsl:param>
-  <xsl:param name="footer.rule" select="0"></xsl:param>
+  <xsl:param name="header.rule">0</xsl:param>
+  <xsl:param name="footer.rule">0</xsl:param>
   
   <!-- Set the page number format to 1,2,3,... -->
   <xsl:template name="page.number.format">1</xsl:template>
@@ -265,21 +265,20 @@
 
   
   <!-- column configuration -->
-  <xsl:param name="column.count.body" select="1"></xsl:param>
+  <xsl:param name="column.count.body">1</xsl:param>
   <xsl:attribute-set name="component.titlepage.properties">
     <xsl:attribute name="span">all</xsl:attribute>
     <xsl:attribute name="margin-bottom">1em</xsl:attribute>
   </xsl:attribute-set>
 
 
-  <xsl:param name="body.start.indent" select="'0pt'"></xsl:param>
+  <xsl:param name="body.start.indent">0pt</xsl:param>
   <xsl:param name="body.font.master">12</xsl:param>
-  <xsl:param name="line-height" select="1.2"></xsl:param>
-  <!--<xsl:param name="line-height" select="2.4"></xsl:param>-->
+  <xsl:param name="line-height">1.2</xsl:param>
   <xsl:param name="margin.left">none</xsl:param>
 
-  <xsl:param name="table.frame.border.style" select="'none'"></xsl:param>
-  <xsl:param name="table.cell.border.style" select="'none'"></xsl:param>
+  <xsl:param name="table.frame.border.style">none</xsl:param>
+  <xsl:param name="table.cell.border.style">none</xsl:param>
 
 
   <xsl:attribute-set name="informaltable.properties">
