@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2010</year>
+      <year>2012</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -2436,7 +2436,8 @@
             <term>Krafteinsatz</term>
 
             <listitem>
-              <para>Gewicht, Geschwindigkeit</para>
+              <para>Gewicht (1 KP = bis 5 kg, 2 = 10, 3 = 25, 4 = 50...),
+              Geschwindigkeit (0 = 5 m/s, 1 = 10, 2 = 25, 3 = 50...)</para>
             </listitem>
           </varlistentry>
 
@@ -2790,10 +2791,59 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Sendet eine Botschaft zu einem Ziel. Schwierigkeit je nach
-              Beziehung zur Zielperson: Naher Blutsverwandter=6, Langjähriger
-              Freund=8, Bekannter=10, Flüchtige Bekanntschaft=12. Richtung
-              bekannt=-2, Entfernung bekannt=-2.</para>
+              <para>Sendet eine Botschaft zu einem weit entfernten Ziel.
+              Schwierigkeit je nach Beziehung zur Zielperson: Naher
+              Blutsverwandter=6, Langjähriger Freund=8, Bekannter=10,
+              Flüchtige Bekanntschaft=12. Richtung bekannt=-2, Entfernung
+              bekannt=-2.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Gedanken lesen</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Telepathie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>WK * 2 + 10 [Verdeckter Wurf]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Dauer in Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft [Konzentration]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Der Zaubernde liest die Gedanken des Ziels. Übertrifft das
+              Ziel mit einer IN-Probe gegen 15 die Qualität, bemerkt es den
+              Zauber.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -2839,11 +2889,12 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Beidseitige Verbindung zu einem Ziel. Schwierigkeit je
-              nach Beziehung zur Zielperson: Naher Blutsverwandter=8,
-              Langjähriger Freund=10, Bekannter=12, Flüchtige
-              Bekanntschaft=14. Richtung bekannt=-2, Entfernung bekannt=-2.
-              Der Zauber ist langwierig, siehe Magiefertigkeiten.</para>
+              <para>Beidseitige Verbindung zu einem weit entfernten Ziel.
+              Schwierigkeit je nach Beziehung zur Zielperson: Naher
+              Blutsverwandter=8, Langjähriger Freund=10, Bekannter=12,
+              Flüchtige Bekanntschaft=14. Richtung bekannt=-2, Entfernung
+              bekannt=-2. Der Zauber ist langwierig, siehe
+              Magiefertigkeiten.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3183,11 +3234,12 @@
 
             <listitem>
               <para>Das Ziel wird an einen anderen Ort teleportiert. Die
-              Schwierigkeit hängt von der Vertrautheit mit dem Ziel (8=Sicht,
-              12=vor wenigen Minuten dort gewesen/viele Stunden dort
+              Schwierigkeit hängt von der Vertrautheit mit diesem Ort
+              (8=Sicht, 12=vor wenigen Minuten dort gewesen/viele Stunden dort
               verbracht, 16=präzise Karte) sowie der Genauigkeit der
-              Teleportation (-2=bis 10m Abweichung, 0=5m, +2=1m, +4=exakt)
-              ab.</para>
+              Teleportation (-2=bis 10m Abweichung, 0=5m, +2=1m, +4=exakt) und
+              der aktuellen Entfernung zum zu teleportierenden Ziel
+              (Reichweitenklasse A) ab.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3240,6 +3292,57 @@
               oder bis zu eine Minute geöffnet bleiben. Der Zauber ist
               langwierig, das Tor öffnet sich nach etwa 10 Minuten. Die
               Schwierigkeit entspricht der des Teleports.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Unsichtbares Tor</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>Fertigkeiten</term>
+
+            <listitem>
+              <para>Teleportation, Licht</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit</term>
+
+            <listitem>
+              <para>8/12/16 + Genauigkeit + Rw=A</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Krafteinsatz</term>
+
+            <listitem>
+              <para>Kantenlänge in Metern + (Distanz in km)/2 + Dauer in
+              Minuten</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wirkungsdauer</term>
+
+            <listitem>
+              <para>Nach Kraft [Konzentration]</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Beschreibung</term>
+
+            <listitem>
+              <para>Wie "Tor", jedoch ist die jeweils andere Seite nicht im
+              Tor zu sehen. Die Vorderseiten der beiden Tore sind damit fürs
+              bloße Auge nicht mehr zu erkennen, jedoch normal passierbar. Die
+              sonst schwarzen Rückseiten sind ebenfalls unsichtbar, bleiben
+              jedoch "massiv".</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3923,7 +4026,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Elektrizität</para>
+              <para>Elektrizität, Luft</para>
             </listitem>
           </varlistentry>
 
@@ -3976,7 +4079,7 @@
             <term>Fertigkeiten</term>
 
             <listitem>
-              <para>Elektrizität</para>
+              <para>Elektrizität, Lebewesen</para>
             </listitem>
           </varlistentry>
 
@@ -4008,12 +4111,13 @@
             <term>Beschreibung</term>
 
             <listitem>
-              <para>Der nächste Nahkampfangriff verursacht <inlineequation>
+              <para>Lädt eine Hand des Zaubernden so auf, dass der nächste
+              Nahkampfangriff <inlineequation>
                   <mathphrase>(Kraft + 1) * 2 - 1</mathphrase>
                 </inlineequation> Punkte geistigen und <inlineequation>
                   <mathphrase>Kraft</mathphrase>
-                </inlineequation> Punkte körperlichen Schaden, für den keine
-              Widerstandsprobe erlaubt ist.</para>
+                </inlineequation> Punkte körperlichen Schaden verursacht, für
+              den keine Widerstandsprobe erlaubt ist.</para>
             </listitem>
           </varlistentry>
         </variablelist>
