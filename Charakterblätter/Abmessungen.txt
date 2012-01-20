@@ -6,3 +6,13 @@ Abstand der Oberkanten von Trennlinie und Textkasten (mit Spaltenüberschriften)
 Überschriftskasten (Carolingia 20pt, Zeilenabstand 1,00pt, keine Abstände) 0,05 cm unterhalb der Trennlinie
 
 Summe der Breiten beider Trennlinien und des Überschriftskastens: 18,2
+
+--
+
+Trennlinie:
+Regelmäßiges Quadrat als Ersatz für die einzelnen Komponenten der "dreier-Zacken": Kantenlänge 0,1950 cm, Drehung 45° (Scribus)
+
+--
+
+Seitenrahmen
+innerer Bereich 17,5 x 25,5 zentriert -> oben/unten 2,1; links/rechts 1,75
