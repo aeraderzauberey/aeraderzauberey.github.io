@@ -53,22 +53,23 @@
       ins Rollenspiel.</para>
 
       <para>Statt in konkreten Zaubersprüchen werden die magischen Fähigkeiten
-      eines Charakters in sehr allgemeinen Fertigkeiten wie "Lebewesen" oder
-      "Telekinese" ausgedrückt, welche auch untereinander kombiniert werden
-      können. Außerdem kann jeder Spieler, dessen Charakter grundsätzlich in
-      den relevanten Bereichen der Magie bewandert ist, aus heiterem Himmel
-      eine Idee für einen bestimmten magischen Effekt ins Spiel einbringen.
-      Der Spielleiter gibt dann eine Würfelregelung vor, die nicht nur
-      Auskunft gibt über Erfolg oder Misserfolg des Zauberns, sondern auch
-      über die konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite,
-      Dauer, Schnelligkeit etc.).</para>
+      eines Charakters in sehr allgemeinen Fertigkeiten wie
+      <emphasis>Lebewesen</emphasis> oder <emphasis>Telekinese</emphasis>
+      ausgedrückt, welche auch untereinander kombiniert werden können.
+      Außerdem kann jeder Spieler, dessen Charakter grundsätzlich in den
+      relevanten Bereichen der Magie bewandert ist, aus heiterem Himmel eine
+      Idee für einen bestimmten magischen Effekt ins Spiel einbringen. Der
+      Spielleiter gibt dann eine Würfelregelung vor, die nicht nur Auskunft
+      gibt über Erfolg oder Misserfolg des Zauberns, sondern auch über die
+      konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite, Dauer,
+      Schnelligkeit etc.).</para>
     </section>
 
     <section>
       <title>Spielbarkeit</title>
 
       <para>Aera der Zauberey soll ein schnell spielbares System mit leicht zu
-      merkenden Regeln sein, welche dem Erzählen nicht "im Weg stehen". Es
+      merkenden Regeln sein, welche dem Erzählen nicht „im Weg stehen“. Es
       enthält daher weit weniger Regeln als andere Systeme und geht davon aus,
       dass der Spielleiter viele Entscheidungen besser mit Einsatz von
       gesundem Menschenverstand als mit dem Konsultieren eines umfangreichen
@@ -310,9 +311,10 @@
         Fertigkeiten<indexterm significance="preferred">
             <primary>Fertigkeit</primary>
           </indexterm> hinzuzufügen. So kann ein Charakter beispielsweise
-        statt der groben Fertigkeit "Schifffahrt" die speziellere Fertigkeit
-        "Segeln" besitzen. Weiterführende Informationen dazu finden Sie im
-        Anhang <xref linkend="fertigkeitssystem" />.</para>
+        statt der groben Fertigkeit <emphasis>Schifffahrt</emphasis> die
+        speziellere Fertigkeit <emphasis>Segeln</emphasis> besitzen.
+        Weiterführende Informationen dazu finden Sie im Anhang <xref
+        linkend="fertigkeitssystem" />.</para>
 
         <section>
           <title>Talente</title>
@@ -384,7 +386,7 @@
 
                   <entry>GW</entry>
 
-                  <entry>Alles, was über bloßes "über Wasser halten"
+                  <entry>Alles, was über bloßes „über Wasser halten“
                   hinausgeht: Tauchen, Ausweichen; auch Maß für
                   Schnelligkeit</entry>
                 </row>
@@ -429,7 +431,7 @@
 
                   <entry>KL</entry>
 
-                  <entry>"Gute Manieren", Verhalten am Hofe, Anreden &amp;
+                  <entry>„Gute Manieren“, Verhalten am Hofe, Anreden &amp;
                   Titel, höfische Tänze</entry>
                 </row>
 
@@ -1771,7 +1773,7 @@
           <para>Sollte die Anzahl der Erfolge<indexterm>
               <primary>Erfolg</primary>
             </indexterm> gleich sein, gilt der Vergleich als unentschieden.
-          Sollte ein "Unentschieden" in einer Situation nicht in Frage kommen,
+          Sollte ein „Unentschieden“ in einer Situation nicht in Frage kommen,
           entscheidet ein einfacher W20-Wurf, welcher der beiden Charaktere
           gewinnt.</para>
         </listitem>
@@ -2629,8 +2631,8 @@
         </indexterm> er sich für die Aktionsphasen seiner Gegner aufbewahrt.
       Bei Aktionen<indexterm>
           <primary>Aktion</primary>
-        </indexterm> wird dabei auch das Ziel festgelegt, z.B. "Schwertangriff
-      auf den mittleren Soldaten".</para>
+        </indexterm> wird dabei auch das Ziel festgelegt, z.B. „Schwertangriff
+      auf den mittleren Soldaten“.</para>
 
       <para>Außerdem werden die Würfelanzahlen festgelegt:</para>
 
@@ -3344,7 +3346,7 @@
       konnte.</para>
 
       <para>Insbesondere beim Sammeln über mehrere Runden kann es jedoch
-      vorkommen, dass bei der Sammelprobe "zu viele" Erfolge erreicht werden
+      vorkommen, dass bei der Sammelprobe „zu viele“ Erfolge erreicht werden
       und der Charakter so viel Kraft an sich zieht, dass er zu sehr ermüdet.
       Falls ein Spieler dies verhindern will, kann er vor einer Sammelprobe
       ansagen, wieviel Kraft er in dieser Runde höchstens sammeln will.
@@ -3591,7 +3593,7 @@
     <section xml:id="zauberentwicklung">
       <title>Zauberentwicklung</title>
 
-      <para>Unter "Zauberentwicklung" verstehen wir das Erstellen einer Regel,
+      <para>Unter „Zauberentwicklung“ verstehen wir das Erstellen einer Regel,
       wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
       geschieht meist während des Spielabends aufgrund des spontanen Einfalls
       eines Spielers. Der Spielleiter muss hier zunächst festlegen, welche
@@ -4474,7 +4476,7 @@
       unterschiedlichste, zu ihrer Tradition passende Namen geben. Tatsächlich
       funktioniert ihre Magie jedoch auf die gleiche Weise, und so behandelt
       auch dieses Regelwerk alle Zauberkundigen gleich. Die Basis bildet eine
-      einheitliche, quasi "neutrale" Magietheorie.</para>
+      einheitliche, quasi „neutrale“ Magietheorie.</para>
 
       <para>Magie ist nichts Übersinnliches. Sie ist vielmehr die Anwendung
       einer natürlichen, alles umgebenden Kraft. Diese durchzieht in einem
@@ -4484,7 +4486,7 @@
       können, um damit ihre Umgebung zu beeinflussen.</para>
 
       <para>Auf regeltechnischer Ebene verwendet Aera der Zauberey einen
-      "pseudo-wissenschaftlichen" Ansatz; es orientiert sich in gewisser Weise
+      „pseudo-wissenschaftlichen“ Ansatz; es orientiert sich in gewisser Weise
       an den Naturgesetzen. Die Existenz von magischer Energie wird zwar in
       den Naturgesetzen nicht konstatiert, aber deren innere Logik und
       Prinzipien, insbesondere das von Ursache und Wirkung, sind Vorbild für
@@ -4541,7 +4543,7 @@
 
           <para>Wenn ein Zauber abgeschlossen ist und einen Gegenstand
           verändert hat, ist dessen ursprünglicher Zustand verloren. Er kann
-          nicht durch eine Art "Entzauberung" wieder zurückverwandelt werden.
+          nicht durch eine Art „Entzauberung“ wieder zurückverwandelt werden.
           So ist beispielsweise ein Teller, der in die Form einer Tasse
           gebracht wurde, zu einer <emphasis>echten</emphasis> Tasse geworden.
           Die Tasse könnte zwar wieder zu einem Teller verformt werden, der
@@ -4711,7 +4713,7 @@
         <title>Lebewesen</title>
 
         <para>Die Fertigkeit Lebewesen umfasst alle Manipulationen an
-        lebendigen Wesen. Als "Lebewesen" gelten hierbei alle Einheiten, die
+        lebendigen Wesen. Als „Lebewesen“ gelten hierbei alle Einheiten, die
         einen Stoffwechsel besitzen und zur Fortpflanzung fähig sind. Dazu
         zählen neben Tieren und Pflanzen auch Einzeller wie Amöben, nicht
         jedoch Viren.</para>
@@ -4727,7 +4729,7 @@
 
         <para>Verwandlungen von lebendem Gewebe sind ebenfalls möglich, aber
         nur mit hoher Schwierigkeit. Darüber hinaus besitzen Lebewesen eine
-        Art Selbstbeharrungsvermögen — der Körper "weiß" also, was und wie er
+        Art Selbstbeharrungsvermögen — der Körper „weiß“ also, was und wie er
         sein sollte. Durch Zauber hervorgerufene Veränderungen, welche dieser
         körperlichen Identität widersprechen, werden vom Körper langsam, aber
         sicher wieder rückgängig gemacht.</para>
@@ -5035,7 +5037,7 @@
             <listitem>
               <para>Beim Empfangen von Eindrücken ist die Schwierigkeit
               entfernungsunabhängig. Der Zaubernde kann mit Kraft die
-              Eindrücke verstärken und so die "Sichtweite" vergrößern. Richtet
+              Eindrücke verstärken und so die „Sichtweite“ vergrößern. Richtet
               sich das Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen
               oder Objekte zu analysieren, gilt für die Schwierigkeit die
               Reichweitenkategorie A.</para>
@@ -5125,7 +5127,7 @@
         Ziel lokalisieren, was je nach Größe des in Frage kommenden Gebiets
         von einigen Minuten (ein Quadratkilometer) bis hin zu einer Stunde
         (ganzes Land von 20.000 km²) dauern kann. Die Zauberprobe wird vom
-        Spielleiter verdeckt gewürfelt; das Ergebnis "nicht gefunden" kann
+        Spielleiter verdeckt gewürfelt; das Ergebnis „nicht gefunden“ kann
         daher sowohl bedeuten, dass das Ziel sich nicht in dem durchsuchten
         Bereich aufhält als auch dass die Zauberprobe gescheitert ist.</para>
 
@@ -5177,10 +5179,10 @@
 
         <para>Durch diese Tore werden zwei Orte so verbunden, als würden sie
         direkt aneinander grenzen, ähnlich eines Durchgangs zwischen zwei
-        Räumen. Von der jeweiligen "Vorderseite" an einem der Orte blickt man
+        Räumen. Von der jeweiligen „Vorderseite“ an einem der Orte blickt man
         durch das Tor direkt zum anderen Ort. Die jeweilige Rückseite
         erscheint als massive, schwarze Fläche. Das Tor selbst hat keinen
-        sichtbaren "Rahmen" und ist von der Seite nicht zu sehen.</para>
+        sichtbaren „Rahmen“ und ist von der Seite nicht zu sehen.</para>
 
         <para>Tore sind im Allgemeinen kraftaufwändiger als ein Teleport,
         eignen sich allerdings besser zur Überbrückung großer Strecken und zum
@@ -5264,8 +5266,8 @@
               Zielstoff, desto höher ist die Schwierigkeit. Eine grobe
               Richtschnur kann hier das moderne Periodensystem der Elemente
               bilden (z.B. Nähe von Blei und Gold), aber auch
-              "unwissenschaftlichere" Vorstellungen der Spielwelt ("Alkohol
-              und Wasser sind fast dasselbe").</para>
+              „unwissenschaftlichere“ Vorstellungen der Spielwelt („Alkohol
+              und Wasser sind fast dasselbe“).</para>
             </listitem>
           </varlistentry>
 
@@ -5399,59 +5401,98 @@
 
     <para>Die Fertigkeitsliste in diesem Regelwerk (siehe <xref
     linkend="fertigkeitsliste" xrefstyle="page" />) ist bewusst kurz gehalten,
-    um jeder Gruppe die Möglichkeit zu geben den Zuschnitt der Fertigkeiten
-    auf die eigenen Bedürfnisse anzupassen, umgekehrt aber auch keine
-    "überflüssigen" Fertigkeiten zu nennen.</para>
+    um jeder Gruppe die Möglichkeit zu geben den Zuschnitt der
+    Fertigkeiten<indexterm>
+        <primary>Fertigkeit</primary>
+      </indexterm> auf die eigenen Bedürfnisse anzupassen, umgekehrt aber auch
+    keine „überflüssigen“ Fertigkeiten<indexterm>
+        <primary>Fertigkeit</primary>
+      </indexterm> zu nennen.</para>
 
     <section>
       <title>Schwierigkeiten von Proben</title>
 
       <para>Durch das offene Fertigkeitssystem ist es gut möglich, dass für
-      eine Aufgabe grundsätzlich mehrere Fertigkeiten in Frage kommen — sei
-      es, weil eine von ihnen eine Spezialisierung ist, sei es, weil eine
-      Aufgabe einfach in den Bereich mehrerer Fertigkeiten fällt.</para>
+      eine Aufgabe grundsätzlich mehrere Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> in Frage kommen — sei es, weil eine von ihnen eine
+      Spezialisierung ist, sei es, weil eine Aufgabe einfach in den Bereich
+      mehrerer Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> fällt.</para>
 
       <para>Die Schwierigkeiten von Proben werden daher im Hinblick darauf
-      festgelegt, wie gut die verwendete Fertigkeit auf die Aufgabe passt. So
-      kann beispielsweise die Frage nach dem letzten bekannten Auftauchen des
-      Necronomicons mit der Fertigkeit "Allgemeinbildung" nur sehr schwer
-      beantwortet werden, für Charaktere mit der Fertigkeit "Okkultismus"
-      jedoch bedeutend einfacher. Verwenden Sie zur Bestimmung der
-      Schwierigkeit daher einfach die Tabelle auf <xref
-      linkend="schwierigkeitstabelle" xrefstyle="page" /> aus Sicht der
-      jeweiligen Fertigkeit.</para>
+      festgelegt, wie gut die verwendete Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> auf die Aufgabe passt. So kann beispielsweise die Frage
+      nach dem letzten bekannten Auftauchen des Necronomicons mit der
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Allgemeinbildung</emphasis> nur sehr schwer
+      beantwortet werden, für Charaktere mit der Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Okkultismus</emphasis> jedoch bedeutend
+      einfacher. Verwenden Sie zur Bestimmung der Schwierigkeit daher einfach
+      die Tabelle auf <xref linkend="schwierigkeitstabelle"
+      xrefstyle="page" /> aus Sicht der jeweiligen Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm>.</para>
     </section>
 
     <section>
       <title>Auswahl von Fertigkeiten</title>
 
-      <para>Bei der Festlegung der zu verwendenden Fertigkeiten einer
-      Spielrunde sollte beachtet werden, dass eine Fertigkeit nicht einfach
-      eine Gruppe verschiedener Tätigkeiten zusammenfasst. So ist zum Beispiel
-      eine Fertigkeit "Gaukelei" als Gruppierung von Jonglieren, Balancieren
-      und Feuerschlucken problematisch, weil diese Tätigkeiten keinen
-      eindeutigen Zusammenhang besitzen. Es kommt daher leicht zu
-      Unklarheiten, ob eine andere Tätigkeit ebenfalls enthalten ist oder
-      nicht. Daher wäre es besser, für jede Tätigkeit eine eigene Fertigkeit
-      zu notieren, um genauer zu definieren, worauf sich der Charakter
-      versteht.</para>
+      <para>Bei der Festlegung der zu verwendenden Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> einer Spielrunde sollte beachtet werden, dass eine
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> nicht einfach eine Gruppe verschiedener Tätigkeiten
+      zusammenfasst. So ist zum Beispiel eine Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Gaukelei</emphasis> als Gruppierung von
+      Jonglieren, Balancieren und Feuerschlucken problematisch, weil diese
+      Tätigkeiten keinen eindeutigen Zusammenhang besitzen. Es kommt daher
+      leicht zu Unklarheiten, ob eine andere Tätigkeit ebenfalls enthalten ist
+      oder nicht. Daher wäre es besser, für jede Tätigkeit eine eigene
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> zu notieren, um genauer zu definieren, worauf sich der
+      Charakter versteht.</para>
 
       <para>Bei einer Gruppierung von verschiedenen Arten von Tätigkeiten ist
       es darüber hinaus ungleich schwerer für den Spielleiter, die
       Schwierigkeit einer Aufgabe einzuschätzen: handelt es sich
       beispielsweise beim Schlucken einer brennenden Fackel um eine
       Routineaufgabe für alle Gaukler? Hat der Charakter hingegen die
-      Fertigkeit "Feuerschlucken", muss nur noch entschieden werden, ob die
-      Aufgabe innerhalb dieses Bereichs außergewöhnlich schwierig ist.</para>
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Feuerschlucken</emphasis>, muss nur noch
+      entschieden werden, ob die Aufgabe innerhalb dieses Bereichs
+      außergewöhnlich schwierig ist.</para>
 
-      <para>Bedenken Sie auch, dass es sich bei vielen "Berufsfertigkeiten"
-      ebenso um schlichte Gruppierungen handelt. Zum Beispiel sollte ein
-      gelernter Schneider nicht einfach die abstrakte Fertigkeit "Schneiderei"
-      besitzen, sondern die konkreteren Fertigkeiten "Nähen",
-      "Lederbearbeitung", "Stoffkunde" und "Buchhaltung". Ebenso ist eine
-      Fertigkeit "Jagd" möglicherweise zu unkonkret; die diesbezüglichen
-      Fähigkeiten eines Charakters sollten eher in Fertigkeiten wie
-      "Fallenstellen", "Pirsch" oder "Spurensuche" ausgedrückt werden.</para>
+      <para>Bedenken Sie auch, dass es sich bei vielen
+      „Berufsfertigkeiten“<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> ebenso um schlichte Gruppierungen handelt. Zum Beispiel
+      sollte ein gelernter Schneider nicht einfach die abstrakte
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Schneiderei</emphasis> besitzen, sondern die
+      konkreteren Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Nähen</emphasis>,
+      <emphasis>Lederbearbeitung</emphasis>, <emphasis>Stoffkunde</emphasis>
+      und <emphasis>Buchhaltung</emphasis>. Ebenso ist eine
+      Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> <emphasis>Jagd</emphasis> möglicherweise zu unkonkret;
+      die diesbezüglichen Fähigkeiten eines Charakters sollten eher in
+      Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> wie <emphasis>Fallenstellen</emphasis>,
+      <emphasis>Pirsch</emphasis> oder <emphasis>Spurensuche</emphasis>
+      ausgedrückt werden.</para>
     </section>
   </appendix>
 
