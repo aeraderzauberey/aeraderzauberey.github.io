@@ -30,74 +30,21 @@
     <title>Magiefertigkeiten</title>
 
     <section>
-      <title>Erster Grad</title>
+      <title>Magiefertigkeiten</title>
 
       <section>
-        <title>Wasser</title>
+        <title>Artefaktmagie</title>
 
-        <para>ermöglicht die Beeinflussung von Wasser in allen
-        Aggregatzuständen, wie zum Beispiel Zusammenziehen der
-        Luftfeuchtigkeit, verdampfen oder kondensieren lassen. Kann auch
-        Schnee und Eis erzeugen.</para>
+        <para>Mit diesem Gebiet ist es möglich, Gegenstände dahingehend zu
+        verändern, dass sie Zauber speichern können, die dann auf Abruf
+        ausgelöst werden. Weiterhin können selbige Artefakte auch wieder
+        „entzaubert“ werden.</para>
 
-        <variablelist>
-          <varlistentry>
-            <term>Reichweite:</term>
+        <section>
+          <title>Voraussetzungen</title>
 
-            <listitem>
-              <para>B</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-    </section>
-
-    <section>
-      <title>Zweiter Grad</title>
-
-      <section>
-        <title>Elektrizität</title>
-
-        <para>ist das Verständnis von elektrischen Ladungen und damit der
-        Entstehung von Blitzen. Obwohl das Erzeugen selbiger in Wolken
-        leichter fällt, ist deren Vorhandensein keineswegs Bedingung.
-        Ebenfalls im Bereich des Möglichen liegt das simple „Aufladen“ von
-        Gegenständen mit Elektrizität.</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Voraussetzungen</term>
-
-            <listitem>
-              <para>2 Punkte im jeweiligen Element (außer
-              Kraftmanipulation)</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para></para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
+          <para>Unbelebte Materie &amp; Umleiten auf 2 [Spüren]</para>
+        </section>
       </section>
 
       <section>
@@ -289,6 +236,22 @@
       </section>
 
       <section>
+        <title>Nekromantie</title>
+
+        <para>ermöglicht es, in einem Ritual totes Fleisch wieder in
+        „lebendes“ umzuwandeln und damit Leichen wieder mit einem Scheinleben
+        zu erfüllen. Bedingung dafür ist natürlich noch das Vorhandensein von
+        Fleisch.</para>
+
+        <section>
+          <title>Voraussetzungen</title>
+
+          <para>Belebte &amp; Unbelebte Materie jeweils auf 2, Telepathie auf
+          1</para>
+        </section>
+      </section>
+
+      <section>
         <title>Sphärologie</title>
 
         <para>ist das Gebiet, das sich mit der Beschaffenheit der Welt
@@ -307,30 +270,6 @@
           <para>Spüren 3</para>
         </section>
       </section>
-    </section>
-
-    <section>
-      <title>Dritter Grad</title>
-
-      <section>
-        <title>Elementarerschaffung</title>
-
-        <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, in
-        einem Ritual eine Art Elementargeist zu erschaffen. Dabei zieht er
-        eine entsprechende Menge des Elements zusammen um daraus ein Wesen zu
-        formen. Dieses Wesen wird dann mit Leben erfüllt, in dem der Zauberer
-        einen Teil seines Geistes hineinprojiziert.</para>
-
-        <para>Beherrscht ein Charakter diese Fertigkeit, kann er sie mit allen
-        Elementen (die er gut genug beherrscht) benutzen. Mehr zu Elementen
-        siehe <xref linkend="elemente" />.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Jeweiliges Element auf 3 &amp; Telepathie auf 4</para>
-        </section>
-      </section>
 
       <section>
         <title>Wetter</title>
@@ -345,41 +284,6 @@
           <title>Voraussetzungen</title>
 
           <para>Flüssigkeiten &amp; Temperatur</para>
-        </section>
-      </section>
-    </section>
-
-    <section>
-      <title>Vierter Grad</title>
-
-      <section>
-        <title>Artefaktmagie</title>
-
-        <para>Mit diesem Gebiet ist es möglich, Gegenstände dahingehend zu
-        verändern, dass sie Zauber speichern können, die dann auf Abruf
-        ausgelöst werden. Weiterhin können selbige Artefakte auch wieder
-        „entzaubert“ werden.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Unbelebte Materie &amp; Umleiten auf 2 [Spüren]</para>
-        </section>
-      </section>
-
-      <section>
-        <title>Nekromantie</title>
-
-        <para>ermöglicht es, in einem Ritual totes Fleisch wieder in
-        „lebendes“ umzuwandeln und damit Leichen wieder mit einem Scheinleben
-        zu erfüllen. Bedingung dafür ist natürlich noch das Vorhandensein von
-        Fleisch.</para>
-
-        <section>
-          <title>Voraussetzungen</title>
-
-          <para>Belebte &amp; Unbelebte Materie jeweils auf 2, Telepathie auf
-          1</para>
         </section>
       </section>
     </section>

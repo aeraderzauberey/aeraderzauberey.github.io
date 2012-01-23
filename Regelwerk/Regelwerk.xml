@@ -48,32 +48,20 @@
     <section>
       <title>Flexibles Magiesystem</title>
 
-      <para>Die Flexibilität des Magiesystems von Aera der Zauberey geht so
-      weit, dass die Charaktere spontan magische Effekte hervorrufen können,
-      ohne zuvor einen entsprechenden Zauberspruch gelernt oder geübt haben zu
-      müssen: Jeder Spieler, dessen Charakter grundsätzlich in einem
-      bestimmten Bereich der Magie bewandert ist, kann aus heiterem Himmel
-      eine Idee für einen bestimmten magischen Effekt haben, und in diesem
-      Moment muss der Spielleiter eine Würfelregelung (er)finden, die nicht
-      nur Auskunft gibt über Erfolg oder Misserfolg des Zauberns, sondern auch
+      <para>Die in diesem Regelwerk enthaltenen Magieregeln integrieren die
+      enormen, eben übernatürlichen Möglichkeiten, welche die Magie bietet,
+      ins Rollenspiel.</para>
+
+      <para>Statt in konkreten Zaubersprüchen werden die magischen Fähigkeiten
+      eines Charakters in sehr allgemeinen Fertigkeiten wie "Lebewesen" oder
+      "Telekinese" ausgedrückt, welche auch untereinander kombiniert werden
+      können. Außerdem kann jeder Spieler, dessen Charakter grundsätzlich in
+      den relevanten Bereichen der Magie bewandert ist, aus heiterem Himmel
+      eine Idee für einen bestimmten magischen Effekt ins Spiel einbringen.
+      Der Spielleiter gibt dann eine Würfelregelung vor, die nicht nur
+      Auskunft gibt über Erfolg oder Misserfolg des Zauberns, sondern auch
       über die konkreten Auswirkungen auf die Umwelt (z.B. Höhe, Breite,
-      Dauer, Schnelligkeit etc.)</para>
-
-      <para>Dies erfordert vom Spielleiter einen hohen Grad an
-      Improvisationstalent. Zum einen macht das oben erwähnte spontane
-      Erfinden von Würfelregelungen für magische Effekte das Spielleiten
-      aufwändiger als in anderen Rollenspielen. Zum anderen sorgt das
-      Magiesystem auch dafür, dass die Spieler noch unberechenbarer als üblich
-      sind: der Spielleiter kann beim Planen des Abenteuers unmöglich an alle
-      Zauber denken, welche die Spielercharaktere wirken könnten, und so kann
-      ein Abenteuer aufgrund eines einzigen überraschenden Zaubers einen ganz
-      anderen Verlauf nehmen.</para>
-
-      <para>Aber auch den Spielern verlangt diese Flexibilität etwas ab: weil
-      die magischen Fähigkeiten eines Charakters in sehr allgemeinen
-      Fertigkeiten wie "Lebewesen" oder "Telekinese" ausgedrückt werden,
-      braucht man einen einen gewissen Einfallsreichtum, um sie für eine
-      Situation effektiv einsetzen zu können.</para>
+      Dauer, Schnelligkeit etc.).</para>
     </section>
 
     <section>
@@ -90,8 +78,8 @@
       mit wenig Rollenspielerfahrung oder für Spielleiter, die bisher
       hauptsächlich vorgefertigte Kaufabenteuer geleitet haben. Es wird
       insbesondere Rollenspielern ans Herz gelegt, die ein Faible für Magie
-      haben und die klassischen Spielsysteme als zu einschränkend
-      empfinden.</para>
+      und erzählerisches Rollenspiel haben und die klassischen Spielsysteme
+      als zu einschränkend empfinden.</para>
     </section>
   </chapter>
 
@@ -106,17 +94,14 @@
           <primary>Attribut</primary>
         </indexterm> und Fertigkeiten<indexterm significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm>. Die Werte dieser Eigenschaften liegen im Bereich von 1
-      bis 8. Für jeden Punkt steht dem Charakter ein Würfel zur Verfügung, den
-      er bei Proben<indexterm significance="preferred">
+        </indexterm>.</para>
+
+      <para>Ein Charakter besitzt in jeder seiner Eigenschaften 1 bis 8
+      Punkte. Bei Proben<indexterm significance="preferred">
           <primary>Probe</primary>
-        </indexterm> auf die jeweilige Eigenschaft verwendet (siehe <xref
-      linkend="proben" />). Neben Attributen<indexterm>
-          <primary>Attribut</primary>
-        </indexterm> und Fertigkeiten<indexterm significance="preferred">
-          <primary>Fertigkeit</primary>
-        </indexterm> gibt es noch sogenannte abgeleitete Eigenschaften, deren
-      Werte von den anderen Eigenschaften abhängen.</para>
+        </indexterm> auf die jeweilige Eigenschaft steht ihm eine Anzahl
+      Würfel in Höhe seiner Punkte zur Verfügung (siehe <xref
+      linkend="proben" />).</para>
 
       <section>
         <title>Attribute</title>
@@ -125,9 +110,8 @@
         in zwölf <firstterm
         baseform="Attribut">Attributen</firstterm><indexterm>
             <primary>Attribut</primary>
-          </indexterm> nieder, von denen drei Magiebegabten vorbehalten sind.
-        Der allgemeine Durchschnitt in der Bevölkerung für die anderen
-        Attribute liegt zwischen 3 und 4.</para>
+          </indexterm> nieder, von denen drei Magiebegabten vorbehalten
+        sind.</para>
 
         <informaltable>
           <tgroup cols="3">
@@ -159,7 +143,7 @@
               </row>
 
               <row>
-                <entry><indexterm significance="preferred">
+                <entry>Gewandtheit<indexterm significance="preferred">
                     <primary>Gewandtheit</primary>
                   </indexterm></entry>
 
@@ -178,10 +162,6 @@
 
                 <entry>Geschickter Einsatz der Hände, feinmotorische
                 Fähigkeiten, Hand-Augen-Koordination</entry>
-              </row>
-
-              <row>
-                <entry></entry>
               </row>
 
               <row>
@@ -213,10 +193,6 @@
                 <entry>CH</entry>
 
                 <entry>Wirkung auf andere, Ausstrahlung, Präsenz</entry>
-              </row>
-
-              <row>
-                <entry></entry>
               </row>
 
               <row>
@@ -307,7 +283,7 @@
           </indexterm> ist dabei einem Attribut zugeordnet, das bei
         Proben<indexterm significance="preferred">
             <primary>Probe</primary>
-          </indexterm> mit einbezogen wird (siehe <xref
+          </indexterm> eine Rolle spielt (siehe <xref
         linkend="proben" />).</para>
 
         <para>Aera der Zauberey verwendet im Gegensatz zu den meisten anderen
@@ -320,9 +296,8 @@
           </indexterm> alle relevanten Fähigkeiten abdeckt und sie dennoch
         adäquat ausdifferenziert, ist schlicht nicht machbar.</para>
 
-        <para>Anstatt hier einen womöglich falschen Kompromiss einzugehen,
-        verzichtet Aera der Zauberey auf eine abgeschlossene Liste von
-        Fertigkeiten<indexterm significance="preferred">
+        <para>Daher verzichtet Aera der Zauberey auf eine abgeschlossene Liste
+        von Fertigkeiten<indexterm significance="preferred">
             <primary>Fertigkeit</primary>
           </indexterm>. Stattdessen ist unten — zur Orientierung grob
         eingeteilt in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein
@@ -331,25 +306,24 @@
           </indexterm> aufgeführt, welche häufig in Rollenspielen verwendet
         werden und über die jeder Spieler bei der Charaktererschaffung
         zumindest nachgedacht haben sollte. Spielleiter und Spieler sind
-        aufgefordert, je nach Bedarf weitere Fertigkeiten<indexterm
-            significance="preferred">
+        aufgefordert, je nach Bedarf weitere, auch spezialisierte
+        Fertigkeiten<indexterm significance="preferred">
             <primary>Fertigkeit</primary>
-          </indexterm> hinzuzufügen oder Spezialisierungen zu verwenden. So
-        kann ein Charakter beispielsweise statt der groben Fertigkeit
-        "Manipulation" die speziellere Fertigkeit "Einschüchtern" besitzen.
-        Weiterführende Informationen dazu finden Sie in <xref
-        linkend="fertigkeitssystem" />.</para>
+          </indexterm> hinzuzufügen. So kann ein Charakter beispielsweise
+        statt der groben Fertigkeit "Schifffahrt" die speziellere Fertigkeit
+        "Segeln" besitzen. Weiterführende Informationen dazu finden Sie im
+        Anhang <xref linkend="fertigkeitssystem" />.</para>
 
         <section>
           <title>Talente</title>
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="3*" />
+              <colspec colnum="1" colwidth="5*" />
 
-              <colspec align="center" colnum="2" colwidth="1*" />
+              <colspec align="center" colnum="2" colwidth="3*" />
 
-              <colspec colnum="3" colwidth="6*" />
+              <colspec colnum="3" colwidth="12*" />
 
               <thead>
                 <row>
@@ -376,7 +350,8 @@
 
                   <entry>KK</entry>
 
-                  <entry></entry>
+                  <entry>Mit oder ohne Ausrüstung Hindernisse
+                  erklimmen</entry>
                 </row>
 
                 <row>
@@ -392,7 +367,8 @@
 
                   <entry>CH</entry>
 
-                  <entry>Lügen, Überzeugen, Überreden, Verhandeln</entry>
+                  <entry>Lügen, Überzeugen, Überreden, Verhandeln,
+                  Einschüchtern</entry>
                 </row>
 
                 <row>
@@ -418,19 +394,12 @@
 
                   <entry>IN</entry>
 
-                  <entry>= Aufmerksamkeit</entry>
+                  <entry>Genauigkeit sämtlicher Sinneswahrnehmungen;
+                  Aufmerksamkeit</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
-
-          <section>
-            <title>Weitere Beispiele</title>
-
-            <para>Falschspiel, Meditation, Musizieren (je Instrument),
-            Schlösser knacken, Singen, Tanzen, Taschendiebstahl,
-            Verkleiden</para>
-          </section>
         </section>
 
         <section>
@@ -438,11 +407,11 @@
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="3*" />
+              <colspec colnum="1" colwidth="5*" />
 
-              <colspec align="center" colnum="2" colwidth="1*" />
+              <colspec align="center" colnum="2" colwidth="3*" />
 
-              <colspec colnum="3" colwidth="6*" />
+              <colspec colnum="3" colwidth="12*" />
 
               <thead>
                 <row>
@@ -477,7 +446,8 @@
 
                   <entry>KL</entry>
 
-                  <entry></entry>
+                  <entry>Wissen über wichtige historische Ereignisse und
+                  Entwicklungen</entry>
                 </row>
 
                 <row>
@@ -511,16 +481,7 @@
                   <entry>KL</entry>
 
                   <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
-                  Gruppierungen...)</entry>
-                </row>
-
-                <row>
-                  <entry>Mathematik</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Alles was über einfaches Rechnen hinausgeht, z.B.
-                  Geometrie</entry>
+                  Gruppierungen …)</entry>
                 </row>
 
                 <row>
@@ -537,7 +498,7 @@
 
                   <entry>IN</entry>
 
-                  <entry></entry>
+                  <entry>Menschen einschätzen, Lügen erkennen</entry>
                 </row>
 
                 <row>
@@ -546,8 +507,7 @@
                   <entry>KL</entry>
 
                   <entry>Wissen über Verbreitung und Wirkung von Pflanzen
-                  (besonders Heilpflanzen) sowie einfache Verarbeitung zu
-                  bspw. Tee, Pasten</entry>
+                  sowie einfache Verarbeitung zu bspw. Tee, Pasten</entry>
                 </row>
 
                 <row>
@@ -555,7 +515,8 @@
 
                   <entry>KL</entry>
 
-                  <entry></entry>
+                  <entry>Kenntnisse in Glaubensrichtungen, Kulten, Traditionen
+                  und kirchlichen Organisationen</entry>
                 </row>
 
                 <row>
@@ -587,12 +548,6 @@
               </tbody>
             </tgroup>
           </informaltable>
-
-          <section>
-            <title>Weitere Beispiele</title>
-
-            <para>Alchemie, Fallenstellen, Pirsch, Spurensuche</para>
-          </section>
         </section>
 
         <section>
@@ -600,11 +555,11 @@
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="3*" />
+              <colspec colnum="1" colwidth="5*" />
 
-              <colspec align="center" colnum="2" colwidth="1*" />
+              <colspec align="center" colnum="2" colwidth="3*" />
 
-              <colspec colnum="3" colwidth="6*" />
+              <colspec colnum="3" colwidth="12*" />
 
               <thead>
                 <row>
@@ -618,22 +573,15 @@
 
               <tbody>
                 <row>
-                  <entry>Reflexe</entry>
-
-                  <entry>IN</entry>
-
-                  <entry>Schnelles Reagieren. Fließt in den
-                  Initiativebasiswert ein</entry>
-                </row>
-
-                <row>
                   <entry>Ausweichen<indexterm>
                       <primary>Ausweichen</primary>
                     </indexterm></entry>
 
                   <entry>GW</entry>
 
-                  <entry></entry>
+                  <entry>Die Fähigkeit, bewaffneten und unbewaffneten
+                  Nahkampfangriffen auszuweichen (siehe <xref
+                  linkend="verteidigungswurf" />).</entry>
                 </row>
 
                 <row>
@@ -641,25 +589,18 @@
 
                   <entry>-</entry>
 
-                  <entry>Erlaubt Kämpfen mit der anderen Hand bei geringeren
-                  Abzügen sowie Kampf mit zwei Waffen. Siehe <xref
+                  <entry>Senkt die Abzüge beim Kampf mit der anderen Hand und
+                  erlaubt den Kampf mit zwei Waffen. Siehe <xref
                   linkend="beidhaendigkeit" />.</entry>
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry>Reflexe</entry>
 
-                  <entry></entry>
+                  <entry>IN</entry>
 
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>Waffenlos</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
+                  <entry>Schnelles Reagieren. Fließt in den
+                  Initiativebasiswert ein</entry>
                 </row>
 
                 <row>
@@ -671,112 +612,24 @@
                 </row>
 
                 <row>
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>Nahkampf</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Dolche</entry>
-
-                  <entry>FF</entry>
-
-                  <entry>Kurze Stichwaffen</entry>
-                </row>
-
-                <row>
-                  <entry>Fechtwaffen</entry>
+                  <entry><emphasis>(Nahkampffertigkeit)</emphasis></entry>
 
                   <entry>GW</entry>
 
-                  <entry>Degen, Florett, Rapier</entry>
+                  <entry>Jeweils eine Fertigkeit pro Waffengruppe
+                  (siehe</entry>
                 </row>
 
                 <row>
-                  <entry>Hiebwaffen</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Äxte, Streitkolben, Säbel, Keulen und ähnliche
-                  Waffen</entry>
-                </row>
-
-                <row>
-                  <entry>Schwerter</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Ein- und Zweihandschwerter</entry>
-                </row>
-
-                <row>
-                  <entry>Stangenwaffen</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Speere, Hellebarden und ähnliche Waffen sowie
-                  Kampfstäbe</entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>Fernkampf</emphasis></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Armbrüste</entry>
+                  <entry><emphasis>(Fernkampffertigkeit)</emphasis></entry>
 
                   <entry>FF</entry>
 
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Bögen</entry>
-
-                  <entry>FF</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>Wurfwaffen</entry>
-
-                  <entry>FF</entry>
-
-                  <entry>Wurfdolche und -messer, Wurfaxt</entry>
+                  <entry><xref linkend="waffen" />)</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
-
-          <section>
-            <title>Weitere Beispiele</title>
-
-            <para>Kettenwaffen, Peitschen, Lanzenreiten, Boxen, Ringen sowie
-            einzelne Fertigkeiten für weitere waffenlose Kampfechniken</para>
-          </section>
         </section>
       </section>
 
@@ -784,40 +637,16 @@
         <title>Magiefertigkeiten</title>
 
         <para>Die magischen Fähigkeiten eines Charakters sind in drei Bereiche
-        unterteilt: Energie<indexterm>
-            <primary>Energie</primary>
-          </indexterm>, Geist<indexterm>
-            <primary>Geist</primary>
-          </indexterm> und <indexterm>
+        unterteilt: <emphasis>Materie</emphasis><indexterm>
             <primary>Materie</primary>
-          </indexterm>Materie. Jede Magiefertigkeit<indexterm
+          </indexterm>, <emphasis>Geist</emphasis><indexterm>
+            <primary>Geist</primary>
+          </indexterm> und <emphasis>Energie</emphasis><indexterm>
+            <primary>Geist</primary>
+          </indexterm>. Jede Magiefertigkeit<indexterm
             significance="preferred">
             <primary>Magiefertigkeit</primary>
-          </indexterm> ist einem dieser drei Attribute zugeordnet.</para>
-
-        <para>Im Unterschied zu den anderen Fertigkeiten<indexterm
-            significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm> bauen die Magiefertigkeiten<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> aufeinander auf, d.h. für manche Fertigkeiten benötigt
-        man zuerst Kenntnisse in einer oder mehreren anderen. Die folgende
-        Übersicht teilt die Magiefertigkeiten<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> dazu in verschiedene
-        <firstterm>Grade</firstterm><indexterm>
-            <primary>Grad</primary>
-          </indexterm> ein: Eine Fertigkeit<indexterm significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm>, für die man z.B. Kenntnisse in insgesamt zwei anderen
-        Fertigkeiten<indexterm significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> benötigt, nennen wir eine Fertigkeit<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> des dritten Grades.</para>
+          </indexterm> ist diesen Attributen fest zugeordnet.</para>
 
         <para>Details zur Abgrenzung der einzelnen Fertigkeiten<indexterm
             significance="preferred">
@@ -827,14 +656,12 @@
         xrefstyle="page" />.</para>
 
         <informaltable role="breakable">
-          <tgroup cols="4">
-            <colspec colnum="1" colwidth="3*" />
+          <tgroup cols="3">
+            <colspec colwidth="5*" />
 
-            <colspec align="center" colnum="2" colwidth="2*" />
+            <colspec align="center" colwidth="3*" />
 
-            <colspec align="center" colnum="3" colwidth="2*" />
-
-            <colspec colnum="4" colwidth="6*" />
+            <colspec colwidth="12*" />
 
             <thead>
               <row>
@@ -842,73 +669,39 @@
 
                 <entry>Attribut</entry>
 
-                <entry>Reichweite</entry>
-
-                <entry>Voraussetzungen</entry>
+                <entry>Kurzbeschreibung</entry>
               </row>
             </thead>
 
             <tbody>
               <row>
-                <entry><emphasis>Erster Grad</emphasis></entry>
-              </row>
-
-              <row>
-                <entry>Lebewesen*</entry>
+                <entry>Elektrizität</entry>
 
                 <entry>MA</entry>
 
-                <entry>speziell</entry>
-
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Licht</entry>
-
-                <entry>EN</entry>
-
-                <entry>C</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Luft*</entry>
+                <entry>Lebewesen</entry>
 
                 <entry>MA</entry>
 
-                <entry>B</entry>
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Luft</entry>
+
+                <entry>MA</entry>
 
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Spüren</entry>
+                <entry>Sphärologie</entry>
 
-                <entry>EN</entry>
-
-                <entry>speziell</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Telekinese</entry>
-
-                <entry>EN</entry>
-
-                <entry>C</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Telepathie</entry>
-
-                <entry>GE</entry>
-
-                <entry>speziell</entry>
+                <entry>MA</entry>
 
                 <entry></entry>
               </row>
@@ -918,8 +711,6 @@
 
                 <entry>MA</entry>
 
-                <entry>speziell</entry>
-
                 <entry></entry>
               </row>
 
@@ -928,97 +719,23 @@
 
                 <entry>MA</entry>
 
-                <entry>B</entry>
-
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Unbelebte Materie*</entry>
+                <entry>Unbelebte Materie</entry>
 
                 <entry>MA</entry>
 
-                <entry>B</entry>
-
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Wasser*</entry>
+                <entry>Wasser</entry>
 
                 <entry>MA</entry>
 
-                <entry>B</entry>
-
                 <entry></entry>
-              </row>
-
-              <row>
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry><emphasis>Zweiter Grad</emphasis></entry>
-              </row>
-
-              <row>
-                <entry>Elektrizität</entry>
-
-                <entry>MA</entry>
-
-                <entry>A</entry>
-
-                <entry>2 Punkte im jeweiligen Element* (außer
-                Kraftmanipulation)</entry>
-              </row>
-
-              <row>
-                <entry>Geistmanipulation</entry>
-
-                <entry>GE</entry>
-
-                <entry>A / B</entry>
-
-                <entry>3 Punkte in Telepathie</entry>
-              </row>
-
-              <row>
-                <entry>Kraftmanipulation*</entry>
-
-                <entry>EN</entry>
-
-                <entry>C</entry>
-
-                <entry>1 Punkt in Spüren</entry>
-              </row>
-
-              <row>
-                <entry>Sphärologie</entry>
-
-                <entry>MA</entry>
-
-                <entry>speziell</entry>
-
-                <entry>1 Punkt in Teleportation</entry>
-              </row>
-
-              <row>
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry><emphasis>Dritter Grad</emphasis></entry>
-              </row>
-
-              <row>
-                <entry>Elementarerschaffung</entry>
-
-                <entry>MA &amp; GE</entry>
-
-                <entry>A</entry>
-
-                <entry>3 Punkte im jeweiligen Element*, 1 Punkt in
-                Telepathie</entry>
               </row>
 
               <row>
@@ -1026,9 +743,7 @@
 
                 <entry>MA</entry>
 
-                <entry>H</entry>
-
-                <entry>jeweils 1 Punkt in Luft und Wasser</entry>
+                <entry></entry>
               </row>
 
               <row>
@@ -1036,7 +751,59 @@
               </row>
 
               <row>
-                <entry><emphasis>Vierter Grad</emphasis></entry>
+                <entry>Kraftmanipulation</entry>
+
+                <entry>EN</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Licht</entry>
+
+                <entry>EN</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Spüren</entry>
+
+                <entry>EN</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Telekinese</entry>
+
+                <entry>EN</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Geistmanipulation</entry>
+
+                <entry>GE</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>Telepathie</entry>
+
+                <entry>GE</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry><emphasis></emphasis></entry>
               </row>
 
               <row>
@@ -1044,10 +811,15 @@
 
                 <entry>MA &amp; EN</entry>
 
-                <entry>A</entry>
+                <entry></entry>
+              </row>
 
-                <entry>1 Punkt in Unbelebte Materie, 2 Punkte in
-                Kraftmanipulation</entry>
+              <row>
+                <entry>Elementarerschaffung</entry>
+
+                <entry>MA &amp; GE</entry>
+
+                <entry></entry>
               </row>
 
               <row>
@@ -1055,443 +827,533 @@
 
                 <entry>MA &amp; GE</entry>
 
-                <entry>A</entry>
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </section>
+    </section>
 
-                <entry>jeweils 2 Punkte in Belebte und Unbelebte Materie, 1
-                Punkt in Telepathie</entry>
+    <section xml:id="charaktererschaffung">
+      <title>Charaktererschaffung</title>
+
+      <para>Um einen Charakter zu erstellen, kauft der Spieler Attribute und
+      Fertigkeiten. Zum Abschluss bestimmt er noch den Initiativebasiswert und
+      die individuelle Höhe seiner Verletzungsmali.</para>
+
+      <section>
+        <title>Attribute und Fertigkeiten</title>
+
+        <para>Für die Charaktererschaffung steht dem Spieler eine gewisse
+        Anzahl von <firstterm>Erfahrungspunkten</firstterm><indexterm>
+            <primary>Erfahrungspunkte</primary>
+          </indexterm> (EP) zur Verfügung, welche die Vorgeschichte und
+        Ausbildung des Charakters symbolisieren. Der Spieler kann mit diesen
+        Erfahrungspunkten Attribute und Fertigkeiten kaufen.</para>
+
+        <para>Der Spielleiter kann für seine Spielrunde die EP-Anzahl frei
+        wählen. Für wenig erfahrene Charaktere bzw. für Spieler, welche zum
+        ersten Mal Aera der Zauberey spielen, werden 630 EP empfohlen.</para>
+
+        <para>Beim Kaufen von Attributen und Fertigkeiten gelten die folgenden
+        Regeln:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Mit Ausnahme von <emphasis>Materie</emphasis><indexterm>
+                <primary>Materie</primary>
+              </indexterm>, <emphasis>Geist</emphasis><indexterm>
+                <primary>Geist</primary>
+              </indexterm> und <emphasis>Energie</emphasis><indexterm>
+                <primary>Geist</primary>
+              </indexterm> muss für jedes Attribut mindestens ein Punkt
+            gekauft werden.</para>
+          </listitem>
+
+          <listitem>
+            <para>Es können pro Attribut oder Fertigkeit höchstens 6 Punkte
+            gekauft werden.</para>
+          </listitem>
+
+          <listitem>
+            <para>Das Attribut <emphasis>Erscheinungsbild</emphasis><indexterm>
+                <primary>Erscheinungsbild</primary>
+              </indexterm> sollte im Spiel nicht regulär gesteigert werden
+            können. Daher kann der Spielleiter, wenn es sinnvoll und für das
+            Charakterkonzept wichtig ist, für dieses Attrbut auch den Kauf von
+            mehr als 6 Punkten zulassen.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Die Kosten sind der folgenden Tabelle zu entnehmen. Beachten
+        Sie, dass eventuell übrige EP nicht verfallen, sondern später im Spiel
+        zum Steigern verwendet werden können. Die Kosten bleiben
+        dieselben.</para>
+
+        <informaltable>
+          <tgroup align="center" cols="5">
+            <colspec colwidth="6*" />
+
+            <colspec colwidth="2*" />
+
+            <colspec colname="attribut" colwidth="4*" />
+
+            <colspec colname="fertigkeit" colwidth="4*" />
+
+            <colspec colwidth="6*" />
+
+            <thead>
+              <row>
+                <entry></entry>
+
+                <entry>Punkte</entry>
+
+                <entry nameend="fertigkeit"
+                namest="attribut">Erfahrungspunktkosten</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry></entry>
+
+                <entry>Attribut</entry>
+
+                <entry>Fertigkeit</entry>
+
+                <entry></entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry></entry>
+
+                <entry>1</entry>
+
+                <entry>10</entry>
+
+                <entry>4</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>2</entry>
+
+                <entry>15</entry>
+
+                <entry>6</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>3</entry>
+
+                <entry>25</entry>
+
+                <entry>10</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>4</entry>
+
+                <entry>40</entry>
+
+                <entry>16</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>5</entry>
+
+                <entry>60</entry>
+
+                <entry>24</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>6</entry>
+
+                <entry>85</entry>
+
+                <entry>34</entry>
+
+                <entry></entry>
+              </row>
+
+              <row role="gray">
+                <entry></entry>
+
+                <entry>7</entry>
+
+                <entry>115</entry>
+
+                <entry>46</entry>
+
+                <entry></entry>
+              </row>
+
+              <row role="gray">
+                <entry></entry>
+
+                <entry>8</entry>
+
+                <entry>150</entry>
+
+                <entry>60</entry>
+
+                <entry></entry>
               </row>
             </tbody>
           </tgroup>
         </informaltable>
 
-        <para xml:id="elemente">* Die Voraussetzungen der
-        Fertigkeiten<indexterm significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> Elektrizität und Elementarerschaffung beziehen sich auf
-        ein <firstterm>Element</firstterm><indexterm>
-            <primary>Element</primary>
-          </indexterm>. Als Elemente gelten die Fertigkeiten<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> Lebewesen, Luft, Unbelebte Materie, Wasser und
-        Kraftmanipulation. Ein Charakter muss mindestens eins dieser Elemente
-        beherrschen, bevor er Elektrizität oder Elementarerschaffung erlernen
-        kann. Er kann diese Fertigkeit<indexterm significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> dann jedoch mit jedem Element anwenden, welches die
-        Voraussetzungen erfüllt.</para>
+        <para>Spieler können sich beim Kauf der Eigenschaften an den folgenden
+        Richtwerten orientieren:</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata align="center" depth="13cm" fileref="Magiebereiche.png"></imagedata>
-          </imageobject>
-        </mediaobject>
-      </section>
+        <para><informaltable>
+            <tgroup cols="9">
+              <colspec colwidth="13*" />
 
-      <section xml:id="abgeleitet">
-        <title>Abgeleitete Eigenschaften</title>
+              <colspec align="center" colname="1" colwidth="13*" />
 
-        <para>Die abgeleiteten Eigenschaften errechnen sich aus
-        Attributen<indexterm significance="preferred">
-            <primary>Attribut</primary>
-          </indexterm> und Fertigkeiten<indexterm significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm>. Sie sind jedoch nicht mit Würfelanzahlen
-        gleichzusetzen und für diese Eigenschaften werden keine Proben
-        durchgeführt.</para>
+              <colspec align="center" colname="2" colwidth="12*" />
 
-        <section xml:id="initiativebasis">
-          <title>Initiativebasiswert<indexterm>
-              <primary>Initiativebasiswert</primary>
-            </indexterm></title>
+              <colspec align="center" colname="3" colwidth="10*" />
 
-          <para>Für den Initiativewurf<indexterm>
-              <primary>Initiative</primary>
-            </indexterm> im Kampf (siehe <xref linkend="kampf" />) besitzt
-          jeder Charakter einen Initiativebasiswert<indexterm>
-              <primary>Initiativebasiswert</primary>
-            </indexterm>. Dieser errechnet sich aus dem Attribut
-          Intuition<indexterm>
-              <primary>Intuition</primary>
-            </indexterm> und der Fertigkeit Reflexe wie folgt:
-          <emphasis>(Intuition + Reflexe) * 2</emphasis>.</para>
-        </section>
+              <colspec align="center" colname="4" colwidth="10*" />
 
-        <section xml:id="verletzungsmali">
-          <title>Verletzungsmalus<indexterm significance="preferred">
-              <primary>Verletzungsmalus</primary>
-            </indexterm></title>
+              <colspec align="center" colname="5" colwidth="10*" />
 
-          <para>Wenn sie körperlichen Schaden<indexterm
-              significance="preferred">
-              <primary>Schaden</primary>
+              <colspec align="center" colname="6" colwidth="10*" />
 
-              <secondary>körperlich</secondary>
-            </indexterm> erhalten haben, gilt für Charaktere ein Würfelabzug,
-          der sogenannte <firstterm>Verletzungsmalus</firstterm><indexterm
-              significance="preferred">
-              <primary>Verletzungsmalus</primary>
-            </indexterm>. Dieser ist um so geringer, je höher ihre
-          Willenskraft<indexterm>
-              <primary>Willenskraft</primary>
-            </indexterm> ist:</para>
+              <colspec align="center" colname="7" colwidth="10*" />
 
-          <informaltable>
-            <tgroup cols="11">
-              <colspec colnum="1" colwidth="*" />
-
-              <colspec colnum="2" colwidth="4*" />
-
-              <colspec colnum="3" colwidth="1*" />
-
-              <colspec colnum="2" colwidth="1*" />
-
-              <colspec colnum="5" colwidth="1*" />
-
-              <colspec colnum="6" colwidth="1*" />
-
-              <colspec colnum="7" colwidth="1*" />
-
-              <colspec colnum="8" colwidth="1*" />
-
-              <colspec colnum="9" colwidth="1*" />
-
-              <colspec colnum="10" colwidth="1*" />
-
-              <colspec colnum="11" colwidth="*" />
-
-              <thead>
-                <row>
-                  <entry></entry>
-
-                  <entry>Willenskraft</entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry><inlinemediaobject>
-                      <imageobject>
-                        <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                   width="0.4cm"></imagedata>
-                      </imageobject>
-                    </inlinemediaobject></entry>
-
-                  <entry></entry>
-                </row>
-              </thead>
+              <colspec align="center" colname="8" colwidth="10*" />
 
               <tbody>
                 <row>
-                  <entry></entry>
+                  <entry role="non-head">Punkte</entry>
 
-                  <entry>1-3</entry>
+                  <entry colname="1">1</entry>
 
-                  <entry></entry>
+                  <entry colname="2">2</entry>
 
-                  <entry>-1</entry>
+                  <entry colname="3">3</entry>
 
-                  <entry>-2</entry>
+                  <entry colname="4">4</entry>
 
-                  <entry>-3</entry>
+                  <entry colname="5">5</entry>
 
-                  <entry>-4</entry>
+                  <entry colname="6">6</entry>
 
-                  <entry>-5</entry>
+                  <entry colname="7">7</entry>
 
-                  <entry>-6</entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
+                  <entry colname="8">8</entry>
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry>Attribut</entry>
 
-                  <entry>4-5</entry>
+                  <entry>Lächerlich</entry>
 
-                  <entry></entry>
+                  <entry>Unbedeutend</entry>
 
-                  <entry></entry>
+                  <entry nameend="4" namest="3">Durchschnittlich</entry>
 
-                  <entry>-1</entry>
+                  <entry nameend="6" namest="5">Beeindruckend</entry>
 
-                  <entry>-2</entry>
-
-                  <entry>-3</entry>
-
-                  <entry>-4</entry>
-
-                  <entry>-5</entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
+                  <entry nameend="8" namest="7">Überragend</entry>
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry>Fertigkeit</entry>
 
-                  <entry>6-7</entry>
+                  <entry>Einsteiger</entry>
 
-                  <entry></entry>
+                  <entry nameend="3" namest="2">Fortgeschrittener</entry>
 
-                  <entry></entry>
+                  <entry nameend="5" namest="4">Erfahren</entry>
 
-                  <entry></entry>
+                  <entry nameend="7" namest="6">Meisterlich</entry>
 
-                  <entry>-1</entry>
-
-                  <entry>-2</entry>
-
-                  <entry>-3</entry>
-
-                  <entry>-4</entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry></entry>
-
-                  <entry>8</entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
-
-                  <entry>-1</entry>
-
-                  <entry>-2</entry>
-
-                  <entry>-3</entry>
-
-                  <entry></entry>
-
-                  <entry></entry>
+                  <entry>Berühmt</entry>
                 </row>
               </tbody>
             </tgroup>
-          </informaltable>
-
-          <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4
-          körperliche Schadenspunkte erhalten, gilt für ihn ein Malus von 2
-          Würfeln. Details zu diesen Mali und zur Handhabung von Schaden
-          finden Sie in <xref linkend="schaden" />.</para>
-        </section>
+          </informaltable></para>
       </section>
-    </section>
 
-    <section>
-      <title>Charaktererschaffung</title>
+      <section xml:id="initiativebasis">
+        <title>Initiativebasiswert<indexterm>
+            <primary>Initiativebasiswert</primary>
+          </indexterm></title>
 
-      <para>Für die Charaktererschaffung stehen dem Spieler 630
-      <firstterm>Erfahrungspunkte</firstterm><indexterm>
-          <primary>Erfahrungspunkte</primary>
-        </indexterm> (EP) zur Verfügung, welche die Vorgeschichte und
-      Ausbildung des Charakters symbolisieren. Der Spieler kann mit diesen
-      Erfahrungspunkten nun beliebig viele Punkte in Attributen und
-      Fertigkeiten kaufen. Der höchste für einen neuen Charakter zulässige
-      Wert liegt bei 6 und jeder Charakter muss alle Attribute außer
-      <emphasis>Materie</emphasis><indexterm>
-          <primary>Materie</primary>
-        </indexterm>, <emphasis>Geist</emphasis><indexterm>
-          <primary>Geist</primary>
-        </indexterm> und <emphasis>Energie</emphasis><indexterm>
-          <primary>Geist</primary>
-        </indexterm> besitzen.</para>
+        <para>Für den Initiativewurf<indexterm>
+            <primary>Initiative</primary>
+          </indexterm> im Kampf (siehe <xref linkend="kampf" />) besitzt jeder
+        Charakter einen Initiativebasiswert<indexterm>
+            <primary>Initiativebasiswert</primary>
+          </indexterm>. Dieser errechnet sich aus dem Attribut
+        Intuition<indexterm>
+            <primary>Intuition</primary>
+          </indexterm> und der Fertigkeit Reflexe: <emphasis>(Intuition +
+        Reflexe) * 2</emphasis>.</para>
+      </section>
 
-      <para>Sollten die Erfahrungspunkte nicht vollständig aufgebraucht
-      werden, verfallen sie nicht, sondern können später im Spiel zum Steigern
-      verwendet werden.</para>
+      <section xml:id="verletzungsmali">
+        <title>Verletzungsmalus<indexterm significance="preferred">
+            <primary>Verletzungsmalus</primary>
+          </indexterm></title>
 
-      <para>Die Kosten sind der folgenden Tabelle zu entnehmen. Bei späteren
-      Steigerungen der Eigenschaften verändern sich die Kosten nicht — siehe
-      den folgenden Abschnitt.</para>
+        <para>Wenn sie körperlichen Schaden<indexterm significance="preferred">
+            <primary>Schaden</primary>
 
-      <informaltable>
-        <tgroup align="center" cols="5">
-          <colspec colwidth="8*" />
+            <secondary>körperlich</secondary>
+          </indexterm> erhalten haben, gilt für Charaktere ein Würfelabzug,
+        der sogenannte <firstterm>Verletzungsmalus</firstterm><indexterm
+            significance="preferred">
+            <primary>Verletzungsmalus</primary>
+          </indexterm>. Dieser ist um so geringer, je höher ihre
+        Willenskraft<indexterm>
+            <primary>Willenskraft</primary>
+          </indexterm> ist:</para>
 
-          <colspec colwidth="1*" />
+        <informaltable>
+          <tgroup cols="11">
+            <colspec colnum="1" colwidth="*" />
 
-          <colspec colwidth="3*" />
+            <colspec colnum="2" colwidth="4*" />
 
-          <colspec colwidth="3*" />
+            <colspec colnum="3" colwidth="1*" />
 
-          <colspec colwidth="8*" />
+            <colspec colnum="2" colwidth="1*" />
 
-          <thead>
-            <row>
-              <entry></entry>
+            <colspec colnum="5" colwidth="1*" />
 
-              <entry></entry>
+            <colspec colnum="6" colwidth="1*" />
 
-              <entry>Attribut</entry>
+            <colspec colnum="7" colwidth="1*" />
 
-              <entry>Fertigkeit</entry>
+            <colspec colnum="8" colwidth="1*" />
 
-              <entry></entry>
-            </row>
-          </thead>
+            <colspec colnum="9" colwidth="1*" />
 
-          <tbody>
-            <row>
-              <entry></entry>
+            <colspec colnum="10" colwidth="1*" />
 
-              <entry>1</entry>
+            <colspec colnum="11" colwidth="*" />
 
-              <entry>10</entry>
+            <thead>
+              <row>
+                <entry></entry>
 
-              <entry>4</entry>
+                <entry>Willenskraft</entry>
 
-              <entry></entry>
-            </row>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-            <row>
-              <entry></entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>2</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>15</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>6</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry></entry>
-            </row>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-            <row>
-              <entry></entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>3</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                                 width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>25</entry>
+                <entry></entry>
+              </row>
+            </thead>
 
-              <entry>10</entry>
+            <tbody>
+              <row>
+                <entry></entry>
 
-              <entry></entry>
-            </row>
+                <entry>1-3</entry>
 
-            <row>
-              <entry></entry>
+                <entry>-0</entry>
 
-              <entry>4</entry>
+                <entry>-1</entry>
 
-              <entry>40</entry>
+                <entry>-2</entry>
 
-              <entry>16</entry>
+                <entry>-3</entry>
 
-              <entry></entry>
-            </row>
+                <entry>-4</entry>
 
-            <row>
-              <entry></entry>
+                <entry>-5</entry>
 
-              <entry>5</entry>
+                <entry>-6</entry>
 
-              <entry>60</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                 format="SVG" width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry>24</entry>
+                <entry></entry>
+              </row>
 
-              <entry></entry>
-            </row>
+              <row>
+                <entry></entry>
 
-            <row>
-              <entry></entry>
+                <entry>4-5</entry>
 
-              <entry>6</entry>
+                <entry>-0</entry>
 
-              <entry>85</entry>
+                <entry>-0</entry>
 
-              <entry>34</entry>
+                <entry>-1</entry>
 
-              <entry></entry>
-            </row>
+                <entry>-2</entry>
 
-            <row role="gray">
-              <entry></entry>
+                <entry>-3</entry>
 
-              <entry>7</entry>
+                <entry>-4</entry>
 
-              <entry>115</entry>
+                <entry>-5</entry>
 
-              <entry>46</entry>
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                 format="SVG" width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
 
-              <entry></entry>
-            </row>
+                <entry></entry>
+              </row>
 
-            <row role="gray">
-              <entry></entry>
+              <row>
+                <entry></entry>
 
-              <entry>8</entry>
+                <entry>6-7</entry>
 
-              <entry>150</entry>
+                <entry>-0</entry>
 
-              <entry>60</entry>
+                <entry>-0</entry>
 
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
+                <entry>-0</entry>
 
-      <sidebar>
-        <para>Der Spielleiter kann für seine Spielrunde die EP-Basis frei
-        wählen; der Wert von 630 wird für wenig erfahrene Charaktere
-        empfohlen.</para>
-      </sidebar>
+                <entry>-1</entry>
+
+                <entry>-2</entry>
+
+                <entry>-3</entry>
+
+                <entry>-4</entry>
+
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                 format="SVG" width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry></entry>
+
+                <entry>8</entry>
+
+                <entry>-0</entry>
+
+                <entry>-0</entry>
+
+                <entry>-0</entry>
+
+                <entry>-0</entry>
+
+                <entry>-1</entry>
+
+                <entry>-2</entry>
+
+                <entry>-3</entry>
+
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                 format="SVG" width="0.4cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4 körperliche
+        Schadenspunkte erhalten, gilt für ihn ein Malus von 2 Würfeln. Details
+        zu diesen Mali und zur Handhabung von Schaden finden Sie in <xref
+        linkend="schaden" />.</para>
+      </section>
     </section>
 
     <section xml:id="steigerung">
@@ -1567,34 +1429,21 @@
         </tgroup>
       </informaltable>
 
-      <para>Bei Steigerungen ist zu beachten, dass sie auch innerhalb des
-      Spiels erklärbar sein müssen. So kann sich ein Spieler nach einem
-      Wüstenabenteuer sicherlich entscheiden, dass der Charakter seine
-      <emphasis>Geographie</emphasis>-Fertigkeit verbessert hat — die
+      <para>Bei Steigerungen sollten Spieler und Spielleiter auch die
+      erzählerische Erklärbarkeit berücksichtigen. So kann sich ein Spieler
+      nach einem Wüstenabenteuer sicherlich entscheiden, dass der Charakter
+      seine <emphasis>Geographie</emphasis>-Fertigkeit verbessert hat — die
       Steigerung von <emphasis>Schwimmen</emphasis> dürfte jedoch etwas
       abwegig sein. Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
       neuen Fertigkeiten einen Lehrmeister oder entsprechende Fachliteratur
       zur Verfügung haben sollte. Wer den Schwertkampf in Grundzügen
       beherrscht, kann vielleicht durch reine Übung und Training besser werden
       — der Versuch, sich das Kämpfen mit dem Schwert selbst beizubringen wäre
-      jedoch von vornherein zum Scheitern verurteilt. Bei allen Steigerungen
-      hat daher, wie immer, der Spielleiter das letzte Wort.</para>
+      jedoch von vornherein zum Scheitern verurteilt.</para>
 
-      <para>Abgeleitete Eigenschaften (siehe <xref linkend="abgeleitet"
-      xrefstyle="page" />) können nur indirekt über die jeweiligen Attribute
-      und Fertigkeiten gesteigert werden.</para>
-
-      <sidebar>
-        <para>Es wird empfohlen, beim Attribut
-        <emphasis>Erscheinungsbild</emphasis><indexterm>
-            <primary>Erscheinungsbild</primary>
-          </indexterm> keine normalen Steigerungen (oder nur in sehr
-        begrenztem Maß) zuzulassen — schließlich wäre es nur schwer erklärbar,
-        wie man sein Aussehen von 3 auf 8 steigern kann. In diesem Fall sind
-        natürlich bei der Erschaffung (siehe voriger Abschnitt), sofern es
-        sinnvoll und für das Charakterkonzept wichtig ist, für dieses Attribut
-        höhere Werte als 6 zulässig.</para>
-      </sidebar>
+      <para>Beachten Sie, dass nach einer Steigerung ggf. der
+      Initativebasiswert und die Höhe der Verletzungsmali neu bestimmt werden
+      müssen (siehe <xref linkend="charaktererschaffung" />).</para>
     </section>
   </chapter>
 
@@ -1812,47 +1661,6 @@
     </section>
 
     <section>
-      <title>Vergleichswürfe</title>
-
-      <para><indexterm>
-          <primary>Vergleichswurf</primary>
-        </indexterm>Um zwei gelungene Proben<indexterm>
-          <primary>Probe</primary>
-        </indexterm> zu vergleichen, wird einfach die Anzahl der
-      Erfolge<indexterm>
-          <primary>Erfolg</primary>
-        </indexterm> herangezogen. Derjenige mit mehr Erfolgen<indexterm>
-          <primary>Erfolg</primary>
-        </indexterm> hat „gewonnen“. Sollte die Anzahl der Erfolge<indexterm>
-          <primary>Erfolg</primary>
-        </indexterm> gleich sein, gilt der Vergleich als unentschieden. Falls
-      diese Regel auf eine Situation nicht anwendbar ist, entscheidet ein
-      einfacher W20-Wurf, welcher der beiden Charaktere gewinnt.</para>
-
-      <para>Ein solcher <firstterm>Vergleichswurf</firstterm><indexterm>
-          <primary>Vergleichswurf</primary>
-        </indexterm> findet auch in unserem Beispiel statt:</para>
-
-      <informalexample>
-        <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
-        eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
-        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 14 drei Erfolge
-        erzielt. Elris hatte nur zwei Erfolge — der Hausherr gewinnt also den
-        Vergleichswurf. Das Ergebnis: Er wird misstrauisch und durchsucht das
-        Haus...</para>
-      </informalexample>
-
-      <para>Die Schwierigkeit für einen Vergleichswurf (in diesem Fall die
-      Sinnesschärfe-Probe) sollte natürlich <emphasis>nicht</emphasis> vom
-      Ergebnis der ursprünglichen Probe<indexterm>
-          <primary>Probe</primary>
-        </indexterm> abhängig gemacht werden, was ja durch den Vergleich der
-      Erfolgsanzahlen sowieso geschieht. In unserem Beispiel hat der
-      Spielleiter also die Schwierigkeit 16 bereits vorher festgelegt, und
-      nicht erst als Reaktion auf Elris' zwei Erfolge.</para>
-    </section>
-
-    <section>
       <title>Fehlende Fertigkeit</title>
 
       <para>Besitzt ein Charakter keine passende Fertigkeit<indexterm
@@ -1869,11 +1677,11 @@
           <primary>Attribut</primary>
         </indexterm><indexterm>
           <primary>Probe</primary>
-        </indexterm> durchführen. In diesem Fall steigt jedoch die
-      Schwierigkeit je nach Verwandtschaft der verwendeten
-      Fertigkeit<indexterm significance="preferred">
+        </indexterm> durchführen. In diesem Fall erhöht der Spielleiter jedoch
+      die Schwierigkeit je nach Verwandtschaft der verwendeten mit der
+      geforderten Fertigkeit<indexterm significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm> mit der geforderten.</para>
+        </indexterm>.</para>
     </section>
 
     <section>
@@ -1883,7 +1691,9 @@
           significance="preferred">
           <primary>Fertigkeit</primary>
         </indexterm>, die in einer bestimmten Situation hilfreich sind. Obwohl
-      eine Probe nur mit einer einzelnen Fertigkeit<indexterm
+      eine Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> nur mit einer einzelnen Fertigkeit<indexterm
           significance="preferred">
           <primary>Fertigkeit</primary>
         </indexterm> durchgeführt werden kann, ist es möglich eine zusätzliche
@@ -1922,17 +1732,79 @@
           </itemizedlist>
         </informalexample></para>
     </section>
+
+    <section>
+      <title>Vergleichende Proben</title>
+
+      <para><indexterm>
+          <primary>Probe</primary>
+
+          <secondary>vergleichend</secondary>
+        </indexterm>Häufig treten zwei Charaktere gegeneinander an, z.B. in
+      einem sportlichen Wettkampf oder auch beim Erkennen von Lügen. In
+      solchen Situationen führen beide Charaktere jeweils eine Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> auf die passende Fertigkeit<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> durch (dies kann für beide dieselbe Fertigkeit sein). Das
+      Ergebnis wird wie folgt ermittelt:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Gelingt nur eine der Proben<indexterm>
+              <primary>Probe</primary>
+            </indexterm>, steht der Sieger des Vergleichs fest.</para>
+        </listitem>
+
+        <listitem>
+          <para>Gelingen beide Proben<indexterm>
+              <primary>Probe</primary>
+            </indexterm>, wird die Anzahl der Erfolge<indexterm>
+              <primary>Erfolg</primary>
+            </indexterm> verglichen: Derjenige mit mehr Erfolgen<indexterm>
+              <primary>Erfolg</primary>
+            </indexterm> hat „gewonnen“.</para>
+        </listitem>
+
+        <listitem>
+          <para>Sollte die Anzahl der Erfolge<indexterm>
+              <primary>Erfolg</primary>
+            </indexterm> gleich sein, gilt der Vergleich als unentschieden.
+          Sollte ein "Unentschieden" in einer Situation nicht in Frage kommen,
+          entscheidet ein einfacher W20-Wurf, welcher der beiden Charaktere
+          gewinnt.</para>
+        </listitem>
+      </orderedlist>
+
+      <informalexample>
+        <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
+        eigentlich schlafen gehen wollte, hat Glück gehabt und mit seinen 6
+        Sinnesschärfe-Würfeln gegen eine Schwierigkeit von 14 drei Erfolge
+        erzielt. Elris hatte nur zwei Erfolge — der Hausherr gewinnt also den
+        Vergleich. Das Ergebnis: Er wird misstrauisch und durchsucht das
+        Haus...</para>
+      </informalexample>
+
+      <para>Die Schwierigkeit für die zweite Probe sollte dabei
+      <emphasis>nicht</emphasis> vom Ergebnis der ersten Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> abhängig gemacht werden. In diesem Beispiel hat der
+      Spielleiter also die Sinnesschärfe-Schwierigkeit von 14 bereits vorher
+      festgelegt, und nicht erst als Reaktion auf Elris' zwei Erfolge beim
+      Schleichen.</para>
+    </section>
   </chapter>
 
   <chapter xml:id="schaden">
     <title>Gesundheit</title>
 
-    <para>Der Gesundheitszustand eines Charakters schlägt sich regeltechnisch
-    in drei Aspekten nieder:</para>
+    <para>Der Gesundheitszustand eines Charakters setzt sich zusammen
+    aus:</para>
 
     <itemizedlist>
       <listitem>
-        <para>Körperlicher Schaden<indexterm significance="preferred">
+        <para>Körperlichem Schaden<indexterm significance="preferred">
             <primary>Schaden</primary>
 
             <secondary>körperlich</secondary>
@@ -1940,49 +1812,45 @@
       </listitem>
 
       <listitem>
-        <para>Geistiger Schaden<indexterm>
+        <para>Geistigem Schaden<indexterm>
             <primary>Schaden</primary>
 
             <secondary>geistig</secondary>
           </indexterm></para>
       </listitem>
-
-      <listitem>
-        <para>Krankheit<indexterm>
-            <primary>Krankheit</primary>
-          </indexterm></para>
-      </listitem>
     </itemizedlist>
 
-    <para>Gemeinsam ist allen drei Aspekten, dass Schädigungen durch Ankreuzen
-    der Stufen einer Leiste auf dem Charakterblatt vermerkt werden. Nach und
-    nach werden dann abhängig von den Umständen und der im Spiel vergangenen
-    Zeit diese Schädigungen wieder abgebaut.</para>
+    <para>Gemeinsam ist beiden Schadensarten, dass der erhaltene Schaden durch
+    Ankreuzen der Stufen einer Leiste auf dem Charakterblatt vermerkt wird.
+    Nach und nach wird dann abhängig von den Umständen und der im Spiel
+    vergangenen Zeit dieser Schaden wieder abgebaut.</para>
 
-    <para>Bei jeder Stufe ist ein Würfelmalus angegeben, der sogenannte
+    <para>Unter jeder Schadensstufe ist der sogenannte
     Verletzungsmalus<indexterm>
         <primary>Verletzungsmalus</primary>
-      </indexterm>. Der bei der zuletzt angekreuzten Stufe angegebene
-    Verletzungsmalus<indexterm>
-        <primary>Verletzungsmalus</primary>
-      </indexterm> wird auf alle Proben<indexterm>
-        <primary>Probe</primary>
-      </indexterm> außer Widerstandswürfen<indexterm>
-        <primary>Widerstandswurf</primary>
-      </indexterm> (siehe <xref linkend="schaden_und_widerstand"
-    xrefstyle="page" />) und Kraftsammelproben (siehe <xref
-    linkend="kraft_sammeln" xrefstyle="page" />) angewendet sowie auf die
-    Initiative<indexterm>
-        <primary>Initiative</primary>
-      </indexterm> (siehe <xref linkend="kampf" xrefstyle="page" />)
-    angerechnet. Die durch körperlichen und geistigen Schaden sowie
-    Krankheiten verursachten Verletzungsmali<indexterm>
+      </indexterm> angegeben. Für einen Charakter gilt jeweils der Malus,
+    dessen Stufe zuletzt angekreuzt wurde. Die durch verschiedene
+    Schadensarten verursachten Verletzungsmali<indexterm>
         <primary>Verletzungsmalus</primary>
       </indexterm> sind dabei nicht kumulativ; es gilt nur der jeweils höchste
     Malus.</para>
 
-    <para>In den folgenden Abschnitten werden die Regelmechanismen der
-    einzelnen Aspekte vorgestellt.</para>
+    <para>Der Verletzungsmalus<indexterm>
+        <primary>Verletzungsmalus</primary>
+      </indexterm> behindert den Charakter in vielen Situationen: Er
+    verschlechtert den Initiativewert im Kampf (siehe <xref
+    linkend="initiative" />) und reduziert mit Ausnahme von
+    Widerstandswürfen<indexterm>
+        <primary>Widerstandswurf</primary>
+      </indexterm> (siehe <xref linkend="schaden_und_widerstand"
+    xrefstyle="page" />) und Kraftsammelproben (siehe <xref
+    linkend="kraft_sammeln" xrefstyle="page" />) die Würfelanzahl aller
+    Proben<indexterm>
+        <primary>Probe</primary>
+      </indexterm>, die der Charakter durchführt.</para>
+
+    <para>In den folgenden Abschnitten werden die Regelmechanismen der beiden
+    Schadensarten vorgestellt.</para>
 
     <section>
       <title>Körperlicher Schaden<indexterm significance="preferred">
@@ -2004,8 +1872,7 @@
           <primary>Schaden</primary>
 
           <secondary>körperlich</secondary>
-        </indexterm></firstterm>, den er erhält, wird eine dieser Stufen
-      angekreuzt.</para>
+        </indexterm></firstterm> wird eine dieser Stufen angekreuzt.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
       er. Der Verletzungsmalus<indexterm>
@@ -2103,7 +1970,7 @@
             <row>
               <entry></entry>
 
-              <entry></entry>
+              <entry>-0</entry>
 
               <entry>-1</entry>
 
@@ -2117,7 +1984,12 @@
 
               <entry>-6</entry>
 
-              <entry></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="../Grafiken/Totenkopf.svg"
+                               format="SVG" width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
               <entry></entry>
             </row>
@@ -2373,7 +2245,7 @@
             <row>
               <entry></entry>
 
-              <entry></entry>
+              <entry>-0</entry>
 
               <entry>-1</entry>
 
@@ -2432,25 +2304,25 @@
 
       <informaltable>
         <tgroup cols="6">
-          <colspec colnum="1" colwidth="1*" />
+          <colspec colnum="1" colwidth="2*" />
 
-          <colspec colnum="2" colwidth="2*" />
+          <colspec colnum="2" colwidth="3*" />
 
-          <colspec colnum="3" colwidth="2*" />
+          <colspec colnum="3" colwidth="3*" />
 
-          <colspec colnum="4" colwidth="2*" />
+          <colspec colnum="4" colwidth="5*" />
 
-          <colspec colnum="5" colwidth="2*" />
+          <colspec colnum="5" colwidth="3*" />
 
-          <colspec colnum="6" colwidth="1*" />
+          <colspec colnum="6" colwidth="2*" />
 
           <thead>
             <row>
               <entry></entry>
 
-              <entry>Schadenskategorie</entry>
+              <entry>Kategorie</entry>
 
-              <entry>Schadensstufen</entry>
+              <entry>Schadens-stufen</entry>
 
               <entry>Regenerationszeit<indexterm>
                   <primary>Regeneration</primary>
@@ -2518,154 +2390,12 @@
           werden jedoch erst am nächsten Tag regeneriert sein.</para>
         </informalexample></para>
     </section>
-
-    <section>
-      <title>Krankheiten<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm></title>
-
-      <para>Die Auswirkungen von Krankheiten<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm> auf einen Charakter werden in einer
-      <firstterm>Krankheitsleiste</firstterm><indexterm>
-          <primary>Krankheitsleiste</primary>
-        </indexterm> analog zur körperlichen Schadensleiste repräsentiert.
-      Eine Krankheit beginnt bei der Krankheitsstufe 1. Diese Stufe steigt im
-      weiteren Fortschreiten der Krankheit<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm> und sinkt bei Genesung oder Heilung. Anders als bei
-      körperlichem und geistigem Schaden gibt es bei Krankheiten<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm> jedoch keine Zeitvorgaben. So ist es zum Beispiel
-      möglich, dass eine überwunden geglaubte, aber nicht völlig geheilte
-      Krankheit<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm> wieder ausbricht.</para>
-
-      <para>Der durch Krankheiten<indexterm>
-          <primary>Krankheit</primary>
-        </indexterm> verursachte Verletzungsmalus<indexterm>
-          <primary>Verletzungsmalus</primary>
-        </indexterm> ist in der unten stehenden Tabelle angegeben.</para>
-
-      <informaltable>
-        <tgroup cols="10">
-          <colspec colnum="1" colwidth="*" />
-
-          <colspec colnum="2" colwidth="1*" />
-
-          <colspec colnum="3" colwidth="1*" />
-
-          <colspec colnum="4" colwidth="1*" />
-
-          <colspec colnum="5" colwidth="1*" />
-
-          <colspec colnum="6" colwidth="1*" />
-
-          <colspec colnum="7" colwidth="1*" />
-
-          <colspec colnum="8" colwidth="1*" />
-
-          <colspec colnum="9" colwidth="1*" />
-
-          <colspec colnum="11" colwidth="*" />
-
-          <thead>
-            <row>
-              <entry></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry><inlinemediaobject>
-                  <imageobject>
-                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
-                  </imageobject>
-                </inlinemediaobject></entry>
-
-              <entry></entry>
-            </row>
-          </thead>
-
-          <tbody>
-            <row>
-              <entry></entry>
-
-              <entry></entry>
-
-              <entry>-1</entry>
-
-              <entry>-2</entry>
-
-              <entry>-3</entry>
-
-              <entry>-4</entry>
-
-              <entry>-5</entry>
-
-              <entry>-6</entry>
-
-              <entry></entry>
-
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </informaltable>
-    </section>
   </chapter>
 
   <chapter xml:id="kampf">
     <title>Kampf</title>
 
-    <section>
+    <section xml:id="initiative">
       <title>Initiative<indexterm>
           <primary>Initiative</primary>
         </indexterm></title>
@@ -2942,10 +2672,10 @@
       </sidebar>
 
       <informalexample>
-        <para>Der Spielleiter teilt den Spielern mit, dass sich einer der
-        Schläger auf Elris stürzen und einen Angriff mit seinem Knüppel
-        parieren möchte, während der andere mit seinem Säbel Tharion
-        attackieren will, ohne Würfel für eine Reaktion aufzuheben.</para>
+        <para>Der Spielleiter teilt den Spielern mit, dass einer der Schläger
+        Elris mit seinem Knüppel angreifen, aber auch parieren wird, während
+        der andere mit seinem Säbel Tharion attackieren will, ohne Würfel für
+        eine Reaktion aufzuheben.</para>
 
         <para>Elris (Gewandtheit 5, Schwerter 3, Ausweichen 4) will seinen
         Gegner attackieren, aber auch noch ausweichen können. Er hätte 9
@@ -2981,7 +2711,7 @@
       ein eventuelles Verteidigungsmanöver berücksichtigt.</para>
     </section>
 
-    <section>
+    <section xml:id="verteidigungswurf">
       <title>Verteidigungswurf<indexterm>
           <primary>Verteidigungswurf</primary>
         </indexterm></title>
@@ -3001,9 +2731,7 @@
           <secondary>Nahkampf</secondary>
         </indexterm> der beteiligten Waffen ab und ergibt sich aus <emphasis
       xml:id="paradeschwierigkeit">11 + Reichweite des Angreifers - Reichweite
-      des Verteidigers</emphasis>. Grundlage dieser Regel ist die Überlegung,
-      dass man mit langen Waffen einen Gegner eher "auf Abstand" halten kann
-      als mit kurzen.</para>
+      des Verteidigers</emphasis>.</para>
 
       <informalexample>
         <para>Die Schwierigkeit für Schwerter liegt laut Waffentabelle bei 12.
@@ -3030,8 +2758,8 @@
           <primary>Angriffswurf</primary>
         </indexterm> angerichtete Schaden richtet sich nach dem Typ der Waffe
       und danach, wie gut der Treffer war. Eine Waffe richtet immer so viele
-      Schadenspunkte an, wie in der Waffentabelle in der Spalte "Schaden"
-      angegeben ist. Darüber hinaus erhält der Angreifer den sogenannten
+      Schadenspunkte an, wie in der Waffentabelle angegeben ist. Darüber
+      hinaus erhält der Angreifer den sogenannten
       <firstterm>Trefferbonus</firstterm><indexterm>
           <primary>Trefferbonus</primary>
         </indexterm>: jeder verbliebene Angriffserfolg außer dem ersten
@@ -3114,6 +2842,88 @@
       unter <xref linkend="ausruestung" />.</para>
     </section>
 
+    <section xml:id="beidhaendigkeit">
+      <title>Beidhändiger Kampf</title>
+
+      <para>Ist ein Charakter gezwungen, statt seiner Waffenhand die andere
+      Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln.</para>
+
+      <para>Führt ein Charakter gleichzeitig zwei Waffen, erhält er für die
+      zweite Waffe jeweils eine zusätzliche Aktion<indexterm>
+          <primary>Aktion</primary>
+        </indexterm> und Reaktion<indexterm>
+          <primary>Reaktion</primary>
+        </indexterm>, wobei jedoch der oben genannte Malus gilt. Diese
+      Handlungen<indexterm>
+          <primary>Handlung</primary>
+        </indexterm> müssen nicht beide ausgeschöpft werden, sie müssen aber
+      auf jeden Fall mit der zweiten Waffe ausgeführt werden. Es ist also z.B.
+      nicht möglich zweimal auszuweichen.</para>
+
+      <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
+      und Dolch, bildet die höchste Würfelanzahl (inklusive weiterer
+      Handlungen wie Ausweichen oder Zaubern) die Basis für die Verteilung auf
+      Handlungen. Dabei können für eine Handlung niemals mehr Würfel
+      eingeteilt werden, als der Charakter unter normalen Umständen hätte
+      verwenden dürfen.</para>
+
+      <para>Die spezielle Fertigkeit Beidhändigkeit gibt die Fähigkeit eines
+      Charakters an, mit beiden Händen gleich gut kämpfen zu können,
+      repräsentiert aber auch das Training, mit beiden Händen koordiniert
+      besser kämpfen zu können. Für jeden Punkt Beidhändigkeit wird der Malus
+      von 4 Würfeln um 1 bis auf 0 abgesenkt. Im beidhändigen Kampf kann der
+      Charakter zusätzlich für jeden Fertigkeitspunkt über 4 hinaus einen
+      weiteren Würfel auf Handlungen verteilen.</para>
+
+      <informalexample>
+        <para>Ein Charakter hat kämpft mit einem Schwert und einem Dolch und
+        hat Beidhändigkeit 7. Die maximal möglichen Würfelanzahlen sind
+        jeweils:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Angriff oder Parade mit Schwert (GW 4 + Schwerter 6):
+            10</para>
+          </listitem>
+
+          <listitem>
+            <para>Angriff oder Parade mit Dolch (GW 4 + Dolche 4): 8</para>
+          </listitem>
+
+          <listitem>
+            <para>Ausweichen (GW 4 + Ausweichen 5): 9</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Falls er beide Waffen einsetzen will, beträgt seine reguläre
+        Würfelanzahl 10 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
+        ergibt 13. Einige erlaubte Würfelverteilungen sind damit:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Schwertangriff 6, Dolchparade 3, Ausweichen 4</para>
+          </listitem>
+
+          <listitem>
+            <para>Schwertangriff 9, Dolchangriff 4</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Die folgenden Würfelverteilungen sind beispielsweise nicht
+        möglich:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Schwertangriff 11, Dolchangriff 2</para>
+          </listitem>
+
+          <listitem>
+            <para>Schwertangriff 7, Schwertangriff 6</para>
+          </listitem>
+        </itemizedlist>
+      </informalexample>
+    </section>
+
     <section xml:id="fernkampf">
       <title>Fernkampf</title>
 
@@ -3122,25 +2932,25 @@
           <primary>Angriffswurf</primary>
         </indexterm> wird mit den Würfeln aus Fingerfertigkeit<indexterm>
           <primary>Fingerfertigkeit</primary>
-        </indexterm> und der entsprechenden Fertigkeit ausgeführt. Die bei der
-      Waffe angegebene Schwierigkeit wird jedoch noch je nach Distanz und
-      Größe des Ziels modifiziert:</para>
+        </indexterm> und der entsprechenden Waffenfertigkeit ausgeführt. Die
+      bei der Waffe angegebene Schwierigkeit wird jedoch noch je nach Distanz
+      und Größe des Ziels modifiziert:</para>
 
       <informaltable>
         <tgroup cols="7">
-          <colspec colwidth="*" />
+          <colspec colwidth="8*" />
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="15*" />
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="10*" />
 
-          <colspec colwidth="*" />
+          <colspec colwidth="8*" />
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="10*" />
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="10*" />
 
-          <colspec colwidth="*" />
+          <colspec colwidth="8*" />
 
           <thead>
             <row>
@@ -3437,87 +3247,6 @@
         Schwierigkeit von 14 aus.</para>
       </informalexample>
     </section>
-
-    <section xml:id="beidhaendigkeit">
-      <title>Beidhändiger Kampf</title>
-
-      <para>Ist ein Charakter gezwungen, statt seiner Waffenhand die andere
-      Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln.</para>
-
-      <para>Führt ein Charakter gleichzeitig zwei Waffen, erhält er für die
-      zweite Waffe jeweils eine zusätzliche Aktion<indexterm>
-          <primary>Aktion</primary>
-        </indexterm> und Reaktion<indexterm>
-          <primary>Reaktion</primary>
-        </indexterm>, wobei jedoch der oben genannte Malus gilt. Diese
-      Handlungen<indexterm>
-          <primary>Handlung</primary>
-        </indexterm> müssen nicht beide ausgeschöpft werden, sie müssen aber
-      auf jeden Fall mit der zweiten Waffe ausgeführt werden. Es ist also z.B.
-      nicht möglich zweimal auszuweichen.</para>
-
-      <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
-      und Dolch, bildet die höchste Würfelanzahl (inklusive weiterer
-      Handlungen wie Ausweichen oder Zaubern) die Basis für die Verteilung auf
-      Handlungen. Dabei können für eine Handlung niemals mehr Würfel
-      eingeteilt werden, als der Charakter unter normalen Umständen hätte
-      verwenden dürfen.</para>
-
-      <para>Die spezielle Fertigkeit Beidhändigkeit gibt die Fähigkeit eines
-      Charakters an, mit beiden Händen gleich gut kämpfen zu können,
-      repräsentiert aber auch das Training, mit beiden Händen koordiniert
-      besser kämpfen zu können. Für jeden Punkt Beidhändigkeit wird der Malus
-      von 4 Würfeln um 1 bis auf 0 abgesenkt. Im beidhändigen Kampf kann der
-      Charakter zusätzlich für jeden Fertigkeitspunkt über 4 hinaus einen
-      weiteren Würfel auf Handlungen verteilen.</para>
-
-      <informalexample>
-        <para>Ein Charakter hat Gewandheit 4, Fingerfertigkeit 3, Schwerter 6,
-        Dolche 5, Ausweichen 5 und Beidhändigkeit 7. Die maximal möglichen
-        Würfelanzahlen sind jeweils:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Angriff oder Parade mit Schwert (GW + Schwerter): 10</para>
-          </listitem>
-
-          <listitem>
-            <para>Angriff oder Parade mit Dolch (FF + Dolche): 8</para>
-          </listitem>
-
-          <listitem>
-            <para>Ausweichen (GW + Ausweichen): 9</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Falls er beide Waffen einsetzen will, beträgt seine reguläre
-        Würfelanzahl 10 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
-        ergibt 13. Einige erlaubte Würfelverteilungen sind damit:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Schwertangriff 6, Dolchparade 3, Ausweichen 4</para>
-          </listitem>
-
-          <listitem>
-            <para>Schwertangriff 9, Dolchangriff 4</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Die folgenden Würfelverteilungen sind beispielsweise nicht
-        möglich:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Schwertangriff 11, Dolchangriff 2</para>
-          </listitem>
-
-          <listitem>
-            <para>Schwertangriff 7, Schwertangriff 6</para>
-          </listitem>
-        </itemizedlist>
-      </informalexample>
-    </section>
   </chapter>
 
   <chapter xml:id="magie">
@@ -3569,8 +3298,9 @@
       ist umso stärker, je mehr Kraft für den Zauber verwendet wird: die
       Folgen reichen von Unkonzentriertheit und Erschöpfung über Kopfschmerzen
       und Halluzinationen bis hin zu Schockzuständen und Bewusstlosigkeit.
-      Dieser <firstterm>Magieschaden</firstterm> lässt sich mit einem
-      Widerstandswurf vermeiden.</para>
+      Diese Folgen lassen sich durch den
+      <firstterm>Kraftwiderstandswurf</firstterm> verringern oder
+      vermeiden.</para>
 
       <para>Den Abschluss des Zauberns bildet die Zauberprobe. Sie
       entscheidet, ob der Zauber insgesamt gelungen ist und wenn ja, wie
@@ -3631,7 +3361,8 @@
       verloren.</para>
 
       <para>Nach jeder Sammelprobe kann der Spieler entscheiden, ob er nun den
-      Zauber abschließen oder weiter Kraft sammeln möchte.</para>
+      Zauber abschließen oder in der nächsten Runde weiter Kraft sammeln
+      möchte.</para>
 
       <informalexample>
         <para>Tharion möchte für die Nachtsicht 5 Kraftpunkte verwenden. Die
@@ -3663,7 +3394,7 @@
     </section>
 
     <section xml:id="magieschaden">
-      <title>Magieschaden</title>
+      <title>Kraftwiderstandswurf</title>
 
       <para>Während des Kraftsammelns muss der Charakter in regelmäßigen
       Abständen einen geistigen Widerstandswurf<indexterm>
@@ -3676,11 +3407,11 @@
       des Zaubers, der Zauberprobe, ist ein weiterer Widerstandswurf fällig,
       es sei denn in dieser Runde wurde bereits eine durchgeführt.</para>
 
-      <para>Der Widerstandswurf wird mit Willenskraft<indexterm>
+      <para>Der Kraftwiderstandswurf wird mit Willenskraft<indexterm>
           <primary>Willenskraft</primary>
         </indexterm> und den eventuell zur Seite gelegten Fertigkeitswürfeln
-      gegen eine Schwierigkeit von 11 durchgeführt. Der erhaltene Magieschaden
-      entspricht der Gesamtanzahl der bisher gesammelten Kraftpunkte,
+      gegen eine Schwierigkeit von 11 durchgeführt. Der erhaltene geistige
+      Schaden entspricht der Gesamtanzahl der bisher gesammelten Kraftpunkte,
       vermindert um die beim Widerstandswurf erzielten Erfolge.</para>
 
       <informalexample>
@@ -3797,7 +3528,7 @@
       Situationen auch beim Zaubern keine Probe durchgeführt. Wenn die
       Schwierigkeit 7 oder niedriger beträgt und der Krafteinsatz nicht höher
       als 2 ist, muss keine Zauberprobe durchgeführt werden. Die Qualität
-      beträgt zwei und der Charakter erhält keinen Magieschaden.</para>
+      beträgt zwei und der Charakter erhält keinen geistigen Schaden.</para>
 
       <para>Eine Zauberprobe muss dennoch durchgeführt werden, wenn ein
       Vergleichswurf gefordert wird oder der Spieler es wünscht — zum Beispiel
@@ -3810,15 +3541,7 @@
       <para>Die Wirkungsdauer ist bei jedem Zauberspruch angegeben. Nach
       Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
       versorgt werden — das heißt, der Zaubernde muss erneut einen
-      Widerstandswurf gegen den Magieschaden ablegen.</para>
-
-      <sidebar>
-        <para><emphasis role="bold">Beachten Sie:</emphasis> Ein Charakter
-        darf niemals mehr als einen geistigen Widerstandswurf pro Runde
-        durchführen — erhält er also z.B. während einer Runde nach dem
-        „Auffüllen“ eines Zaubers zusätzlichen geistigen Schaden, kann er
-        diesen nicht mehr vermeiden!</para>
-      </sidebar>
+      Kraftwiderstandswurf ablegen.</para>
 
       <para>Viele Zauber erhalten sich selbstständig, in dem sie sich aus der
       enthaltenen Kraft speisen. Manche Zauber erfordern hingegen ständige
@@ -3827,12 +3550,12 @@
       Zaubervorgang. Für jeden Zauber, den ein Charakter auf diese Weise
       aufrecht erhält, steigt die Schwierigkeit für alle Proben<indexterm>
           <primary>Probe</primary>
-        </indexterm> um eins. Kann oder will er sich nicht mehr konzentrieren,
+        </indexterm> um 1. Kann oder will er sich nicht mehr konzentrieren,
       endet die Wirkung des Zaubers sofort.</para>
     </section>
 
     <section>
-      <title>Mehrere Fertigkeiten</title>
+      <title>Zauber mit mehreren Fertigkeiten</title>
 
       <para>Manche Zauber sind nicht nur einer, sondern mehreren
       Magiefertigkeiten zugeordnet. Die bei der Beschreibung des Zaubers
@@ -3883,7 +3606,7 @@
 
       <itemizedlist>
         <listitem>
-          <para>Wie komplex soll dieser Zauber sein? Soll ihn jeder Scholar
+          <para>Wie komplex soll dieser Zauber sein? Soll ihn jeder Amateur
           wirken können, oder können ihn nur erfahrene Magier meistern? Ist
           die Schwierigkeit festgelegt oder variabel? Welche Faktoren
           beeinflussen sie?</para>
@@ -4843,7 +4566,146 @@
     </section>
 
     <section>
-      <title>Erster Grad</title>
+      <title>Magiefertigkeiten</title>
+
+      <section>
+        <title>Artefaktmagie</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie &amp; Energie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>A</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Elektrizität</title>
+
+        <para>Diese Fertigkeit repräsentiert das Erzeugen und Beeinflussen von
+        elektrischen Ladungen und Blitzen. In Kombination mit den
+        Magiefertigkeiten<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> Lebewesen, Luft, Unbelebte Materie oder Wasser kann
+        elektrische Energie in bzw. durch das jeweilige Element geleitet
+        werden.</para>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>A</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Typische Effekte:</term>
+
+              <listitem>
+                <para>Blitzschlag, Schockgriff</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Elementarerschaffung</title>
+
+        <para>Dieses hochkomplexe Gebiet ermöglicht es einem Zauberer, in
+        einem Ritual eine Art Elementargeist zu erschaffen. Dabei zieht er
+        eine entsprechende Menge des Elements zusammen um daraus ein Wesen zu
+        formen. Dieses Wesen wird dann mit Leben erfüllt, in dem der Zauberer
+        einen Teil seines Geistes hineinprojiziert.</para>
+
+        <para>Beherrscht ein Charakter diese Fertigkeit, kann er sie mit allen
+        Elementen benutzen. Als Elemente in diesem Sinne gelten die
+        Fertigkeiten<indexterm significance="preferred">
+            <primary>Magiefertigkeit</primary>
+          </indexterm> Lebewesen, Luft, Unbelebte Materie, Wasser und
+        Kraftmanipulation.</para>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie &amp; Geist</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>A</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Geistmanipulation</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Geist</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>A / B</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Kraftmanipulation</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Energie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>C</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
 
       <section xml:id="lebewesen">
         <title>Lebewesen</title>
@@ -4883,6 +4745,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -4916,8 +4786,9 @@
         Kontrollieren der Lichtreflexion oder durch Biegen des Lichtes
         Illusionen zu erzeugen, also dreidimensionale Bilder ohne stoffliche
         Komponente. Der Kraftaufwand zum Erzeugen solcher Effekte hängt neben
-        der Größe der simulierten Oberfläche von seiner Beschaffenheit
-        ab:</para>
+        der Größe der simulierten Oberfläche von seiner Beschaffenheit ab. Die
+        in der unten stehenden Tabelle angegebene Stufe wird dann in die
+        jeweilige Würfelregelung eingerechnet.</para>
 
         <informaltable>
           <tgroup cols="5">
@@ -5011,6 +4882,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Energie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -5041,6 +4920,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -5059,6 +4946,50 @@
             </listitem>
           </varlistentry>
         </variablelist>
+      </section>
+
+      <section>
+        <title>Nekromantie</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie &amp; Geist</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>A</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Sphärologie</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>Speziell</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
       </section>
 
       <section>
@@ -5091,6 +5022,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Energie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -5121,6 +5060,14 @@
         Kraft umgewandelt werden, um Schläge und Stöße auszuüben.</para>
 
         <variablelist>
+          <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Energie</para>
+            </listitem>
+          </varlistentry>
+
           <varlistentry>
             <term>Reichweite:</term>
 
@@ -5190,6 +5137,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Geist</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -5227,11 +5182,19 @@
         erscheint als massive, schwarze Fläche. Das Tor selbst hat keinen
         sichtbaren "Rahmen" und ist von der Seite nicht zu sehen.</para>
 
-        <para>Tore sind im Allgemeinen kraftaufwändiger als eine
-        Teleportation, eignen sich allerdings besser zur Überbrückung großer
-        Strecken und zum Transport einer größeren Anzahl von Personen.</para>
+        <para>Tore sind im Allgemeinen kraftaufwändiger als ein Teleport,
+        eignen sich allerdings besser zur Überbrückung großer Strecken und zum
+        Transport einer größeren Anzahl von Personen.</para>
 
         <variablelist>
+          <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
           <varlistentry>
             <term>Reichweite:</term>
 
@@ -5277,6 +5240,14 @@
         vorhandenen Erde oder Luft bereitgestellt.</para>
 
         <variablelist>
+          <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
           <varlistentry>
             <term>Reichweite:</term>
 
@@ -5328,6 +5299,14 @@
 
         <variablelist>
           <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
             <term>Reichweite:</term>
 
             <listitem>
@@ -5363,13 +5342,55 @@
           </varlistentry>
         </variablelist>
       </section>
-    </section>
 
-    <section>
-      <title>...</title>
+      <section>
+        <title>Wasser</title>
 
-      <para><emphasis>[Hier folgen noch Beschreibungen weiterer
-      Magiefertigkeiten.]</emphasis></para>
+        <para>Diese Fertigkeit ermöglicht die Beeinflussung von Wasser in
+        allen Aggregatzuständen, wie zum Beispiel Zusammenziehen der
+        Luftfeuchtigkeit, verdampfen oder kondensieren lassen. Kann auch
+        Schnee und Eis erzeugen.</para>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>B</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
+
+      <section>
+        <title>Wetter</title>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Attribut:</term>
+
+              <listitem>
+                <para>Materie</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Reichweite:</term>
+
+              <listitem>
+                <para>H</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+      </section>
     </section>
   </appendix>
 
@@ -5427,7 +5448,10 @@
       ebenso um schlichte Gruppierungen handelt. Zum Beispiel sollte ein
       gelernter Schneider nicht einfach die abstrakte Fertigkeit "Schneiderei"
       besitzen, sondern die konkreteren Fertigkeiten "Nähen",
-      "Lederbearbeitung", "Stoffkunde" und "Buchhaltung".</para>
+      "Lederbearbeitung", "Stoffkunde" und "Buchhaltung". Ebenso ist eine
+      Fertigkeit "Jagd" möglicherweise zu unkonkret; die diesbezüglichen
+      Fähigkeiten eines Charakters sollten eher in Fertigkeiten wie
+      "Fallenstellen", "Pirsch" oder "Spurensuche" ausgedrückt werden.</para>
     </section>
   </appendix>
 
@@ -5525,6 +5549,154 @@
     </sect1>
 
     <sect1>
+      <title>Krankheiten</title>
+
+      <para>Die Auswirkungen von Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> auf einen Charakter können in einer
+      <firstterm>Krankheitsleiste</firstterm><indexterm>
+          <primary>Krankheitsleiste</primary>
+        </indexterm> analog zur körperlichen Schadensleiste repräsentiert
+      werden. Eine Krankheit beginnt bei der Krankheitsstufe 1. Diese Stufe
+      steigt im weiteren Fortschreiten der Krankheit<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> und sinkt bei Genesung oder Heilung. Anders als bei
+      körperlichem und geistigem Schaden gibt es bei Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> jedoch keine Zeitvorgaben. So ist es zum Beispiel
+      möglich, dass eine überwunden geglaubte, aber nicht völlig geheilte
+      Krankheit<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> wieder ausbricht.</para>
+
+      <para>Der durch Krankheiten<indexterm>
+          <primary>Krankheit</primary>
+        </indexterm> verursachte Verletzungsmalus<indexterm>
+          <primary>Verletzungsmalus</primary>
+        </indexterm> ist in der unten stehenden Tabelle angegeben. Die Regel,
+      dass nur der jeweils höchste Verletzungsmalus eines Charakters
+      angewendet wird, gilt auch, wenn mit der Krankheitsleiste gespielt
+      wird.</para>
+
+      <informaltable>
+        <tgroup cols="10">
+          <colspec colnum="1" colwidth="*" />
+
+          <colspec colnum="2" colwidth="1*" />
+
+          <colspec colnum="3" colwidth="1*" />
+
+          <colspec colnum="4" colwidth="1*" />
+
+          <colspec colnum="5" colwidth="1*" />
+
+          <colspec colnum="6" colwidth="1*" />
+
+          <colspec colnum="7" colwidth="1*" />
+
+          <colspec colnum="8" colwidth="1*" />
+
+          <colspec colnum="9" colwidth="1*" />
+
+          <colspec colnum="11" colwidth="*" />
+
+          <thead>
+            <row>
+              <entry></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="Schadenskästchen.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry></entry>
+
+              <entry>-0</entry>
+
+              <entry>-1</entry>
+
+              <entry>-2</entry>
+
+              <entry>-3</entry>
+
+              <entry>-4</entry>
+
+              <entry>-5</entry>
+
+              <entry>-6</entry>
+
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="../Grafiken/Totenkopf.svg"
+                               format="SVG" width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect1>
+
+    <sect1>
       <title>Tiere</title>
 
       <para>Die folgenden Werte können als Orientierung für die
@@ -5534,15 +5706,15 @@
 
       <informaltable>
         <tgroup cols="5">
-          <colspec colwidth="3*" />
+          <colspec colwidth="2*" />
 
-          <colspec colwidth="3*" />
-
-          <colspec align="center" colwidth="2*" />
+          <colspec colwidth="2*" />
 
           <colspec align="center" colwidth="2*" />
 
-          <colspec colwidth="3*" />
+          <colspec align="center" colwidth="3*" />
+
+          <colspec colwidth="2*" />
 
           <thead>
             <row>
