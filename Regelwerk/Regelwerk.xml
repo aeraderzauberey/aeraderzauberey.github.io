@@ -644,7 +644,7 @@
           </indexterm>, <emphasis>Geist</emphasis><indexterm>
             <primary>Geist</primary>
           </indexterm> und <emphasis>Energie</emphasis><indexterm>
-            <primary>Geist</primary>
+            <primary>Energie</primary>
           </indexterm>. Jede Magiefertigkeit<indexterm
             significance="preferred">
             <primary>Magiefertigkeit</primary>
@@ -681,7 +681,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Erzeugen und Beeinflussen von elektrischen Ladungen und
+                Blitzen</entry>
               </row>
 
               <row>
@@ -689,7 +690,7 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Veränderungen aller Art an beliebigen Lebewesen</entry>
               </row>
 
               <row>
@@ -697,7 +698,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Eigenschaften von Luft verändern, Barrieren erschaffen,
+                Schall beeinflussen</entry>
               </row>
 
               <row>
@@ -705,7 +707,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Öffnen von Toren zu anderen Daseinsebenen, Transport
+                von Objekten oder Personen</entry>
               </row>
 
               <row>
@@ -713,7 +716,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Personen und Objekte teleportieren, Tore zu anderen
+                Orten öffnen</entry>
               </row>
 
               <row>
@@ -721,7 +725,7 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Einen Stoff durch einen anderen ersetzen</entry>
               </row>
 
               <row>
@@ -729,7 +733,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Objekteigenschaften und -form verändern, Objekte
+                erhitzen/abkühlen</entry>
               </row>
 
               <row>
@@ -737,7 +742,8 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
+                <entry>Wasser in allen Aggregatzuständen beeinflussen,
+                erhitzen und abkühlen</entry>
               </row>
 
               <row>
@@ -745,43 +751,7 @@
 
                 <entry>MA</entry>
 
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Kraftmanipulation</entry>
-
-                <entry>EN</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Licht</entry>
-
-                <entry>EN</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Spüren</entry>
-
-                <entry>EN</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Telekinese</entry>
-
-                <entry>EN</entry>
-
-                <entry></entry>
+                <entry>Kontrolle über Wolken, Wind und Niederschlag</entry>
               </row>
 
               <row>
@@ -793,7 +763,8 @@
 
                 <entry>GE</entry>
 
-                <entry></entry>
+                <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
+                manipulieren</entry>
               </row>
 
               <row>
@@ -801,7 +772,48 @@
 
                 <entry>GE</entry>
 
+                <entry>Mentale Kommunikation mit anderen Personen und
+                Tieren</entry>
+              </row>
+
+              <row>
                 <entry></entry>
+              </row>
+
+              <row>
+                <entry>Kraftmanipulation</entry>
+
+                <entry>EN</entry>
+
+                <entry>Antimagie, Orte oder Personen dämpfen, gemeinsames
+                Zaubern</entry>
+              </row>
+
+              <row>
+                <entry>Licht</entry>
+
+                <entry>EN</entry>
+
+                <entry>Licht erschaffen, manipulieren und absorbieren sowie
+                Illusionen erzeugen</entry>
+              </row>
+
+              <row>
+                <entry>Spüren</entry>
+
+                <entry>EN</entry>
+
+                <entry>Magische Sinneseindrücke empfangen sowie Zauber und
+                Auren analysieren</entry>
+              </row>
+
+              <row>
+                <entry>Telekinese</entry>
+
+                <entry>EN</entry>
+
+                <entry>Objekte und Personen bewegen, Bewegung
+                unterbinden</entry>
               </row>
 
               <row>
@@ -813,7 +825,7 @@
 
                 <entry>MA &amp; EN</entry>
 
-                <entry></entry>
+                <entry>Speichern von Zaubern in Objekten</entry>
               </row>
 
               <row>
@@ -821,7 +833,8 @@
 
                 <entry>MA &amp; GE</entry>
 
-                <entry></entry>
+                <entry>Formen von künstlichen, begrenzt intelligenten
+                Elementarwesen</entry>
               </row>
 
               <row>
@@ -829,7 +842,7 @@
 
                 <entry>MA &amp; GE</entry>
 
-                <entry></entry>
+                <entry>Erweckung toter Lebewesen</entry>
               </row>
             </tbody>
           </tgroup>
@@ -1385,9 +1398,9 @@
       </sidebar>
 
       <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
-      Charakters zu steigern. Die EP-Kosten dafür sind um so höher, je höher
-      der Wert bereits ist: z.B. kostet es 6 EP, um eine Fertigkeit von 3 auf
-      4 zu steigern.</para>
+      Charakters zu steigern. Die EP-Kosten dafür sind um so höher, je mehr
+      Punkte der Charakter in dieser Eigenschaft bereits besitzt: z.B. kostet
+      es 6 EP, um eine Fertigkeit von 3 auf 4 zu steigern.</para>
 
       <informaltable>
         <tgroup align="center" cols="3">
@@ -1421,11 +1434,11 @@
             </row>
 
             <row>
-              <entry>Wert um 1 steigern</entry>
+              <entry>Punktzahl um 1 steigern</entry>
 
-              <entry>Bisheriger Wert * 5</entry>
+              <entry>Bisherige Punkte * 5</entry>
 
-              <entry>Bisheriger Wert * 2</entry>
+              <entry>Bisherige Punkte * 2</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1452,11 +1465,13 @@
   <chapter xml:id="proben">
     <title>Proben</title>
 
-    <para>Immer, wenn es fraglich ist, ob eine Aktion gelingt, kann der
-    Spielleiter eine <firstterm>Probe</firstterm><indexterm>
+    <para>Alltägliche Handlungen wie Gehen, Sprechen oder Essen werden einem
+    Charakter immer gelingen. Wenn es jedoch fraglich ist, ob eine Aktion
+    gelingt, kann der Spielleiter eine <firstterm>Probe</firstterm><indexterm>
         <primary>Probe</primary>
-      </indexterm> verlangen. Meist wird dies eine
-    <firstterm>Fertigkeitsprobe</firstterm><indexterm significance="preferred">
+      </indexterm> auf die Eigenschaften des Charakters verlangen. Meist wird
+    dies eine <firstterm>Fertigkeitsprobe</firstterm><indexterm
+        significance="preferred">
         <primary>Fertigkeit</primary>
       </indexterm> sein, es sind jedoch auch
     <firstterm>Attributsproben</firstterm><indexterm significance="preferred">
@@ -1710,8 +1725,9 @@
           <primary>Fertigkeit</primary>
         </indexterm><indexterm>
           <primary>Probe</primary>
-        </indexterm>. Die Anzahl der Bonuswürfel beträgt ein Drittel des Werts
-      der unterstützenden Fertigkeit<indexterm significance="preferred">
+        </indexterm>. Die Anzahl der Bonuswürfel beträgt ein Drittel der
+      Würfelanzahl der unterstützenden Fertigkeit<indexterm
+          significance="preferred">
           <primary>Fertigkeit</primary>
         </indexterm> (aufgerundet).<informalexample>
           <para><emphasis>Beispiele:</emphasis></para>
@@ -1742,7 +1758,7 @@
           <primary>Probe</primary>
 
           <secondary>vergleichend</secondary>
-        </indexterm>Häufig treten zwei Charaktere gegeneinander an, z.B. in
+        </indexterm>Oftmals treten zwei Charaktere gegeneinander an, z.B. in
       einem sportlichen Wettkampf oder auch beim Erkennen von Lügen. In
       solchen Situationen führen beide Charaktere jeweils eine Probe<indexterm>
           <primary>Probe</primary>
@@ -2269,7 +2285,12 @@
 
               <entry>-6</entry>
 
-              <entry></entry>
+              <entry><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="../Grafiken/zzz.svg" format="SVG"
+                               width="0.4cm"></imagedata>
+                  </imageobject>
+                </inlinemediaobject></entry>
 
               <entry></entry>
             </row>
@@ -2878,8 +2899,8 @@
       weiteren Würfel auf Handlungen verteilen.</para>
 
       <informalexample>
-        <para>Ein Charakter hat kämpft mit einem Schwert und einem Dolch und
-        hat Beidhändigkeit 7. Die maximal möglichen Würfelanzahlen sind
+        <para>Ein Charakter kämpft mit einem Schwert und einem Dolch und hat
+        Beidhändigkeit 7. Die maximal möglichen Würfelanzahlen sind
         jeweils:</para>
 
         <itemizedlist>
@@ -3368,9 +3389,10 @@
 
       <informalexample>
         <para>Tharion möchte für die Nachtsicht 5 Kraftpunkte verwenden. Die
-        verwendete Fertigkeit Lebewesen ist dem Attribut Materie zugeordnet,
-        in der Tharion einen Wert von 1 hat. Seine Willenskraft beträgt 4,
-        Tharion verwendet für die Sammelprobe also 5 Würfel.</para>
+        verwendete Fertigkeit <emphasis>Lebewesen</emphasis> ist dem Attribut
+        <emphasis>Materie</emphasis> zugeordnet, in dem Tharion 1 Punkt
+        besitzt. Seine Willenskraft beträgt 4, Tharion verwendet für die
+        Sammelprobe also 5 Würfel.</para>
 
         <orderedlist>
           <listitem>
@@ -3417,11 +3439,11 @@
       vermindert um die beim Widerstandswurf erzielten Erfolge.</para>
 
       <informalexample>
-        <para>Tharions Wert in Lebewesen beträgt 2, er muss also nach jeweils
-        zwei Sammelproben einen Widerstandswurf durchführen. Da er keine
-        Fertigkeitswürfel für den Widerstandswurf zur Seite gelegt hat, stehen
-        ihm dafür nur seine 5 Willenskraft-Würfel zur Verfügung. Nach der
-        zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt. Beim
+        <para>Tharions hat <emphasis>Lebewesen</emphasis> 2, er muss also nach
+        jeweils zwei Sammelproben einen Widerstandswurf durchführen. Da er
+        keine Fertigkeitswürfel für den Widerstandswurf zur Seite gelegt hat,
+        stehen ihm dafür nur seine 5 Willenskraft-Würfel zur Verfügung. Nach
+        der zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt. Beim
         Widerstandswurf erzielt er 3 Erfolge und erhält damit einen geistigen
         Schadenspunkt. Nach der dritten Sammelprobe schließt er den Zauber ab
         und muss erneut einen Widerstandswurf durchführen. Er hat nun
@@ -3571,22 +3593,26 @@
       verwendet. Die Würfelanzahl für die eigentliche Zauberprobe ergibt sich
       aus dem Attribut der Primärfertigkeit und dem Durchschnitt der
       angegebenen Magiefertigkeiten. Ist der Durchschnitt keine ganze Zahl,
-      wird in Richtung des Werts der Primärfertigkeit gerundet.</para>
+      wird in Richtung der Punktzahl der Primärfertigkeit gerundet.</para>
 
       <informalexample>
         <para>Der Spruch „Verletzungen heilen“ ist den Fertigkeiten
-        „Lebewesen, Spüren“ zugeordnet, Lebewesen ist die Primärfertigkeit.
-        Die zugeordneten Attribute sind Materie für Lebewesen und Energie für
-        Spüren. Weil Lebewesen die Primärfertigkeit ist, wird als Attribut für
-        Sammel- und Zauberprobe Materie verwendet.</para>
+        „<emphasis>Lebewesen</emphasis>, <emphasis>Spüren</emphasis>“
+        zugeordnet, <emphasis>Lebewesen</emphasis> ist die Primärfertigkeit.
+        Die zugeordneten Attribute sind <emphasis>Materie</emphasis> für
+        <emphasis>Lebewesen</emphasis> und <emphasis>Energie</emphasis> für
+        <emphasis>Spüren</emphasis>. Weil <emphasis>Lebewesen</emphasis> die
+        Primärfertigkeit ist, wird als Attribut für Sammel- und Zauberprobe
+        <emphasis>Materie</emphasis> verwendet.</para>
 
-        <para>Ein Zauberer hat die Attribute Willenskraft auf 5 und Materie
-        auf 2 sowie die Fertigkeiten Lebewesen auf 4 und Spüren auf 1. Für die
-        Sammelprobe verwendet er 7 Würfel (WK + MA). Für die Zauberprobe wird
-        der Durchschnitt der Fertigkeiten gebildet, er beträgt 2,5. Da der
-        Wert der Primärfertigkeit darüber liegt, wird aufgerundet, der
-        Zaubernde erhält also 3 Würfel aus seinen Magiefertigkeiten und 2 aus
-        Materie.</para>
+        <para>Ein Zauberer hat die Attribute <emphasis>Willenskraft</emphasis>
+        auf 5 und <emphasis>Materie</emphasis> auf 2 sowie die Fertigkeiten
+        <emphasis>Lebewesen</emphasis> auf 4 und <emphasis>Spüren</emphasis>
+        auf 1. Für die Sammelprobe verwendet er 7 Würfel (WK + MA). Für die
+        Zauberprobe wird der Durchschnitt der Fertigkeiten gebildet, er
+        beträgt 2,5. Da die Punktzahl der Primärfertigkeit darüber liegt, wird
+        aufgerundet, der Zaubernde erhält also 3 Würfel aus seinen
+        Magiefertigkeiten und 2 aus Materie.</para>
       </informalexample>
     </section>
 
@@ -3596,51 +3622,83 @@
       <para>Unter „Zauberentwicklung“ verstehen wir das Erstellen einer Regel,
       wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
       geschieht meist während des Spielabends aufgrund des spontanen Einfalls
-      eines Spielers. Der Spielleiter muss hier zunächst festlegen, welche
-      Magiefertigkeiten für den entsprechenden Effekt benötigt werden. Besitzt
-      der Spielercharakter nicht alle diese Fertigkeiten, kann er den
+      eines Spielers.</para>
+
+      <para>Der Spielleiter muss zunächst festlegen, welche Magiefertigkeiten
+      für den entsprechenden Effekt benötigt werden. Besitzt der
+      Spielercharakter nicht alle diese Fertigkeiten, kann er den
       entsprechenden Effekt nicht erzielen.</para>
 
       <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Spielleiter
       — eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem
-      er sich zumindest mit den ersten drei der folgenden Punkte
-      befasst:</para>
+      er sich mit den folgenden Punkten befasst:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Wie komplex soll dieser Zauber sein? Soll ihn jeder Amateur
-          wirken können, oder können ihn nur erfahrene Magier meistern? Ist
-          die Schwierigkeit festgelegt oder variabel? Welche Faktoren
-          beeinflussen sie?</para>
+          <para>Schwierigkeit</para>
+
+          <para>Wie schwierig ist es, diesen Effekt in dieser Situation zu
+          erzielen? Wäre jeder Amateur dazu in der Lage, oder ist dies
+          erfahrenen Magiern vorbehalten? Ist die Schwierigkeit festgelegt
+          oder variabel? Welche Faktoren beeinflussen sie?</para>
         </listitem>
 
         <listitem>
-          <para>Wie kraftaufwändig ist dieser Spruch? Wird er eher durch
-          höhere Qualität oder durch Quantität effektiver? Braucht man
-          vielleicht sogar einen Mindestkrafteinsatz, oder ist zuviel Kraft
-          für den Nutznießer (z.B. der Kampfgefährte, den man beschleunigen
-          möchte) sogar schädlich?</para>
+          <para>Kraft</para>
+
+          <para>Wieviele Kraft benötigt der Zaubernde? Auf welchen Aspekt des
+          Zaubers — z.B. Wirkungsdauer oder Stärke des Effekts — hat die
+          Kraftmenge einen Einfluss?</para>
         </listitem>
 
         <listitem>
-          <para>In welcher Weise wirkt zusätzliche Kraft? Verlängert sie die
-          Wirkungsdauer, steigert sie den Effekt, die Reichweite, oder kann
-          man es sich aussuchen? Sind vielleicht verschiedene Dimensionen
-          aneinander gekoppelt, wie z.B. Breite und Höhe?</para>
+          <para>Wirkung</para>
+
+          <para>Die Auswirkungen des Effekts auf die Spielwelt sind, soweit
+          nötig und möglich, in Zahlen anzugeben.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Dabei muss noch keine allgemeine Regelung für verschiedenste
+      Situationen gefunden werden. Stattdessen geht es zunächst nur darum, den
+      konkreten Fall grob regeltechnisch abzubilden. Der Spieler soll also
+      möglichst schnell eine Probe würfeln können, damit das Spiel sofort
+      weitergehen kann.</para>
+
+      <para>Nach dem Spielabend ist dann genug Zeit für eine genaue
+      Ausarbeitung, schriftliche Fixierung und einen Abgleich mit anderen
+      Zaubern. Dabei können folgende Stichpunkte betrachtet werden:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Einordnung</para>
+
+          <para>Konsultieren Sie die Beschreibung(en) der zuvor bestimmten
+          Magiefertigkeit(en), und sehen Sie sich einige zuvor ausgearbeitete
+          Zauber aus diesem Bereich an. Ist der Zauber korrekt eingeordnet,
+          oder gibt es Widersprüche zum Regelwerk oder anderen Zaubern?</para>
         </listitem>
 
         <listitem>
-          <para>Passt er ins Machtgefüge dieses Gebiets? Macht er vielleicht
-          andere Zauber völlig überflüssig, oder kann der Effekt bereits
-          einfacher mit vorhandenen Zaubern erreicht werden?</para>
+          <para>Verallgemeinerung</para>
+
+          <para>Wie verändern sich Schwierigkeit und Kraft, wenn die Umstände
+          anders sind? Legen Sie konkrete Formeln fest oder notieren Sie für
+          jeden Wert einige Beispiele, anhand derer eine andere Situation
+          eingeordnet und die spieltechnische Wirkung des Zaubers bestimmt
+          werden kann. Denken Sie auch an mögliche Begrenzungen: Vielleicht
+          muss eine bestimmte Mindestmenge an Kraft eingesetzt werden, oder
+          eine zu große Kraftmenge ist für den Nutznießer (z.B. der
+          Kampfgefährte, den man beschleunigen möchte) schädlich.</para>
         </listitem>
 
         <listitem>
-          <para>Widerspricht dieser Zauber der Beschreibung der
-          Magiefertigkeit? Warum?</para>
-        </listitem>
+          <para>Balance</para>
 
-        <listitem>
+          <para>Passt der Zauber ins Machtgefüge seiner Fertigkeit(en)? Macht
+          er vielleicht andere Zauber völlig überflüssig, oder kann der Effekt
+          bereits einfacher mit vorhandenen Zaubern erreicht werden?</para>
+
           <para>Welche Gegenmaßnahmen können Sie sich vorstellen? Kein gut
           konzipierter Zauber ist völlig unschlagbar. Wenn es wirklich gar
           keine gibt, überlegen Sie, ob Sie diesen Zauber wirklich haben
@@ -3649,15 +3707,9 @@
         </listitem>
       </itemizedlist>
 
-      <para>Dabei ist es besonders wichtig, schnell zu einem Ergebnis zu
-      kommen. Primär geht es darum, dass der Spieler eine Probe würfeln und
-      das Spiel sofort weiter gehen kann. Schrecken Sie daher nicht davor
-      zurück, zunächst bewusst eine vorübergehende Regelung zu finden! Für
-      eine genaue Ausarbeitung, schriftliche Fixierung und Ausbalancieren mit
-      anderen Zaubern ist nach dem Spielabend noch genug Zeit. Außerdem ist es
-      empfehlenswert, die Regelung noch einmal zu überprüfen und
-      gegebenenfalls zu überarbeiten, nachdem der neue Zauber einige Male
-      angewendet wurde.</para>
+      <para>Nachdem der neue Zauber einige Male angewendet wurde, empfiehlt es
+      sich außerdem, die Regelung noch einmal zu überprüfen und gegebenenfalls
+      zu überarbeiten.</para>
     </section>
   </chapter>
 
@@ -3697,7 +3749,7 @@
                   <primary>Initiativemalus</primary>
                 </indexterm></entry>
 
-              <entry>Reichweite</entry>
+              <entry><para>Reich-</para><para>weite</para></entry>
 
               <entry><para>Gewicht</para><para>in kg</para></entry>
 
@@ -5507,7 +5559,9 @@
       <title>Lügen</title>
 
       <para>Für Zwecke von sozialen Fertigkeitsproben und Telepathiezaubern
-      kann man folgende Arten von Lügen unterscheiden:</para>
+      kann man die unten stehenden Arten von Lügen unterscheiden. Die
+      angegebene Stufe der Lüge fließt dabei in die Ermittlung der
+      Schwierigkeit oder der nötigen Erfolgsanzahl ein.</para>
 
       <informaltable>
         <tgroup cols="5">
@@ -5779,7 +5833,7 @@
 
               <entry>2</entry>
 
-              <entry>4</entry>
+              <entry>3</entry>
 
               <entry></entry>
             </row>
@@ -5791,7 +5845,7 @@
 
               <entry>4</entry>
 
-              <entry>8</entry>
+              <entry>7</entry>
 
               <entry></entry>
             </row>
