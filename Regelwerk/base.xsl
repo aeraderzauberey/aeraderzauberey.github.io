@@ -39,7 +39,7 @@
 
   <xsl:param name="header.rule">0</xsl:param>
   <xsl:param name="footer.rule">0</xsl:param>
-  
+
   <!-- Set the page number format to 1,2,3,... -->
   <xsl:template name="page.number.format">1</xsl:template>
 
@@ -266,6 +266,7 @@
   
   <!-- column configuration -->
   <xsl:param name="column.count.body">1</xsl:param>
+  <xsl:param name="column.count.back">1</xsl:param>
   <xsl:attribute-set name="component.titlepage.properties">
     <xsl:attribute name="span">all</xsl:attribute>
     <xsl:attribute name="margin-bottom">1em</xsl:attribute>
@@ -273,7 +274,7 @@
 
 
   <xsl:param name="body.start.indent">0pt</xsl:param>
-  <xsl:param name="body.font.master">12</xsl:param>
+  <xsl:param name="body.font.master">12</xsl:param> <!-- TODO experiment with '10' -->
   <xsl:param name="line-height">1.2</xsl:param>
   <xsl:param name="margin.left">none</xsl:param>
 
@@ -336,7 +337,7 @@
     <!-- highlight this entry? -->
     <xsl:if test="ancestor::thead or ancestor::tfoot or @role='head'">
       <xsl:attribute name="font-family">Carolingia</xsl:attribute>
-      <xsl:attribute name="font-size">14pt</xsl:attribute>
+      <xsl:attribute name="font-size">120%</xsl:attribute>
     </xsl:if>
     <xsl:if test="ancestor::row[@role='gray']">
       <xsl:attribute name="color">#A0A0A0</xsl:attribute>
@@ -376,6 +377,10 @@
 
   <xsl:attribute-set name="list.block.spacing">
       <xsl:attribute name="space-before">0</xsl:attribute>
+  </xsl:attribute-set>
+
+  <xsl:attribute-set name="list.item.spacing">
+      <xsl:attribute name="keep-together.within-column">always</xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:template match="para[@role='compactheading']">

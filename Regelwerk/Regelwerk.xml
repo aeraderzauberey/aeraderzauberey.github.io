@@ -279,7 +279,7 @@
             <primary>Fertigkeit</primary>
           </indexterm> repräsentieren die individuellen Kenntnisse und
         Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jede
-        Fertigkeit<indexterm significance="preferred">
+        Fertigkeit<indexterm>
             <primary>Fertigkeit</primary>
           </indexterm> ist dabei einem Attribut zugeordnet, das bei
         Proben<indexterm significance="preferred">
@@ -853,9 +853,15 @@
     <section xml:id="charaktererschaffung">
       <title>Charaktererschaffung</title>
 
-      <para>Um einen Charakter zu erstellen, kauft der Spieler Attribute und
-      Fertigkeiten. Zum Abschluss bestimmt er noch den Initiativebasiswert und
-      die individuelle Höhe seiner Verletzungsmali.</para>
+      <para>Um einen Charakter zu erstellen, kauft der Spieler
+      Attribute<indexterm>
+          <primary>Attribut</primary>
+        </indexterm>, Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> und gegebenenfalls Sonderfertigkeiten<indexterm>
+          <primary>Sonderfertigkeit</primary>
+        </indexterm>. Zum Abschluss bestimmt er noch den Initiativebasiswert
+      und die individuelle Höhe seiner Verletzungsmali.</para>
 
       <section>
         <title>Attribute und Fertigkeiten</title>
@@ -865,7 +871,11 @@
             <primary>Erfahrungspunkte</primary>
           </indexterm> (EP) zur Verfügung, welche die Vorgeschichte und
         Ausbildung des Charakters symbolisieren. Der Spieler kann mit diesen
-        Erfahrungspunkten Attribute und Fertigkeiten kaufen.</para>
+        Erfahrungspunkten Attribute<indexterm>
+            <primary>Attribut</primary>
+          </indexterm> und Fertigkeiten<indexterm>
+            <primary>Fertigkeit</primary>
+          </indexterm> kaufen.</para>
 
         <para>Der Spielleiter kann für seine Spielrunde die EP-Anzahl frei
         wählen. Für wenig erfahrene Charaktere bzw. für Spieler, welche zum
@@ -1117,6 +1127,58 @@
               </tbody>
             </tgroup>
           </informaltable></para>
+      </section>
+
+      <section xml:id="sonderfertigkeiten">
+        <title>Sonderfertigkeiten<indexterm class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm></title>
+
+        <para>Neben Attributen und Fertigkeiten können Spieler noch weitere
+        Eigenschaften für einen Charakter kaufen, die
+        Sonderfertigkeiten<indexterm class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm>. Für Sonderfertigkeiten<indexterm class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm> wird keine Punktzahl notiert; entweder ein Charakter
+        besitzt die entsprechende Sonderfertigkeit<indexterm class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm> oder er besitzt sie nicht.</para>
+
+        <para>Charakteren stehen die folgenden Sonderfertigkeiten<indexterm
+            class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm> zur Verfügung:</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Gestenlos zaubern (15 EP)</term>
+
+            <listitem>
+              <para>Der Charakter hat gelernt, ohne Zuhilfenahme von Gesten zu
+              zaubern. Kann einzeln oder zusammen mit <emphasis>Wortlos
+              zaubern</emphasis> gekauft werden.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wortlos zaubern (15 EP)</term>
+
+            <listitem>
+              <para>Diese Sonderfertigkeit<indexterm class="singular">
+                  <primary>Sonderfertigkeit</primary>
+                </indexterm> ermöglicht es, Magie völlig ohne gemurmelte oder
+              gesprochene Zauberformeln zu wirken. Kann einzeln oder zusammen
+              mit <emphasis>Gestenlos zaubern</emphasis> gekauft
+              werden.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+
+        <para>Alle Sonderfertigkeiten<indexterm class="singular">
+            <primary>Sonderfertigkeit</primary>
+          </indexterm> können nicht nur während der Charaktererschaffung,
+        sondern auch später gekauft werden.</para>
       </section>
 
       <section xml:id="initiativebasis">
@@ -1397,10 +1459,10 @@
         Inhalt etwa 12 EP wert sein sollte.</para>
       </sidebar>
 
-      <para>Ein Spieler kann diese EP verwenden, um einzelne Werte seines
-      Charakters zu steigern. Die EP-Kosten dafür sind um so höher, je mehr
-      Punkte der Charakter in dieser Eigenschaft bereits besitzt: z.B. kostet
-      es 6 EP, um eine Fertigkeit von 3 auf 4 zu steigern.</para>
+      <para>Ein Spieler kann diese EP verwenden, um einzelne Eigenschaften
+      seines Charakters zu steigern. Die EP-Kosten dafür sind um so höher, je
+      mehr Punkte der Charakter in dieser Eigenschaft bereits besitzt: z.B.
+      kostet es 6 EP, um eine Fertigkeit von 3 auf 4 zu steigern.</para>
 
       <informaltable>
         <tgroup align="center" cols="3">
@@ -1444,16 +1506,26 @@
         </tgroup>
       </informaltable>
 
+      <para>Außerdem kann ein Charakter auch nachträglich die im Kapitel <xref
+      linkend="charaktererschaffung" /> beschriebenen
+      Sonderfertigkeiten<indexterm class="singular">
+          <primary>Sonderfertigkeit</primary>
+        </indexterm> kaufen.</para>
+
       <para>Bei Steigerungen sollten Spieler und Spielleiter auch die
       erzählerische Erklärbarkeit berücksichtigen. So kann sich ein Spieler
       nach einem Wüstenabenteuer sicherlich entscheiden, dass der Charakter
       seine <emphasis>Geographie</emphasis>-Fertigkeit verbessert hat — die
       Steigerung von <emphasis>Schwimmen</emphasis> dürfte jedoch etwas
       abwegig sein. Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
-      neuen Fertigkeiten einen Lehrmeister oder entsprechende Fachliteratur
-      zur Verfügung haben sollte. Wer den Schwertkampf in Grundzügen
-      beherrscht, kann vielleicht durch reine Übung und Training besser werden
-      — der Versuch, sich das Kämpfen mit dem Schwert selbst beizubringen wäre
+      neuen Fertigkeiten<indexterm>
+          <primary>Fertigkeiten</primary>
+        </indexterm> und beim Erlernen von Sonderfertigkeiten<indexterm>
+          <primary>Sonderfertigkeit</primary>
+        </indexterm> einen Lehrmeister oder entsprechende Fachliteratur zur
+      Verfügung haben sollte. Wer den Schwertkampf in Grundzügen beherrscht,
+      kann vielleicht durch reine Übung und Training besser werden — der
+      Versuch, sich das Kämpfen mit dem Schwert selbst beizubringen wäre
       jedoch von vornherein zum Scheitern verurteilt.</para>
 
       <para>Beachten Sie, dass nach einer Steigerung ggf. der
@@ -3307,23 +3379,29 @@
     Zaubersprüchen findet sich im Anhang.</para>
 
     <section>
-      <title>Überblick</title>
+      <title>Überblick des Zaubervorgangs</title>
 
-      <para>Das Zaubern beginnt mit dem Sammeln von Kraft. Die Menge an
-      <firstterm baseform="Kraftpunkte">Kraftpunkten</firstterm><indexterm>
+      <para>Zunächst werden gewisse Voraussetzungen geprüft. Dann beginnt das
+      Zaubern mit dem Sammeln von Kraft<indexterm>
+          <primary>Kraft</primary>
+        </indexterm>. Die Menge an <firstterm
+      baseform="Kraftpunkte">Kraftpunkten</firstterm><indexterm>
           <primary>Kraftpunkte</primary>
         </indexterm>, die für einen Zauber verwendet wird, beeinflusst die
       Auswirkungen des Zaubers, z.B. seine Stärke, Reichweite oder
       Wirkungsdauer.</para>
 
-      <para>Ein Charakter lenkt diese Kraft durch sich selbst hindurch in den
-      Zauber. Dadurch kommt es zu einer Art geistiger „Rückkopplung“. Diese
-      ist umso stärker, je mehr Kraft für den Zauber verwendet wird: die
-      Folgen reichen von Unkonzentriertheit und Erschöpfung über Kopfschmerzen
-      und Halluzinationen bis hin zu Schockzuständen und Bewusstlosigkeit.
-      Diese Folgen lassen sich durch den
-      <firstterm>Kraftwiderstandswurf</firstterm> verringern oder
-      vermeiden.</para>
+      <para>Ein Charakter lenkt diese Kraft<indexterm>
+          <primary>Kraft</primary>
+        </indexterm> durch sich selbst hindurch in den Zauber. Dadurch kommt
+      es zu einer Art geistiger „Rückkopplung“. Diese ist umso stärker, je
+      mehr Kraft<indexterm>
+          <primary>Kraft</primary>
+        </indexterm> für den Zauber verwendet wird: die Folgen reichen von
+      Unkonzentriertheit und Erschöpfung über Kopfschmerzen und
+      Halluzinationen bis hin zu Schockzuständen und Bewusstlosigkeit. Diese
+      Folgen lassen sich durch den <firstterm>Kraftwiderstandswurf</firstterm>
+      verringern oder vermeiden.</para>
 
       <para>Den Abschluss des Zauberns bildet die Zauberprobe. Sie
       entscheidet, ob der Zauber insgesamt gelungen ist und wenn ja, wie
@@ -3331,6 +3409,45 @@
 
       <para>Die folgenden Abschnitte beschreiben den genauen Ablauf des
       Zauberns.</para>
+    </section>
+
+    <section>
+      <title>Voraussetzungen</title>
+
+      <para>Damit ein Charakter einen Zauber wirken kann, müssen folgende
+      Voraussetzungen gegeben sein:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Definiertes Ziel</para>
+
+          <para>Der Spieler muss das Ziel des Zaubers klar definieren, z.B.
+          ein Objekt, eine bestimmte Stelle, ein Tier oder eine Person. Je
+          nach Zauber können auch mehrere solcher Ziele genannt oder alle
+          Ziele in einem bestimmten Radius erfasst werden.</para>
+        </listitem>
+
+        <listitem>
+          <para>Verbindung zum Ziel</para>
+
+          <para>Das Ziel muss sich im Sichtfeld des Charakters befinden.
+          Alternativ kann es auch über magische Wahrnehmung (Magiefertigkeit
+          <emphasis>Spüren</emphasis>) oder telepathisch lokalisiert
+          werden.</para>
+        </listitem>
+
+        <listitem>
+          <para>Konzentration</para>
+
+          <para>Der Charakter muss sich auf die Zauberhandlung konzentrieren.
+          Dazu führt er entsprechende Gesten aus und murmelt, spricht oder
+          ruft Zauberformeln, sofern er nicht die Sonderfertigkeiten<indexterm>
+              <primary>Sonderfertigkeit</primary>
+            </indexterm> <emphasis>Gestenlos zaubern</emphasis> und/oder
+          <emphasis>Wortlos zaubern</emphasis> (siehe <xref
+          linkend="sonderfertigkeiten" />) besitzt.</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>

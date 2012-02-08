@@ -8,7 +8,7 @@ indexterm
 	- "Probe" ist ein Stichwort, wenn es um Proben allgemein und keine speziellen geht.
 	- Konkrete Attributproben (a la Konstitutionsprobe) sind Nennungen des jeweiligen Attribut-Stichworts, aber keine von "Probe" (sonst zuviele nichtssagende Nennungen). Ähnliches gilt für "Zauberprobe", "Sammelprobe" & Co.
 	- Überschriften können Stichworte sein
-	- Taucht ein Stichwort in der Form "*Verletzungsmalus* wird ignoriert" oder bei Vergleichen wie "Geistiger Schaden heilt schneller als *körperlicher_Schaden*" auf, ist das keine Nennung.
+	- Taucht ein Stichwort in der Form "*Verletzungsmalus* wird ignoriert", "Neben *Attributen* und *Fertigkeiten*…" oder bei Vergleichen wie "Geistiger Schaden heilt schneller als *körperlicher_Schaden*" auf, ist das keine Nennung.
 	- Gegenstände wie Rüstungen, Schilde werden als Stichworte im Plural geschrieben.
 	- Adjektive wie "Heilung, magisch" bleiben in der Grundform, es heißt also nicht "Heilung, magische"
 	- Allgemeine Konzepte wie "Kampf" oder "Magie", welche keine eigene regeltechnische Definition besitzen, sind keine Stichworte.
