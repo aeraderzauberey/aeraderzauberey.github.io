@@ -17,6 +17,30 @@
 
   <xsl:param name="paper.type">A4</xsl:param>
   <xsl:param name="draft.mode">no</xsl:param>
+
+  <xsl:param name="show.comments">0</xsl:param>
+
+	<!-- hide paragraphs that only consist of a remark -->
+	<xsl:template match="para[count(*)=1 and remark and not(text())]">
+		<xsl:if test="$show.comments != 0">
+			<fo:block xsl:use-attribute-sets="normal.para.spacing">
+				<xsl:apply-templates/>
+			</fo:block>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template match="comment|remark">
+		<xsl:if test="$show.comments != 0">
+			<fo:inline xsl:use-attribute-sets="remark.properties">
+				<xsl:call-template name="inline.charseq"/>
+			</fo:inline>
+		</xsl:if>
+	</xsl:template>
+	<xsl:attribute-set name="remark.properties">
+		<xsl:attribute name="font-style">italic</xsl:attribute>
+		<xsl:attribute name="color">#0000c0</xsl:attribute>
+	</xsl:attribute-set>
+
   <xsl:param name="double.sided">1</xsl:param>
 
   <xsl:param name="hyphenate">true</xsl:param>
@@ -369,18 +393,34 @@
     </fo:block>
   </xsl:template>
 
-  <xsl:template match="listitem//para">
-    <fo:block space-before="0">
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
+	<!-- remove para magins in lists -->
+	<xsl:template match="listitem//para">
+		<fo:block space-before="0">
+			<xsl:apply-templates/>
+		</fo:block>
+	</xsl:template>
 
-  <xsl:attribute-set name="list.block.spacing">
-      <xsl:attribute name="space-before">0</xsl:attribute>
-  </xsl:attribute-set>
+	<xsl:attribute-set name="list.block.spacing">
+		<xsl:attribute name="space-before">0</xsl:attribute>
+	</xsl:attribute-set>
 
   <xsl:attribute-set name="list.item.spacing">
       <xsl:attribute name="keep-together.within-column">always</xsl:attribute>
+      <xsl:attribute name="space-before.optimum">
+		  <xsl:choose><xsl:when test="ancestor::variablelist">1em</xsl:when><xsl:otherwise>0</xsl:otherwise></xsl:choose>
+	  </xsl:attribute>
+      <xsl:attribute name="space-before.minimum">
+		  <xsl:choose><xsl:when test="ancestor::variablelist">0.8em</xsl:when><xsl:otherwise>0</xsl:otherwise></xsl:choose>
+	  </xsl:attribute>
+      <xsl:attribute name="space-before.maximum">
+		  <xsl:choose><xsl:when test="ancestor::variablelist">1.2em</xsl:when><xsl:otherwise>0</xsl:otherwise></xsl:choose>
+	  </xsl:attribute>
+  </xsl:attribute-set>
+
+  <xsl:param name="variablelist.as.blocks">1</xsl:param>
+  <xsl:attribute-set name="variablelist.term.properties">
+      <xsl:attribute name="font-weight">bold</xsl:attribute>
+      <xsl:attribute name="space-before">1em</xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:template match="para[@role='compactheading']">
