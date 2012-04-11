@@ -583,7 +583,7 @@
 
                   <entry>Die Fähigkeit, bewaffneten und unbewaffneten
                   Nahkampfangriffen auszuweichen (siehe <xref
-                  linkend="verteidigungswurf" />).</entry>
+                  linkend="nahkampf" />).</entry>
                 </row>
 
                 <row>
@@ -1919,10 +1919,18 @@
       </listitem>
     </itemizedlist>
 
-    <para>Gemeinsam ist beiden Schadensarten, dass der erhaltene Schaden durch
-    Ankreuzen der Stufen einer Leiste auf dem Charakterblatt vermerkt wird.
-    Nach und nach wird dann abhängig von den Umständen und der im Spiel
-    vergangenen Zeit dieser Schaden wieder abgebaut.</para>
+    <para>Jeder Schaden, den ein Charakter erhält, ist entweder körperlicher
+    oder geistiger Schaden. In beiden Fällen steht dem Charakter ein
+    <firstterm>Widerstandswurf</firstterm><indexterm>
+        <primary>Widerstandswurf</primary>
+      </indexterm> zu, der seine Zähigkeit und Widerstandsfähigkeit
+    repräsentiert. Für jeden Erfolg bei diesem Wurf wird der Schaden um 1
+    reduziert.</para>
+
+    <para>Der tatsächlich erhaltene Schaden wird durch Ankreuzen der Stufen
+    einer Leiste auf dem Charakterblatt vermerkt. Nach und nach wird dann
+    abhängig von den Umständen und der im Spiel vergangenen Zeit dieser
+    Schaden wieder abgebaut.</para>
 
     <para>Unter jeder Schadensstufe ist der sogenannte
     Verletzungsmalus<indexterm>
@@ -1943,8 +1951,7 @@
         <primary>Würfelmalus</primary>
       </indexterm> bei allen Proben außer Widerstandswürfen<indexterm>
         <primary>Widerstandswurf</primary>
-      </indexterm> (siehe <xref linkend="schaden_und_widerstand"
-    xrefstyle="page" />) und Kraftsammelproben (siehe <xref
+      </indexterm> (siehe oben) und Kraftsammelproben (siehe <xref
     linkend="kraft_sammeln" xrefstyle="page" />).</para>
 
     <para>In den folgenden Abschnitten werden die Regelmechanismen der beiden
@@ -1971,6 +1978,13 @@
 
           <secondary>körperlich</secondary>
         </indexterm></firstterm> wird eine dieser Stufen angekreuzt.</para>
+
+      <para>Der Widerstandswurf<indexterm>
+          <primary>Widerstandswurf</primary>
+        </indexterm> für körperlichen Schaden wird mit dem Attribut
+      <emphasis>Konstitution</emphasis><indexterm>
+          <primary>Konstitution</primary>
+        </indexterm> durchgeführt.</para>
 
       <para>Je mehr Schaden ein Charakter erhalten hat, desto schwächer wird
       er. Der Verletzungsmalus<indexterm>
@@ -2169,6 +2183,13 @@
 
           <secondary>geistig</secondary>
         </indexterm> dargestellt.</para>
+
+      <para>Der Widerstandswurf<indexterm>
+          <primary>Widerstandswurf</primary>
+        </indexterm> für geistigen Schaden wird mit dem Attribut
+      <emphasis>Willenskraft</emphasis><indexterm>
+          <primary>Willenskraft</primary>
+        </indexterm> durchgeführt.</para>
 
       <para>Hat ein Charakter geistigen Schaden<indexterm>
           <primary>Schaden</primary>
@@ -2498,6 +2519,25 @@
   <chapter xml:id="kampf">
     <title>Kampf</title>
 
+    <section>
+      <title>Überblick</title>
+
+      <para>In Kampfsituationen bedarf es zusätzlich zum erzählerischen Spiel
+      einer stärkeren Strukturierung, um taktische Entscheidungen
+      darzustellen. Diese Strukturierung wird in den folgenden Abschnitten
+      erläutert.</para>
+
+      <para>Die <emphasis>Initiative</emphasis> gibt Auskunft darüber, in
+      welcher Reihenfolge die Charaktere handeln. Zur Darstellung des
+      zeitlichen Verlaufs eines Kampfes werden die Handlungen innerhalb von
+      <emphasis>Kampfrunden</emphasis> abgewickelt. Im Abschnitt
+      <emphasis>Nahkampf</emphasis> wird der Ablauf von Angriffen erklärt,
+      bevor die Mechanismen für <emphasis>Rüstungen, Paradewaffen und
+      Schilde</emphasis> vorgestellt werden. Die Regeln für den
+      <emphasis>Beidhändigen Kampf</emphasis> sowie den
+      <emphasis>Fernkampf</emphasis> schließen das Kapitel ab.</para>
+    </section>
+
     <section xml:id="initiative">
       <title>Initiative<indexterm>
           <primary>Initiative</primary>
@@ -2523,7 +2563,7 @@
         <listitem>
           <para>Initiativemalus (IM)<indexterm>
               <primary>Initiativemalus</primary>
-            </indexterm> der geführten Waffe (siehe <xref
+            </indexterm> durch Waffen, Rüstungen und Schilde (siehe <xref
           linkend="waffen" />)</para>
         </listitem>
 
@@ -2559,25 +2599,25 @@
       <informalexample>
         <para>Elris hat sich von der anstrengenden Flucht über die Dächer,
         nachdem er bei der Arbeit überrascht wurde, wieder etwas erholt.
-        Prompt steht er am Nachmittag mit seinem Freund Tharion (einem Magier)
-        zwei finster aussehenden und noch dazu feindlich gesinnten Gestalten
+        Prompt steht er am Nachmittag mit seiner Freundin Solinara zwei
+        finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
         <para>Elris hat Intuition 4 und Reflexe 5, der Initiativebasiswert
         beträgt somit 18. Sein W20-Wurf ergibt eine 13, macht 31. Er kämpft
         mit einem Schwert und erhält deswegen einen Initiativemalus von -3,
-        ergibt 28. Tharion hat Intuition und Reflexe jeweils auf 4 und würfelt
-        eine 16, ergibt 32. Er beschränkt sich auf Zauberei und erhält
-        deswegen keinen Initiativemalus.</para>
+        ergibt 28. Solinara hat Intuition und Reflexe jeweils auf 4 und
+        würfelt eine 8, ergibt 24. Sie kämpft mit einem Kampfstab (IM -2),
+        ihre Initiative beträgt also 22.</para>
 
         <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
         kämpft mit einem Säbel (Initiativemalus -3) und würfelt eine 7, ergibt
         20. Der andere hat einen Initiativebasiswert von 14, kämpft mit einem
         Knüppel (-2) und würfelt eine 15, ergibt 27.</para>
 
-        <para>Elris hat also Glück: Tharion (32) und er (28) sind beide
-        schneller als ihre Gegner, die erst bei 27 und 20 an die Reihe
-        kommen.</para>
+        <para>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm
+        sind Gegner 2 bei 27, Solinara bei 22 und Gegner 1 bei 20 an der
+        Reihe.</para>
       </informalexample>
     </section>
 
@@ -2597,8 +2637,11 @@
         </indexterm> ist in <firstterm
       baseform="Aktionsphase">Aktionsphasen</firstterm><indexterm>
           <primary>Aktionsphase</primary>
-        </indexterm> eingeteilt, eine für jeden Charakter. Während seiner
-      Aktionsphase<indexterm>
+        </indexterm> eingeteilt, eine für jeden Charakter. Die Reihenfolge der
+      Aktionsphasen entspricht der absteigenden Reihenfolge der
+      Initiative.</para>
+
+      <para>Während seiner Aktionsphase<indexterm>
           <primary>Aktionsphase</primary>
         </indexterm> kann ein Charakter genau eine Handlung<indexterm>
           <primary>Handlung</primary>
@@ -2615,7 +2658,9 @@
         </indexterm> kann sowohl vor als auch nach seiner eigenen
       Aktionsphase<indexterm>
           <primary>Aktionsphase</primary>
-        </indexterm> stattfinden.</para>
+        </indexterm> stattfinden, jedoch ausschließlich als Folge auf eine
+      Aktion eines anderen Charakters. So können z.B. Angriffe nicht als
+      Reaktion betrachtet werden.</para>
 
       <para>Die folgende Tabelle enthält Beispiele für Handlungen<indexterm>
           <primary>Handlung</primary>
@@ -2706,251 +2751,386 @@
           </tbody>
         </tgroup>
       </informaltable>
-    </section>
 
-    <section>
-      <title>Ankündigungsphase</title>
-
-      <para>Am Beginn jeder Runde steht die
-      <firstterm>Ankündigungsphase</firstterm><indexterm>
-          <primary>Ankündigungsphase</primary>
-        </indexterm>, in der nacheinander alle Kämpfer (beginnend mit dem
-      „langsamsten“) ankündigen, welche Handlungen<indexterm>
+      <para>Die Hektik einer Kampfsituation schlägt sich auch in den
+      Proben<indexterm>
+          <primary>Probe</primary>
+        </indexterm> während eines Kampfes nieder: führt ein Charakter zwei
+      Handlungen<indexterm>
           <primary>Handlung</primary>
-        </indexterm> sie in dieser Runde durchführen wollen. Durch diese
-      Ankündigung können schnellere Kämpfer mit höherer Initiative<indexterm>
-          <primary>Initiative</primary>
-        </indexterm> auf die langsameren reagieren und haben einen taktischen
-      Vorteil.</para>
+        </indexterm> in einer Runde durch, kann er nicht einfach jeweils die
+      volle Würfelanzahl verwenden — er muss Prioritäten setzen. Wir
+      unterscheiden daher die <firstterm>reguläre Würfelanzahl</firstterm>,
+      welche aus den Eigenschaften des Charakters und eventuellen
+      Verletzungsmodifikatoren gebildet wird, von den tatsächlich
+      <firstterm>eingesetzten Würfeln</firstterm>.</para>
 
-      <para>Bei der Ankündigung legt der Kämpfer fest, welche Aktion<indexterm>
-          <primary>Aktion</primary>
-        </indexterm> er während seiner Aktionsphase<indexterm>
-          <primary>Aktionsphase</primary>
-        </indexterm> durchführen wird und welche Reaktion<indexterm>
-          <primary>Reaktion</primary>
-        </indexterm> er sich für die Aktionsphasen seiner Gegner aufbewahrt.
-      Bei Aktionen<indexterm>
-          <primary>Aktion</primary>
-        </indexterm> wird dabei auch das Ziel festgelegt, z.B. „Schwertangriff
-      auf den mittleren Soldaten“.</para>
-
-      <para>Außerdem werden die Würfelanzahlen<indexterm>
+      <para>Für jede Handlung<indexterm>
+          <primary>Handlung</primary>
+        </indexterm> seines Charakters entscheidet der Spieler unmittelbar vor
+      Durchführung der Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm>, wie viele Würfel<indexterm>
           <primary>Würfelanzahl</primary>
-        </indexterm> festgelegt:</para>
+        </indexterm> er einsetzen möchte:</para>
 
-      <itemizedlist>
+      <orderedlist>
         <listitem>
-          <para>Erfordern beide Handlungen<indexterm>
+          <para>Für die erste Handlung<indexterm>
               <primary>Handlung</primary>
-            </indexterm> eine Probe<indexterm>
-              <primary>Probe</primary>
-            </indexterm>, verteilt der Kämpfer die höhere
-          Würfelanzahl<indexterm>
+            </indexterm> können bis zu deren regulärer Würfelanzahl<indexterm>
               <primary>Würfelanzahl</primary>
-            </indexterm> auf Aktion<indexterm>
-              <primary>Aktion</primary>
-            </indexterm> und Reaktion<indexterm>
-              <primary>Reaktion</primary>
-            </indexterm>. Dabei darf er höchstens so viele Würfel zuteilen,
-          wie er tatsächlich für den jeweiligen Wurf besitzt.</para>
+            </indexterm> beliebig viele Würfel eingesetzt werden.</para>
         </listitem>
 
         <listitem>
-          <para>Verzichtet der Kämpfer auf Aktion<indexterm>
-              <primary>Aktion</primary>
-            </indexterm> oder Reaktion<indexterm>
-              <primary>Reaktion</primary>
-            </indexterm> oder erfordert eine der beiden Handlungen<indexterm>
-              <primary>Handlung</primary>
-            </indexterm> keine Probe, erhält er für die verbliebene Handlung
-          deren reguläre Würfelanzahl<indexterm>
+          <para>Die Würfelanzahl<indexterm>
               <primary>Würfelanzahl</primary>
-            </indexterm>.</para>
+            </indexterm> für die zweite Handlung<indexterm>
+              <primary>Handlung</primary>
+            </indexterm> in einer Runde wird zusätzlich dadurch begrenzt, wie
+          viele Würfel bereits für die erste Handlung<indexterm>
+              <primary>Handlung</primary>
+            </indexterm> dieser Runde<indexterm>
+              <primary>Kampfrunde</primary>
+            </indexterm> verwendet wurden: es stehen nur so viele Würfel zur
+          Verfügung, wie nach Abzug der bisher verwendeten Würfel von der
+          höheren der beiden regulären Würfelanzahlen<indexterm>
+              <primary>Würfelanzahl</primary>
+            </indexterm> verbleiben.</para>
         </listitem>
-      </itemizedlist>
+      </orderedlist>
 
-      <sidebar>
-        <para>Beachten Sie, dass die konkrete Verteilung der
-        Würfelanzahlen<indexterm>
-            <primary>Würfelanzahl</primary>
-          </indexterm> eines Kämpfers für die anderen Charaktere nicht
-        offensichtlich ist — es geht lediglich darum, dass sie vom jeweiligen
-        Kämpfer (insbesondere den Spielercharakteren) zu Beginn der Runde
-        festgelegt werden muss und nicht etwa später nach Bedarf angepasst
-        werden kann. Der Spielleiter muss also keineswegs die Spielwerte der
-        von ihm verkörperten Nichtspielercharaktere offenbaren.</para>
-      </sidebar>
+      <para><remark>Es kann vorkommen, dass sich die reguläre Würfelanzahl
+      während der Runde verändert. Beispiel: Unverletzter Charakter hat 8
+      Würfel für Schwertkampf und führt eine Parade mit 4 Würfeln durch. Er
+      erleidet Schaden und erhält fortan einen Verletzungsmodifikator von -2
+      Würfel. Als er selbst an die Reihe kommt, beträgt seine reguläre
+      Würfelanzahl also nur noch 6. Die 4 bereits verwendeten Würfel werden
+      von der höheren der beiden regulären Würfelanzahlen abgezogen. Was aus
+      den obigen Regeln nicht eindeutig hervorgeht: die "beiden"
+      Würfelanzahlen in diesem Fall sind der damalige Schwertkampf-Würfelpool
+      von 8 und der neue Schwertkampf-Würfelpool von 6. Die 4 verwendeten
+      Würfel werden also nicht von den 6 neuen Würfeln abgezogen, sondern von
+      den 8 alten. Folglich kann der Charakter immerhin 4 Würfel für den
+      Angriff einsetzen (aber niemals mehr als sein neuer regulärer
+      Würfelpool), nicht nur 2.</remark></para>
+
+      <para>Dabei ist es unerheblich, ob die erste Handlung<indexterm>
+          <primary>Handlung</primary>
+        </indexterm> eine Aktion<indexterm>
+          <primary>Aktion</primary>
+        </indexterm> oder eine Reaktion<indexterm>
+          <primary>Reaktion</primary>
+        </indexterm> ist.</para>
+
+      <para>Erfordert eine der beiden Handlungen keine Probe, erhält der
+      Charakter für die andere Handlung deren reguläre Würfelanzahl.</para>
 
       <informalexample>
-        <para>Der Spielleiter teilt den Spielern mit, dass einer der Schläger
-        Elris mit seinem Knüppel angreifen, aber auch parieren wird, während
-        der andere mit seinem Säbel Tharion attackieren will, ohne Würfel für
-        eine Reaktion aufzuheben.</para>
+        <para>Kehren wir nun zu Solinara und Elris zurück. Bevor es an die
+        Details des Kämpfens geht, betrachten wir nur die Abwicklung der
+        Aktionsphasen an sich sowie das Verteilen von Würfeln.</para>
 
-        <para>Elris (Gewandtheit 5, Schwerter 3, Ausweichen 4) will seinen
-        Gegner attackieren, aber auch noch ausweichen können. Er hätte 9
-        Würfel fürs Ausweichen und 8 fürs Angreifen, ergibt 9 zum Verteilen.
-        Er entscheidet sich, von diesen Würfeln 5 zum Angriff zu benutzen und
-        4 zurückzuhalten.</para>
+        <orderedlist startingnumber="99">
+          <?dbfo label-width="1.75em"?>
 
-        <para>Tharion hat Gewandtheit 3 und Ausweichen 4 (macht 7), für
-        Telekinese hätte er 8 Würfel — verteilen darf er also 8. Er teilt der
-        Aktion 4 Würfel und der Reaktion 4 Würfel zu.</para>
+          <listitem override="28">
+            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 28).
+            Er attackiert den zweiten Gegner, doch Elris ist nicht so
+            übermütig, dass er dabei seine Deckung aufgeben würde: Er
+            verwendet für den Angriff nur 5 seiner 8 Würfel (Gewandtheit 5,
+            Schwerter 3).</para>
 
-        <para>Die Kampfrunde beginnt nun bei der höchsten Initiative, und
-        damit mit Tharions Aktionsphase: Seine Zauberprobe gelingt (wie wird
-        später erklärt), und er kann seinem Gegner den Säbel aus der Hand
-        schlagen. Als nächstes ist Elris an der Reihe und greift seinen Gegner
-        mit dem Schwert an...</para>
+            <para>Gegner 2 hat für den Kampf mit einem Knüppel 8 Würfel
+            (Gewandtheit 4, Hiebwaffen 4), von denen er nun 4 für seine
+            Parade-Reaktion verwendet (näheres zur Parade auf <xref
+            linkend="verteidigungswurf" xrefstyle="page" />).</para>
+
+            <para>Nachdem dieser Angriff abgewickelt wurde, endet Elris'
+            Aktionsphase.</para>
+
+            <para></para>
+          </listitem>
+
+          <listitem override="27">
+            <para>Nun ist es an Gegner 2, zu agieren (Initiative 27). Er hat
+            während Elris' Aktionsphase bereits eine Reaktion mit 4 Würfeln
+            durchgeführt. Er greift nun seinerseits Elris mit dem Knüppel an.
+            Sowohl für Angriff als auch Parade beträgt für ihn die reguläre
+            Würfelanzahl wie oben erwähnt 8. Von diesen verbleiben für den
+            Angriff 4 Würfel (reguläre Würfelanzahl minus bisher verwendete
+            Würfel).</para>
+
+            <para>Auch Elris hat für Angriff und Parade die gleiche reguläre
+            Würfelanzahl, nämlich ebenfalls 8. Er hat für seinen Angriff
+            bereits 5 Würfel verwendet, für die Parade bleiben ihm also 3
+            Würfel.</para>
+
+            <para></para>
+          </listitem>
+
+          <listitem override="22">
+            <para>Als nächste ist Solinara an der Reihe (Initiative 22). Sie
+            möchte vorstürmen und den ersten Gegner angreifen, aber wie Elris
+            möchte auch sie nicht gänzlich schutzlos bleiben und daher noch
+            reagieren können. Ihre reguläre Würfelanzahl für den Kampfstab
+            beträgt 10 (Gewandtheit 5, Stäbe 5), von denen sie 7 Würfel für
+            den Angriff verwendet.</para>
+
+            <para>Gegner 1 entscheidet sich, von seinen 9 Würfeln (Gewandtheit
+            5, Hiebwaffen 4) 3 zur Parade von Solinaras Angriff zu
+            verwenden.</para>
+
+            <para></para>
+          </listitem>
+
+          <listitem override="20">
+            <para>Schließlich beginnt die Aktionsphase von Gegner 1
+            (Initiative 20). Durch ihren Sturmangriff hat Solinara ihre
+            Verteidigung reduziert, und so greift er sie mit der vollen Wucht
+            seiner verbliebenen 6 Würfel an (regulär 9 Würfel für
+            Angriff/Parade, davon bereits 3 zur Parade verwendet).</para>
+
+            <para>Solinara kann für die Parade nur noch 3 Würfel einsetzen, da
+            sie bereits 7 ihrer 10 Würfel für den Angriff verwendet
+            hat.</para>
+          </listitem>
+        </orderedlist>
+
+        <para><remark>---</remark></para>
+
+        <para><remark>Irgendjemand sollte ausweichen statt zu parieren, damit
+        der Einsatz verschiedener Fertigkeiten für Aktion &amp; Reaktion
+        deutlich wird. Vielleicht ist hier ein Beispiel mit 2-gegen-1 besser,
+        in dem einer der "Guten" z.B. mit Wurfwaffen unterstützt und deswegen
+        ausweicht statt zu parieren?</remark></para>
       </informalexample>
     </section>
 
-    <section>
-      <title>Angriffswurf<indexterm>
-          <primary>Angriffswurf</primary>
-        </indexterm></title>
+    <section xml:id="nahkampf">
+      <title>Nahkampf</title>
 
-      <para>Um festzustellen, ob ein Angriff gelingt, wird ein
-      <firstterm>Angriffswurf</firstterm><indexterm>
+      <para>Für Nahkampfangriffe wird zunächst ein Angriffswurf<indexterm>
           <primary>Angriffswurf</primary>
-        </indexterm> mit den dafür zugeteilten Würfeln gegen die bei der Waffe
-      angegebene Schwierigkeit durchgeführt. Diese kann, je nach Situation,
-      noch modifiziert werden; das Anvisieren des Kopfes entspricht zum
-      Beispiel +6. Kommen keine Erfolge zustande, ist der Angriff
-      fehlgeschlagen. Wurde mindestens ein Erfolg erzielt, wird als nächstes
-      ein eventuelles Verteidigungsmanöver berücksichtigt.</para>
-    </section>
-
-    <section xml:id="verteidigungswurf">
-      <title>Verteidigungswurf<indexterm>
+        </indexterm> durchgeführt, um zu ermitteln ob und wie gut der
+      Angreifer den Verteidiger trifft. Dieser kann als Reaktion einen
+      Verteidigungswurf<indexterm>
           <primary>Verteidigungswurf</primary>
-        </indexterm></title>
-
-      <para>Für jeden Erfolg, den der Angegriffene bei einer
-      Ausweichen-Probe<indexterm significance="preferred">
-          <primary>Ausweichen</primary>
-        </indexterm> oder Parade<indexterm>
-          <primary>Parade</primary>
-        </indexterm> erzielt, wird von den Angriffserfolgen des Angreifers
-      einer abgezogen — erst danach wird entschieden, ob und wie gut getroffen
-      wurde. Die Schwierigkeit für diese Ausweichen-Probe liegt bei 11. Die
-      Paradeschwierigkeit hängt von der Reichweite<indexterm
-          significance="preferred">
-          <primary>Reichweite</primary>
-
-          <secondary>Nahkampf</secondary>
-        </indexterm> der beteiligten Waffen ab und ergibt sich aus <emphasis
-      xml:id="paradeschwierigkeit">11 + Reichweite des Angreifers - Reichweite
-      des Verteidigers</emphasis>.</para>
-
-      <informalexample>
-        <para>Die Schwierigkeit für Schwerter liegt laut Waffentabelle bei 12.
-        Mit seinen fünf Würfeln erzielt Elris 3 Erfolge.</para>
-
-        <para>Elris' Gegner versucht jetzt zu parieren, wofür er zu Beginn der
-        Runde 3 Würfel eingeteilt hat. Die Schwierigkeit beträgt 11
-        (Grundschwierigkeit) + 3 (Schwert-Reichweite) - 2 (Knüppel-Reichweite)
-        = 10. Er erzielt 1 Erfolg und kann damit den Angriff zwar nicht
-        vollständig parieren, aber zumindest zu weniger gefährlichen
-        Körperstellen ablenken. Sein Parade-Erfolg wird von Elris’
-        Angriffserfolgen abgezogen, übrig bleiben 2.</para>
-      </informalexample>
-
-      <para>Sofern nach einem eventuellen Verteidigungsmanöver noch
-      Angriffserfolge übrig sind, wird als nächstes der Schaden
-      ermittelt.</para>
-    </section>
-
-    <section xml:id="schaden_und_widerstand">
-      <title>Schaden und Widerstandswurf</title>
-
-      <para>Der von einem Angriff<indexterm>
+        </indexterm> durchführen, um Erfolge des Angriffswurfs<indexterm>
           <primary>Angriffswurf</primary>
-        </indexterm> angerichtete Schaden richtet sich nach dem Typ der Waffe
-      und danach, wie gut der Treffer war. Eine Waffe richtet immer so viele
-      Schadenspunkte an, wie in der Waffentabelle angegeben ist. Darüber
-      hinaus erhält der Angreifer den sogenannten
-      <firstterm>Trefferbonus</firstterm><indexterm>
-          <primary>Trefferbonus</primary>
-        </indexterm>: jeder verbliebene Angriffserfolg außer dem ersten
-      entspricht einem weiteren Schadenspunkt.</para>
-
-      <para>Bevor dieser Schaden aber wirklich zum Tragen kommt, darf der
-      Angegriffene mit seiner Konstitution versuchen, ihn zu minimieren.
-      Dieser <firstterm>körperliche Widerstandswurf</firstterm><indexterm>
+        </indexterm> auszugleichen. Der von der Waffe verursachten Schaden
+      wird durch die übrigen Angriffserfolge erhöht und durch die Rüstung des
+      Verteidigers gesenkt. Abschließend wird noch die Widerstandsfähigkeit
+      des Verteidigers mit einem Widerstandswurf<indexterm>
           <primary>Widerstandswurf</primary>
+        </indexterm> berücksichtigt.</para>
 
-          <secondary>körperlich</secondary>
-        </indexterm> wird mit den Würfeln aus dem Attribut
-      Konstitution<indexterm significance="preferred">
-          <primary>Konstitution</primary>
-        </indexterm> gegen eine Schwierigkeit von 11 durchgeführt. Die Anzahl
-      der Erfolge wird nun von den Schadenspunkten abgezogen.</para>
+      <variablelist>
+        <varlistentry>
+          <term>Angriffswurf<indexterm>
+              <primary>Angriffswurf</primary>
+            </indexterm><remark> inkl. Reichweite</remark></term>
 
-      <para>Die übrigen Erfolge sind die Schadenspunkte, die dem Charakter
-      tatsächlich zugefügt und auf seinem Charakterblatt vermerkt werden
-      (siehe <xref linkend="schaden" />).</para>
+          <listitem>
+            <para>Der Angriffswurf wird mit den dafür eingesetzten Würfeln
+            durchgeführt.</para>
+
+            <para>Ist die Reichweite der Angriffswaffe<remark> (0
+            Faustkampf/Dolch, 1 Kurzschwert, 2 Schwert, 3
+            Zweihänder/Peitsche)</remark> kleiner als die der
+            Verteidigungswaffe, erhält der Angreifer einen Würfelmalus in Höhe
+            der Reichweitendifferenz. Umgekehrt enthält er einen Würfelbonus,
+            wenn die Reichweite seiner Waffe größer ist als die des
+            Verteidigers. Ist der Verteidiger unbewaffnet, wird dies als
+            Reichweite 0 gewertet.<remark> Die Reichweite wird der Einfachheit
+            halber nur als Malus auf den Angriffswurf angerechnet; alles
+            andere ist zu kompliziert (zB Einzelfallentscheidung wo es
+            angerechnet wird) oder macht die Reichweite fast irrelevant weil
+            leicht umgehbar (derzeitige Regelung: nur bei Parade).
+            Alternative: Reichweite ganz abschaffen.</remark></para>
+
+            <para>Der Mindestwurf beträgt für einen normalen Angriff 1. Für
+            besondere Manöver gilt nach SL-Entscheid ein höherer
+            Mindestwurf.<remark> Anmerkung: Parade regulär, sprich es sind
+            alle Erfolge zu negieren. (Gedankengang: besonders schwierige
+            Manöver sind auch schwierig zu parieren)</remark></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry xml:id="verteidigungswurf">
+          <term>Verteidigungswurf<indexterm>
+              <primary>Verteidigungswurf</primary>
+            </indexterm><remark> inkl. Paradewaffe/Schild</remark></term>
+
+          <listitem>
+            <para><remark>NOCH ZU KLÄREN: Vielleicht umbenennen in
+            "Abwehrwurf", um es besser vom "Verteidiger"
+            abzugrenzen?</remark></para>
+
+            <para>Ein Verteidigungswurf<indexterm>
+                <primary>Verteidigungswurf</primary>
+              </indexterm> ist mit der Fertigkeit
+            <emphasis>Ausweichen</emphasis> oder, sofern sich die Waffe dazu
+            eignet, als Parade mit der entsprechenden Waffenfertigkeit
+            möglich.</para>
+
+            <para>Der Verteidiger führt seinen Wurf mit den eingesetzten
+            Würfeln durch. Hinzu kommen ggf. noch Bonuswürfel von Paradewaffen
+            und Schilden (siehe <xref linkend="ruestungen_und_co" />).</para>
+
+            <para>Für jeden Erfolg beim Verteidigungswurf<indexterm>
+                <primary>Verteidigungswurf</primary>
+              </indexterm> wird ein Erfolg des Angriffswurfs ausgeglichen.
+            Bleibt kein Angriffserfolg übrig, wurde der Angriff vollständig
+            abgewehrt. Falls mindestens ein Angriffserfolg bestehen bleibt,
+            wurde der Verteidiger getroffen.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Schaden ermitteln<remark> inkl. Trefferbonus und
+          Rüstung</remark></term>
+
+          <listitem>
+            <para>Jede Waffe verursacht eine bestimmte Menge an Grundschaden,
+            der in der Waffentabelle (siehe <xref linkend="waffen"
+            xrefstyle="page" />) angegeben ist. Diese wird für jeden übrigen
+            Angriffserfolg um 1 erhöht.</para>
+
+            <para>Trägt der Verteidiger eine Rüstung, wird der Schaden für
+            jeden Punkt Rüstungsschutz um 1 gesenkt (siehe <xref
+            linkend="ruestungen_und_co" />).</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry xml:id="widerstandswurf">
+          <term>Widerstandswurf<indexterm>
+              <primary>Widerstandswurf</primary>
+            </indexterm><remark> = pure Konstitution</remark></term>
+
+          <listitem>
+            <para>Jedes mal, wenn der Charakter Schaden erhält, wird ein
+            Widerstandswurf<indexterm>
+                <primary>Widerstandswurf</primary>
+              </indexterm> durchgeführt: für körperlichen Schaden mit
+            Konstitution<indexterm>
+                <primary>Konstitution</primary>
+              </indexterm>, für geistigen Schaden mit Willenskraft<indexterm>
+                <primary>Willenskraft</primary>
+              </indexterm>. Für jeden Erfolg wird der Schaden um einen Punkt
+            reduziert. Der übrige Schaden wird auf dem Charakterblatt vermerkt
+            und führt fortan zu einem Verletzungsmalus (siehe <xref
+            linkend="schaden" />).</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
 
       <informalexample>
-        <para>Ein Schwert richtet laut Waffentabelle 3 Schadenspunkte an. Von
-        Elris' Angriffswurf verbleiben nach der Parade seines Gegners noch 2
-        Erfolge, die 2 zusätzlichen Schadenspunkten entsprechen, ergibt
-        insgesamt also 5.</para>
+        <para>Während seiner Aktionsphase verwendet Elris 5 Würfel, um Gegner
+        2 anzugreifen. Sein Schwert hat eine Reichweite von 2, der Knüppel des
+        Gegners hat 1. Durch die überlegene Reichweite erhält Elris also 1
+        Bonuswürfel für den Angriffswurf, macht 6. Er erzielt 2
+        Erfolge.</para>
 
-        <para>Sein Gegner hat für seinen Widerstandswurf 3 Würfel zur
-        Verfügung und erzielt 1 Erfolg — es bleiben also noch 4 Schadenspunkte
-        übrig, die auf seiner Schadensleiste eingetragen werden.</para>
+        <para>Elris' Gegner versucht jetzt mit 4 Würfeln zu parieren. Er
+        erzielt 1 Erfolg und kann damit den Angriff zwar nicht vollständig
+        abwehren, aber zumindest zu weniger gefährlichen Körperstellen
+        ablenken. Sein Parade-Erfolg wird von Elris’ Angriffserfolgen
+        abgezogen, übrig bleibt 1 Erfolg.</para>
+
+        <para>Ein Schwert richtet laut Waffentabelle 3 Schadenspunkte an. Der
+        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 4.</para>
+
+        <para>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei
+        seinem Widerstandswurf erzielt er mit seinen 3 Konstitutions-Würfeln 1
+        Erfolg — es bleiben also noch 3 Schadenspunkte übrig, die auf seiner
+        Schadensleiste eingetragen werden.</para>
       </informalexample>
-
-      <sidebar>
-        <para>Widerstandswürfe sind selbstverständlich nicht auf
-        Kampfsituationen beschränkt. Vielmehr wird für einen Charakter immer
-        dann, wenn er körperlichen Schaden erhält, ein solcher Wurf
-        durchgeführt.</para>
-      </sidebar>
     </section>
 
-    <section>
+    <section xml:id="ruestungen_und_co">
       <title>Rüstungen<indexterm significance="preferred">
           <primary>Rüstungen</primary>
-        </indexterm> und Paradewaffen<indexterm significance="preferred">
+        </indexterm>, Paradewaffen<indexterm significance="preferred">
           <primary>Paradewaffen</primary>
+        </indexterm> und Schilde<indexterm significance="preferred">
+          <primary>Schilde</primary>
         </indexterm></title>
 
-      <para>Die verschiedenen Arten von Rüstungen werden durch bis zu vier
-      Werte charakterisiert. Der <firstterm>Rüstungsschutz
-      (RS)</firstterm><indexterm>
+      <para>Um sich zu schützen, tragen Charaktere oft Rüstungen oder kämpfen
+      neben der Hauptwaffe noch mit einer Paradewaffe oder einem Schild. Diese
+      Ausrüstungsgegenstände werden durch die Werte Rüstungsschutz<indexterm>
           <primary>Rüstungsschutz</primary>
-        </indexterm> verringert die Anzahl der Schadenspunkte, wirkt also
-      genauso wie Erfolge bei einem Widerstandswurf. Der
-      <firstterm>Trefferabzug (TA)</firstterm><indexterm>
-          <primary>Trefferabzug</primary>
-        </indexterm> zieht Erfolge vom Angriffswurf des Gegners ab, bevor
-      dieser den Schaden ermittelt. Er verringert also (genau wie der
-      Verteidigungswurf<indexterm>
-          <primary>Verteidigung</primary>
-        </indexterm>) die Chance, überhaupt getroffen zu werden.</para>
-
-      <para>Rüstungen haben jedoch auch Nachteile: Zum einen verlangsamt das
-      Tragen von schweren Rüstungen den Kämpfer, was sich in einem
-      <firstterm>Initiativemalus (IM)</firstterm><indexterm>
+        </indexterm> bzw. Paradebonus<indexterm>
+          <primary>Paradebonus</primary>
+        </indexterm> und Initiativemalus<indexterm>
           <primary>Initiativemalus</primary>
-        </indexterm> niederschlägt. Andererseits schränken viele Rüstungen
-      auch massiv die Bewegungsfreiheit ein, was regeltechnisch durch einen
-      <firstterm>Gewandtheitsabzug (GA)</firstterm><indexterm>
-          <primary>Gewandtheitsabzug</primary>
-        </indexterm> dargestellt wird.</para>
+        </indexterm> charakterisiert.</para>
 
-      <para>Schilde<indexterm significance="preferred">
-          <primary>Schilde</primary>
-        </indexterm> und Paradewaffen werden wie Rüstungen behandelt, nicht
-      wie Waffen. Ihr Einsatz erfordert daher keinerlei Proben und zählt nicht
-      als Kampf mit zwei Waffen (siehe <xref
-      linkend="beidhaendigkeit" />).</para>
+      <variablelist>
+        <varlistentry>
+          <term>Rüstungsschutz<indexterm>
+              <primary>Rüstungsschutz</primary>
+            </indexterm> (RS)</term>
 
-      <para>Eine Liste von Rüstungen, Schilden und Paradewaffen findet sich
-      unter <xref linkend="ausruestung" />.</para>
+          <listitem>
+            <para>Der Rüstungsschutz<indexterm>
+                <primary>Rüstungsschutz</primary>
+              </indexterm> verringert die Anzahl der Schadenspunkte, welche
+            der Träger erhält. Jeder Punkt Rüstungsschutz wirkt also genauso
+            wie ein Erfolg beim Widerstandswurf.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Paradebonus<indexterm>
+              <primary>Paradebonus</primary>
+            </indexterm> (PB)</term>
+
+          <listitem>
+            <para>Der Paradebonus<indexterm>
+                <primary>Paradebonus</primary>
+              </indexterm> von Schilden und Paradewaffen gibt die Anzahl der
+            Bonuswürfel an, welche der Charakter für den
+            Parade-Verteidigungswurf<indexterm>
+                <primary>Verteidigungswurf</primary>
+              </indexterm> erhält.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Initiativemalus<indexterm>
+              <primary>Initiativemalus</primary>
+            </indexterm> (IM)</term>
+
+          <listitem>
+            <para>Das Gewicht von Rüstungen und das Hantieren mit Schilden und
+            Paradewaffen verlangsamen den Kämpfer, was sich im
+            <firstterm>Initiativemalus</firstterm><indexterm>
+                <primary>Initiativemalus</primary>
+              </indexterm> niederschlägt (siehe <xref
+            linkend="initiative" />).</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para>Eine Liste von Rüstungstypen, Paradewaffen und Schilden findet
+      sich unter <xref linkend="ausruestung" />.</para>
+
+      <para><remark>Was ist der Unterschied zwischen Paradewaffen und
+      Schilden? These: eine Paradewaffe wird immer gemeinsam mit der
+      Hauptwaffe benutzt, ein Schild wird einzeln "hochgerissen". Es fühlt
+      sich daher falsch an, beides über den gleichen Mechanismus abzubilden.
+      Eigentlich. Andererseits erscheint keine Alternative
+      sinnvoll.</remark></para>
+
+      <para><remark>Sollte ein Schild besser zur Parade geeignet sein als eine
+      Paradewaffe? Ja.</remark></para>
+
+      <para><remark>NOCH EINZUFÜGEN: Ihr Einsatz erfordert daher keinerlei
+      Proben und zählt nicht als Kampf mit zwei Waffen (siehe <xref
+      linkend="beidhaendigkeit" />).</remark></para>
     </section>
 
     <section xml:id="beidhaendigkeit">
@@ -3044,9 +3224,11 @@
           <primary>Angriffswurf</primary>
         </indexterm> wird mit den Würfeln aus Fingerfertigkeit<indexterm>
           <primary>Fingerfertigkeit</primary>
-        </indexterm> und der entsprechenden Waffenfertigkeit ausgeführt. Die
-      bei der Waffe angegebene Schwierigkeit wird jedoch noch je nach Distanz
-      und Größe des Ziels modifiziert:</para>
+        </indexterm> und der entsprechenden Waffenfertigkeit ausgeführt. Der
+      Mindestwurf von 1 wird jedoch noch je nach Distanz und Größe des Ziels
+      modifiziert. Die Modifikatoren für Distanzklasse und Größe werden
+      miteinander verrechnet, der Mindestwurf beträgt jedoch immer mindestens
+      1.</para>
 
       <informaltable>
         <tgroup cols="7">
@@ -3070,7 +3252,7 @@
 
               <entry align="center">Distanzklasse</entry>
 
-              <entry>Modifikator</entry>
+              <entry>MW-Modifikator</entry>
 
               <entry></entry>
 
@@ -3094,7 +3276,7 @@
 
               <entry>winzig</entry>
 
-              <entry>+4</entry>
+              <entry>+2</entry>
 
               <entry></entry>
             </row>
@@ -3110,7 +3292,7 @@
 
               <entry>klein</entry>
 
-              <entry>+2</entry>
+              <entry>+1</entry>
 
               <entry></entry>
             </row>
@@ -3120,7 +3302,7 @@
 
               <entry>mittel</entry>
 
-              <entry>+3</entry>
+              <entry>+2</entry>
 
               <entry></entry>
 
@@ -3136,13 +3318,13 @@
 
               <entry>weit</entry>
 
-              <entry>+6</entry>
+              <entry>+3</entry>
 
               <entry></entry>
 
               <entry>groß</entry>
 
-              <entry>-2</entry>
+              <entry>-1</entry>
 
               <entry></entry>
             </row>
@@ -3158,7 +3340,7 @@
 
               <entry>riesig</entry>
 
-              <entry>-4</entry>
+              <entry>-2</entry>
 
               <entry></entry>
             </row>
@@ -3205,9 +3387,9 @@
 
               <entry><para>Nah</para><para>+1</para></entry>
 
-              <entry><para>Mittel</para><para>+3</para></entry>
+              <entry><para>Mittel</para><para>+2</para></entry>
 
-              <entry><para>Weit</para><para>+6</para></entry>
+              <entry><para>Weit</para><para>+3</para></entry>
 
               <entry></entry>
             </row>
@@ -3350,13 +3532,12 @@
       </informaltable>
 
       <informalexample>
-        <para>Ein Schütze möchte mit einem Kriegsbogen (Schwierigkeit 11,
-        Reichweitenklasse D) einen Gegner treffen, der etwa 60 Meter entfernt
-        ist. Diese Entfernung entspricht der mittleren Distanz, die
-        Schwierigkeit steigt daher um 3. Bei seinem Gegner handelt es sich um
-        einen Menschen, der damit in die mittlere Größenklasse fällt — ergibt
-        +0. Seinen Angriffswurf führt der Schütze also gegen eine
-        Schwierigkeit von 14 aus.</para>
+        <para>Ein Schütze möchte mit einem Kriegsbogen (Reichweitenklasse D)
+        einen Gegner treffen, der etwa 60 Meter entfernt ist. Diese Entfernung
+        entspricht der mittleren Distanz, der Mindestwurf steigt daher um 2
+        auf 3. Bei seinem Gegner handelt es sich um einen Menschen, der damit
+        in die mittlere Größenklasse fällt — ergibt +0. Seinen Angriffswurf
+        führt der Schütze also gegen einen Mindestwurf von 3 aus.</para>
       </informalexample>
     </section>
   </chapter>
@@ -3439,9 +3620,10 @@
           <para>Definiertes Ziel</para>
 
           <para>Der Spieler muss das Ziel des Zaubers klar definieren, z.B.
-          ein Objekt, eine bestimmte Stelle, ein Tier oder eine Person. Je
-          nach Zauber können auch mehrere solcher Ziele genannt oder alle
-          Ziele in einem bestimmten Radius erfasst werden.</para>
+          ein Objekt, eine bestimmte Stelle, ein Tier oder eine Person (auch
+          den Zaubernden selbst). Je nach Zauber können auch mehrere solcher
+          Ziele genannt oder alle Ziele in einem bestimmten Radius erfasst
+          werden.</para>
         </listitem>
 
         <listitem>
@@ -4024,34 +4206,38 @@
       <section>
         <title>Geistmanipulation (Geist)</title>
 
-        <para>Sinne beeinflussen: Augen (Blenden, Schwarzweiß-Sicht); Ohren
-        (); Nase (); Tastsinn (); Riechen (); Gleichgewicht (jmd. straucheln
-        lassen); Temperatursinn; Schmerzempfindung; Körperempfindung
-        (Erschöpfung); Tierische Spezialsinne wie elektrische und
-        magnetische</para>
+        <para><remark>Sinne beeinflussen: Augen (Blenden, Schwarzweiß-Sicht);
+        Ohren (); Nase (); Tastsinn (); Riechen (); Gleichgewicht (jmd.
+        straucheln lassen); Temperatursinn; Schmerzempfindung;
+        Körperempfindung (Erschöpfung); Tierische Spezialsinne wie elektrische
+        und magnetische</remark></para>
 
-        <para>Generell: Sinn funktioniert nicht mehr, etwas vortäuschen was
-        nicht da ist, etwas wegtäuschen, etwas vorhandenes anders/falsch
-        wahrnehmen lassen als es ist,</para>
+        <para><remark>Generell: Sinn funktioniert nicht mehr, etwas
+        vortäuschen was nicht da ist, etwas wegtäuschen, etwas vorhandenes
+        anders/falsch wahrnehmen lassen als es ist,</remark></para>
 
-        <para></para>
+        <para><remark></remark></para>
 
-        <para>Bei Erinnerungsmanipulation: Geist bügelt Ungereimtheiten aus
-        und versucht Erklärungen zu finden. Man muss Erinnerungen die man
-        löschen will nicht selbst finden (dazu bräuchte man dann Telepathie),
-        es reichen auch Anweisungen wie "vergiss, was du letzten Sommer getan
-        hast" oder "vergiss dass wir uns hier getroffen haben". Zeitperiode
-        der Löschung ist kraftabhängig. Volle Amnesie als Löschung ist sehr
-        kraftaufwändig (Alternative: per Zwang daran hindern, die Erinnerungen
-        abzurufen).</para>
+        <para><remark>Bei Erinnerungsmanipulation: Geist bügelt
+        Ungereimtheiten aus und versucht Erklärungen zu finden. Man muss
+        Erinnerungen die man löschen will nicht selbst finden (dazu bräuchte
+        man dann Telepathie), es reichen auch Anweisungen wie "vergiss, was du
+        letzten Sommer getan hast" oder "vergiss dass wir uns hier getroffen
+        haben". Zeitperiode der Löschung ist kraftabhängig. Volle Amnesie als
+        Löschung ist sehr kraftaufwändig (Alternative: per Zwang daran
+        hindern, die Erinnerungen abzurufen).</remark></para>
 
-        <para></para>
+        <para><remark></remark></para>
 
-        <para></para>
+        <para><remark>Begriffsdefinition: im folgenden bedeutet "manipulieren"
+        jeweils "ändern/hinzufügen/entfernen"</remark></para>
 
-        <para></para>
+        <para><remark>Zwiebelschalenmodell grob erklären - was ist innen, was
+        ist außen</remark></para>
 
-        <para>Gedanken: inkl. "Bauchgefühl"/Intuition</para>
+        <para><remark></remark></para>
+
+        <para><remark>Gedanken: inkl. "Bauchgefühl"/Intuition</remark></para>
 
         <para><itemizedlist>
             <listitem>
@@ -4081,6 +4267,13 @@
 
               <para>Veränderung oder Löschung von Erinnerungen, Einpflanzen
               neuer Erinnerungen</para>
+            </listitem>
+
+            <listitem>
+              <para>Wesenszüge</para>
+
+              <para><remark>(gewisse Verwandtschaft mit Emotionen, daher mit
+              dieser Fertigkeit logisch möglich)</remark></para>
             </listitem>
           </itemizedlist></para>
 
@@ -4117,9 +4310,9 @@
                 <row>
                   <entry>2</entry>
 
-                  <entry>Einen Sinn beeinflussen, eine Emotion
-                  beeinflussen<remark> (Emotionen: Furcht/Angst/Panik, Wut,
-                  Rache/Hass, Begierde/Liebe, Abscheu/Ekel, Trauer,
+                  <entry>Einen Sinn beeinflussen (+1 für jeden weiteren), eine
+                  Emotion beeinflussen<remark> (Emotionen: Furcht/Angst/Panik,
+                  Wut, Rache/Hass, Begierde/Liebe, Abscheu/Ekel, Trauer,
                   Freude/Glück, Amusement, Hoffnung, Hoffnungslosigkeit,
                   Mut/Furchtlosigkeit, Gleichgültigkeit,
                   Lustlosigkeit/Antriebslosigkeit, Mitgefühl)</remark>, den
@@ -4131,8 +4324,8 @@
                   <entry>3</entry>
 
                   <entry>Befehl zu einzelner Aktion<remark> (z.B. Bewegungen
-                  kontrollieren)</remark>, Gedanke/Trauminhalt manipulieren,
-                  Zwang installieren</entry>
+                  kontrollieren)</remark>, Gedanke inijizieren, Trauminhalt
+                  manipulieren, Zwang installieren</entry>
                 </row>
 
                 <row>
@@ -4144,7 +4337,7 @@
                 <row>
                   <entry>5</entry>
 
-                  <entry>Wesenszug</entry>
+                  <entry>Einen Wesenszug manipulieren</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -4182,42 +4375,44 @@
 
               <tbody>
                 <row>
-                  <entry>1 Runde</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
                   <entry>1 Minute</entry>
 
-                  <entry>Emotionen beeinflussen</entry>
-                </row>
-
-                <row>
-                  <entry>10 Minuten</entry>
-
-                  <entry></entry>
+                  <entry>Einen Sinn beeinflussen, eine Emotion
+                  beeinflussen<remark> (Hält deswegen nur kurz an, weil auch
+                  normalerweise Gefühle schnell hochkochen oder abflauen
+                  können, sprich sich die Gefühlsebene auch bei magischer
+                  Beeinflussung schnell wieder zurückpendeln kann. // Ob ein
+                  wütendes Ziel, das magisch beruhigt wird, nach Ablauf der
+                  Wirkungsdauer noch wütend ist, sollte der SL von der
+                  Wirkungsdauer abhängig machen - ist sie lang genug, ist die
+                  Wut "unter" der Unterdrückung tatsächlich
+                  vergangen.)</remark>, Trauminhalt manipulieren</entry>
                 </row>
 
                 <row>
                   <entry>1 Stunde</entry>
 
-                  <entry></entry>
+                  <entry>Befehl(e), Zwang<remark> (hält deswegen länger als
+                  Emotionsbeeinflussung, weil es subtil im tiefsten Inneren
+                  verankert ist und dem Geist gar nicht bewusst
+                  wird)</remark></entry>
                 </row>
 
                 <row>
                   <entry>1 Tag</entry>
 
                   <entry>Eine Markierung anbringen, die geistige Signatur
-                  verschleiern</entry>
+                  verschleiern<remark> (hält beides sehr lang, weil es nicht
+                  aktiv durch den Geist abgebaut wird, da es als "außen
+                  liegender Effekt" den Geist selbst ja gar nicht
+                  betrifft)</remark>, Wesenszug<remark> (hält deswegen sehr
+                  lange, weil der Geist die Wesenszüge im Alltag quasi als
+                  gegeben ansieht und nicht aktiv an ihnen
+                  arbeitet)</remark></entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
-
-          <para></para>
-
-          <para>Erinnerungen:</para>
 
           <informaltable>
             <tgroup cols="2">
@@ -4237,49 +4432,20 @@
                 <row>
                   <entry>1</entry>
 
-                  <entry>10 Minuten</entry>
-                </row>
-
-                <row>
-                  <entry>2</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>3</entry>
-
-                  <entry></entry>
+                  <entry>10 Minuten lange Erinnerung manipulieren, Gedanke
+                  injizieren</entry>
                 </row>
 
                 <row>
                   <entry>4</entry>
 
-                  <entry>1 Tag</entry>
-                </row>
-
-                <row>
-                  <entry>5</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>6</entry>
-
-                  <entry></entry>
+                  <entry>1 Tag lange Erinnerung manipulieren</entry>
                 </row>
 
                 <row>
                   <entry>7</entry>
 
-                  <entry>1 Woche</entry>
-                </row>
-
-                <row>
-                  <entry>8</entry>
-
-                  <entry></entry>
+                  <entry>1 Woche lange Erinnerungen manipulieren</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -4287,21 +4453,25 @@
 
           <itemizedlist>
             <listitem>
-              <para>Die Reichweite beträgt 5 Meter, 1 KP pro weitere 5
-              Meter.</para>
-            </listitem>
-
-            <listitem>
-              <para></para>
+              <para>Die Reichweite beträgt <remark>(bei allen
+              Geistmanipulations-Spielarten) </remark>1 Meter, 1 KP pro
+              weiterem Meter.</para>
             </listitem>
           </itemizedlist>
         </section>
 
         <section>
+          <title>Zauberdauer</title>
+
+          <para><remark>Wesenszug: lange, aber nicht
+          stundenlang</remark></para>
+        </section>
+
+        <section>
           <title>Rettungswurf</title>
 
-          <para>Bewegungen kontrollieren: im wachen Zustand sehr einfacher
-          rettungswurf, im schlaf</para>
+          <para><remark>(Bewegungen kontrollieren: im wachen Zustand sehr
+          einfacher rettungswurf, im schlaf...)</remark></para>
         </section>
       </section>
 
@@ -4931,9 +5101,27 @@
         werden. Grund: Es ist nicht einzusehen, warum simple Bewegung etwas
         mit der Art des Gegenstands zu tun haben soll. Außerdem würde das die
         Telekinese zu sehr degradieren.)</remark> Ob eine Bewegung dabei
-        entgegen der Gravitation abläuft ist unerheblich.<remark> NOCH ZU
-        KLÄREN: Was ist mit Drehungen von Objekten? Wie kann man etwas oder
-        jemanden festhalten (ähnlich Stärkevergleichswurf)?</remark></para>
+        entgegen der Gravitation abläuft ist unerheblich.</para>
+
+        <para><remark>NOCH ZU KLÄREN:</remark></para>
+
+        <para><remark>- Was ist mit Drehungen von Objekten?</remark></para>
+
+        <para><remark>- Wie kann man etwas oder jemanden festhalten (ähnlich
+        Stärkevergleichswurf)?</remark></para>
+
+        <para><remark>- Was ist, wenn ein Objekt bewegt werden soll, das von
+        einer Person festgehalten wird - z.B. deren Waffe? Ist dann ein
+        "normaler" Körperkraft-Vergleichswurf als Teil der Abwicklung der
+        Zauberwirkung fällig (was im Kampf wohl eine Reaktion wäre, welche
+        Würfel vebraucht) oder betrachten (und beschreiben) wir das als
+        Rettungswurf?</remark></para>
+
+        <para><remark>- Ähnliche Frage: was ist, wenn ein zu bewegendes Objekt
+        festgeklebt/festgekettet ist bzw. ein Teil eines Objekts abgerissen
+        werden soll? In letzterem Fall ist bei einem Lebewesen wohl ein
+        Rettungswurf fällig. Irgendwie sollte das mit Körperkraft-Erfolgen in
+        Bezug gesetzt werden.</remark></para>
 
         <section>
           <title>Mindestwurf</title>
@@ -5067,11 +5255,12 @@
               Telepathie ist Kommunikation nicht auf Sichtkontakt
               angewiesen<remark> (Hintergrund: Balancingüberlegung;
               Erinnerungen durchstöbern ist auf hunderte Kilometer Entfernung
-              ähnlich krass wie Geistmanipulation)</remark>, sofern der
+              ähnlich krass wie Geistmanipulation)</remark>: sofern der
               Zaubernde das Ziel kennt und zuvor bereits mit ihm gesprochen
-              hat.<remark> (Beispiel: es reicht nicht, den König nur gesehen
-              zu haben.)</remark> Dann ist es auch möglich, Richtung und
-              Entfernung zum Aufenthaltsort des Ziels (sofern es lebt) zu
+              hat, kann er es anhand seiner geistige Signatur
+              wiederfinden.<remark> (Beispiel: es reicht nicht, den König nur
+              gesehen zu haben.)</remark> Dann ist es auch möglich, Richtung
+              und Entfernung zum Aufenthaltsort des Ziels (sofern es lebt) zu
               ermitteln, wobei die Angaben umso genauer werden, je näher man
               dem Ziel kommt.</para>
             </listitem>
@@ -5310,8 +5499,8 @@
               Person) an eine andere Stelle. Es können mehrere Ziele benannt
               werden, welche gemeinsam teleportiert werden. Für den Zauber
               ausschlaggebend ist nicht deren Anzahl, sondern das
-              Gesamtgewicht.<remark>(Damit ergibt sich, dass ein Zauberer, der
-              an einen Stuhl gefesselt ist, diesen wohl oder übel mit
+              Gesamtgewicht.<remark> (Damit ergibt sich, dass ein Zauberer,
+              der an einen Stuhl gefesselt ist, diesen wohl oder übel mit
               wegteleportieren und dessen Gewicht mitbezahlen
               muss)</remark></para>
             </listitem>
@@ -5757,11 +5946,6 @@
             </listitem>
 
             <listitem>
-              <para><remark>Nebel auf einer Fläche von XX m² erzeugen &lt;- XX
-              definieren, wie wäre zB 20?</remark></para>
-            </listitem>
-
-            <listitem>
               <para>Es auf 10 m² Boden regnen lassen</para>
             </listitem>
 
@@ -5769,6 +5953,9 @@
               <para>Es auf 5 m² Boden schneien / hageln lassen</para>
             </listitem>
           </itemizedlist>
+
+          <para><remark>NOCH EINZUFÜGEN: Nebel auf einer Fläche von XX m²
+          erzeugen &lt;- XX definieren, wie wäre zB 20?</remark></para>
         </section>
 
         <section>
@@ -5912,10 +6099,8 @@
       <title>Waffen</title>
 
       <informaltable role="breakable" xml:id="waffentabelle">
-        <tgroup cols="8">
+        <tgroup cols="7">
           <colspec colwidth="6*" />
-
-          <colspec align="center" colwidth="2*" />
 
           <colspec align="center" colwidth="2*" />
 
@@ -5932,8 +6117,6 @@
           <thead>
             <row>
               <entry>Typ</entry>
-
-              <entry>Schw.</entry>
 
               <entry><para>Schaden</para></entry>
 
@@ -5959,33 +6142,15 @@
             <row>
               <entry>Dolch</entry>
 
-              <entry>8</entry>
-
-              <entry>0</entry>
-
-              <entry>0</entry>
-
               <entry>1</entry>
+
+              <entry>0</entry>
+
+              <entry>0</entry>
 
               <entry>0,5</entry>
 
               <entry>20</entry>
-            </row>
-
-            <row>
-              <entry>Schwerer Dolch</entry>
-
-              <entry>8</entry>
-
-              <entry>1</entry>
-
-              <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>0,75</entry>
-
-              <entry>40</entry>
             </row>
 
             <row>
@@ -5999,13 +6164,11 @@
             <row>
               <entry>Florett</entry>
 
-              <entry>10</entry>
-
               <entry>1</entry>
 
               <entry>-1</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>0,8</entry>
 
@@ -6015,13 +6178,11 @@
             <row>
               <entry>Rapier</entry>
 
-              <entry>10</entry>
-
               <entry>2</entry>
 
               <entry>-1</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>1</entry>
 
@@ -6039,13 +6200,11 @@
             <row>
               <entry>Axt</entry>
 
-              <entry>13</entry>
-
               <entry>2</entry>
 
               <entry>-4</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>2</entry>
 
@@ -6055,13 +6214,11 @@
             <row>
               <entry>Doppelblättrige Axt</entry>
 
-              <entry>14</entry>
-
               <entry>5</entry>
 
               <entry>-4</entry>
 
-              <entry>4</entry>
+              <entry>2</entry>
 
               <entry>3</entry>
 
@@ -6071,13 +6228,11 @@
             <row>
               <entry>Dreschflegel</entry>
 
-              <entry>13</entry>
-
               <entry>2</entry>
 
               <entry>-4</entry>
 
-              <entry>5</entry>
+              <entry>3</entry>
 
               <entry>2</entry>
 
@@ -6089,13 +6244,11 @@
             <row>
               <entry>Knüppel</entry>
 
-              <entry>12</entry>
-
-              <entry>0</entry>
+              <entry>1</entry>
 
               <entry>-2</entry>
 
-              <entry>2</entry>
+              <entry>1</entry>
 
               <entry>1,5</entry>
 
@@ -6104,8 +6257,6 @@
 
             <row>
               <entry>Kriegshammer</entry>
-
-              <entry>14</entry>
 
               <entry>5</entry>
 
@@ -6121,13 +6272,11 @@
             <row>
               <entry>Säbel</entry>
 
-              <entry>11</entry>
-
               <entry>2</entry>
 
               <entry>-3</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>1,5</entry>
 
@@ -6137,13 +6286,11 @@
             <row>
               <entry>Sense</entry>
 
-              <entry>13</entry>
-
               <entry>1</entry>
 
               <entry>-3</entry>
 
-              <entry>4</entry>
+              <entry>3</entry>
 
               <entry>2</entry>
 
@@ -6163,13 +6310,11 @@
             <row>
               <entry>Bastardschwert</entry>
 
-              <entry>13</entry>
-
               <entry>4</entry>
 
               <entry>-3</entry>
 
-              <entry>4</entry>
+              <entry>3</entry>
 
               <entry>4</entry>
 
@@ -6179,13 +6324,11 @@
             <row>
               <entry>Kurzschwert</entry>
 
-              <entry>11</entry>
-
               <entry>1</entry>
 
               <entry>-2</entry>
 
-              <entry>2</entry>
+              <entry>1</entry>
 
               <entry>2</entry>
 
@@ -6195,13 +6338,11 @@
             <row>
               <entry>Schwert</entry>
 
-              <entry>12</entry>
-
               <entry>3</entry>
 
               <entry>-3</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>3</entry>
 
@@ -6211,13 +6352,11 @@
             <row>
               <entry>Zweihänder</entry>
 
-              <entry>14</entry>
-
               <entry>6</entry>
 
               <entry>-4</entry>
 
-              <entry>4</entry>
+              <entry>3</entry>
 
               <entry>9</entry>
 
@@ -6235,13 +6374,11 @@
             <row>
               <entry>Kampfstab</entry>
 
-              <entry>11</entry>
-
               <entry>1</entry>
 
               <entry>-2</entry>
 
-              <entry>5</entry>
+              <entry>3</entry>
 
               <entry>2</entry>
 
@@ -6251,13 +6388,11 @@
             <row>
               <entry>Hellebarde</entry>
 
-              <entry>13</entry>
-
               <entry>2</entry>
 
               <entry>-5</entry>
 
-              <entry>6</entry>
+              <entry>3</entry>
 
               <entry>3,5</entry>
 
@@ -6267,13 +6402,11 @@
             <row>
               <entry>Speer</entry>
 
-              <entry>11</entry>
-
               <entry>4</entry>
 
               <entry>-2</entry>
 
-              <entry>5</entry>
+              <entry>3</entry>
 
               <entry>2</entry>
 
@@ -6291,8 +6424,6 @@
             <row>
               <entry>Doppelarmbrust</entry>
 
-              <entry>10</entry>
-
               <entry>2 x 3</entry>
 
               <entry>-5</entry>
@@ -6309,8 +6440,6 @@
             <row>
               <entry>Leichte Armbrust</entry>
 
-              <entry>10</entry>
-
               <entry>3</entry>
 
               <entry>-5</entry>
@@ -6324,8 +6453,6 @@
 
             <row>
               <entry>Schwere Armbrust</entry>
-
-              <entry>11</entry>
 
               <entry>5</entry>
 
@@ -6349,8 +6476,6 @@
             <row>
               <entry>Kompositbogen</entry>
 
-              <entry>11</entry>
-
               <entry>3</entry>
 
               <entry>-3</entry>
@@ -6364,8 +6489,6 @@
 
             <row>
               <entry>Kriegsbogen</entry>
-
-              <entry>12</entry>
 
               <entry>4</entry>
 
@@ -6381,8 +6504,6 @@
             <row>
               <entry>Kurzbogen</entry>
 
-              <entry>11</entry>
-
               <entry>2</entry>
 
               <entry>-2</entry>
@@ -6396,8 +6517,6 @@
 
             <row>
               <entry>Langbogen</entry>
-
-              <entry>12</entry>
 
               <entry>3</entry>
 
@@ -6421,8 +6540,6 @@
             <row>
               <entry>Wurfaxt</entry>
 
-              <entry>13</entry>
-
               <entry>2</entry>
 
               <entry>-1</entry>
@@ -6437,8 +6554,6 @@
             <row>
               <entry>Wurfdolch</entry>
 
-              <entry>13</entry>
-
               <entry>1</entry>
 
               <entry>0</entry>
@@ -6452,8 +6567,6 @@
 
             <row>
               <entry>Wurfmesser</entry>
-
-              <entry>12</entry>
 
               <entry>0</entry>
 
@@ -6485,37 +6598,25 @@
     <section>
       <title>Rüstungen<indexterm>
           <primary>Rüstungen</primary>
-        </indexterm>, Schilde<indexterm>
-          <primary>Schilde</primary>
-        </indexterm> &amp; Paradewaffen<indexterm>
-          <primary>Paradewaffen</primary>
         </indexterm></title>
 
       <para><informaltable>
-          <tgroup cols="6">
-            <colspec colwidth="7*" />
+          <tgroup cols="4">
+            <colspec colwidth="4*" />
 
             <colspec align="center" colwidth="1*" />
 
             <colspec align="center" colwidth="1*" />
 
-            <colspec align="center" colwidth="1*" />
-
-            <colspec align="center" colwidth="1*" />
-
-            <colspec colwidth="6*" />
+            <colspec colwidth="10*" />
 
             <thead>
               <row>
-                <entry>Rüstung</entry>
+                <entry>Rüstungstyp</entry>
 
                 <entry>RS</entry>
 
-                <entry>TA</entry>
-
                 <entry>IM</entry>
-
-                <entry>GA</entry>
 
                 <entry></entry>
               </row>
@@ -6523,11 +6624,7 @@
 
             <tbody>
               <row>
-                <entry>Normale Kleidung</entry>
-
-                <entry>0</entry>
-
-                <entry></entry>
+                <entry>Stoff</entry>
 
                 <entry>0</entry>
 
@@ -6537,87 +6634,73 @@
               </row>
 
               <row>
-                <entry>Lederrüstung</entry>
+                <entry>Leder, einfach</entry>
+
+                <entry>1</entry>
 
                 <entry>2</entry>
-
-                <entry></entry>
-
-                <entry>2</entry>
-
-                <entry>0</entry>
 
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Kettenhemd, kurz</entry>
+                <entry>Leder, verstärkt</entry>
+
+                <entry>2</entry>
 
                 <entry>3</entry>
 
                 <entry></entry>
+              </row>
+
+              <row>
+                <entry>Kette</entry>
 
                 <entry>3</entry>
 
-                <entry>1</entry>
+                <entry>5</entry>
 
                 <entry></entry>
               </row>
 
               <row>
-                <entry>Kettenhemd, lang</entry>
+                <entry>Platte</entry>
 
                 <entry>4</entry>
 
-                <entry></entry>
-
-                <entry>4</entry>
-
-                <entry>1</entry>
-
-                <entry></entry>
-              </row>
-
-              <row>
-                <entry>Plattenpanzer, Arm- und Beinstücke</entry>
-
-                <entry>4</entry>
-
-                <entry></entry>
-
-                <entry>2</entry>
-
-                <entry>2</entry>
+                <entry>6</entry>
 
                 <entry></entry>
               </row>
             </tbody>
           </tgroup>
-        </informaltable><informaltable>
-          <tgroup cols="6">
-            <colspec colwidth="7*" />
+        </informaltable></para>
+    </section>
+
+    <section>
+      <title>Schilde<indexterm>
+          <primary>Schilde</primary>
+        </indexterm> und Paradewaffen<indexterm>
+          <primary>Paradewaffen</primary>
+        </indexterm></title>
+
+      <para><informaltable>
+          <tgroup cols="4">
+            <colspec colwidth="4*" />
 
             <colspec align="center" colwidth="1*" />
 
             <colspec align="center" colwidth="1*" />
 
-            <colspec align="center" colwidth="1*" />
-
-            <colspec align="center" colwidth="1*" />
-
-            <colspec colwidth="6*" />
+            <colspec colwidth="10*" />
 
             <thead>
               <row>
                 <entry>Schild</entry>
 
-                <entry>RS</entry>
-
-                <entry>TA</entry>
+                <entry>PB</entry>
 
                 <entry>IM</entry>
-
-                <entry>GA</entry>
 
                 <entry></entry>
               </row>
@@ -6627,13 +6710,9 @@
               <row>
                 <entry>Rundschild, klein</entry>
 
-                <entry></entry>
-
                 <entry>2</entry>
 
-                <entry>1</entry>
-
-                <entry></entry>
+                <entry>2</entry>
 
                 <entry></entry>
               </row>
@@ -6641,43 +6720,31 @@
               <row>
                 <entry>Rundschild, groß</entry>
 
-                <entry></entry>
-
                 <entry>3</entry>
 
-                <entry>2</entry>
-
-                <entry></entry>
+                <entry>4</entry>
 
                 <entry></entry>
               </row>
             </tbody>
           </tgroup>
         </informaltable><informaltable>
-          <tgroup cols="6">
-            <colspec colwidth="7*" />
+          <tgroup cols="4">
+            <colspec colwidth="4*" />
 
             <colspec align="center" colwidth="1*" />
 
             <colspec align="center" colwidth="1*" />
 
-            <colspec align="center" colwidth="1*" />
-
-            <colspec align="center" colwidth="1*" />
-
-            <colspec colwidth="6*" />
+            <colspec colwidth="10*" />
 
             <thead>
               <row>
                 <entry>Paradewaffe</entry>
 
-                <entry>RS</entry>
-
-                <entry>TA</entry>
+                <entry>PB</entry>
 
                 <entry>IM</entry>
-
-                <entry>GA</entry>
 
                 <entry></entry>
               </row>
@@ -6687,13 +6754,9 @@
               <row>
                 <entry>Parierdolch</entry>
 
-                <entry></entry>
-
                 <entry>1</entry>
 
-                <entry>0</entry>
-
-                <entry></entry>
+                <entry>1</entry>
 
                 <entry></entry>
               </row>
