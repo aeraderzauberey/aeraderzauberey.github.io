@@ -8,7 +8,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     exclude-result-prefixes="java">
 
-  <xsl:import href="file:////Library/Tools/docbook-xsl-1.76.1/fo/docbook.xsl"/>
+  <xsl:import href="file:////Library/Tools/docbook-xsl-snapshot/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
 
   <xsl:variable name="date" select="java:format(java:java.text.SimpleDateFormat.new('dd.MM.yyyy'), java:java.util.Date.new())"/>

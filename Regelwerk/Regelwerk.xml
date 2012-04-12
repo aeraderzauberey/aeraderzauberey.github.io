@@ -26,8 +26,9 @@
     <legalnotice>
       <para>Dieses Werk steht unter einer Creative Commons
       Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen
-      3.0 Deutschland Lizenz (CC BY-NC-SA 3.0). Mehr Informationen dazu
-      unter<address>http://www.aeraderzauberey.de/lizenz.html</address></para>
+      3.0 Deutschland Lizenz (CC BY-NC-SA 3.0). Attribut-Icons von <person>
+          <personname>Lorc</personname>
+        </person> (CC BY 3.0 Unported). Mehr Informationen dazu unter<address>http://www.aeraderzauberey.de/lizenz.html</address></para>
     </legalnotice>
 
     <releaseinfo>$Revision$</releaseinfo>
@@ -115,15 +116,19 @@
         sind.</para>
 
         <informaltable>
-          <tgroup cols="3">
-            <colspec colnum="1" colwidth="2*" />
+          <tgroup cols="4">
+            <colspec colwidth="1*" />
 
-            <colspec align="center" colnum="2" colwidth="1*" />
+            <colspec colwidth="4*" />
 
-            <colspec colnum="3" colwidth="7*" />
+            <colspec align="center" colwidth="2*" />
+
+            <colspec colwidth="14*" />
 
             <thead>
               <row>
+                <entry></entry>
+
                 <entry>Attribut</entry>
 
                 <entry>Abk.</entry>
@@ -133,7 +138,14 @@
             </thead>
 
             <tbody>
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/KK.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Körperkraft<indexterm significance="preferred">
                     <primary>Körperkraft</primary>
                   </indexterm></entry>
@@ -143,7 +155,14 @@
                 <entry>Physische Kraft, Ausdauer</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/GW.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Gewandtheit<indexterm significance="preferred">
                     <primary>Gewandtheit</primary>
                   </indexterm></entry>
@@ -154,7 +173,14 @@
                 Bewegungen. Wichtig im Nahkampf.</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/FF.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Fingerfertigkeit<indexterm significance="preferred">
                     <primary>Fingerfertigkeit</primary>
                   </indexterm></entry>
@@ -165,7 +191,14 @@
                 Fähigkeiten, Hand-Augen-Koordination</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/KO.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Konstitution<indexterm significance="preferred">
                     <primary>Konstitution</primary>
                   </indexterm></entry>
@@ -176,7 +209,14 @@
                 geringere Anfälligkeit für Krankheiten</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/EB.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Erscheinungsbild<indexterm significance="preferred">
                     <primary>Erscheinungsbild</primary>
                   </indexterm></entry>
@@ -186,7 +226,14 @@
                 <entry>Maß für körperliche Attraktivität</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/CH.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Charisma<indexterm significance="preferred">
                     <primary>Charisma</primary>
                   </indexterm></entry>
@@ -196,7 +243,14 @@
                 <entry>Wirkung auf andere, Ausstrahlung, Präsenz</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/WK.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Willenskraft<indexterm significance="preferred">
                     <primary>Willenskraft</primary>
                   </indexterm></entry>
@@ -207,7 +261,14 @@
                 Schmerzen. Wichtig für Magie.</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/KL.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Klugheit<indexterm significance="preferred">
                     <primary>Klugheit</primary>
                   </indexterm></entry>
@@ -218,7 +279,14 @@
                 und Merkfähigkeit</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/IN.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Intuition<indexterm significance="preferred">
                     <primary>Intuition</primary>
                   </indexterm></entry>
@@ -229,11 +297,20 @@
                 Improvisation, Aufmerksamkeit, Initiative im Kampf</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry></entry>
+
                 <entry></entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/MA.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Materie<indexterm significance="preferred">
                     <primary>Materie</primary>
                   </indexterm></entry>
@@ -244,7 +321,14 @@
                 (siehe Magiefertigkeiten)</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/GE.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Geist<indexterm significance="preferred">
                     <primary>Geist</primary>
                   </indexterm></entry>
@@ -255,7 +339,14 @@
                 (siehe Magiefertigkeiten)</entry>
               </row>
 
-              <row>
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/EN.svg"
+                                 width="0.65cm"></imagedata>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
                 <entry>Energie<indexterm significance="preferred">
                     <primary>Energie</primary>
                   </indexterm></entry>
@@ -4121,8 +4212,8 @@
           gebracht wurde, zu einer <emphasis>echten</emphasis> Tasse geworden.
           Die Tasse könnte zwar wieder zu einem Teller verformt werden, der
           ursprüngliche Teller ist jedoch nicht mehr existent. Für Lebewesen
-          gilt diese Regel jedoch nur eingeschränkt, siehe <xref
-          linkend="lebewesen" />.</para>
+          gilt diese Regel jedoch nur eingeschränkt (siehe <xref
+          linkend="lebewesen_verwandeln" xrefstyle="page" />).</para>
         </listitem>
 
         <listitem>
@@ -4204,7 +4295,12 @@
       </section>
 
       <section>
-        <title>Geistmanipulation (Geist)</title>
+        <title>Geistmanipulation <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/GE.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para><remark>Sinne beeinflussen: Augen (Blenden, Schwarzweiß-Sicht);
         Ohren (); Nase (); Tastsinn (); Riechen (); Gleichgewicht (jmd.
@@ -4503,7 +4599,12 @@
       </section>
 
       <section xml:id="lebewesen">
-        <title>Lebewesen (Materie)</title>
+        <title>Lebewesen <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/MA.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Die Fertigkeit Lebewesen umfasst alle Manipulationen an
         lebendigen Wesen. Als „Lebewesen“ gelten hierbei alle Einheiten, die
@@ -4531,7 +4632,7 @@
             </listitem>
           </varlistentry>
 
-          <varlistentry>
+          <varlistentry xml:id="lebewesen_verwandeln">
             <term>Verwandlungen</term>
 
             <listitem>
@@ -4793,7 +4894,12 @@
       </section>
 
       <section>
-        <title>Licht (Energie)</title>
+        <title>Licht <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/EN.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Mit dieser Fertigkeit kann auf vielfältige Weise Licht
         erschaffen, manipuliert und entzogen werden. Die Fertigkeit erstreckt
@@ -5093,7 +5199,12 @@
       </section>
 
       <section>
-        <title>Telekinese (Energie)</title>
+        <title>Telekinese <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/EN.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Mit Hilfe der Telekinese können Gegenstände und Personen
         beliebig bewegt werden.<remark> (Es muss übrigens nicht die "passende"
@@ -5217,7 +5328,12 @@
       </section>
 
       <section>
-        <title>Telepathie (Geist)</title>
+        <title>Telepathie <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/GE.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Mit dieser Fertigkeit ist es möglich, mit anderen Personen
         mental zu kommunizieren. Nicht zur Kommunikation gehörende Effekte im
@@ -5484,7 +5600,12 @@
       </section>
 
       <section>
-        <title>Teleportation (Materie)</title>
+        <title>Teleportation <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/MA.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Die Fertigkeit Teleportation umfasst alle Effekte, die eine
         Bewegung in Nullzeit ermöglichen. Dazu zählt sowohl der klassische
@@ -5845,7 +5966,12 @@
       </section>
 
       <section>
-        <title>Wasser (Materie)</title>
+        <title>Wasser <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/MA.svg"
+                         valign="bottom" width="0.65cm"></imagedata>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Diese Fertigkeit ermöglicht die Beeinflussung von Wasser in
         allen Aggregatzuständen, wie zum Beispiel Zusammenziehen der
