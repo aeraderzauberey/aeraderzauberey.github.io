@@ -745,7 +745,7 @@
             significance="preferred">
             <primary>Magiefertigkeit</primary>
           </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
-        Spiel finden sich ab <xref linkend="magiebereiche"
+        Spiel finden sich ab <xref linkend="magiefertigkeiten"
         xrefstyle="page" />.</para>
 
         <informaltable role="breakable">
@@ -1868,7 +1868,7 @@
         </indexterm><indexterm>
           <primary>Probe</primary>
         </indexterm> durchführen. In diesem Fall erhöht der Spielleiter jedoch
-      die Schwierigkeit je nach Verwandtschaft der verwendeten mit der
+      den Mindestwurf je nach Verwandtschaft der verwendeten mit der
       geforderten Fertigkeit<indexterm significance="preferred">
           <primary>Fertigkeit</primary>
         </indexterm>.</para>
@@ -1937,10 +1937,10 @@
         </indexterm> auf die passende Fertigkeit<indexterm
           significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm> (dies kann für beide dieselbe Fertigkeit sein) gegen
-      einen Mindestwurf von 1 durch.</para>
+        </indexterm> (dies kann für beide dieselbe Fertigkeit sein) durch;
+      wurde kein anderer Mindestwurf festgelegt, beträgt er jeweils 1.</para>
 
-      <para>Umstände, welche einer der beiden Charaktere betreffen und die
+      <para>Umstände, welche einen der beiden Charaktere betreffen und die
       Probe beeinflussen, führen beim jeweiligen Charakter wie bei normalen
       Proben zu Würfelmali oder -boni.</para>
 
@@ -2042,8 +2042,7 @@
         <primary>Würfelmalus</primary>
       </indexterm> bei allen Proben außer Widerstandswürfen<indexterm>
         <primary>Widerstandswurf</primary>
-      </indexterm> (siehe oben) und Kraftsammelproben (siehe <xref
-    linkend="kraft_sammeln" xrefstyle="page" />).</para>
+      </indexterm> (siehe oben).</para>
 
     <para>In den folgenden Abschnitten werden die Regelmechanismen der beiden
     Schadensarten vorgestellt.</para>
@@ -3010,8 +3009,8 @@
           <primary>Verteidigungswurf</primary>
         </indexterm> durchführen, um Erfolge des Angriffswurfs<indexterm>
           <primary>Angriffswurf</primary>
-        </indexterm> auszugleichen. Der von der Waffe verursachten Schaden
-      wird durch die übrigen Angriffserfolge erhöht und durch die Rüstung des
+        </indexterm> auszugleichen. Der von der Waffe verursachte Schaden wird
+      durch die übrigen Angriffserfolge erhöht und durch die Rüstung des
       Verteidigers gesenkt. Abschließend wird noch die Widerstandsfähigkeit
       des Verteidigers mit einem Widerstandswurf<indexterm>
           <primary>Widerstandswurf</primary>
@@ -3101,7 +3100,7 @@
             </indexterm><remark> = pure Konstitution</remark></term>
 
           <listitem>
-            <para>Jedes mal, wenn der Charakter Schaden erhält, wird ein
+            <para>Jedes Mal, wenn der Charakter Schaden erhält, wird ein
             Widerstandswurf<indexterm>
                 <primary>Widerstandswurf</primary>
               </indexterm> durchgeführt: für körperlichen Schaden mit
@@ -3109,9 +3108,12 @@
                 <primary>Konstitution</primary>
               </indexterm>, für geistigen Schaden mit Willenskraft<indexterm>
                 <primary>Willenskraft</primary>
-              </indexterm>. Für jeden Erfolg wird der Schaden um einen Punkt
-            reduziert. Der übrige Schaden wird auf dem Charakterblatt vermerkt
-            und führt fortan zu einem Verletzungsmalus (siehe <xref
+              </indexterm>. Hinzu kommen jeweils noch Bonuswürfel von Schilden
+            oder Paradewaffen (siehe unten).</para>
+
+            <para>Für jeden Erfolg wird der Schaden um einen Punkt reduziert.
+            Der übrige Schaden wird auf dem Charakterblatt vermerkt und führt
+            fortan zu einem Verletzungsmalus (siehe <xref
             linkend="schaden" />).</para>
           </listitem>
         </varlistentry>
@@ -3640,7 +3642,8 @@
     Umgebung, um einen Effekt hervorzurufen. Diese Energie wird als
     <firstterm>Kraft</firstterm><indexterm>
         <primary>Kraft</primary>
-      </indexterm> bezeichnet.</para>
+      </indexterm> bezeichnet. Details zu den „Naturgesetzen“ der Magie finden
+    sich in <xref linkend="magietheorie" />.</para>
 
     <para>Dazu benötigen Zauberer die passenden Attribute (Materie<indexterm>
         <primary>Materie</primary>
@@ -3654,18 +3657,105 @@
     <para>Magiefertigkeiten werden während des Spiels genauso gehandhabt wie
     andere Fertigkeiten. Bei ihrer Anwendung gilt allerdings die Sonderregel,
     dass die Probe nicht alternativ mit anderen Fertigkeiten oder lediglich
-    dem Attribut gewürfelt werden darf.</para>
+    dem Attribut gewürfelt werden darf.<remark> ZU VERSCHIEBEN: dieser Absatz
+    gehört in den Abschnitt "Zauberprobe".</remark></para>
 
-    <para>Möchte ein Charakter spontan einen magischen Effekt hervorrufen,
-    bestimmt der Spielleiter zunächst die passenden Magiefertigkeiten.
-    Außerdem legt er die genaue regeltechnische Wirkungsweise des Zaubers und
-    insbesondere die Schwierigkeit fest (siehe <xref
-    linkend="zauberentwicklung" />).</para>
+    <section>
+      <title>Festlegen der Zauberparameter<remark> (oder Würfelregelung,
+      Zauberregelung, Zauberparameter, Spruchwerte?)</remark></title>
 
-    <para>Hat der Charakter diesen Effekt bereits angewendet und ihn auf dem
-    Charakterblatt notiert, wurden Wirkungsweise und Schwierigkeit natürlich
-    bereits festgelegt. Eine beispielhafte Liste von bisher ausgearbeiteten
-    Zaubersprüchen findet sich im Anhang.</para>
+      <para><remark>ZU KLÄREN: Sollte diese Sektion vor oder hinter der
+      Beschreibung des Zaubervorgangs stehen? Ich tendiere zu ersterem, weil
+      der Leser sich sonst während der Lektüre des ganzen Zaubervorgangs fragt
+      wie zur Hölle das Zauberparameterfestlegen gehen soll.</remark></para>
+
+      <para>Möchte ein Spieler spontan einen magischen Effekt hervorrufen,
+      bestimmt der Spielleiter, ob der Effekt grundsätzlich möglich ist und
+      wie er regeltechnisch gehandhabt wird. Dabei helfen ihm die Angaben aus
+      dem Anhang <xref linkend="magiefertigkeiten" />: die dort für jede
+      Magiefertigkeit gelisteten exemplarischen Zauber sowie weitere Angaben
+      bilden ein Baukastensystem, mit dessen Hilfe der Spielleiter auch völlig
+      neue Effekte einordnen kann. Dazu legt er nacheinander die unten
+      stehenden Parameter fest.</para>
+
+      <para><remark>Das passt jedoch nicht immer: Eine Massenhalluzination in
+      einem bestimmten Radius ist von den Geistmanipulations-Baukasten nicht
+      abgedeckt, aber sicherlich möglich. SL orientiert sich dann je nach
+      Geschmack grob an den mit dem Baukasten möglichen
+      Effekten.</remark></para>
+
+      <variablelist>
+        <varlistentry>
+          <term>Magiefertigkeiten</term>
+
+          <listitem>
+            <para>Basierend auf einer kurzen Beschreibung, wie der Zauber
+            funktioniert, bestimmt der Spielleiter die benötigten
+            Magiefertigkeiten. Dabei führen oft mehrere Wege zum Ziel -
+            besteht dieses z.B. darin, eine Person an Ort und Stelle zu
+            halten, sind die verschiedensten Ansätze denkbar: das Hervorrufen
+            einer Lähmung (Lebewesen), das Festhalten wie mit einer imaginären
+            Hand (Telekinese), das Erschaffen einer unsichtbaren Barriere
+            (Luft) oder ggf. das Verfestigen des Schlamms, durch den die
+            Zielperson watet (Unbelebte Materie).</para>
+
+            <para>Setzt sich ein Effekt aus Teileffekten aus dem Bereich von
+            mehreren Magiefertigkeiten zusammen, entscheidet sich der
+            Spielleiter für eine Primärfertigkeit.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Mindestwurf</term>
+
+          <listitem>
+            <para>Der Mindestwurf der Zauberprobe hängt von der Komplexität
+            des Effekts ab. Der Abschnitt „Mindestwurf“ der jeweiligen
+            Magiefertigkeit gibt an, welche Faktoren die Komplexität
+            beeinflussen, und listet Beispieleffekte mit ihren Mindestwürfen
+            auf.</para>
+
+            <para>Ist ein Effekt in der Tabelle mit einer Mengenangabe
+            versehen, gelten für andere Werte entsprechend höhere/niedrigere
+            Mindestwürfe nach Spielleiterentscheid.<remark> Typischerweise ist
+            diese Anpassung nicht linear; eine Angabe "1" auf "2" zu ändern
+            verdoppelt *nicht* den MW.</remark></para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Krafteinsatz</term>
+
+          <listitem>
+            <para>Im Abschnitt „Krafteinsatz“ sind Beispiele für die
+            Kraftpunkt-Kosten verschiedener Effekte aufgeführt. Bei Effekten
+            mit einer begrenzten Wirkungsdauer geschieht dies im Format „Ein
+            KP pro &lt;Zeitperiode&gt;“, ansonsten mit festen Angaben.</para>
+
+            <para>Wenn ein Effekt nur einmal in der Tabelle aufgeführt ist,
+            verwendet er eine lineare Skala (für Entfernungen, Schaden, Höhe,
+            Breite, Fläche...). Es kann beliebig skaliert werden. So ergibt
+            sich z.B. aus der Tabellen-Angabe „1 KP = einen Sinn eine Minute
+            beeinflussen“ also „2KP = zwei Sinne eine Minute beeinflussen“
+            aber auch „1 KP = zwei Sinne 30 Sekunden beeinflussen“. Effekte
+            mit einer nicht linearen Skala sind dagegen mehrfach mit
+            verschiedenen Werten gelistet, so dass der Spielleiter andere
+            Werte entsprechend einordnen kann.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Zauberdauer</term>
+
+          <listitem>
+            <para></para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para><remark>*********************************** BIS HIERHER
+      ÜBERARBEITET ***********************************</remark></para>
+    </section>
 
     <section>
       <title>Überblick des Zaubervorgangs</title>
@@ -3740,46 +3830,23 @@
     </section>
 
     <section>
-      <title>Fertigkeitswürfel einteilen</title>
+      <title>Krafteinsatz</title>
 
-      <para>Vor Beginn des Zaubers kann der Charakter Fertigkeitswürfel zur
-      Seite legen, um sie für den Widerstandswurf statt bei der Zauberprobe zu
-      verwenden.</para>
-
-      <informalexample>
-        <para>Tharion möchte den Zauber „Nachtsicht“ wirken. Nachtsicht ist
-        der Fertigkeit Lebewesen zugeordnet. Tharion entscheidet sich, keinen
-        seiner 2 Lebewesen-Würfel für den Widerstandswurf zur Seite zu legen,
-        um nicht zu riskieren, dass der Zauber scheitert.</para>
-      </informalexample>
+      <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
+      wieviel Kraft der Charakter aus der Umgebung an sich zieht. Die Menge an
+      Kraftpunkten, die für einen Zauber verwendet wird, beeinflusst je nach
+      Zauber z.B. die Stärke, Reichweite oder Wirkungsdauer. Zuviel Kraft
+      lässt den Zaubernden jedoch ermüden oder schädigt ihn sogar (siehe <xref
+      linkend="magieschaden" />).</para>
     </section>
 
-    <section xml:id="kraft_sammeln">
-      <title>Kraft sammeln</title>
+    <section>
+      <title>Zauberdauer</title>
 
-      <para>In jeder Runde, in der ein Charakter Kraft sammelt, wird eine
-      <firstterm>Sammelprobe</firstterm> durchgeführt. Für diese Probe wird
-      das der Magiefertigkeit zugeordnete Attribut (Materie<indexterm>
-          <primary>Materie</primary>
-        </indexterm>, Geist<indexterm>
-          <primary>Geist</primary>
-        </indexterm>, Energie<indexterm>
-          <primary>Energie</primary>
-        </indexterm>) und Willenskraft<indexterm>
-          <primary>Willenskraft</primary>
-        </indexterm> verwendet. Die Schwierigkeit beträgt 11, der
-      Verletzungsmalus wird ignoriert. Die Anzahl der Erfolge ist die Menge an
-      Kraftpunkten, die der Charakter in dieser Runde an sich ziehen
-      konnte.</para>
+      <para><remark>NOCH ZU BESCHREIBEN</remark></para>
 
-      <para>Insbesondere beim Sammeln über mehrere Runden kann es jedoch
-      vorkommen, dass bei der Sammelprobe „zu viele“ Erfolge erreicht werden
-      und der Charakter so viel Kraft an sich zieht, dass er zu sehr ermüdet.
-      Falls ein Spieler dies verhindern will, kann er vor einer Sammelprobe
-      ansagen, wieviel Kraft er in dieser Runde höchstens sammeln will.
-      Überschüssige Erfolge werden dann nicht gezählt.</para>
-
-      <para>Das Sammeln von Kraft ist im Kampf eine volle Aktion<indexterm>
+      <para><remark>{{{Das Sammeln von Kraft ist im Kampf eine volle
+      Aktion<indexterm>
           <primary>Aktion</primary>
         </indexterm>. Ein Charakter kann zwar noch Würfel für eine
       Reaktion<indexterm>
@@ -3787,109 +3854,41 @@
         </indexterm>, z.B. Ausweichen, einteilen (siehe <xref
       linkend="kampf" />). Davon abgesehen darf das Sammeln jedoch nicht
       unterbrochen werden, sonst ist die bisher gesammelte Kraft
-      verloren.</para>
+      verloren.}}}</remark></para>
 
-      <para>Nach jeder Sammelprobe kann der Spieler entscheiden, ob er nun den
-      Zauber abschließen oder in der nächsten Runde weiter Kraft sammeln
-      möchte.</para>
-
-      <informalexample>
-        <para>Tharion möchte für die Nachtsicht 5 Kraftpunkte verwenden. Die
-        verwendete Fertigkeit <emphasis>Lebewesen</emphasis> ist dem Attribut
-        <emphasis>Materie</emphasis> zugeordnet, in dem Tharion 1 Punkt
-        besitzt. Seine Willenskraft beträgt 4, Tharion verwendet für die
-        Sammelprobe also 5 Würfel.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>Zunächst sagt Tharion keine maximale Anzahl Kraftpunkte an.
-            Bei der Probe erzielt er 2 Erfolge und hat damit bereits 2
-            Kraftpunkte gesammelt.</para>
-          </listitem>
-
-          <listitem>
-            <para>Nun sagt Tharion zur Sicherheit an, maximal 3 Kraftpunkte
-            sammeln zu wollen. Er erzielt 2 Erfolge und hat damit nun 4
-            Kraftpunkte gesammelt.</para>
-          </listitem>
-
-          <listitem>
-            <para>Schließlich sagt er an, maximal 1 Kraftpunkt sammeln zu
-            wollen. Tharion erzielt 3 Erfolge und erhält damit wie gewünscht
-            den 5. und letzten Kraftpunkt. Tharion entscheidet sich, den
-            Zauber nun abzuschließen.</para>
-          </listitem>
-        </orderedlist>
-      </informalexample>
-    </section>
-
-    <section xml:id="magieschaden">
-      <title>Kraftwiderstandswurf</title>
-
-      <para>Während des Kraftsammelns muss der Charakter in regelmäßigen
-      Abständen einen geistigen Widerstandswurf<indexterm>
-          <primary>Widerstandswurf</primary>
-
-          <secondary>geistig</secondary>
-        </indexterm> gegen die gesamte bisher gesammelten Kraft ablegen. Der
-      Abstand zwischen diesen Widerstandswürfen beträgt so viele Runden, wie
-      der Charakter Punkte in der jeweiligen Fertigkeit hat. Vor dem Abschluss
-      des Zaubers, der Zauberprobe, ist ein weiterer Widerstandswurf fällig,
-      es sei denn in dieser Runde wurde bereits eine durchgeführt.</para>
-
-      <para>Der Kraftwiderstandswurf wird mit Willenskraft<indexterm>
-          <primary>Willenskraft</primary>
-        </indexterm> und den eventuell zur Seite gelegten Fertigkeitswürfeln
-      gegen eine Schwierigkeit von 11 durchgeführt. Der erhaltene geistige
-      Schaden entspricht der Gesamtanzahl der bisher gesammelten Kraftpunkte,
-      vermindert um die beim Widerstandswurf erzielten Erfolge.</para>
-
-      <informalexample>
-        <para>Tharions hat <emphasis>Lebewesen</emphasis> 2, er muss also nach
-        jeweils zwei Sammelproben einen Widerstandswurf durchführen. Da er
-        keine Fertigkeitswürfel für den Widerstandswurf zur Seite gelegt hat,
-        stehen ihm dafür nur seine 5 Willenskraft-Würfel zur Verfügung. Nach
-        der zweiten Sammelprobe hat er insgesamt 4 Kraftpunkte gesammelt. Beim
-        Widerstandswurf erzielt er 3 Erfolge und erhält damit einen geistigen
-        Schadenspunkt. Nach der dritten Sammelprobe schließt er den Zauber ab
-        und muss erneut einen Widerstandswurf durchführen. Er hat nun
-        insgesamt 5 Kraftpunkte gesammelt. Bei der Probe erzielt er 2 Erfolge,
-        erhält also weitere 3 geistige Schadenspunkte.</para>
-      </informalexample>
-
-      <para>Obwohl die Widerstandswürfe bereits vor der abschließenden
-      Zauberprobe durchgeführt werden, kommt der Schaden erst nach dem Zaubern
-      zum Tragen; der Verletzungsmalus<indexterm>
-          <primary>Verletzungsmalus</primary>
-        </indexterm> (siehe <xref linkend="schaden" />) basiert bei der
-      Zauberprobe also nur auf dem Schaden, den der Charakter bereits zuvor
-      erhalten hatte.</para>
+      <para>Der Charakter muss sich während der Zauberdauer durchgehend auf
+      das Zaubern konzentrieren. Erleidet er in diesem Zeitraum Schaden, z.B.
+      durch einen Angriff, ist sein Zauber sofort misslungen.</para>
     </section>
 
     <section>
       <title>Zauberprobe</title>
 
-      <para>Die Zauberprobe findet direkt im Anschluss an die letzte
-      Sammelprobe und noch in der gleichen Runde statt. Die Probe wird mit den
-      Würfeln der Magiefertigkeit und denen des zugehörigen Attributs
-      durchgeführt. Manche Magiefertigkeiten sind mehreren Attributen
-      zugeordnet, z.B. Artefaktmagie (Energie und Materie). In diesem Fall
-      gilt der aufgerundete Mittelwert der beiden Attribute.</para>
+      <para>Zum Ende der Zauberdauer findet die Zauberprobe statt. Die Probe
+      wird mit den Würfeln der Magiefertigkeit und denen des zugehörigen
+      Attributs durchgeführt. Manche Magiefertigkeiten sind mehreren
+      Attributen zugeordnet, z.B. Artefaktmagie (Energie und Materie). In
+      diesem Fall gilt der aufgerundete Mittelwert der beiden
+      Attribute.</para>
 
-      <para>Bei der Ermittlung der Schwierigkeit wird die
+      <para>Der Charakter kann auf einen oder mehrere
+      Fertigkeitswürfel<remark> (Variante: "dieser Würfel" statt
+      "Fertigkeitswürfel")</remark> verzichten, um sie stattdessen als
+      Bonuswürfel beim Kraftwiderstandswurf einzusetzen.</para>
+
+      <para><remark>NOCH UNTERZUBRINGEN: Neue Reichweitenregelung, alter Text:
+      Bei der Ermittlung der Schwierigkeit wird die
       Reichweitenklasse<indexterm>
           <primary>Reichweite</primary>
 
           <secondary>Fernkampf</secondary>
         </indexterm> der Magiefertigkeit mit angerechnet, falls beim Zauber
       nichts anderes angegeben ist. Dies geschieht analog zu <xref
-      linkend="fernkampf" />.</para>
+      linkend="fernkampf" />.</remark></para>
 
-      <para>Die Anzahl der Erfolge bei der Zauberprobe nennen wir die
-      <firstterm>Qualität</firstterm><indexterm>
-          <primary>Qualität</primary>
-        </indexterm> des Zaubers; diese fließt neben der Kraftmenge in die
-      Ermittlung der spieltechnischen Wirkung eines Zaubers ein.</para>
+      <para>Für jeden Erfolg, welcher über den geforderten Mindestwurf
+      hinausgeht, erhält der Charakter einen weiteren Bonuswürfel für den
+      Kraftwiderstandswurf.</para>
 
       <?dbfo-need height="7cm"?>
 
@@ -3941,14 +3940,57 @@
       </variablelist>
 
       <informalexample>
-        <para>Tharion hat Materie 1 und Lebewesen 2, also 3 Würfel für die
-        Nachtsicht-Probe zur Verfügung. Er würfelt gegen eine Schwierigkeit
-        von 14. Er erzielt 2 Erfolge, die Qualität beträgt also 2. Da er 5
-        Kraftpunkte gesammelt hat, hält die Wirkung des Zaubers nun 25 Minuten
-        an. Sollte er später plötzlich geblendet werden, kann er aufgrund der
-        hohen Qualität seines Zaubers bereits nach einer Runde wieder
-        sehen.</para>
+        <para><remark>ZU ÜBERARBEITEN: (neu auf probe/widerstandswurf
+        verteilen) </remark>Tharion hat Materie 1 und Lebewesen 2, also 3
+        Würfel für die Nachtsicht-Probe zur Verfügung. Er würfelt gegen eine
+        Schwierigkeit von 14. Er erzielt 2 Erfolge, die Qualität beträgt also
+        2. Da er 5 Kraftpunkte gesammelt hat, hält die Wirkung des Zaubers nun
+        25 Minuten an. Sollte er später plötzlich geblendet werden, kann er
+        aufgrund der hohen Qualität seines Zaubers bereits nach einer Runde
+        wieder sehen.</para>
       </informalexample>
+    </section>
+
+    <section xml:id="magieschaden">
+      <title>Kraftwiderstandswurf</title>
+
+      <para>Nach der Zauberprobe legt der Charakter einen geistigen
+      Widerstandswurf<indexterm>
+          <primary>Widerstandswurf</primary>
+
+          <secondary>geistig</secondary>
+        </indexterm> ab, um zu ermitteln wieviel Schaden er durch diesen
+      Zauber erhält. Dieser <firstterm>Kraftwiderstandswurf</firstterm> wird
+      mit den Würfeln des Attributs Willenskraft<indexterm>
+          <primary>Willenskraft</primary>
+        </indexterm> sowie etwaigen Bonuswürfeln aus der Zauberprobe (siehe
+      oben) durchgeführt.<remark> Anmerkung: trotz der erhöhten Schwierigkeit
+      (11-&gt;14) wird immer noch nur die reine WK benutzt, damit Magie etwas
+      ermüdender wird. Die AdZ1-Erfahrung zeigt, dass die Leute niemals
+      ermüden.</remark></para>
+
+      <para>Der erhaltene geistige Schaden entspricht der Anzahl der
+      verwendeten Kraftpunkte, vermindert um die beim Widerstandswurf
+      erzielten Erfolge.</para>
+
+      <informalexample>
+        <para><remark>ZU ÜBERARBEITEN: (neu auf probe/widerstandswurf
+        verteilen) </remark>Tharion möchte den Zauber „Nachtsicht“ mit 5
+        Kraftpunkten wirken. Nachtsicht ist der Fertigkeit Lebewesen
+        zugeordnet. Tharion entscheidet sich, keinen seiner 2 Lebewesen-Würfel
+        für den Widerstandswurf zur Seite zu legen, um nicht zu riskieren,
+        dass der Zauber scheitert.</para>
+
+        <para>Damit stehen Tharion für den Widerstandswurf nur seine 5
+        Willenskraft-Würfel zur Verfügung. Bei der Probe erzielt er 2 Erfolge,
+        erhält also 3 geistige Schadenspunkte.</para>
+      </informalexample>
+
+      <para><remark>Anmerkung: der Widerstandswurf wird nun *nach* der
+      Zauberprobe durchgeführt, weil Zusatzerfolge bei der Zauberprobe zu
+      Bonuswürfeln beim Widerstandswurf werden. Ein netter Nebeneffekt dieser
+      Änderung ist, dass dadurch der Absatz "Widerstandswurf vor Zauberprobe,
+      Verletzungsmalus wirkt aber erst danach" entfallen kann.</remark></para>
     </section>
 
     <section>
@@ -4005,6 +4047,9 @@
       Richtung der Punktzahl der Primärfertigkeit gerundet.</para>
 
       <informalexample>
+        <para><remark>ZU ERSETZEN: Anderes, gültiges Beispiel oder gar
+        keins.</remark></para>
+
         <para>Der Spruch „Verletzungen heilen“ ist den Fertigkeiten
         „<emphasis>Lebewesen</emphasis>, <emphasis>Spüren</emphasis>“
         zugeordnet, <emphasis>Lebewesen</emphasis> ist die Primärfertigkeit.
@@ -4024,108 +4069,12 @@
         Magiefertigkeiten und 2 aus Materie.</para>
       </informalexample>
     </section>
-
-    <section xml:id="zauberentwicklung">
-      <title>Zauberentwicklung</title>
-
-      <para>Unter „Zauberentwicklung“ verstehen wir das Erstellen einer Regel,
-      wie ein bestimmter magischer Effekt im Spiel gehandhabt wird. Dies
-      geschieht meist während des Spielabends aufgrund des spontanen Einfalls
-      eines Spielers.</para>
-
-      <para>Der Spielleiter muss zunächst festlegen, welche Magiefertigkeiten
-      für den entsprechenden Effekt benötigt werden. Besitzt der
-      Spielercharakter nicht alle diese Fertigkeiten, kann er den
-      entsprechenden Effekt nicht erzielen.</para>
-
-      <para>Sind die Voraussetzungen jedoch erfüllt, erstellt der Spielleiter
-      — eventuell zusammen mit der Gruppe — einen ersten Regelentwurf, in dem
-      er sich mit den folgenden Punkten befasst:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>Schwierigkeit</para>
-
-          <para>Wie schwierig ist es, diesen Effekt in dieser Situation zu
-          erzielen? Wäre jeder Amateur dazu in der Lage, oder ist dies
-          erfahrenen Magiern vorbehalten? Ist die Schwierigkeit festgelegt
-          oder variabel? Welche Faktoren beeinflussen sie?</para>
-        </listitem>
-
-        <listitem>
-          <para>Kraft</para>
-
-          <para>Wieviele Kraft benötigt der Zaubernde? Auf welchen Aspekt des
-          Zaubers — z.B. Wirkungsdauer oder Stärke des Effekts — hat die
-          Kraftmenge einen Einfluss?</para>
-        </listitem>
-
-        <listitem>
-          <para>Wirkung</para>
-
-          <para>Die Auswirkungen des Effekts auf die Spielwelt sind, soweit
-          nötig und möglich, in Zahlen anzugeben.</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>Dabei muss noch keine allgemeine Regelung für verschiedenste
-      Situationen gefunden werden. Stattdessen geht es zunächst nur darum, den
-      konkreten Fall grob regeltechnisch abzubilden. Der Spieler soll also
-      möglichst schnell eine Probe würfeln können, damit das Spiel sofort
-      weitergehen kann.</para>
-
-      <para>Nach dem Spielabend ist dann genug Zeit für eine genaue
-      Ausarbeitung, schriftliche Fixierung und einen Abgleich mit anderen
-      Zaubern. Dabei können folgende Stichpunkte betrachtet werden:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>Einordnung</para>
-
-          <para>Konsultieren Sie die Beschreibung(en) der zuvor bestimmten
-          Magiefertigkeit(en), und sehen Sie sich einige zuvor ausgearbeitete
-          Zauber aus diesem Bereich an. Ist der Zauber korrekt eingeordnet,
-          oder gibt es Widersprüche zum Regelwerk oder anderen Zaubern?</para>
-        </listitem>
-
-        <listitem>
-          <para>Verallgemeinerung</para>
-
-          <para>Wie verändern sich Schwierigkeit und Kraft, wenn die Umstände
-          anders sind? Legen Sie konkrete Formeln fest oder notieren Sie für
-          jeden Wert einige Beispiele, anhand derer eine andere Situation
-          eingeordnet und die spieltechnische Wirkung des Zaubers bestimmt
-          werden kann. Denken Sie auch an mögliche Begrenzungen: Vielleicht
-          muss eine bestimmte Mindestmenge an Kraft eingesetzt werden, oder
-          eine zu große Kraftmenge ist für den Nutznießer (z.B. der
-          Kampfgefährte, den man beschleunigen möchte) schädlich.</para>
-        </listitem>
-
-        <listitem>
-          <para>Balance</para>
-
-          <para>Passt der Zauber ins Machtgefüge seiner Fertigkeit(en)? Macht
-          er vielleicht andere Zauber völlig überflüssig, oder kann der Effekt
-          bereits einfacher mit vorhandenen Zaubern erreicht werden?</para>
-
-          <para>Welche Gegenmaßnahmen können Sie sich vorstellen? Kein gut
-          konzipierter Zauber ist völlig unschlagbar. Wenn es wirklich gar
-          keine gibt, überlegen Sie, ob Sie diesen Zauber wirklich haben
-          wollen. Alles, was Spieler einsetzen, steht auch ihren Gegnern zur
-          Verfügung!</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>Nachdem der neue Zauber einige Male angewendet wurde, empfiehlt es
-      sich außerdem, die Regelung noch einmal zu überprüfen und gegebenenfalls
-      zu überarbeiten.</para>
-    </section>
   </chapter>
 
-  <appendix xml:id="magiebereiche">
+  <appendix xml:id="magiefertigkeiten">
     <title>Magiefertigkeiten</title>
 
-    <section>
+    <section xml:id="magietheorie">
       <title>Einleitung zur Magietheorie</title>
 
       <para>Die Theorien zur Herkunft und Beschaffenheit der Magie sind so
@@ -4376,8 +4325,8 @@
         <section>
           <title>Mindestwurf</title>
 
-          <para>Etwas per Geistmanipulation beeinflussen hat einen um 1
-          höheren MW als das gleiche per Telepathie auszulesen.</para>
+          <para>Der Mindestwurf ist umso höher, je tiefer und/oder komplexer
+          der Eingriff in den Geist des Ziels ist.</para>
 
           <informaltable>
             <tgroup cols="2">
@@ -4445,6 +4394,12 @@
               0 (für einen Menschen: Elfen, Orks, Echsenmenschen...), 1
               (Säugetiere), 2 (andere Tiere) oder 3 (Pflanzen, Elementare,
               Dämonen)</para>
+            </listitem>
+
+            <listitem>
+              <para>Anmerkung: Etwas per Geistmanipulation beeinflussen hat
+              einen um 1 höheren MW als das gleiche per Telepathie
+              auszulesen.</para>
             </listitem>
           </itemizedlist>
         </section>

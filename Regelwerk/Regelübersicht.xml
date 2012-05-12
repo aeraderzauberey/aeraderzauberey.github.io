@@ -97,8 +97,7 @@
         <term>Verteidigung</term>
 
         <listitem>
-          <para>Ausweichen: 11, Parade: <xi:include href="Regelwerk.xml"
-          xpointer="xpointer(id('paradeschwierigkeit'))" />. Erfolge negieren
+          <para>Ausweichen: 11, Parade: . Erfolge negieren
           Angriffserfolge.</para>
         </listitem>
       </varlistentry>
