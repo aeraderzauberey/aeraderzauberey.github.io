@@ -103,7 +103,7 @@
           <primary>Probe</primary>
         </indexterm> auf die jeweilige Eigenschaft steht ihm eine Anzahl
       Würfel in Höhe seiner Punkte zur Verfügung (siehe <xref
-      linkend="proben" />).</para>
+      linkend="proben"/>).</para>
 
       <section>
         <title>Attribute</title>
@@ -117,17 +117,17 @@
 
         <informaltable>
           <tgroup cols="4">
-            <colspec colwidth="1*" />
+            <colspec colwidth="1*"/>
 
-            <colspec colwidth="4*" />
+            <colspec colwidth="4*"/>
 
-            <colspec align="center" colwidth="2*" />
+            <colspec align="center" colwidth="2*"/>
 
-            <colspec colwidth="14*" />
+            <colspec colwidth="14*"/>
 
             <thead>
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>Attribut</entry>
 
@@ -142,7 +142,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/KK.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -159,7 +159,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/GW.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -177,7 +177,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/FF.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -195,7 +195,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/KO.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -213,7 +213,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/EB.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -230,7 +230,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/CH.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -247,7 +247,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/WK.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -265,7 +265,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/KL.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -283,7 +283,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/IN.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -298,16 +298,16 @@
               </row>
 
               <row valign="middle">
-                <entry></entry>
+                <entry/>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row valign="middle">
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -325,7 +325,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/GE.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -343,7 +343,7 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/EN.svg"
-                                 width="0.65cm"></imagedata>
+                                 width="0.65cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
@@ -376,7 +376,7 @@
         Proben<indexterm significance="preferred">
             <primary>Probe</primary>
           </indexterm> eine Rolle spielt (siehe <xref
-        linkend="proben" />).</para>
+        linkend="proben"/>).</para>
 
         <para>Aera der Zauberey verwendet im Gegensatz zu den meisten anderen
         Regelwerken kein abgeschlossenes Fertigkeitssystem<indexterm
@@ -405,18 +405,18 @@
         statt der groben Fertigkeit <emphasis>Schifffahrt</emphasis> die
         speziellere Fertigkeit <emphasis>Segeln</emphasis> besitzen.
         Weiterführende Informationen dazu finden Sie im Anhang <xref
-        linkend="fertigkeitssystem" />.</para>
+        linkend="fertigkeitssystem"/>.</para>
 
         <section>
           <title>Talente</title>
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*" />
+              <colspec colnum="1" colwidth="5*"/>
 
-              <colspec align="center" colnum="2" colwidth="3*" />
+              <colspec align="center" colnum="2" colwidth="3*"/>
 
-              <colspec colnum="3" colwidth="12*" />
+              <colspec colnum="3" colwidth="12*"/>
 
               <thead>
                 <row>
@@ -469,7 +469,7 @@
 
                   <entry>GW</entry>
 
-                  <entry></entry>
+                  <entry/>
                 </row>
 
                 <row>
@@ -500,11 +500,11 @@
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*" />
+              <colspec colnum="1" colwidth="5*"/>
 
-              <colspec align="center" colnum="2" colwidth="3*" />
+              <colspec align="center" colnum="2" colwidth="3*"/>
 
-              <colspec colnum="3" colwidth="12*" />
+              <colspec colnum="3" colwidth="12*"/>
 
               <thead>
                 <row>
@@ -531,7 +531,7 @@
 
                   <entry>KL</entry>
 
-                  <entry></entry>
+                  <entry/>
                 </row>
 
                 <row>
@@ -557,7 +557,7 @@
 
                   <entry>IN</entry>
 
-                  <entry></entry>
+                  <entry/>
                 </row>
 
                 <row>
@@ -565,7 +565,7 @@
 
                   <entry>KL</entry>
 
-                  <entry></entry>
+                  <entry/>
                 </row>
 
                 <row>
@@ -648,11 +648,11 @@
 
           <informaltable role="breakable">
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*" />
+              <colspec colnum="1" colwidth="5*"/>
 
-              <colspec align="center" colnum="2" colwidth="3*" />
+              <colspec align="center" colnum="2" colwidth="3*"/>
 
-              <colspec colnum="3" colwidth="12*" />
+              <colspec colnum="3" colwidth="12*"/>
 
               <thead>
                 <row>
@@ -674,7 +674,7 @@
 
                   <entry>Die Fähigkeit, bewaffneten und unbewaffneten
                   Nahkampfangriffen auszuweichen (siehe <xref
-                  linkend="nahkampf" />).</entry>
+                  linkend="nahkampf"/>).</entry>
                 </row>
 
                 <row>
@@ -684,7 +684,7 @@
 
                   <entry>Senkt die Abzüge beim Kampf mit der anderen Hand und
                   erlaubt den Kampf mit zwei Waffen. Siehe <xref
-                  linkend="beidhaendigkeit" />.</entry>
+                  linkend="beidhaendigkeit"/>.</entry>
                 </row>
 
                 <row>
@@ -701,7 +701,7 @@
 
                   <entry>GW</entry>
 
-                  <entry></entry>
+                  <entry/>
                 </row>
 
                 <row>
@@ -718,7 +718,7 @@
 
                   <entry>FF</entry>
 
-                  <entry><xref linkend="waffen" />)</entry>
+                  <entry><xref linkend="waffen"/>)</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -746,15 +746,15 @@
             <primary>Magiefertigkeit</primary>
           </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
         Spiel finden sich ab <xref linkend="magiefertigkeiten"
-        xrefstyle="page" />.</para>
+        xrefstyle="page"/>.</para>
 
         <informaltable role="breakable">
           <tgroup cols="3">
-            <colspec colwidth="5*" />
+            <colspec colwidth="5*"/>
 
-            <colspec align="center" colwidth="3*" />
+            <colspec align="center" colwidth="3*"/>
 
-            <colspec colwidth="12*" />
+            <colspec colwidth="12*"/>
 
             <thead>
               <row>
@@ -767,15 +767,6 @@
             </thead>
 
             <tbody>
-              <row>
-                <entry>Elektrizität</entry>
-
-                <entry>MA</entry>
-
-                <entry>Erzeugen und Beeinflussen von elektrischen Ladungen und
-                Blitzen</entry>
-              </row>
-
               <row>
                 <entry>Lebewesen</entry>
 
@@ -829,7 +820,7 @@
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -851,7 +842,16 @@
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Elektrizität</entry>
+
+                <entry>EN</entry>
+
+                <entry>Erzeugen und Beeinflussen von elektrischen Ladungen und
+                Blitzen</entry>
               </row>
 
               <row>
@@ -891,7 +891,7 @@
               </row>
 
               <row>
-                <entry><emphasis></emphasis></entry>
+                <entry><emphasis/></entry>
               </row>
 
               <row>
@@ -983,44 +983,44 @@
 
         <informaltable>
           <tgroup align="center" cols="5">
-            <colspec colwidth="6*" />
+            <colspec colwidth="6*"/>
 
-            <colspec colwidth="2*" />
+            <colspec colwidth="2*"/>
 
-            <colspec colname="attribut" colwidth="4*" />
+            <colspec colname="attribut" colwidth="4*"/>
 
-            <colspec colname="fertigkeit" colwidth="4*" />
+            <colspec colname="fertigkeit" colwidth="4*"/>
 
-            <colspec colwidth="6*" />
+            <colspec colwidth="6*"/>
 
             <thead>
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>Punkte</entry>
 
                 <entry nameend="fertigkeit"
                 namest="attribut">Erfahrungspunktkosten</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
-                <entry></entry>
+                <entry/>
 
                 <entry>Attribut</entry>
 
                 <entry>Fertigkeit</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </thead>
 
             <tbody>
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>1</entry>
 
@@ -1028,11 +1028,11 @@
 
                 <entry>4</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>2</entry>
 
@@ -1040,11 +1040,11 @@
 
                 <entry>6</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>3</entry>
 
@@ -1052,11 +1052,11 @@
 
                 <entry>10</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>4</entry>
 
@@ -1064,11 +1064,11 @@
 
                 <entry>16</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>5</entry>
 
@@ -1076,11 +1076,11 @@
 
                 <entry>24</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>6</entry>
 
@@ -1088,11 +1088,11 @@
 
                 <entry>34</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row role="gray">
-                <entry></entry>
+                <entry/>
 
                 <entry>7</entry>
 
@@ -1100,11 +1100,11 @@
 
                 <entry>46</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row role="gray">
-                <entry></entry>
+                <entry/>
 
                 <entry>8</entry>
 
@@ -1112,7 +1112,7 @@
 
                 <entry>60</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </tbody>
           </tgroup>
@@ -1123,23 +1123,23 @@
 
         <para><informaltable>
             <tgroup cols="9">
-              <colspec colwidth="13*" />
+              <colspec colwidth="13*"/>
 
-              <colspec align="center" colname="1" colwidth="13*" />
+              <colspec align="center" colname="1" colwidth="13*"/>
 
-              <colspec align="center" colname="2" colwidth="12*" />
+              <colspec align="center" colname="2" colwidth="12*"/>
 
-              <colspec align="center" colname="3" colwidth="10*" />
+              <colspec align="center" colname="3" colwidth="10*"/>
 
-              <colspec align="center" colname="4" colwidth="10*" />
+              <colspec align="center" colname="4" colwidth="10*"/>
 
-              <colspec align="center" colname="5" colwidth="10*" />
+              <colspec align="center" colname="5" colwidth="10*"/>
 
-              <colspec align="center" colname="6" colwidth="10*" />
+              <colspec align="center" colname="6" colwidth="10*"/>
 
-              <colspec align="center" colname="7" colwidth="10*" />
+              <colspec align="center" colname="7" colwidth="10*"/>
 
-              <colspec align="center" colname="8" colwidth="10*" />
+              <colspec align="center" colname="8" colwidth="10*"/>
 
               <thead>
                 <row>
@@ -1255,7 +1255,7 @@
 
         <para>Für den Initiativewurf<indexterm>
             <primary>Initiative</primary>
-          </indexterm> im Kampf (siehe <xref linkend="kampf" />) besitzt jeder
+          </indexterm> im Kampf (siehe <xref linkend="kampf"/>) besitzt jeder
         Charakter einen Initiativebasiswert<indexterm>
             <primary>Initiativebasiswert</primary>
           </indexterm>. Dieser errechnet sich aus dem Attribut
@@ -1285,97 +1285,97 @@
 
         <informaltable>
           <tgroup cols="11">
-            <colspec colnum="1" colwidth="*" />
+            <colspec colnum="1" colwidth="*"/>
 
-            <colspec colnum="2" colwidth="4*" />
+            <colspec colnum="2" colwidth="4*"/>
 
-            <colspec colnum="3" colwidth="1*" />
+            <colspec colnum="3" colwidth="1*"/>
 
-            <colspec colnum="2" colwidth="1*" />
+            <colspec colnum="2" colwidth="1*"/>
 
-            <colspec colnum="5" colwidth="1*" />
+            <colspec colnum="5" colwidth="1*"/>
 
-            <colspec colnum="6" colwidth="1*" />
+            <colspec colnum="6" colwidth="1*"/>
 
-            <colspec colnum="7" colwidth="1*" />
+            <colspec colnum="7" colwidth="1*"/>
 
-            <colspec colnum="8" colwidth="1*" />
+            <colspec colnum="8" colwidth="1*"/>
 
-            <colspec colnum="9" colwidth="1*" />
+            <colspec colnum="9" colwidth="1*"/>
 
-            <colspec colnum="10" colwidth="1*" />
+            <colspec colnum="10" colwidth="1*"/>
 
-            <colspec colnum="11" colwidth="*" />
+            <colspec colnum="11" colwidth="*"/>
 
             <thead>
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>Willenskraft</entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"></imagedata>
+                                 width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </thead>
 
             <tbody>
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>1-3</entry>
 
@@ -1396,15 +1396,15 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"></imagedata>
+                                 format="SVG" width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>4-5</entry>
 
@@ -1425,15 +1425,15 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"></imagedata>
+                                 format="SVG" width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>6-7</entry>
 
@@ -1454,15 +1454,15 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"></imagedata>
+                                 format="SVG" width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
-                <entry></entry>
+                <entry/>
 
                 <entry>8</entry>
 
@@ -1483,11 +1483,11 @@
                 <entry><inlinemediaobject>
                     <imageobject>
                       <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"></imagedata>
+                                 format="SVG" width="0.4cm"/>
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </tbody>
           </tgroup>
@@ -1496,7 +1496,7 @@
         <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4 körperliche
         Schadenspunkte erhalten, gilt für ihn ein Malus von 2 Würfeln. Details
         zu diesen Mali und zur Handhabung von Schaden finden Sie in <xref
-        linkend="schaden" />.</para>
+        linkend="schaden"/>.</para>
       </section>
     </section>
 
@@ -1533,19 +1533,19 @@
 
       <informaltable>
         <tgroup align="center" cols="3">
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Attribut</entry>
 
@@ -1574,7 +1574,7 @@
       </informaltable>
 
       <para>Außerdem kann ein Charakter auch nachträglich die im Kapitel <xref
-      linkend="charaktererschaffung" /> beschriebenen
+      linkend="charaktererschaffung"/> beschriebenen
       Sonderfertigkeiten<indexterm class="singular">
           <primary>Sonderfertigkeit</primary>
         </indexterm> kaufen.</para>
@@ -1597,7 +1597,7 @@
 
       <para>Beachten Sie, dass nach einer Steigerung ggf. der
       Initativebasiswert und die Höhe der Verletzungsmali neu bestimmt werden
-      müssen (siehe <xref linkend="charaktererschaffung" />).</para>
+      müssen (siehe <xref linkend="charaktererschaffung"/>).</para>
     </section>
   </chapter>
 
@@ -1670,7 +1670,7 @@
       <para>Neben den Fähigkeiten eines Charakters gibt es häufig weitere
       Umstände, welche die Probe beeinflussen. Für negative Einflüsse wie
       Verletzungen oder Erschöpfung (siehe <xref linkend="schaden"
-      xrefstyle="page" />), besondere Eile oder widrige Bedingungen (z.B.
+      xrefstyle="page"/>), besondere Eile oder widrige Bedingungen (z.B.
       eisige Kälte) kann der Spielleiter einen Würfelmalus<indexterm
           significance="preferred">
           <primary>Würfelmalus</primary>
@@ -1714,85 +1714,85 @@
 
       <informaltable xml:id="schwierigkeitstabelle">
         <tgroup cols="4">
-          <colspec colwidth="6*" />
+          <colspec colwidth="6*"/>
 
-          <colspec colwidth="3*" />
+          <colspec colwidth="3*"/>
 
-          <colspec colwidth="2*" />
+          <colspec colwidth="2*"/>
 
-          <colspec colwidth="6*" />
+          <colspec colwidth="6*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Art der Aufgabe</entry>
 
               <entry>Mindestwurf</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Leicht</entry>
 
               <entry>1</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Mittel</entry>
 
               <entry>2</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Herausforderung</entry>
 
               <entry>3</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Schwierig</entry>
 
               <entry>4</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Extrem schwierig</entry>
 
               <entry>5</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Fast unmöglich</entry>
 
               <entry>6+</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -2046,7 +2046,7 @@
         <primary>Verletzungsmalus</primary>
       </indexterm> behindert den Charakter in vielen Situationen: Er
     verschlechtert den Initiativewert im Kampf (siehe <xref
-    linkend="initiative" />) und bewirkt einen Würfelmalus<indexterm
+    linkend="initiative"/>) und bewirkt einen Würfelmalus<indexterm
         significance="preferred">
         <primary>Würfelmalus</primary>
       </indexterm> bei allen Proben außer Widerstandswürfen<indexterm>
@@ -2095,91 +2095,91 @@
 
       <informaltable>
         <tgroup cols="10">
-          <colspec colnum="1" colwidth="*" />
+          <colspec colnum="1" colwidth="*"/>
 
-          <colspec colnum="3" colwidth="1*" />
+          <colspec colnum="3" colwidth="1*"/>
 
-          <colspec colnum="2" colwidth="1*" />
+          <colspec colnum="2" colwidth="1*"/>
 
-          <colspec colnum="5" colwidth="1*" />
+          <colspec colnum="5" colwidth="1*"/>
 
-          <colspec colnum="6" colwidth="1*" />
+          <colspec colnum="6" colwidth="1*"/>
 
-          <colspec colnum="7" colwidth="1*" />
+          <colspec colnum="7" colwidth="1*"/>
 
-          <colspec colnum="8" colwidth="1*" />
+          <colspec colnum="8" colwidth="1*"/>
 
-          <colspec colnum="9" colwidth="1*" />
+          <colspec colnum="9" colwidth="1*"/>
 
-          <colspec colnum="10" colwidth="1*" />
+          <colspec colnum="10" colwidth="1*"/>
 
-          <colspec colnum="11" colwidth="*" />
+          <colspec colnum="11" colwidth="*"/>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>-0</entry>
 
@@ -2198,11 +2198,11 @@
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="../Grafiken/Totenkopf.svg"
-                               format="SVG" width="0.4cm"></imagedata>
+                               format="SVG" width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -2326,37 +2326,37 @@
 
       <informaltable>
         <tgroup cols="14">
-          <colspec align="center" colnum="1" colwidth="*" />
+          <colspec align="center" colnum="1" colwidth="*"/>
 
-          <colspec align="center" colname="s1" colnum="2" colwidth="1*" />
+          <colspec align="center" colname="s1" colnum="2" colwidth="1*"/>
 
-          <colspec align="center" colname="s2" colnum="3" colwidth="1*" />
+          <colspec align="center" colname="s2" colnum="3" colwidth="1*"/>
 
-          <colspec align="center" colname="s3" colnum="4" colwidth="1*" />
+          <colspec align="center" colname="s3" colnum="4" colwidth="1*"/>
 
-          <colspec align="center" colname="s4" colnum="5" colwidth="1*" />
+          <colspec align="center" colname="s4" colnum="5" colwidth="1*"/>
 
-          <colspec align="center" colname="s5" colnum="6" colwidth="1*" />
+          <colspec align="center" colname="s5" colnum="6" colwidth="1*"/>
 
-          <colspec align="center" colname="s6" colnum="7" colwidth="1*" />
+          <colspec align="center" colname="s6" colnum="7" colwidth="1*"/>
 
-          <colspec align="center" colname="s7" colnum="8" colwidth="1*" />
+          <colspec align="center" colname="s7" colnum="8" colwidth="1*"/>
 
-          <colspec align="center" colname="s8" colnum="9" colwidth="1*" />
+          <colspec align="center" colname="s8" colnum="9" colwidth="1*"/>
 
-          <colspec align="center" colname="s9" colnum="10" colwidth="1*" />
+          <colspec align="center" colname="s9" colnum="10" colwidth="1*"/>
 
-          <colspec align="center" colname="s10" colnum="11" colwidth="1*" />
+          <colspec align="center" colname="s10" colnum="11" colwidth="1*"/>
 
-          <colspec align="center" colname="s11" colnum="12" colwidth="1*" />
+          <colspec align="center" colname="s11" colnum="12" colwidth="1*"/>
 
-          <colspec align="center" colname="s12" colnum="13" colwidth="1*" />
+          <colspec align="center" colname="s12" colnum="13" colwidth="1*"/>
 
-          <colspec align="center" colnum="14" colwidth="*" />
+          <colspec align="center" colnum="14" colwidth="*"/>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry nameend="s4" namest="s1" role="group">Leichter
               Schaden</entry>
@@ -2367,101 +2367,101 @@
               <entry nameend="s12" namest="s9" role="group">Schwerer
               Schaden</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>-0</entry>
 
@@ -2488,11 +2488,11 @@
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="../Grafiken/zzz.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -2527,21 +2527,21 @@
 
       <informaltable>
         <tgroup cols="6">
-          <colspec colnum="1" colwidth="2*" />
+          <colspec colnum="1" colwidth="2*"/>
 
-          <colspec colnum="2" colwidth="3*" />
+          <colspec colnum="2" colwidth="3*"/>
 
-          <colspec colnum="3" colwidth="3*" />
+          <colspec colnum="3" colwidth="3*"/>
 
-          <colspec colnum="4" colwidth="5*" />
+          <colspec colnum="4" colwidth="5*"/>
 
-          <colspec colnum="5" colwidth="3*" />
+          <colspec colnum="5" colwidth="3*"/>
 
-          <colspec colnum="6" colwidth="2*" />
+          <colspec colnum="6" colwidth="2*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Kategorie</entry>
 
@@ -2553,13 +2553,13 @@
 
               <entry>Übrige Stufen</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Leicht</entry>
 
@@ -2569,11 +2569,11 @@
 
               <entry>1</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Mittel</entry>
 
@@ -2583,11 +2583,11 @@
 
               <entry>2</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Schwer</entry>
 
@@ -2597,7 +2597,7 @@
 
               <entry>3</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -2656,20 +2656,20 @@
         <listitem>
           <para>Initiativebasiswert<indexterm>
               <primary>Initiativebasiswert</primary>
-            </indexterm> (siehe <xref linkend="initiativebasis" />)</para>
+            </indexterm> (siehe <xref linkend="initiativebasis"/>)</para>
         </listitem>
 
         <listitem>
           <para>Initiativemalus (IM)<indexterm>
               <primary>Initiativemalus</primary>
             </indexterm> durch Waffen, Rüstungen und Schilde (siehe <xref
-          linkend="waffen" />)</para>
+          linkend="waffen"/>)</para>
         </listitem>
 
         <listitem>
           <para>Verletzungsmalus<indexterm>
               <primary>Verletzungsmalus</primary>
-            </indexterm> (siehe <xref linkend="schaden" />)</para>
+            </indexterm> (siehe <xref linkend="schaden"/>)</para>
         </listitem>
 
         <listitem>
@@ -2767,85 +2767,85 @@
 
       <informaltable>
         <tgroup cols="4">
-          <colspec colnum="1" colwidth="2*" />
+          <colspec colnum="1" colwidth="2*"/>
 
-          <colspec colnum="2" colwidth="7*" />
+          <colspec colnum="2" colwidth="7*"/>
 
-          <colspec colnum="3" colwidth="4*" />
+          <colspec colnum="3" colwidth="4*"/>
 
-          <colspec colnum="4" colwidth="2*" />
+          <colspec colnum="4" colwidth="2*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Handlung</entry>
 
               <entry>Typ</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Angriff</entry>
 
               <entry>Aktion</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Waffe wechseln/ziehen</entry>
 
               <entry>Aktion (ohne Probe)</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Zauber (offensiv/schützend/verstärkend)</entry>
 
               <entry>Aktion</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Ausweichen</entry>
 
               <entry>Reaktion</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Parade</entry>
 
               <entry>Reaktion</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Zauber (abwehrend)</entry>
 
               <entry>Reaktion</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -2944,12 +2944,12 @@
             <para>Gegner 2 hat für den Kampf mit einem Knüppel 8 Würfel
             (Gewandtheit 4, Hiebwaffen 4), von denen er nun 4 für seine
             Parade-Reaktion verwendet (näheres zur Parade auf <xref
-            linkend="verteidigungswurf" xrefstyle="page" />).</para>
+            linkend="verteidigungswurf" xrefstyle="page"/>).</para>
 
             <para>Nachdem dieser Angriff abgewickelt wurde, endet Elris'
             Aktionsphase.</para>
 
-            <para></para>
+            <para/>
           </listitem>
 
           <listitem override="27">
@@ -2966,7 +2966,7 @@
             bereits 5 Würfel verwendet, für die Parade bleiben ihm also 3
             Würfel.</para>
 
-            <para></para>
+            <para/>
           </listitem>
 
           <listitem override="22">
@@ -2981,7 +2981,7 @@
             5, Hiebwaffen 4) 3 zur Parade von Solinaras Angriff zu
             verwenden.</para>
 
-            <para></para>
+            <para/>
           </listitem>
 
           <listitem override="20">
@@ -3076,7 +3076,7 @@
 
             <para>Der Verteidiger führt seinen Wurf mit den eingesetzten
             Würfeln durch. Hinzu kommen ggf. noch Bonuswürfel von Paradewaffen
-            und Schilden (siehe <xref linkend="ruestungen_und_co" />).</para>
+            und Schilden (siehe <xref linkend="ruestungen_und_co"/>).</para>
 
             <para>Für jeden Erfolg beim Verteidigungswurf<indexterm>
                 <primary>Verteidigungswurf</primary>
@@ -3094,12 +3094,12 @@
           <listitem>
             <para>Jede Waffe verursacht eine bestimmte Menge an Grundschaden,
             der in der Waffentabelle (siehe <xref linkend="waffen"
-            xrefstyle="page" />) angegeben ist. Diese wird für jeden übrigen
+            xrefstyle="page"/>) angegeben ist. Diese wird für jeden übrigen
             Angriffserfolg um 1 erhöht.</para>
 
             <para>Trägt der Verteidiger eine Rüstung, wird der Schaden für
             jeden Punkt Rüstungsschutz um 1 gesenkt (siehe <xref
-            linkend="ruestungen_und_co" />).</para>
+            linkend="ruestungen_und_co"/>).</para>
           </listitem>
         </varlistentry>
 
@@ -3123,7 +3123,7 @@
             <para>Für jeden Erfolg wird der Schaden um einen Punkt reduziert.
             Der übrige Schaden wird auf dem Charakterblatt vermerkt und führt
             fortan zu einem Verletzungsmalus (siehe <xref
-            linkend="schaden" />).</para>
+            linkend="schaden"/>).</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -3212,13 +3212,13 @@
             <firstterm>Initiativemalus</firstterm><indexterm>
                 <primary>Initiativemalus</primary>
               </indexterm> niederschlägt (siehe <xref
-            linkend="initiative" />).</para>
+            linkend="initiative"/>).</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <para>Eine Liste von Rüstungstypen, Paradewaffen und Schilden findet
-      sich unter <xref linkend="ausruestung" />.</para>
+      sich unter <xref linkend="ausruestung"/>.</para>
 
       <para><remark>Was ist der Unterschied zwischen Paradewaffen und
       Schilden? These: eine Paradewaffe wird immer gemeinsam mit der
@@ -3232,7 +3232,7 @@
 
       <para><remark>NOCH EINZUFÜGEN: Ihr Einsatz erfordert daher keinerlei
       Proben und zählt nicht als Kampf mit zwei Waffen (siehe <xref
-      linkend="beidhaendigkeit" />).</remark></para>
+      linkend="beidhaendigkeit"/>).</remark></para>
     </section>
 
     <section xml:id="beidhaendigkeit">
@@ -3334,124 +3334,124 @@
 
       <informaltable>
         <tgroup cols="7">
-          <colspec colwidth="8*" />
+          <colspec colwidth="8*"/>
 
-          <colspec align="center" colwidth="15*" />
+          <colspec align="center" colwidth="15*"/>
 
-          <colspec align="center" colwidth="10*" />
+          <colspec align="center" colwidth="10*"/>
 
-          <colspec colwidth="8*" />
+          <colspec colwidth="8*"/>
 
-          <colspec align="center" colwidth="10*" />
+          <colspec align="center" colwidth="10*"/>
 
-          <colspec align="center" colwidth="10*" />
+          <colspec align="center" colwidth="10*"/>
 
-          <colspec colwidth="8*" />
+          <colspec colwidth="8*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry align="center">Distanzklasse</entry>
 
               <entry>MW-Modifikator</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry align="center">Größe</entry>
 
               <entry>Modifikator</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>sehr nah</entry>
 
               <entry>+0</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>winzig</entry>
 
               <entry>+2</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>nah</entry>
 
               <entry>+1</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>klein</entry>
 
               <entry>+1</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>mittel</entry>
 
               <entry>+2</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>mittel</entry>
 
               <entry>0</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>weit</entry>
 
               <entry>+3</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>groß</entry>
 
               <entry>-1</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
-              <entry></entry>
+              <entry/>
 
-              <entry></entry>
+              <entry/>
 
-              <entry></entry>
+              <entry/>
 
               <entry>riesig</entry>
 
               <entry>-2</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
 
       <para>In welche Distanzklasse ein Ziel fällt, ergibt sich aus der in der
-      Waffentabelle (siehe <xref linkend="waffen" />) angegebenen
+      Waffentabelle (siehe <xref linkend="waffen"/>) angegebenen
       Reichweitenklasse<indexterm significance="preferred">
           <primary>Reichweite</primary>
 
@@ -3464,23 +3464,23 @@
 
       <informaltable xml:id="reichweitentabelle">
         <tgroup cols="7">
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="*"/>
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="*"/>
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="*"/>
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="*"/>
 
-          <colspec align="center" colwidth="*" />
+          <colspec align="center" colwidth="*"/>
 
-          <colspec colwidth="*" />
+          <colspec colwidth="*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry align="center" role="nowrap">Rw-Klasse</entry>
 
@@ -3493,17 +3493,17 @@
 
               <entry><para>Weit</para><para>+3</para></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>A</entry>
 
@@ -3515,11 +3515,11 @@
 
               <entry>25</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>B</entry>
 
@@ -3531,11 +3531,11 @@
 
               <entry>50</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>C</entry>
 
@@ -3547,11 +3547,11 @@
 
               <entry>100</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>D</entry>
 
@@ -3563,11 +3563,11 @@
 
               <entry>200</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>E</entry>
 
@@ -3579,11 +3579,11 @@
 
               <entry>500</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>F</entry>
 
@@ -3595,11 +3595,11 @@
 
               <entry>1.000</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>G</entry>
 
@@ -3611,11 +3611,11 @@
 
               <entry>2.000</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>H</entry>
 
@@ -3627,7 +3627,7 @@
 
               <entry>5.000</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -3652,7 +3652,7 @@
     <firstterm>Kraft</firstterm><indexterm>
         <primary>Kraft</primary>
       </indexterm> bezeichnet. Details zu den „Naturgesetzen“ der Magie finden
-    sich in <xref linkend="magietheorie" />.</para>
+    sich in <xref linkend="magietheorie"/>.</para>
 
     <para>Dazu benötigen Zauberer die passenden Attribute (Materie<indexterm>
         <primary>Materie</primary>
@@ -3681,7 +3681,7 @@
       <para>Möchte ein Spieler spontan einen magischen Effekt hervorrufen,
       bestimmt der Spielleiter, ob der Effekt grundsätzlich möglich ist und
       wie er regeltechnisch gehandhabt wird. Dabei helfen ihm die Angaben aus
-      dem Anhang <xref linkend="magiefertigkeiten" />: die dort für jede
+      dem Anhang <xref linkend="magiefertigkeiten"/>: die dort für jede
       Magiefertigkeit gelisteten exemplarischen Zauber sowie weitere Angaben
       bilden ein Baukastensystem, mit dessen Hilfe der Spielleiter auch völlig
       neue Effekte einordnen kann. Dazu legt er nacheinander die unten
@@ -3743,13 +3743,13 @@
 
             <para>Wenn ein Effekt nur einmal in der Tabelle aufgeführt ist,
             verwendet er eine lineare Skala (für Entfernungen, Schaden, Höhe,
-            Breite, Fläche...). Es kann beliebig skaliert werden. So ergibt
-            sich z.B. aus der Tabellen-Angabe „1 KP = einen Sinn eine Minute
-            beeinflussen“ also „2KP = zwei Sinne eine Minute beeinflussen“
-            aber auch „1 KP = zwei Sinne 30 Sekunden beeinflussen“. Effekte
-            mit einer nicht linearen Skala sind dagegen mehrfach mit
-            verschiedenen Werten gelistet, so dass der Spielleiter andere
-            Werte entsprechend einordnen kann.</para>
+            Breite, Fläche...). Es kann beliebig skaliert werden. Aus der
+            Tabellen-Angabe „1 KP = einen Sinn eine Minute beeinflussen“
+            ergibt sich zum Beispiel „2KP = zwei Sinne eine Minute
+            beeinflussen“ aber auch „1 KP = zwei Sinne 30 Sekunden
+            beeinflussen“. Effekte mit einer nicht linearen Skala sind dagegen
+            mehrfach mit verschiedenen Werten gelistet, so dass der
+            Spielleiter andere Werte entsprechend einordnen kann.</para>
           </listitem>
         </varlistentry>
 
@@ -3757,7 +3757,21 @@
           <term>Zauberdauer</term>
 
           <listitem>
-            <para></para>
+            <para>Je nach Effekt dauert der Zaubervorgang unterschiedlich
+            lange. Die Angaben im Abschnitt „Krafteinsatz“ können dabei auch
+            von anderen Parametern abhängen, beim Heilen zum Beispiel von der
+            Anzahl der Schadensstufen.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Rettungswurf</term>
+
+          <listitem>
+            <para>Bei Effekten, welche direkt gegen Personen wirken, z.B.
+            Beherrschungen oder Verwandlungen, führt das Ziel einen
+            Rettungswurf durch. Mehr dazu auf <xref linkend="rettungswurf"
+            xrefstyle="page"/>.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -3833,7 +3847,7 @@
               <primary>Sonderfertigkeit</primary>
             </indexterm> <emphasis>Gestenlos zaubern</emphasis> und/oder
           <emphasis>Wortlos zaubern</emphasis> (siehe <xref
-          linkend="sonderfertigkeiten" />) besitzt.</para>
+          linkend="sonderfertigkeiten"/>) besitzt.</para>
         </listitem>
       </orderedlist>
     </section>
@@ -3846,7 +3860,7 @@
       Kraftpunkten, die für einen Zauber verwendet wird, beeinflusst je nach
       Zauber z.B. die Stärke, Reichweite oder Wirkungsdauer. Zuviel Kraft
       lässt den Zaubernden jedoch ermüden oder schädigt ihn sogar (siehe <xref
-      linkend="magieschaden" />).</para>
+      linkend="magieschaden"/>).</para>
     </section>
 
     <section>
@@ -3861,7 +3875,7 @@
       Reaktion<indexterm>
           <primary>Reaktion</primary>
         </indexterm>, z.B. Ausweichen, einteilen (siehe <xref
-      linkend="kampf" />). Davon abgesehen darf das Sammeln jedoch nicht
+      linkend="kampf"/>). Davon abgesehen darf das Sammeln jedoch nicht
       unterbrochen werden, sonst ist die bisher gesammelte Kraft
       verloren.}}}</remark></para>
 
@@ -3893,7 +3907,7 @@
           <secondary>Fernkampf</secondary>
         </indexterm> der Magiefertigkeit mit angerechnet, falls beim Zauber
       nichts anderes angegeben ist. Dies geschieht analog zu <xref
-      linkend="fernkampf" />.</remark></para>
+      linkend="fernkampf"/>.</remark></para>
 
       <para>Für jeden Erfolg, welcher über den geforderten Mindestwurf
       hinausgeht, erhält der Charakter einen weiteren Bonuswürfel für den
@@ -4000,6 +4014,13 @@
       Bonuswürfeln beim Widerstandswurf werden. Ein netter Nebeneffekt dieser
       Änderung ist, dass dadurch der Absatz "Widerstandswurf vor Zauberprobe,
       Verletzungsmalus wirkt aber erst danach" entfallen kann.</remark></para>
+    </section>
+
+    <section xml:id="rettungswurf">
+      <title>Rettungswurf</title>
+
+      <para><remark>NOCH ZU BESCHREIBEN; wo genau gehört der Abschnitt
+      hin?</remark></para>
     </section>
 
     <section>
@@ -4171,7 +4192,7 @@
           Die Tasse könnte zwar wieder zu einem Teller verformt werden, der
           ursprüngliche Teller ist jedoch nicht mehr existent. Für Lebewesen
           gilt diese Regel jedoch nur eingeschränkt (siehe <xref
-          linkend="lebewesen_verwandeln" xrefstyle="page" />).</para>
+          linkend="lebewesen_verwandeln" xrefstyle="page"/>).</para>
         </listitem>
 
         <listitem>
@@ -4230,7 +4251,7 @@
               <term>Attribut:</term>
 
               <listitem>
-                <para>Materie</para>
+                <para>Energie</para>
               </listitem>
             </varlistentry>
 
@@ -4256,7 +4277,7 @@
         <title>Geistmanipulation <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/GE.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -4270,7 +4291,7 @@
         vortäuschen was nicht da ist, etwas wegtäuschen, etwas vorhandenes
         anders/falsch wahrnehmen lassen als es ist,</remark></para>
 
-        <para><remark></remark></para>
+        <para><remark/></para>
 
         <para><remark>Bei Erinnerungsmanipulation: Geist bügelt
         Ungereimtheiten aus und versucht Erklärungen zu finden. Man muss
@@ -4281,7 +4302,7 @@
         Löschung ist sehr kraftaufwändig (Alternative: per Zwang daran
         hindern, die Erinnerungen abzurufen).</remark></para>
 
-        <para><remark></remark></para>
+        <para><remark/></para>
 
         <para><remark>Begriffsdefinition: im folgenden bedeutet "manipulieren"
         jeweils "ändern/hinzufügen/entfernen"</remark></para>
@@ -4289,7 +4310,7 @@
         <para><remark>Zwiebelschalenmodell grob erklären - was ist innen, was
         ist außen</remark></para>
 
-        <para><remark></remark></para>
+        <para><remark/></para>
 
         <para><remark>Gedanken: inkl. "Bauchgefühl"/Intuition</remark></para>
 
@@ -4339,9 +4360,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -4421,9 +4442,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="3*" />
+              <colspec colwidth="3*"/>
 
               <thead>
                 <row>
@@ -4476,9 +4497,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -4569,7 +4590,7 @@
         <title>Lebewesen <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -4649,9 +4670,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="10*" />
+              <colspec colwidth="10*"/>
 
               <thead>
                 <row>
@@ -4730,9 +4751,9 @@
 
           <para><informaltable>
               <tgroup cols="2">
-                <colspec colwidth="1*" />
+                <colspec colwidth="1*"/>
 
-                <colspec colwidth="3*" />
+                <colspec colwidth="3*"/>
 
                 <thead>
                   <row>
@@ -4777,9 +4798,9 @@
             </informaltable><remark>(Nächste Stufe wäre 1
           Woche)</remark><informaltable>
               <tgroup cols="2">
-                <colspec colwidth="1*" />
+                <colspec colwidth="1*"/>
 
-                <colspec colwidth="10*" />
+                <colspec colwidth="10*"/>
 
                 <thead>
                   <row>
@@ -4866,7 +4887,7 @@
         <title>Licht <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/EN.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -4933,9 +4954,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="10*" />
+              <colspec colwidth="10*"/>
 
               <thead>
                 <row>
@@ -4997,9 +5018,9 @@
           Form ist für Krafteinsatz unerheblich. // NOCH ZU KLÄREN:
           Reichweitenregelung (vorher: Klasse C)</remark><informaltable>
               <tgroup cols="2">
-                <colspec colwidth="1*" />
+                <colspec colwidth="1*"/>
 
-                <colspec colwidth="3*" />
+                <colspec colwidth="3*"/>
 
                 <thead>
                   <row>
@@ -5100,10 +5121,15 @@
       </section>
 
       <section>
-        <title>Spüren</title>
+        <title>Spüren <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/EN.svg"
+                         valign="bottom" width="0.65cm"/>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para>Die Fertigkeit Spüren erlaubt dem Zaubernden, über das Kraftnetz
-        Sinneseindrücke zu empfangen, sowohl in seiner Umgebung als auch
+        Sinneseindrücke zu empfangen, sowohl aus seiner Umgebung als auch
         weiter entfernt.</para>
 
         <variablelist>
@@ -5124,8 +5150,8 @@
               Magiefertigkeiten eingesetzt wird. So erlaubt reines Spüren
               lediglich eine Aussage wie "Objekt in Form einer Flasche", mit
               der Magiefertigkeit "Unbelebte Materie" jedoch auch
-              "Glasflasche". Mit Lebewesen oder Medizin wäre z.B. die
-              Hautfarbe eines Menschen zu ermittlen.</para>
+              "Glasflasche". In Kombination mit Lebewesen oder Medizin wäre
+              analog z.B. die Hautfarbe eines Menschen zu ermittlen.</para>
 
               <para>Ebenso kann eine Suche auf bestimmte Stoffe oder
               Objektkategorien eingeschränkt werden: eine bestimmte
@@ -5147,6 +5173,10 @@
               Mundbewegungen einer weit entfernten Person darauf schließen,
               dass diese spricht, <emphasis>hören</emphasis> kann man sie
               jedoch nicht.</para>
+
+              <para><remark># flair-zitat, erzmagier zu lehrling über spüren:
+              "die frage ist nicht was du wahrnimmst, die frage ist: was
+              bedeutet es?"</remark></para>
             </listitem>
           </varlistentry>
 
@@ -5154,113 +5184,82 @@
             <term>Zauber</term>
 
             <listitem>
-              <para>Zauber, welche gerade gesprochen werden oder bereits
-              wirken, können ebenfalls erspürt werden. Neben der Kraftmenge
-              kann der Spürende<remark>
-              *{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Dabei können
-              die verwendeten Magiefertigkeiten identifiziert werden, sofern
-              sie dem Spürenden bekannt sind(klarstellen, neu: man muss sie
-              nicht selbst beherrschen, es reicht wenn man sie schonmal
-              gesehen hat oder präzise beschreibungen der muster kennt). Auch
-              das Sammeln von Kraft oder ein gerade wirkender Zauber können
-              wahrgenommen werden.
-              ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</remark></para>
+              <para>Zauber, welche gerade gesprochen werden oder gerade
+              wirken, können ebenfalls erspürt werden. Dabei kann der Spürende
+              neben der Kraftmenge auch ihm bekannte Magiefertigkeiten in
+              einem Zauber wiedererkennen. Dazu muss er sie entweder selbst
+              beherrschen, ihren Einsatz bereits per Spüren wahrgenommen haben
+              oder zumindest präzise Beschreibungen ihrer Muster besitzen.
+              Wenn der Spürende die jeweiligen Magiefertigkeiten selbst
+              beherrscht, kann er darüber hinaus auch den Effekt des Zaubers
+              grob einordnen.</para>
+
+              <para>Zauber sind an allen ihren Zielen wahrnehmbar, selbst an
+              denjenigen, welche kein regeltechnisches Ziel sind. Spricht ein
+              Zauberer also telepathisch mit einer anderen Person (dem
+              einzigen regeltechnischen Ziel), ist auch er selbst ein Ziel;
+              egal welche der beiden Personen der Spürende wahrnimmt, erkennt
+              er auch den Telepathiezauber. Gleiches gilt für Zielort bzw.
+              -Objekt einer Teleportation und deren Bestimmungsort (siehe
+              dort).</para>
+
+              <para>Es gibt zwischen einem Zauberndem und seinem Zauber
+              keinerlei wahrnehmbare Verbindung. Sofern der Zaubernde selbst
+              also kein Ziel im obigen Sinne ist, kann nicht erkannt werden,
+              wer einen Zauber wirkt oder gewirkt hat.<remark> (Ein solcher
+              "Faden" hätte für das Spiel unangenehme Nebeneffekte, zum
+              Beispiel bei Telepathie über große Distanzen.)</remark>
+              Ebensowenig gibt es eine solche Verbindung zwischen mehreren
+              Zielen.<remark> (Zumindest gibt es eine solche Verbindung nicht
+              pauschal bei allen Fertigkeiten; bei Teleportation kann so etwas
+              nämlich ggf. sehr wohl ermittelt werden - siehe Frage
+              unten.)</remark></para>
+
+              <para><remark>* man sieht nicht: ziel, wirkungsdauer, andere
+              parameter wie größe/breite etc.</remark></para>
+
+              <para><remark>* Nachhall/Spuren eines zaubers bleiben noch für
+              eine "kurze" zeit sichtbar</remark></para>
+
+              <para><remark>(Kann man analog zu Spüren+Teleportation(=
+              ermitteln, von wo oder wohin teleportiert wurde) vielleicht
+              Spüren generell einsetzen, um Parameter eines aktiven oder "noch
+              frischen" Zaubers der jeweiligen Magiefertigkeit zu bestimmen?
+              Siehe auch obige Anmerkung zu "Verbindung zwischen mehreren
+              Zielen".)</remark></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Artefakte</term>
+
+            <listitem>
+              <para>Weiterhin kann ein Objekt auf Verzauberungen untersucht
+              werden. <remark> {{{{{{Details?}}}}}} (NOCH FESTZULEGEN: Wenn
+              ein Artefakt wie ein Zaubernder behandelt wird, kann man das
+              Artefakt mit einfachem Spüren nicht einmal als solches
+              identifizieren, wenn es gerade "zaubert" - es gibt ja keine
+              Verbindung zwischen Zauberndem und seinem
+              Zauber.)</remark></para>
             </listitem>
           </varlistentry>
         </variablelist>
 
-        <para>Weiterhin kann <remark>(NICHT MEHR ENTHALTEN: die magische Aura
-        eines Lebewesens analysiert oder) </remark>ein Objekt auf
-        Verzauberungen untersucht werden. <remark>(Kann man analog zu
-        Spüren+Teleportation(= ermitteln, von wo oder wohin teleportiert
-        wurde) vielleicht Spüren generell einsetzen, um Parameter eines
-        aktiven oder "noch frischen" Zaubers der jeweiligen Magiefertigkeit zu
-        bestimmen?)</remark></para>
-
-        <para>Spüren ist darüber hinaus die Voraussetzung, um auf magische
-        Weise Dinge zu beeinflussen, die man mit bloßem Auge nicht erkennen
-        kann — sei es, weil es sich um innere Organe handelt, sei es, weil sie
-        hinter einer Wand verborgen sind.<remark> Als so pauschale Regel nicht
-        mehr richtig: innere Organe heilen kann Lebewesen auch alleine,
-        "bloßes Auge" als Kriterium widerspricht auch dem Manipulieren von
-        Luftfeuchtigkeit.</remark></para>
-
-        <para><remark>NEUER ABSATZ: teleportation, telepathie und
-        zeitmanipulation: bei diesen fertigkeiten gibt es zwei "ziele", bei
-        telepathie bspw. den zaubernden und seinen dialogpartner, bei
-        teleportation den zaubernden und den zielort, bei zeitmanipulation den
-        zeitreisenden und seinen zielort (in der zielzeit). beide
-        "leuchten"</remark></para>
-
-        <para><remark>[Gefällt mir nicht mehr: ] Spüren wird auch dazu
-        benötigt, neue Magiefertigkeiten zu erlernen. Aus diesem Grund
-        beherrschen so gut wie alle Magiekundigen, die eine Ausbildung
-        genossen haben, diese Fertigkeit.</remark></para>
-
-        <para>* was kann man bei einem zauber erkennen? kraftmenge, beteiligte
-        fertigkeiten (bei kenntnis, siehe oben), grober effekt (nur wenn man
-        die fertigkeit selbst beherrscht).</para>
-
-        <para>* man sieht nicht: ziel, wirkungsdauer, andere parameter wie
-        größe/breite etc.</para>
-
-        <para>* während der zauber wirkt und auch während er gezaubert wird
-        kann man ihn an allen zielen erspüren (und kontern etc.). spricht ein
-        zauberer telepathisch mit einer anderen person, ist auch er selbst ein
-        ziel.</para>
-
-        <para>* zaubernder und entstehender/aktiver zauber sind NICHT durch
-        einen "faden" verbunden. siehe dokument "magiemodelle bzgl
-        spüren"</para>
-
-        <para>* Nachhall/Spuren eines zaubers bleiben noch für eine "kurze"
-        zeit sichtbar</para>
-
-        <para># flair-zitat: erzmagier zu lehrling über spüren "die frage ist
-        nicht was du wahrnimmst, die frage ist: was bedeutet es?"</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Attribut:</term>
-
-            <listitem>
-              <para>Energie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>Beim Empfangen von Eindrücken ist die Schwierigkeit
-              entfernungsunabhängig. Der Zaubernde kann mit Kraft die
-              Eindrücke verstärken und so die „Sichtweite“ vergrößern. Richtet
-              sich das Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen
-              oder Objekte zu analysieren, gilt für die Schwierigkeit die
-              Reichweitenkategorie A.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para>Magische Wahrnehmung, Analysieren, Aura lesen</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
+        <para><remark>Ist es möglich zu ermitteln, ob jemand zaubern kann? SR
+        (Askennen) und DSA (Blick aufs Wesen, 30 Aktionen) sagen ja, D&amp;D
+        sagt nein. Wenn ja: eigenen Varlistentry "Personen".</remark></para>
 
         <section>
           <title>Mindestwurf</title>
 
-          <para>Je komplexer der Prozess, desto schwieriger ist die
-          Probe.</para>
+          <para><remark>NOCH ANZUGEBEN: Grundsatz, bspw. "je komplexer der
+          Prozess, desto schwieriger ist die Probe".</remark></para>
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -5329,11 +5328,19 @@
           Informationen länger unterwegs sind, was billiger ist. Daher Radius
           = lineare Kraft, Distanz = nicht linear.</remark></para>
 
+          <para><remark>NOCH ZU PRÜFEN: Alte Reichweitenregelung: Beim
+          Empfangen von Eindrücken ist die Schwierigkeit
+          entfernungsunabhängig. Der Zaubernde kann mit Kraft die Eindrücke
+          verstärken und so die „Sichtweite“ vergrößern. Richtet sich das
+          Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen oder Objekte
+          zu analysieren, gilt für die Schwierigkeit die Reichweitenkategorie
+          A.</remark></para>
+
           <para><informaltable>
               <tgroup cols="2">
-                <colspec colwidth="1*" />
+                <colspec colwidth="1*"/>
 
-                <colspec colwidth="3*" />
+                <colspec colwidth="3*"/>
 
                 <thead>
                   <row>
@@ -5347,13 +5354,13 @@
                   <row>
                     <entry>1 Runde</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
 
                   <row>
                     <entry>1 Minute</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
 
                   <row>
@@ -5365,28 +5372,28 @@
                   <row>
                     <entry>10 Minuten</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
 
                   <row>
                     <entry>1 Stunde</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
 
                   <row>
                     <entry>1 Tag</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
                 </tbody>
               </tgroup>
             </informaltable><remark>(Nächste Stufe wäre 1
           Woche)</remark><informaltable>
               <tgroup cols="2">
-                <colspec colwidth="1*" />
+                <colspec colwidth="1*"/>
 
-                <colspec colwidth="10*" />
+                <colspec colwidth="10*"/>
 
                 <thead>
                   <row>
@@ -5406,7 +5413,7 @@
                   <row>
                     <entry>2</entry>
 
-                    <entry></entry>
+                    <entry/>
                   </row>
                 </tbody>
               </tgroup>
@@ -5443,7 +5450,7 @@
         <title>Telekinese <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/EN.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -5576,7 +5583,7 @@
         <title>Telepathie <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/GE.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -5670,9 +5677,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -5735,9 +5742,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -5848,7 +5855,7 @@
         <title>Teleportation <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -5948,9 +5955,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec align="center" colwidth="1*" />
+              <colspec align="center" colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -6214,7 +6221,7 @@
         <title>Wasser <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                         valign="bottom" width="0.65cm"></imagedata>
+                         valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
@@ -6230,14 +6237,14 @@
         Fertigkeit Luft um Temperaturveränderungen in der Luft
         hervorzurufen.</remark></para>
 
-        <para><remark></remark></para>
+        <para><remark/></para>
 
         <para><remark>ALTE Reichweitenregelung, muss noch bei MW/Kraft
         eingebaut werden:</remark></para>
 
         <para><remark>B {{{Wetter = H}}}</remark></para>
 
-        <para><remark></remark></para>
+        <para><remark/></para>
 
         <para><remark>Zum einsortieren:</remark></para>
 
@@ -6256,9 +6263,9 @@
 
           <informaltable>
             <tgroup cols="2">
-              <colspec colwidth="1*" />
+              <colspec colwidth="1*"/>
 
-              <colspec colwidth="8*" />
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
@@ -6365,7 +6372,7 @@
     <title>Offenes Fertigkeitssystem</title>
 
     <para>Die Fertigkeitsliste in diesem Regelwerk (siehe <xref
-    linkend="fertigkeitsliste" xrefstyle="page" />) ist bewusst kurz gehalten,
+    linkend="fertigkeitsliste" xrefstyle="page"/>) ist bewusst kurz gehalten,
     um jeder Gruppe die Möglichkeit zu geben den Zuschnitt der
     Fertigkeiten<indexterm>
         <primary>Fertigkeit</primary>
@@ -6398,8 +6405,8 @@
           <primary>Fertigkeit</primary>
         </indexterm> <emphasis>Okkultismus</emphasis> jedoch bedeutend
       einfacher. Verwenden Sie zur Bestimmung der Schwierigkeit daher einfach
-      die Tabelle auf <xref linkend="schwierigkeitstabelle"
-      xrefstyle="page" /> aus Sicht der jeweiligen Fertigkeit<indexterm>
+      die Tabelle auf <xref linkend="schwierigkeitstabelle" xrefstyle="page"/>
+      aus Sicht der jeweiligen Fertigkeit<indexterm>
           <primary>Fertigkeit</primary>
         </indexterm>.</para>
     </section>
@@ -6469,19 +6476,19 @@
 
       <informaltable role="breakable" xml:id="waffentabelle">
         <tgroup cols="7">
-          <colspec colwidth="6*" />
+          <colspec colwidth="6*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
-          <colspec align="center" colwidth="3*" />
+          <colspec align="center" colwidth="3*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
           <thead>
             <row>
@@ -6523,7 +6530,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6559,7 +6566,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6605,7 +6612,7 @@
 
               <entry>2</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>a)</entry>
             </row>
@@ -6663,13 +6670,13 @@
 
               <entry>2</entry>
 
-              <entry></entry>
+              <entry/>
 
               <entry>a)</entry>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6733,7 +6740,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6783,7 +6790,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6835,7 +6842,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6899,7 +6906,7 @@
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
@@ -6971,13 +6978,13 @@
 
       <para><informaltable>
           <tgroup cols="4">
-            <colspec colwidth="4*" />
+            <colspec colwidth="4*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec colwidth="10*" />
+            <colspec colwidth="10*"/>
 
             <thead>
               <row>
@@ -6987,7 +6994,7 @@
 
                 <entry>IM</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </thead>
 
@@ -6999,7 +7006,7 @@
 
                 <entry>0</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -7009,7 +7016,7 @@
 
                 <entry>2</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -7019,7 +7026,7 @@
 
                 <entry>3</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -7029,7 +7036,7 @@
 
                 <entry>5</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -7039,7 +7046,7 @@
 
                 <entry>6</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </tbody>
           </tgroup>
@@ -7055,13 +7062,13 @@
 
       <para><informaltable>
           <tgroup cols="4">
-            <colspec colwidth="4*" />
+            <colspec colwidth="4*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec colwidth="10*" />
+            <colspec colwidth="10*"/>
 
             <thead>
               <row>
@@ -7071,7 +7078,7 @@
 
                 <entry>IM</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </thead>
 
@@ -7083,7 +7090,7 @@
 
                 <entry>2</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
 
               <row>
@@ -7093,19 +7100,19 @@
 
                 <entry>4</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </tbody>
           </tgroup>
         </informaltable><informaltable>
           <tgroup cols="4">
-            <colspec colwidth="4*" />
+            <colspec colwidth="4*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec align="center" colwidth="1*" />
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec colwidth="10*" />
+            <colspec colwidth="10*"/>
 
             <thead>
               <row>
@@ -7115,7 +7122,7 @@
 
                 <entry>IM</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </thead>
 
@@ -7127,7 +7134,7 @@
 
                 <entry>1</entry>
 
-                <entry></entry>
+                <entry/>
               </row>
             </tbody>
           </tgroup>
@@ -7152,19 +7159,19 @@
 
       <informaltable>
         <tgroup cols="5">
-          <colspec colwidth="1*" />
+          <colspec colwidth="1*"/>
 
-          <colspec colwidth="2*" />
+          <colspec colwidth="2*"/>
 
-          <colspec colwidth="4*" />
+          <colspec colwidth="4*"/>
 
-          <colspec colwidth="12*" />
+          <colspec colwidth="12*"/>
 
-          <colspec colwidth="1*" />
+          <colspec colwidth="1*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Stufe</entry>
 
@@ -7172,13 +7179,13 @@
 
               <entry>Ziele</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>1</entry>
 
@@ -7186,11 +7193,11 @@
 
               <entry>Wohl des Belogenen / Harmonie der Gruppe</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>2</entry>
 
@@ -7199,11 +7206,11 @@
               <entry>Vermeidung von Nachteilen (selbst/Gruppe),
               strategisch</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>3</entry>
 
@@ -7211,11 +7218,11 @@
 
               <entry>Eigener Vorteil, Nachteil anderer in Kauf nehmen</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>4</entry>
 
@@ -7223,7 +7230,7 @@
 
               <entry>Erhebliche Nachteile Anderer</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -7262,93 +7269,93 @@
 
       <informaltable>
         <tgroup cols="10">
-          <colspec colnum="1" colwidth="*" />
+          <colspec colnum="1" colwidth="*"/>
 
-          <colspec colnum="2" colwidth="1*" />
+          <colspec colnum="2" colwidth="1*"/>
 
-          <colspec colnum="3" colwidth="1*" />
+          <colspec colnum="3" colwidth="1*"/>
 
-          <colspec colnum="4" colwidth="1*" />
+          <colspec colnum="4" colwidth="1*"/>
 
-          <colspec colnum="5" colwidth="1*" />
+          <colspec colnum="5" colwidth="1*"/>
 
-          <colspec colnum="6" colwidth="1*" />
+          <colspec colnum="6" colwidth="1*"/>
 
-          <colspec colnum="7" colwidth="1*" />
+          <colspec colnum="7" colwidth="1*"/>
 
-          <colspec colnum="8" colwidth="1*" />
+          <colspec colnum="8" colwidth="1*"/>
 
-          <colspec colnum="9" colwidth="1*" />
+          <colspec colnum="9" colwidth="1*"/>
 
-          <colspec colnum="11" colwidth="*" />
+          <colspec colnum="11" colwidth="*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                               width="0.4cm"></imagedata>
+                               width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>-0</entry>
 
@@ -7367,11 +7374,11 @@
               <entry><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="../Grafiken/Totenkopf.svg"
-                               format="SVG" width="0.4cm"></imagedata>
+                               format="SVG" width="0.4cm"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -7388,19 +7395,19 @@
 
       <informaltable>
         <tgroup cols="5">
-          <colspec colwidth="2*" />
+          <colspec colwidth="2*"/>
 
-          <colspec colwidth="2*" />
+          <colspec colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*" />
+          <colspec align="center" colwidth="2*"/>
 
-          <colspec align="center" colwidth="3*" />
+          <colspec align="center" colwidth="3*"/>
 
-          <colspec colwidth="2*" />
+          <colspec colwidth="2*"/>
 
           <thead>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Tier</entry>
 
@@ -7408,13 +7415,13 @@
 
               <entry>Körperliche Schadensstufen</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Rabe</entry>
 
@@ -7422,11 +7429,11 @@
 
               <entry>3</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Wolf</entry>
 
@@ -7434,11 +7441,11 @@
 
               <entry>7</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Großkatze</entry>
 
@@ -7446,11 +7453,11 @@
 
               <entry>9</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Bär</entry>
 
@@ -7458,11 +7465,11 @@
 
               <entry>12</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
 
             <row>
-              <entry></entry>
+              <entry/>
 
               <entry>Pferd</entry>
 
@@ -7470,7 +7477,7 @@
 
               <entry>13</entry>
 
-              <entry></entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
@@ -7478,5 +7485,5 @@
     </sect1>
   </appendix>
 
-  <index></index>
+  <index/>
 </book>
