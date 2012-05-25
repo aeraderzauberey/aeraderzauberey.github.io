@@ -3760,7 +3760,12 @@
             <para>Je nach Effekt dauert der Zaubervorgang unterschiedlich
             lange. Die Angaben im Abschnitt „Krafteinsatz“ können dabei auch
             von anderen Parametern abhängen, beim Heilen zum Beispiel von der
-            Anzahl der Schadensstufen.</para>
+            Anzahl der Schadensstufen.<remark> (Übrigens: Bei Telekinese haben
+            wir "Sofort" angegeben. Dies macht deutlich, dass man im Kampf in
+            der eigenen Aktionsphase nicht etwa "1 Sekunde" oder gar bis zum
+            Ende der Runde ("1 Runde") warten muss. Nur so ist es möglich,
+            (auch als Reaktion) einen Pfeil aus der Luft zu
+            fangen.)</remark></para>
           </listitem>
         </varlistentry>
 
@@ -4021,6 +4026,10 @@
 
       <para><remark>NOCH ZU BESCHREIBEN; wo genau gehört der Abschnitt
       hin?</remark></para>
+
+      <para><remark>Wichtig: zählt im Kampf nicht als Reaktion, verbraucht
+      also keine Würfel (Beispiel: telekinetisches Entwaffnen versus
+      KK-Rettungswurf).</remark></para>
     </section>
 
     <section>
@@ -5275,17 +5284,27 @@
 
                   <entry>Bereich scannen<remark> (Scannen)</remark>, Zauber
                   entdecken<remark> (Scannen)</remark>, Magiefertigkeiten von
-                  Zaubern ermitteln, Nach bestimmter Objektkategorie
-                  scannen*</entry>
+                  Zaubern ermitteln, Krafteinsatz eines Zaubers ermitteln,
+                  Nach bestimmter Objektkategorie scannen*<remark> NOCH
+                  EINZUFÜGEN: Eindeutigeres Symbol für "dies ist eine
+                  Kombination" als das simple Sternchen</remark></entry>
                 </row>
 
                 <row>
                   <entry>2</entry>
 
-                  <entry>Details von Zaubern ermitteln<remark> (Krafteinsatz,
-                  Ziel</remark>, Magiefertigkeiten von Artefakten
-                  ermitteln<remark> (sofern sie bekannt sind, siehe
-                  oben)</remark>,</entry>
+                  <entry>Details von Zaubern ermitteln<remark> (Effekt, Ziel?
+                  Gedanke: es sollte möglich sein, bei einem sich neben einem
+                  Zauberer forme nden Blitz-Gewebe während der Zauberdauer die
+                  "Spitze" zu bestimmen und damit die Richtung des Zaubers zu
+                  ermitteln. Genauso sollte man einer Teleportation/einem Tor
+                  ansehen, wohin die Reise geht, sprich den Bestimmungsort
+                  ermitteln. Weiter gefasst sollten alle Details eines
+                  Zaubers, welche als Informationen in die Zaubermatrix
+                  codiert werden, wieder ausgelesen werden können. Das müsste
+                  man nur NOCH AUSFORMULIEREN)</remark>, Magiefertigkeiten von
+                  Artefakten ermitteln<remark> (sofern sie bekannt sind, siehe
+                  oben)</remark></entry>
                 </row>
 
                 <row>
@@ -5314,27 +5333,30 @@
           <para>Der Krafteinsatz bestimmt die Wirkungsdauer und die
           Reichweite.</para>
 
-          <para><remark>Basis Scannen: 5 min, 1 m Radius. Jeder weitere KP
-          erhöht eins davon linear.</remark></para>
+          <para><remark>Basis Scannen: 5 min, 1 m Radius, 0 m Distanz. Jeder
+          weitere KP erhöht eins davon linear. Anmerkung: die ursprünglichen
+          10m Radius waren viel zu heftig. Für den Fall "Andere Räume des
+          Hauses scannen" ist der neue 1 m-Radius völlig okay. Für den Fall
+          "Frühwarnsystem, Zentrum = Spürender" ist es vielleicht zu wenig;
+          hier sollten wir erstmal Erfahrungen sammeln.</remark></para>
 
-          <para><remark>Basis Analyse: 50 m</remark></para>
+          <para><remark>Basis Zauberanalyse: 8 m Distanz</remark></para>
 
-          <para><remark>Distanz zum Zentrum des Bereichs bzw. zum Objekt:
-          Basis ist 0 m. jeder weitere KP erhöht auf 10, 25, 50, 100, 250,
-          500, 1000</remark></para>
+          <para><remark>Distanz zum Zentrum des Bereichs bzw. zum Objekt:jeder
+          weitere KP erhöht auf (beim Scannen zunächst auf 4), 8, 15, 30, 75,
+          150, 300, 600, 1200, 2500, 5000 (Anmerkung: Dies ist dieselbe Skala
+          wie bei Telekinese)</remark></para>
 
           <para><remark>Den Radius zu erhöhen heißt eine dramatisch größere
           Informationsmenge. Die Distanz zu erhöhen heißt einfach nur dass die
           Informationen länger unterwegs sind, was billiger ist. Daher Radius
           = lineare Kraft, Distanz = nicht linear.</remark></para>
 
-          <para><remark>NOCH ZU PRÜFEN: Alte Reichweitenregelung: Beim
-          Empfangen von Eindrücken ist die Schwierigkeit
-          entfernungsunabhängig. Der Zaubernde kann mit Kraft die Eindrücke
-          verstärken und so die „Sichtweite“ vergrößern. Richtet sich das
-          Spüren auf ein bestimmtes Ziel, z.B. um Auren zu lesen oder Objekte
-          zu analysieren, gilt für die Schwierigkeit die Reichweitenkategorie
-          A.</remark></para>
+          <para><remark>FORMULIERUNG WIEDERVERWENDEN: aus der alten
+          Reichweitenregelung: "Beim Empfangen von Eindrücken ist die
+          Schwierigkeit entfernungsunabhängig. Der Zaubernde kann mit Kraft
+          die Eindrücke verstärken und so die „Sichtweite“
+          vergrößern."</remark></para>
 
           <para><informaltable>
               <tgroup cols="2">
@@ -5423,9 +5445,12 @@
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>analysen: am ende der zauberdauer hat man die infos.
-          je mehr informationen man erhält, um so länger dauert es.
-          magiefertigkeiten gehen sehr schnell (1 Runde)</remark></para>
+          <para><remark>analysen &gt; wichtig: am ende der zauberdauer hat man
+          die infos. je mehr informationen man erhält, um so länger dauert es.
+          magiefertigkeiten eines zaubers gehen sehr schnell (Sofort), aber
+          was ist mit "effekt des zaubers ermitteln?", artefaktanalysen
+          brauchen mindestens 5 minuten (magiefertigkeiten) und können auch
+          eine stunde dauern.</remark></para>
 
           <para><remark>scannen/wahrnehmungsmodus: kurze zauberdauer zum
           einschalten, während der wirkungsdauer kann man sich in ruhe
@@ -5462,26 +5487,6 @@
         Telekinese zu sehr degradieren.)</remark> Ob eine Bewegung dabei
         entgegen der Gravitation abläuft ist unerheblich.</para>
 
-        <para><remark>NOCH ZU KLÄREN:</remark></para>
-
-        <para><remark>- Was ist mit Drehungen von Objekten?</remark></para>
-
-        <para><remark>- Wie kann man etwas oder jemanden festhalten (ähnlich
-        Stärkevergleichswurf)?</remark></para>
-
-        <para><remark>- Was ist, wenn ein Objekt bewegt werden soll, das von
-        einer Person festgehalten wird - z.B. deren Waffe? Ist dann ein
-        "normaler" Körperkraft-Vergleichswurf als Teil der Abwicklung der
-        Zauberwirkung fällig (was im Kampf wohl eine Reaktion wäre, welche
-        Würfel vebraucht) oder betrachten (und beschreiben) wir das als
-        Rettungswurf?</remark></para>
-
-        <para><remark>- Ähnliche Frage: was ist, wenn ein zu bewegendes Objekt
-        festgeklebt/festgekettet ist bzw. ein Teil eines Objekts abgerissen
-        werden soll? In letzterem Fall ist bei einem Lebewesen wohl ein
-        Rettungswurf fällig. Irgendwie sollte das mit Körperkraft-Erfolgen in
-        Bezug gesetzt werden.</remark></para>
-
         <section>
           <title>Mindestwurf</title>
 
@@ -5494,7 +5499,8 @@
           <itemizedlist>
             <listitem>
               <para>Objekt in einfache Bewegung versetzen (fixe, beliebige
-              Geschwindigkeit, gerade Richtung)</para>
+              Geschwindigkeit, gerade Richtung)<remark> inkl.
+              Drehung</remark></para>
             </listitem>
 
             <listitem>
@@ -5524,30 +5530,48 @@
           <para>Zusätzlich gilt ein Aufschlag von +1 für jedes zusätzliche
           Ziel. Dabei kann eine Ansammlung von z.B. Sand, Schrot oder Wasser
           als einzelnes Ziel angesehen werden.</para>
+
+          <para>Soll einer Person ein Gegenstand entrissen werden, den diese
+          festhält, entspricht der Mindestwurf der Körperkraft der Person +
+          1.<remark> Dabei kann der MW natürlich nicht niedriger sein als er
+          nach obigem Schema ist. Diese Regel kann übrigens auch als
+          Orientierung dienen, wenn man jemanden festhalten will: Gewicht der
+          Person bezahlen, MW = KK + 1.</remark></para>
+
+          <para><remark>Soll einem Lebewesen ein Körperteil abgerissen werden,
+          bekommt es einen Rettungswurf auf Konstitution mit sagen wir mal 5
+          Bonuswürfeln.</remark></para>
         </section>
 
         <section>
           <title>Krafteinsatz</title>
 
           <para>Der Krafteinsatz richtet sich nach dem Gesamtgewicht der
-          Ziele, der Geschwindigkeit und der Wirkungsdauer.<remark> NOCH ZU
-          KLÄREN: Gibt es hier wirklich keine Reichweitenregelung? Ich denke
-          sowas wie Basis = 10 m, 1 KP = 25, 50, 100, 200, 400 wäre
-          angemessen</remark></para>
+          Ziele, der Geschwindigkeit, der Wirkungsdauer und der Reichweite.
+          Dabei bezeichnet "Reichweite" den Radius eines Bereichs um den
+          Zaubernden, innerhalb dessen er die Ziele beliebig bewegen
+          kann.<remark> Anmerkung: in Grenzfällen kommt es darauf an, den
+          Schwerpunkt des Objekts noch im "Kontrollbereich" zu haben, bei
+          einem Menschen also die Körpermitte.</remark></para>
 
           <para>Der erste Kraftpunkt entspricht einer Geschwindigkeit von 1
-          m/s, 10 kg Gesamtgewicht und 10 sec Wirkungsdauer. Jeder weitere KP
-          erhöht einen dieser Werte auf 25, 50, 100, 200, 400. Dabei sind alle
-          Angaben Maximalwerte - soll z.B. die Geschwindigkeit 80 m/s
-          betragen, entspricht dies 3 Zusatz-KP plus 1 für den
-          Basis-Krafteinsatz.<remark> Beispiel: um einen 40 m/s-Pfeil zu
-          beschleunigen muss ich einen Zusatz-KP investieren und kann ihn
-          damit auf bis zu 100 m/s bringen (nicht etwa nur verdoppeln auf
+          m/s, 8 kg Gesamtgewicht, 8 m Reichweite und 15 sec Wirkungsdauer.
+          Jeder weitere KP erhöht einen dieser Werte auf den nächsten
+          Abschnitt der folgenden Skala:</para>
+
+          <para>1, 2, 4, 8, 15, 30, 75, 150, 300, 600, 1200, 2500,
+          5000<remark> NOCH ZU FORMATIEREN: als Tabelle.</remark></para>
+
+          <para>Dabei sind alle Angaben Maximalwerte - soll z.B. die
+          Geschwindigkeit 70 m/s betragen, entspricht dies 6 Zusatz-KP plus 1
+          für den Basis-Krafteinsatz.<remark> Beispiel: um einen 40 m/s-Pfeil
+          zu beschleunigen muss ich einen Zusatz-KP investieren und kann ihn
+          damit auf bis zu 150 m/s bringen (nicht etwa nur verdoppeln auf
           80).</remark></para>
 
-          <para><remark><remark>Es erscheint zu heftig, wenn man durch 1KP die
-          Geschwindigkeit von 1m/s (Schritt) zu 25m/s (90km/h) erhöht.
-          Vielleicht 1, 2, 5, 10-Skala?</remark></remark></para>
+          <para><remark><remark>Die alte Skala erschien für Geschwindigkeit zu
+          heftig, da man durch 1KP von 1m/s (Schritt) auf 25m/s (90km/h)
+          erhöhte.</remark></remark></para>
 
           <para>Soll ein bereits in Bewegung befindliches Objekt beschleunigt
           oder abgebremst werden, wird die Ausgangsgeschwindigkeit auf der
@@ -5565,7 +5589,7 @@
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>FEHLT NOCH</remark></para>
+          <para>Sofort</para>
         </section>
 
         <section>
@@ -6060,7 +6084,7 @@
               <term>Teleport</term>
 
               <listitem>
-                <para>1 Minute</para>
+                <para>1 Runde</para>
               </listitem>
             </varlistentry>
 
@@ -6068,7 +6092,7 @@
               <term>Tor</term>
 
               <listitem>
-                <para>1 Runde</para>
+                <para>1 Minute</para>
               </listitem>
             </varlistentry>
           </variablelist>
