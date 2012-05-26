@@ -4569,30 +4569,138 @@
       </section>
 
       <section>
-        <title>Kraftmanipulation</title>
+        <title>Kraftmanipulation <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Grafiken/Attribute/EN.svg"
+                         valign="bottom" width="0.65cm"/>
+            </imageobject>
+          </inlinemediaobject></title>
 
         <para><remark>Ergänzung Beschreibung: man kann ohne spüren zauber und
         kraftmengen wahrnehmen, weil man auch mit dem bereich wasser das in
         der luft enthaltene wasser beeinflussen kann obwohl man es nicht mit
         bloßem auge erkennt.</remark></para>
 
-        <para><variablelist>
-            <varlistentry>
-              <term>Attribut:</term>
+        <para><remark>Alte Reichweitenregelung: C.</remark></para>
 
-              <listitem>
-                <para>Energie</para>
-              </listitem>
-            </varlistentry>
+        <para><remark>bezeichnet das Lenken von Kraftströmen anderer, die
+        klassische Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die
+        Kraft zu entziehen oder auch das ihn zusammenhaltende „Gewebe“
+        aufzulösen. Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln
+        zum „gemeinsamen“ Zaubern.</remark></para>
 
-            <varlistentry>
-              <term>Reichweite:</term>
+        <para><remark>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in
+        einem bestimmten Umkreis „lahmzulegen“. In diesem Bereich lässt dann
+        keine Magie mehr anwenden. (((Stimmt nicht mehr: Befindet sich ein
+        Zauberer in einem solchen Bereich, kann er keine Kraft in einen Zauber
+        lenken --- wo der Zauberer ist, ist egal.))), zaubert er von außen in
+        einen solches Gebiet hinein, wird sein Zauber „verschluckt“. Auf diese
+        Weise lassen sich auch magische Barrieren bilden, durch die kein
+        Zauber dringen kann (hinter denen aber gezaubert werden
+        kann).</remark></para>
 
-              <listitem>
-                <para>C</para>
-              </listitem>
-            </varlistentry>
-          </variablelist></para>
+        <para><remark>Es ist auch möglich eine Person zu dämpfen, so dass sie
+        vorübergehend keine Magie lenken kann — selbst permanente Dämpfungen
+        sind, mit hohem Aufwand, möglich.</remark></para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Gemeinsames Zaubern</term>
+
+            <listitem>
+              <para><remark>nur kraft bereitstellen: jeder KP steht dem ziel
+              fürs zaubern (ohne widerstandswurf) zur verfügung. bei der
+              zauberprobe helfen: kombinierte
+              kraftmanipulations-und-X(primär)-probe, jeder erfolg gibt dem
+              zaubernden einen bonuswürfel. es gibt dann keine
+              bonuswiderstandswürfel durch zusatzerfolge bei der
+              kraftmanipulations-und-X-probe. zusatzzusatzanmerkung: will ein
+              lehrmeister seinem schüler nicht allzuviel helfen, kann er auch
+              weniger würfel verschenken als er erfolge hat - die restlichen
+              verfallen aber völlig.</remark></para>
+
+              <para><remark>anmerkungen: der zaubernde formt die zaubermatrix.
+              außerdem zwingt er unter anstrengung kraft hinein (am zielort,
+              nicht bei oder durch sich). der helfende tut das gleiche; kann
+              das aber nicht beliebig tun, denn die matrix ist auf eine
+              gewisse kraftmenge ausgelegt (folgt aus der tatsache, dass die
+              kraftmenge eine durch spüren aus der matrix auslesbare
+              information ist) und der zaubernde muss auf die hilfe
+              vorbereitet sein. unterstützt der helfende den zaubernden auch
+              bei der zauberprobe, arbeitet er mit an (einer anderen ecke) der
+              zaubermatrix.</remark></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+
+        <section>
+          <title>Mindestwurf</title>
+
+          <informaltable>
+            <tgroup cols="2">
+              <colspec colwidth="1*"/>
+
+              <colspec colwidth="8*"/>
+
+              <thead>
+                <row>
+                  <entry>MW</entry>
+
+                  <entry>Effekte</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>1</entry>
+
+                  <entry>Gemeinsames Zaubern</entry>
+                </row>
+
+                <row>
+                  <entry>2</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>3</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>4</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>5</entry>
+
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <para><remark>"Kontern": Original-MW + 1</remark></para>
+        </section>
+
+        <section>
+          <title>Krafteinsatz</title>
+
+          <para><remark>"Kontern": halbe KP des Originalzaubers
+          (aufgerundet)</remark></para>
+        </section>
+
+        <section>
+          <title>Zauberdauer</title>
+
+          <para><remark>Kontern: sofort, Antimagisches Feld: einige Runden,
+          Gemeinsames Zaubern: genauso lang wie der
+          Originalzauber</remark></para>
+        </section>
       </section>
 
       <section xml:id="lebewesen">
@@ -5194,14 +5302,24 @@
 
             <listitem>
               <para>Zauber, welche gerade gesprochen werden oder gerade
-              wirken, können ebenfalls erspürt werden. Dabei kann der Spürende
-              neben der Kraftmenge auch ihm bekannte Magiefertigkeiten in
-              einem Zauber wiedererkennen. Dazu muss er sie entweder selbst
-              beherrschen, ihren Einsatz bereits per Spüren wahrgenommen haben
-              oder zumindest präzise Beschreibungen ihrer Muster besitzen.
-              Wenn der Spürende die jeweiligen Magiefertigkeiten selbst
-              beherrscht, kann er darüber hinaus auch den Effekt des Zaubers
-              grob einordnen.</para>
+              wirken, können ebenfalls erspürt werden.</para>
+
+              <para><remark>Unterscheidung in Basisangaben und Details, hier
+              nun die Basisangaben (Kraft, Magiefertigkeiten, grober Effekt
+              [zB "Augen beeinflussen"]):</remark></para>
+
+              <para>Dabei kann der Spürende neben der Kraftmenge auch ihm
+              bekannte Magiefertigkeiten in einem Zauber wiedererkennen. Dazu
+              muss er sie entweder selbst beherrschen, ihren Einsatz bereits
+              per Spüren wahrgenommen haben oder zumindest präzise
+              Beschreibungen ihrer Muster besitzen. Wenn der Spürende die
+              jeweiligen Magiefertigkeiten selbst beherrscht, kann er darüber
+              hinaus auch den Effekt des Zaubers grob einordnen.</para>
+
+              <para><remark>Details gibt es nur, wenn man die Magiefertigkeit
+              besitzt: Ziele, Bestimmungsort, Feinheiten des Effekts (zB
+              genauer Befehl oder Art der Halluzination bei GM),
+              Wirkungsdauer</remark></para>
 
               <para>Zauber sind an allen ihren Zielen wahrnehmbar, selbst an
               denjenigen, welche kein regeltechnisches Ziel sind. Spricht ein
@@ -5224,9 +5342,6 @@
               nämlich ggf. sehr wohl ermittelt werden - siehe Frage
               unten.)</remark></para>
 
-              <para><remark>* man sieht nicht: ziel, wirkungsdauer, andere
-              parameter wie größe/breite etc.</remark></para>
-
               <para><remark>* Nachhall/Spuren eines zaubers bleiben noch für
               eine "kurze" zeit sichtbar</remark></para>
 
@@ -5236,6 +5351,10 @@
               frischen" Zaubers der jeweiligen Magiefertigkeit zu bestimmen?
               Siehe auch obige Anmerkung zu "Verbindung zwischen mehreren
               Zielen".)</remark></para>
+
+              <para><remark>Persönliche Signaturen: beschreiben. Kann ich nur
+              den zaubern ansehen, nicht beim Analysieren der
+              Person.</remark></para>
             </listitem>
           </varlistentry>
 
@@ -5252,11 +5371,16 @@
               Zauber.)</remark></para>
             </listitem>
           </varlistentry>
-        </variablelist>
 
-        <para><remark>Ist es möglich zu ermitteln, ob jemand zaubern kann? SR
-        (Askennen) und DSA (Blick aufs Wesen, 30 Aktionen) sagen ja, D&amp;D
-        sagt nein. Wenn ja: eigenen Varlistentry "Personen".</remark></para>
+          <varlistentry>
+            <term>Personen</term>
+
+            <listitem>
+              <para><remark>magiebegabt ja/nein, aber nicht welche
+              magiefertigkeiten oder wie hoch</remark></para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
 
         <section>
           <title>Mindestwurf</title>
@@ -5283,11 +5407,11 @@
                   <entry>1</entry>
 
                   <entry>Bereich scannen<remark> (Scannen)</remark>, Zauber
-                  entdecken<remark> (Scannen)</remark>, Magiefertigkeiten von
-                  Zaubern ermitteln, Krafteinsatz eines Zaubers ermitteln,
-                  Nach bestimmter Objektkategorie scannen*<remark> NOCH
-                  EINZUFÜGEN: Eindeutigeres Symbol für "dies ist eine
-                  Kombination" als das simple Sternchen</remark></entry>
+                  entdecken<remark> (Scannen)</remark>, Basisangaben von
+                  Zaubern ermitteln, Nach bestimmter Objektkategorie
+                  scannen*<remark> NOCH EINZUFÜGEN: Eindeutigeres Symbol für
+                  "dies ist eine Kombination" als das simple
+                  Sternchen</remark></entry>
                 </row>
 
                 <row>
@@ -5295,16 +5419,15 @@
 
                   <entry>Details von Zaubern ermitteln<remark> (Effekt, Ziel?
                   Gedanke: es sollte möglich sein, bei einem sich neben einem
-                  Zauberer forme nden Blitz-Gewebe während der Zauberdauer die
+                  Zauberer formenden Blitz-Gewebe während der Zauberdauer die
                   "Spitze" zu bestimmen und damit die Richtung des Zaubers zu
                   ermitteln. Genauso sollte man einer Teleportation/einem Tor
                   ansehen, wohin die Reise geht, sprich den Bestimmungsort
                   ermitteln. Weiter gefasst sollten alle Details eines
                   Zaubers, welche als Informationen in die Zaubermatrix
                   codiert werden, wieder ausgelesen werden können. Das müsste
-                  man nur NOCH AUSFORMULIEREN)</remark>, Magiefertigkeiten von
-                  Artefakten ermitteln<remark> (sofern sie bekannt sind, siehe
-                  oben)</remark></entry>
+                  man nur NOCH AUSFORMULIEREN)</remark>, Basisangaben von
+                  Artefakten ermitteln</entry>
                 </row>
 
                 <row>
@@ -5313,7 +5436,9 @@
                   <entry>Persönliche Signatur in einem Zauber
                   erkennen/vergleichen, Details von Artefakten
                   ermitteln<remark> (auslöser, anzahl/art/größe der
-                  aufladungen, kraftmenge)</remark></entry>
+                  aufladungen), NOCH AUSFORMULIEREN: magiebegabung feststellen
+                  [anm. analog zu telepathie-erinnerungen
+                  durchsuchen]</remark></entry>
                 </row>
 
                 <row>
@@ -5333,21 +5458,26 @@
           <para>Der Krafteinsatz bestimmt die Wirkungsdauer und die
           Reichweite.</para>
 
-          <para><remark>Basis Scannen: 5 min, 1 m Radius, 0 m Distanz. Jeder
-          weitere KP erhöht eins davon linear. Anmerkung: die ursprünglichen
-          10m Radius waren viel zu heftig. Für den Fall "Andere Räume des
-          Hauses scannen" ist der neue 1 m-Radius völlig okay. Für den Fall
-          "Frühwarnsystem, Zentrum = Spürender" ist es vielleicht zu wenig;
-          hier sollten wir erstmal Erfahrungen sammeln.</remark></para>
+          <para><remark>Basis Scannen: 5 min, 1 m Radius. Jeder weitere KP
+          erhöht eins davon linear. Die Distanz beträgt 0 (siehe unten).
+          Anmerkung: die ursprünglichen 10m Radius waren viel zu heftig. Für
+          den Fall "Andere Räume des Hauses scannen" ist der neue 1 m-Radius
+          völlig okay. Für den Fall "Frühwarnsystem, Zentrum = Spürender" ist
+          es vielleicht zu wenig; hier sollten wir erstmal Erfahrungen
+          sammeln.</remark></para>
 
           <para><remark>Basis Zauberanalyse: 8 m Distanz</remark></para>
 
-          <para><remark>Distanz zum Zentrum des Bereichs bzw. zum Objekt:jeder
-          weitere KP erhöht auf (beim Scannen zunächst auf 4), 8, 15, 30, 75,
-          150, 300, 600, 1200, 2500, 5000 (Anmerkung: Dies ist dieselbe Skala
-          wie bei Telekinese)</remark></para>
+          <para><remark>Basis Artefaktanalyse: 0 m Distanz</remark></para>
 
-          <para><remark>Den Radius zu erhöhen heißt eine dramatisch größere
+          <para><remark>Distanz zum Zentrum des Bereichs bzw. zum Objekt:jeder
+          weitere KP erhöht auf den jeweils nächsthöheren Wert d. Skala
+          (Formulierung wie bei Telekinese) 4, 8, 15, 30, 75, 150, 300, 600,
+          1200, 2500, 5000 (Anmerkung: Dies ist dieselbe Skala wie bei
+          Telekinese)</remark></para>
+
+          <para><remark>Hintergrund des unterschiedlichen Handlings
+          Radius/Distanz: Den Radius zu erhöhen heißt eine dramatisch größere
           Informationsmenge. Die Distanz zu erhöhen heißt einfach nur dass die
           Informationen länger unterwegs sind, was billiger ist. Daher Radius
           = lineare Kraft, Distanz = nicht linear.</remark></para>

@@ -107,7 +107,7 @@
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry/>
 
                   <entry>6</entry>
 
@@ -116,7 +116,7 @@
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry/>
 
                   <entry>7</entry>
 
@@ -124,7 +124,7 @@
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry/>
 
                   <entry>8</entry>
 
@@ -133,7 +133,7 @@
                 </row>
 
                 <row>
-                  <entry></entry>
+                  <entry/>
 
                   <entry>10</entry>
 
@@ -165,35 +165,6 @@
       </section>
 
       <section>
-        <title>Kraftmanipulation</title>
-
-        <para>bezeichnet das Lenken von Kraftströmen anderer, die klassische
-        Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die Kraft zu
-        entziehen oder auch das ihn zusammenhaltende „Gewebe“ aufzulösen.
-        Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln zum
-        „gemeinsamen“ Zaubern.</para>
-
-        <para>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in einem
-        bestimmten Umkreis „lahmzulegen“. In diesem Bereich ist zwar die
-        Realität unverändert, es lässt sich aber keine Magie mehr anwenden.
-        Befindet sich ein Zauberer in einem solchen Bereich, kann er keine
-        Kraft an sich ziehen, zaubert er von außen in einen solches Gebiet
-        hinein, wird sein Zauber „verschluckt“. Auf diese Weise lassen sich
-        auch magische Barrieren bilden, durch die kein Zauber dringen kann
-        (hinter denen aber gezaubert werden kann).</para>
-
-        <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
-        vorübergehend keine Magie lenken kann — selbst permanente Dämpfungen
-        sind, mit hohem Aufwand, möglich.</para>
-
-        <section>
-          <title>Voraussetzung</title>
-
-          <para>Spüren</para>
-        </section>
-      </section>
-
-      <section>
         <title>Nekromantie</title>
 
         <para>ermöglicht es, in einem Ritual totes Fleisch wieder in
@@ -216,7 +187,7 @@
         beschäftigt. Es ermöglicht sowohl das Sehen als auch das Betreten
         anderer Sphären.</para>
 
-        <para></para>
+        <para/>
 
         <para>Krauftaufwand größer als Teleportation (das Reisen in der
         eigenen Sphäre via Umweg über eine andere ist eher nicht
