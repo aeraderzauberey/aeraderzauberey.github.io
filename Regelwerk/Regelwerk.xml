@@ -317,8 +317,8 @@
 
                 <entry>MA</entry>
 
-                <entry>Fähigkeit zur magischen Beeinflussung von Materie
-                (siehe Magiefertigkeiten)</entry>
+                <entry>Magische Beeinflussung von Materie (siehe
+                Magiefertigkeiten)</entry>
               </row>
 
               <row valign="middle">
@@ -329,14 +329,14 @@
                     </imageobject>
                   </inlinemediaobject></entry>
 
-                <entry>Geist<indexterm significance="preferred">
-                    <primary>Geist</primary>
+                <entry>Sphäre<indexterm significance="preferred">
+                    <primary>Sphäre</primary>
                   </indexterm></entry>
 
-                <entry>GE</entry>
+                <entry>AE</entry>
 
-                <entry>Fähigkeit zur magischen Beeinflussung des Geistes
-                (siehe Magiefertigkeiten)</entry>
+                <entry>Beeinflussung magischer Muster (siehe
+                Magiefertigkeiten)</entry>
               </row>
 
               <row valign="middle">
@@ -353,8 +353,8 @@
 
                 <entry>EN</entry>
 
-                <entry>Fähigkeit zur magischen Beeinflussung von Energie
-                (siehe Magiefertigkeiten)</entry>
+                <entry>Magischen Beeinflussung von Energie (siehe
+                Magiefertigkeiten)</entry>
               </row>
             </tbody>
           </tgroup>
@@ -732,8 +732,8 @@
         <para>Die magischen Fähigkeiten eines Charakters sind in drei Bereiche
         unterteilt: <emphasis>Materie</emphasis><indexterm>
             <primary>Materie</primary>
-          </indexterm>, <emphasis>Geist</emphasis><indexterm>
-            <primary>Geist</primary>
+          </indexterm>, <emphasis>Sphäre</emphasis><indexterm>
+            <primary>Sphäre</primary>
           </indexterm> und <emphasis>Energie</emphasis><indexterm>
             <primary>Energie</primary>
           </indexterm>. Jede Magiefertigkeit<indexterm
@@ -785,12 +785,9 @@
               </row>
 
               <row>
-                <entry>Teleportation</entry>
+                <entry>Tote Materie</entry>
 
                 <entry>MA</entry>
-
-                <entry>Personen und Objekte teleportieren, Tore zu anderen
-                Orten öffnen</entry>
               </row>
 
               <row>
@@ -803,6 +800,12 @@
 
               <row>
                 <entry>Unbelebte Materie</entry>
+
+                <entry>MA</entry>
+              </row>
+
+              <row>
+                <entry>Verarbeitete Materie</entry>
 
                 <entry>MA</entry>
 
@@ -824,9 +827,17 @@
               </row>
 
               <row>
+                <entry>Artefaktmagie</entry>
+
+                <entry>SP</entry>
+
+                <entry>Speichern von Zaubern in Objekten</entry>
+              </row>
+
+              <row>
                 <entry>Geistmanipulation</entry>
 
-                <entry>GE</entry>
+                <entry>SP</entry>
 
                 <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
                 manipulieren</entry>
@@ -835,10 +846,27 @@
               <row>
                 <entry>Telepathie</entry>
 
-                <entry>GE</entry>
+                <entry>SP</entry>
 
                 <entry>Mentale Kommunikation mit anderen Personen und
                 Tieren</entry>
+              </row>
+
+              <row>
+                <entry>Teleportation</entry>
+
+                <entry>SP</entry>
+
+                <entry>Personen und Objekte teleportieren, Tore zu anderen
+                Orten öffnen</entry>
+              </row>
+
+              <row>
+                <entry>Zeitmanipulation</entry>
+
+                <entry>SP</entry>
+
+                <entry>Zeit beschleunigen und verlangsamen, Zeitreisen</entry>
               </row>
 
               <row>
@@ -889,26 +917,6 @@
                 <entry>Objekte und Personen bewegen, Bewegung
                 unterbinden</entry>
               </row>
-
-              <row>
-                <entry><emphasis/></entry>
-              </row>
-
-              <row>
-                <entry>Artefaktmagie</entry>
-
-                <entry>MA &amp; EN</entry>
-
-                <entry>Speichern von Zaubern in Objekten</entry>
-              </row>
-
-              <row>
-                <entry>Zeitmanipulation</entry>
-
-                <entry>MA &amp; EN</entry>
-
-                <entry>Zeit beschleunigen und verlangsamen, Zeitreisen</entry>
-              </row>
             </tbody>
           </tgroup>
         </informaltable>
@@ -953,10 +961,10 @@
           <listitem>
             <para>Mit Ausnahme von <emphasis>Materie</emphasis><indexterm>
                 <primary>Materie</primary>
-              </indexterm>, <emphasis>Geist</emphasis><indexterm>
-                <primary>Geist</primary>
+              </indexterm>, <emphasis>Sphäre</emphasis><indexterm>
+                <primary>Sphäre</primary>
               </indexterm> und <emphasis>Energie</emphasis><indexterm>
-                <primary>Geist</primary>
+                <primary>Energie</primary>
               </indexterm> muss für jedes Attribut mindestens ein Punkt
             gekauft werden.</para>
           </listitem>
@@ -1975,10 +1983,12 @@
         <listitem>
           <para>Sollte die Anzahl der Erfolge<indexterm>
               <primary>Erfolg</primary>
-            </indexterm> gleich sein, gilt der Vergleich als unentschieden.
-          Sollte ein „Unentschieden“ in einer Situation nicht in Frage kommen,
-          entscheidet ein einfacher W20-Wurf, welcher der beiden Charaktere
-          gewinnt.</para>
+            </indexterm> gleich sein, gewinnt derjenige, welcher die
+          auslösende Handlung durchgeführt hat. Sind beide Handlungen
+          gleichwertig (z.B. beim Armdrücken), gilt der Vergleich als
+          unentschieden.<remark> (Diese neue Festlegung wurde gleichzeitig mit
+          neuen Konter-Regelungen bei der Kraftmanipulation
+          eingefügt)</remark></para>
         </listitem>
       </orderedlist>
 
@@ -3656,8 +3666,8 @@
 
     <para>Dazu benötigen Zauberer die passenden Attribute (Materie<indexterm>
         <primary>Materie</primary>
-      </indexterm>, Geist<indexterm>
-        <primary>Geist</primary>
+      </indexterm>, Sphäre<indexterm>
+        <primary>Sphäre</primary>
       </indexterm>, Energie<indexterm>
         <primary>Energie</primary>
       </indexterm>) und Fertigkeiten für den gewünschten Effekt; die Kenntnis
@@ -4225,12 +4235,15 @@
       <section>
         <title>Artefaktmagie</title>
 
+        <para>Anmerkung: es sollte möglich sein, zwei Zauber
+        gleichzeitig</para>
+
         <para><variablelist>
             <varlistentry>
               <term>Attribut:</term>
 
               <listitem>
-                <para>Materie &amp; Energie</para>
+                <para>Sphäre</para>
               </listitem>
             </varlistentry>
 
@@ -4608,16 +4621,32 @@
             <term>Gemeinsames Zaubern</term>
 
             <listitem>
-              <para><remark>nur kraft bereitstellen: jeder KP steht dem ziel
-              fürs zaubern (ohne widerstandswurf) zur verfügung. bei der
-              zauberprobe helfen: kombinierte
-              kraftmanipulations-und-X(primär)-probe, jeder erfolg gibt dem
-              zaubernden einen bonuswürfel. es gibt dann keine
+              <para><remark>nur kraft bereitstellen: reine kraftmanipulation
+              jeder KP steht dem ziel fürs zaubern (ohne widerstandswurf) zur
+              verfügung. scheitert die unterstützende zauberprobe, wird keine
+              kraft zur verfügung gestellt und der primärzaubernde muss die
+              komplette menge allein aufbringen (weniger geht nicht, denn die
+              zaubermatrix ist ja auf bestimmte kraftmenge eingerichtet) oder
+              den zauber komplett vorzeitig abbrechen.</remark></para>
+
+              <para><remark>bei der zauberprobe helfen: kombinierte
+              kraftmanipulations-und-X(primär)-probe gegen MW 1, jeder erfolg
+              gibt dem zaubernden einen bonuswürfel. es gibt dann keine
               bonuswiderstandswürfel durch zusatzerfolge bei der
-              kraftmanipulations-und-X-probe. zusatzzusatzanmerkung: will ein
-              lehrmeister seinem schüler nicht allzuviel helfen, kann er auch
-              weniger würfel verschenken als er erfolge hat - die restlichen
-              verfallen aber völlig.</remark></para>
+              kraftmanipulations-und-X-probe. scheitert die unterstützende
+              zauberprobe, wird keine kraft zu verfügung gestellt (wie oben),
+              aber der zauber kann normal weitergehen.</remark></para>
+
+              <para><remark>mit unbekannter magiefertigkeit helfen: A+B
+              zauber, person 1 kann A und person 2 kann B. gehandhabt wie bei
+              "zauberprobe helfen", aber: scheitert die probe für B, ist der
+              zauber insgesamt gescheitert (denn ohne B geht es nunmal
+              nicht).</remark></para>
+
+              <para><remark>zusatzzusatzanmerkung: will ein lehrmeister seinem
+              schüler nicht allzuviel helfen, kann er auch weniger würfel
+              verschenken als er erfolge hat - die restlichen verfallen aber
+              völlig.</remark></para>
 
               <para><remark>anmerkungen: der zaubernde formt die zaubermatrix.
               außerdem zwingt er unter anstrengung kraft hinein (am zielort,
@@ -4629,6 +4658,12 @@
               vorbereitet sein. unterstützt der helfende den zaubernden auch
               bei der zauberprobe, arbeitet er mit an (einer anderen ecke) der
               zaubermatrix.</remark></para>
+
+              <para><remark>anmerkung 2: ein zauber mit den magiefertigkeiten
+              A und B könnte von zwei zauberern gemeinsam gewirkt werden -
+              einer hat A, der andere hat B. dazu sollte es aber nur eine
+              zauberprobe geben (die der primärfertigkeit) und ansonsten die
+              regeln fürs bei-zauberprobe-helfen.</remark></para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -4684,7 +4719,23 @@
             </tgroup>
           </informaltable>
 
-          <para><remark>"Kontern": Original-MW + 1</remark></para>
+          <para><remark>"Kontern": Vergleichswurf mit der Zauberprobe (Anm.:
+          es soll schwieriger sein, eine Zaubermatrix zu zerstören, als sie zu
+          erzeugen).</remark></para>
+
+          <para><remark>Zauber tarnen: wird gleich mit in den Zauber
+          eingewebt, erhöht den MW um 1. (Effekt hier oder bei Spüren
+          beschreiben? Vielleicht eher hier) Tarnt während der Wirkungsdauer,
+          denn bei permanenten Effekten wie Erinnerungen löschen ist die
+          Zaubermatrix sofort verschwunden.</remark></para>
+
+          <para><remark>Abgesehen vom Kontern kann man Zauber nicht
+          beeinflussen. Es erscheint nämlich nur schwer erklärbar, warum man
+          unter den Augen des Zaubernden Details der Matrix umbaut, ohne dass
+          dieser es bemerkt und gegensteuert oder einfach mit dem Zauber
+          aufhört.</remark></para>
+
+          <para><remark>Effekte: Antimagische Kraftfelder, </remark></para>
         </section>
 
         <section>
@@ -4858,6 +4909,12 @@
               </tbody>
             </tgroup>
           </informaltable>
+
+          <para><remark>Anmerkung: eine "Entzauberung" eines bereits auf das
+          Lebewesen wirkenden Zaubers geschieht allein mit der
+          Lebewesen-Fertigkeit als "Originalzustand wiederherstellen" (mit dem
+          gleichen MW wie das Original), nicht mit Kraftmanipulation. Der
+          Originalzauber ist ja bereits beendet. </remark></para>
         </section>
 
         <section>
@@ -5386,7 +5443,12 @@
           <title>Mindestwurf</title>
 
           <para><remark>NOCH ANZUGEBEN: Grundsatz, bspw. "je komplexer der
-          Prozess, desto schwieriger ist die Probe".</remark></para>
+          Prozess, desto schwieriger ist die Probe".´Anmerkung: es ist
+          wahrscheinlich sinnvoll, bei Analysen den Mindestwurf nicht fix
+          vorher zu bestimmen. Beispiel: Spieler will "alles herausfinden", es
+          reicht aber mit 2 Erfolgen dann nicht für "Persönliche Signatur".
+          Streng regeltechnisch wüsste er jetzt gar nichts, besser wäre aber,
+          wenn er wenigstens die Dinge bis MW 2 erfährt.</remark></para>
 
           <informaltable>
             <tgroup cols="2">
@@ -6252,6 +6314,12 @@
       </section>
 
       <section>
+        <title>Tote Materie</title>
+
+        <para/>
+      </section>
+
+      <section>
         <title>Umwandlung</title>
 
         <para>Diese Fertigkeit erlaubt dem Zaubernden, einen Stoff durch einen
@@ -6369,6 +6437,12 @@
             </listitem>
           </varlistentry>
         </variablelist>
+      </section>
+
+      <section>
+        <title>Verarbeitete Materie</title>
+
+        <para/>
       </section>
 
       <section>
