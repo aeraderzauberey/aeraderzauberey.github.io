@@ -324,24 +324,6 @@
               <row valign="middle">
                 <entry><inlinemediaobject>
                     <imageobject>
-                      <imagedata fileref="../Grafiken/Attribute/GE.svg"
-                                 width="0.65cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
-
-                <entry>Sphäre<indexterm significance="preferred">
-                    <primary>Sphäre</primary>
-                  </indexterm></entry>
-
-                <entry>AE</entry>
-
-                <entry>Beeinflussung magischer Muster (siehe
-                Magiefertigkeiten)</entry>
-              </row>
-
-              <row valign="middle">
-                <entry><inlinemediaobject>
-                    <imageobject>
                       <imagedata fileref="../Grafiken/Attribute/EN.svg"
                                  width="0.65cm"/>
                     </imageobject>
@@ -353,7 +335,25 @@
 
                 <entry>EN</entry>
 
-                <entry>Magischen Beeinflussung von Energie (siehe
+                <entry>Magische Beeinflussung von Energie (siehe
+                Magiefertigkeiten)</entry>
+              </row>
+
+              <row valign="middle">
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Attribute/SP.svg"
+                                 width="0.65cm"/>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
+                <entry>Sphäre<indexterm significance="preferred">
+                    <primary>Sphäre</primary>
+                  </indexterm></entry>
+
+                <entry>SP</entry>
+
+                <entry>Magische Beeinflussung nicht-physischer Muster (siehe
                 Magiefertigkeiten)</entry>
               </row>
             </tbody>
@@ -732,14 +732,14 @@
         <para>Die magischen Fähigkeiten eines Charakters sind in drei Bereiche
         unterteilt: <emphasis>Materie</emphasis><indexterm>
             <primary>Materie</primary>
-          </indexterm>, <emphasis>Sphäre</emphasis><indexterm>
-            <primary>Sphäre</primary>
-          </indexterm> und <emphasis>Energie</emphasis><indexterm>
+          </indexterm>, <emphasis>Energie</emphasis><indexterm>
             <primary>Energie</primary>
+          </indexterm> und <emphasis>Sphäre</emphasis><indexterm>
+            <primary>Sphäre</primary>
           </indexterm>. Jede Magiefertigkeit<indexterm
             significance="preferred">
             <primary>Magiefertigkeit</primary>
-          </indexterm> ist diesen Attributen fest zugeordnet.</para>
+          </indexterm> ist einem dieser Attribute fest zugeordnet.</para>
 
         <para>Details zur Abgrenzung der einzelnen Fertigkeiten<indexterm
             significance="preferred">
@@ -788,6 +788,8 @@
                 <entry>Tote Materie</entry>
 
                 <entry>MA</entry>
+
+                <entry>Ehemals lebendiges Material beeinflussen</entry>
               </row>
 
               <row>
@@ -802,6 +804,8 @@
                 <entry>Unbelebte Materie</entry>
 
                 <entry>MA</entry>
+
+                <entry>Anorganische Stoffe beeinflussen</entry>
               </row>
 
               <row>
@@ -809,8 +813,7 @@
 
                 <entry>MA</entry>
 
-                <entry>Objekteigenschaften und -form verändern, Objekte
-                erhitzen/abkühlen</entry>
+                <entry>Bearbeitete und künstliche Stoffe beeinflussen</entry>
               </row>
 
               <row>
@@ -818,55 +821,7 @@
 
                 <entry>MA</entry>
 
-                <entry>Wasser in allen Aggregatzuständen beeinflussen,
-                erhitzen und abkühlen</entry>
-              </row>
-
-              <row>
-                <entry/>
-              </row>
-
-              <row>
-                <entry>Artefaktmagie</entry>
-
-                <entry>SP</entry>
-
-                <entry>Speichern von Zaubern in Objekten</entry>
-              </row>
-
-              <row>
-                <entry>Geistmanipulation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
-                manipulieren</entry>
-              </row>
-
-              <row>
-                <entry>Telepathie</entry>
-
-                <entry>SP</entry>
-
-                <entry>Mentale Kommunikation mit anderen Personen und
-                Tieren</entry>
-              </row>
-
-              <row>
-                <entry>Teleportation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Personen und Objekte teleportieren, Tore zu anderen
-                Orten öffnen</entry>
-              </row>
-
-              <row>
-                <entry>Zeitmanipulation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Zeit beschleunigen und verlangsamen, Zeitreisen</entry>
+                <entry>Wasser in allen Aggregatzuständen beeinflussen</entry>
               </row>
 
               <row>
@@ -917,6 +872,53 @@
                 <entry>Objekte und Personen bewegen, Bewegung
                 unterbinden</entry>
               </row>
+
+              <row>
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Artefaktmagie</entry>
+
+                <entry>SP</entry>
+
+                <entry>Speichern von Zaubern in Objekten</entry>
+              </row>
+
+              <row>
+                <entry>Geistmanipulation</entry>
+
+                <entry>SP</entry>
+
+                <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
+                manipulieren</entry>
+              </row>
+
+              <row>
+                <entry>Telepathie</entry>
+
+                <entry>SP</entry>
+
+                <entry>Mentale Kommunikation mit anderen Personen und
+                Tieren</entry>
+              </row>
+
+              <row>
+                <entry>Teleportation</entry>
+
+                <entry>SP</entry>
+
+                <entry>Personen und Objekte teleportieren, Tore zu anderen
+                Orten öffnen</entry>
+              </row>
+
+              <row>
+                <entry>Zeitmanipulation</entry>
+
+                <entry>SP</entry>
+
+                <entry>Zeit beschleunigen und verlangsamen, Zeitreisen</entry>
+              </row>
             </tbody>
           </tgroup>
         </informaltable>
@@ -961,10 +963,10 @@
           <listitem>
             <para>Mit Ausnahme von <emphasis>Materie</emphasis><indexterm>
                 <primary>Materie</primary>
-              </indexterm>, <emphasis>Sphäre</emphasis><indexterm>
-                <primary>Sphäre</primary>
-              </indexterm> und <emphasis>Energie</emphasis><indexterm>
+              </indexterm>, <emphasis>Energie</emphasis><indexterm>
                 <primary>Energie</primary>
+              </indexterm> und <emphasis>Sphäre</emphasis><indexterm>
+                <primary>Sphäre</primary>
               </indexterm> muss für jedes Attribut mindestens ein Punkt
             gekauft werden.</para>
           </listitem>
@@ -3666,10 +3668,10 @@
 
     <para>Dazu benötigen Zauberer die passenden Attribute (Materie<indexterm>
         <primary>Materie</primary>
-      </indexterm>, Sphäre<indexterm>
-        <primary>Sphäre</primary>
       </indexterm>, Energie<indexterm>
         <primary>Energie</primary>
+      </indexterm>, Sphäre<indexterm>
+        <primary>Sphäre</primary>
       </indexterm>) und Fertigkeiten für den gewünschten Effekt; die Kenntnis
     spezieller Zaubersprüche ist dabei nicht erforderlich.</para>
 
@@ -3790,35 +3792,25 @@
           </listitem>
         </varlistentry>
       </variablelist>
-
-      <para><remark>*********************************** BIS HIERHER
-      ÜBERARBEITET ***********************************</remark></para>
     </section>
 
     <section>
       <title>Überblick des Zaubervorgangs</title>
 
-      <para>Zunächst werden gewisse Voraussetzungen geprüft. Dann beginnt das
-      Zaubern mit dem Sammeln von Kraft<indexterm>
-          <primary>Kraft</primary>
-        </indexterm>. Die Menge an <firstterm
+      <para>Zunächst werden gewisse Voraussetzungen geprüft. Dann wird der
+      Krafteinsatz bestimmt: Die Menge an <firstterm
       baseform="Kraftpunkte">Kraftpunkten</firstterm><indexterm>
           <primary>Kraftpunkte</primary>
         </indexterm>, die für einen Zauber verwendet wird, beeinflusst die
       Auswirkungen des Zaubers, z.B. seine Stärke, Reichweite oder
       Wirkungsdauer.</para>
 
-      <para>Ein Charakter lenkt diese Kraft<indexterm>
-          <primary>Kraft</primary>
-        </indexterm> durch sich selbst hindurch in den Zauber. Dadurch kommt
-      es zu einer Art geistiger „Rückkopplung“. Diese ist umso stärker, je
-      mehr Kraft<indexterm>
-          <primary>Kraft</primary>
-        </indexterm> für den Zauber verwendet wird: die Folgen reichen von
-      Unkonzentriertheit und Erschöpfung über Kopfschmerzen und
-      Halluzinationen bis hin zu Schockzuständen und Bewusstlosigkeit. Diese
-      Folgen lassen sich durch den <firstterm>Kraftwiderstandswurf</firstterm>
-      verringern oder vermeiden.</para>
+      <para>Der Zaubernde zieht diese Kraft aus der Umgebung zusammen und
+      presst sie in das Gewebe seines Zaubers. Dieser Prozess ist eine enorme
+      geistige Anstrengung, die umso größer ist, je mehr Kraft verwendet wird.
+      Deren negative Auswirkungen können durch den
+      <firstterm>Kraftwiderstandswurf</firstterm> verringert oder vermieden
+      werden.</para>
 
       <para>Den Abschluss des Zauberns bildet die Zauberprobe. Sie
       entscheidet, ob der Zauber insgesamt gelungen ist und wenn ja, wie
@@ -3871,11 +3863,14 @@
       <title>Krafteinsatz</title>
 
       <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
-      wieviel Kraft der Charakter aus der Umgebung an sich zieht. Die Menge an
+      wieviel Kraft der Charakter für den Zauber verwenden will. Die Menge an
       Kraftpunkten, die für einen Zauber verwendet wird, beeinflusst je nach
       Zauber z.B. die Stärke, Reichweite oder Wirkungsdauer. Zuviel Kraft
       lässt den Zaubernden jedoch ermüden oder schädigt ihn sogar (siehe <xref
       linkend="magieschaden"/>).</para>
+
+      <para>*********************************** BIS HIERHER ÜBERARBEITET
+      ***********************************</para>
     </section>
 
     <section>
@@ -3992,6 +3987,12 @@
     <section xml:id="magieschaden">
       <title>Kraftwiderstandswurf</title>
 
+      <para>Das Lenken von Kraft stellt für den Zaubernden eine große mentale
+      Anstrengung dar. Diese Anstrengung wird durch geistigen Schadenspunkte
+      repräsentiert und ihre Auswirkungen reichen von Unkonzentriertheit und
+      Erschöpfung über Kopfschmerzen und Halluzinationen bis hin zu
+      Schockzuständen und Bewusstlosigkeit.</para>
+
       <para>Nach der Zauberprobe legt der Charakter einen geistigen
       Widerstandswurf<indexterm>
           <primary>Widerstandswurf</primary>
@@ -4074,6 +4075,15 @@
           <primary>Probe</primary>
         </indexterm> um 1. Kann oder will er sich nicht mehr konzentrieren,
       endet die Wirkung des Zaubers sofort.</para>
+
+      <para><remark>Beim Kontern von Sprüchen wird deutlich, dass es zwei
+      Arten von Wirkungsdauern gibt: ein Spruch wie "Objekt bewegen" ist
+      während seiner Wirkungsdauer aktiv, sein Muster kann gespürt werden und
+      man kann ihn kontern/entzaubern. Eine Verwandlung hingegen hat zwar eine
+      Wirkungsdauer, in der der Körper versucht den Ursprungszustand
+      wiederherzustellen, aber der eigentliche Zauber hat ja seine Arbeit
+      getan, folglich wäre auch die Zaubermatrix verschwunden. Ist dieser
+      Unterschied ein Problem?</remark></para>
     </section>
 
     <section>
@@ -4235,8 +4245,9 @@
       <section>
         <title>Artefaktmagie</title>
 
-        <para>Anmerkung: es sollte möglich sein, zwei Zauber
-        gleichzeitig</para>
+        <para><remark>Anmerkung: es sollte möglich sein, von einem Artefakt
+        zwei (oder mehr) Zauber gleichzeitig auslösen zu lassen.
+        </remark></para>
 
         <para><variablelist>
             <varlistentry>
@@ -4298,7 +4309,7 @@
       <section>
         <title>Geistmanipulation <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/GE.svg"
+              <imagedata fileref="../Grafiken/Attribute/SP.svg"
                          valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
@@ -4589,6 +4600,10 @@
             </imageobject>
           </inlinemediaobject></title>
 
+        <para>Kraftmanipulation umfasst die Beeinflussung von anderen Zaubern
+        und des Kraftgewebes. Dazu zählen neben der klassischen Antimagie auch
+        verschiedene Formen der Kooperation beim Zaubern.</para>
+
         <para><remark>Ergänzung Beschreibung: man kann ohne spüren zauber und
         kraftmengen wahrnehmen, weil man auch mit dem bereich wasser das in
         der luft enthaltene wasser beeinflussen kann obwohl man es nicht mit
@@ -4596,74 +4611,109 @@
 
         <para><remark>Alte Reichweitenregelung: C.</remark></para>
 
-        <para><remark>bezeichnet das Lenken von Kraftströmen anderer, die
-        klassische Antimagie. Es ist möglich, einen Zauber umzulenken, ihm die
-        Kraft zu entziehen oder auch das ihn zusammenhaltende „Gewebe“
-        aufzulösen. Ebenfalls in diesen Bereich fällt das Bilden von Zirkeln
-        zum „gemeinsamen“ Zaubern.</remark></para>
-
-        <para><remark>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in
-        einem bestimmten Umkreis „lahmzulegen“. In diesem Bereich lässt dann
-        keine Magie mehr anwenden. (((Stimmt nicht mehr: Befindet sich ein
-        Zauberer in einem solchen Bereich, kann er keine Kraft in einen Zauber
-        lenken --- wo der Zauberer ist, ist egal.))), zaubert er von außen in
-        einen solches Gebiet hinein, wird sein Zauber „verschluckt“. Auf diese
-        Weise lassen sich auch magische Barrieren bilden, durch die kein
-        Zauber dringen kann (hinter denen aber gezaubert werden
-        kann).</remark></para>
-
-        <para><remark>Es ist auch möglich eine Person zu dämpfen, so dass sie
-        vorübergehend keine Magie lenken kann — selbst permanente Dämpfungen
-        sind, mit hohem Aufwand, möglich.</remark></para>
-
         <variablelist>
+          <varlistentry>
+            <term>Kraft bereitstellen</term>
+
+            <listitem>
+              <para>Um einem anderen Zaubernden zusätzliche Kraft zur
+              Verfügung zu stellen, führt der Unterstützer eine
+              Kraftmanipulations-Zauberprobe inklusive Widerstandswurf
+              durch.</para>
+
+              <para>Gelingt ihm dieser Zauber, steht dem Hauptzauberer die
+              entsprechende Kraftmenge für seinen Zauber zur Verfügung. Der
+              Hauptzauberer führt seinen Widerstandswurf jedoch nur gegen die
+              Kraft durch, die er selbst in den Zauber gelenkt hat.</para>
+
+              <para>Scheitert die Zauberprobe des Unterstützers, wird keine
+              Kraft zur Verfügung gestellt. Der Hauptzauberer muss dann die
+              komplette geplante Kraftmenge allein aufbringen<remark> (weniger
+              geht nicht, denn die Zaubermatrix ist ja auf eine bestimmte
+              Kraftmenge ausgelegt. Das folgt aus der Tatsache, dass die
+              Kraftmenge eine durch Spüren aus der Matrix auslesbare
+              Information ist)</remark> oder den Zauber vorzeitig abbrechen.
+              </para>
+            </listitem>
+          </varlistentry>
+
           <varlistentry>
             <term>Gemeinsames Zaubern</term>
 
             <listitem>
-              <para><remark>nur kraft bereitstellen: reine kraftmanipulation
-              jeder KP steht dem ziel fürs zaubern (ohne widerstandswurf) zur
-              verfügung. scheitert die unterstützende zauberprobe, wird keine
-              kraft zur verfügung gestellt und der primärzaubernde muss die
-              komplette menge allein aufbringen (weniger geht nicht, denn die
-              zaubermatrix ist ja auf bestimmte kraftmenge eingerichtet) oder
-              den zauber komplett vorzeitig abbrechen.</remark></para>
+              <para>Es ist auch möglich, einen anderen Zaubernden bei der
+              Zauberprobe zu unterstützen. Dazu führt zunächst der
+              Unterstützer eine Zauberprobe mit der gleichen Magiefertigkeit
+              (als Primärfertigkeit) in Kombination mit Kraftmanipulation
+              durch. Dabei erhält der Unterstützer keine
+              Bonus-Widerstandswürfel für Zusatzerfolge.</para>
 
-              <para><remark>bei der zauberprobe helfen: kombinierte
-              kraftmanipulations-und-X(primär)-probe gegen MW 1, jeder erfolg
-              gibt dem zaubernden einen bonuswürfel. es gibt dann keine
-              bonuswiderstandswürfel durch zusatzerfolge bei der
-              kraftmanipulations-und-X-probe. scheitert die unterstützende
-              zauberprobe, wird keine kraft zu verfügung gestellt (wie oben),
-              aber der zauber kann normal weitergehen.</remark></para>
+              <para>Gelingt dem Unterstützer die Zauberprobe, erhält der
+              Hauptzauberer für jeden Erfolg des Unterstützers einen
+              Bonuswürfel für seine eigene Zauberprobe. <remark>(Will ein
+              Lehrmeister seinem Schüler nicht allzuviel helfen, kann er auch
+              weniger Würfel verschenken als er Erfolge hat - die restlichen
+              Erfolge verfallen aber trotzdem völlig.) </remark>Für das
+              Scheitern der Probe sowie das Bereitstellen von Kraft gelten die
+              oben stehenden Regeln.</para>
 
-              <para><remark>mit unbekannter magiefertigkeit helfen: A+B
-              zauber, person 1 kann A und person 2 kann B. gehandhabt wie bei
-              "zauberprobe helfen", aber: scheitert die probe für B, ist der
-              zauber insgesamt gescheitert (denn ohne B geht es nunmal
-              nicht).</remark></para>
+              <para>Darüber hinaus kann gemeinsam auch einen Zauber gewirkt
+              werden, zu dem die Beteiligten allein nicht in der Lage wären:
+              erfordert ein Zauber die Magiefertigkeiten A (primär) und B,
+              können zwei Personen, die jeweils nur A oder B beherrschen,
+              gemeinsam zaubern. Dazu führt der Hauptzauberer die Zauberprobe
+              mit Fertigkeit A durch, der Unterstützer die Zauberprobe mit B
+              (primär) und Kraftmanipulation. Gelingt die Probe des
+              Unterstützers, erhält der Hauptzauberer Bonuswürfel und Kraft,
+              scheitert er jedoch, scheitert auch der Zauber insgesamt<remark>
+              (denn ohne B geht es nunmal nicht)</remark>.</para>
 
-              <para><remark>zusatzzusatzanmerkung: will ein lehrmeister seinem
-              schüler nicht allzuviel helfen, kann er auch weniger würfel
-              verschenken als er erfolge hat - die restlichen verfallen aber
-              völlig.</remark></para>
+              <para><remark>Anmerkungen zur Funktionsweise:</remark></para>
 
-              <para><remark>anmerkungen: der zaubernde formt die zaubermatrix.
-              außerdem zwingt er unter anstrengung kraft hinein (am zielort,
-              nicht bei oder durch sich). der helfende tut das gleiche; kann
-              das aber nicht beliebig tun, denn die matrix ist auf eine
-              gewisse kraftmenge ausgelegt (folgt aus der tatsache, dass die
-              kraftmenge eine durch spüren aus der matrix auslesbare
-              information ist) und der zaubernde muss auf die hilfe
-              vorbereitet sein. unterstützt der helfende den zaubernden auch
-              bei der zauberprobe, arbeitet er mit an (einer anderen ecke) der
-              zaubermatrix.</remark></para>
+              <para><remark>Der Hauptzauberer formt die Zaubermatrix. Außerdem
+              zwingt er unter Anstrengung Kraft hinein (am Zielort, nicht bei
+              oder durch sich). Der Unterstützer tut das gleiche. Er kann das
+              aber nicht beliebig tun, denn zum einen ist die Matrix ist auf
+              eine gewisse Kraftmenge ausgelegt (siehe Kommentar oben) und zum
+              anderen muss der Hauptzauberer auf die Hilfe vorbereitet
+              sein.</remark></para>
 
-              <para><remark>anmerkung 2: ein zauber mit den magiefertigkeiten
-              A und B könnte von zwei zauberern gemeinsam gewirkt werden -
-              einer hat A, der andere hat B. dazu sollte es aber nur eine
-              zauberprobe geben (die der primärfertigkeit) und ansonsten die
-              regeln fürs bei-zauberprobe-helfen.</remark></para>
+              <para><remark>Hilft der Unterstützer auch bei der Zauberprobe,
+              arbeitet er mit an (einer anderen Ecke) der
+              Zaubermatrix.</remark></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Zauber und Artefakte tarnen</term>
+
+            <listitem>
+              <para>Ein Zauber oder die Matrix eines Artefakts kann vor der
+              Entdeckung durch Spüren getarnt werden. Dazu wird die jeweilige
+              Magiefertigkeit bei der Zauberprobe mit Kraftmanipulation
+              kombiniert. Der Mindestwurf steigt dabei um 1. Ein Spüren-Zauber
+              muss dann die Erfolgsanzahl übertreffen, um die Tarnung zu
+              durchdringen.<remark> (Die Tarnung betrifft die Wirkungsdauer,
+              denn bei permanenten Effekten wie Erinnerungen löschen ist die
+              Zaubermatrix sowieso sofort verschwunden.)</remark></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Dämpfung</term>
+
+            <listitem>
+              <para>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in
+              einem bestimmten Umkreis „lahmzulegen“. In diesem Bereich kann
+              keine Kraft in einen Zauber gelenkt werden. Bewegt sich ein
+              Zauber von außen in den Bereich hinein, wird er aufgelöst. Auf
+              diese Weise lassen sich auch magische Barrieren bilden, durch
+              die kein Zauber dringen kann (hinter denen aber gezaubert werden
+              kann).</para>
+
+              <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
+              vorübergehend keine Magie lenken kann — selbst permanente
+              Dämpfungen sind, mit hohem Aufwand, möglich.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -4689,7 +4739,13 @@
                 <row>
                   <entry>1</entry>
 
-                  <entry>Gemeinsames Zaubern</entry>
+                  <entry>Kraft bereitstellen, Gemeinsames Zaubern
+                  <inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Kombination.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
                 </row>
 
                 <row>
@@ -4719,15 +4775,11 @@
             </tgroup>
           </informaltable>
 
-          <para><remark>"Kontern": Vergleichswurf mit der Zauberprobe (Anm.:
-          es soll schwieriger sein, eine Zaubermatrix zu zerstören, als sie zu
+          <para><remark>Kontern: Vergleichswurf mit der Zauberprobe (Anm.: es
+          soll schwieriger sein, eine Zaubermatrix zu zerstören, als sie zu
           erzeugen).</remark></para>
 
-          <para><remark>Zauber tarnen: wird gleich mit in den Zauber
-          eingewebt, erhöht den MW um 1. (Effekt hier oder bei Spüren
-          beschreiben? Vielleicht eher hier) Tarnt während der Wirkungsdauer,
-          denn bei permanenten Effekten wie Erinnerungen löschen ist die
-          Zaubermatrix sofort verschwunden.</remark></para>
+          <para><remark>Zauber tarnen: MW +1 </remark></para>
 
           <para><remark>Abgesehen vom Kontern kann man Zauber nicht
           beeinflussen. Es erscheint nämlich nur schwer erklärbar, warum man
@@ -4735,13 +4787,13 @@
           dieser es bemerkt und gegensteuert oder einfach mit dem Zauber
           aufhört.</remark></para>
 
-          <para><remark>Effekte: Antimagische Kraftfelder, </remark></para>
+          <para><remark>Effekte: Antimagische Kraftfelder, ...</remark></para>
         </section>
 
         <section>
           <title>Krafteinsatz</title>
 
-          <para><remark>"Kontern": halbe KP des Originalzaubers
+          <para><remark>Kontern: halbe KP des Originalzaubers
           (aufgerundet)</remark></para>
         </section>
 
@@ -4912,9 +4964,10 @@
 
           <para><remark>Anmerkung: eine "Entzauberung" eines bereits auf das
           Lebewesen wirkenden Zaubers geschieht allein mit der
-          Lebewesen-Fertigkeit als "Originalzustand wiederherstellen" (mit dem
-          gleichen MW wie das Original), nicht mit Kraftmanipulation. Der
-          Originalzauber ist ja bereits beendet. </remark></para>
+          Lebewesen-Fertigkeit als "Originalzustand wiederherstellen", nicht
+          mit Kraftmanipulation (denn der Originalzauber ist ja bereits
+          beendet). Der MW ist der gleichen wie beim
+          Originalzauber.</remark></para>
         </section>
 
         <section>
@@ -5361,23 +5414,6 @@
               <para>Zauber, welche gerade gesprochen werden oder gerade
               wirken, können ebenfalls erspürt werden.</para>
 
-              <para><remark>Unterscheidung in Basisangaben und Details, hier
-              nun die Basisangaben (Kraft, Magiefertigkeiten, grober Effekt
-              [zB "Augen beeinflussen"]):</remark></para>
-
-              <para>Dabei kann der Spürende neben der Kraftmenge auch ihm
-              bekannte Magiefertigkeiten in einem Zauber wiedererkennen. Dazu
-              muss er sie entweder selbst beherrschen, ihren Einsatz bereits
-              per Spüren wahrgenommen haben oder zumindest präzise
-              Beschreibungen ihrer Muster besitzen. Wenn der Spürende die
-              jeweiligen Magiefertigkeiten selbst beherrscht, kann er darüber
-              hinaus auch den Effekt des Zaubers grob einordnen.</para>
-
-              <para><remark>Details gibt es nur, wenn man die Magiefertigkeit
-              besitzt: Ziele, Bestimmungsort, Feinheiten des Effekts (zB
-              genauer Befehl oder Art der Halluzination bei GM),
-              Wirkungsdauer</remark></para>
-
               <para>Zauber sind an allen ihren Zielen wahrnehmbar, selbst an
               denjenigen, welche kein regeltechnisches Ziel sind. Spricht ein
               Zauberer also telepathisch mit einer anderen Person (dem
@@ -5392,22 +5428,50 @@
               also kein Ziel im obigen Sinne ist, kann nicht erkannt werden,
               wer einen Zauber wirkt oder gewirkt hat.<remark> (Ein solcher
               "Faden" hätte für das Spiel unangenehme Nebeneffekte, zum
-              Beispiel bei Telepathie über große Distanzen.)</remark>
-              Ebensowenig gibt es eine solche Verbindung zwischen mehreren
-              Zielen.<remark> (Zumindest gibt es eine solche Verbindung nicht
-              pauschal bei allen Fertigkeiten; bei Teleportation kann so etwas
-              nämlich ggf. sehr wohl ermittelt werden - siehe Frage
-              unten.)</remark></para>
+              Beispiel bei Telepathie über große Distanzen.)</remark></para>
+
+              <para>Dabei kann der Spürende die folgenden
+              <emphasis>Basisangaben</emphasis> ermitteln:</para>
+
+              <itemizedlist>
+                <listitem>
+                  <para>Kraftmenge</para>
+
+                  <para>Die Kraftmenge sollte dem Spieler und damit dem
+                  Charakter nicht als Punktanzahl, sondern in groben
+                  Kategorien genannt werden.</para>
+                </listitem>
+              </itemizedlist>
+
+              <itemizedlist>
+                <listitem>
+                  <para>Magiefertigkeiten</para>
+
+                  <para>Der Spürende muss dazu die jeweilige Magiefertigkeit
+                  selbst beherrschen, ihren Einsatz bereits per Spüren
+                  wahrgenommen haben oder zumindest präzise Beschreibungen
+                  ihrer Muster besitzen.</para>
+                </listitem>
+
+                <listitem>
+                  <para>Grober Effekt</para>
+
+                  <para>Wenn der Spürende die jeweiligen Magiefertigkeiten
+                  selbst beherrscht, kann er außerdem auch den Effekt des
+                  Zaubers grob einordnen.</para>
+                </listitem>
+              </itemizedlist>
+
+              <para>Weitere <emphasis>Details</emphasis> können ermittelt
+              werden, wenn der Spürende die Magiefertigkeit(en) des Zaubers
+              selbst beherrscht. Dies sind alle sonstigen Parameter des
+              Zaubers, insbesondere Wirkungsdauer, Ziele (bei Teleportation
+              auch Bestimmungsort) und sonstige Feinheiten des Effekts (bei
+              Geistmanipulation also z.B. der genaue Befehl oder die Art der
+              Halluzination).</para>
 
               <para><remark>* Nachhall/Spuren eines zaubers bleiben noch für
               eine "kurze" zeit sichtbar</remark></para>
-
-              <para><remark>(Kann man analog zu Spüren+Teleportation(=
-              ermitteln, von wo oder wohin teleportiert wurde) vielleicht
-              Spüren generell einsetzen, um Parameter eines aktiven oder "noch
-              frischen" Zaubers der jeweiligen Magiefertigkeit zu bestimmen?
-              Siehe auch obige Anmerkung zu "Verbindung zwischen mehreren
-              Zielen".)</remark></para>
 
               <para><remark>Persönliche Signaturen: beschreiben. Kann ich nur
               den zaubern ansehen, nicht beim Analysieren der
@@ -5443,7 +5507,7 @@
           <title>Mindestwurf</title>
 
           <para><remark>NOCH ANZUGEBEN: Grundsatz, bspw. "je komplexer der
-          Prozess, desto schwieriger ist die Probe".´Anmerkung: es ist
+          Prozess, desto schwieriger ist die Probe". Anmerkung: es ist
           wahrscheinlich sinnvoll, bei Analysen den Mindestwurf nicht fix
           vorher zu bestimmen. Beispiel: Spieler will "alles herausfinden", es
           reicht aber mit 2 Erfolgen dann nicht für "Persönliche Signatur".
@@ -5470,10 +5534,13 @@
 
                   <entry>Bereich scannen<remark> (Scannen)</remark>, Zauber
                   entdecken<remark> (Scannen)</remark>, Basisangaben von
-                  Zaubern ermitteln, Nach bestimmter Objektkategorie
-                  scannen*<remark> NOCH EINZUFÜGEN: Eindeutigeres Symbol für
-                  "dies ist eine Kombination" als das simple
-                  Sternchen</remark></entry>
+                  Zaubern ermitteln, Nach bestimmter Objektkategorie scannen
+                  <inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Kombination.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
                 </row>
 
                 <row>
@@ -5489,7 +5556,13 @@
                   Zaubers, welche als Informationen in die Zaubermatrix
                   codiert werden, wieder ausgelesen werden können. Das müsste
                   man nur NOCH AUSFORMULIEREN)</remark>, Basisangaben von
-                  Artefakten ermitteln</entry>
+                  Artefakten ermitteln, Details von Objekten ermitteln
+                  <inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Kombination.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
                 </row>
 
                 <row>
@@ -5655,9 +5728,10 @@
           <itemizedlist>
             <listitem>
               <para>Passende (Magie-)Fertigkeit: Nach bestimmter
-              Objektkategorie scannen (MW 1, größere Reichweite/Wirkungsdauer
-              als "Bereich scannen"), z.B. "Lebewesen entdecken", "Gold
-              finden"; Details von Objekten ermitteln (MW 2+)</para>
+              Objektkategorie scannen<remark> (größere
+              Reichweite/Wirkungsdauer als "Bereich scannen"?)</remark>, z.B.
+              "Lebewesen entdecken", "Gold finden"; Details von Objekten
+              ermitteln</para>
             </listitem>
           </itemizedlist>
         </section>
@@ -5701,17 +5775,13 @@
             </listitem>
 
             <listitem>
-              <para>Geschwindigkeit eines bewegten Objekts erhöhen</para>
-            </listitem>
-
-            <listitem>
-              <para>Geschwindigkeit eines bewegten Objekts verringern<remark>
-              (Die aktuelle Geschwindigkeit wäre eigentlich für das Timing des
-              "Greifens" relevant - so kommt es z.B. beim Abbremsen von
-              Pfeilen auf das präzise Timing an. Eine entsprechende Regel wäre
-              allerdings ziemlich kompliziert, insbesondere weil erzählerisch
-              nicht automatisch klar ist, wie schnell ein Objekt denn jetzt
-              genau ist.)</remark></para>
+              <para>Geschwindigkeit eines bewegten Objekts erhöhen oder
+              verringern<remark> (Die aktuelle Geschwindigkeit wäre eigentlich
+              für das Timing des "Greifens" relevant - so kommt es z.B. beim
+              Abbremsen von Pfeilen auf das präzise Timing an. Eine
+              entsprechende Regel wäre allerdings ziemlich kompliziert,
+              insbesondere weil erzählerisch nicht automatisch klar ist, wie
+              schnell ein Objekt denn jetzt genau ist.)</remark></para>
             </listitem>
 
             <listitem>
@@ -5798,7 +5868,7 @@
       <section>
         <title>Telepathie <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/GE.svg"
+              <imagedata fileref="../Grafiken/Attribute/SP.svg"
                          valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
@@ -6070,7 +6140,7 @@
       <section>
         <title>Teleportation <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/MA.svg"
+              <imagedata fileref="../Grafiken/Attribute/SP.svg"
                          valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
@@ -6142,14 +6212,10 @@
 
             <listitem>
               <para>Teleportation kann sowohl für Bewegung innerhalb einer
-              Welt, auch <firstterm>Sphäre</firstterm><indexterm>
-                  <primary>Sphäre</primary>
-                </indexterm> genannt, als auch zum Wechseln zwischen
-              verschiedenen Sphären<indexterm>
-                  <primary>Sphäre</primary>
-                </indexterm> genutzt werden.<remark> Ist es auch möglich,
-              gänzlich neue Sphären zu erschaffen, oder auch einen Raum innen
-              "auszudehnen"?</remark></para>
+              Welt, auch Sphäre genannt, als auch zum Wechseln zwischen
+              verschiedenen Sphären genutzt werden.<remark> Ist es auch
+              möglich, gänzlich neue Sphären zu erschaffen, oder auch einen
+              Raum innen "auszudehnen"?</remark></para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -6314,9 +6380,95 @@
       </section>
 
       <section>
-        <title>Tote Materie</title>
+        <title>Tote, Unbelebte und Verarbeitete Materie</title>
 
-        <para/>
+        <para>Diese drei Fertigkeiten beziehen sich jeweils auf eine
+        Stoffgruppe:</para>
+
+        <para><variablelist>
+            <varlistentry>
+              <term>Tote Materie</term>
+
+              <listitem>
+                <para>Organische, nicht mehr lebendige Stoffe. Regeltechnisch
+                wird ein Körper nach dem Tod noch solange als Lebewesen
+                behandelt, bis er kalt geworden ist.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Unbelebte Materie</term>
+
+              <listitem>
+                <para>Anorganische, natürliche Stoffe außer Wasser.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Verarbeitete Materie</term>
+
+              <listitem>
+                <para>Organische oder anorganische Stoffe, welche durch
+                nicht-natürliche Prozesse hergestellt, be- oder verarbeitet
+                wurden. Durch rein mechanische Prozesse ohne chemische oder
+                magische Aspekte (z.B. Holzhacken) veränderte Objekte gelten
+                jedoch nicht als <emphasis>verarbeitet</emphasis>, sondern
+                weiterhin als <emphasis>tot</emphasis> bzw.
+                <emphasis>unbelebt</emphasis>.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Die Fertigkeiten umfassen alle Veränderungen an Form und
+        Stoffeigenschaften von Objekten der jeweiligen Stoffgruppe. Dazu
+        zählen z.B. neben einfachen Verformungen jegliche Änderungen an Farbe,
+        Oberflächenbeschaffenheit, Gewicht, Schmelz- und Siedepunkt. Des
+        weiteren können Objekte erhitzt oder abgekühlt werden.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>Attribut:</term>
+
+            <listitem>
+              <para>Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Reichweite:</term>
+
+            <listitem>
+              <para>B</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schwierigkeit:</term>
+
+            <listitem>
+              <para>Extreme Veränderungen sind schwieriger als subtile. Eine
+              vorhandene Stoffeigenschaft leicht zu verändern entspricht z.B.
+              einer Schwierigkeit von 7.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Kraftaufwand:</term>
+
+            <listitem>
+              <para>Abhängig vom Gesamtgewicht der zu verändernden
+              Materie</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Typische Effekte:</term>
+
+            <listitem>
+              <para>Festigkeit verändern, Entzünden</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
 
       <section>
@@ -6382,67 +6534,6 @@
             </listitem>
           </varlistentry>
         </variablelist>
-      </section>
-
-      <section>
-        <title>Unbelebte Materie</title>
-
-        <para>Die Fertigkeit Unbelebte Materie umfasst alle Veränderungen an
-        Form und Stoffeigenschaften von Objekten. Dazu zählen z.B. neben
-        einfachen Verformungen jegliche Änderungen an Farbe,
-        Oberflächenbeschaffenheit, Gewicht, Schmelz- und Siedepunkt. Des
-        weiteren können Objekte erhitzt oder abgekühlt werden.</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Attribut:</term>
-
-            <listitem>
-              <para>Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>B</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit:</term>
-
-            <listitem>
-              <para>Extreme Veränderungen sind schwieriger als subtile. Eine
-              vorhandene Stoffeigenschaft leicht zu verändern entspricht z.B.
-              einer Schwierigkeit von 7.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Kraftaufwand:</term>
-
-            <listitem>
-              <para>Abhängig vom Gesamtgewicht der zu verändernden
-              Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para>Festigkeit verändern, Entzünden</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
-      </section>
-
-      <section>
-        <title>Verarbeitete Materie</title>
-
-        <para/>
       </section>
 
       <section>
@@ -6573,7 +6664,8 @@
         <section>
           <title>Kombinationen</title>
 
-          <para>Spüren: Wasser lokalisieren</para>
+          <para>Spüren: Wasser lokalisieren<remark> (NOCH ZU ENTSCHEIDEN: hier
+          UND bei spüren oder nur dort?)</remark></para>
         </section>
       </section>
 
@@ -6588,7 +6680,7 @@
               <term>Attribut:</term>
 
               <listitem>
-                <para>Materie &amp; Energie</para>
+                <para>Sphäre</para>
               </listitem>
             </varlistentry>
           </variablelist></para>
