@@ -3939,13 +3939,9 @@
       linkend="kraftwiderstandswurf" xrefstyle="page"/>) einzusetzen.</para>
 
       <para><remark>NOCH UNTERZUBRINGEN: Neue Reichweitenregelung, alter Text:
-      Bei der Ermittlung der Schwierigkeit wird die
-      Reichweitenklasse<indexterm>
-          <primary>Reichweite</primary>
-
-          <secondary>Fernkampf</secondary>
-        </indexterm> der Magiefertigkeit mit angerechnet, falls beim Zauber
-      nichts anderes angegeben ist. Dies geschieht analog zu <xref
+      Bei der Ermittlung der Schwierigkeit wird die Reichweitenklasse der
+      Magiefertigkeit mit angerechnet, falls beim Zauber nichts anderes
+      angegeben ist. Dies geschieht analog zu <xref
       linkend="fernkampf"/>.</remark></para>
 
       <para>Gelingt die Probe, erhält der Charakter für jeden Erfolg, welcher
