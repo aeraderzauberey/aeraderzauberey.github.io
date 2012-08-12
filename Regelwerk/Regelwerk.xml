@@ -408,7 +408,7 @@
         linkend="fertigkeitssystem"/>.</para>
 
         <section>
-          <title>Talente</title>
+          <title>Basisfertigkeiten</title>
 
           <informaltable role="breakable">
             <tgroup cols="3">
@@ -429,6 +429,19 @@
               </thead>
 
               <tbody>
+                <row>
+                  <entry>Allgemeinbildung [Region, Stadt/Land]</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Das in der jeweiligen Region in der Stadt bzw. auf
+                  dem Land übliche Wissen </entry>
+                </row>
+
+                <row>
+                  <entry>Erste Hilfe</entry>
+                </row>
+
                 <row>
                   <entry>Heimlichkeit</entry>
 
@@ -465,128 +478,6 @@
                 </row>
 
                 <row>
-                  <entry>Reiten</entry>
-
-                  <entry>GW</entry>
-
-                  <entry/>
-                </row>
-
-                <row>
-                  <entry>Schwimmen</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Alles, was über bloßes „über Wasser halten“
-                  hinausgeht: Tauchen, Ausweichen; auch Maß für
-                  Schnelligkeit</entry>
-                </row>
-
-                <row>
-                  <entry>Sinnesschärfe</entry>
-
-                  <entry>IN</entry>
-
-                  <entry>Genauigkeit sämtlicher Sinneswahrnehmungen;
-                  Aufmerksamkeit</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
-        </section>
-
-        <section>
-          <title>Wissen</title>
-
-          <informaltable role="breakable">
-            <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*"/>
-
-              <colspec align="center" colnum="2" colwidth="3*"/>
-
-              <colspec colnum="3" colwidth="12*"/>
-
-              <thead>
-                <row>
-                  <entry>Fertigkeit</entry>
-
-                  <entry>Attribut</entry>
-
-                  <entry>Kurzbeschreibung</entry>
-                </row>
-              </thead>
-
-              <tbody>
-                <row>
-                  <entry>Etikette</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>„Gute Manieren“, Verhalten am Hofe, Anreden &amp;
-                  Titel, höfische Tänze</entry>
-                </row>
-
-                <row>
-                  <entry>Geographie</entry>
-
-                  <entry>KL</entry>
-
-                  <entry/>
-                </row>
-
-                <row>
-                  <entry>Geschichte</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Wissen über wichtige historische Ereignisse und
-                  Entwicklungen</entry>
-                </row>
-
-                <row>
-                  <entry>Kriegskunst</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Taktik und Strategie, Truppen kommandieren und
-                  motivieren</entry>
-                </row>
-
-                <row>
-                  <entry>Kochen</entry>
-
-                  <entry>IN</entry>
-
-                  <entry/>
-                </row>
-
-                <row>
-                  <entry>Lesen &amp; Schreiben</entry>
-
-                  <entry>KL</entry>
-
-                  <entry/>
-                </row>
-
-                <row>
-                  <entry>Magiekunde</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
-                  Gruppierungen …)</entry>
-                </row>
-
-                <row>
-                  <entry>Medizin</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>bei 1 oder 2 = Erste Hilfe, später echter
-                  Medicus</entry>
-                </row>
-
-                <row>
                   <entry>Menschenkenntnis</entry>
 
                   <entry>IN</entry>
@@ -604,21 +495,13 @@
                 </row>
 
                 <row>
-                  <entry>Religionskunde</entry>
+                  <entry>Schwimmen</entry>
 
-                  <entry>KL</entry>
+                  <entry>GW</entry>
 
-                  <entry>Kenntnisse in Glaubensrichtungen, Kulten, Traditionen
-                  und kirchlichen Organisationen</entry>
-                </row>
-
-                <row>
-                  <entry>Sprachen</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Pro Punkt beherrscht man eine zusätzliche
-                  Sprache</entry>
+                  <entry>Alles, was über bloßes „über Wasser halten“
+                  hinausgeht: Tauchen, Ausweichen; auch Maß für
+                  Schnelligkeit</entry>
                 </row>
 
                 <row>
@@ -628,6 +511,15 @@
 
                   <entry>Erkennen verschiedener Tierarten, Wissen um deren
                   Verhalten und Verbreitung</entry>
+                </row>
+
+                <row>
+                  <entry>Wahrnehmung</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Genauigkeit sämtlicher Sinneswahrnehmungen;
+                  Aufmerksamkeit</entry>
                 </row>
 
                 <row>
@@ -644,7 +536,7 @@
         </section>
 
         <section>
-          <title>Kampf</title>
+          <title>Kampffertigkeiten</title>
 
           <informaltable role="breakable">
             <tgroup cols="3">
@@ -695,9 +587,139 @@
                   <entry>Schnelles Reagieren. Fließt in den
                   Initiativebasiswert ein</entry>
                 </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+
+        <section>
+          <title>Fertigkeitengruppen</title>
+
+          <informaltable role="breakable">
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="5*"/>
+
+              <colspec align="center" colnum="2" colwidth="3*"/>
+
+              <colspec colnum="3" colwidth="12*"/>
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry><emphasis>Fernkampfwaffe</emphasis></entry>
+
+                  <entry>FF</entry>
+
+                  <entry>Jeweils eine Fertigkeit pro Waffengruppe (entspricht
+                  den Überschriften bei <xref linkend="waffen"/>)</entry>
+                </row>
 
                 <row>
-                  <entry>Raufen</entry>
+                  <entry><emphasis>Nahkampfwaffe</emphasis></entry>
+
+                  <entry>GW</entry>
+
+                  <entry>Jeweils eine Fertigkeit pro Waffengruppe (entspricht
+                  den Überschriften bei <xref linkend="waffen"/>)</entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Sprache</emphasis> (mündlich)</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Jeweils eine Fertigkeit pro Sprache</entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Sprache</emphasis> (schriftlich)</entry>
+
+                  <entry>FF<remark> beim Schreiben</remark> / KL<remark> beim
+                  Lesen</remark></entry>
+
+                  <entry>Jeweils eine Fertigkeit pro Sprache</entry>
+                </row>
+
+                <row>
+                  <entry><emphasis>Waffenlose Kampftechnik</emphasis></entry>
+
+                  <entry>GW</entry>
+
+                  <entry>Jeweils eine Fertigkeit pro Technik, verfügbare
+                  Techniken je nach Setting und Charakterhintergrund</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </section>
+
+        <section>
+          <title>Typische Berufsfertigkeiten</title>
+
+          <informaltable role="breakable">
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="5*"/>
+
+              <colspec align="center" colnum="2" colwidth="3*"/>
+
+              <colspec colnum="3" colwidth="12*"/>
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Gaukelei</entry>
+                </row>
+
+                <row>
+                  <entry>Jagdwesen</entry>
+                </row>
+
+                <row>
+                  <entry>Kochkunst</entry>
+
+                  <entry>IN</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>Kriegskunst</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Taktik und Strategie, Truppen kommandieren und
+                  motivieren</entry>
+                </row>
+
+                <row>
+                  <entry>Magiekunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
+                  Gruppierungen …)</entry>
+                </row>
+
+                <row>
+                  <entry>Reitkunst</entry>
 
                   <entry>GW</entry>
 
@@ -705,24 +727,13 @@
                 </row>
 
                 <row>
-                  <entry><emphasis>(Nahkampffertigkeit)</emphasis></entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Jeweils eine Fertigkeit pro Waffengruppe
-                  (siehe</entry>
-                </row>
-
-                <row>
-                  <entry><emphasis>(Fernkampffertigkeit)</emphasis></entry>
-
-                  <entry>FF</entry>
-
-                  <entry><xref linkend="waffen"/>)</entry>
+                  <entry>Schauspielerei</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
+
+          <para>Siehe auch den Anhang <xref linkend="SonstigeBerufe"/>.</para>
         </section>
       </section>
 
@@ -933,6 +944,8 @@
           <primary>Attribut</primary>
         </indexterm>, Fertigkeiten<indexterm>
           <primary>Fertigkeit</primary>
+        </indexterm>, Spezialisierungen<indexterm>
+          <primary>Spezialisierung</primary>
         </indexterm> und gegebenenfalls Sonderfertigkeiten<indexterm>
           <primary>Sonderfertigkeit</primary>
         </indexterm>. Zum Abschluss bestimmt er noch den Initiativebasiswert
@@ -948,8 +961,10 @@
         Ausbildung des Charakters symbolisieren. Der Spieler kann mit diesen
         Erfahrungspunkten Attribute<indexterm>
             <primary>Attribut</primary>
-          </indexterm> und Fertigkeiten<indexterm>
+          </indexterm>, Fertigkeiten<indexterm>
             <primary>Fertigkeit</primary>
+          </indexterm> und Spezialisierungen<indexterm>
+            <primary>Spezialisierung</primary>
           </indexterm> kaufen.</para>
 
         <para>Der Spielleiter kann für seine Spielrunde die EP-Anzahl frei
@@ -992,16 +1007,18 @@
         dieselben.</para>
 
         <informaltable>
-          <tgroup align="center" cols="5">
-            <colspec colwidth="6*"/>
+          <tgroup align="center" cols="6">
+            <colspec colwidth="4*"/>
 
             <colspec colwidth="2*"/>
 
-            <colspec colname="attribut" colwidth="4*"/>
+            <colspec colname="attribut" colwidth="3*"/>
 
-            <colspec colname="fertigkeit" colwidth="4*"/>
+            <colspec colname="fertigkeit" colwidth="3*"/>
 
-            <colspec colwidth="6*"/>
+            <colspec colname="spezialisierung" colwidth="3*"/>
+
+            <colspec colwidth="4*"/>
 
             <thead>
               <row>
@@ -1009,7 +1026,7 @@
 
                 <entry>Punkte</entry>
 
-                <entry nameend="fertigkeit"
+                <entry nameend="spezialisierung"
                 namest="attribut">Erfahrungspunktkosten</entry>
 
                 <entry/>
@@ -1023,6 +1040,8 @@
                 <entry>Attribut</entry>
 
                 <entry>Fertigkeit</entry>
+
+                <entry>Spezialisierung</entry>
 
                 <entry/>
               </row>
@@ -1038,6 +1057,8 @@
 
                 <entry>4</entry>
 
+                <entry>2</entry>
+
                 <entry/>
               </row>
 
@@ -1049,6 +1070,8 @@
                 <entry>15</entry>
 
                 <entry>6</entry>
+
+                <entry>3</entry>
 
                 <entry/>
               </row>
@@ -1062,6 +1085,8 @@
 
                 <entry>10</entry>
 
+                <entry>5</entry>
+
                 <entry/>
               </row>
 
@@ -1073,6 +1098,8 @@
                 <entry>40</entry>
 
                 <entry>16</entry>
+
+                <entry>8</entry>
 
                 <entry/>
               </row>
@@ -1086,6 +1113,8 @@
 
                 <entry>24</entry>
 
+                <entry>-</entry>
+
                 <entry/>
               </row>
 
@@ -1097,6 +1126,8 @@
                 <entry>85</entry>
 
                 <entry>34</entry>
+
+                <entry>-</entry>
 
                 <entry/>
               </row>
@@ -1110,6 +1141,8 @@
 
                 <entry>46</entry>
 
+                <entry>-</entry>
+
                 <entry/>
               </row>
 
@@ -1121,6 +1154,8 @@
                 <entry>150</entry>
 
                 <entry>60</entry>
+
+                <entry>-</entry>
 
                 <entry/>
               </row>
@@ -1155,21 +1190,21 @@
                 <row>
                   <entry role="non-head">Eigenschaft</entry>
 
-                  <entry colname="1">1</entry>
+                  <entry>1</entry>
 
-                  <entry colname="2">2</entry>
+                  <entry>2</entry>
 
-                  <entry colname="3">3</entry>
+                  <entry>3</entry>
 
-                  <entry colname="4">4</entry>
+                  <entry>4</entry>
 
-                  <entry colname="5">5</entry>
+                  <entry>5</entry>
 
-                  <entry colname="6">6</entry>
+                  <entry>6</entry>
 
-                  <entry colname="7">7</entry>
+                  <entry>7</entry>
 
-                  <entry colname="8">8</entry>
+                  <entry>8</entry>
                 </row>
               </thead>
 
@@ -1200,6 +1235,14 @@
                   <entry nameend="7" namest="6">Meisterlich</entry>
 
                   <entry>Berühmt</entry>
+                </row>
+
+                <row>
+                  <entry>Spezialisierung</entry>
+
+                  <entry nameend="2" namest="1">Fachkenntnisse</entry>
+
+                  <entry nameend="4" namest="3">Spezialist</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -1542,7 +1585,7 @@
       kostet z.B. 6 EP, eine Fertigkeit von 3 auf 4 zu steigern.</para>
 
       <informaltable>
-        <tgroup align="center" cols="3">
+        <tgroup align="center" cols="4">
           <colspec colwidth="*"/>
 
           <colspec colwidth="*"/>
@@ -1560,6 +1603,8 @@
               <entry>Attribut</entry>
 
               <entry>Fertigkeit</entry>
+
+              <entry>Spezialisierung</entry>
             </row>
           </thead>
 
@@ -1570,6 +1615,8 @@
               <entry>10</entry>
 
               <entry>4</entry>
+
+              <entry>2</entry>
             </row>
 
             <row>
@@ -1578,6 +1625,8 @@
               <entry>Bisherige Punkte * 5</entry>
 
               <entry>Bisherige Punkte * 2</entry>
+
+              <entry>Bisherige Punkte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -7911,6 +7960,258 @@
               <entry>13</entry>
 
               <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </sect1>
+
+    <sect1 xml:id="SonstigeBerufe">
+      <title>Sonstige Berufsfertigkeiten</title>
+
+      <informaltable role="breakable">
+        <tgroup cols="3">
+          <colspec colnum="1" colwidth="5*"/>
+
+          <colspec align="center" colnum="2" colwidth="3*"/>
+
+          <colspec colnum="3" colwidth="12*"/>
+
+          <thead>
+            <row>
+              <entry>Fertigkeit</entry>
+
+              <entry>Attribut</entry>
+
+              <entry>Kurzbeschreibung</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Architektur</entry>
+
+              <entry>KL</entry>
+
+              <entry>Architekturgeschichte, Bauleitung, Planung &amp; Bau von
+              Brücken/Festungen/Gärten/Sakralbauten/Straßen/Wasserstraßen/Wohngebäuden</entry>
+            </row>
+
+            <row>
+              <entry>Astronomie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Astrologie<remark> (aufgrund der historischen
+              Einordnung)</remark>, Astrometrie, Himmelsmechanik (z.B.
+              Berechnung von Kalendern)</entry>
+            </row>
+
+            <row>
+              <entry>Belagerung</entry>
+
+              <entry>KL</entry>
+
+              <entry>Bedienung von Artilleriewaffen/Belagerungswaffen
+              (Ballista, Katapult), Mauerbrechen, Erstürmen von
+              Festungsanlagen, Unterminieren von Befestigungen</entry>
+            </row>
+
+            <row>
+              <entry>Bergbau</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Anlage, Sicherung und Abbau von Tagebauen/Tiefbauen;
+              Anlage und Bau von Tunneln, Auffinden und Bewerten von
+              Lagerstätten</entry>
+            </row>
+
+            <row>
+              <entry>Chemie</entry>
+
+              <entry>FF</entry>
+
+              <entry>Alchemie, Chemische Analyse, Pyrotechnik, Herstellung von
+              Arzneien</entry>
+            </row>
+
+            <row>
+              <entry>Chirurgie</entry>
+
+              <entry>FF</entry>
+
+              <entry>Invasive Behandlung von Skelett und Organen,
+              Traumatologie, Foltern</entry>
+            </row>
+
+            <row>
+              <entry>Feinmechanik</entry>
+
+              <entry>FF</entry>
+
+              <entry>Büchsenmacher, Herstellung von Munition und Sprengsätzen,
+              Schlosserei, Uhrmacherei</entry>
+            </row>
+
+            <row>
+              <entry>Fischerei</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Binnenfischerei, Perlenzucht, Seefischerei,
+              Walfang</entry>
+            </row>
+
+            <row>
+              <entry>Geodäsie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Erstellung und Interpretation von Landkarten,
+              Landvermessung, Navigation</entry>
+            </row>
+
+            <row>
+              <entry>Gesteinskunde</entry>
+
+              <entry>KL</entry>
+
+              <entry>Kenntnis vom Aufbau des Gesteins, Kristallzucht, Kenntnis
+              von Mineralen und ihrer Verwendung, Höhlenkunde</entry>
+            </row>
+
+            <row>
+              <entry>Geschichtskunde</entry>
+
+              <entry>KL</entry>
+
+              <entry>Wissen über wichtige historische Ereignisse und
+              Entwicklungen</entry>
+            </row>
+
+            <row>
+              <entry>Glasmacherei</entry>
+
+              <entry>FF</entry>
+
+              <entry>Buntglaser, Glasbläser, Herstellung künstlicher
+              Edelsteine, Bau optischer Instrumente</entry>
+            </row>
+
+            <row>
+              <entry>Heraldik</entry>
+
+              <entry>KL</entry>
+
+              <entry>Abstammung einflussreicher Personen, Wappenzeichen und
+              ihre Verwendung, Kenntnis von Münzen und Zahlungsmitteln,
+              Siegelkunde</entry>
+            </row>
+
+            <row>
+              <entry>Holzbearbeitung</entry>
+
+              <entry>FF</entry>
+
+              <entry>Dachdecker, Drechseln, Korbflechten, Schnitzen,
+              Tischlerei, Zimmerei</entry>
+            </row>
+
+            <row>
+              <entry>Instrumentenbau</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Juwelierskunst</entry>
+            </row>
+
+            <row>
+              <entry>Keramik</entry>
+            </row>
+
+            <row>
+              <entry>Kosmetik</entry>
+            </row>
+
+            <row>
+              <entry>Landwirtschaft</entry>
+            </row>
+
+            <row>
+              <entry>Lederarbeiten</entry>
+
+              <entry>FF</entry>
+
+              <entry>Buchbinderei, Gerberei, Kürschnerei, Pergamentmacherei,
+              Schuhmacherei</entry>
+            </row>
+
+            <row>
+              <entry>Mathematik</entry>
+            </row>
+
+            <row>
+              <entry>Mechanik</entry>
+            </row>
+
+            <row>
+              <entry>Medizin</entry>
+
+              <entry>KL</entry>
+            </row>
+
+            <row>
+              <entry>Metallurgie</entry>
+            </row>
+
+            <row>
+              <entry>Ökonomie</entry>
+            </row>
+
+            <row>
+              <entry>Philosophie</entry>
+            </row>
+
+            <row>
+              <entry>Rechtskunde</entry>
+            </row>
+
+            <row>
+              <entry>Schifffahrt</entry>
+            </row>
+
+            <row>
+              <entry>Schmiedekunst</entry>
+            </row>
+
+            <row>
+              <entry>Steinbearbeitung</entry>
+            </row>
+
+            <row>
+              <entry>Textilfabrikation</entry>
+            </row>
+
+            <row>
+              <entry>Textilverarbeitung</entry>
+            </row>
+
+            <row>
+              <entry>Theologie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Kenntnisse in Glaubensrichtungen, Kulten, Traditionen und
+              kirchlichen Organisationen</entry>
+            </row>
+
+            <row>
+              <entry>Wasserfahrzeugbau</entry>
             </row>
           </tbody>
         </tgroup>
