@@ -91,18 +91,28 @@
     <section>
       <title>Eigenschaften</title>
 
-      <para>Charaktere werden durch zwei Typen von Eigenschaften beschrieben:
+      <para>Charaktere werden durch drei Typen von Eigenschaften beschrieben:
       Attribute<indexterm>
+          <primary>Attribut</primary>
+        </indexterm>, Fertigkeiten<indexterm significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> und Spezialisierungen<indexterm significance="preferred">
+          <primary>Spezialisierung</primary>
+        </indexterm>.</para>
+
+      <para>Ein Charakter besitzt in jeder seiner Eigenschaften eine bestimmte
+      Anzahl Punkte: bei Attributen<indexterm>
           <primary>Attribut</primary>
         </indexterm> und Fertigkeiten<indexterm significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm>.</para>
-
-      <para>Ein Charakter besitzt in jeder seiner Eigenschaften 1 bis 8
-      Punkte. Bei Proben<indexterm significance="preferred">
+        </indexterm> bis zu 8, bei Spezialisierungen<indexterm
+          significance="preferred">
+          <primary>Spezialisierung</primary>
+        </indexterm> bis zu 4 Punkte. Bei Proben<indexterm
+          significance="preferred">
           <primary>Probe</primary>
-        </indexterm> auf die jeweilige Eigenschaft steht ihm eine Anzahl
-      Würfel in Höhe seiner Punkte zur Verfügung (siehe <xref
+        </indexterm> steht ihm eine Anzahl Würfel in Höhe der Punkte der
+      jeweils eingesetzen Eigenschaft(en) zur Verfügung (siehe <xref
       linkend="proben"/>).</para>
 
       <section>
@@ -294,7 +304,7 @@
                 <entry>IN</entry>
 
                 <entry>Instinktives Erfassen, schnelles Entscheiden,
-                Improvisation, Aufmerksamkeit, Initiative im Kampf</entry>
+                Feingefühl, Aufmerksamkeit, Initiative im Kampf</entry>
               </row>
 
               <row valign="middle">
@@ -369,43 +379,13 @@
             significance="preferred">
             <primary>Fertigkeit</primary>
           </indexterm> repräsentieren die individuellen Kenntnisse und
-        Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Jede
-        Fertigkeit<indexterm>
-            <primary>Fertigkeit</primary>
-          </indexterm> ist dabei einem Attribut zugeordnet, das bei
+        Fähigkeiten eines Charakters auf dem jeweiligen Gebiet. Für
         Proben<indexterm significance="preferred">
             <primary>Probe</primary>
-          </indexterm> eine Rolle spielt (siehe <xref
-        linkend="proben"/>).</para>
-
-        <para>Aera der Zauberey verwendet im Gegensatz zu den meisten anderen
-        Regelwerken kein abgeschlossenes Fertigkeitssystem<indexterm
-            significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm>. Ein solches System, welches mit einer sinnvollen
-        Anzahl Fertigkeiten<indexterm significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm> alle relevanten Fähigkeiten abdeckt und sie dennoch
-        adäquat ausdifferenziert, ist schlicht nicht machbar.</para>
-
-        <para>Daher verzichtet Aera der Zauberey auf eine abgeschlossene Liste
-        von Fertigkeiten<indexterm significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm>. Stattdessen ist unten — zur Orientierung grob
-        eingeteilt in die Bereiche „Talente“, „Wissen“ und „Kampf“ — nur ein
-        Standardsatz von Fertigkeiten<indexterm significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm> aufgeführt, welche häufig in Rollenspielen verwendet
-        werden und über die jeder Spieler bei der Charaktererschaffung
-        zumindest nachgedacht haben sollte. Spielleiter und Spieler sind
-        aufgefordert, je nach Bedarf weitere, auch spezialisierte
-        Fertigkeiten<indexterm significance="preferred">
-            <primary>Fertigkeit</primary>
-          </indexterm> hinzuzufügen. So kann ein Charakter beispielsweise
-        statt der groben Fertigkeit <emphasis>Schifffahrt</emphasis> die
-        speziellere Fertigkeit <emphasis>Segeln</emphasis> besitzen.
-        Weiterführende Informationen dazu finden Sie im Anhang <xref
-        linkend="fertigkeitssystem"/>.</para>
+          </indexterm> werden Fertigkeiten mit einem zur jeweiligen Situation
+        passenden Attribut kombiniert. Zur Orientierung sind in den unten
+        stehenden Tabellen auch Attribute angegeben, mit denen die jeweilige
+        Fertigkeit häufig kombiniert wird.</para>
 
         <section>
           <title>Basisfertigkeiten</title>
@@ -434,12 +414,18 @@
 
                   <entry>KL</entry>
 
-                  <entry>Das in der jeweiligen Region in der Stadt bzw. auf
-                  dem Land übliche Wissen </entry>
+                  <entry>Das in einer Bevölkerungsschicht übliche Wissen, z.B.
+                  „<emphasis>Allgemeinbildung (Mitteleuropa,
+                  Stadt)</emphasis>”.</entry>
                 </row>
 
                 <row>
                   <entry>Erste Hilfe</entry>
+
+                  <entry>FF</entry>
+
+                  <entry>Versorgen von Wunden, Stabilisieren kritisch
+                  Verletzter</entry>
                 </row>
 
                 <row>
@@ -663,6 +649,196 @@
         </section>
 
         <section>
+          <title>Magiefertigkeiten</title>
+
+          <informaltable role="breakable">
+            <tgroup cols="3">
+              <colspec colwidth="5*"/>
+
+              <colspec align="center" colwidth="3*"/>
+
+              <colspec colwidth="12*"/>
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Lebewesen</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Veränderungen aller Art an beliebigen
+                  Lebewesen</entry>
+                </row>
+
+                <row>
+                  <entry>Luft</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Eigenschaften von Luft verändern, Barrieren
+                  erschaffen, Schall beeinflussen</entry>
+                </row>
+
+                <row>
+                  <entry>Tote Materie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Ehemals lebendiges Material beeinflussen</entry>
+                </row>
+
+                <row>
+                  <entry>Umwandlung</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Einen Stoff durch einen anderen ersetzen</entry>
+                </row>
+
+                <row>
+                  <entry>Unbelebte Materie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Anorganische Stoffe beeinflussen</entry>
+                </row>
+
+                <row>
+                  <entry>Verarbeitete Materie</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Bearbeitete und künstliche Stoffe
+                  beeinflussen</entry>
+                </row>
+
+                <row>
+                  <entry>Wasser</entry>
+
+                  <entry>MA</entry>
+
+                  <entry>Wasser in allen Aggregatzuständen
+                  beeinflussen</entry>
+                </row>
+
+                <row>
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>Elektrizität</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>Erzeugen und Beeinflussen von elektrischen Ladungen
+                  und Blitzen</entry>
+                </row>
+
+                <row>
+                  <entry>Kraftmanipulation</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>Antimagie, Orte oder Personen dämpfen, gemeinsames
+                  Zaubern</entry>
+                </row>
+
+                <row>
+                  <entry>Licht</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>Licht erschaffen, manipulieren und absorbieren sowie
+                  Illusionen erzeugen</entry>
+                </row>
+
+                <row>
+                  <entry>Spüren</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>Magische Sinneseindrücke empfangen sowie Zauber und
+                  Auren analysieren</entry>
+                </row>
+
+                <row>
+                  <entry>Telekinese</entry>
+
+                  <entry>EN</entry>
+
+                  <entry>Objekte und Personen bewegen, Bewegung
+                  unterbinden</entry>
+                </row>
+
+                <row>
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry>Artefaktmagie</entry>
+
+                  <entry>SP</entry>
+
+                  <entry>Speichern von Zaubern in Objekten</entry>
+                </row>
+
+                <row>
+                  <entry>Geistmanipulation</entry>
+
+                  <entry>SP</entry>
+
+                  <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
+                  manipulieren</entry>
+                </row>
+
+                <row>
+                  <entry>Telepathie</entry>
+
+                  <entry>SP</entry>
+
+                  <entry>Mentale Kommunikation mit anderen Personen und
+                  Tieren</entry>
+                </row>
+
+                <row>
+                  <entry>Teleportation</entry>
+
+                  <entry>SP</entry>
+
+                  <entry>Personen und Objekte teleportieren, Tore zu anderen
+                  Orten öffnen</entry>
+                </row>
+
+                <row>
+                  <entry>Zeitmanipulation</entry>
+
+                  <entry>SP</entry>
+
+                  <entry>Zeit beschleunigen und verlangsamen,
+                  Zeitreisen</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <para>Details zur Abgrenzung der einzelnen Fertigkeiten<indexterm
+              significance="preferred">
+              <primary>Magiefertigkeit</primary>
+            </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
+          Spiel finden sich ab <xref linkend="magiefertigkeiten"
+          xrefstyle="page"/>.</para>
+        </section>
+
+        <section>
           <title>Typische Berufsfertigkeiten</title>
 
           <informaltable role="breakable">
@@ -686,10 +862,22 @@
               <tbody>
                 <row>
                   <entry>Gaukelei</entry>
+
+                  <entry>FF / GW</entry>
+
+                  <entry>Unterhaltung eines Publikums insb. durch Bauchreden,
+                  Entfesselung, Jonglage, Puppenspiel, Taschenspielerei;
+                  umfasst auch Falschspiel und Taschendiebstahl</entry>
                 </row>
 
                 <row>
                   <entry>Jagdwesen</entry>
+
+                  <entry>GW</entry>
+
+                  <entry>Fallenstellen, Einzeljagd, Durchführen von
+                  Gesellschaftsjagden, Aufzucht und Einsatz von Greifvögeln
+                  für Jagdzwecke</entry>
                 </row>
 
                 <row>
@@ -697,7 +885,9 @@
 
                   <entry>IN</entry>
 
-                  <entry/>
+                  <entry>Herstellung verschiedener Lebensmittel durch Kochen,
+                  Bäckerei und Konditorei, Molkerei, Brauerei,
+                  Brennerei</entry>
                 </row>
 
                 <row>
@@ -723,11 +913,19 @@
 
                   <entry>GW</entry>
 
-                  <entry/>
+                  <entry>Beherrschen von Reittieren, Führen und Warten von
+                  Fuhrwerken, aber auch das Führen von Nahkampf- und
+                  Fernkampfwaffen während des Reitens sowie
+                  Lanzenreiten.</entry>
                 </row>
 
                 <row>
                   <entry>Schauspielerei</entry>
+
+                  <entry>CH</entry>
+
+                  <entry>Bühnenschauspiel, Vortrag von Lyrik und
+                  Märchen</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -738,201 +936,22 @@
       </section>
 
       <section>
-        <title>Magiefertigkeiten</title>
+        <title>Spezialisierungen</title>
 
-        <para>Die magischen Fähigkeiten eines Charakters sind in drei Bereiche
-        unterteilt: <emphasis>Materie</emphasis><indexterm>
-            <primary>Materie</primary>
-          </indexterm>, <emphasis>Energie</emphasis><indexterm>
-            <primary>Energie</primary>
-          </indexterm> und <emphasis>Sphäre</emphasis><indexterm>
-            <primary>Sphäre</primary>
-          </indexterm>. Jede Magiefertigkeit<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> ist einem dieser Attribute fest zugeordnet.</para>
+        <para>Die oben aufgeführten Fertigkeiten sind bewusst grob gehalten,
+        um mit einer überschaubaren Anzahl von Spielwerten einen sinnvollen
+        Bereich von Fähigkeiten ausdrücken zu können. Eine wirklich adäquate
+        Ausdifferenzierung ist damit jedoch oft nicht möglich.</para>
 
-        <para>Details zur Abgrenzung der einzelnen Fertigkeiten<indexterm
-            significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
-        Spiel finden sich ab <xref linkend="magiefertigkeiten"
-        xrefstyle="page"/>.</para>
+        <para>Diese Lücke wird durch Spezialisierungen gefüllt. Bei der
+        Charaktererschaffung einigen sich Spieler und Spielleiter auf einen
+        Satz von Spezialisierungen, welche die Fähigkeiten des Charakters
+        präzisieren. In diesem Regelwerk gibt es keine Liste von möglichen
+        Spezialisierungen; Hinweise dazu liefern jedoch meist die
+        Beschreibungen der jeweiligen Fertigkeiten.</para>
 
-        <informaltable role="breakable">
-          <tgroup cols="3">
-            <colspec colwidth="5*"/>
-
-            <colspec align="center" colwidth="3*"/>
-
-            <colspec colwidth="12*"/>
-
-            <thead>
-              <row>
-                <entry>Fertigkeit</entry>
-
-                <entry>Attribut</entry>
-
-                <entry>Kurzbeschreibung</entry>
-              </row>
-            </thead>
-
-            <tbody>
-              <row>
-                <entry>Lebewesen</entry>
-
-                <entry>MA</entry>
-
-                <entry>Veränderungen aller Art an beliebigen Lebewesen</entry>
-              </row>
-
-              <row>
-                <entry>Luft</entry>
-
-                <entry>MA</entry>
-
-                <entry>Eigenschaften von Luft verändern, Barrieren erschaffen,
-                Schall beeinflussen</entry>
-              </row>
-
-              <row>
-                <entry>Tote Materie</entry>
-
-                <entry>MA</entry>
-
-                <entry>Ehemals lebendiges Material beeinflussen</entry>
-              </row>
-
-              <row>
-                <entry>Umwandlung</entry>
-
-                <entry>MA</entry>
-
-                <entry>Einen Stoff durch einen anderen ersetzen</entry>
-              </row>
-
-              <row>
-                <entry>Unbelebte Materie</entry>
-
-                <entry>MA</entry>
-
-                <entry>Anorganische Stoffe beeinflussen</entry>
-              </row>
-
-              <row>
-                <entry>Verarbeitete Materie</entry>
-
-                <entry>MA</entry>
-
-                <entry>Bearbeitete und künstliche Stoffe beeinflussen</entry>
-              </row>
-
-              <row>
-                <entry>Wasser</entry>
-
-                <entry>MA</entry>
-
-                <entry>Wasser in allen Aggregatzuständen beeinflussen</entry>
-              </row>
-
-              <row>
-                <entry/>
-              </row>
-
-              <row>
-                <entry>Elektrizität</entry>
-
-                <entry>EN</entry>
-
-                <entry>Erzeugen und Beeinflussen von elektrischen Ladungen und
-                Blitzen</entry>
-              </row>
-
-              <row>
-                <entry>Kraftmanipulation</entry>
-
-                <entry>EN</entry>
-
-                <entry>Antimagie, Orte oder Personen dämpfen, gemeinsames
-                Zaubern</entry>
-              </row>
-
-              <row>
-                <entry>Licht</entry>
-
-                <entry>EN</entry>
-
-                <entry>Licht erschaffen, manipulieren und absorbieren sowie
-                Illusionen erzeugen</entry>
-              </row>
-
-              <row>
-                <entry>Spüren</entry>
-
-                <entry>EN</entry>
-
-                <entry>Magische Sinneseindrücke empfangen sowie Zauber und
-                Auren analysieren</entry>
-              </row>
-
-              <row>
-                <entry>Telekinese</entry>
-
-                <entry>EN</entry>
-
-                <entry>Objekte und Personen bewegen, Bewegung
-                unterbinden</entry>
-              </row>
-
-              <row>
-                <entry/>
-              </row>
-
-              <row>
-                <entry>Artefaktmagie</entry>
-
-                <entry>SP</entry>
-
-                <entry>Speichern von Zaubern in Objekten</entry>
-              </row>
-
-              <row>
-                <entry>Geistmanipulation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Emotionen, Wahrnehmung, Gedanken und Erinnerungen
-                manipulieren</entry>
-              </row>
-
-              <row>
-                <entry>Telepathie</entry>
-
-                <entry>SP</entry>
-
-                <entry>Mentale Kommunikation mit anderen Personen und
-                Tieren</entry>
-              </row>
-
-              <row>
-                <entry>Teleportation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Personen und Objekte teleportieren, Tore zu anderen
-                Orten öffnen</entry>
-              </row>
-
-              <row>
-                <entry>Zeitmanipulation</entry>
-
-                <entry>SP</entry>
-
-                <entry>Zeit beschleunigen und verlangsamen, Zeitreisen</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </informaltable>
+        <para>Jede Spezialisierung ist dabei einer Fertigkeit zugeordnet, die
+        der Charakter jedoch nicht besitzen muss.</para>
       </section>
     </section>
 
@@ -952,7 +971,7 @@
       und die individuelle Höhe seiner Verletzungsmali.</para>
 
       <section>
-        <title>Attribute und Fertigkeiten</title>
+        <title>Attribute, Fertigkeiten und Spezialisierungen</title>
 
         <para>Für die Charaktererschaffung steht dem Spieler eine gewisse
         Anzahl von <firstterm>Erfahrungspunkten</firstterm><indexterm>
@@ -988,7 +1007,8 @@
 
           <listitem>
             <para>Es können pro Attribut oder Fertigkeit höchstens 6 Punkte
-            gekauft werden.</para>
+            gekauft werden, für Spezialisierungen gilt keine Beschränkung bei
+            der Charaktererschaffung.</para>
           </listitem>
 
           <listitem>
@@ -1016,7 +1036,7 @@
 
             <colspec colname="fertigkeit" colwidth="3*"/>
 
-            <colspec colname="spezialisierung" colwidth="3*"/>
+            <colspec colname="spezialisierung" colwidth="5*"/>
 
             <colspec colwidth="4*"/>
 
@@ -1168,7 +1188,7 @@
 
         <para><informaltable>
             <tgroup cols="9">
-              <colspec colwidth="13*"/>
+              <colspec colwidth="15*"/>
 
               <colspec align="center" colname="1" colwidth="13*"/>
 
@@ -1178,11 +1198,11 @@
 
               <colspec align="center" colname="4" colwidth="10*"/>
 
-              <colspec align="center" colname="5" colwidth="10*"/>
+              <colspec align="center" colname="5" colwidth="8*"/>
 
-              <colspec align="center" colname="6" colwidth="10*"/>
+              <colspec align="center" colname="6" colwidth="8*"/>
 
-              <colspec align="center" colname="7" colwidth="10*"/>
+              <colspec align="center" colname="7" colwidth="8*"/>
 
               <colspec align="center" colname="8" colwidth="10*"/>
 
@@ -1645,7 +1665,7 @@
       Steigerung von <emphasis>Schwimmen</emphasis> dürfte jedoch etwas
       abwegig sein. Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
       neuen Fertigkeiten<indexterm>
-          <primary>Fertigkeiten</primary>
+          <primary>Fertigkeit</primary>
         </indexterm> und beim Erlernen von Sonderfertigkeiten<indexterm>
           <primary>Sonderfertigkeit</primary>
         </indexterm> einen Lehrmeister oder entsprechende Fachliteratur zur
@@ -1696,6 +1716,11 @@
           <primary>Attribut</primary>
         </indexterm>.</para>
 
+      <para><remark>HIER EINFÜGEN: erklärung, wie man zu mindestwurf kommt
+      (siehe Halboffenes Fertigkeitssystem.txt). Explizit schreiben, dass
+      Spezialisierungen nicht geprobt werden sondern einfach Bonuswürfel
+      geben.</remark></para>
+
       <para>Fertigkeiten sind dem jeweils angegebenen Attribut<indexterm
           significance="preferred">
           <primary>Attribut</primary>
@@ -1710,7 +1735,7 @@
 
         <itemizedlist>
           <listitem>
-            <para>Beruhigen eines Pferds mit Reiten + Charisma (statt
+            <para>Beruhigen eines Pferds mit Reitkunst + Charisma (statt
             Gewandtheit)</para>
           </listitem>
 
@@ -1720,8 +1745,8 @@
           </listitem>
 
           <listitem>
-            <para>Herstellung von Nitroglyzerin mit Alchemie +
-            Fingerfertigkeit (statt Klugheit)</para>
+            <para>Herstellung von Nitroglyzerin mit Chemie + Fingerfertigkeit
+            (statt Klugheit)</para>
           </listitem>
         </itemizedlist>
       </informalexample>
@@ -3967,17 +3992,29 @@
 
       <para>Als nächstes findet die Zauberprobe<indexterm>
           <primary>Zauberprobe</primary>
-        </indexterm> statt. Die Probe wird immer mit den Würfeln der
-      Magiefertigkeit und denen des zugehörigen Attributs durchgeführt, eine
-      Probe nur auf das Attribut oder mit „verwandten” Fertigkeiten ist im
-      Gegensatz zu anderen Fertigkeiten nicht möglich. Werden mehrere
-      Magiefertigkeiten kombiniert, ergibt sich die Würfelanzahl<indexterm>
+        </indexterm> statt, welche wie eine reguläre Fertigkeitsprobe
+      durchgeführt wird. Im Gegensatz zu anderen Fertigkeiten sind
+      Magiefertigkeiten<indexterm>
+          <primary>Magiefertigkeit</primary>
+        </indexterm> jedoch jeweils einem Attribut<indexterm>
+          <primary>Attribut</primary>
+        </indexterm> fest zugeordnet und werden daher nicht mit dem jeweils am
+      besten zur Situation passenden Attribut kombiniert.</para>
+
+      <para>Werden mehrere Magiefertigkeiten<indexterm>
+          <primary>Magiefertigkeit</primary>
+        </indexterm> gemeinsam verwendet, ergibt sich die
+      Würfelanzahl<indexterm>
           <primary>Würfelanzahl</primary>
-        </indexterm> aus dem Attribut der Primärfertigkeit<indexterm>
+        </indexterm> aus dem Attribut<indexterm>
+          <primary>Attribut</primary>
+        </indexterm> der Primärfertigkeit<indexterm>
           <primary>Primärfertigkeit</primary>
-        </indexterm> und dem Durchschnitt der angegebenen Magiefertigkeiten.
-      Ist der Durchschnitt keine ganze Zahl, wird in Richtung der Punktzahl
-      der Primärfertigkeit<indexterm>
+        </indexterm> und dem Durchschnitt der angegebenen
+      Magiefertigkeiten<indexterm>
+          <primary>Magiefertigkeit</primary>
+        </indexterm>. Ist der Durchschnitt keine ganze Zahl, wird in Richtung
+      der Punktzahl der Primärfertigkeit<indexterm>
           <primary>Primärfertigkeit</primary>
         </indexterm> gerundet.</para>
 
