@@ -115,6 +115,16 @@
       jeweils eingesetzen Eigenschaft(en) zur Verfügung (siehe <xref
       linkend="proben"/>).</para>
 
+      <para><remark>Skala auf 1 bis 10 umstellen (5 bei Spezialisierungen),
+      Attributdurchschnitt liegt bei 4,5. Effekt: Leute mit 70-80% des
+      Maximalwürfelpools schaffen auch die Schwierigen Dinge
+      realistisch.</remark></para>
+
+      <para><remark>Idee - beispielcharaktere ausarbeiten: ein wirklicher
+      spezialist (fachidiot) der nur einen engen bereich beherrscht, einen
+      handwerksmeister mit einem etwas größeren sinnvollen bereich, einen
+      völligen allrounder.</remark></para>
+
       <section>
         <title>Attribute</title>
 
@@ -387,6 +397,10 @@
         stehenden Tabellen auch Attribute angegeben, mit denen die jeweilige
         Fertigkeit häufig kombiniert wird.</para>
 
+        <para><remark>Erklärung, dass das angegebene Attribut das "einfach
+        machen" repräsentiert; Transferleistungen finden eher mit KL statt;
+        Innovation eher mit IN.</remark></para>
+
         <section>
           <title>Basisfertigkeiten</title>
 
@@ -420,7 +434,9 @@
                 </row>
 
                 <row>
-                  <entry>Erste Hilfe</entry>
+                  <entry>Erste Hilfe<remark> raus, als Teilaspekt von
+                  Chirurgie (der ggf. als Spezialisierung verwendet wird),
+                  selbige wird dann typsich Berufsfertigkeit</remark></entry>
 
                   <entry>FF</entry>
 
@@ -552,7 +568,12 @@
 
                   <entry>Die Fähigkeit, bewaffneten und unbewaffneten
                   Nahkampfangriffen auszuweichen (siehe <xref
-                  linkend="nahkampf"/>).</entry>
+                  linkend="nahkampf"/>).<remark>Abschaffen ja oder nein?
+                  Eigentlich gehört der Aspekt der Verteidigung zur jeweiligen
+                  Waffenkunst. Die Ausweichen-Fertigkeit wird höchstens dann
+                  interessant, wenn für magische Angriffe eine Art von
+                  Zielwurf nötig wäre. Wird das auch außerhalb des Kampfes,
+                  für die Indy-Falle verwendet?</remark></entry>
                 </row>
 
                 <row>
@@ -949,6 +970,10 @@
         präzisieren. In diesem Regelwerk gibt es keine Liste von möglichen
         Spezialisierungen; Hinweise dazu liefern jedoch meist die
         Beschreibungen der jeweiligen Fertigkeiten.</para>
+
+        <para><remark>Eine Spezialisierung sollte einen deutlich geringeren
+        Umfang als die zugehörige Fertigkeit haben, so ca. bis 30%.
+        </remark></para>
 
         <para>Jede Spezialisierung ist dabei einer Fertigkeit zugeordnet, die
         der Charakter jedoch nicht besitzen muss.</para>
@@ -3111,6 +3136,11 @@
           <primary>Widerstandswurf</primary>
         </indexterm> berücksichtigt.</para>
 
+      <para><remark>Wenn man keine passende Waffenfertigkeit hat, kann man
+      eine verwandte Fertigkeit analog zu den Regeln zu "unterstützenden
+      Fertigkeiten" einsetzen (z.B. Axt für einen Schwertkämpfer).
+      Logischerweise geht aber nicht beides additiv.</remark></para>
+
       <variablelist>
         <varlistentry>
           <term>Angriffswurf<indexterm>
@@ -3132,8 +3162,9 @@
             halber nur als Malus auf den Angriffswurf angerechnet; alles
             andere ist zu kompliziert (zB Einzelfallentscheidung wo es
             angerechnet wird) oder macht die Reichweite fast irrelevant weil
-            leicht umgehbar (derzeitige Regelung: nur bei Parade).
-            Alternative: Reichweite ganz abschaffen.</remark></para>
+            leicht umgehbar (wie bei der vorherigen Regelung, welche die
+            Reichweitendifferenz nur bei der Parade verwendete). Alternative:
+            Reichweite ganz abschaffen.</remark></para>
 
             <para>Der Mindestwurf beträgt für einen normalen Angriff 1. Für
             besondere Manöver gilt nach SL-Entscheid ein höherer
@@ -3319,6 +3350,13 @@
       <para><remark>NOCH EINZUFÜGEN: Ihr Einsatz erfordert daher keinerlei
       Proben und zählt nicht als Kampf mit zwei Waffen (siehe <xref
       linkend="beidhaendigkeit"/>).</remark></para>
+
+      <para><remark>Rüstungen haben als Hauptnachteil, dass sie einen
+      erschöpfen (geistige Schadenspunkte alle X Runden? Aber: Runden zählen
+      kann mühsam sein). Sie machen auch die Parade schwerer, auf der anderen
+      Seite hat man zusätzliche Möglichkeiten (Waffe am gerüsteten Arm
+      abgleiten lassen). Außerdem beeinträchtigen zumindest Helme die
+      Wahrnehmung.</remark></para>
     </section>
 
     <section xml:id="beidhaendigkeit">
