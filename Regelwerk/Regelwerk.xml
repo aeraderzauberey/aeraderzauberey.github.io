@@ -105,10 +105,10 @@
           <primary>Attribut</primary>
         </indexterm> und Fertigkeiten<indexterm significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm> bis zu 8, bei Spezialisierungen<indexterm
+        </indexterm> bis zu 10, bei Spezialisierungen<indexterm
           significance="preferred">
           <primary>Spezialisierung</primary>
-        </indexterm> bis zu 4 Punkte. Bei Proben<indexterm
+        </indexterm> bis zu 5 Punkte. Bei Proben<indexterm
           significance="preferred">
           <primary>Probe</primary>
         </indexterm> steht ihm eine Anzahl Würfel in Höhe der Punkte der
@@ -1013,10 +1013,13 @@
 
         <para>Der Spielleiter kann für seine Spielrunde die EP-Anzahl frei
         wählen. Für wenig erfahrene Charaktere bzw. für Spieler, welche zum
-        ersten Mal Aera der Zauberey spielen, werden 630 EP empfohlen.</para>
+        ersten Mal Aera der Zauberey spielen, werden 900 EP empfohlen.</para>
 
-        <para>Beim Kaufen von Attributen und Fertigkeiten gelten die folgenden
-        Regeln:</para>
+        <para>Beim Kaufen von Attributen<indexterm>
+            <primary>Attribut</primary>
+          </indexterm> und Fertigkeiten<indexterm>
+            <primary>Fertigkeit</primary>
+          </indexterm> gelten die folgenden Regeln:</para>
 
         <itemizedlist>
           <listitem>
@@ -1031,9 +1034,13 @@
           </listitem>
 
           <listitem>
-            <para>Es können pro Attribut oder Fertigkeit höchstens 6 Punkte
-            gekauft werden, für Spezialisierungen gilt keine Beschränkung bei
-            der Charaktererschaffung.</para>
+            <para>Es können pro Attribut<indexterm>
+                <primary>Attribut</primary>
+              </indexterm> oder Fertigkeit<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> höchstens 8 Punkte gekauft werden, für
+            Spezialisierungen gilt keine Beschränkung bei der
+            Charaktererschaffung.</para>
           </listitem>
 
           <listitem>
@@ -1041,8 +1048,10 @@
                 <primary>Erscheinungsbild</primary>
               </indexterm> sollte im Spiel nicht regulär gesteigert werden
             können. Daher kann der Spielleiter, wenn es sinnvoll und für das
-            Charakterkonzept wichtig ist, für dieses Attrbut auch den Kauf von
-            mehr als 6 Punkten zulassen.</para>
+            Charakterkonzept wichtig ist, für dieses Attribut<indexterm>
+                <primary>Attribut</primary>
+              </indexterm> auch den Kauf von mehr als 8 Punkten
+            zulassen.</para>
           </listitem>
         </itemizedlist>
 
@@ -1158,7 +1167,7 @@
 
                 <entry>24</entry>
 
-                <entry>-</entry>
+                <entry>12</entry>
 
                 <entry/>
               </row>
@@ -1177,7 +1186,7 @@
                 <entry/>
               </row>
 
-              <row role="gray">
+              <row>
                 <entry/>
 
                 <entry>7</entry>
@@ -1191,7 +1200,7 @@
                 <entry/>
               </row>
 
-              <row role="gray">
+              <row>
                 <entry/>
 
                 <entry>8</entry>
@@ -1204,90 +1213,150 @@
 
                 <entry/>
               </row>
+
+              <row role="gray">
+                <entry/>
+
+                <entry>9</entry>
+
+                <entry>190</entry>
+
+                <entry>76</entry>
+
+                <entry>-</entry>
+
+                <entry/>
+              </row>
+
+              <row role="gray">
+                <entry/>
+
+                <entry>10</entry>
+
+                <entry>235</entry>
+
+                <entry>94</entry>
+
+                <entry>-</entry>
+
+                <entry/>
+              </row>
             </tbody>
           </tgroup>
         </informaltable>
 
-        <para>Spieler können sich beim Kauf der Eigenschaften an den folgenden
-        Richtwerten orientieren:</para>
+        <para>Dabei entsprechen 4 bis 5 Punkte dem Bevölkerungsdurchschnitt
+        bei Attributen<indexterm>
+            <primary>Attribut</primary>
+          </indexterm> bzw. einer soliden Ausbildung in einer
+        Fertigkeit<indexterm>
+            <primary>Fertigkeit</primary>
+          </indexterm>. Darüber hinaus können sich Spieler beim Kauf der
+        Eigenschaften an den folgenden Richtwerten für
+        Würfelanzahlen<indexterm>
+            <primary>Würfelanzahl</primary>
+          </indexterm>, also der Summe aus jeweils einem passenden
+        Attribut<indexterm>
+            <primary>Attribut</primary>
+          </indexterm>, Fertigkeit<indexterm>
+            <primary>Fertigkeit</primary>
+          </indexterm> und Spezialisierung<indexterm>
+            <primary>Spezialisierung</primary>
+          </indexterm>, orientieren (mehr zu Würfelanzahlen<indexterm>
+            <primary>Würfelanzahl</primary>
+          </indexterm> unter <xref linkend="proben"/>):</para>
 
         <para><informaltable>
-            <tgroup cols="9">
-              <colspec colwidth="15*"/>
+            <tgroup cols="4">
+              <colspec colwidth="8*"/>
 
-              <colspec align="center" colname="1" colwidth="13*"/>
+              <colspec colwidth="2*"/>
 
-              <colspec align="center" colname="2" colwidth="12*"/>
+              <colspec colwidth="3*"/>
 
-              <colspec align="center" colname="3" colwidth="10*"/>
-
-              <colspec align="center" colname="4" colwidth="10*"/>
-
-              <colspec align="center" colname="5" colwidth="8*"/>
-
-              <colspec align="center" colname="6" colwidth="8*"/>
-
-              <colspec align="center" colname="7" colwidth="8*"/>
-
-              <colspec align="center" colname="8" colwidth="10*"/>
+              <colspec colwidth="8*"/>
 
               <thead>
                 <row>
-                  <entry role="non-head">Eigenschaft</entry>
+                  <entry/>
 
-                  <entry>1</entry>
+                  <entry>Würfel</entry>
 
-                  <entry>2</entry>
+                  <entry>Bewertung</entry>
 
-                  <entry>3</entry>
-
-                  <entry>4</entry>
-
-                  <entry>5</entry>
-
-                  <entry>6</entry>
-
-                  <entry>7</entry>
-
-                  <entry>8</entry>
+                  <entry/>
                 </row>
               </thead>
 
               <tbody>
                 <row>
-                  <entry>Attribut</entry>
+                  <entry/>
+
+                  <entry>1</entry>
 
                   <entry>Lächerlich</entry>
 
-                  <entry>Unbedeutend</entry>
-
-                  <entry nameend="4" namest="3">Durchschnittlich</entry>
-
-                  <entry nameend="6" namest="5">Beeindruckend</entry>
-
-                  <entry nameend="8" namest="7">Überragend</entry>
+                  <entry/>
                 </row>
 
                 <row>
-                  <entry>Fertigkeit</entry>
+                  <entry/>
+
+                  <entry>4</entry>
 
                   <entry>Einsteiger</entry>
 
-                  <entry nameend="3" namest="2">Fortgeschrittener</entry>
-
-                  <entry nameend="5" namest="4">Erfahren</entry>
-
-                  <entry nameend="7" namest="6">Meisterlich</entry>
-
-                  <entry>Berühmt</entry>
+                  <entry/>
                 </row>
 
                 <row>
-                  <entry>Spezialisierung</entry>
+                  <entry/>
 
-                  <entry nameend="2" namest="1">Fachkenntnisse</entry>
+                  <entry>8</entry>
 
-                  <entry nameend="4" namest="3">Spezialist</entry>
+                  <entry>Durchschnittlich</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry/>
+
+                  <entry>12</entry>
+
+                  <entry>Fortgeschritten</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry/>
+
+                  <entry>16</entry>
+
+                  <entry>Erfahren</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry/>
+
+                  <entry>20</entry>
+
+                  <entry>Meisterlich</entry>
+
+                  <entry/>
+                </row>
+
+                <row>
+                  <entry/>
+
+                  <entry>25</entry>
+
+                  <entry>Legende</entry>
+
+                  <entry/>
                 </row>
               </tbody>
             </tgroup>
@@ -1608,10 +1677,13 @@
       <firstterm>Erfahrungspunkte</firstterm><indexterm
           significance="preferred">
           <primary>Erfahrungspunkte</primary>
-        </indexterm> (<firstterm>EP</firstterm>). Die Anzahl der EP sollte
-      sich aus einem Basiswert für das Erreichen des gesetzten Ziels und
-      zusätzlichen Punkten für gute Zusammenarbeit, überraschende Einfälle
-      oder gutes Ausspielen der eigenen Rolle zusammensetzen.</para>
+        </indexterm> (<firstterm>EP</firstterm>). Die Anzahl der EP<indexterm
+          significance="preferred">
+          <primary>Erfahrungspunkte</primary>
+        </indexterm> sollte sich aus einem Basiswert für das Erreichen des
+      gesetzten Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
+      überraschende Einfälle oder gutes Ausspielen der eigenen Rolle
+      zusammensetzen.</para>
 
       <sidebar>
         <para>Es ist unmöglich, genaue Regeln für die Höhe der vergebenen EP
@@ -1924,17 +1996,18 @@
         <para>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den
         frühen Morgenstunden im Haus eines reichen Bürgers bei der Arbeit. Da
         man sich in Elris’ Gewerbe jedoch möglichst lautlos bewegen sollte,
-        verlangt der Spielleiter von Elris eine Schleichen-Probe. Und weil ja
-        ausnahmslos alle Holzdielen die Angewohnheit haben, in den
+        verlangt der Spielleiter von Elris eine Heimlichkeits-Probe. Und weil
+        ja ausnahmslos alle Holzdielen die Angewohnheit haben, in den
         unpassendsten Momenten zu knarren und zu quietschen, ist diese Probe
         gar nicht so leicht: der Spielleiter sagt einen Mindestwurf von 3
         an.</para>
 
-        <para>Elris hat Gewandtheit 5 und Schleichen 4, macht 9. Er rollt
-        seine 9 Würfel, sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt
-        insgesamt drei Erfolge — Elris schafft es also, kaum verräterische
-        Geräusche zu verursachen. Hätte er weniger als drei Erfolge gehabt,
-        wäre er direkt und lautstark auf eine knarrende Diele getreten.</para>
+        <para>Elris hat Gewandtheit 5 und Schleichen 4<remark>NOCH EINZUFÜGEN:
+        Schleichen-Spezialisierung</remark>, macht 9. Er rollt seine 9 Würfel,
+        sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt insgesamt drei
+        Erfolge — Elris schafft es also, kaum verräterische Geräusche zu
+        verursachen. Hätte er weniger als drei Erfolge gehabt, wäre er direkt
+        und lautstark auf eine knarrende Diele getreten.</para>
       </informalexample>
 
       <sidebar>
