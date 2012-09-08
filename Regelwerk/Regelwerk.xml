@@ -1546,6 +1546,35 @@
 
                 <entry>1-3</entry>
 
+                <entry>-1</entry>
+
+                <entry>-2</entry>
+
+                <entry>-3</entry>
+
+                <entry>-4</entry>
+
+                <entry>-5</entry>
+
+                <entry>-6</entry>
+
+                <entry>-7</entry>
+
+                <entry><inlinemediaobject>
+                    <imageobject>
+                      <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                 format="SVG" width="0.4cm"/>
+                    </imageobject>
+                  </inlinemediaobject></entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry>4-6</entry>
+
                 <entry>-0</entry>
 
                 <entry>-1</entry>
@@ -1573,7 +1602,7 @@
               <row>
                 <entry/>
 
-                <entry>4-5</entry>
+                <entry>7-9</entry>
 
                 <entry>-0</entry>
 
@@ -1602,7 +1631,7 @@
               <row>
                 <entry/>
 
-                <entry>6-7</entry>
+                <entry>10</entry>
 
                 <entry>-0</entry>
 
@@ -1627,41 +1656,12 @@
 
                 <entry/>
               </row>
-
-              <row>
-                <entry/>
-
-                <entry>8</entry>
-
-                <entry>-0</entry>
-
-                <entry>-0</entry>
-
-                <entry>-0</entry>
-
-                <entry>-0</entry>
-
-                <entry>-1</entry>
-
-                <entry>-2</entry>
-
-                <entry>-3</entry>
-
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
-
-                <entry/>
-              </row>
             </tbody>
           </tgroup>
         </informaltable>
 
         <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4 körperliche
-        Schadenspunkte erhalten, gilt für ihn ein Malus von 2 Würfeln. Details
+        Schadenspunkte erhalten, gilt für ihn ein Malus von 3 Würfeln. Details
         zu diesen Mali und zur Handhabung von Schaden finden Sie in <xref
         linkend="schaden"/>.</para>
       </section>
@@ -1784,69 +1784,140 @@
     Charakter immer gelingen. Wenn es jedoch fraglich ist, ob eine Aktion
     gelingt, kann der Spielleiter eine <firstterm>Probe</firstterm><indexterm>
         <primary>Probe</primary>
-      </indexterm> auf die Eigenschaften des Charakters verlangen. Meist wird
-    dies eine <firstterm>Fertigkeitsprobe</firstterm><indexterm
-        significance="preferred">
-        <primary>Fertigkeit</primary>
-      </indexterm> sein, es sind jedoch auch
-    <firstterm>Attributsproben</firstterm><indexterm significance="preferred">
-        <primary>Attribut</primary>
-      </indexterm> möglich.</para>
+      </indexterm> auf die Eigenschaften des Charakters verlangen.</para>
 
     <section>
-      <title>Würfelanzahl<indexterm>
-          <primary>Würfelanzahl</primary>
-        </indexterm></title>
+      <title>Überblick</title>
 
       <para>Eine Probe<indexterm>
           <primary>Probe</primary>
         </indexterm> wird durch das Rollen mehrerer zwanzigseitiger Würfel
-      (kurz: <firstterm>W20</firstterm>) durchgeführt. Die
+      (kurz: <firstterm>W20</firstterm>) durchgeführt, wobei die
       Würfelanzahl<indexterm>
           <primary>Würfelanzahl</primary>
-        </indexterm> entspricht der Anzahl der Punkte im jeweiligen Attribut
-      oder, bei Fertigkeitsproben, der Summe aus Fertigkeitspunkten<indexterm
-          significance="preferred">
+        </indexterm> von den Eigenschaften des Charakters abhängt. Das
+      Ergebnis des Würfelwurfs wird als Anzahl von <firstterm
+      baseform="Erfolg">Erfolgen</firstterm><indexterm>
+          <primary>Erfolg</primary>
+        </indexterm> angegeben. Damit die Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> gelingt, muss der Spieler eine vom Spielleiter bestimmte
+      Anzahl von Erfolgen<indexterm>
+          <primary>Erfolg</primary>
+        </indexterm>, den <firstterm>Mindestwurf</firstterm><indexterm>
+          <primary>Mindestwurf</primary>
+        </indexterm>, erreichen.</para>
+    </section>
+
+    <section>
+      <title>Probenart<indexterm>
+          <primary>Probe</primary>
+        </indexterm> und Würfelanzahl<indexterm>
+          <primary>Würfelanzahl</primary>
+        </indexterm></title>
+
+      <para>Es gibt zwei Arten von Proben<indexterm>
+          <primary>Probe</primary>
+        </indexterm>: Fertigkeitsproben<indexterm>
           <primary>Fertigkeit</primary>
-        </indexterm> und Punkten im zugeordneten Attribut<indexterm
-          significance="preferred">
+        </indexterm><indexterm>
+          <primary>Probe</primary>
+        </indexterm> und Attributsproben<indexterm>
           <primary>Attribut</primary>
-        </indexterm>.</para>
+        </indexterm><indexterm>
+          <primary>Probe</primary>
+        </indexterm>. Spezialisierungen<indexterm>
+          <primary>Spezialisierung</primary>
+        </indexterm> können bei beiden Probenarten<indexterm>
+          <primary>Probe</primary>
+        </indexterm> eingesetzt werden.</para>
 
-      <para><remark>HIER EINFÜGEN: erklärung, wie man zu mindestwurf kommt
-      (siehe Halboffenes Fertigkeitssystem.txt). Explizit schreiben, dass
-      Spezialisierungen nicht geprobt werden sondern einfach Bonuswürfel
-      geben.</remark></para>
-
-      <para>Fertigkeiten sind dem jeweils angegebenen Attribut<indexterm
-          significance="preferred">
-          <primary>Attribut</primary>
-        </indexterm> jedoch nicht fest zugeordnet. Stattdessen kann vom
-      Spielleiter jederzeit ein besser zur Situation passendes
-      Attribut<indexterm significance="preferred">
-          <primary>Attribut</primary>
-        </indexterm> bestimmt werden.</para>
-
-      <informalexample>
-        <para><emphasis>Beispiele:</emphasis></para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Beruhigen eines Pferds mit Reitkunst + Charisma (statt
-            Gewandtheit)</para>
-          </listitem>
+      <variablelist>
+        <varlistentry>
+          <term>Fertigkeitsproben<indexterm>
+              <primary>Attribut</primary>
+            </indexterm><indexterm>
+              <primary>Probe</primary>
+            </indexterm></term>
 
           <listitem>
-            <para>Schienen des eigenen gebrochenen Arms mit Medizin +
-            Willenskraft (statt Klugheit)</para>
+            <para>Die Würfelanzahl<indexterm>
+                <primary>Würfelanzahl</primary>
+              </indexterm> entspricht der Summe der Punktzahlen von
+            Attribut<indexterm>
+                <primary>Attribut</primary>
+              </indexterm>, Fertigkeit<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> und ggf. einer passenden Spezialisierung<indexterm>
+                <primary>Spezialisierung</primary>
+              </indexterm>. Besitzt der Spieler die passende
+            Fertigkeit<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> nicht, darf er nach Spielleiterentscheid auch eine
+            verwandte Fertigkeit<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> einsetzen.</para>
+
+            <para>Das zu verwendende Attribut<indexterm>
+                <primary>Attribut</primary>
+              </indexterm> wird vom Spielleiter der Situation entsprechend
+            ausgewählt.</para>
+
+            <informalexample>
+              <para><emphasis>Beispiele:</emphasis></para>
+
+              <itemizedlist>
+                <listitem>
+                  <para>Beruhigen eines Pferds mit Reitkunst + Charisma (statt
+                  Gewandtheit)</para>
+                </listitem>
+
+                <listitem>
+                  <para>Schienen des eigenen gebrochenen Arms mit Medizin +
+                  Willenskraft (statt Klugheit)</para>
+                </listitem>
+
+                <listitem>
+                  <para>Herstellung von Nitroglyzerin mit Chemie +
+                  Fingerfertigkeit (statt Klugheit)</para>
+                </listitem>
+              </itemizedlist>
+            </informalexample>
           </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Attributsproben<indexterm>
+              <primary>Fertigkeit</primary>
+            </indexterm><indexterm>
+              <primary>Probe</primary>
+            </indexterm></term>
 
           <listitem>
-            <para>Herstellung von Nitroglyzerin mit Chemie + Fingerfertigkeit
-            (statt Klugheit)</para>
+            <para>Die Würfelanzahl<indexterm>
+                <primary>Würfelanzahl</primary>
+              </indexterm> entspricht der Summe der Punktzahlen von
+            Attribut<indexterm>
+                <primary>Attribut</primary>
+              </indexterm> und ggf. einer zur Aufgabe passenden
+            Spezialisierung<indexterm>
+                <primary>Spezialisierung</primary>
+              </indexterm>.</para>
+
+            <para>Attributsproben<indexterm>
+                <primary>Attribut</primary>
+              </indexterm><indexterm>
+                <primary>Probe</primary>
+              </indexterm> werden nur dann eingesetzt, wenn der Spielleiter
+            keine der Fertigkeiten<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> dieses Regelwerks für passend hält, nicht etwa weil
+            der Charakter die passende Fertigkeit<indexterm>
+                <primary>Fertigkeit</primary>
+              </indexterm> nicht besitzt.</para>
           </listitem>
-        </itemizedlist>
-      </informalexample>
+        </varlistentry>
+      </variablelist>
 
       <para>Neben den Fähigkeiten eines Charakters gibt es häufig weitere
       Umstände, welche die Probe beeinflussen. Für negative Einflüsse wie
@@ -1870,46 +1941,51 @@
     </section>
 
     <section>
-      <title>Erfolge und Mindestwurf</title>
-
-      <para>Das Ergebnis einer Probe wird als Anzahl von <firstterm
-      baseform="Erfolg">Erfolgen</firstterm><indexterm>
-          <primary>Erfolg</primary>
-        </indexterm> angegeben. Jeder gerollte Würfel, der eine 14 oder höher
-      zeigt, zählt als ein Erfolg<indexterm>
-          <primary>Erfolg</primary>
-        </indexterm>.</para>
-
-      <para>Für jede Probe legt der Spielleiter einen Mindestwurf<indexterm>
+      <title>Mindestwurf<indexterm>
           <primary>Mindestwurf</primary>
-        </indexterm> fest, der die Anzahl der Erfolge<indexterm>
-          <primary>Erfolg</primary>
-        </indexterm> angibt, welche der Charakter erreichen muss. Der
+        </indexterm></title>
+
+      <para>Als nächstes legt der Spielleiter den zu erreichenden
       Mindestwurf<indexterm>
           <primary>Mindestwurf</primary>
-        </indexterm> hängt von der Schwierigkeit der Aufgabe und den
-      Begleitumständen ab. Je nach Art der Aufgabe (Kämpfen, Zaubern …) sind
-      in diesem Regelwerk diverse Richtlinien für Mindestwürfe aufgeführt; als
+        </indexterm> fest. Dieser hängt von der Schwierigkeit der Aufgabe und
+      den Begleitumständen ab. Für einige Arten von Aufgaben wie das Zaubern
+      sind in diesem Regelwerk Richtlinien für Mindestwürfe aufgeführt; als
       generelle Orientierung kann die folgende Tabelle verwendet
       werden:</para>
 
       <informaltable xml:id="schwierigkeitstabelle">
-        <tgroup cols="4">
-          <colspec colwidth="6*"/>
+        <tgroup cols="5">
+          <colspec colwidth="2*"/>
 
           <colspec colwidth="3*"/>
 
-          <colspec colwidth="2*"/>
+          <colspec align="center" colname="fertigkeit" colwidth="2*"/>
 
-          <colspec colwidth="6*"/>
+          <colspec align="center" colname="attribut" colwidth="2*"/>
+
+          <colspec colwidth="2*"/>
 
           <thead>
             <row>
               <entry/>
 
-              <entry>Art der Aufgabe</entry>
+              <entry><para>Art der Aufgabe</para></entry>
 
-              <entry>Mindestwurf</entry>
+              <entry align="center" nameend="attribut"
+              namest="fertigkeit">Mindestwurf</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry/>
+
+              <entry/>
+
+              <entry><para>Fertigkeits-</para><para>probe</para></entry>
+
+              <entry><para>Attributs-</para><para>probe</para></entry>
 
               <entry/>
             </row>
@@ -1923,6 +1999,8 @@
 
               <entry>1</entry>
 
+              <entry>1</entry>
+
               <entry/>
             </row>
 
@@ -1932,6 +2010,8 @@
               <entry>Mittel</entry>
 
               <entry>2</entry>
+
+              <entry morerows="1" valign="middle">2</entry>
 
               <entry/>
             </row>
@@ -1953,6 +2033,8 @@
 
               <entry>4</entry>
 
+              <entry morerows="1" valign="middle">3</entry>
+
               <entry/>
             </row>
 
@@ -1973,11 +2055,29 @@
 
               <entry>6+</entry>
 
+              <entry>4+</entry>
+
               <entry/>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
+
+      <para>Für die Verwendung einer verwandten Fertigkeit statt der passenden
+      erhöht sich der Mindestwurf nach Spielleiterentscheid um mindestens 1
+      Erfolg, je nach Verwandtschaft der Fertigkeiten.</para>
+    </section>
+
+    <section>
+      <title>Erfolge</title>
+
+      <para>Das Ergebnis einer Probe wird als Anzahl von <firstterm
+      baseform="Erfolg">Erfolgen</firstterm><indexterm>
+          <primary>Erfolg</primary>
+        </indexterm> angegeben. Jeder gerollte Würfel, der eine 14 oder höher
+      zeigt, zählt als ein Erfolg<indexterm>
+          <primary>Erfolg</primary>
+        </indexterm>.</para>
 
       <para>Ist die Anzahl der Erfolge<indexterm>
           <primary>Erfolg</primary>
@@ -2033,37 +2133,15 @@
     </section>
 
     <section>
-      <title>Fehlende Fertigkeit</title>
-
-      <para>Besitzt ein Charakter keine passende Fertigkeit<indexterm
-          significance="preferred">
-          <primary>Fertigkeit</primary>
-        </indexterm> für eine bestimmte Aktion, darf er nach
-      Spielleiterentscheid auch eine Probe<indexterm>
-          <primary>Probe</primary>
-        </indexterm> mit einer grob verwandten Fertigkeit<indexterm
-          significance="preferred">
-          <primary>Fertigkeit</primary>
-        </indexterm> oder eine Attributsprobe<indexterm
-          significance="preferred">
-          <primary>Attribut</primary>
-        </indexterm><indexterm>
-          <primary>Probe</primary>
-        </indexterm> durchführen. In diesem Fall erhöht der Spielleiter jedoch
-      den Mindestwurf je nach Verwandtschaft der verwendeten mit der
-      geforderten Fertigkeit<indexterm significance="preferred">
-          <primary>Fertigkeit</primary>
-        </indexterm>.</para>
-    </section>
-
-    <section>
       <title>Unterstützende Fertigkeiten</title>
 
       <para>Häufig haben Charaktere mehrere Fertigkeiten<indexterm
           significance="preferred">
           <primary>Fertigkeit</primary>
         </indexterm>, die in einer bestimmten Situation hilfreich sind. Obwohl
-      eine Probe<indexterm>
+      eine Fertigkeitsprobe<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm><indexterm>
           <primary>Probe</primary>
         </indexterm> nur mit einer einzelnen Fertigkeit<indexterm
           significance="preferred">
@@ -2090,7 +2168,9 @@
       fühlt sich „direkter” an, Anja meint „es bringt auf jeden Fall etwas”
       und sei nicht noch vom Zufall abhängig. Man könnte dann z.B. ein Viertel
       der Punkte der unterstützenden Fertigkeit vom MW abziehen (also immer 1
-      oder 2).</remark></para>
+      oder 2). Andererseits passt die Würfelanzahl-Erhöhung besser ins Bild im
+      Sinne von "Fähigkeiten des Charakters = Würfelanzahl, generelle
+      Schwierigkeit und äußere Einflüsse = Mindestwurf". </remark></para>
 
       <para><informalexample>
           <para><emphasis>Beispiele:</emphasis></para>
@@ -2128,12 +2208,19 @@
         </indexterm> auf die passende Fertigkeit<indexterm
           significance="preferred">
           <primary>Fertigkeit</primary>
-        </indexterm> (dies kann für beide dieselbe Fertigkeit sein) durch;
-      wurde kein anderer Mindestwurf festgelegt, beträgt er jeweils 1.</para>
+        </indexterm> (dies kann für beide dieselbe Fertigkeit<indexterm
+          significance="preferred">
+          <primary>Fertigkeit</primary>
+        </indexterm> sein) durch; wurde kein anderer Mindestwurf festgelegt,
+      beträgt er jeweils 1.</para>
 
       <para>Umstände, welche einen der beiden Charaktere betreffen und die
-      Probe beeinflussen, führen beim jeweiligen Charakter wie bei normalen
-      Proben zu Würfelmali oder -boni.</para>
+      Probe<indexterm>
+          <primary>Probe</primary>
+        </indexterm> beeinflussen, führen beim jeweiligen Charakter wie bei
+      normalen Proben<indexterm>
+          <primary>Probe</primary>
+        </indexterm> zu Würfelmali oder -boni.</para>
 
       <para>Das Ergebnis wird wie folgt ermittelt:</para>
 
@@ -2274,7 +2361,7 @@
           <primary>Verletzungsmalus</primary>
         </indexterm> ist dabei abhängig von seiner Willenskraft<indexterm>
           <primary>Willenskraft</primary>
-        </indexterm>; für einen Charakter mit Willenskraft 3 gelten
+        </indexterm>; für einen Charakter mit Willenskraft 4 gelten
       beispielsweise folgende Mali:</para>
 
       <informaltable>
@@ -4103,14 +4190,20 @@
 
       <para>Als nächstes findet die Zauberprobe<indexterm>
           <primary>Zauberprobe</primary>
-        </indexterm> statt, welche wie eine reguläre Fertigkeitsprobe
-      durchgeführt wird. Im Gegensatz zu anderen Fertigkeiten sind
-      Magiefertigkeiten<indexterm>
+        </indexterm> statt, welche wie eine reguläre
+      Fertigkeitsprobe<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm><indexterm>
+          <primary>Probe</primary>
+        </indexterm> durchgeführt wird. Im Gegensatz zu anderen Fertigkeiten
+      sind Magiefertigkeiten<indexterm>
           <primary>Magiefertigkeit</primary>
         </indexterm> jedoch jeweils einem Attribut<indexterm>
           <primary>Attribut</primary>
         </indexterm> fest zugeordnet und werden daher nicht mit dem jeweils am
-      besten zur Situation passenden Attribut kombiniert.</para>
+      besten zur Situation passenden Attribut<indexterm>
+          <primary>Attribut</primary>
+        </indexterm> kombiniert.</para>
 
       <para>Werden mehrere Magiefertigkeiten<indexterm>
           <primary>Magiefertigkeit</primary>
