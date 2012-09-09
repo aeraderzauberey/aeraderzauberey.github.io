@@ -2931,9 +2931,9 @@
         </listitem>
 
         <listitem>
-          <para>Initiativemalus (IM)<indexterm>
-              <primary>Initiativemalus</primary>
-            </indexterm> durch Waffen, Rüstungen und Schilde (siehe <xref
+          <para>Initiativemodifikator (IM)<indexterm>
+              <primary>Initiativemodifikator</primary>
+            </indexterm> durch Waffen, Rüstungen' und Schilde (siehe <xref
           linkend="waffen"/>)</para>
         </listitem>
 
@@ -2974,19 +2974,19 @@
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
         <para>Elris hat Intuition 4 und Reflexe 5, der Initiativebasiswert
-        beträgt somit 18. Sein W20-Wurf ergibt eine 13, macht 31. Er kämpft
-        mit einem Schwert und erhält deswegen einen Initiativemalus von -3,
-        ergibt 28. Solinara hat Intuition und Reflexe jeweils auf 4 und
+        beträgt somit 18. Sein W20-Wurf ergibt eine 12, macht 30. Er kämpft
+        mit einem Schwert und erhält deswegen einen Initiativemodifikator von
+        -2, ergibt 28. Solinara hat Intuition und Reflexe jeweils auf 4 und
         würfelt eine 8, ergibt 24. Sie kämpft mit einem Kampfstab (IM -2),
         ihre Initiative beträgt also 22.</para>
 
         <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
-        kämpft mit einem Säbel (Initiativemalus -3) und würfelt eine 7, ergibt
-        20. Der andere hat einen Initiativebasiswert von 14, kämpft mit einem
-        Knüppel (-2) und würfelt eine 15, ergibt 27.</para>
+        kämpft mit einem Säbel (Initiativemodifikator -2) und würfelt eine 6,
+        ergibt 20. Der andere hat einen Initiativebasiswert von 14, kämpft mit
+        einem Knüppel (IM -1) und würfelt eine 10, ergibt 23.</para>
 
         <para>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm
-        sind Gegner 2 bei 27, Solinara bei 22 und Gegner 1 bei 20 an der
+        sind Gegner 2 bei 23, Solinara bei 22 und Gegner 1 bei 20 an der
         Reihe.</para>
       </informalexample>
     </section>
@@ -3223,8 +3223,8 @@
             <para/>
           </listitem>
 
-          <listitem override="27">
-            <para>Nun ist es an Gegner 2, zu agieren (Initiative 27). Er hat
+          <listitem override="23">
+            <para>Nun ist es an Gegner 2, zu agieren (Initiative 23). Er hat
             während Elris' Aktionsphase bereits eine Reaktion mit 4 Würfeln
             durchgeführt. Er greift nun seinerseits Elris mit dem Knüppel an.
             Sowohl für Angriff als auch Parade beträgt für ihn die reguläre
@@ -3407,8 +3407,8 @@
 
       <informalexample>
         <para>Während seiner Aktionsphase verwendet Elris 5 Würfel, um Gegner
-        2 anzugreifen. Sein Schwert hat eine Reichweite von 2, der Knüppel des
-        Gegners hat 1. Durch die überlegene Reichweite erhält Elris also 1
+        2 anzugreifen. Sein Schwert hat eine Reichweite von 1, der Knüppel des
+        Gegners hat 0. Durch die überlegene Reichweite erhält Elris also 1
         Bonuswürfel für den Angriffswurf, macht 6. Er erzielt 2
         Erfolge.</para>
 
@@ -3423,7 +3423,7 @@
 
         <para>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei
         seinem Widerstandswurf erzielt er mit seinen 3 Konstitutions-Würfeln 1
-        Erfolg — es bleiben also noch 3 Schadenspunkte übrig, die auf seiner
+        Erfolg. Es bleiben also noch 3 Schadenspunkte übrig, die auf seiner
         Schadensleiste eingetragen werden.</para>
       </informalexample>
     </section>
@@ -3443,8 +3443,8 @@
           <primary>Rüstungsschutz</primary>
         </indexterm> bzw. Paradebonus<indexterm>
           <primary>Paradebonus</primary>
-        </indexterm> und Initiativemalus<indexterm>
-          <primary>Initiativemalus</primary>
+        </indexterm> und Initiativemodifikator<indexterm>
+          <primary>Initiativemodifikator</primary>
         </indexterm> charakterisiert.</para>
 
       <variablelist>
@@ -3479,15 +3479,15 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Initiativemalus<indexterm>
-              <primary>Initiativemalus</primary>
+          <term>Initiativemodifikator<indexterm>
+              <primary>Initiativemodifikator</primary>
             </indexterm> (IM)</term>
 
           <listitem>
             <para>Das Gewicht von Rüstungen und das Hantieren mit Schilden und
             Paradewaffen verlangsamen den Kämpfer, was sich im
-            <firstterm>Initiativemalus</firstterm><indexterm>
-                <primary>Initiativemalus</primary>
+            <firstterm>Initiativemodifikator</firstterm><indexterm>
+                <primary>Initiativemodifikator</primary>
               </indexterm> niederschlägt (siehe <xref
             linkend="initiative"/>).</para>
           </listitem>
@@ -3741,10 +3741,11 @@
 
           <secondary>Fernkampf</secondary>
         </indexterm> der Waffe und folgender Tabelle. Sie zeigt die maximale
-      Distanz in Metern, die noch zur jeweiligen Distanzklasse gehört. Einige
-      Reichweitenklassen werden übrigens nicht für Waffen, sondern nur für
-      Zauber verwendet, sind aber der Übersicht wegen ebenfalls hier
-      aufgeführt.</para>
+      Distanz in Metern, die noch zur jeweiligen Distanzklasse gehört.
+      <remark>VIELLEICHT WIEDER AUFNEHMEN: Einige Reichweitenklassen werden
+      übrigens nicht für Waffen, sondern nur für Zauber verwendet, sind aber
+      der Übersicht wegen ebenfalls hier aufgeführt. (F: 100/200/500/1000, G:
+      200/500/1000/2000, H: 500/1000/2000/5000)</remark></para>
 
       <informaltable xml:id="reichweitentabelle">
         <tgroup cols="7">
@@ -3862,54 +3863,6 @@
               <entry>200</entry>
 
               <entry>500</entry>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
-              <entry>F</entry>
-
-              <entry>100</entry>
-
-              <entry>200</entry>
-
-              <entry>500</entry>
-
-              <entry>1.000</entry>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
-              <entry>G</entry>
-
-              <entry>200</entry>
-
-              <entry>500</entry>
-
-              <entry>1.000</entry>
-
-              <entry>2.000</entry>
-
-              <entry/>
-            </row>
-
-            <row>
-              <entry/>
-
-              <entry>H</entry>
-
-              <entry>500</entry>
-
-              <entry>1.000</entry>
-
-              <entry>2.000</entry>
-
-              <entry>5.000</entry>
 
               <entry/>
             </row>
@@ -7199,19 +7152,19 @@
 
       <informaltable role="breakable" xml:id="waffentabelle">
         <tgroup cols="7">
-          <colspec colwidth="6*"/>
+          <colspec colname="typ" colwidth="6*"/>
 
-          <colspec align="center" colwidth="2*"/>
+          <colspec align="center" colname="schaden" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*"/>
+          <colspec align="center" colname="im" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*"/>
+          <colspec align="center" colname="rw" colwidth="3*"/>
 
-          <colspec align="center" colwidth="2*"/>
+          <colspec align="center" colname="kk" colwidth="2*"/>
 
-          <colspec align="center" colwidth="3*"/>
+          <colspec align="center" colname="preis" colwidth="2*"/>
 
-          <colspec align="center" colwidth="2*"/>
+          <colspec align="center" colname="anm" colwidth="2*"/>
 
           <thead>
             <row>
@@ -7220,12 +7173,12 @@
               <entry><para>Schaden</para></entry>
 
               <entry>IM<indexterm>
-                  <primary>Initiativemalus</primary>
+                  <primary>Initiativemodifikator</primary>
                 </indexterm></entry>
 
               <entry><para>Reich-</para><para>weite</para></entry>
 
-              <entry><para>Gewicht</para><para>in kg</para></entry>
+              <entry>Mindest-KK</entry>
 
               <entry>Preis</entry>
 
@@ -7243,13 +7196,59 @@
 
               <entry>1</entry>
 
-              <entry>0</entry>
+              <entry>+2</entry>
 
               <entry>0</entry>
 
-              <entry>0,5</entry>
+              <entry>-</entry>
 
               <entry>20</entry>
+            </row>
+
+            <row>
+              <entry>Erntemesser</entry>
+
+              <entry>1</entry>
+
+              <entry>-1</entry>
+
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>1</entry>
+
+              <entry>a)</entry>
+            </row>
+
+            <row>
+              <entry>Messer</entry>
+
+              <entry>1</entry>
+
+              <entry>0</entry>
+
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>5</entry>
+            </row>
+
+            <row>
+              <entry>Sichel</entry>
+
+              <entry>1</entry>
+
+              <entry>+1</entry>
+
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>5</entry>
+
+              <entry>a)</entry>
             </row>
 
             <row>
@@ -7261,31 +7260,59 @@
             </row>
 
             <row>
-              <entry>Florett</entry>
-
-              <entry>1</entry>
-
-              <entry>-1</entry>
+              <entry>Dussack</entry>
 
               <entry>2</entry>
 
-              <entry>0,8</entry>
+              <entry>+1</entry>
 
-              <entry>180</entry>
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>30</entry>
+            </row>
+
+            <row>
+              <entry>Florett</entry>
+
+              <entry>2</entry>
+
+              <entry>+1</entry>
+
+              <entry>1</entry>
+
+              <entry>-</entry>
+
+              <entry>100</entry>
             </row>
 
             <row>
               <entry>Rapier</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
-              <entry>-1</entry>
-
-              <entry>2</entry>
+              <entry>0</entry>
 
               <entry>1</entry>
 
-              <entry>120</entry>
+              <entry>-</entry>
+
+              <entry>150</entry>
+            </row>
+
+            <row>
+              <entry>Stoßdegen</entry>
+
+              <entry>2</entry>
+
+              <entry>0</entry>
+
+              <entry>1</entry>
+
+              <entry>-</entry>
+
+              <entry>50</entry>
             </row>
 
             <row>
@@ -7299,29 +7326,29 @@
             <row>
               <entry>Axt</entry>
 
-              <entry>2</entry>
+              <entry>4</entry>
 
-              <entry>-4</entry>
+              <entry>-2</entry>
 
-              <entry>2</entry>
+              <entry>1</entry>
 
-              <entry>2</entry>
+              <entry>-</entry>
 
-              <entry>30</entry>
+              <entry>120</entry>
             </row>
 
             <row>
               <entry>Doppelblättrige Axt</entry>
 
-              <entry>5</entry>
+              <entry>6</entry>
 
               <entry>-4</entry>
 
               <entry>2</entry>
 
-              <entry>3</entry>
+              <entry>6</entry>
 
-              <entry>110</entry>
+              <entry>200</entry>
             </row>
 
             <row>
@@ -7329,13 +7356,13 @@
 
               <entry>2</entry>
 
-              <entry>-4</entry>
+              <entry>-2</entry>
 
-              <entry>3</entry>
+              <entry>1</entry>
 
-              <entry>2</entry>
+              <entry>-</entry>
 
-              <entry/>
+              <entry>40</entry>
 
               <entry>a)</entry>
             </row>
@@ -7343,59 +7370,85 @@
             <row>
               <entry>Knüppel</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
+
+              <entry>-1</entry>
+
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>10</entry>
+            </row>
+
+            <row>
+              <entry>Kriegsflegel</entry>
+
+              <entry>4</entry>
 
               <entry>-2</entry>
 
               <entry>1</entry>
 
-              <entry>1,5</entry>
+              <entry>-</entry>
 
-              <entry>1</entry>
+              <entry>80</entry>
             </row>
 
             <row>
               <entry>Kriegshammer</entry>
 
-              <entry>5</entry>
-
-              <entry>-4</entry>
-
               <entry>3</entry>
 
-              <entry>4,5</entry>
+              <entry>-1</entry>
 
-              <entry>120</entry>
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>70</entry>
             </row>
 
             <row>
-              <entry>Säbel</entry>
+              <entry>Machete</entry>
 
               <entry>2</entry>
 
-              <entry>-3</entry>
-
-              <entry>2</entry>
-
-              <entry>1,5</entry>
-
-              <entry>100</entry>
-            </row>
-
-            <row>
-              <entry>Sense</entry>
+              <entry>-2</entry>
 
               <entry>1</entry>
 
-              <entry>-3</entry>
+              <entry>-</entry>
+
+              <entry>60</entry>
+            </row>
+
+            <row>
+              <entry>Morgenstern</entry>
 
               <entry>3</entry>
 
+              <entry>-2</entry>
+
+              <entry>1</entry>
+
+              <entry>-</entry>
+
+              <entry>65</entry>
+            </row>
+
+            <row>
+              <entry>Schmiedehammer</entry>
+
               <entry>2</entry>
 
-              <entry/>
+              <entry>-1</entry>
 
-              <entry>a)</entry>
+              <entry>0</entry>
+
+              <entry>-</entry>
+
+              <entry>40</entry>
             </row>
 
             <row>
@@ -7413,25 +7466,39 @@
 
               <entry>-3</entry>
 
-              <entry>3</entry>
+              <entry>1</entry>
 
-              <entry>4</entry>
+              <entry>-</entry>
 
-              <entry>200</entry>
+              <entry>180</entry>
             </row>
 
             <row>
               <entry>Kurzschwert</entry>
 
+              <entry>2</entry>
+
+              <entry>-1</entry>
+
               <entry>1</entry>
+
+              <entry>-</entry>
+
+              <entry>80</entry>
+            </row>
+
+            <row>
+              <entry>Säbel</entry>
+
+              <entry>3</entry>
 
               <entry>-2</entry>
 
               <entry>1</entry>
 
-              <entry>2</entry>
+              <entry>-</entry>
 
-              <entry>80</entry>
+              <entry>100</entry>
             </row>
 
             <row>
@@ -7439,13 +7506,13 @@
 
               <entry>3</entry>
 
-              <entry>-3</entry>
+              <entry>-2</entry>
 
-              <entry>2</entry>
+              <entry>1</entry>
 
-              <entry>3</entry>
+              <entry>-</entry>
 
-              <entry>180</entry>
+              <entry>100</entry>
             </row>
 
             <row>
@@ -7455,9 +7522,9 @@
 
               <entry>-4</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
-              <entry>9</entry>
+              <entry>6</entry>
 
               <entry>250</entry>
             </row>
@@ -7471,31 +7538,107 @@
             </row>
 
             <row>
-              <entry>Kampfstab</entry>
+              <entry>Bartaxt</entry>
 
-              <entry>1</entry>
+              <entry>6</entry>
 
-              <entry>-2</entry>
+              <entry>-6</entry>
 
               <entry>3</entry>
 
-              <entry>2</entry>
+              <entry>6</entry>
 
-              <entry>40</entry>
+              <entry>350</entry>
+            </row>
+
+            <row>
+              <entry>Glefe</entry>
+
+              <entry>5</entry>
+
+              <entry>-4</entry>
+
+              <entry>3</entry>
+
+              <entry>5</entry>
+
+              <entry>260</entry>
             </row>
 
             <row>
               <entry>Hellebarde</entry>
 
-              <entry>2</entry>
+              <entry>5</entry>
 
               <entry>-5</entry>
 
               <entry>3</entry>
 
-              <entry>3,5</entry>
+              <entry>6</entry>
 
-              <entry>75</entry>
+              <entry>200</entry>
+            </row>
+
+            <row>
+              <entry>Kampfstab</entry>
+
+              <entry>2</entry>
+
+              <entry>-2</entry>
+
+              <entry>2</entry>
+
+              <entry>-</entry>
+
+              <entry>50</entry>
+            </row>
+
+            <row>
+              <entry>Kriegssense</entry>
+
+              <entry>5</entry>
+
+              <entry>-4</entry>
+
+              <entry>3</entry>
+
+              <entry>5</entry>
+
+              <entry>280</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Partisane</entry>
+
+              <entry>4</entry>
+
+              <entry>-4</entry>
+
+              <entry>3</entry>
+
+              <entry>5</entry>
+
+              <entry>180</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Sense</entry>
+
+              <entry>3</entry>
+
+              <entry>-5</entry>
+
+              <entry>2</entry>
+
+              <entry>5</entry>
+
+              <entry>30</entry>
+
+              <entry>a)</entry>
             </row>
 
             <row>
@@ -7503,13 +7646,27 @@
 
               <entry>4</entry>
 
-              <entry>-2</entry>
+              <entry>-4</entry>
 
               <entry>3</entry>
 
+              <entry>5</entry>
+
+              <entry>150</entry>
+            </row>
+
+            <row>
+              <entry>Wanderstab</entry>
+
+              <entry>1</entry>
+
+              <entry>0</entry>
+
               <entry>2</entry>
 
-              <entry>30</entry>
+              <entry>-</entry>
+
+              <entry>25</entry>
             </row>
 
             <row>
@@ -7529,7 +7686,7 @@
 
               <entry>C</entry>
 
-              <entry>5</entry>
+              <entry>-</entry>
 
               <entry>310</entry>
 
@@ -7545,7 +7702,7 @@
 
               <entry>C</entry>
 
-              <entry>3</entry>
+              <entry>-</entry>
 
               <entry>160</entry>
             </row>
@@ -7559,7 +7716,7 @@
 
               <entry>D</entry>
 
-              <entry>5</entry>
+              <entry>-</entry>
 
               <entry>200</entry>
             </row>
@@ -7581,7 +7738,7 @@
 
               <entry>C</entry>
 
-              <entry>1</entry>
+              <entry>-</entry>
 
               <entry>80</entry>
             </row>
@@ -7595,7 +7752,7 @@
 
               <entry>D</entry>
 
-              <entry>1</entry>
+              <entry>-</entry>
 
               <entry>100</entry>
             </row>
@@ -7609,7 +7766,7 @@
 
               <entry>B</entry>
 
-              <entry>0,5</entry>
+              <entry>-</entry>
 
               <entry>45</entry>
             </row>
@@ -7623,7 +7780,7 @@
 
               <entry>E</entry>
 
-              <entry>0,75</entry>
+              <entry>-</entry>
 
               <entry>60</entry>
             </row>
@@ -7645,7 +7802,7 @@
 
               <entry>A</entry>
 
-              <entry>1,5</entry>
+              <entry>-</entry>
 
               <entry>35</entry>
             </row>
@@ -7659,7 +7816,7 @@
 
               <entry>A</entry>
 
-              <entry>0,5</entry>
+              <entry>-</entry>
 
               <entry>30</entry>
             </row>
@@ -7673,7 +7830,7 @@
 
               <entry>A</entry>
 
-              <entry>0,25</entry>
+              <entry>-</entry>
 
               <entry>15</entry>
             </row>
