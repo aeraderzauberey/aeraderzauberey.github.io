@@ -434,17 +434,6 @@
                 </row>
 
                 <row>
-                  <entry>Erste Hilfe<remark> raus, als Teilaspekt von
-                  Chirurgie (der ggf. als Spezialisierung verwendet wird),
-                  selbige wird dann typsich Berufsfertigkeit</remark></entry>
-
-                  <entry>FF</entry>
-
-                  <entry>Versorgen von Wunden, Stabilisieren kritisch
-                  Verletzter</entry>
-                </row>
-
-                <row>
                   <entry>Heimlichkeit</entry>
 
                   <entry>GW</entry>
@@ -882,6 +871,15 @@
 
               <tbody>
                 <row>
+                  <entry>Chirurgie</entry>
+
+                  <entry>FF</entry>
+
+                  <entry>Wundversorgung, Invasive Behandlung von Skelett und
+                  Organen, Traumatologie, Foltern, Zahnheilkunde</entry>
+                </row>
+
+                <row>
                   <entry>Gaukelei</entry>
 
                   <entry>FF / GW</entry>
@@ -927,6 +925,16 @@
 
                   <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
                   Gruppierungen …)</entry>
+                </row>
+
+                <row>
+                  <entry>Medizin</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Diagnose und Therapie von Krankheiten, Krankenpflege,
+                  Herstellung von Arzneien, Geburtshilfe, Allgemein- und
+                  Fachmedizin</entry>
                 </row>
 
                 <row>
@@ -1950,9 +1958,10 @@
           <primary>Mindestwurf</primary>
         </indexterm> fest. Dieser hängt von der Schwierigkeit der Aufgabe und
       den Begleitumständen ab. Für einige Arten von Aufgaben wie das Zaubern
-      sind in diesem Regelwerk Richtlinien für Mindestwürfe aufgeführt; als
-      generelle Orientierung kann die folgende Tabelle verwendet
-      werden:</para>
+      sind in diesem Regelwerk Richtlinien für Mindestwürfe<indexterm>
+          <primary>Mindestwurf</primary>
+        </indexterm> aufgeführt; als generelle Orientierung kann die folgende
+      Tabelle verwendet werden:</para>
 
       <informaltable xml:id="schwierigkeitstabelle">
         <tgroup cols="5">
@@ -2063,9 +2072,24 @@
         </tgroup>
       </informaltable>
 
-      <para>Für die Verwendung einer verwandten Fertigkeit statt der passenden
-      erhöht sich der Mindestwurf nach Spielleiterentscheid um mindestens 1
-      Erfolg, je nach Verwandtschaft der Fertigkeiten.</para>
+      <para>Für die Verwendung einer verwandten Fertigkeit<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> statt der passenden erhöht sich der Mindestwurf<indexterm>
+          <primary>Mindestwurf</primary>
+        </indexterm> nach Spielleiterentscheid um mindestens 1 Erfolg, je nach
+      Verwandtschaft der Fertigkeiten<indexterm>
+          <primary>Fertigkeit</primary>
+        </indexterm> bzw. Eignung für die aktuelle Aufgabe.</para>
+
+      <informalexample>
+        <para>Die Frage nach dem letzten bekannten Auftauchen des
+        Necronomicons kann mit der Fertigkeit
+        <emphasis>Allgemeinbildung</emphasis> nur sehr schwer beantwortet
+        werden, für Charaktere mit der Fertigkeit<indexterm>
+            <primary>Fertigkeit</primary>
+          </indexterm> <emphasis>Okkultismus</emphasis> jedoch bedeutend
+        einfacher.</para>
+      </informalexample>
     </section>
 
     <section>
@@ -2102,12 +2126,12 @@
         gar nicht so leicht: der Spielleiter sagt einen Mindestwurf von 3
         an.</para>
 
-        <para>Elris hat Gewandtheit 5 und Schleichen 4<remark>NOCH EINZUFÜGEN:
-        Schleichen-Spezialisierung</remark>, macht 9. Er rollt seine 9 Würfel,
-        sie zeigen: 15, 8, 17, 4, 20, 2, 5, 6, 12, ergibt insgesamt drei
-        Erfolge — Elris schafft es also, kaum verräterische Geräusche zu
-        verursachen. Hätte er weniger als drei Erfolge gehabt, wäre er direkt
-        und lautstark auf eine knarrende Diele getreten.</para>
+        <para>Elris hat Gewandtheit 5, Heimlichkeit 2 und die Spezialisierung
+        „Schleichen” auf 3, macht 10. Er rollt seine 10 Würfel, sie zeigen:
+        15, 8, 17, 4, 20, 2, 5, 6, 12, 13, ergibt insgesamt drei Erfolge —
+        Elris schafft es also, kaum verräterische Geräusche zu verursachen.
+        Hätte er weniger als drei Erfolge gehabt, wäre er direkt und lautstark
+        auf eine knarrende Diele getreten.</para>
       </informalexample>
 
       <sidebar>
@@ -7044,106 +7068,6 @@
     </section>
   </appendix>
 
-  <appendix xml:id="fertigkeitssystem">
-    <title>Offenes Fertigkeitssystem</title>
-
-    <para>Die Fertigkeitsliste in diesem Regelwerk (siehe <xref
-    linkend="fertigkeitsliste" xrefstyle="page"/>) ist bewusst kurz gehalten,
-    um jeder Gruppe die Möglichkeit zu geben den Zuschnitt der
-    Fertigkeiten<indexterm>
-        <primary>Fertigkeit</primary>
-      </indexterm> auf die eigenen Bedürfnisse anzupassen, umgekehrt aber auch
-    keine „überflüssigen“ Fertigkeiten<indexterm>
-        <primary>Fertigkeit</primary>
-      </indexterm> zu nennen.</para>
-
-    <section>
-      <title>Schwierigkeiten von Proben</title>
-
-      <para>Durch das offene Fertigkeitssystem ist es gut möglich, dass für
-      eine Aufgabe grundsätzlich mehrere Fertigkeiten<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> in Frage kommen — sei es, weil eine von ihnen eine
-      Spezialisierung ist, sei es, weil eine Aufgabe einfach in den Bereich
-      mehrerer Fertigkeiten<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> fällt.</para>
-
-      <para>Die Schwierigkeiten von Proben werden daher im Hinblick darauf
-      festgelegt, wie gut die verwendete Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> auf die Aufgabe passt. So kann beispielsweise die Frage
-      nach dem letzten bekannten Auftauchen des Necronomicons mit der
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Allgemeinbildung</emphasis> nur sehr schwer
-      beantwortet werden, für Charaktere mit der Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Okkultismus</emphasis> jedoch bedeutend
-      einfacher. Verwenden Sie zur Bestimmung der Schwierigkeit daher einfach
-      die Tabelle auf <xref linkend="schwierigkeitstabelle" xrefstyle="page"/>
-      aus Sicht der jeweiligen Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm>.</para>
-    </section>
-
-    <section>
-      <title>Auswahl von Fertigkeiten</title>
-
-      <para>Bei der Festlegung der zu verwendenden Fertigkeiten<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> einer Spielrunde sollte beachtet werden, dass eine
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> nicht einfach eine Gruppe verschiedener Tätigkeiten
-      zusammenfasst. So ist zum Beispiel eine Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Gaukelei</emphasis> als Gruppierung von
-      Jonglieren, Balancieren und Feuerschlucken problematisch, weil diese
-      Tätigkeiten keinen eindeutigen Zusammenhang besitzen. Es kommt daher
-      leicht zu Unklarheiten, ob eine andere Tätigkeit ebenfalls enthalten ist
-      oder nicht. Daher wäre es besser, für jede Tätigkeit eine eigene
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> zu notieren, um genauer zu definieren, worauf sich der
-      Charakter versteht.</para>
-
-      <para>Bei einer Gruppierung von verschiedenen Arten von Tätigkeiten ist
-      es darüber hinaus ungleich schwerer für den Spielleiter, die
-      Schwierigkeit einer Aufgabe einzuschätzen: handelt es sich
-      beispielsweise beim Schlucken einer brennenden Fackel um eine
-      Routineaufgabe für alle Gaukler? Hat der Charakter hingegen die
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Feuerschlucken</emphasis>, muss nur noch
-      entschieden werden, ob die Aufgabe innerhalb dieses Bereichs
-      außergewöhnlich schwierig ist.</para>
-
-      <para>Bedenken Sie auch, dass es sich bei vielen
-      „Berufsfertigkeiten“<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> ebenso um schlichte Gruppierungen handelt. Zum Beispiel
-      sollte ein gelernter Schneider nicht einfach die abstrakte
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Schneiderei</emphasis> besitzen, sondern die
-      konkreteren Fertigkeiten<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Nähen</emphasis>,
-      <emphasis>Lederbearbeitung</emphasis>, <emphasis>Stoffkunde</emphasis>
-      und <emphasis>Buchhaltung</emphasis>. Ebenso ist eine
-      Fertigkeit<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> <emphasis>Jagd</emphasis> möglicherweise zu unkonkret;
-      die diesbezüglichen Fähigkeiten eines Charakters sollten eher in
-      Fertigkeiten<indexterm>
-          <primary>Fertigkeit</primary>
-        </indexterm> wie <emphasis>Fallenstellen</emphasis>,
-      <emphasis>Pirsch</emphasis> oder <emphasis>Spurensuche</emphasis>
-      ausgedrückt werden.</para>
-    </section>
-  </appendix>
-
   <appendix xml:id="ausruestung">
     <title>Ausrüstung</title>
 
@@ -8435,15 +8359,6 @@
             </row>
 
             <row>
-              <entry>Chirurgie</entry>
-
-              <entry>FF</entry>
-
-              <entry>Invasive Behandlung von Skelett und Organen,
-              Traumatologie, Foltern</entry>
-            </row>
-
-            <row>
               <entry>Feinmechanik</entry>
 
               <entry>FF</entry>
@@ -8555,12 +8470,6 @@
 
             <row>
               <entry>Mechanik</entry>
-            </row>
-
-            <row>
-              <entry>Medizin</entry>
-
-              <entry>KL</entry>
             </row>
 
             <row>
