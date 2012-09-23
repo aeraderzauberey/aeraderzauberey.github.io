@@ -115,11 +115,6 @@
       jeweils eingesetzen Eigenschaft(en) zur Verfügung (siehe <xref
       linkend="proben"/>).</para>
 
-      <para><remark>Skala auf 1 bis 10 umstellen (5 bei Spezialisierungen),
-      Attributdurchschnitt liegt bei 4,5. Effekt: Leute mit 70-80% des
-      Maximalwürfelpools schaffen auch die Schwierigen Dinge
-      realistisch.</remark></para>
-
       <para><remark>Idee - beispielcharaktere ausarbeiten: ein wirklicher
       spezialist (fachidiot) der nur einen engen bereich beherrscht, einen
       handwerksmeister mit einem etwas größeren sinnvollen bereich, einen
@@ -589,7 +584,7 @@
         </section>
 
         <section>
-          <title>Fertigkeitengruppen</title>
+          <title>Fertigkeitsgruppen</title>
 
           <informaltable role="breakable">
             <tgroup cols="3">
@@ -1276,13 +1271,13 @@
 
         <para><informaltable>
             <tgroup cols="4">
-              <colspec colwidth="8*"/>
+              <colspec colwidth="7*"/>
 
               <colspec colwidth="2*"/>
 
               <colspec colwidth="3*"/>
 
-              <colspec colwidth="8*"/>
+              <colspec colwidth="7*"/>
 
               <thead>
                 <row>
@@ -1843,7 +1838,7 @@
       <variablelist>
         <varlistentry>
           <term>Fertigkeitsproben<indexterm>
-              <primary>Attribut</primary>
+              <primary>Fertigkeit</primary>
             </indexterm><indexterm>
               <primary>Probe</primary>
             </indexterm></term>
@@ -1896,7 +1891,7 @@
 
         <varlistentry>
           <term>Attributsproben<indexterm>
-              <primary>Fertigkeit</primary>
+              <primary>Attribut</primary>
             </indexterm><indexterm>
               <primary>Probe</primary>
             </indexterm></term>
@@ -2207,7 +2202,7 @@
 
             <listitem>
               <para>Telekineseprobe zum Öffnen eines Schlosses unterstützt
-              durch Fertigkeit Schlösser knacken</para>
+              durch Fertigkeit Feinmechanik</para>
             </listitem>
 
             <listitem>
@@ -2278,14 +2273,15 @@
       </orderedlist>
 
       <informalexample>
-        <para>Der Hausherr, der gerade von einem Ball nach Hause kommt und
-        eigentlich schlafen gehen wollte, betritt durch die Hintertür des
-        Hauses die Küche. Die Tür zum Flur ist geschlossen und dämpft die von
-        Elris verursachten Geräusche, also setzt der Spielleiter einen
-        Würfelmalus von 1 an. Der Hausherr hat jedoch Glück: mit seinen
-        verbliebenen 5 Sinnesschärfe-Würfeln erzielt er drei Erfolge. Elris
-        hatte nur zwei Erfolge — der Hausherr gewinnt also den Vergleich. Das
-        Ergebnis: Er wird misstrauisch und durchsucht das Haus …</para>
+        <para>Der Hausherr, der gerade von einem Ball nach Hause kommt,
+        betritt durch die Hintertür des Hauses die Küche. Die Tür zum Flur ist
+        geschlossen und dämpft die von Elris verursachten Geräusche, also
+        setzt der Spielleiter einen Würfelmalus von 1 an. Der Hausherr erzielt
+        mit seinen verbliebenen 5 Sinnesschärfe-Würfeln immerhin drei Erfolge.
+        Elris, dessen Herumschleichen die auslösende Handlung für den
+        Vergleich ist, hatte jedoch ebenfalls drei Erfolge. Er gewinnt also
+        den Vergleich und setzt seine Arbeit fort, während der Hausherr nichts
+        ahnend schlafen geht.</para>
       </informalexample>
     </section>
   </chapter>
@@ -2991,26 +2987,26 @@
       </sidebar>
 
       <informalexample>
-        <para>Elris hat sich von der anstrengenden Flucht über die Dächer,
-        nachdem er bei der Arbeit überrascht wurde, wieder etwas erholt.
-        Prompt steht er am Nachmittag mit seiner Freundin Solinara zwei
+        <para>Elris hat sich von seinem nächtlichen Einsatz ausgeruht. Der
+        nächste Tag beginnt für ihn aber leider nicht so gut, wie der letzte
+        endete: am Nachmittag steht er mit seiner Freundin Solinara zwei
         finster aussehenden und noch dazu feindlich gesinnten Gestalten
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
-        <para>Elris hat Intuition 4 und Reflexe 5, der Initiativebasiswert
-        beträgt somit 18. Sein W20-Wurf ergibt eine 12, macht 30. Er kämpft
+        <para>Elris hat Intuition 5 und Reflexe 6, der Initiativebasiswert
+        beträgt somit 20. Sein W20-Wurf ergibt eine 12, macht 32. Er kämpft
         mit einem Schwert und erhält deswegen einen Initiativemodifikator von
-        -2, ergibt 28. Solinara hat Intuition und Reflexe jeweils auf 4 und
-        würfelt eine 8, ergibt 24. Sie kämpft mit einem Kampfstab (IM -2),
-        ihre Initiative beträgt also 22.</para>
+        -2, ergibt 30. Solinara hat Intuition und Reflexe jeweils auf 5 und
+        würfelt eine 8, ergibt 26. Sie kämpft mit einem Kampfstab (IM -2),
+        ihre Initiative beträgt also 24.</para>
 
-        <para>Der erste Gegner besitzt einen Initiativebasiswert von 16,
+        <para>Der erste Gegner besitzt einen Initiativebasiswert von 18,
         kämpft mit einem Säbel (Initiativemodifikator -2) und würfelt eine 6,
-        ergibt 20. Der andere hat einen Initiativebasiswert von 14, kämpft mit
-        einem Knüppel (IM -1) und würfelt eine 10, ergibt 23.</para>
+        ergibt 22. Der andere hat einen Initiativebasiswert von 16, kämpft mit
+        einem Knüppel (IM -1) und würfelt eine 10, ergibt 25.</para>
 
-        <para>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm
-        sind Gegner 2 bei 23, Solinara bei 22 und Gegner 1 bei 20 an der
+        <para>Elris hat also Glück: er ist mit 30 der schnellste. Nach ihm
+        sind Gegner 2 bei 25, Solinara bei 24 und Gegner 1 bei 22 an der
         Reihe.</para>
       </informalexample>
     </section>
@@ -3229,8 +3225,8 @@
         <orderedlist startingnumber="99">
           <?dbfo label-width="1.75em"?>
 
-          <listitem override="28">
-            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 28).
+          <listitem override="30">
+            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 30).
             Er attackiert den zweiten Gegner, doch Elris ist nicht so
             übermütig, dass er dabei seine Deckung aufgeben würde: Er
             verwendet für den Angriff nur 5 seiner 8 Würfel (Gewandtheit 5,
@@ -3247,8 +3243,8 @@
             <para/>
           </listitem>
 
-          <listitem override="23">
-            <para>Nun ist es an Gegner 2, zu agieren (Initiative 23). Er hat
+          <listitem override="25">
+            <para>Nun ist es an Gegner 2, zu agieren (Initiative 25). Er hat
             während Elris' Aktionsphase bereits eine Reaktion mit 4 Würfeln
             durchgeführt. Er greift nun seinerseits Elris mit dem Knüppel an.
             Sowohl für Angriff als auch Parade beträgt für ihn die reguläre
@@ -3264,8 +3260,8 @@
             <para/>
           </listitem>
 
-          <listitem override="22">
-            <para>Als nächste ist Solinara an der Reihe (Initiative 22). Sie
+          <listitem override="24">
+            <para>Als nächste ist Solinara an der Reihe (Initiative 24). Sie
             möchte vorstürmen und den ersten Gegner angreifen, aber wie Elris
             möchte auch sie nicht gänzlich schutzlos bleiben und daher noch
             reagieren können. Ihre reguläre Würfelanzahl für den Kampfstab
@@ -3279,9 +3275,9 @@
             <para/>
           </listitem>
 
-          <listitem override="20">
+          <listitem override="22">
             <para>Schließlich beginnt die Aktionsphase von Gegner 1
-            (Initiative 20). Durch ihren Sturmangriff hat Solinara ihre
+            (Initiative 22). Durch ihren Sturmangriff hat Solinara ihre
             Verteidigung reduziert, und so greift er sie mit der vollen Wucht
             seiner verbliebenen 6 Würfel an (regulär 9 Würfel für
             Angriff/Parade, davon bereits 3 zur Parade verwendet).</para>
@@ -7958,8 +7954,8 @@
 
       <para>Für Zwecke von sozialen Fertigkeitsproben und Telepathiezaubern
       kann man die unten stehenden Arten von Lügen unterscheiden. Die
-      angegebene Stufe der Lüge fließt dabei in die Ermittlung der
-      Schwierigkeit oder der nötigen Erfolgsanzahl ein.</para>
+      angegebene Stufe der Lüge fließt dabei in die Ermittlung des
+      Mindestwurfs ein.</para>
 
       <informaltable>
         <tgroup cols="5">
@@ -8241,7 +8237,7 @@
 
               <entry>Wolf</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>7</entry>
 
@@ -8253,7 +8249,7 @@
 
               <entry>Großkatze</entry>
 
-              <entry>6</entry>
+              <entry>7</entry>
 
               <entry>9</entry>
 
@@ -8265,7 +8261,7 @@
 
               <entry>Bär</entry>
 
-              <entry>7</entry>
+              <entry>9</entry>
 
               <entry>12</entry>
 
@@ -8277,7 +8273,7 @@
 
               <entry>Pferd</entry>
 
-              <entry>9</entry>
+              <entry>11</entry>
 
               <entry>13</entry>
 
