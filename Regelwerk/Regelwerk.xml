@@ -556,8 +556,9 @@
                   Eigentlich gehört der Aspekt der Verteidigung zur jeweiligen
                   Waffenkunst. Die Ausweichen-Fertigkeit wird höchstens dann
                   interessant, wenn für magische Angriffe eine Art von
-                  Zielwurf nötig wäre. Wird das auch außerhalb des Kampfes,
-                  für die Indy-Falle verwendet?</remark></entry>
+                  Zielwurf nötig wäre oder diese Fertigkeit auch außerhalb des
+                  Kampfes, z.B. für die Indy-Falle verwendet werden
+                  würde.</remark></entry>
                 </row>
 
                 <row>
@@ -1856,8 +1857,9 @@
               </indexterm>. Besitzt der Spieler die passende
             Fertigkeit<indexterm>
                 <primary>Fertigkeit</primary>
-              </indexterm> nicht, darf er nach Spielleiterentscheid auch eine
-            verwandte Fertigkeit<indexterm>
+              </indexterm> nicht, führt er die Probe mit den verbleibenden
+            Würfeln durch. Alternativ darf er nach Spielleiterentscheid auch
+            eine verwandte Fertigkeit<indexterm>
                 <primary>Fertigkeit</primary>
               </indexterm> einsetzen.</para>
 
@@ -2149,6 +2151,20 @@
           </indexterm>, hat er die Aufgabe durch pures Glück oder eine
         unerwartete Wendung der Geschehnisse bewältigen können.</para>
       </sidebar>
+
+      <para><remark>Mögliche Sonderregel für variable Mindestwürfe: man muss
+      immer einen MW ansagen, aber wenn es nicht reicht hat man dann die
+      höchstmögliche MW-Variante gesprochen. Beispiel: 6er MW angesagt, 3
+      Erfolge geschafft heißt 2er geschafft mit 1 Bonuswürfel. Aber auch: 2er
+      angesagt, 4 Erfolge heißt 2er geschafft mit 2 Bonuswürfeln. *Aber*: Bei
+      Antimagie-Feldern wäre dann ein unerwünschter Effekt, dass sich die
+      Leute öfter trauen werden das starke Feld zu versuchen und es deswegen
+      öfter gezaubert wird als ohne die Sonderregel, denn dann werden viele
+      Spieler das Risiko ganz zu versagen nicht eingehen und sich meistens mit
+      dem schwachen Feld begnügen. Die Frage ist, ob es überhaupt Effekte gibt
+      wo uns dieser Nebeneffekt nicht stört. Falls ja, muss diese Regel
+      explizit beim jeweiligen Effekt durch ein Schlüsselwort "freigeschaltet"
+      werden.</remark></para>
     </section>
 
     <section>
@@ -2257,7 +2273,10 @@
               <primary>Erfolg</primary>
             </indexterm> verglichen: Derjenige mit mehr Erfolgen<indexterm>
               <primary>Erfolg</primary>
-            </indexterm> hat „gewonnen“.</para>
+            </indexterm> hat „gewonnen“.<remark> Bei Zaubern zählen natürlich
+          die Gesamterfolge, unabhängig davon ob sie zum Mindestwurf gehören
+          oder „überzählig” waren und zu Bonuswürfeln bei der Widerstandsprobe
+          werden.</remark></para>
         </listitem>
 
         <listitem>
@@ -3936,7 +3955,7 @@
       stehenden Parameter fest.</para>
 
       <para><remark>Das passt jedoch nicht immer: Eine Massenhalluzination in
-      einem bestimmten Radius ist von den Geistmanipulations-Baukasten nicht
+      einem bestimmten Radius ist vom Geistmanipulations-Baukasten nicht
       abgedeckt, aber sicherlich möglich. SL orientiert sich dann je nach
       Geschmack grob an den mit dem Baukasten möglichen
       Effekten.</remark></para>
@@ -4019,6 +4038,76 @@
             mehrfach mit verschiedenen Werten gelistet, so dass der
             Spielleiter andere Werte entsprechend einordnen kann.</para>
 
+            <para>Bei einigen Magiefertigkeiten sind statt einer Tabelle mit
+            Beispielkosten genauere Regeln für die Ermittlung des
+            Krafteinsatzes angegeben. Solche Angaben können linear sein, z.B.
+            „für jeden weiteren KP erhöht sich der Radius um 5 m” oder die
+            folgende Standardskala verwenden:</para>
+
+            <informaltable>
+              <tgroup cols="14">
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <colspec align="center"/>
+
+                <tbody>
+                  <row>
+                    <entry>1</entry>
+
+                    <entry>2</entry>
+
+                    <entry>4</entry>
+
+                    <entry>8</entry>
+
+                    <entry>15</entry>
+
+                    <entry>30</entry>
+
+                    <entry>75</entry>
+
+                    <entry>150</entry>
+
+                    <entry>300</entry>
+
+                    <entry>600</entry>
+
+                    <entry>1200</entry>
+
+                    <entry>2500</entry>
+
+                    <entry>5000</entry>
+
+                    <entry>…</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
+
             <para><remark>NEUE REGEL FORMULIEREN: durch zusätzliche Kraft kann
             auch die Zauberdauer verkürzt werden.</remark></para>
           </listitem>
@@ -4097,7 +4186,8 @@
       werden.</para>
 
       <para>Die folgenden Abschnitte beschreiben den genauen Ablauf des
-      Zauberns.</para>
+      Zauberns, gefolgt von Regeln für triviale Zauber, für die keine Probe
+      notwendig ist.</para>
     </section>
 
     <section>
@@ -4145,9 +4235,13 @@
       <para>Bevor die Zauberprobe durchgeführt wird, muss der Spieler ansagen,
       wieviel Kraft der Charakter für den Zauber verwenden will. Die Menge an
       Kraftpunkten, die für einen Zauber verwendet wird, beeinflusst je nach
-      Zauber z.B. die Stärke, Reichweite oder Wirkungsdauer. Zuviel Kraft
-      lässt den Zaubernden jedoch ermüden oder schädigt ihn sogar (siehe <xref
-      linkend="kraftwiderstandswurf"/>).</para>
+      Zauber unterschiedliche Aspekte, z.B. Stärke, Reichweite oder
+      Wirkungsdauer. Gibt es mehrere Möglichkeiten, Kraftpunkte einzusetzen,
+      kann jeder KP nur für jeweils einen dieser Aspekte ausgegeben
+      werden.</para>
+
+      <para>Zuviel Kraft lässt den Zaubernden jedoch ermüden oder schädigt ihn
+      sogar (siehe <xref linkend="kraftwiderstandswurf"/>).</para>
 
       <informalexample>
         <para>Für Tharions Nachtsicht-Zauber wählt der Spieler einen
@@ -4349,13 +4443,51 @@
       Zauberprobe durchgeführt, weil Zusatzerfolge bei der Zauberprobe zu
       Bonuswürfeln beim Widerstandswurf werden. Ein netter Nebeneffekt dieser
       Änderung ist, dass dadurch der Absatz „Widerstandswurf vor Zauberprobe,
-      Verletzungsmalus wirkt aber erst danach” entfallen kann.</remark></para>
+      Verletzungsmalus wirkt aber erst danach” entfallen
+      konnte.</remark></para>
 
       <para><remark>Er ist außerdem erst nach der Zauberdauer einsortiert: zum
       einen soll der Verletzungsmalus erst nach dem eigentlichen Abschluss des
       Zaubers greifen, zum anderen würde sonst die Frage aufkommen, ob durch
       den geistigen Schaden des Zaubers ebendieser Zauber abgebrochen
       würde.</remark></para>
+    </section>
+
+    <section>
+      <title>Wirkungsdauer</title>
+
+      <para>Die Wirkungsdauer ist bei jedem Zauberspruch angegeben. Nach
+      Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
+      versorgt werden — das heißt, der Zaubernde muss erneut einen
+      Kraftwiderstandswurf ablegen.</para>
+
+      <para>Viele Zauber erhalten sich selbstständig, in dem sie sich aus der
+      enthaltenen Kraft speisen. Manche Zauber erfordern hingegen ständige
+      Konzentration des Zaubernden (was jeweils bei <emphasis>Dauer</emphasis>
+      vermerkt ist) und damit seine Anwesenheit auch nach dem eigentlichen
+      Zaubervorgang. Für jeden Zauber, den ein Charakter auf diese Weise
+      aufrecht erhält, steigt die Schwierigkeit für alle Proben<indexterm>
+          <primary>Probe</primary>
+        </indexterm> um 1. Kann oder will er sich nicht mehr konzentrieren,
+      endet die Wirkung des Zaubers sofort.</para>
+
+      <para><remark>Bei der Antimagie wird deutlich, dass es zwei Arten von
+      Wirkungsdauern gibt: ein Spruch wie „Objekt bewegen” ist während seiner
+      Wirkungsdauer aktiv, sein Muster kann gespürt werden und man kann ihn
+      entzaubern. Eine Verwandlung hingegen hat zwar eine Wirkungsdauer, in
+      der der Körper versucht den Ursprungszustand wiederherzustellen, aber
+      der eigentliche Zauber hat ja seine Arbeit getan, folglich wäre auch die
+      Zaubermatrix verschwunden. Ist dieser Unterschied ein
+      Problem?</remark></para>
+
+      <para><remark>Vielleicht sollte man diese beiden Dauern explizit
+      unterscheiden - während der eigentlichen Wirkungsdauer ist die
+      Zaubermatrix aktiv, danach beginnt bei Lebewesensverzauberungen oder
+      ähnlichen Situationen eine „Abklingdauer”, in der die Effekte des
+      Zaubers verblassen bzw. zurückgebaut werden. Deutlich wird dies auch bei
+      „Hautfarbe verändern” - während der Wirkungsdauer hat das Ziel ein
+      sattes Orkgrün, erst in der Abklingdauer fängt das Ziel an, kränklich
+      bzw. verdächtig blass auszusehen.</remark></para>
     </section>
 
     <section>
@@ -4378,34 +4510,6 @@
       werden, wenn sich der Charakter im Kampf befindet, ein Vergleichswurf
       gefordert wird oder der Spieler es wünscht — zum Beispiel weil er
       besonders viele Erfolge erreichen möchte.</para>
-    </section>
-
-    <section>
-      <title>Wirkungsdauer</title>
-
-      <para>Die Wirkungsdauer ist bei jedem Zauberspruch angegeben. Nach
-      Ablauf dieser Zeit kann der Zauber jedoch wieder mit neuer Kraft
-      versorgt werden — das heißt, der Zaubernde muss erneut einen
-      Kraftwiderstandswurf ablegen.</para>
-
-      <para>Viele Zauber erhalten sich selbstständig, in dem sie sich aus der
-      enthaltenen Kraft speisen. Manche Zauber erfordern hingegen ständige
-      Konzentration des Zaubernden (was jeweils bei <emphasis>Dauer</emphasis>
-      vermerkt ist) und damit seine Anwesenheit auch nach dem eigentlichen
-      Zaubervorgang. Für jeden Zauber, den ein Charakter auf diese Weise
-      aufrecht erhält, steigt die Schwierigkeit für alle Proben<indexterm>
-          <primary>Probe</primary>
-        </indexterm> um 1. Kann oder will er sich nicht mehr konzentrieren,
-      endet die Wirkung des Zaubers sofort.</para>
-
-      <para><remark>Beim Kontern von Sprüchen wird deutlich, dass es zwei
-      Arten von Wirkungsdauern gibt: ein Spruch wie „Objekt bewegen” ist
-      während seiner Wirkungsdauer aktiv, sein Muster kann gespürt werden und
-      man kann ihn kontern/entzaubern. Eine Verwandlung hingegen hat zwar eine
-      Wirkungsdauer, in der der Körper versucht den Ursprungszustand
-      wiederherzustellen, aber der eigentliche Zauber hat ja seine Arbeit
-      getan, folglich wäre auch die Zaubermatrix verschwunden. Ist dieser
-      Unterschied ein Problem?</remark></para>
     </section>
   </chapter>
 
@@ -4676,6 +4780,14 @@
           </varlistentry>
         </variablelist>
 
+        <para><remark>TODO: Ausformulieren, bei Wesenszüge(?) einsortieren: Es
+        ist auch möglich eine Person zu dämpfen, so dass sie vorübergehend
+        keine Magie lenken kann — selbst permanente Dämpfungen sind, mit hohem
+        Aufwand, möglich.</remark></para>
+
+        <para><remark>NOCH FESTZULEGEN: Alle Zauberparameter fürs
+        Dämpfen.</remark></para>
+
         <section>
           <title>Mindestwurf</title>
 
@@ -4906,9 +5018,8 @@
         <para><remark>Ergänzung Beschreibung: man kann ohne spüren zauber und
         kraftmengen wahrnehmen, weil man auch mit dem bereich wasser das in
         der luft enthaltene wasser beeinflussen kann obwohl man es nicht mit
-        bloßem auge erkennt.</remark></para>
-
-        <para><remark>Alte Reichweitenregelung: C.</remark></para>
+        bloßem auge erkennt. Aber: die Begründung zieht nicht, wenn wir Wasser
+        entfernen. Andere Begründung oder andere Entscheidung?</remark></para>
 
         <variablelist>
           <varlistentry>
@@ -4972,8 +5083,8 @@
               <para><remark>Der Hauptzauberer formt die Zaubermatrix. Außerdem
               zwingt er unter Anstrengung Kraft hinein (am Zielort, nicht bei
               oder durch sich). Der Unterstützer tut das gleiche. Er kann das
-              aber nicht beliebig tun, denn zum einen ist die Matrix ist auf
-              eine gewisse Kraftmenge ausgelegt (siehe Kommentar oben) und zum
+              aber nicht beliebig tun, denn zum einen ist die Matrix auf eine
+              gewisse Kraftmenge ausgelegt (siehe Kommentar oben) und zum
               anderen muss der Hauptzauberer auf die Hilfe vorbereitet
               sein.</remark></para>
 
@@ -4990,31 +5101,100 @@
               <para>Ein Zauber oder die Matrix eines Artefakts<indexterm>
                   <primary>Artefakte</primary>
                 </indexterm> kann vor der Entdeckung durch Spüren getarnt
-              werden. Dazu wird die jeweilige Magiefertigkeit bei der
-              Zauberprobe mit Kraftmanipulation kombiniert. Der Mindestwurf
-              steigt dabei um 1. Ein Spüren-Zauber muss dann die Erfolgsanzahl
-              übertreffen, um die Tarnung zu durchdringen.<remark> (Die
-              Tarnung betrifft die Wirkungsdauer, denn bei permanenten
-              Effekten wie Erinnerungen löschen ist die Zaubermatrix sowieso
-              sofort verschwunden.)</remark></para>
+              werden. Dazu wird vor der eigentlichen Zauberprobe eine Probe
+              auf Kraftmanipulation durchgeführt, der Mindestwurf beträgt 3.
+              Gelingt diese, muss ein Spüren-Zauber im Rahmen einer
+              vergleichenden Probe deren Erfolgsanzahl übertreffen, um die
+              Tarnung zu durchdringen.</para>
+
+              <para>Bei Zaubern erstreckt sich die Tarnung auf die
+              Wirkungsdauer; permanent wirkende Zauber besitzen keine
+              Wirkungsdauer und ihre Matrix verschwindet sowieso nach Ende der
+              Zauberdauer, sie müssen daher nicht getarnt werden. Die Tarnung
+              von Artefakten beginnt nach ihrer Fertigstellung. Sowohl der
+              Vorgang des Zauberns als auch die Herstellung eines Artefakts
+              können während der Zauberdauer also normal beobachtet
+              werden.</para>
+
+              <para>Soll die charakteristische Signatur des Zaubernden
+              verändert werden, in dem z.B. die Signatur eines anderen
+              vorgetäuscht wird, wird ebenfalls vorab eine
+              Kraftmanipulations-Probe durchgeführt. Der Mindestwurf beträgt
+              4.</para>
+
+              <para><remark>TODO: Prüfen, ob MW 3 und 4 zu wenig
+              ist.</remark></para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term>Dämpfung</term>
+            <term>Zauber kontern</term>
 
             <listitem>
-              <para>Dämpfen ist die Fähigkeit, das Pulsieren der Kraft in
-              einem bestimmten Umkreis „lahmzulegen“. In diesem Bereich kann
-              keine Kraft in einen Zauber gelenkt werden. Bewegt sich ein
-              Zauber von außen in den Bereich hinein, wird er aufgelöst. Auf
-              diese Weise lassen sich auch magische Barrieren bilden, durch
-              die kein Zauber dringen kann (hinter denen aber gezaubert werden
-              kann).</para>
+              <para>Mit Hilfe von Kraftmanipulation können Zauberkundige auch
+              Zauber, welche von anderen gewirkt werden,
+              <firstterm>kontern</firstterm>. Dazu wird während der
+              Zauberdauer eine vergleichende Kraftmanipulations-Zauberprobe
+              durchgeführt. Gewinnt die Kraftmanipulationsprobe den Vergleich,
+              verpufft der ursprüngliche Zauber wirkungslos.
+              <remark>(Hintergrund: es soll schwieriger sein, eine
+              Zaubermatrix zu zerstören, als sie zu erzeugen. Das ist durch
+              die neuen Vergleichsproben-Regeln
+              sichergestellt.)</remark></para>
 
-              <para>Es ist auch möglich eine Person zu dämpfen, so dass sie
-              vorübergehend keine Magie lenken kann — selbst permanente
-              Dämpfungen sind, mit hohem Aufwand, möglich.</para>
+              <para><remark>Abgesehen vom Kontern kann man fremde Zauber nicht
+              beeinflussen. Es erscheint nämlich nur schwer erklärbar, warum
+              man unter den Augen des Zaubernden Details der Matrix umbaut,
+              ohne dass dieser es bemerkt und gegensteuert oder einfach mit
+              dem Zauber aufhört.</remark></para>
+
+              <para><remark>TODO: Wie verhält es sich zwischen Kontern
+              einerseits und Zauber während der Wirkungsdauer zerstören
+              andererseits? Eindeutig einfacher wäre keins von beiden:
+              einerseits erscheint es einfacher etwas im Aufbau befindliches
+              zu zerstören als etwas fertiges, andererseits ist es einfacher
+              etwas fertiges, bei dem kein Gegner wieder aufbaut, zu zerstören
+              - die beiden Argumente heben sich gegenseitig auf. Anderes
+              Argument: fertiges Haus ist stabiler als Rohbau, Entzauberung
+              ist also schwerer (z.B. MW+2 oder 3)</remark></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Antimagie-Felder und -Schilde</term>
+
+            <listitem>
+              <para><firstterm>Antimagie-Felder</firstterm> sind Bereiche, in
+              denen das Pulsieren der Kraft verringert wurde, so dass das
+              Zaubern schwerer fällt. Zauber, deren Ziel in einem solchen Feld
+              liegen, haben je nach Stärke des Felds einen um +2 oder +4
+              erhöhten Mindestwurf. Bewegt sich ein Zauber von außen in ein
+              Feld hinein, wird geprüft ob der durch das Feld erhöhte
+              Mindestwurf zu einem Scheitern der Zauberprobe geführt hätte.
+              Ist dies der Fall, löst sich der Zauber an der Grenze des Felds
+              auf.</para>
+
+              <para>Innerhalb eines Antimagie-Felds können Artefakte mit
+              gespeicherter Kraft normal ausgelöst bzw. benutzt
+              werden.<remark> Werden Artefakte genutzt, die nur Kraft, aber
+              keinen Zauber enthalten (siehe "Well" aus WoT), entfällt
+              natürlich die MW-Modifikation.</remark></para>
+
+              <para>Statt eines Antimagie-Felds kann auch ein
+              <firstterm>Schild</firstterm> geschaffen werden. Vor und hinter
+              einem solchen Schild kann regulär gezaubert werden; für Zauber,
+              die sich durch das Schild bewegen, gilt die oben beschriebene
+              Regelung. Dabei ist aber zu beachten, dass sich bei der Mehrzahl
+              der Magiefertigkeiten ein Zauber nicht auf einer Bahn vom
+              Entstehungsort zum Ziel bewegt, sondern direkt am Ziel entsteht.
+              <remark>Heißt: ein Antimagie-Schild ist nur in verhältnismäßig
+              wenigen Situationen hilfreich und zum Ausgleich mit einem
+              niedrigen MW versehen.</remark></para>
+
+              <para>Weil das lokalen Kraftgewebe verändert wird, sind sowohl
+              Antimagie-Felder als auch -Schilde immer stationär; zur
+              Verlegung ihres Ortes müssen sie abgebrochen und neu erschaffen
+              werden.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -5038,6 +5218,17 @@
 
               <tbody>
                 <row>
+                  <entry><inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Vergleichsprobe.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
+
+                  <entry>Zauber kontern</entry>
+                </row>
+
+                <row>
                   <entry>1</entry>
 
                   <entry>Kraft bereitstellen, Gemeinsames Zaubern
@@ -5046,64 +5237,214 @@
                         <imagedata depth="0.3cm"
                                    fileref="../Grafiken/Kombination.svg"/>
                       </imageobject>
-                    </inlinemediaobject></entry>
-                </row>
-
-                <row>
-                  <entry>2</entry>
-
-                  <entry/>
+                    </inlinemediaobject>, Schwaches Antimagie-Schild
+                  (+2)</entry>
                 </row>
 
                 <row>
                   <entry>3</entry>
 
-                  <entry/>
+                  <entry>Schwaches Antimagie-Feld (+2), Starkes
+                  Antimagie-Schild (+4), Zauber oder Artefakt tarnen
+                  <inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Zusatzprobe.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
                 </row>
 
                 <row>
                   <entry>4</entry>
 
-                  <entry/>
+                  <entry>Signatur verändern <inlinemediaobject>
+                      <imageobject>
+                        <imagedata depth="0.3cm"
+                                   fileref="../Grafiken/Zusatzprobe.svg"/>
+                      </imageobject>
+                    </inlinemediaobject></entry>
                 </row>
 
                 <row>
                   <entry>5</entry>
 
-                  <entry/>
+                  <entry>Starkes Antimagie-Feld (+4)</entry>
                 </row>
               </tbody>
             </tgroup>
           </informaltable>
-
-          <para><remark>Kontern: Vergleichswurf mit der Zauberprobe (Anm.: es
-          soll schwieriger sein, eine Zaubermatrix zu zerstören, als sie zu
-          erzeugen).</remark></para>
-
-          <para><remark>Zauber tarnen: MW +1 </remark></para>
-
-          <para><remark>Abgesehen vom Kontern kann man Zauber nicht
-          beeinflussen. Es erscheint nämlich nur schwer erklärbar, warum man
-          unter den Augen des Zaubernden Details der Matrix umbaut, ohne dass
-          dieser es bemerkt und gegensteuert oder einfach mit dem Zauber
-          aufhört.</remark></para>
-
-          <para><remark>Effekte: Antimagische Kraftfelder, …</remark></para>
         </section>
 
         <section>
           <title>Krafteinsatz</title>
 
-          <para><remark>Kontern: halbe KP des Originalzaubers
-          (aufgerundet)</remark></para>
+          <variablelist>
+            <varlistentry>
+              <term>Kraft bereitstellen</term>
+
+              <listitem>
+                <para>Beliebig.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Gemeinsames Zaubern</term>
+
+              <listitem>
+                <para>Mindestens 1, auf Wunsch kann sämtliche Kraft dem
+                Zaubernden bereitgestellt werden.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Zauber kontern</term>
+
+              <listitem>
+                <para>Halber Kraftaufwand des Originalzaubers (aufgerundet).
+                Die Kraftmenge muss vom Spieler geschätzt werden; verwendet er
+                zuwenig, scheitert das Kontern.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Antimagie-Feld</term>
+
+              <listitem>
+                <para>Der Krafteinsatz hängt von Wirkungsdauer, Größe und
+                Distanz ab.</para>
+
+                <para>Der erste Kraftpunkt entspricht 15 Minuten Wirkungsdauer
+                und einer Größe von 4 m³. Jeder weitere KP erhöht einen dieser
+                Werte auf den nächsten Abschnitt der folgenden Skala:</para>
+
+                <informaltable>
+                  <tgroup cols="12">
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <colspec align="center"/>
+
+                    <tbody>
+                      <row>
+                        <entry>4</entry>
+
+                        <entry>8</entry>
+
+                        <entry>15</entry>
+
+                        <entry>30</entry>
+
+                        <entry>75</entry>
+
+                        <entry>150</entry>
+
+                        <entry>300</entry>
+
+                        <entry>600</entry>
+
+                        <entry>1200</entry>
+
+                        <entry>2500</entry>
+
+                        <entry>5000</entry>
+
+                        <entry>…</entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </informaltable>
+
+                <para>Die Distanz zum Zentrum des Felds beträgt bis zu 4 Meter
+                pro zusätzlichem Kraftpunkt.<remark> (Begründung: die 4 hat
+                man sich wegen der Größe sowieso gemerkt)</remark></para>
+
+                <para><remark>Größe soll teurer sein als Wirkungsdauer, denn
+                je größer der Bereich, desto größer seine Oberfläche und desto
+                mehr Kraft drückt von außen wieder herein.</remark></para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Antimagie-Schild</term>
+
+              <listitem>
+                <para>Der Krafteinsatz hängt von Wirkungsdauer, Größe und
+                Distanz ab.</para>
+
+                <para>Der erste Kraftpunkt entspricht 3 Runden Wirkungsdauer
+                und einer Größe von 1 m². Jeder weitere KP erhöht die
+                Wirkungsdauer um 3 Runden oder die Größe um 1 m².</para>
+
+                <para>Die Distanz zum Zentrum des Schildes beträgt bis zu 4
+                Meter pro zusätzlichem Kraftpunkt.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
         </section>
 
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>Kontern: sofort, Antimagisches Feld: einige Runden,
-          Gemeinsames Zaubern: genauso lang wie der
-          Originalzauber</remark></para>
+          <informaltable>
+            <tgroup cols="2">
+              <colspec colwidth="1*"/>
+
+              <colspec colwidth="4*"/>
+
+              <thead>
+                <row>
+                  <entry>Dauer</entry>
+
+                  <entry>Effekte</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Sofort</entry>
+
+                  <entry>Zauber kontern</entry>
+                </row>
+
+                <row>
+                  <entry>1 Runde</entry>
+
+                  <entry>Antimagie-Schild</entry>
+                </row>
+
+                <row>
+                  <entry>Einige Minuten</entry>
+
+                  <entry>Antimagie-Feld (+2)</entry>
+                </row>
+
+                <row>
+                  <entry>(Originalzauber)</entry>
+
+                  <entry>Gemeinsames Zaubern, Kraft bereitstellen</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
         </section>
       </section>
 
@@ -5640,6 +5981,9 @@
         </variablelist>
 
         <para><remark>Alte Reichweite: B</remark></para>
+
+        <para><remark>Man könnte sich bzgl. Krafteinsatz ggf. an den Regeln zu
+        Antimagie-Feldern bei Kraftmanipulation orientieren.</remark></para>
       </section>
 
       <section>
@@ -6715,23 +7059,35 @@
         <section>
           <title>Zauberdauer</title>
 
-          <variablelist>
-            <varlistentry>
-              <term>Teleport</term>
+          <informaltable>
+            <tgroup cols="2">
+              <colspec colwidth="1*"/>
 
-              <listitem>
-                <para>1 Runde</para>
-              </listitem>
-            </varlistentry>
+              <colspec colwidth="5*"/>
 
-            <varlistentry>
-              <term>Tor</term>
+              <thead>
+                <row>
+                  <entry>Dauer</entry>
 
-              <listitem>
-                <para>1 Minute</para>
-              </listitem>
-            </varlistentry>
-          </variablelist>
+                  <entry>Effekt</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>1 Runde</entry>
+
+                  <entry>Teleport</entry>
+                </row>
+
+                <row>
+                  <entry>1 Minute</entry>
+
+                  <entry>Tor</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
         </section>
 
         <section>
@@ -6773,9 +7129,10 @@
               <term>Tote Materie</term>
 
               <listitem>
-                <para>Organische, nicht mehr lebendige Stoffe. Regeltechnisch
-                wird ein Körper nach dem Tod noch solange als Lebewesen
-                behandelt, bis er kalt geworden ist.</para>
+                <para>Organische, nicht mehr lebendige Stoffe. Ein Lebewesen
+                gilt als tot, sobald das Herz aufgehört hat zu schlagen; ein
+                Körperteil, sobald er von der Versorgung abgeschnitten
+                ist.</para>
               </listitem>
             </varlistentry>
 

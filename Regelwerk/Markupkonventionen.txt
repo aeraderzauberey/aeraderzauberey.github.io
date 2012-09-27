@@ -13,3 +13,9 @@ indexterm
 	- Adjektive wie "Heilung, magisch" bleiben in der Grundform, es heißt also nicht "Heilung, magische"
 	- Allgemeine Konzepte wie "Kampf" oder "Magie", welche keine eigene regeltechnische Definition besitzen, sind keine Stichworte.
 	- Zusammengesetzte Begriffe aus zwei Stichworten wie "Fertigkeitsprobe" sind Nennungen für beide Stichworte, sofern keine andere Regel eins der Worte ausschließt.
+
+
+Abzuarbeitende Anmerkungen:
+	- Schreiben IN GROSSBUCHSTABEN (mindestens zwei Worte oder TODO / ALT)
+	- Finden mit folgender RegEx (Groß-Kleinschreibung beachten):
+		([A-ZÄÖÜß]{2,} ?){2,}|TODO|ALT
