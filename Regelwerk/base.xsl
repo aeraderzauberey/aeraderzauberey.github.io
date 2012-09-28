@@ -6,12 +6,15 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:java="http://xml.apache.org/xslt/java"
     xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:d="http://docbook.org/ns/docbook"
     exclude-result-prefixes="java">
 
   <xsl:import href="file:////Library/Tools/docbook-xsl-snapshot/fo/docbook.xsl"/>
   <xsl:output method="xml"/>
 
   <xsl:variable name="date" select="java:format(java:java.text.SimpleDateFormat.new('dd.MM.yyyy'), java:java.util.Date.new())"/>
+  <xsl:variable name="releaseInfoRaw"><xsl:value-of select="/d:book/d:info/d:releaseinfo"/></xsl:variable>
+  <xsl:variable name="releaseInfoRevision"><xsl:value-of select="substring-before(substring-after($releaseInfoRaw, ': '), ' $')"/></xsl:variable>
 
   <xsl:param name="fop1.extensions">1</xsl:param>
 
@@ -169,7 +172,7 @@
     <xsl:variable name="info"><xsl:value-of select="."/></xsl:variable>
 
     <fo:block xsl:use-attribute-sets="book.titlepage.verso.style" space-before="0.5em">
-      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="substring-before(substring-after($info, ': '), ' $')"/>
+      Stand: <xsl:value-of select="$date"/>, r<xsl:value-of select="$releaseInfoRevision"/>
     </fo:block>
   </xsl:template>
 
@@ -479,7 +482,7 @@
       </xsl:when>
 
       <xsl:when test="$double.sided = 0 and $position='left'">
-        <xsl:value-of select="$date"/>
+        <xsl:value-of select="$date"/>, r<xsl:value-of select="$releaseInfoRevision"/>
       </xsl:when>
 
       <xsl:when test="$double.sided != 0 and $sequence = 'even'
