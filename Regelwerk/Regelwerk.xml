@@ -1743,11 +1743,11 @@
             <row>
               <entry>Punktzahl um 1 steigern</entry>
 
-              <entry>Bisherige Punkte * 5</entry>
+              <entry valign="middle">Bisherige Punkte * 5</entry>
 
-              <entry>Bisherige Punkte * 2</entry>
+              <entry valign="middle">Bisherige Punkte * 2</entry>
 
-              <entry>Bisherige Punkte</entry>
+              <entry valign="middle">Bisherige Punkte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1764,8 +1764,10 @@
       nach einem Wüstenabenteuer sicherlich entscheiden, dass der Charakter
       seine <emphasis>Geographie</emphasis>-Fertigkeit verbessert hat — die
       Steigerung von <emphasis>Schwimmen</emphasis> dürfte jedoch etwas
-      abwegig sein. Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
-      neuen Fertigkeiten<indexterm>
+      abwegig sein.</para>
+
+      <para>Zu dieser Erklärbarkeit gehört auch, dass man gerade bei neuen
+      Fertigkeiten<indexterm>
           <primary>Fertigkeit</primary>
         </indexterm> und beim Erlernen von Sonderfertigkeiten<indexterm>
           <primary>Sonderfertigkeit</primary>
