@@ -399,7 +399,7 @@
         <section>
           <title>Basisfertigkeiten</title>
 
-          <informaltable role="breakable">
+          <informaltable>
             <tgroup cols="3">
               <colspec colnum="1" colwidth="5*"/>
 
@@ -524,7 +524,7 @@
         <section>
           <title>Kampffertigkeiten</title>
 
-          <informaltable role="breakable">
+          <informaltable>
             <tgroup cols="3">
               <colspec colnum="1" colwidth="5*"/>
 
@@ -587,7 +587,7 @@
         <section>
           <title>Fertigkeitsgruppen</title>
 
-          <informaltable role="breakable">
+          <informaltable>
             <tgroup cols="3">
               <colspec colnum="1" colwidth="5*"/>
 
@@ -657,7 +657,7 @@
         <section>
           <title>Typische Berufsfertigkeiten</title>
 
-          <informaltable role="breakable">
+          <informaltable>
             <tgroup cols="3">
               <colspec colnum="1" colwidth="5*"/>
 
@@ -772,7 +772,7 @@
         <section>
           <title>Magiefertigkeiten</title>
 
-          <informaltable role="breakable">
+          <informaltable>
             <tgroup cols="3">
               <colspec colwidth="5*"/>
 
@@ -869,8 +869,7 @@
 
                   <entry>EN</entry>
 
-                  <entry>Antimagie, Orte oder Personen dämpfen, gemeinsames
-                  Zaubern</entry>
+                  <entry>Antimagie, gemeinsames Zaubern</entry>
                 </row>
 
                 <row>
