@@ -655,6 +655,121 @@
         </section>
 
         <section>
+          <title>Typische Berufsfertigkeiten</title>
+
+          <informaltable role="breakable">
+            <tgroup cols="3">
+              <colspec colnum="1" colwidth="5*"/>
+
+              <colspec align="center" colnum="2" colwidth="3*"/>
+
+              <colspec colnum="3" colwidth="12*"/>
+
+              <thead>
+                <row>
+                  <entry>Fertigkeit</entry>
+
+                  <entry>Attribut</entry>
+
+                  <entry>Kurzbeschreibung</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Chirurgie</entry>
+
+                  <entry>FF</entry>
+
+                  <entry>Wundversorgung, Invasive Behandlung von Skelett und
+                  Organen, Traumatologie, Foltern, Zahnheilkunde</entry>
+                </row>
+
+                <row>
+                  <entry>Gaukelei</entry>
+
+                  <entry>FF / GW</entry>
+
+                  <entry>Unterhaltung eines Publikums insb. durch Bauchreden,
+                  Entfesselung, Jonglage, Puppenspiel, Taschenspielerei;
+                  umfasst auch Falschspiel und Taschendiebstahl</entry>
+                </row>
+
+                <row>
+                  <entry>Jagdwesen</entry>
+
+                  <entry>GW</entry>
+
+                  <entry>Fallenstellen, Einzeljagd, Durchführen von
+                  Gesellschaftsjagden, Aufzucht und Einsatz von Greifvögeln
+                  für Jagdzwecke</entry>
+                </row>
+
+                <row>
+                  <entry>Kochkunst</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Herstellung verschiedener Lebensmittel durch Kochen,
+                  Bäckerei und Konditorei, Molkerei, Brauerei,
+                  Brennerei</entry>
+                </row>
+
+                <row>
+                  <entry>Kriegskunst</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Taktik und Strategie, Truppen kommandieren und
+                  motivieren</entry>
+                </row>
+
+                <row>
+                  <entry>Magiekunde</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
+                  Gruppierungen …)</entry>
+                </row>
+
+                <row>
+                  <entry>Medizin</entry>
+
+                  <entry>KL</entry>
+
+                  <entry>Diagnose und Therapie von Krankheiten, Krankenpflege,
+                  Herstellung von Arzneien, Geburtshilfe, Allgemein- und
+                  Fachmedizin</entry>
+                </row>
+
+                <row>
+                  <entry>Reitkunst</entry>
+
+                  <entry>GW</entry>
+
+                  <entry>Beherrschen von Reittieren, Führen und Warten von
+                  Fuhrwerken, aber auch das Führen von Nahkampf- und
+                  Fernkampfwaffen während des Reitens sowie
+                  Lanzenreiten.</entry>
+                </row>
+
+                <row>
+                  <entry>Schauspielerei</entry>
+
+                  <entry>CH</entry>
+
+                  <entry>Bühnenschauspiel, Vortrag von Lyrik und
+                  Märchen</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+
+          <para>Siehe auch den Anhang <xref linkend="SonstigeBerufe"/>.</para>
+        </section>
+
+        <section>
           <title>Magiefertigkeiten</title>
 
           <informaltable role="breakable">
@@ -842,121 +957,6 @@
             </indexterm> voneinander sowie Richtlinien zu ihrer Handhabung im
           Spiel finden sich ab <xref linkend="magiefertigkeiten"
           xrefstyle="page"/>.</para>
-        </section>
-
-        <section>
-          <title>Typische Berufsfertigkeiten</title>
-
-          <informaltable role="breakable">
-            <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*"/>
-
-              <colspec align="center" colnum="2" colwidth="3*"/>
-
-              <colspec colnum="3" colwidth="12*"/>
-
-              <thead>
-                <row>
-                  <entry>Fertigkeit</entry>
-
-                  <entry>Attribut</entry>
-
-                  <entry>Kurzbeschreibung</entry>
-                </row>
-              </thead>
-
-              <tbody>
-                <row>
-                  <entry>Chirurgie</entry>
-
-                  <entry>FF</entry>
-
-                  <entry>Wundversorgung, Invasive Behandlung von Skelett und
-                  Organen, Traumatologie, Foltern, Zahnheilkunde</entry>
-                </row>
-
-                <row>
-                  <entry>Gaukelei</entry>
-
-                  <entry>FF / GW</entry>
-
-                  <entry>Unterhaltung eines Publikums insb. durch Bauchreden,
-                  Entfesselung, Jonglage, Puppenspiel, Taschenspielerei;
-                  umfasst auch Falschspiel und Taschendiebstahl</entry>
-                </row>
-
-                <row>
-                  <entry>Jagdwesen</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Fallenstellen, Einzeljagd, Durchführen von
-                  Gesellschaftsjagden, Aufzucht und Einsatz von Greifvögeln
-                  für Jagdzwecke</entry>
-                </row>
-
-                <row>
-                  <entry>Kochkunst</entry>
-
-                  <entry>IN</entry>
-
-                  <entry>Herstellung verschiedener Lebensmittel durch Kochen,
-                  Bäckerei und Konditorei, Molkerei, Brauerei,
-                  Brennerei</entry>
-                </row>
-
-                <row>
-                  <entry>Kriegskunst</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Taktik und Strategie, Truppen kommandieren und
-                  motivieren</entry>
-                </row>
-
-                <row>
-                  <entry>Magiekunde</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Allgemeinbildung auf magischem Gebiet (Gesten,
-                  Gruppierungen …)</entry>
-                </row>
-
-                <row>
-                  <entry>Medizin</entry>
-
-                  <entry>KL</entry>
-
-                  <entry>Diagnose und Therapie von Krankheiten, Krankenpflege,
-                  Herstellung von Arzneien, Geburtshilfe, Allgemein- und
-                  Fachmedizin</entry>
-                </row>
-
-                <row>
-                  <entry>Reitkunst</entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Beherrschen von Reittieren, Führen und Warten von
-                  Fuhrwerken, aber auch das Führen von Nahkampf- und
-                  Fernkampfwaffen während des Reitens sowie
-                  Lanzenreiten.</entry>
-                </row>
-
-                <row>
-                  <entry>Schauspielerei</entry>
-
-                  <entry>CH</entry>
-
-                  <entry>Bühnenschauspiel, Vortrag von Lyrik und
-                  Märchen</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
-
-          <para>Siehe auch den Anhang <xref linkend="SonstigeBerufe"/>.</para>
         </section>
       </section>
 
@@ -8861,6 +8861,10 @@
 
             <row>
               <entry>Textilverarbeitung</entry>
+
+              <entry>FF</entry>
+
+              <entry/>
             </row>
 
             <row>
