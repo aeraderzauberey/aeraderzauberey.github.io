@@ -17,6 +17,10 @@
     <xsl:attribute name="page-break-before">always</xsl:attribute>
   </xsl:attribute-set>
 
+  <xsl:template name="footer.content.custom_cell">
+    r<xsl:value-of select="$releaseInfoRevision"/>
+  </xsl:template>
+
   <xsl:param name="show.comments">1</xsl:param>
 
   <xsl:template name="book.titlepage.before.recto"/>

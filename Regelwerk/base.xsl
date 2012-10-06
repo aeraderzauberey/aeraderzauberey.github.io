@@ -440,31 +440,6 @@
   <xsl:template name="header.content">
   </xsl:template>
 
-<!--
-  <xsl:template name="footer.content">
-    <xsl:param name="pageclass" select="''"/>
-    <xsl:param name="sequence" select="''"/>
-    <xsl:param name="position" select="''"/>
-    <xsl:param name="gentext-key" select="''"/>
-
-      <xsl:choose>
-        <xsl:when test="$position='left'">
-		  <fo:page-number/>
-        </xsl:when>
-
-        <xsl:when test="$position = 'center'">
-          <xsl:value-of select="$date"/>
-        </xsl:when>
-
-        <xsl:when test="$position = 'right'">
-            x<xsl:value-of select="position()"/>
-        </xsl:when>
-
-      </xsl:choose>
-
-
-  </xsl:template>
--->
 
 <xsl:template name="footer.content">
   <xsl:param name="pageclass" select="''"/>
@@ -481,42 +456,22 @@
         <!-- nop; no footer on title pages -->
       </xsl:when>
 
-      <xsl:when test="$double.sided = 0 and $position='left'">
-        <xsl:value-of select="$date"/>, r<xsl:value-of select="$releaseInfoRevision"/>
-      </xsl:when>
-
-      <xsl:when test="$double.sided != 0 and $sequence = 'even'
-                      and $position='left'">
-        <fo:page-number/>
-      </xsl:when>
-
-      <xsl:when test="$double.sided != 0 and ($sequence = 'odd' or $sequence = 'first')
-                      and $position='right'">
-        <fo:page-number/>
-      </xsl:when>
-
       <xsl:when test="$double.sided = 0 and $position='center'">
         <fo:page-number/>
       </xsl:when>
+      <xsl:when test="$double.sided = 0 and $position='left'">
+        <xsl:call-template name="footer.content.custom_cell"/>
+      </xsl:when>
 
+      <xsl:when test="$double.sided != 0 and ($sequence = 'even' or $sequence = 'blank') and $position='left'">
+        <fo:page-number/>
+      </xsl:when>
+      <xsl:when test="$double.sided != 0 and ($sequence = 'odd' or $sequence = 'first') and $position='right'">
+        <fo:page-number/>
+      </xsl:when>
       <xsl:when test="$double.sided != 0 and $position='center'">
-        <xsl:value-of select="$date"/>
+        <xsl:call-template name="footer.content.custom_cell"/>
       </xsl:when>
-
-      <xsl:when test="$sequence='blank'">
-        <xsl:choose>
-          <xsl:when test="$double.sided != 0 and $position = 'left'">
-            <fo:page-number/>
-          </xsl:when>
-          <xsl:when test="$double.sided = 0 and $position = 'center'">
-            <fo:page-number/>
-          </xsl:when>
-          <xsl:otherwise>
-            <!-- nop -->
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:when>
-
 
       <xsl:otherwise>
         <!-- nop -->
@@ -524,6 +479,10 @@
     </xsl:choose>
   </fo:block>
 </xsl:template>
+
+<xsl:template name="footer.content.custom_cell">
+</xsl:template>
+
 
   <xsl:template match="diffmk:wrapper">
     <fo:inline background-color="#a0a0a0">
