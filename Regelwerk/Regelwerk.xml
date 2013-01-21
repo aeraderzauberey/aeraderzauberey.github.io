@@ -659,11 +659,11 @@
 
           <informaltable>
             <tgroup cols="3">
-              <colspec colnum="1" colwidth="5*"/>
+              <colspec colwidth="5*"/>
 
-              <colspec align="center" colnum="2" colwidth="3*"/>
+              <colspec align="center" colwidth="3*"/>
 
-              <colspec colnum="3" colwidth="12*"/>
+              <colspec colwidth="12*"/>
 
               <thead>
                 <row>
@@ -741,6 +741,17 @@
                   <entry>Diagnose und Therapie von Krankheiten, Krankenpflege,
                   Herstellung von Arzneien, Geburtshilfe, Allgemein- und
                   Fachmedizin</entry>
+                </row>
+
+                <row>
+                  <entry>Musik</entry>
+
+                  <entry>IN</entry>
+
+                  <entry>Verschiedene Musikinstrumente, Musikalische
+                  Improvisation, Kompositionslehre, Musikgeschichte, Gesang,
+                  Spezielle Gesangstechniken, Chor- und Orchesterleitung,
+                  Tontechnik, Akustik</entry>
                 </row>
 
                 <row>
@@ -8788,25 +8799,53 @@
             <row>
               <entry>Instrumentenbau</entry>
 
-              <entry/>
+              <entry>FF</entry>
 
-              <entry/>
+              <entry>Bau und Wartung von Musikinstrumenten, Bögen und
+              Armbrüsten mit entsprechenden Geschossen sowie Spielzeug</entry>
             </row>
 
             <row>
               <entry>Juwelierskunst</entry>
+
+              <entry>FF</entry>
+
+              <entry>Herstellung von Schmuck aus Edelmetallen und Edelsteinen,
+              Juwelenschleifen, Prägen von Münzen und Medaillen, Schneiden von
+              Siegeln</entry>
             </row>
 
             <row>
               <entry>Keramik</entry>
+
+              <entry>FF</entry>
+
+              <entry>Herstellung von Gebrauchsgegenständen aus Ton, Porzellan
+              und Steingut; Glasieren, Emaillieren und Bemalen von Glas und
+              Keramik, Herstellung von Ziegeln, Fliesen etc.; Kerzenzieherei;
+              Stuckarbeiten</entry>
             </row>
 
             <row>
               <entry>Kosmetik</entry>
+
+              <entry>FF</entry>
+
+              <entry>Körperpflege- und kosmetische Behandlungen; Behandlung
+              von Erkrankungen durch Badekuren; Schneiden und Frisieren von
+              Bart- und Haupthaar; Körperschmuck wie Tätowieren oder Branding;
+              Herstellung von Seifen, Duftstoffen oder Parfums</entry>
             </row>
 
             <row>
               <entry>Landwirtschaft</entry>
+
+              <entry>KL</entry>
+
+              <entry>Bewirtschaftung von Äckern, Gärten und anderen Flächen
+              zur Gewinnung von Nahrungsmitteln, Zier- und Heilpflanzen;
+              Forstwirtschaft; Herstellung von Süßmost und Obstweinen; Keltern
+              von Weinen; Zucht von Pilzen</entry>
             </row>
 
             <row>
@@ -8820,42 +8859,102 @@
 
             <row>
               <entry>Mathematik</entry>
+
+              <entry>KL</entry>
+
+              <entry>Rechnen, Auflösen von Gleichungen, Zinsrechnung,
+              Geometrie, Statistik, Ver- und Entschlüsselung von
+              Botschaften</entry>
             </row>
 
             <row>
               <entry>Mechanik</entry>
+
+              <entry>KL</entry>
+
+              <entry>Festkörpermechanik, Bewegungsgesetze, Verständnis und
+              Nutzung von Hydraulik, Konstruktion technischer Anlagen</entry>
             </row>
 
             <row>
               <entry>Metallurgie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Gewinnung von Metallen, Eisen und Stahl aus den
+              jeweiligen Rohstoffen; Metallgießerei und Glockengießen;
+              Gewinnung von Salzen; Herstellung von Holzkohle</entry>
             </row>
 
             <row>
               <entry>Ökonomie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Haus- und Betriebswirtschaft; Buchhaltung; Kenntnis von
+              Angebot und Nachfrage, Liefer- und Absatzmärkten sowie
+              Produktionskosten von Waren</entry>
             </row>
 
             <row>
               <entry>Philosophie</entry>
+
+              <entry>KL</entry>
+
+              <entry>Logik und Erkenntniskritik, korrektes Schlussfolgern,
+              Ethik und Rechtsphilosophie, Anthropologie, Ästhetik,
+              Metaphysik, Geschichts- und Religionsphilosophie</entry>
             </row>
 
             <row>
               <entry>Rechtskunde</entry>
+
+              <entry>KL</entry>
+
+              <entry>Kenntnis von verschiedenen Rechtsbereichen, Vertrags- und
+              Urkundenwesen, Verwaltungsvorschriften</entry>
             </row>
 
             <row>
               <entry>Schifffahrt</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Führung von Booten und Kommandieren von
+              Schiffsmannschaften; Segeln; Rudern; Flößen; Wellenreiten,
+              Windsurfen, Snowboarding etc.</entry>
             </row>
 
             <row>
               <entry>Schmiedekunst</entry>
+
+              <entry>FF / KK</entry>
+
+              <entry>Herstellung von Blank- und Hiebwaffen sowie Pfeilspitzen;
+              Rüstungsbau, Kupferschmiedearbeiten; Herstellung von
+              Gebrauchsgegenständen und Werkzeugen; Drahtziehen</entry>
             </row>
 
             <row>
               <entry>Steinbearbeitung</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Maurerhandwerk; Steinmetzarbeiten und Bildhauerei;
+              Verlegung von Kacheln, Fliesen und Pflasterungen;
+              Zurechtschlagen von Feuerstein zu Waffen und Werkzeugen;
+              Errichten von Bauwerken aus Beton und ähnlichen
+              Gussmaterialien</entry>
             </row>
 
             <row>
               <entry>Textilfabrikation</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Herstellung von Textilien durch Weben und Filzen;
+              Erzeugung von Garnen, Seidenfasern, Papier und Karton;
+              Herstellung/Aufbereitung und Verwendung von Farbmitteln</entry>
             </row>
 
             <row>
@@ -8863,7 +8962,9 @@
 
               <entry>FF</entry>
 
-              <entry/>
+              <entry>Schneiderei, Sticken, Häkeln, Stricken, Knüpfen von
+              Teppichen, Textilpflege, Verarbeitung von Papier und Kartonagen
+              zu Gebrauchsgegenständen</entry>
             </row>
 
             <row>
@@ -8871,12 +8972,17 @@
 
               <entry>KL</entry>
 
-              <entry>Kenntnisse in Glaubensrichtungen, Kulten, Traditionen und
-              kirchlichen Organisationen</entry>
+              <entry>Wissen um Glaubensgrundsätze, heilige Schriften und
+              Mythologie von Religionsgemeinschaften; Leitung und Durchführung
+              religiöser Handlungen; Volksglaube </entry>
             </row>
 
             <row>
               <entry>Wasserfahrzeugbau</entry>
+
+              <entry>spez.</entry>
+
+              <entry>Boots- und Schiffsbau, Segelmacherei</entry>
             </row>
           </tbody>
         </tgroup>
