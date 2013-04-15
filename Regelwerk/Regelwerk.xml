@@ -1807,8 +1807,8 @@
 
       <para>Eine Probe<indexterm>
           <primary>Probe</primary>
-        </indexterm> wird durch das Rollen mehrerer zwanzigseitiger Würfel
-      (kurz: <firstterm>W20</firstterm>) durchgeführt, wobei die
+        </indexterm> wird durch das Rollen mehrerer sechsseitiger Würfel
+      (kurz: <firstterm>W6</firstterm>) durchgeführt, wobei die
       Würfelanzahl<indexterm>
           <primary>Würfelanzahl</primary>
         </indexterm> von den Eigenschaften des Charakters abhängt. Das
@@ -2107,7 +2107,7 @@
       <para>Das Ergebnis einer Probe wird als Anzahl von <firstterm
       baseform="Erfolg">Erfolgen</firstterm><indexterm>
           <primary>Erfolg</primary>
-        </indexterm> angegeben. Jeder gerollte Würfel, der eine 14 oder höher
+        </indexterm> angegeben. Jeder gerollte Würfel, der eine 5 oder 6
       zeigt, zählt als ein Erfolg<indexterm>
           <primary>Erfolg</primary>
         </indexterm>.</para>
@@ -2136,11 +2136,11 @@
         an.</para>
 
         <para>Elris hat Gewandtheit 5, Heimlichkeit 2 und die Spezialisierung
-        „Schleichen” auf 3, macht 10. Er rollt seine 10 Würfel, sie zeigen:
-        15, 8, 17, 4, 20, 2, 5, 6, 12, 13, ergibt insgesamt drei Erfolge —
-        Elris schafft es also, kaum verräterische Geräusche zu verursachen.
-        Hätte er weniger als drei Erfolge gehabt, wäre er direkt und lautstark
-        auf eine knarrende Diele getreten.</para>
+        „Schleichen” auf 3, macht 10. Er rollt seine 10 Würfel, sie zeigen: 5,
+        2, 4, 1, 6, 2, 2, 6, 3, 4, ergibt insgesamt drei Erfolge — Elris
+        schafft es also, kaum verräterische Geräusche zu verursachen. Hätte er
+        weniger als drei Erfolge gehabt, wäre er direkt und lautstark auf eine
+        knarrende Diele getreten.</para>
       </informalexample>
 
       <sidebar>
@@ -3006,8 +3006,7 @@
 
       <para>Haben mehrere Beteiligte die gleiche Initiative<indexterm>
           <primary>Initiative</primary>
-        </indexterm>, entscheiden zusätzliche W20-Würfe über ihre Reihenfolge
-      untereinander.</para>
+        </indexterm>, wird ihre Reihenfolge untereinander ausgewürfelt.</para>
 
       <sidebar>
         <para>Bei längeren Kämpfen sollte der Spielleiter nach nennenswerten
@@ -8974,7 +8973,7 @@
 
               <entry>Wissen um Glaubensgrundsätze, heilige Schriften und
               Mythologie von Religionsgemeinschaften; Leitung und Durchführung
-              religiöser Handlungen; Volksglaube </entry>
+              religiöser Handlungen; Volksglaube</entry>
             </row>
 
             <row>
