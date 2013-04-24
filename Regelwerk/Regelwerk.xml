@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2012</year>
+      <year>2013</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -842,15 +842,6 @@
                   <entry>MA</entry>
 
                   <entry>Anorganische Stoffe beeinflussen</entry>
-                </row>
-
-                <row>
-                  <entry>Verarbeitete Materie</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>Bearbeitete und künstliche Stoffe
-                  beeinflussen</entry>
                 </row>
 
                 <row>
@@ -3088,13 +3079,13 @@
 
       <informaltable>
         <tgroup cols="4">
-          <colspec colnum="1" colwidth="2*"/>
+          <colspec colwidth="2*"/>
 
-          <colspec colnum="2" colwidth="7*"/>
+          <colspec colwidth="7*"/>
 
-          <colspec colnum="3" colwidth="4*"/>
+          <colspec colwidth="4*"/>
 
-          <colspec colnum="4" colwidth="2*"/>
+          <colspec colwidth="2*"/>
 
           <thead>
             <row>
@@ -3122,7 +3113,17 @@
             <row>
               <entry/>
 
-              <entry>Waffe wechseln/ziehen</entry>
+              <entry>Zauber (offensiv/schützend/verstärkend)</entry>
+
+              <entry>Aktion</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry/>
+
+              <entry>Nach Sturz wieder aufstehen</entry>
 
               <entry>Aktion (ohne Probe)</entry>
 
@@ -3132,9 +3133,9 @@
             <row>
               <entry/>
 
-              <entry>Zauber (offensiv/schützend/verstärkend)</entry>
+              <entry>Waffe wechseln/ziehen</entry>
 
-              <entry>Aktion</entry>
+              <entry>Aktion (ohne Probe)</entry>
 
               <entry/>
             </row>
@@ -3171,6 +3172,13 @@
           </tbody>
         </tgroup>
       </informaltable>
+
+      <para><remark>Es gibt absichtlich keinerlei Regeln für Bewegung. Fragen
+      wie "Wieviel Bewegung ist noch eine freie Aktion?" oder "Welche
+      Bewegungsweite hat man normal/rennend/etc.?" würde ziemlich ausgefeilte
+      Regeln erfordern (z.B. wie das eher taktisch geprägte D&amp;D). Statt
+      hier einen faulen Kompromiss zu gehen, verzichte ich lieber vollständig
+      auf jegliche Bewegungsregeln.</remark></para>
 
       <para>Die Hektik einer Kampfsituation schlägt sich auch in den
       Proben<indexterm>
@@ -7125,14 +7133,14 @@
       </section>
 
       <section>
-        <title>Tote, Unbelebte und Verarbeitete Materie <inlinemediaobject>
+        <title>Tote Materie &amp; Unbelebte Materie <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/MA.svg"
                          valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
-        <para>Diese drei Fertigkeiten beziehen sich jeweils auf eine
+        <para>Diese beiden Fertigkeiten beziehen sich jeweils auf eine
         Stoffgruppe:</para>
 
         <para><variablelist>
@@ -7140,10 +7148,11 @@
               <term>Tote Materie</term>
 
               <listitem>
-                <para>Organische, nicht mehr lebendige Stoffe. Ein Lebewesen
-                gilt als tot, sobald das Herz aufgehört hat zu schlagen; ein
-                Körperteil, sobald er von der Versorgung abgeschnitten
-                ist.</para>
+                <para>Organische, nicht mehr lebendige Stoffe. Als tot gilt
+                ein Lebewesen dann, wenn z.B. das Herz aufgehört hat zu
+                schlagen oder eine Pflanze vertrocknet ist.<remark> Beispiele:
+                Holz, Leder, Baumwollkleidung, Holzkohle,
+                Bernstein</remark></para>
               </listitem>
             </varlistentry>
 
@@ -7151,21 +7160,10 @@
               <term>Unbelebte Materie</term>
 
               <listitem>
-                <para>Anorganische, natürliche Stoffe außer Wasser.</para>
-              </listitem>
-            </varlistentry>
-
-            <varlistentry>
-              <term>Verarbeitete Materie</term>
-
-              <listitem>
-                <para>Organische oder anorganische Stoffe, welche durch
-                nicht-natürliche Prozesse hergestellt, be- oder verarbeitet
-                wurden. Durch rein mechanische Prozesse ohne chemische oder
-                magische Aspekte (z.B. Holzhacken) veränderte Objekte gelten
-                jedoch nicht als <emphasis>verarbeitet</emphasis>, sondern
-                weiterhin als <emphasis>tot</emphasis> bzw.
-                <emphasis>unbelebt</emphasis>.</para>
+                <para>Anorganische Stoffe sowie Materie organischen Ursprungs,
+                welche keinerlei Zellstrukturen mehr besitzt (z.B.
+                Erdöl).<remark> Beispiele: Stein, Sand, Kunststoffe, Humus
+                (zum großen Teil), Braunkohle</remark></para>
               </listitem>
             </varlistentry>
           </variablelist></para>
