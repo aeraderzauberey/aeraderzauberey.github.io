@@ -845,15 +845,6 @@
                 </row>
 
                 <row>
-                  <entry>Wasser</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>Wasser in allen Aggregatzuständen
-                  beeinflussen</entry>
-                </row>
-
-                <row>
                   <entry/>
                 </row>
 
@@ -4605,11 +4596,11 @@
         <listitem>
           <para>Es kann keine Materie aus dem Nichts erschaffen werden.</para>
 
-          <para>So kann zum Beispiel die Magiefertigkeit Wasser nicht für
-          Angriffe oder zur Erschaffung von elementaren Wänden verwendet
-          werden, wenn nicht genug entsprechendes Material vorhanden ist.
-          Materie kann jedoch in ihren Eigenschaften verändert, verformt oder
-          in andere Stoffe umgewandelt werden.</para>
+          <para>So kann zum Beispiel die Magiefertigkeit Tote Materie nur dann
+          zur Erschaffung einer elementaren Wand aus Holz verwendet werden,
+          wenn genug entsprechendes Material vorhanden ist. Materie kann
+          jedoch in ihren Eigenschaften verändert, verformt oder in andere
+          Stoffe umgewandelt werden.</para>
         </listitem>
 
         <listitem>
@@ -4675,7 +4666,7 @@
         elektrischen Ladungen und Blitzen. In Kombination mit den
         Magiefertigkeiten<indexterm significance="preferred">
             <primary>Magiefertigkeit</primary>
-          </indexterm> Lebewesen, Luft, Unbelebte Materie oder Wasser kann
+          </indexterm> Lebewesen, Luft oder Tote/Unbelebte Materie kann
         elektrische Energie in bzw. durch das jeweilige Element geleitet
         werden.</para>
 
@@ -7163,7 +7154,7 @@
                 <para>Anorganische Stoffe sowie Materie organischen Ursprungs,
                 welche keinerlei Zellstrukturen mehr besitzt (z.B.
                 Erdöl).<remark> Beispiele: Stein, Sand, Kunststoffe, Humus
-                (zum großen Teil), Braunkohle</remark></para>
+                (zum großen Teil), Braunkohle, Wasser</remark></para>
               </listitem>
             </varlistentry>
           </variablelist></para>
@@ -7279,139 +7270,6 @@
             </listitem>
           </varlistentry>
         </variablelist>
-      </section>
-
-      <section>
-        <title>Wasser <inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                         valign="bottom" width="0.65cm"/>
-            </imageobject>
-          </inlinemediaobject></title>
-
-        <para>Diese Fertigkeit ermöglicht die Beeinflussung von Wasser in
-        allen Aggregatzuständen, wie zum Beispiel Zusammenziehen der
-        Luftfeuchtigkeit, verdampfen oder kondensieren lassen. Kann auch
-        Schnee und Eis erzeugen.</para>
-
-        <para><remark>Grundüberlegungen: Wenn man mit dieser Fertigkeit Wasser
-        zusammenziehen kann, kann man es auch verteilen: Nebel. Nebel ohne
-        Bodenkontakt nennt man Wolke, also ist auch die Erzeugung von Wolken
-        in dieser Fertigkeit enthalten. Wetterbeeinflussung braucht ggf. noch
-        die Fertigkeit Luft um Temperaturveränderungen in der Luft
-        hervorzurufen.</remark></para>
-
-        <para><remark/></para>
-
-        <para><remark>ALTE Reichweitenregelung, muss noch bei MW/Kraft
-        eingebaut werden:</remark></para>
-
-        <para><remark>B {{{Wetter = H}}}</remark></para>
-
-        <para><remark/></para>
-
-        <para><remark>Zum einsortieren:</remark></para>
-
-        <para><remark>- Wolken erzeugen</remark></para>
-
-        <para><remark>- Wasser „verformen“: das Wasser an einer bestimmten
-        Stelle sammeln oder sich auftürmen lassen (Oberflächenspannung magisch
-        verstärken und in bestimmte Form bringen); dadurch im Prinzip auch
-        Wasser „kriechen“ lassen möglich</remark></para>
-
-        <section>
-          <title>Mindestwurf</title>
-
-          <para>Je komplexer der Prozess, desto schwieriger ist die
-          Probe.</para>
-
-          <informaltable>
-            <tgroup cols="2">
-              <colspec colwidth="1*"/>
-
-              <colspec colwidth="8*"/>
-
-              <thead>
-                <row>
-                  <entry>MW</entry>
-
-                  <entry>Effekte</entry>
-                </row>
-              </thead>
-
-              <tbody>
-                <row>
-                  <entry>1</entry>
-
-                  <entry>Temperatur ändern</entry>
-                </row>
-
-                <row>
-                  <entry>2</entry>
-
-                  <entry>Oberfläche befeuchten/trocknen, Entsalzen<remark>
-                  (Gefrieren1 + Auftauen1)</remark>, Nebel, Regen</entry>
-                </row>
-
-                <row>
-                  <entry>3</entry>
-
-                  <entry>Schnee/Hagel<remark> (Temperatur1 +
-                  Regen2)</remark></entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
-        </section>
-
-        <section>
-          <title>Krafteinsatz</title>
-
-          <para>Ein Kraftpunkt entspricht:</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>10 m² Oberfläche befeuchten/trocknen</para>
-            </listitem>
-
-            <listitem>
-              <para>10 L Eis schmelzen / Wasser gefrieren</para>
-            </listitem>
-
-            <listitem>
-              <para>10 L Wasser zum Kochen bringen / Kochendes Wasser auf
-              Zimmertemperatur bringen</para>
-            </listitem>
-
-            <listitem>
-              <para>20 L Wasser entsalzen</para>
-            </listitem>
-
-            <listitem>
-              <para>Es auf 10 m² Boden regnen lassen</para>
-            </listitem>
-
-            <listitem>
-              <para>Es auf 5 m² Boden schneien / hageln lassen</para>
-            </listitem>
-          </itemizedlist>
-
-          <para><remark>NOCH EINZUFÜGEN: Nebel auf einer Fläche von XX m²
-          erzeugen &lt;- XX definieren, wie wäre zB 20?</remark></para>
-        </section>
-
-        <section>
-          <title>Zauberdauer</title>
-
-          <para><remark>FEHLT NOCH</remark></para>
-        </section>
-
-        <section>
-          <title>Kombinationen</title>
-
-          <para>Spüren: Wasser lokalisieren<remark> (NOCH ZU ENTSCHEIDEN: hier
-          UND bei spüren oder nur dort?)</remark></para>
-        </section>
       </section>
 
       <section>
