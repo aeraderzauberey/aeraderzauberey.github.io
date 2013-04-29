@@ -829,14 +829,6 @@
                 </row>
 
                 <row>
-                  <entry>Umwandlung</entry>
-
-                  <entry>MA</entry>
-
-                  <entry>Einen Stoff durch einen anderen ersetzen</entry>
-                </row>
-
-                <row>
                   <entry>Unbelebte Materie</entry>
 
                   <entry>MA</entry>
@@ -7142,8 +7134,8 @@
                 <para>Organische, nicht mehr lebendige Stoffe. Als tot gilt
                 ein Lebewesen dann, wenn z.B. das Herz aufgehört hat zu
                 schlagen oder eine Pflanze vertrocknet ist.<remark> Beispiele:
-                Holz, Leder, Baumwollkleidung, Holzkohle,
-                Bernstein</remark></para>
+                Holz, Leder, Baumwollkleidung, Holzkohle, Bernstein,
+                Blut</remark></para>
               </listitem>
             </varlistentry>
 
@@ -7165,6 +7157,13 @@
         Oberflächenbeschaffenheit, Gewicht, Schmelz- und Siedepunkt. Des
         weiteren können Objekte erhitzt oder abgekühlt werden.</para>
 
+        <para>Ein Stoff kann außerdem in einen anderen Stoff derselben
+        Stoffgruppe umgewandelt werden. So kann zum Beispiel der alte Traum
+        der irdischen Alchemisten wahr gemacht werden, in dem Blei zu Gold
+        verwandelt wird. Auch könnten Kunstgegenstände zunächst in besonders
+        leicht zu bearbeitenden Materialien gefertigt und dann in ein anderes
+        Material umgewandelt werden.</para>
+
         <para>(…)</para>
 
         <variablelist>
@@ -7176,6 +7175,13 @@
               <remark>ALT: Eine vorhandene Stoffeigenschaft leicht zu
               verändern entspricht z.B. einer Schwierigkeit von
               7.</remark></para>
+
+              <para><remark>ALT aus Umwandlung: Je geringer die Verwandtschaft
+              von Ausgangs- und Zielstoff, desto höher ist die Schwierigkeit.
+              Eine grobe Richtschnur kann hier das moderne Periodensystem der
+              Elemente bilden (z.B. Nähe von Blei und Gold), aber auch
+              „unwissenschaftlichere“ Vorstellungen der Spielwelt („Alkohol
+              und Wasser sind fast dasselbe“).</remark></para>
             </listitem>
           </varlistentry>
 
@@ -7198,78 +7204,6 @@
         </variablelist>
 
         <para><remark>Alte Reichweite: B</remark></para>
-      </section>
-
-      <section>
-        <title>Umwandlung <inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/MA.svg"
-                         valign="bottom" width="0.65cm"/>
-            </imageobject>
-          </inlinemediaobject></title>
-
-        <para>Diese Fertigkeit erlaubt dem Zaubernden, einen Stoff durch einen
-        anderen zu ersetzen. So kann zum Beispiel der alte Traum der irdischen
-        Alchemisten wahr gemacht werden, in dem Blei zu Gold umgewandelt wird.
-        Auch könnten Kunstgegenstände zunächst in besonders leicht zu
-        bearbeitenden Materialien gefertigt und dann in ein anderes Material
-        umgewandelt werden.</para>
-
-        <para>Beliebt ist Umwandlung auch immer dann, wenn für einen Zauber
-        ein bestimmtes Material benötigt wird, das gerade nicht zur Verfügung
-        steht. So wird bei vielen Feuerzaubern das benötigte Material, bei
-        Normaltemperatur brennende Flüssigkeit, durch Umwandlung der
-        vorhandenen Erde oder Luft bereitgestellt.</para>
-
-        <para>(…)</para>
-
-        <variablelist>
-          <varlistentry>
-            <term>Attribut:</term>
-
-            <listitem>
-              <para>Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Reichweite:</term>
-
-            <listitem>
-              <para>B</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Schwierigkeit:</term>
-
-            <listitem>
-              <para>Je geringer die Verwandtschaft von Ausgangs- und
-              Zielstoff, desto höher ist die Schwierigkeit. Eine grobe
-              Richtschnur kann hier das moderne Periodensystem der Elemente
-              bilden (z.B. Nähe von Blei und Gold), aber auch
-              „unwissenschaftlichere“ Vorstellungen der Spielwelt („Alkohol
-              und Wasser sind fast dasselbe“).</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Kraftaufwand:</term>
-
-            <listitem>
-              <para>Abhängig vom Gesamtgewicht der umzuwandelnden
-              Materie</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>Typische Effekte:</term>
-
-            <listitem>
-              <para>Flammenstrahl</para>
-            </listitem>
-          </varlistentry>
-        </variablelist>
       </section>
 
       <section>
