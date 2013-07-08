@@ -3333,10 +3333,13 @@
           <primary>Verteidigungswurf</primary>
         </indexterm> durchführen, um Erfolge des Angriffswurfs<indexterm>
           <primary>Angriffswurf</primary>
-        </indexterm> auszugleichen. Der von der Waffe verursachte Schaden wird
-      durch die übrigen Angriffserfolge erhöht und durch die Rüstung des
-      Verteidigers gesenkt. Abschließend wird noch die Widerstandsfähigkeit
-      des Verteidigers mit einem Widerstandswurf<indexterm>
+        </indexterm> auszugleichen. Der von der Waffe verursachte
+      Schaden<indexterm>
+          <primary>Schaden</primary>
+        </indexterm> wird durch die übrigen Angriffserfolge erhöht und durch
+      die Rüstung des Verteidigers gesenkt. Abschließend wird noch die
+      Widerstandsfähigkeit des Verteidigers mit einem
+      Widerstandswurf<indexterm>
           <primary>Widerstandswurf</primary>
         </indexterm> berücksichtigt.</para>
 
@@ -3409,18 +3412,31 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Schaden ermitteln<remark> inkl. Trefferbonus und
+          <term>Schadensermittlung<indexterm>
+              <primary>Schaden</primary>
+            </indexterm><remark> inkl. Trefferbonus und
           Rüstung</remark></term>
 
           <listitem>
-            <para>Jede Waffe verursacht eine bestimmte Menge an Grundschaden,
-            der in der Waffentabelle (siehe <xref linkend="waffen"
-            xrefstyle="page"/>) angegeben ist. Diese wird für jeden übrigen
-            Angriffserfolg um 1 erhöht.</para>
+            <para>Jede Waffe verursacht eine bestimmte Menge an
+            <firstterm>Grundschaden</firstterm><indexterm>
+                <primary>Grundschaden</primary>
+              </indexterm>, der in der Waffentabelle (siehe <xref
+            linkend="waffen" xrefstyle="page"/>) angegeben ist. Darüber hinaus
+            richtet ein Angriff <firstterm>Bonusschaden</firstterm><indexterm>
+                <primary>Bonusschaden</primary>
+              </indexterm> in Höhe der übrigen Angriffserfolge an.</para>
 
             <para>Trägt der Verteidiger eine Rüstung, wird der Schaden für
             jeden Punkt Rüstungsschutz um 1 gesenkt (siehe <xref
             linkend="ruestungen_und_co"/>).</para>
+
+            <para>Der <firstterm>Maximalschaden</firstterm><indexterm>
+                <primary>Maximalschaden</primary>
+              </indexterm>, den eine Waffe nach Abzug der Rüstung anrichten
+            kann, ist auf den doppelten Grundschaden begrenzt. <remark>Selbst
+            bei einem fähigen Angreifer mit vielen Angriffserfolgen und einem
+            wehrlosen Opfer bleibt ein Dolch eben ein Dolch...</remark></para>
           </listitem>
         </varlistentry>
 
@@ -3430,8 +3446,9 @@
             </indexterm><remark> = pure Konstitution</remark></term>
 
           <listitem>
-            <para>Jedes Mal, wenn der Charakter Schaden erhält, wird ein
-            Widerstandswurf<indexterm>
+            <para>Jedes Mal, wenn der Charakter Schaden<indexterm>
+                <primary>Schaden</primary>
+              </indexterm> erhält, wird ein Widerstandswurf<indexterm>
                 <primary>Widerstandswurf</primary>
               </indexterm> durchgeführt: für körperlichen Schaden mit
             Konstitution<indexterm>
@@ -3441,11 +3458,19 @@
               </indexterm>. Hinzu kommen jeweils noch Bonuswürfel von Schilden
             oder Paradewaffen (siehe unten).</para>
 
-            <para>Für jeden Erfolg wird der Schaden um einen Punkt reduziert.
-            Der übrige Schaden wird auf dem Charakterblatt vermerkt und führt
-            fortan zu einem Verletzungsmalus (siehe <xref
-            linkend="schaden"/>), der wiederum sofort die Initiative
-            senkt.</para>
+            <para>Für jeden Erfolg bei diesem Wurf wird der Schaden um einen
+            Punkt reduziert.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Auswirkungen</term>
+
+          <listitem>
+            <para>Der übrige Schaden wird auf dem Charakterblatt vermerkt und
+            führt fortan zu einem Verletzungsmalus (siehe <xref
+            linkend="schaden"/>), der wiederum sofort die Initiative (siehe
+            <xref linkend="initiative" xrefstyle="page"/>) senkt.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -3457,18 +3482,18 @@
         Bonuswürfel für den Angriffswurf, macht 6. Er erzielt 2
         Erfolge.</para>
 
-        <para>Elris' Gegner versucht jetzt mit 4 Würfeln zu parieren. Er
+        <para>Elris’ Gegner versucht jetzt mit 4 Würfeln zu parieren. Er
         erzielt 1 Erfolg und kann damit den Angriff zwar nicht vollständig
-        abwehren, aber zumindest zu weniger gefährlichen Körperstellen
+        abwehren, aber zumindest zu weniger verletzlichen Körperstellen
         ablenken. Sein Parade-Erfolg wird von Elris’ Angriffserfolgen
         abgezogen, übrig bleibt 1 Erfolg.</para>
 
-        <para>Ein Schwert richtet laut Waffentabelle 3 Schadenspunkte an. Der
-        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 4.</para>
+        <para>Ein Schwert richtet laut Waffentabelle 4 Schadenspunkte an. Der
+        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 5.</para>
 
         <para>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei
         seinem Widerstandswurf erzielt er mit seinen 3 Konstitutions-Würfeln 1
-        Erfolg. Es bleiben also noch 3 Schadenspunkte übrig, die auf seiner
+        Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner
         Schadensleiste eingetragen werden.</para>
       </informalexample>
     </section>
@@ -7276,7 +7301,7 @@
             <row>
               <entry>Dolch</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>+2</entry>
 
@@ -7290,7 +7315,7 @@
             <row>
               <entry>Erntemesser</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>-1</entry>
 
@@ -7306,7 +7331,7 @@
             <row>
               <entry>Messer</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>0</entry>
 
@@ -7320,7 +7345,7 @@
             <row>
               <entry>Sichel</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>+1</entry>
 
@@ -7344,7 +7369,7 @@
             <row>
               <entry>Dussack</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>+1</entry>
 
@@ -7358,7 +7383,7 @@
             <row>
               <entry>Florett</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>+1</entry>
 
@@ -7372,7 +7397,7 @@
             <row>
               <entry>Rapier</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>0</entry>
 
@@ -7386,7 +7411,7 @@
             <row>
               <entry>Stoßdegen</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>0</entry>
 
@@ -7408,7 +7433,7 @@
             <row>
               <entry>Axt</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-2</entry>
 
@@ -7422,7 +7447,7 @@
             <row>
               <entry>Doppelblättrige Axt</entry>
 
-              <entry>6</entry>
+              <entry>7</entry>
 
               <entry>-4</entry>
 
@@ -7436,7 +7461,7 @@
             <row>
               <entry>Dreschflegel</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-2</entry>
 
@@ -7452,7 +7477,7 @@
             <row>
               <entry>Knüppel</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-1</entry>
 
@@ -7466,7 +7491,7 @@
             <row>
               <entry>Kriegsflegel</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-2</entry>
 
@@ -7480,7 +7505,7 @@
             <row>
               <entry>Kriegshammer</entry>
 
-              <entry>3</entry>
+              <entry>2</entry>
 
               <entry>-1</entry>
 
@@ -7494,7 +7519,7 @@
             <row>
               <entry>Machete</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-2</entry>
 
@@ -7508,7 +7533,7 @@
             <row>
               <entry>Morgenstern</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-2</entry>
 
@@ -7522,7 +7547,7 @@
             <row>
               <entry>Schmiedehammer</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-1</entry>
 
@@ -7544,7 +7569,7 @@
             <row>
               <entry>Bastardschwert</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-3</entry>
 
@@ -7558,7 +7583,7 @@
             <row>
               <entry>Kurzschwert</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-1</entry>
 
@@ -7572,7 +7597,7 @@
             <row>
               <entry>Säbel</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-2</entry>
 
@@ -7586,7 +7611,7 @@
             <row>
               <entry>Schwert</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-2</entry>
 
@@ -7600,7 +7625,7 @@
             <row>
               <entry>Zweihänder</entry>
 
-              <entry>6</entry>
+              <entry>7</entry>
 
               <entry>-4</entry>
 
@@ -7622,7 +7647,7 @@
             <row>
               <entry>Bartaxt</entry>
 
-              <entry>6</entry>
+              <entry>7</entry>
 
               <entry>-6</entry>
 
@@ -7636,7 +7661,7 @@
             <row>
               <entry>Glefe</entry>
 
-              <entry>5</entry>
+              <entry>6</entry>
 
               <entry>-4</entry>
 
@@ -7650,7 +7675,7 @@
             <row>
               <entry>Hellebarde</entry>
 
-              <entry>5</entry>
+              <entry>6</entry>
 
               <entry>-5</entry>
 
@@ -7664,7 +7689,7 @@
             <row>
               <entry>Kampfstab</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-2</entry>
 
@@ -7678,7 +7703,7 @@
             <row>
               <entry>Kriegssense</entry>
 
-              <entry>5</entry>
+              <entry>6</entry>
 
               <entry>-4</entry>
 
@@ -7694,7 +7719,7 @@
             <row>
               <entry>Partisane</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-4</entry>
 
@@ -7710,7 +7735,7 @@
             <row>
               <entry>Sense</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-5</entry>
 
@@ -7726,7 +7751,7 @@
             <row>
               <entry>Speer</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-4</entry>
 
@@ -7740,7 +7765,7 @@
             <row>
               <entry>Wanderstab</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>0</entry>
 
@@ -7762,7 +7787,7 @@
             <row>
               <entry>Doppelarmbrust</entry>
 
-              <entry>2 x 3</entry>
+              <entry>2 x 4</entry>
 
               <entry>-5</entry>
 
@@ -7778,7 +7803,7 @@
             <row>
               <entry>Leichte Armbrust</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-5</entry>
 
@@ -7792,7 +7817,7 @@
             <row>
               <entry>Schwere Armbrust</entry>
 
-              <entry>5</entry>
+              <entry>6</entry>
 
               <entry>-5</entry>
 
@@ -7814,7 +7839,7 @@
             <row>
               <entry>Kompositbogen</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-3</entry>
 
@@ -7828,7 +7853,7 @@
             <row>
               <entry>Kriegsbogen</entry>
 
-              <entry>4</entry>
+              <entry>5</entry>
 
               <entry>-3</entry>
 
@@ -7842,7 +7867,7 @@
             <row>
               <entry>Kurzbogen</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-2</entry>
 
@@ -7856,7 +7881,7 @@
             <row>
               <entry>Langbogen</entry>
 
-              <entry>3</entry>
+              <entry>4</entry>
 
               <entry>-2</entry>
 
@@ -7878,7 +7903,7 @@
             <row>
               <entry>Wurfaxt</entry>
 
-              <entry>2</entry>
+              <entry>3</entry>
 
               <entry>-1</entry>
 
@@ -7892,7 +7917,7 @@
             <row>
               <entry>Wurfdolch</entry>
 
-              <entry>1</entry>
+              <entry>2</entry>
 
               <entry>0</entry>
 
@@ -7906,7 +7931,7 @@
             <row>
               <entry>Wurfmesser</entry>
 
-              <entry>0</entry>
+              <entry>1</entry>
 
               <entry>0</entry>
 
