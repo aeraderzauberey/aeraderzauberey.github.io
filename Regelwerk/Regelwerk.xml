@@ -2958,7 +2958,7 @@
         <listitem>
           <para>Initiativemodifikator (IM)<indexterm>
               <primary>Initiativemodifikator</primary>
-            </indexterm> durch Waffen, Rüstungen' und Schilde (siehe <xref
+            </indexterm> durch Waffen, Rüstungen und Schilde (siehe <xref
           linkend="waffen"/>)</para>
         </listitem>
 
@@ -3444,7 +3444,8 @@
             <para>Für jeden Erfolg wird der Schaden um einen Punkt reduziert.
             Der übrige Schaden wird auf dem Charakterblatt vermerkt und führt
             fortan zu einem Verletzungsmalus (siehe <xref
-            linkend="schaden"/>).</para>
+            linkend="schaden"/>), der wiederum sofort die Initiative
+            senkt.</para>
           </listitem>
         </varlistentry>
       </variablelist>
