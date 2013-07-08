@@ -2974,7 +2974,10 @@
         </listitem>
 
         <listitem>
-          <para>Das Ergebnis eines W20-Wurfs</para>
+          <para>Summe der Augenzahlen eines 2W6-Wurfs (dem
+          <firstterm>Initiativewurf</firstterm><indexterm>
+              <primary>Initiativewurf</primary>
+            </indexterm>)</para>
         </listitem>
       </orderedlist>
 
@@ -2986,7 +2989,7 @@
         <para>Bei längeren Kämpfen sollte der Spielleiter nach nennenswerten
         Veränderungen der Kampfsituation (z.B. Positionswechsel) die
         Initiativewürfe<indexterm>
-            <primary>Initiative</primary>
+            <primary>Initiativewurf</primary>
           </indexterm> wiederholen lassen.</para>
       </sidebar>
 
@@ -2998,19 +3001,19 @@
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
         <para>Elris hat Intuition 5 und Reflexe 6, der Initiativebasiswert
-        beträgt somit 20. Sein W20-Wurf ergibt eine 12, macht 32. Er kämpft
-        mit einem Schwert und erhält deswegen einen Initiativemodifikator von
-        -2, ergibt 30. Solinara hat Intuition und Reflexe jeweils auf 5 und
-        würfelt eine 8, ergibt 26. Sie kämpft mit einem Kampfstab (IM -2),
-        ihre Initiative beträgt also 24.</para>
+        beträgt somit 22. Sein Initiativewurf ergibt eine 6, macht 28. Er
+        kämpft mit einem Schwert und erhält deswegen einen
+        Initiativemodifikator von -2, ergibt 26. Solinara hat Intuition und
+        Reflexe jeweils auf 5 und würfelt eine 5, ergibt 25. Sie kämpft mit
+        einem Kampfstab (IM -2), ihre Initiative beträgt also 23.</para>
 
         <para>Der erste Gegner besitzt einen Initiativebasiswert von 18,
-        kämpft mit einem Säbel (Initiativemodifikator -2) und würfelt eine 6,
-        ergibt 22. Der andere hat einen Initiativebasiswert von 16, kämpft mit
-        einem Knüppel (IM -1) und würfelt eine 10, ergibt 25.</para>
+        kämpft mit einem Säbel (IM -2) und würfelt eine 4, ergibt 20. Der
+        andere hat einen Initiativebasiswert von 16, kämpft mit einem Knüppel
+        (IM -1) und würfelt eine 10, ergibt 25.</para>
 
-        <para>Elris hat also Glück: er ist mit 30 der schnellste. Nach ihm
-        sind Gegner 2 bei 25, Solinara bei 24 und Gegner 1 bei 22 an der
+        <para>Elris hat also Glück: er ist mit 26 der schnellste. Nach ihm
+        sind Gegner 2 bei 25, Solinara bei 23 und Gegner 1 bei 20 an der
         Reihe.</para>
       </informalexample>
     </section>
@@ -3246,8 +3249,8 @@
         <orderedlist startingnumber="99">
           <?dbfo label-width="1.75em"?>
 
-          <listitem override="30">
-            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 30).
+          <listitem override="26">
+            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 26).
             Er attackiert den zweiten Gegner, doch Elris ist nicht so
             übermütig, dass er dabei seine Deckung aufgeben würde: Er
             verwendet für den Angriff nur 5 seiner 8 Würfel (Gewandtheit 5,
@@ -3281,8 +3284,8 @@
             <para/>
           </listitem>
 
-          <listitem override="24">
-            <para>Als nächste ist Solinara an der Reihe (Initiative 24). Sie
+          <listitem override="23">
+            <para>Als nächste ist Solinara an der Reihe (Initiative 23). Sie
             möchte vorstürmen und den ersten Gegner angreifen, aber wie Elris
             möchte auch sie nicht gänzlich schutzlos bleiben und daher noch
             reagieren können. Ihre reguläre Würfelanzahl für den Kampfstab
@@ -3296,9 +3299,9 @@
             <para/>
           </listitem>
 
-          <listitem override="22">
+          <listitem override="20">
             <para>Schließlich beginnt die Aktionsphase von Gegner 1
-            (Initiative 22). Durch ihren Sturmangriff hat Solinara ihre
+            (Initiative 20). Durch ihren Sturmangriff hat Solinara ihre
             Verteidigung reduziert, und so greift er sie mit der vollen Wucht
             seiner verbliebenen 6 Würfel an (regulär 9 Würfel für
             Angriff/Parade, davon bereits 3 zur Parade verwendet).</para>
