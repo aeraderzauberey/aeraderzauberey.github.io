@@ -438,7 +438,7 @@
                 <row>
                   <entry>Heimlichkeit</entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Schleichen, sich verstecken, unauffällig Personen
                   verfolgen</entry>
@@ -456,7 +456,7 @@
                 <row>
                   <entry>Körperbeherrschung</entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Balancieren, Springen, Abrollen</entry>
                 </row>
@@ -490,7 +490,7 @@
                 <row>
                   <entry>Schwimmen</entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Alles, was über bloßes „über Wasser halten“
                   hinausgeht: Tauchen, Ausweichen; auch Maß für
@@ -551,24 +551,6 @@
 
               <tbody>
                 <row>
-                  <entry>Ausweichen<indexterm>
-                      <primary>Ausweichen</primary>
-                    </indexterm></entry>
-
-                  <entry>GW</entry>
-
-                  <entry>Die Fähigkeit, bewaffneten und unbewaffneten
-                  Nahkampfangriffen auszuweichen (siehe <xref
-                  linkend="nahkampf"/>).<remark>Abschaffen ja oder nein?
-                  Eigentlich gehört der Aspekt der Verteidigung zur jeweiligen
-                  Waffenkunst. Die Ausweichen-Fertigkeit wird höchstens dann
-                  interessant, wenn für magische Angriffe eine Art von
-                  Zielwurf nötig wäre oder diese Fertigkeit auch außerhalb des
-                  Kampfes, z.B. für die Indy-Falle verwendet werden
-                  würde.</remark></entry>
-                </row>
-
-                <row>
                   <entry>Beidhändigkeit</entry>
 
                   <entry>-</entry>
@@ -585,6 +567,19 @@
 
                   <entry>Schnelles Reagieren. Fließt in den
                   Initiativebasiswert ein</entry>
+                </row>
+
+                <row>
+                  <entry>Verteidigung<indexterm>
+                      <primary>Verteidigung (Fertigkeit)</primary>
+                    </indexterm></entry>
+
+                  <entry>GE</entry>
+
+                  <entry>Die Fähigkeit, bewaffnete und unbewaffnete
+                  Nahkampfangriffe abzuwehren (siehe <xref
+                  linkend="nahkampf"/>). Mögliche Spezialisierungen: Parieren,
+                  Ausweichen, Schildblock.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -625,7 +620,7 @@
                 <row>
                   <entry><emphasis>Nahkampfwaffe</emphasis></entry>
 
-                  <entry>GW</entry>
+                  <entry>GE / KK</entry>
 
                   <entry>Jeweils eine Fertigkeit pro Waffengruppe (entspricht
                   den Überschriften bei <xref linkend="waffen"/>)</entry>
@@ -651,7 +646,7 @@
                 <row>
                   <entry><emphasis>Waffenlose Kampftechnik</emphasis></entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Jeweils eine Fertigkeit pro Technik, verfügbare
                   Techniken je nach Setting und Charakterhintergrund</entry>
@@ -695,7 +690,7 @@
                 <row>
                   <entry>Gaukelei</entry>
 
-                  <entry>FF / GW</entry>
+                  <entry>FF / GE</entry>
 
                   <entry>Unterhaltung eines Publikums insb. durch Bauchreden,
                   Entfesselung, Jonglage, Puppenspiel, Taschenspielerei;
@@ -705,7 +700,7 @@
                 <row>
                   <entry>Jagdwesen</entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Fallenstellen, Einzeljagd, Durchführen von
                   Gesellschaftsjagden, Aufzucht und Einsatz von Greifvögeln
@@ -764,7 +759,7 @@
                 <row>
                   <entry>Reitkunst</entry>
 
-                  <entry>GW</entry>
+                  <entry>GE</entry>
 
                   <entry>Beherrschen von Reittieren, Führen und Warten von
                   Fuhrwerken, aber auch das Führen von Nahkampf- und
@@ -1411,254 +1406,307 @@
       </section>
 
       <section xml:id="initiativebasis">
-        <title>Initiativebasiswert<indexterm>
-            <primary>Initiativebasiswert</primary>
+        <title>Kampfwerte<indexterm>
+            <primary>Kampfwerte</primary>
           </indexterm></title>
 
-        <para>Für den Initiativewurf<indexterm>
-            <primary>Initiative</primary>
-          </indexterm> im Kampf (siehe <xref linkend="kampf"/>) besitzt jeder
-        Charakter einen Initiativebasiswert<indexterm>
-            <primary>Initiativebasiswert</primary>
-          </indexterm>. Dieser errechnet sich aus dem Attribut
-        Intuition<indexterm>
-            <primary>Intuition</primary>
-          </indexterm> und der Fertigkeit Reflexe: <emphasis>(Intuition +
-        Reflexe) * 2</emphasis>.</para>
-      </section>
-
-      <section xml:id="verletzungsmali">
-        <title>Verletzungsmalus<indexterm significance="preferred">
-            <primary>Verletzungsmalus</primary>
-          </indexterm></title>
-
-        <para>Wenn sie körperlichen Schaden<indexterm significance="preferred">
-            <primary>Schaden</primary>
-
-            <secondary>körperlich</secondary>
-          </indexterm> erhalten haben, gilt für Charaktere ein Würfelabzug,
-        der sogenannte <firstterm>Verletzungsmalus</firstterm><indexterm
-            significance="preferred">
-            <primary>Verletzungsmalus</primary>
-          </indexterm>. Dieser ist umso geringer, je höher ihre
-        Willenskraft<indexterm>
-            <primary>Willenskraft</primary>
-          </indexterm> ist:</para>
-
-        <informaltable>
-          <tgroup cols="11">
-            <colspec colnum="1" colwidth="*"/>
-
-            <colspec colnum="2" colwidth="4*"/>
-
-            <colspec colnum="3" colwidth="1*"/>
-
-            <colspec colnum="2" colwidth="1*"/>
-
-            <colspec colnum="5" colwidth="1*"/>
-
-            <colspec colnum="6" colwidth="1*"/>
-
-            <colspec colnum="7" colwidth="1*"/>
-
-            <colspec colnum="8" colwidth="1*"/>
-
-            <colspec colnum="9" colwidth="1*"/>
-
-            <colspec colnum="10" colwidth="1*"/>
-
-            <colspec colnum="11" colwidth="*"/>
-
-            <thead>
-              <row>
-                <entry/>
+        <variablelist>
+          <varlistentry>
+            <term>Initiativebasiswert<indexterm>
+                <primary>Initiativebasiswert</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Für den Initiativewurf<indexterm>
+                  <primary>Initiative</primary>
+                </indexterm> im Kampf (siehe <xref linkend="kampf"
+              xrefstyle="page"/>) besitzt jeder Charakter einen
+              Initiativebasiswert<indexterm>
+                  <primary>Initiativebasiswert</primary>
+                </indexterm>. Dieser errechnet sich aus dem Attribut
+              Intuition<indexterm>
+                  <primary>Intuition</primary>
+                </indexterm> und der Fertigkeit Reflexe: <emphasis>(Intuition
+              + Reflexe) * 2</emphasis>.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry xml:id="grundschadenermittlung">
+            <term>Grundschaden<indexterm>
+                <primary>Grundschaden</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Für jede vom Charakter beherrschte Waffengattung oder
+              Kampftechnik wird der Grundschaden<indexterm>
+                  <primary>Grundschaden</primary>
+                </indexterm> ermittelt und auf dem Charakterblatt notiert. In
+              der Waffentabelle (siehe <xref linkend="waffen"
+              xrefstyle="page"/>) ist dazu jeweils ein Schadenscode<indexterm>
+                  <primary>Schadenscode</primary>
+                </indexterm> sowie der Maximalschaden<indexterm>
+                  <primary>Maximalschaden</primary>
+                </indexterm> aufgeführt. Für einen Charakter mit Gewandheit 5
+              ergibt sich beispielsweise aus dem Schadenscode<indexterm>
+                  <primary>Schadenscode</primary>
+                </indexterm> 1 + (GE-3) ein Grundschaden<indexterm>
+                  <primary>Grundschaden</primary>
+                </indexterm> von 5. Liegt der so ermittelte Wert über dem
+              angegebenen Maximalschaden<indexterm>
+                  <primary>Maximalschaden</primary>
+                </indexterm>, wird letzterer als Grundschaden<indexterm>
+                  <primary>Grundschaden</primary>
+                </indexterm> eingetragen.</para>
+
+              <para>Der Schadenscode gibt außerdem an, mit welchem Attribut
+              der Angriffswurf<indexterm>
+                  <primary>Angriffswurf</primary>
+                </indexterm> durchgeführt wird (hier: Gewandtheit) und wie
+              hoch dieses Attribut mindestens sein muss, um die Waffe führen
+              bzw. die Kampftechnik nutzen zu können: dazu muss der
+              geklammerte Ausdruck mindestens 0 ergeben. Die GE-Vorraussetzung
+              beträgt im Beispiel oben also 3.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Verletzungsmalus<indexterm significance="preferred">
+                <primary>Verletzungsmalus</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Wenn sie körperlichen Schaden<indexterm
+                  significance="preferred">
+                  <primary>Schaden</primary>
+
+                  <secondary>körperlich</secondary>
+                </indexterm> erhalten haben, gilt für Charaktere ein
+              Würfelabzug, der sogenannte
+              <firstterm>Verletzungsmalus</firstterm><indexterm
+                  significance="preferred">
+                  <primary>Verletzungsmalus</primary>
+                </indexterm>. Dieser ist umso geringer, je höher ihre
+              Willenskraft<indexterm>
+                  <primary>Willenskraft</primary>
+                </indexterm> ist:</para>
+
+              <informaltable>
+                <tgroup cols="11">
+                  <colspec colnum="1" colwidth="*"/>
+
+                  <colspec colnum="2" colwidth="4*"/>
+
+                  <colspec colnum="3" colwidth="1*"/>
+
+                  <colspec colnum="2" colwidth="1*"/>
+
+                  <colspec colnum="5" colwidth="1*"/>
+
+                  <colspec colnum="6" colwidth="1*"/>
+
+                  <colspec colnum="7" colwidth="1*"/>
+
+                  <colspec colnum="8" colwidth="1*"/>
+
+                  <colspec colnum="9" colwidth="1*"/>
+
+                  <colspec colnum="10" colwidth="1*"/>
+
+                  <colspec colnum="11" colwidth="*"/>
+
+                  <thead>
+                    <row>
+                      <entry/>
 
-                <entry>Willenskraft</entry>
+                      <entry>Willenskraft</entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="Schadenskästchen.svg" format="SVG"
-                                 width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="Schadenskästchen.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry/>
-              </row>
-            </thead>
+                      <entry/>
+                    </row>
+                  </thead>
 
-            <tbody>
-              <row>
-                <entry/>
+                  <tbody>
+                    <row>
+                      <entry/>
 
-                <entry>1-3</entry>
+                      <entry>1-3</entry>
 
-                <entry>-1</entry>
+                      <entry>-1</entry>
 
-                <entry>-2</entry>
+                      <entry>-2</entry>
 
-                <entry>-3</entry>
+                      <entry>-3</entry>
 
-                <entry>-4</entry>
+                      <entry>-4</entry>
 
-                <entry>-5</entry>
+                      <entry>-5</entry>
 
-                <entry>-6</entry>
+                      <entry>-6</entry>
 
-                <entry>-7</entry>
+                      <entry>-7</entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry/>
-              </row>
+                      <entry/>
+                    </row>
 
-              <row>
-                <entry/>
+                    <row>
+                      <entry/>
 
-                <entry>4-6</entry>
+                      <entry>4-6</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-1</entry>
+                      <entry>-1</entry>
 
-                <entry>-2</entry>
+                      <entry>-2</entry>
 
-                <entry>-3</entry>
+                      <entry>-3</entry>
 
-                <entry>-4</entry>
+                      <entry>-4</entry>
 
-                <entry>-5</entry>
+                      <entry>-5</entry>
 
-                <entry>-6</entry>
+                      <entry>-6</entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry/>
-              </row>
+                      <entry/>
+                    </row>
 
-              <row>
-                <entry/>
+                    <row>
+                      <entry/>
 
-                <entry>7-9</entry>
+                      <entry>7-9</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-1</entry>
+                      <entry>-1</entry>
 
-                <entry>-2</entry>
+                      <entry>-2</entry>
 
-                <entry>-3</entry>
+                      <entry>-3</entry>
 
-                <entry>-4</entry>
+                      <entry>-4</entry>
 
-                <entry>-5</entry>
+                      <entry>-5</entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry/>
-              </row>
+                      <entry/>
+                    </row>
 
-              <row>
-                <entry/>
+                    <row>
+                      <entry/>
 
-                <entry>10</entry>
+                      <entry>10</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-0</entry>
+                      <entry>-0</entry>
 
-                <entry>-1</entry>
+                      <entry>-1</entry>
 
-                <entry>-2</entry>
+                      <entry>-2</entry>
 
-                <entry>-3</entry>
+                      <entry>-3</entry>
 
-                <entry>-4</entry>
+                      <entry>-4</entry>
 
-                <entry><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="../Grafiken/Totenkopf.svg"
-                                 format="SVG" width="0.4cm"/>
-                    </imageobject>
-                  </inlinemediaobject></entry>
+                      <entry><inlinemediaobject>
+                          <imageobject>
+                            <imagedata fileref="../Grafiken/Totenkopf.svg"
+                                       format="SVG" width="0.4cm"/>
+                          </imageobject>
+                        </inlinemediaobject></entry>
 
-                <entry/>
-              </row>
-            </tbody>
-          </tgroup>
-        </informaltable>
+                      <entry/>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
 
-        <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4 körperliche
-        Schadenspunkte erhalten, gilt für ihn ein Malus von 3 Würfeln. Details
-        zu diesen Mali und zur Handhabung von Schaden finden Sie in <xref
-        linkend="schaden"/>.</para>
+              <para>Hat z.B. ein Charakter mit Willenskraft 5 bereits 4
+              körperliche Schadenspunkte erhalten, gilt für ihn ein Malus von
+              3 Würfeln. Details zu diesen Mali und zur Handhabung von Schaden
+              finden Sie in <xref linkend="schaden"/>.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
       </section>
     </section>
 
@@ -2963,13 +3011,6 @@
         </listitem>
 
         <listitem>
-          <para>Initiativemodifikator (IM)<indexterm>
-              <primary>Initiativemodifikator</primary>
-            </indexterm> durch Waffen, Rüstungen und Schilde (siehe <xref
-          linkend="waffen"/>)</para>
-        </listitem>
-
-        <listitem>
           <para>Verletzungsmalus<indexterm>
               <primary>Verletzungsmalus</primary>
             </indexterm> (siehe <xref linkend="schaden"/>)</para>
@@ -3052,14 +3093,15 @@
         </indexterm> durchführen, die sogenannte
       <firstterm>Aktion</firstterm><indexterm significance="preferred">
           <primary>Aktion</primary>
-        </indexterm>. Des weiteren kann er eine
-      <firstterm>Reaktion</firstterm><indexterm>
+        </indexterm>. Des weiteren kann er beliebig viele
+      <firstterm>Reaktionen</firstterm><indexterm>
           <primary>Reaktion</primary>
         </indexterm> während der Aktionsphasen<indexterm>
           <primary>Aktionsphase</primary>
-        </indexterm> anderer Charaktere durchführen. Diese Reaktion<indexterm>
+        </indexterm> anderer Charaktere durchführen. Diese
+      Reaktionen<indexterm>
           <primary>Reaktion</primary>
-        </indexterm> kann sowohl vor als auch nach seiner eigenen
+        </indexterm> können sowohl vor als auch nach seiner eigenen
       Aktionsphase<indexterm>
           <primary>Aktionsphase</primary>
         </indexterm> stattfinden, jedoch ausschließlich als Folge auf eine
@@ -3176,157 +3218,18 @@
       <para>Die Hektik einer Kampfsituation schlägt sich auch in den
       Proben<indexterm>
           <primary>Probe</primary>
-        </indexterm> während eines Kampfes nieder: führt ein Charakter zwei
-      Handlungen<indexterm>
-          <primary>Handlung</primary>
-        </indexterm> in einer Runde durch, kann er nicht einfach jeweils die
-      volle Würfelanzahl verwenden — er muss Prioritäten setzen. Wir
-      unterscheiden daher die <firstterm>reguläre Würfelanzahl</firstterm>,
-      welche aus den Eigenschaften des Charakters und eventuellen
-      Verletzungsmodifikatoren gebildet wird, von den tatsächlich
-      <firstterm>eingesetzten Würfeln</firstterm>.</para>
-
-      <para>Für jede Handlung<indexterm>
-          <primary>Handlung</primary>
-        </indexterm> seines Charakters entscheidet der Spieler unmittelbar vor
-      Durchführung der Probe<indexterm>
-          <primary>Probe</primary>
-        </indexterm>, wie viele Würfel<indexterm>
-          <primary>Würfelanzahl</primary>
-        </indexterm> er einsetzen möchte:</para>
-
-      <orderedlist>
-        <listitem>
-          <para>Für die erste Handlung<indexterm>
-              <primary>Handlung</primary>
-            </indexterm> können bis zu deren regulärer Würfelanzahl<indexterm>
-              <primary>Würfelanzahl</primary>
-            </indexterm> beliebig viele Würfel eingesetzt werden.</para>
-        </listitem>
-
-        <listitem>
-          <para>Die Würfelanzahl<indexterm>
-              <primary>Würfelanzahl</primary>
-            </indexterm> für die zweite Handlung<indexterm>
-              <primary>Handlung</primary>
-            </indexterm> in einer Runde wird zusätzlich dadurch begrenzt, wie
-          viele Würfel bereits für die erste Handlung<indexterm>
-              <primary>Handlung</primary>
-            </indexterm> dieser Runde<indexterm>
-              <primary>Kampfrunde</primary>
-            </indexterm> verwendet wurden: es stehen nur so viele Würfel zur
-          Verfügung, wie nach Abzug der bisher verwendeten Würfel von der
-          höheren der beiden regulären Würfelanzahlen<indexterm>
-              <primary>Würfelanzahl</primary>
-            </indexterm> verbleiben.</para>
-        </listitem>
-      </orderedlist>
-
-      <para><remark>Es kann vorkommen, dass sich die reguläre Würfelanzahl
-      während der Runde verändert. Beispiel: Unverletzter Charakter hat 8
-      Würfel für Schwertkampf und führt eine Parade mit 4 Würfeln durch. Er
-      erleidet Schaden und erhält fortan einen Verletzungsmodifikator von -2
-      Würfel. Als er selbst an die Reihe kommt, beträgt seine reguläre
-      Würfelanzahl also nur noch 6. Die 4 bereits verwendeten Würfel werden
-      von der höheren der beiden regulären Würfelanzahlen abgezogen. Was aus
-      den obigen Regeln nicht eindeutig hervorgeht: die „beiden”
-      Würfelanzahlen in diesem Fall sind der damalige Schwertkampf-Würfelpool
-      von 8 und der neue Schwertkampf-Würfelpool von 6. Die 4 verwendeten
-      Würfel werden also nicht von den 6 neuen Würfeln abgezogen, sondern von
-      den 8 alten. Folglich kann der Charakter immerhin 4 Würfel für den
-      Angriff einsetzen (aber niemals mehr als sein neuer regulärer
-      Würfelpool), nicht nur 2.</remark></para>
-
-      <para>Dabei ist es unerheblich, ob die erste Handlung<indexterm>
-          <primary>Handlung</primary>
-        </indexterm> eine Aktion<indexterm>
-          <primary>Aktion</primary>
-        </indexterm> oder eine Reaktion<indexterm>
+        </indexterm> während eines Kampfes nieder. Jedes Mal, wenn ein
+      Charakter eine Reaktion<indexterm>
           <primary>Reaktion</primary>
-        </indexterm> ist.</para>
+        </indexterm> durchführt, halbiert sich sich seine Würfelanzahl für die
+      nächste Reaktion: für die zweite Reaktion hat er nur noch die Hälfte,
+      für die dritte nur noch ein Viertel, für die Vierte nur noch ein Achtel
+      usw. der jeweiligen Würfelanzahl zur Verfügung. Dabei wird jeweils
+      aufgerundet, so dass immer mindestens ein Würfel verbleibt. Erst zu
+      Beginn der nächsten Runde kann er wieder alle Würfel einsetzen.</para>
 
-      <para>Erfordert eine der beiden Handlungen keine Probe, erhält der
-      Charakter für die andere Handlung deren reguläre Würfelanzahl.</para>
-
-      <informalexample>
-        <para>Kehren wir nun zu Solinara und Elris zurück. Bevor es an die
-        Details des Kämpfens geht, betrachten wir nur die Abwicklung der
-        Aktionsphasen an sich sowie das Verteilen von Würfeln.</para>
-
-        <orderedlist startingnumber="99">
-          <?dbfo label-width="1.75em"?>
-
-          <listitem override="26">
-            <para>Die Runde beginnt mit Elris' Aktionsphase (Initiative 26).
-            Er attackiert den zweiten Gegner, doch Elris ist nicht so
-            übermütig, dass er dabei seine Deckung aufgeben würde: Er
-            verwendet für den Angriff nur 5 seiner 8 Würfel (Gewandtheit 5,
-            Schwerter 3).</para>
-
-            <para>Gegner 2 hat für den Kampf mit einem Knüppel 8 Würfel
-            (Gewandtheit 4, Hiebwaffen 4), von denen er nun 4 für seine
-            Parade-Reaktion verwendet (näheres zur Parade auf <xref
-            linkend="verteidigungswurf" xrefstyle="page"/>).</para>
-
-            <para>Nachdem dieser Angriff abgewickelt wurde, endet Elris'
-            Aktionsphase.</para>
-
-            <para/>
-          </listitem>
-
-          <listitem override="25">
-            <para>Nun ist es an Gegner 2, zu agieren (Initiative 25). Er hat
-            während Elris' Aktionsphase bereits eine Reaktion mit 4 Würfeln
-            durchgeführt. Er greift nun seinerseits Elris mit dem Knüppel an.
-            Sowohl für Angriff als auch Parade beträgt für ihn die reguläre
-            Würfelanzahl wie oben erwähnt 8. Von diesen verbleiben für den
-            Angriff 4 Würfel (reguläre Würfelanzahl minus bisher verwendete
-            Würfel).</para>
-
-            <para>Auch Elris hat für Angriff und Parade die gleiche reguläre
-            Würfelanzahl, nämlich ebenfalls 8. Er hat für seinen Angriff
-            bereits 5 Würfel verwendet, für die Parade bleiben ihm also 3
-            Würfel.</para>
-
-            <para/>
-          </listitem>
-
-          <listitem override="23">
-            <para>Als nächste ist Solinara an der Reihe (Initiative 23). Sie
-            möchte vorstürmen und den ersten Gegner angreifen, aber wie Elris
-            möchte auch sie nicht gänzlich schutzlos bleiben und daher noch
-            reagieren können. Ihre reguläre Würfelanzahl für den Kampfstab
-            beträgt 10 (Gewandtheit 5, Stäbe 5), von denen sie 7 Würfel für
-            den Angriff verwendet.</para>
-
-            <para>Gegner 1 entscheidet sich, von seinen 9 Würfeln (Gewandtheit
-            5, Hiebwaffen 4) 3 zur Parade von Solinaras Angriff zu
-            verwenden.</para>
-
-            <para/>
-          </listitem>
-
-          <listitem override="20">
-            <para>Schließlich beginnt die Aktionsphase von Gegner 1
-            (Initiative 20). Durch ihren Sturmangriff hat Solinara ihre
-            Verteidigung reduziert, und so greift er sie mit der vollen Wucht
-            seiner verbliebenen 6 Würfel an (regulär 9 Würfel für
-            Angriff/Parade, davon bereits 3 zur Parade verwendet).</para>
-
-            <para>Solinara kann für die Parade nur noch 3 Würfel einsetzen, da
-            sie bereits 7 ihrer 10 Würfel für den Angriff verwendet
-            hat.</para>
-          </listitem>
-        </orderedlist>
-
-        <para><remark>---</remark></para>
-
-        <para><remark>Irgendjemand sollte ausweichen statt zu parieren, damit
-        der Einsatz verschiedener Fertigkeiten für Aktion &amp; Reaktion
-        deutlich wird. Vielleicht ist hier ein Beispiel mit 2-gegen-1 besser,
-        in dem einer der „Guten” z.B. mit Wurfwaffen unterstützt und deswegen
-        ausweicht statt zu parieren?</remark></para>
-      </informalexample>
+      <para>Die Würfelanzahl für seine Aktion bleibt hiervon
+      unbeeinflusst.</para>
     </section>
 
     <section xml:id="nahkampf">
@@ -3335,8 +3238,9 @@
       <para>Für Nahkampfangriffe wird zunächst ein Angriffswurf<indexterm>
           <primary>Angriffswurf</primary>
         </indexterm> durchgeführt, um zu ermitteln ob und wie gut der
-      Angreifer den Verteidiger trifft. Dieser kann als Reaktion einen
-      Verteidigungswurf<indexterm>
+      Angreifer den Verteidiger trifft. Dieser kann als Reaktion<indexterm>
+          <primary>Reaktion</primary>
+        </indexterm> einen Verteidigungswurf<indexterm>
           <primary>Verteidigungswurf</primary>
         </indexterm> durchführen, um Erfolge des Angriffswurfs<indexterm>
           <primary>Angriffswurf</primary>
@@ -3359,32 +3263,20 @@
         <varlistentry>
           <term>Angriffswurf<indexterm>
               <primary>Angriffswurf</primary>
-            </indexterm><remark> inkl. Reichweite</remark></term>
+            </indexterm></term>
 
           <listitem>
-            <para>Der Angriffswurf wird mit den dafür eingesetzten Würfeln
-            durchgeführt.</para>
-
-            <para>Ist die Reichweite der Angriffswaffe<remark> (0
-            Faustkampf/Dolch, 1 Kurzschwert, 2 Schwert, 3
-            Zweihänder/Peitsche)</remark> kleiner als die der
-            Verteidigungswaffe, erhält der Angreifer einen Würfelmalus in Höhe
-            der Reichweitendifferenz. Umgekehrt enthält er einen Würfelbonus,
-            wenn die Reichweite seiner Waffe größer ist als die des
-            Verteidigers. Ist der Verteidiger unbewaffnet, wird dies als
-            Reichweite 0 gewertet.<remark> Die Reichweite wird der Einfachheit
-            halber nur als Malus auf den Angriffswurf angerechnet; alles
-            andere ist zu kompliziert (zB Einzelfallentscheidung wo es
-            angerechnet wird) oder macht die Reichweite fast irrelevant weil
-            leicht umgehbar (wie bei der vorherigen Regelung, welche die
-            Reichweitendifferenz nur bei der Parade verwendete). Alternative:
-            Reichweite ganz abschaffen.</remark></para>
-
-            <para>Der Mindestwurf beträgt für einen normalen Angriff 1. Für
-            besondere Manöver gilt nach SL-Entscheid ein höherer
-            Mindestwurf.<remark> Anmerkung: Parade regulär, sprich es sind
-            alle Erfolge zu negieren. (Gedankengang: besonders schwierige
-            Manöver sind auch schwierig zu parieren)</remark></para>
+            <para>Für den Angriffswurf wird die Fertigkeit des Waffentyps bzw.
+            der Kampftechnik mit dem Attribut kombiniert, das im
+            Schadenscode<indexterm>
+                <primary>Schadenscode</primary>
+              </indexterm> aufgeführt ist (siehe <xref
+            linkend="grundschadenermittlung" xrefstyle="page"/>). Der
+            Mindestwurf beträgt für einen normalen Angriff 1; für besondere
+            Manöver gilt nach SL-Entscheid ein höherer Mindestwurf.<remark>
+            Anmerkung: der Verteidigungswurf muss auch in diesem Fall alle
+            Erfolge zu negieren - besonders schwierige Manöver sind auch
+            schwierig abzuwehren.</remark></para>
           </listitem>
         </varlistentry>
 
@@ -3394,20 +3286,19 @@
             </indexterm><remark> inkl. Paradewaffe/Schild</remark></term>
 
           <listitem>
-            <para><remark>NOCH ZU KLÄREN: Vielleicht umbenennen in
-            „Abwehrwurf”, um es besser vom „Verteidiger”
-            abzugrenzen?</remark></para>
-
-            <para>Ein Verteidigungswurf<indexterm>
+            <para>Der Verteidiger führt nun den Verteidigungswurf<indexterm>
                 <primary>Verteidigungswurf</primary>
-              </indexterm> ist mit der Fertigkeit
-            <emphasis>Ausweichen</emphasis> oder, sofern sich die Waffe dazu
-            eignet, als Parade mit der entsprechenden Waffenfertigkeit
-            möglich.</para>
-
-            <para>Der Verteidiger führt seinen Wurf mit den eingesetzten
-            Würfeln durch. Hinzu kommen ggf. noch Bonuswürfel von Paradewaffen
-            und Schilden (siehe <xref linkend="ruestungen_und_co"/>).</para>
+              </indexterm> mit der Fertigkeit
+            <emphasis>Verteidigung</emphasis><indexterm>
+                <primary>Verteidigung (Fertigkeit)</primary>
+              </indexterm> durch. Dabei können die Spezialisierungen
+            <emphasis>Ausweichen</emphasis>, <emphasis>Parade</emphasis> oder
+            <emphasis>Schildblock</emphasis> eingesetzt werden. Auf die
+            Würfelanzahl werden die Verteidigungsmodifikatoren<indexterm>
+                <primary>Verteidigungsmodifikator</primary>
+              </indexterm> der von ihm geführten Waffen, Paradewaffen und
+            Schilde angerechnet (siehe <xref
+            linkend="ruestungen_und_co"/>).</para>
 
             <para>Für jeden Erfolg beim Verteidigungswurf<indexterm>
                 <primary>Verteidigungswurf</primary>
@@ -3421,52 +3312,67 @@
         <varlistentry>
           <term>Schadensermittlung<indexterm>
               <primary>Schaden</primary>
-            </indexterm><remark> inkl. Trefferbonus und
+            </indexterm><remark> inkl. Bonusschaden und
           Rüstung</remark></term>
 
           <listitem>
-            <para>Jede Waffe verursacht eine bestimmte Menge an
+            <para>Jeder Angriff verursacht eine bestimmte Menge an
             <firstterm>Grundschaden</firstterm><indexterm>
                 <primary>Grundschaden</primary>
-              </indexterm>, der in der Waffentabelle (siehe <xref
-            linkend="waffen" xrefstyle="page"/>) angegeben ist. Darüber hinaus
-            richtet ein Angriff <firstterm>Bonusschaden</firstterm><indexterm>
+              </indexterm>, die vorab auf dem Charakterblatt notiert wurde
+            (siehe <xref linkend="grundschadenermittlung" xrefstyle="page"/>).
+            Darüber hinaus richtet ein Angriff
+            <firstterm>Bonusschaden</firstterm><indexterm>
                 <primary>Bonusschaden</primary>
               </indexterm> in Höhe der übrigen Angriffserfolge an.</para>
 
-            <para>Trägt der Verteidiger eine Rüstung, wird der Schaden für
-            jeden Punkt Rüstungsschutz um 1 gesenkt (siehe <xref
-            linkend="ruestungen_und_co"/>).</para>
+            <para>Trägt der Verteidiger eine Rüstung, wird der
+            Schaden<indexterm>
+                <primary>Schaden</primary>
+              </indexterm> für jeden Punkt
+            <firstterm>Rüstungsschutz</firstterm><indexterm>
+                <primary>Rüstungsschutz</primary>
+              </indexterm> um 1 gesenkt (siehe <xref
+            linkend="ruestungen_und_co" xrefstyle="pageonly"/>).</para>
 
-            <para>Der <firstterm>Maximalschaden</firstterm><indexterm>
-                <primary>Maximalschaden</primary>
-              </indexterm>, den eine Waffe nach Abzug der Rüstung anrichten
-            kann, ist auf den doppelten Grundschaden begrenzt. <remark>Selbst
-            bei einem fähigen Angreifer mit vielen Angriffserfolgen und einem
-            wehrlosen Opfer bleibt ein Dolch eben ein Dolch...</remark></para>
+            <para>Der Schaden<indexterm>
+                <primary>Schaden</primary>
+              </indexterm>, den eine Waffe nach Abzug des
+            Rüstungsschutzes<indexterm>
+                <primary>Rüstungsschutz</primary>
+              </indexterm> anrichten kann, ist auf den doppelten
+            Grundschaden<indexterm>
+                <primary>Grundschaden</primary>
+              </indexterm> begrenzt. <remark>Begründung: Selbst bei einem
+            fähigen Angreifer mit vielen Angriffserfolgen und einem wehrlosen
+            Opfer bleibt ein Dolch eben ein Dolch. // Der Bonusschaden, der
+            über den Grundschaden hinausgeht, hilft also dem Angreifer beim
+            Umgehen der Rüstung.</remark></para>
           </listitem>
         </varlistentry>
 
         <varlistentry xml:id="widerstandswurf">
           <term>Widerstandswurf<indexterm>
               <primary>Widerstandswurf</primary>
-            </indexterm><remark> = pure Konstitution</remark></term>
+            </indexterm><remark> = Konstitution plus
+          Bonuswürfel</remark></term>
 
           <listitem>
-            <para>Jedes Mal, wenn der Charakter Schaden<indexterm>
-                <primary>Schaden</primary>
-              </indexterm> erhält, wird ein Widerstandswurf<indexterm>
+            <para>Schließlich führt der Verteidiger einen
+            Widerstandswurf<indexterm>
                 <primary>Widerstandswurf</primary>
-              </indexterm> durchgeführt: für körperlichen Schaden mit
+              </indexterm> durch: für körperlichen Schaden mit
             Konstitution<indexterm>
                 <primary>Konstitution</primary>
               </indexterm>, für geistigen Schaden mit Willenskraft<indexterm>
                 <primary>Willenskraft</primary>
-              </indexterm>. Hinzu kommen jeweils noch Bonuswürfel von Schilden
-            oder Paradewaffen (siehe unten).</para>
+              </indexterm>. Die Würfelanzahl wird gegebenenfalls noch durch
+            den Widerstandsbonus<indexterm>
+                <primary>Widerstandsbonus</primary>
+              </indexterm> seiner Rüstung erhöht.</para>
 
-            <para>Für jeden Erfolg bei diesem Wurf wird der Schaden um einen
-            Punkt reduziert.</para>
+            <para>Für jeden Erfolg bei diesem Wurf wird der Schaden um 1
+            reduziert.</para>
           </listitem>
         </varlistentry>
 
@@ -3483,25 +3389,26 @@
       </variablelist>
 
       <informalexample>
-        <para>Während seiner Aktionsphase verwendet Elris 5 Würfel, um Gegner
-        2 anzugreifen. Sein Schwert hat eine Reichweite von 1, der Knüppel des
-        Gegners hat 0. Durch die überlegene Reichweite erhält Elris also 1
-        Bonuswürfel für den Angriffswurf, macht 6. Er erzielt 2
-        Erfolge.</para>
+        <para>Während seiner Aktionsphase greift Elris Gegner 2 mit 10 Würfeln
+        (Gewandtheit 6, Schwerter 4) an und erzielt 3 Erfolge.</para>
 
-        <para>Elris’ Gegner versucht jetzt mit 4 Würfeln zu parieren. Er
-        erzielt 1 Erfolg und kann damit den Angriff zwar nicht vollständig
-        abwehren, aber zumindest zu weniger verletzlichen Körperstellen
-        ablenken. Sein Parade-Erfolg wird von Elris’ Angriffserfolgen
-        abgezogen, übrig bleibt 1 Erfolg.</para>
+        <para>Elris’ Gegner versucht jetzt mit 9 Würfeln (Gewandtheit 4,
+        Verteidigung 3, Parade 2) zu parieren. Er erzielt 2 Erfolge und kann
+        damit den Angriff zwar nicht vollständig abwehren, aber zumindest zu
+        weniger verletzlichen Körperstellen ablenken. Seine Parade-Erfolge
+        werden von Elris’ Angriffserfolgen abgezogen, übrig bleibt 1
+        Erfolg.</para>
 
-        <para>Ein Schwert richtet laut Waffentabelle 4 Schadenspunkte an. Der
-        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 5.</para>
+        <para>Für Elris (KK 5) beträgt der Grundschaden seines Schwerts 5. Der
+        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 6.</para>
 
         <para>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei
         seinem Widerstandswurf erzielt er mit seinen 3 Konstitutions-Würfeln 1
-        Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner
+        Erfolg. Es bleiben also noch 5 Schadenspunkte übrig, die auf seiner
         Schadensleiste eingetragen werden.</para>
+
+        <para>Falls Solinara in dieser Runde ebenfalls Gegner 2 angreift,
+        dürfte dieser nur noch 5 seiner 9 Parade-Würfel einsetzen.</para>
       </informalexample>
     </section>
 
@@ -3514,15 +3421,39 @@
           <primary>Schilde</primary>
         </indexterm></title>
 
+      <para><remark>{{{</remark></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark>TODO schilde &amp; paradewaffen
+      ausarbeiten.</remark></para>
+
+      <para><remark>TODO rüstungstabelle von rick und sven
+      übernehmen.</remark></para>
+
+      <para><remark/></para>
+
+      <para><remark>TODO was ist mit paradewaffen und schilden? bisher geben
+      paradewaffen und schilde einen verteidigungsbonus. bewirken
+      (manche|alle) schilde auch einen angriffsmalus, wie
+      rüstungen?</remark></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark>}}}</remark></para>
+
       <para>Um sich zu schützen, tragen Charaktere oft Rüstungen oder kämpfen
       neben der Hauptwaffe noch mit einer Paradewaffe oder einem Schild. Diese
-      Ausrüstungsgegenstände werden durch die Werte Rüstungsschutz<indexterm>
-          <primary>Rüstungsschutz</primary>
-        </indexterm> bzw. Paradebonus<indexterm>
-          <primary>Paradebonus</primary>
-        </indexterm> und Initiativemodifikator<indexterm>
-          <primary>Initiativemodifikator</primary>
-        </indexterm> charakterisiert.</para>
+      Ausrüstungsgegenstände werden durch die folgenden Werte
+      charakterisiert:</para>
 
       <variablelist>
         <varlistentry>
@@ -3534,29 +3465,44 @@
             <para>Der Rüstungsschutz<indexterm>
                 <primary>Rüstungsschutz</primary>
               </indexterm> verringert die Anzahl der Schadenspunkte, welche
-            der Träger erhält. Jeder Punkt Rüstungsschutz wirkt also genauso
-            wie ein Erfolg beim Widerstandswurf.</para>
+            der Träger erhält, bevor der Widerstandswurf durchgeführt
+            wird.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Paradebonus<indexterm>
-              <primary>Paradebonus</primary>
-            </indexterm> (PB)</term>
+          <term>Verteidigungsmodifikator<indexterm>
+              <primary>Verteidigungsmodifikator</primary>
+            </indexterm> (VB)</term>
 
           <listitem>
-            <para>Der Paradebonus<indexterm>
-                <primary>Paradebonus</primary>
+            <para>Der Verteidigungsmodifikator<indexterm>
+                <primary>Verteidigungsmodifikator</primary>
               </indexterm> von Schilden und Paradewaffen gibt die Anzahl der
             Bonuswürfel an, welche der Charakter für den
-            Parade-Verteidigungswurf<indexterm>
+            Verteidigungswurf<indexterm>
                 <primary>Verteidigungswurf</primary>
-              </indexterm> erhält.</para>
+              </indexterm> mit der entsprechenden Spezialisierung erhält.
+            Verteidigungsmodifikatoren von Waffen, Schilden und Paradewaffen
+            werden dabei miteinander verrechnet.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>Initiativemodifikator<indexterm>
+          <term>Widerstandsbonus<indexterm>
+              <primary>Widerstandsbonus</primary>
+            </indexterm>(WB)</term>
+
+          <listitem>
+            <para>Manche Rüstungen gewähren dem Träger Bonuswürfel für den
+            Widerstandswurf<indexterm>
+                <primary>Widerstandswurf</primary>
+              </indexterm> (siehe oben).</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Angriffsmodifikator<indexterm>
               <primary>Initiativemodifikator</primary>
             </indexterm> (IM)</term>
 
@@ -3598,6 +3544,24 @@
 
     <section xml:id="beidhaendigkeit">
       <title>Beidhändiger Kampf</title>
+
+      <para><remark>{{{</remark></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark>TODO neu schreiben</remark></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark/></para>
+
+      <para><remark>}}}</remark></para>
 
       <para>Ist ein Charakter gezwungen, statt seiner Waffenhand die andere
       Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln.</para>
@@ -7265,92 +7229,148 @@
       <title>Waffen</title>
 
       <informaltable role="breakable" xml:id="waffentabelle">
-        <tgroup cols="6">
-          <colspec colname="typ" colwidth="5*"/>
+        <tgroup cols="4">
+          <colspec colname="typ" colwidth="10*"/>
 
-          <colspec align="center" colname="schaden" colwidth="2*"/>
+          <colspec align="center" colname="schaden" colwidth="4*"/>
 
-          <colspec align="center" colname="im" colwidth="2*"/>
+          <colspec align="center" colname="max" colwidth="4*"/>
 
-          <colspec align="center" colname="rw" colwidth="2*"/>
-
-          <colspec align="center" colname="kk" colwidth="2*"/>
-
-          <colspec align="center" colname="anm" colwidth="2*"/>
+          <colspec align="center" colname="verteidigung" colwidth="5*"/>
 
           <thead>
             <row>
               <entry>Typ</entry>
 
-              <entry><para>Schaden</para></entry>
+              <entry><para>Schadens-</para><para>code</para></entry>
 
-              <entry>IM<indexterm>
-                  <primary>Initiativemodifikator</primary>
-                </indexterm></entry>
+              <entry><para>Maximal-</para><para>schaden</para></entry>
 
-              <entry><para>Reich-</para><para>weite</para></entry>
-
-              <entry>Mindest-KK</entry>
-
-              <entry>Anm.</entry>
+              <entry><para>Verteidigungs-</para><para>modifikator</para></entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry role="head">Dolche</entry>
+              <entry role="head">Unbewaffnet (GE/KK)</entry>
+            </row>
+
+            <row>
+              <entry>Boxen</entry>
+
+              <entry>1 + (KK-5)</entry>
+
+              <entry>3</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Capoeira</entry>
+
+              <entry>1 + (GE-5)</entry>
+
+              <entry>3</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Karate</entry>
+
+              <entry>1 + (GE-5)</entry>
+
+              <entry>3</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Klauen/Fang (tierisch)</entry>
+
+              <entry>2 + (GE-5)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Kung Fu</entry>
+
+              <entry>1 + (KK-5)</entry>
+
+              <entry>3</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Raufen</entry>
+
+              <entry>0 + (KK/5)</entry>
+
+              <entry>2</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry/>
+            </row>
+
+            <row>
+              <entry role="head">Dolche (GE)</entry>
             </row>
 
             <row>
               <entry>Dolch</entry>
 
-              <entry>2</entry>
+              <entry>1 + (GE-3)</entry>
 
-              <entry>+2</entry>
+              <entry>3</entry>
 
               <entry>0</entry>
-
-              <entry>-</entry>
             </row>
 
             <row>
-              <entry>Erntemesser</entry>
+              <entry>Erntemesser*</entry>
+
+              <entry>1 + (GE-2)</entry>
 
               <entry>2</entry>
 
-              <entry>-1</entry>
-
               <entry>0</entry>
-
-              <entry>-</entry>
-
-              <entry>a)</entry>
             </row>
 
             <row>
               <entry>Messer</entry>
 
+              <entry>1 + (GE-2)</entry>
+
               <entry>2</entry>
 
               <entry>0</entry>
-
-              <entry>0</entry>
-
-              <entry>-</entry>
             </row>
 
             <row>
-              <entry>Sichel</entry>
+              <entry>Parierdolch</entry>
+
+              <entry>1 + (GE-2)</entry>
 
               <entry>2</entry>
 
-              <entry>+1</entry>
-
               <entry>0</entry>
+            </row>
 
-              <entry>-</entry>
+            <row>
+              <entry>Sichel*</entry>
 
-              <entry>a)</entry>
+              <entry>1 + (GE-3)</entry>
+
+              <entry>3</entry>
+
+              <entry>-1</entry>
             </row>
 
             <row>
@@ -7358,55 +7378,47 @@
             </row>
 
             <row>
-              <entry role="head">Fechtwaffen</entry>
+              <entry role="head">Fechtwaffen (GE)</entry>
+            </row>
+
+            <row>
+              <entry>Degen</entry>
+
+              <entry>2 + (GE-5)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
             </row>
 
             <row>
               <entry>Dussack</entry>
 
-              <entry>3</entry>
+              <entry>2 + (GE-3)</entry>
 
-              <entry>+1</entry>
+              <entry>4</entry>
 
               <entry>0</entry>
-
-              <entry>-</entry>
             </row>
 
             <row>
               <entry>Florett</entry>
 
-              <entry>3</entry>
+              <entry>2 + (GE-4)</entry>
 
-              <entry>+1</entry>
+              <entry>4</entry>
 
-              <entry>1</entry>
-
-              <entry>-</entry>
+              <entry>0</entry>
             </row>
 
             <row>
               <entry>Rapier</entry>
 
-              <entry>4</entry>
+              <entry>2 + (GE-4)</entry>
+
+              <entry>5</entry>
 
               <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Stoßdegen</entry>
-
-              <entry>3</entry>
-
-              <entry>0</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
             </row>
 
             <row>
@@ -7414,307 +7426,291 @@
             </row>
 
             <row>
-              <entry role="head">Hiebwaffen</entry>
+              <entry role="head">Hiebwaffen (KK)</entry>
             </row>
 
             <row>
-              <entry>Axt</entry>
+              <entry>Axt (einhändig)</entry>
+
+              <entry>3 + (KK-4)</entry>
 
               <entry>5</entry>
 
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Doppelblättrige Axt</entry>
-
-              <entry>7</entry>
-
-              <entry>-4</entry>
-
-              <entry>2</entry>
-
-              <entry>6</entry>
-            </row>
-
-            <row>
-              <entry>Dreschflegel</entry>
-
-              <entry>3</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-
-              <entry>a)</entry>
-            </row>
-
-            <row>
-              <entry>Knüppel</entry>
-
-              <entry>3</entry>
-
-              <entry>-1</entry>
-
               <entry>0</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Kriegsflegel</entry>
-
-              <entry>5</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Kriegshammer</entry>
-
-              <entry>2</entry>
-
-              <entry>-1</entry>
-
-              <entry>0</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Machete</entry>
-
-              <entry>3</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Morgenstern</entry>
-
-              <entry>4</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Schmiedehammer</entry>
-
-              <entry>3</entry>
-
-              <entry>-1</entry>
-
-              <entry>0</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry/>
-            </row>
-
-            <row>
-              <entry role="head">Schwerter</entry>
-            </row>
-
-            <row>
-              <entry>Bastardschwert</entry>
-
-              <entry>5</entry>
-
-              <entry>-3</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Kurzschwert</entry>
-
-              <entry>3</entry>
-
-              <entry>-1</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Säbel</entry>
-
-              <entry>4</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Schwert</entry>
-
-              <entry>4</entry>
-
-              <entry>-2</entry>
-
-              <entry>1</entry>
-
-              <entry>-</entry>
-            </row>
-
-            <row>
-              <entry>Zweihänder</entry>
-
-              <entry>7</entry>
-
-              <entry>-4</entry>
-
-              <entry>2</entry>
-
-              <entry>6</entry>
-            </row>
-
-            <row>
-              <entry/>
-            </row>
-
-            <row>
-              <entry role="head">Stangenwaffen</entry>
             </row>
 
             <row>
               <entry>Bartaxt</entry>
 
-              <entry>7</entry>
+              <entry>3 + (KK-4)</entry>
 
-              <entry>-6</entry>
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Dreschflegel*</entry>
+
+              <entry>2 + (KK-4)</entry>
+
+              <entry>4</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Knüppel</entry>
+
+              <entry>2 + (KK-4)</entry>
 
               <entry>3</entry>
 
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Kriegsflegel</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Kriegshammer</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Machete</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Morgenstern</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Schmiedehammer</entry>
+
+              <entry>2 + (KK-4)</entry>
+
+              <entry>4</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry/>
+            </row>
+
+            <row>
+              <entry role="head">Zweihand-Hiebwaffen (KK)</entry>
+            </row>
+
+            <row>
+              <entry>Bidenhänder</entry>
+
+              <entry>5 + (KK-6)</entry>
+
+              <entry>7</entry>
+
+              <entry>-2</entry>
+            </row>
+
+            <row>
+              <entry>Doppelblatt-Axt</entry>
+
+              <entry>5 + (KK-6)</entry>
+
+              <entry>7</entry>
+
+              <entry>-2</entry>
+            </row>
+
+            <row>
+              <entry>Großaxt</entry>
+
+              <entry>5 + (KK-6)</entry>
+
+              <entry>7</entry>
+
+              <entry>-2</entry>
+            </row>
+
+            <row>
+              <entry>Ogeraxt</entry>
+
+              <entry>6 + (KK-7)</entry>
+
+              <entry>9</entry>
+
+              <entry>-3</entry>
+            </row>
+
+            <row>
+              <entry/>
+            </row>
+
+            <row>
+              <entry role="head">Schwerter (KK)</entry>
+            </row>
+
+            <row>
+              <entry>Bastardschwert</entry>
+
+              <entry>4 + (KK-6)</entry>
+
               <entry>6</entry>
+
+              <entry>-1</entry>
+            </row>
+
+            <row>
+              <entry>Kurzschwert</entry>
+
+              <entry>2 + (KK-3)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Säbel</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Schwert</entry>
+
+              <entry>3 + (KK-4)</entry>
+
+              <entry>5</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry/>
+            </row>
+
+            <row>
+              <entry role="head">Stangenwaffen (KK)</entry>
+            </row>
+
+            <row>
+              <entry>Bardiche</entry>
+
+              <entry>6 + (KK-7)</entry>
+
+              <entry>8</entry>
+
+              <entry>-3</entry>
             </row>
 
             <row>
               <entry>Glefe</entry>
 
-              <entry>6</entry>
+              <entry>5 + (KK-6)</entry>
 
-              <entry>-4</entry>
+              <entry>7</entry>
 
-              <entry>3</entry>
-
-              <entry>5</entry>
+              <entry>-2</entry>
             </row>
 
             <row>
               <entry>Hellebarde</entry>
 
-              <entry>6</entry>
+              <entry>5 + (KK-6)</entry>
 
-              <entry>-5</entry>
+              <entry>7</entry>
 
-              <entry>3</entry>
-
-              <entry>6</entry>
+              <entry>-2</entry>
             </row>
 
             <row>
               <entry>Kampfstab</entry>
 
-              <entry>3</entry>
+              <entry>2 + (KK-4)</entry>
 
-              <entry>-2</entry>
+              <entry>5</entry>
 
-              <entry>2</entry>
-
-              <entry>-</entry>
+              <entry>0</entry>
             </row>
 
             <row>
               <entry>Kriegssense</entry>
 
-              <entry>6</entry>
+              <entry>5 + (KK-6)</entry>
 
-              <entry>-4</entry>
+              <entry>7</entry>
 
-              <entry>3</entry>
-
-              <entry>5</entry>
-
-              <entry/>
+              <entry>-2</entry>
             </row>
 
             <row>
               <entry>Partisane</entry>
 
-              <entry>5</entry>
+              <entry>4 + (KK-5)</entry>
 
-              <entry>-4</entry>
+              <entry>6</entry>
 
-              <entry>3</entry>
-
-              <entry>5</entry>
-
-              <entry/>
+              <entry>-1</entry>
             </row>
 
             <row>
-              <entry>Sense</entry>
+              <entry>Sense*</entry>
 
-              <entry>4</entry>
+              <entry>3 + (KK-4)</entry>
 
-              <entry>-5</entry>
+              <entry>6</entry>
 
-              <entry>2</entry>
-
-              <entry>5</entry>
-
-              <entry>a)</entry>
+              <entry>-1</entry>
             </row>
 
             <row>
               <entry>Speer</entry>
 
-              <entry>5</entry>
+              <entry>4 + (KK-5)</entry>
 
-              <entry>-4</entry>
+              <entry>7</entry>
 
-              <entry>3</entry>
-
-              <entry>5</entry>
+              <entry>-1</entry>
             </row>
 
             <row>
-              <entry>Wanderstab</entry>
+              <entry>Wanderstab*</entry>
 
-              <entry>2</entry>
+              <entry>2 + (KK-3)</entry>
+
+              <entry>4</entry>
 
               <entry>0</entry>
-
-              <entry>2</entry>
-
-              <entry>-</entry>
             </row>
 
             <row>
@@ -7726,41 +7722,23 @@
             </row>
 
             <row>
-              <entry>Doppelarmbrust</entry>
-
-              <entry>2 x 4</entry>
-
-              <entry>-5</entry>
-
-              <entry>C</entry>
-
-              <entry>-</entry>
-
-              <entry>b)</entry>
-            </row>
-
-            <row>
               <entry>Leichte Armbrust</entry>
 
-              <entry>4</entry>
+              <entry>früher: 4</entry>
 
-              <entry>-5</entry>
+              <entry/>
 
-              <entry>C</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Schwere Armbrust</entry>
 
-              <entry>6</entry>
+              <entry>früher: 6</entry>
 
-              <entry>-5</entry>
+              <entry/>
 
-              <entry>D</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
@@ -7774,49 +7752,41 @@
             <row>
               <entry>Kompositbogen</entry>
 
-              <entry>4</entry>
+              <entry>früher: 4</entry>
 
-              <entry>-3</entry>
+              <entry/>
 
-              <entry>C</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Kriegsbogen</entry>
 
-              <entry>5</entry>
+              <entry>früher: 5</entry>
 
-              <entry>-3</entry>
+              <entry/>
 
-              <entry>D</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Kurzbogen</entry>
 
-              <entry>3</entry>
+              <entry>früher: 3</entry>
 
-              <entry>-2</entry>
+              <entry/>
 
-              <entry>B</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Langbogen</entry>
 
-              <entry>4</entry>
+              <entry>früher: 4</entry>
 
-              <entry>-2</entry>
+              <entry/>
 
-              <entry>E</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
@@ -7830,53 +7800,37 @@
             <row>
               <entry>Wurfaxt</entry>
 
-              <entry>3</entry>
+              <entry>früher: 3</entry>
 
-              <entry>-1</entry>
+              <entry/>
 
-              <entry>A</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Wurfdolch</entry>
 
-              <entry>2</entry>
+              <entry>früher: 2</entry>
 
-              <entry>0</entry>
+              <entry/>
 
-              <entry>A</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
 
             <row>
               <entry>Wurfmesser</entry>
 
-              <entry>1</entry>
+              <entry>früher: 1</entry>
 
-              <entry>0</entry>
+              <entry/>
 
-              <entry>A</entry>
-
-              <entry>-</entry>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
 
-      <orderedlist numeration="loweralpha" xml:id="waffenanmerkungen">
-        <listitem>
-          <para>Improvisiert als Waffe eingesetztes Werkzeug.</para>
-        </listitem>
-
-        <listitem xml:id="wda">
-          <para>Doppelarmbrust: Eigentlich zwei leichte Armbrüste in einem,
-          mit getrennten Auslösern, kann beide Bolzen in einer Runde
-          abfeuern</para>
-        </listitem>
-      </orderedlist>
+      <para>(* Improvisierte Waffe)</para>
     </section>
 
     <section>
@@ -7885,22 +7839,14 @@
         </indexterm></title>
 
       <para><informaltable>
-          <tgroup cols="4">
+          <tgroup cols="2">
             <colspec colwidth="4*"/>
-
-            <colspec align="center" colwidth="1*"/>
-
-            <colspec align="center" colwidth="1*"/>
 
             <colspec colwidth="10*"/>
 
             <thead>
               <row>
                 <entry>Rüstungstyp</entry>
-
-                <entry>RS</entry>
-
-                <entry>IM</entry>
 
                 <entry/>
               </row>
@@ -7910,19 +7856,11 @@
               <row>
                 <entry>Stoff</entry>
 
-                <entry>0</entry>
-
-                <entry>0</entry>
-
                 <entry/>
               </row>
 
               <row>
                 <entry>Leder, einfach</entry>
-
-                <entry>1</entry>
-
-                <entry>-2</entry>
 
                 <entry/>
               </row>
@@ -7930,29 +7868,17 @@
               <row>
                 <entry>Leder, verstärkt</entry>
 
-                <entry>2</entry>
-
-                <entry>-3</entry>
-
                 <entry/>
               </row>
 
               <row>
                 <entry>Kette</entry>
 
-                <entry>3</entry>
-
-                <entry>-5</entry>
-
                 <entry/>
               </row>
 
               <row>
                 <entry>Platte</entry>
-
-                <entry>4</entry>
-
-                <entry>-6</entry>
 
                 <entry/>
               </row>
@@ -7969,22 +7895,14 @@
         </indexterm></title>
 
       <para><informaltable>
-          <tgroup cols="4">
+          <tgroup cols="2">
             <colspec colwidth="4*"/>
-
-            <colspec align="center" colwidth="1*"/>
-
-            <colspec align="center" colwidth="1*"/>
 
             <colspec colwidth="10*"/>
 
             <thead>
               <row>
                 <entry>Schild</entry>
-
-                <entry>PB</entry>
-
-                <entry>IM</entry>
 
                 <entry/>
               </row>
@@ -7994,41 +7912,25 @@
               <row>
                 <entry>Rundschild, klein</entry>
 
-                <entry>2</entry>
-
-                <entry>-2</entry>
-
                 <entry/>
               </row>
 
               <row>
                 <entry>Rundschild, groß</entry>
 
-                <entry>3</entry>
-
-                <entry>-4</entry>
-
                 <entry/>
               </row>
             </tbody>
           </tgroup>
         </informaltable><informaltable>
-          <tgroup cols="4">
+          <tgroup cols="2">
             <colspec colwidth="4*"/>
-
-            <colspec align="center" colwidth="1*"/>
-
-            <colspec align="center" colwidth="1*"/>
 
             <colspec colwidth="10*"/>
 
             <thead>
               <row>
                 <entry>Paradewaffe</entry>
-
-                <entry>PB</entry>
-
-                <entry>IM</entry>
 
                 <entry/>
               </row>
@@ -8037,10 +7939,6 @@
             <tbody>
               <row>
                 <entry>Parierdolch</entry>
-
-                <entry>1</entry>
-
-                <entry>-1</entry>
 
                 <entry/>
               </row>
