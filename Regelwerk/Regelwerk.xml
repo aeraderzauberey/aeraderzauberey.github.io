@@ -18,7 +18,7 @@
     <copyright>
       <year>1999</year>
 
-      <year>2013</year>
+      <year>2014</year>
 
       <holder>Jens Bannmann</holder>
     </copyright>
@@ -1715,7 +1715,7 @@
 
       <para>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine
       Fähigkeiten verbessern — er wird z.B. stärker, geschickter oder
-      erfahrener im Umgang mit Magie. Dazu verteilt der Spielleiter für die im
+      erfahrener im Umgang mit Magie. Dazu vergibt der Spielleiter für die im
       Spiel gemachten Erfahrungen regelmäßig weitere
       <firstterm>Erfahrungspunkte</firstterm><indexterm
           significance="preferred">
@@ -2982,7 +2982,7 @@
       zeitlichen Verlaufs eines Kampfes werden die Handlungen innerhalb von
       <emphasis>Kampfrunden</emphasis> abgewickelt. Im Abschnitt
       <emphasis>Nahkampf</emphasis> wird der Ablauf von Angriffen erklärt,
-      bevor die Mechanismen für <emphasis>Rüstungen, Paradewaffen und
+      bevor die Mechanismen für <emphasis>Rüstungen, Parierwaffen und
       Schilde</emphasis> vorgestellt werden. Die Regeln für den
       <emphasis>Beidhändigen Kampf</emphasis> sowie den
       <emphasis>Fernkampf</emphasis> schließen das Kapitel ab.</para>
@@ -3049,19 +3049,16 @@
         gegenüber, die wortlos ihre Waffen ziehen.</para>
 
         <para>Elris hat Intuition 5 und Reflexe 6, der Initiativebasiswert
-        beträgt somit 22. Sein Initiativewurf ergibt eine 6, macht 28. Er
-        kämpft mit einem Schwert und erhält deswegen einen
-        Initiativemodifikator von -2, ergibt 26. Solinara hat Intuition und
-        Reflexe jeweils auf 5 und würfelt eine 5, ergibt 25. Sie kämpft mit
-        einem Kampfstab (IM -2), ihre Initiative beträgt also 23.</para>
+        beträgt somit 22. Sein Initiativewurf ergibt eine 6, macht 28.
+        Solinara hat Intuition und Reflexe jeweils auf 5 und würfelt eine 5,
+        ergibt 25.</para>
 
-        <para>Der erste Gegner besitzt einen Initiativebasiswert von 18,
-        kämpft mit einem Säbel (IM -2) und würfelt eine 4, ergibt 20. Der
-        andere hat einen Initiativebasiswert von 16, kämpft mit einem Knüppel
-        (IM -1) und würfelt eine 10, ergibt 25.</para>
+        <para>Der erste Gegner besitzt einen Initiativebasiswert von 18 und
+        würfelt eine 4, ergibt 22. Der zweite hat einen Initiativebasiswert
+        von 16 und würfelt eine 10, ergibt 26.</para>
 
-        <para>Elris hat also Glück: er ist mit 26 der schnellste. Nach ihm
-        sind Gegner 2 bei 25, Solinara bei 23 und Gegner 1 bei 20 an der
+        <para>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm
+        sind Gegner 2 bei 26, Solinara bei 25 und Gegner 1 bei 22 an der
         Reihe.</para>
       </informalexample>
     </section>
@@ -3271,19 +3268,26 @@
             Schadenscode<indexterm>
                 <primary>Schadenscode</primary>
               </indexterm> aufgeführt ist (siehe <xref
-            linkend="grundschadenermittlung" xrefstyle="page"/>). Der
-            Mindestwurf beträgt für einen normalen Angriff 1; für besondere
-            Manöver gilt nach SL-Entscheid ein höherer Mindestwurf.<remark>
-            Anmerkung: der Verteidigungswurf muss auch in diesem Fall alle
-            Erfolge zu negieren - besonders schwierige Manöver sind auch
-            schwierig abzuwehren.</remark></para>
+            linkend="grundschadenermittlung" xrefstyle="page"/>). Die
+            Würfelanzahl wird um den Angriffsmalus<indexterm>
+                <primary>Angriffsmalus</primary>
+              </indexterm> der getragenen Ausrüstung verringert (siehe <xref
+            linkend="ruestungen_und_co"/>).</para>
+
+            <para>Der Mindestwurf beträgt für einen normalen Angriff 1; für
+            besondere Manöver gilt nach SL-Entscheid ein höherer
+            Mindestwurf.<remark> Anmerkung: der Verteidigungswurf muss auch in
+            diesem Fall alle Erfolge zu negieren - besonders schwierige
+            Manöver sind auch schwierig abzuwehren.</remark></para>
+
+            <para/>
           </listitem>
         </varlistentry>
 
         <varlistentry xml:id="verteidigungswurf">
           <term>Verteidigungswurf<indexterm>
               <primary>Verteidigungswurf</primary>
-            </indexterm><remark> inkl. Paradewaffe/Schild</remark></term>
+            </indexterm><remark> inkl. Parierwaffe/Schild</remark></term>
 
           <listitem>
             <para>Der Verteidiger führt nun den Verteidigungswurf<indexterm>
@@ -3296,7 +3300,7 @@
             <emphasis>Schildblock</emphasis> eingesetzt werden. Auf die
             Würfelanzahl werden die Verteidigungsmodifikatoren<indexterm>
                 <primary>Verteidigungsmodifikator</primary>
-              </indexterm> der von ihm geführten Waffen, Paradewaffen und
+              </indexterm> der von ihm geführten Waffen, Parierwaffen und
             Schilde angerechnet (siehe <xref
             linkend="ruestungen_und_co"/>).</para>
 
@@ -3415,43 +3419,14 @@
     <section xml:id="ruestungen_und_co">
       <title>Rüstungen<indexterm significance="preferred">
           <primary>Rüstungen</primary>
-        </indexterm>, Paradewaffen<indexterm significance="preferred">
-          <primary>Paradewaffen</primary>
+        </indexterm>, Parierwaffen<indexterm significance="preferred">
+          <primary>Parierwaffen</primary>
         </indexterm> und Schilde<indexterm significance="preferred">
           <primary>Schilde</primary>
         </indexterm></title>
 
-      <para><remark>{{{</remark></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark>TODO schilde &amp; paradewaffen
-      ausarbeiten.</remark></para>
-
-      <para><remark>TODO rüstungstabelle von rick und sven
-      übernehmen.</remark></para>
-
-      <para><remark/></para>
-
-      <para><remark>TODO was ist mit paradewaffen und schilden? bisher geben
-      paradewaffen und schilde einen verteidigungsbonus. bewirken
-      (manche|alle) schilde auch einen angriffsmalus, wie
-      rüstungen?</remark></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark>}}}</remark></para>
-
       <para>Um sich zu schützen, tragen Charaktere oft Rüstungen oder kämpfen
-      neben der Hauptwaffe noch mit einer Paradewaffe oder einem Schild. Diese
+      neben der Hauptwaffe noch mit einer Parierwaffe oder einem Schild. Diese
       Ausrüstungsgegenstände werden durch die folgenden Werte
       charakterisiert:</para>
 
@@ -3465,33 +3440,37 @@
             <para>Der Rüstungsschutz<indexterm>
                 <primary>Rüstungsschutz</primary>
               </indexterm> verringert die Anzahl der Schadenspunkte, welche
-            der Träger erhält, bevor der Widerstandswurf durchgeführt
-            wird.</para>
+            der Träger erhält, bevor der Widerstandswurf<indexterm>
+                <primary>Widerstandswurf</primary>
+              </indexterm> durchgeführt wird.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
           <term>Verteidigungsmodifikator<indexterm>
               <primary>Verteidigungsmodifikator</primary>
-            </indexterm> (VB)</term>
+            </indexterm> (VM)</term>
 
           <listitem>
-            <para>Der Verteidigungsmodifikator<indexterm>
+            <para>Besonders schwere und sperrige Waffen ermöglichen zwar
+            machtvolle Angriffe, behindern aber auch die Verteidigung. Schilde
+            und die beim Fechten verwendeten Parierwaffen wiederum bieten
+            einen Vorteil für die Defensive.</para>
+
+            <para>In beiden Fällen gibt der Verteidigungsmodifikator<indexterm>
                 <primary>Verteidigungsmodifikator</primary>
-              </indexterm> von Schilden und Paradewaffen gibt die Anzahl der
-            Bonuswürfel an, welche der Charakter für den
-            Verteidigungswurf<indexterm>
+              </indexterm> an, wie die Würfelanzahl des eigenen
+            Verteidigungswurfs<indexterm>
                 <primary>Verteidigungswurf</primary>
-              </indexterm> mit der entsprechenden Spezialisierung erhält.
-            Verteidigungsmodifikatoren von Waffen, Schilden und Paradewaffen
-            werden dabei miteinander verrechnet.</para>
+              </indexterm> modifiziert wird. Gibt es mehrere Modifikatoren,
+            werden sie miteinander verrechnet.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
           <term>Widerstandsbonus<indexterm>
               <primary>Widerstandsbonus</primary>
-            </indexterm>(WB)</term>
+            </indexterm> (WB)</term>
 
           <listitem>
             <para>Manche Rüstungen gewähren dem Träger Bonuswürfel für den
@@ -3502,37 +3481,32 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Angriffsmodifikator<indexterm>
-              <primary>Initiativemodifikator</primary>
-            </indexterm> (IM)</term>
+          <term>Angriffsmalus<indexterm>
+              <primary>Angriffsmalus</primary>
+            </indexterm> (AM)</term>
 
           <listitem>
-            <para>Das Gewicht von Rüstungen und das Hantieren mit Schilden und
-            Paradewaffen verlangsamen den Kämpfer, was sich im
-            <firstterm>Initiativemodifikator</firstterm><indexterm>
-                <primary>Initiativemodifikator</primary>
-              </indexterm> niederschlägt (siehe <xref
-            linkend="initiative"/>).</para>
+            <para>Das Gewicht von Rüstungen und das Hantieren mit Schilden
+            schränken die Fähigkeit zum Angriff ein. Dies wird durch den
+            <firstterm>Angriffsmalus</firstterm><indexterm>
+                <primary>Angriffsmalus</primary>
+              </indexterm> dargestellt, der den Würfelabzug beim
+            Angriffswurf<indexterm>
+                <primary>Angriffswurf</primary>
+              </indexterm> angibt. Mehrere Mali wirken kumulativ.</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
-      <para>Eine Liste von Rüstungstypen, Paradewaffen und Schilden findet
+      <para>Eine Liste von Rüstungstypen, Parierwaffen und Schilden findet
       sich unter <xref linkend="ausruestung"/>.</para>
 
-      <para><remark>Was ist der Unterschied zwischen Paradewaffen und
-      Schilden? These: eine Paradewaffe wird immer gemeinsam mit der
+      <para><remark>Was ist der Unterschied zwischen Parierwaffen und
+      Schilden? These: eine Parierwaffe wird immer gemeinsam mit der
       Hauptwaffe benutzt, ein Schild wird einzeln „hochgerissen”. Es fühlt
       sich daher falsch an, beides über den gleichen Mechanismus abzubilden.
       Eigentlich. Andererseits erscheint keine Alternative
       sinnvoll.</remark></para>
-
-      <para><remark>Sollte ein Schild besser zur Parade geeignet sein als eine
-      Paradewaffe? Ja.</remark></para>
-
-      <para><remark>NOCH EINZUFÜGEN: Ihr Einsatz erfordert daher keinerlei
-      Proben und zählt nicht als Kampf mit zwei Waffen (siehe <xref
-      linkend="beidhaendigkeit"/>).</remark></para>
 
       <para><remark>Rüstungen haben als Hauptnachteil, dass sie einen
       erschöpfen (geistige Schadenspunkte alle X Runden? Aber: Runden zählen
@@ -3679,7 +3653,7 @@
 
               <entry align="center">Distanzklasse</entry>
 
-              <entry>MW-Modifikator</entry>
+              <entry>Modifikator</entry>
 
               <entry/>
 
@@ -4396,10 +4370,7 @@
       am Ende merkt, dass er scheitert. Bei DSA gilt m.W. auch „nach der
       Hälfte der Zauberdauer”.) </remark>Die weiteren Aktionen während der
       Zauberdauer erfordern zwar keine Proben, aber der Zaubernde ist dennoch
-      beschäftigt. Er muss daher weiterhin Würfel für diese Aktionen
-      einteilen, und zwar die gleiche Anzahl wie bei der ersten Aktion<remark>
-      (das sollte auch immer möglich sein, denn Verletzungsmodifikatoren gibt
-      es nur bei Schaden, und der beendet den Zauber sowieso)</remark>.</para>
+      beschäftigt.</para>
     </section>
 
     <section xml:id="kraftwiderstandswurf">
@@ -7839,14 +7810,26 @@
         </indexterm></title>
 
       <para><informaltable>
-          <tgroup cols="2">
-            <colspec colwidth="4*"/>
+          <tgroup cols="5">
+            <colspec colwidth="3*"/>
 
-            <colspec colwidth="10*"/>
+            <colspec align="center" colwidth="1*"/>
+
+            <colspec align="center" colwidth="1*"/>
+
+            <colspec align="center" colwidth="1*"/>
+
+            <colspec colwidth="5*"/>
 
             <thead>
               <row>
                 <entry>Rüstungstyp</entry>
+
+                <entry>RS</entry>
+
+                <entry>WB</entry>
+
+                <entry>AM</entry>
 
                 <entry/>
               </row>
@@ -7854,31 +7837,201 @@
 
             <tbody>
               <row>
-                <entry>Stoff</entry>
+                <entry role="head">Leichte Rüstung</entry>
+              </row>
+
+              <row>
+                <entry>Schwerer Stoff</entry>
+
+                <entry>1</entry>
+
+                <entry>0</entry>
+
+                <entry>0</entry>
 
                 <entry/>
               </row>
 
               <row>
-                <entry>Leder, einfach</entry>
+                <entry>Holz</entry>
+
+                <entry>1</entry>
+
+                <entry>1</entry>
+
+                <entry>0</entry>
 
                 <entry/>
               </row>
 
               <row>
-                <entry>Leder, verstärkt</entry>
+                <entry>Leichtes Leder</entry>
+
+                <entry>1</entry>
+
+                <entry>0</entry>
+
+                <entry>0</entry>
 
                 <entry/>
               </row>
 
               <row>
-                <entry>Kette</entry>
+                <entry>Leder (teilweise)</entry>
+
+                <entry>0</entry>
+
+                <entry>2</entry>
+
+                <entry>0</entry>
 
                 <entry/>
               </row>
 
               <row>
-                <entry>Platte</entry>
+                <entry/>
+              </row>
+
+              <row>
+                <entry role="head">Mittlere Rüstung</entry>
+              </row>
+
+              <row>
+                <entry>Beschlagenes Leder</entry>
+
+                <entry>2</entry>
+
+                <entry>2</entry>
+
+                <entry>0</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Dickes Leder</entry>
+
+                <entry>2</entry>
+
+                <entry>0</entry>
+
+                <entry>0</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Schuppenüberwurf</entry>
+
+                <entry>2</entry>
+
+                <entry>1</entry>
+
+                <entry>0</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Dicke Felle</entry>
+
+                <entry>1</entry>
+
+                <entry>2</entry>
+
+                <entry>0</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Kettenrüstung</entry>
+
+                <entry>3</entry>
+
+                <entry>0</entry>
+
+                <entry>-1</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Schuppenrüstung</entry>
+
+                <entry>3</entry>
+
+                <entry>0</entry>
+
+                <entry>-1</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Lamellenrüstung</entry>
+
+                <entry>3</entry>
+
+                <entry>0</entry>
+
+                <entry>-1</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Brustpanzer</entry>
+
+                <entry>3</entry>
+
+                <entry>0</entry>
+
+                <entry>-1</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry/>
+              </row>
+
+              <row>
+                <entry role="head">Schwere Rüstung</entry>
+              </row>
+
+              <row>
+                <entry>Leichte Plattenrüstung</entry>
+
+                <entry>4</entry>
+
+                <entry>0</entry>
+
+                <entry>-2</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Ringelpanzer</entry>
+
+                <entry>4</entry>
+
+                <entry>0</entry>
+
+                <entry>-2</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Volle Plattenrüstung</entry>
+
+                <entry>4</entry>
+
+                <entry>0</entry>
+
+                <entry>-3</entry>
 
                 <entry/>
               </row>
@@ -7890,19 +8043,27 @@
     <section>
       <title>Schilde<indexterm>
           <primary>Schilde</primary>
-        </indexterm> und Paradewaffen<indexterm>
-          <primary>Paradewaffen</primary>
+        </indexterm> und Parierwaffen<indexterm>
+          <primary>Parierwaffen</primary>
         </indexterm></title>
 
       <para><informaltable>
-          <tgroup cols="2">
+          <tgroup cols="4">
             <colspec colwidth="4*"/>
+
+            <colspec colwidth="1*"/>
+
+            <colspec/>
 
             <colspec colwidth="10*"/>
 
             <thead>
               <row>
-                <entry>Schild</entry>
+                <entry>Typ</entry>
+
+                <entry>VM</entry>
+
+                <entry>AM</entry>
 
                 <entry/>
               </row>
@@ -7910,7 +8071,15 @@
 
             <tbody>
               <row>
+                <entry role="head">Schild</entry>
+              </row>
+
+              <row>
                 <entry>Rundschild, klein</entry>
+
+                <entry>+3</entry>
+
+                <entry>-1</entry>
 
                 <entry/>
               </row>
@@ -7918,27 +8087,47 @@
               <row>
                 <entry>Rundschild, groß</entry>
 
+                <entry>+4</entry>
+
+                <entry>-2</entry>
+
                 <entry/>
               </row>
-            </tbody>
-          </tgroup>
-        </informaltable><informaltable>
-          <tgroup cols="2">
-            <colspec colwidth="4*"/>
 
-            <colspec colwidth="10*"/>
-
-            <thead>
               <row>
-                <entry>Paradewaffe</entry>
+                <entry>Turmschild</entry>
+
+                <entry>+5</entry>
+
+                <entry>-3</entry>
 
                 <entry/>
               </row>
-            </thead>
 
-            <tbody>
+              <row>
+                <entry/>
+              </row>
+
+              <row>
+                <entry role="head">Parierwaffe</entry>
+              </row>
+
               <row>
                 <entry>Parierdolch</entry>
+
+                <entry>+2</entry>
+
+                <entry>0</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>Springklingendolch</entry>
+
+                <entry>+3</entry>
+
+                <entry>0</entry>
 
                 <entry/>
               </row>
