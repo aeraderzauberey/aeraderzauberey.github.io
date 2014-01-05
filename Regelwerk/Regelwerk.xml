@@ -1445,12 +1445,12 @@
                   <primary>Schadenscode</primary>
                 </indexterm> sowie der Maximalschaden<indexterm>
                   <primary>Maximalschaden</primary>
-                </indexterm> aufgeführt. Für einen Charakter mit Gewandheit 5
+                </indexterm> aufgeführt. Für einen Charakter mit Gewandheit 4
               ergibt sich beispielsweise aus dem Schadenscode<indexterm>
                   <primary>Schadenscode</primary>
                 </indexterm> 1 + (GE-3) ein Grundschaden<indexterm>
                   <primary>Grundschaden</primary>
-                </indexterm> von 5. Liegt der so ermittelte Wert über dem
+                </indexterm> von 2. Liegt der so ermittelte Wert über dem
               angegebenen Maximalschaden<indexterm>
                   <primary>Maximalschaden</primary>
                 </indexterm>, wird letzterer als Grundschaden<indexterm>
@@ -3392,8 +3392,8 @@
       </variablelist>
 
       <informalexample>
-        <para>Während seiner Aktionsphase greift Elris Gegner 2 mit 10 Würfeln
-        (Gewandtheit 6, Schwerter 4) an und erzielt 3 Erfolge.</para>
+        <para>Während seiner Aktionsphase greift Elris Gegner 2 mit 9 Würfeln
+        (Körperkraft 5, Schwerter 4) an und erzielt 3 Erfolge.</para>
 
         <para>Elris’ Gegner versucht jetzt mit 9 Würfeln (Gewandtheit 4,
         Verteidigung 3, Parade 2) zu parieren. Er erzielt 2 Erfolge und kann
@@ -3402,12 +3402,13 @@
         werden von Elris’ Angriffserfolgen abgezogen, übrig bleibt 1
         Erfolg.</para>
 
-        <para>Für Elris (KK 5) beträgt der Grundschaden seines Schwerts 5. Der
-        verbleibende Angriffserfolg erhöht diesen Schaden um 1 auf 6.</para>
+        <para>Ein Schwert hat den Schadenscode 3 + (KK-4), für Elris beträgt
+        der Grundschaden also 4. Der verbleibende Angriffserfolg erhöht diesen
+        Schaden um 1 auf 5.</para>
 
         <para>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei
         seinem Widerstandswurf erzielt er mit seinen 3 Konstitutions-Würfeln 1
-        Erfolg. Es bleiben also noch 5 Schadenspunkte übrig, die auf seiner
+        Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner
         Schadensleiste eingetragen werden.</para>
 
         <para>Falls Solinara in dieser Runde ebenfalls Gegner 2 angreift,
@@ -7983,13 +7984,13 @@
 
       <para><informaltable>
           <tgroup cols="4">
-            <colspec colwidth="4*"/>
+            <colspec colwidth="3*"/>
 
-            <colspec colwidth="1*"/>
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec/>
+            <colspec align="center" colwidth="1*"/>
 
-            <colspec colwidth="10*"/>
+            <colspec colwidth="6*"/>
 
             <thead>
               <row>
