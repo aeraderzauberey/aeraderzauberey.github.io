@@ -551,12 +551,11 @@
 
               <tbody>
                 <row>
-                  <entry>Beidhändigkeit</entry>
+                  <entry>Beidhändiger Kampf</entry>
 
                   <entry>-</entry>
 
-                  <entry>Senkt die Abzüge beim Kampf mit der anderen Hand und
-                  erlaubt den Kampf mit zwei Waffen. Siehe <xref
+                  <entry>Ermöglicht den Kampf mit zwei Waffen. Siehe <xref
                   linkend="beidhaendigkeit"/>.</entry>
                 </row>
 
@@ -3417,22 +3416,28 @@
     </section>
 
     <section xml:id="ruestungen_und_co">
-      <title>Rüstungen<indexterm significance="preferred">
+      <title>Rüstungen<indexterm>
           <primary>Rüstungen</primary>
-        </indexterm>, Parierwaffen<indexterm significance="preferred">
+        </indexterm>, Parierwaffen<indexterm>
           <primary>Parierwaffen</primary>
-        </indexterm> und Schilde<indexterm significance="preferred">
+        </indexterm> und Schilde<indexterm>
           <primary>Schilde</primary>
         </indexterm></title>
 
-      <para>Um sich zu schützen, tragen Charaktere oft Rüstungen oder kämpfen
-      neben der Hauptwaffe noch mit einer Parierwaffe oder einem Schild. Diese
-      Ausrüstungsgegenstände werden durch die folgenden Werte
-      charakterisiert:</para>
+      <para>Um sich zu schützen, tragen Charaktere oft Rüstungen<indexterm
+          significance="preferred">
+          <primary>Rüstungen</primary>
+        </indexterm> oder kämpfen neben der Hauptwaffe noch mit einer
+      Parierwaffe<indexterm significance="preferred">
+          <primary>Parierwaffen</primary>
+        </indexterm> oder einem Schild<indexterm significance="preferred">
+          <primary>Schilde</primary>
+        </indexterm>. Diese Ausrüstungsgegenstände werden durch die folgenden
+      Werte charakterisiert:</para>
 
       <variablelist>
         <varlistentry>
-          <term>Rüstungsschutz<indexterm>
+          <term>Rüstungsschutz<indexterm significance="preferred">
               <primary>Rüstungsschutz</primary>
             </indexterm> (RS)</term>
 
@@ -3447,15 +3452,20 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Verteidigungsmodifikator<indexterm>
+          <term>Verteidigungsmodifikator<indexterm significance="preferred">
               <primary>Verteidigungsmodifikator</primary>
             </indexterm> (VM)</term>
 
           <listitem>
             <para>Besonders schwere und sperrige Waffen ermöglichen zwar
-            machtvolle Angriffe, behindern aber auch die Verteidigung. Schilde
-            und die beim Fechten verwendeten Parierwaffen wiederum bieten
-            einen Vorteil für die Defensive.</para>
+            machtvolle Angriffe, behindern aber auch die Verteidigung.
+            Schilde<indexterm>
+                <primary>Schilde</primary>
+              </indexterm> und die beim Fechten verwendeten
+            Parierwaffen<indexterm>
+                <primary>Parierwaffen</primary>
+              </indexterm> wiederum bieten einen Vorteil für die
+            Defensive.</para>
 
             <para>In beiden Fällen gibt der Verteidigungsmodifikator<indexterm>
                 <primary>Verteidigungsmodifikator</primary>
@@ -3468,12 +3478,14 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Widerstandsbonus<indexterm>
+          <term>Widerstandsbonus<indexterm significance="preferred">
               <primary>Widerstandsbonus</primary>
             </indexterm> (WB)</term>
 
           <listitem>
-            <para>Manche Rüstungen gewähren dem Träger Bonuswürfel für den
+            <para>Manche Rüstungen<indexterm>
+                <primary>Rüstungen</primary>
+              </indexterm> gewähren dem Träger Bonuswürfel für den
             Widerstandswurf<indexterm>
                 <primary>Widerstandswurf</primary>
               </indexterm> (siehe oben).</para>
@@ -3481,14 +3493,17 @@
         </varlistentry>
 
         <varlistentry>
-          <term>Angriffsmalus<indexterm>
+          <term>Angriffsmalus<indexterm significance="preferred">
               <primary>Angriffsmalus</primary>
             </indexterm> (AM)</term>
 
           <listitem>
-            <para>Das Gewicht von Rüstungen und das Hantieren mit Schilden
-            schränken die Fähigkeit zum Angriff ein. Dies wird durch den
-            <firstterm>Angriffsmalus</firstterm><indexterm>
+            <para>Das Gewicht von Rüstungen<indexterm>
+                <primary>Rüstungen</primary>
+              </indexterm> und das Hantieren mit Schilden<indexterm>
+                <primary>Schilde</primary>
+              </indexterm> schränken die Fähigkeit zum Angriff ein. Dies wird
+            durch den <firstterm>Angriffsmalus</firstterm><indexterm>
                 <primary>Angriffsmalus</primary>
               </indexterm> dargestellt, der den Würfelabzug beim
             Angriffswurf<indexterm>
@@ -3498,123 +3513,42 @@
         </varlistentry>
       </variablelist>
 
-      <para>Eine Liste von Rüstungstypen, Parierwaffen und Schilden findet
-      sich unter <xref linkend="ausruestung"/>.</para>
-
-      <para><remark>Was ist der Unterschied zwischen Parierwaffen und
-      Schilden? These: eine Parierwaffe wird immer gemeinsam mit der
-      Hauptwaffe benutzt, ein Schild wird einzeln „hochgerissen”. Es fühlt
-      sich daher falsch an, beides über den gleichen Mechanismus abzubilden.
-      Eigentlich. Andererseits erscheint keine Alternative
-      sinnvoll.</remark></para>
-
-      <para><remark>Rüstungen haben als Hauptnachteil, dass sie einen
-      erschöpfen (geistige Schadenspunkte alle X Runden? Aber: Runden zählen
-      kann mühsam sein). Sie machen auch die Parade schwerer, auf der anderen
-      Seite hat man zusätzliche Möglichkeiten (Waffe am gerüsteten Arm
-      abgleiten lassen). Außerdem beeinträchtigen zumindest Helme die
-      Wahrnehmung.</remark></para>
+      <para>Eine Liste von Rüstungstypen<indexterm>
+          <primary>Rüstungen</primary>
+        </indexterm>, Parierwaffen<indexterm>
+          <primary>Parierwaffen</primary>
+        </indexterm> und Schilden<indexterm>
+          <primary>Schilde</primary>
+        </indexterm> findet sich unter <xref linkend="ausruestung"/>.</para>
     </section>
 
     <section xml:id="beidhaendigkeit">
       <title>Beidhändiger Kampf</title>
 
-      <para><remark>{{{</remark></para>
+      <para>Die Fertigkeit <emphasis>Beidhändiger Kampf</emphasis> erlaubt es
+      dem Charakter, gleichzeitig mit zwei Waffen zu kämpfen. Dies gewährt dem
+      Charakter zwar keine zusätzlichen Aktionen, erhöht aber die
+      Erfolgschance: bei jedem Angriffs-<indexterm>
+          <primary>Angriffswurf</primary>
+        </indexterm> und Verteidigungswurf<indexterm>
+          <primary>Verteidigungswurf</primary>
+        </indexterm> wird ein zusätzlicher Wurf durchgeführt und das bessere
+      Ergebnis gewertet. Bei diesem Wurf werden jedoch aus der jeweiligen
+      Waffenfertigkeit bzw. der Fertigkeit <emphasis>Verteidigung</emphasis>
+      nur Würfel in Höhe der Fertigkeit <emphasis>Beidhändiger
+      Kampf</emphasis> verwendet. Würfel aus dem Attribut und einer
+      eventuellen Spezialisierung sind nicht beschränkt.</para>
 
-      <para><remark/></para>
+      <para>Ein solcher Zusatzwurf ist nur dann zulässig, wenn zwei Waffen
+      desselben Typs verwendet werden. Außerdem muss die jeweilige Aktion auch
+      mit den beiden Waffen durchgeführt werden, es darf sich also inbesondere
+      nicht um Ausweichen oder den Einsatz eines Schildes handeln. Auch das
+      Verwenden einer Parierwaffe zählt nicht als beidhändiger Kampf.</para>
 
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark>TODO neu schreiben</remark></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark/></para>
-
-      <para><remark>}}}</remark></para>
-
-      <para>Ist ein Charakter gezwungen, statt seiner Waffenhand die andere
-      Hand zum Kampf einzusetzen, erhält er einen Malus von 4 Würfeln.</para>
-
-      <para>Führt ein Charakter gleichzeitig zwei Waffen, erhält er für die
-      zweite Waffe jeweils eine zusätzliche Aktion<indexterm>
-          <primary>Aktion</primary>
-        </indexterm> und Reaktion<indexterm>
-          <primary>Reaktion</primary>
-        </indexterm>, wobei jedoch der oben genannte Malus gilt. Diese
-      Handlungen<indexterm>
-          <primary>Handlung</primary>
-        </indexterm> müssen nicht beide ausgeschöpft werden, sie müssen aber
-      auf jeden Fall mit der zweiten Waffe ausgeführt werden. Es ist also z.B.
-      nicht möglich zweimal auszuweichen.</para>
-
-      <para>Werden unterschiedliche Waffengattungen geführt, also z.B. Schwert
-      und Dolch, bildet die höchste Würfelanzahl<indexterm>
-          <primary>Würfelanzahl</primary>
-        </indexterm> (inklusive weiterer Handlungen wie Ausweichen oder
-      Zaubern) die Basis für die Verteilung auf Handlungen. Dabei können für
-      eine Handlung niemals mehr Würfel eingeteilt werden, als der Charakter
-      unter normalen Umständen hätte verwenden dürfen.</para>
-
-      <para>Die spezielle Fertigkeit Beidhändigkeit gibt die Fähigkeit eines
-      Charakters an, mit beiden Händen gleich gut kämpfen zu können,
-      repräsentiert aber auch das Training, mit beiden Händen koordiniert
-      besser kämpfen zu können. Für jeden Punkt Beidhändigkeit wird der Malus
-      von 4 Würfeln um 1 bis auf 0 abgesenkt. Im beidhändigen Kampf kann der
-      Charakter zusätzlich für jeden Fertigkeitspunkt über 4 hinaus einen
-      weiteren Würfel auf Handlungen verteilen.</para>
-
-      <informalexample>
-        <para>Ein Charakter kämpft mit einem Schwert und einem Dolch und hat
-        Beidhändigkeit 7. Die maximal möglichen Würfelanzahlen sind
-        jeweils:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Angriff oder Parade mit Schwert (GW 4 + Schwerter 6):
-            10</para>
-          </listitem>
-
-          <listitem>
-            <para>Angriff oder Parade mit Dolch (GW 4 + Dolche 4): 8</para>
-          </listitem>
-
-          <listitem>
-            <para>Ausweichen (GW 4 + Ausweichen 5): 9</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Falls er beide Waffen einsetzen will, beträgt seine reguläre
-        Würfelanzahl 10 und er erhält 3 Bonuswürfel durch Beidhändigkeit,
-        ergibt 13. Einige erlaubte Würfelverteilungen sind damit:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Schwertangriff 6, Dolchparade 3, Ausweichen 4</para>
-          </listitem>
-
-          <listitem>
-            <para>Schwertangriff 9, Dolchangriff 4</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Die folgenden Würfelverteilungen sind beispielsweise nicht
-        möglich:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Schwertangriff 11, Dolchangriff 2</para>
-          </listitem>
-
-          <listitem>
-            <para>Schwertangriff 7, Schwertangriff 6</para>
-          </listitem>
-        </itemizedlist>
-      </informalexample>
+      <para><remark>Anders als die vorige Fertigkeit "Beidhändigkeit"
+      beinhaltet die Fertigkeit "Beidhändiger Kampf" absichtlich keine Regeln
+      für das Verwenden der falschen Hand statt der normalen Waffenhand -
+      entsprechende Würfelabzüge sind SL-Entscheid.</remark></para>
     </section>
 
     <section xml:id="fernkampf">
@@ -4667,7 +4601,7 @@
 
             <listitem>
               <para>Der Zaubernde beeinflusst Sinneswahrnehmungen des Ziels.
-              Dabei kann er das Ziel etwas wahrnehmen lassen, dass nicht da
+              Dabei kann er das Ziel etwas wahrnehmen lassen, das nicht da
               ist, die Wahrnehmung von etwas vorhandenem abändern, etwas von
               der Wahrnehmung ausnehmen oder sogar den jeweiligen Sinn
               komplett lahmlegen.</para>
