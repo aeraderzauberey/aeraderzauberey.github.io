@@ -1,5 +1,6 @@
 Trennlinienhöhe beträgt (inkl. Kugelstück) 0,75 cm
 Kugel-, Mittel- und Endstück markieren, Objektmitten gleichmäßig verteilen
+(Dreier-Quadrat-Gruppe ist 0,0096 cm höher als die Linie)
 
 Abstand der Oberkanten von Trennlinie und Textkasten (mit Spaltenüberschriften) darunter: 1,1 cm
 
@@ -7,10 +8,11 @@ Abstand der Oberkanten von Trennlinie und Textkasten (mit Spaltenüberschriften)
 
 Summe der Breiten beider Trennlinien und des Überschriftskastens: 18,2
 
---
+Abstand der Überschrift (Unterkante eigtl. Trennline) zum jeweiligen Content darunter:
+- zu Unterstrich-Linie zum Ausfüllen: 9mm
+- zu normalgroßem Text bzw. Spaltenüberschrift (Oberkante Großbuchstabe): 6,5mm
 
-Trennlinie:
-Regelmäßiges Quadrat als Ersatz für die einzelnen Komponenten der "dreier-Zacken": Kantenlänge 0,1950 cm, Drehung 45° (Scribus)
+Abstand zwischen Überschrift (Oberkante eigtl. Trennlinie) zu letzter Zeile darüber: 9mm
 
 --
 
