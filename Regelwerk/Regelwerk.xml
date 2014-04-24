@@ -1409,6 +1409,10 @@
             <primary>Kampfwerte</primary>
           </indexterm></title>
 
+        <para>Die folgenden im Kampf benötigten Werte werden auf dem
+        Charakterblatt eingetragen. Details zur Bedeutung dieser Werte finden
+        sich in <xref linkend="kampf"/>.</para>
+
         <variablelist>
           <varlistentry>
             <term>Initiativebasiswert<indexterm>
@@ -1418,8 +1422,7 @@
             <listitem>
               <para>Für den Initiativewurf<indexterm>
                   <primary>Initiative</primary>
-                </indexterm> im Kampf (siehe <xref linkend="kampf"
-              xrefstyle="page"/>) besitzt jeder Charakter einen
+                </indexterm> im Kampf besitzt jeder Charakter einen
               Initiativebasiswert<indexterm>
                   <primary>Initiativebasiswert</primary>
                 </indexterm>. Dieser errechnet sich aus dem Attribut
@@ -1430,41 +1433,171 @@
             </listitem>
           </varlistentry>
 
+          <varlistentry>
+            <term>Rüstung<indexterm significance="preferred">
+                <primary>Rüstungen</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Trägt der Charakter eine Rüstung<indexterm
+                  significance="preferred">
+                  <primary>Rüstungen</primary>
+                </indexterm>, werden die passenden Angaben zu
+              Rüstungsschutz<indexterm significance="preferred">
+                  <primary>Rüstungsschutz</primary>
+                </indexterm> (RS), Widerstandsbonus<indexterm
+                  significance="preferred">
+                  <primary>Widerstandsbonus</primary>
+                </indexterm> (WB) und Angriffsmalus<indexterm
+                  significance="preferred">
+                  <primary>Angriffsmalus</primary>
+                </indexterm> (AM) aus der Rüstungstabelle (<xref
+              linkend="ruestungen" xrefstyle="page"/>) in die jeweiligen
+              Felder übernommen.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Schild<indexterm significance="preferred">
+                <primary>Schilde</primary>
+              </indexterm>/Parierwaffe<indexterm significance="preferred">
+                <primary>Parierwaffen</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Falls verwendet, werden für Schilde<indexterm
+                  significance="preferred">
+                  <primary>Schilde</primary>
+                </indexterm> und/oder Parierwaffen<indexterm
+                  significance="preferred">
+                  <primary>Parierwaffen</primary>
+                </indexterm> der Verteidigungsmodifikator<indexterm
+                  significance="preferred">
+                  <primary>Verteidigungsmodifikator</primary>
+                </indexterm> (VM) und Angriffsmalus<indexterm
+                  significance="preferred">
+                  <primary>Angriffsmalus</primary>
+                </indexterm> (AM) aufsummiert und auf dem Charakterblatt
+              eingetragen. Die Werte finden sich ab <xref
+              linkend="schilde_parierwaffen" xrefstyle="page"/>.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+
+        <para>Des weiteren werden für jede vom Charakter beherrschte
+        Waffengattung oder Kampftechnik jeweils die folgenden Werte notiert.
+        Die benötigten Angaben finden sich in der Waffentabelle ab <xref
+        linkend="waffen" xrefstyle="page"/> im folgenden Format:</para>
+
+        <informalexample>
+          <informaltable role="breakable">
+            <tgroup cols="4">
+              <colspec colname="typ" colwidth="10*"/>
+
+              <colspec align="center" colname="schaden" colwidth="4*"/>
+
+              <colspec align="center" colname="max" colwidth="4*"/>
+
+              <colspec align="center" colname="verteidigung" colwidth="5*"/>
+
+              <thead>
+                <row>
+                  <entry/>
+
+                  <entry><para>Schadens-</para><para>code</para></entry>
+
+                  <entry><para>Maximal-</para><para>schaden</para></entry>
+
+                  <entry><para>Verteidigungs-</para><para>modifikator</para></entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Speer</entry>
+
+                  <entry>4 + (KK-5)</entry>
+
+                  <entry>7</entry>
+
+                  <entry>-1</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </informalexample>
+
+        <variablelist>
+          <varlistentry>
+            <term>Attribut</term>
+
+            <listitem>
+              <para>Der Angriffswurf<indexterm>
+                  <primary>Angriffswurf</primary>
+                </indexterm> wird mit dem Attribut durchgeführt, welches im
+              Schadenscode<indexterm>
+                  <primary>Schadenscode</primary>
+                </indexterm> verwendet wird. So wird z.B. ein Speer mit
+              Körperkraft geführt.</para>
+
+              <para>Der Schadenscode<indexterm>
+                  <primary>Schadenscode</primary>
+                </indexterm> gibt außerdem an, wie hoch dieses Attribut
+              mindestens sein muss, um die Waffe führen bzw. die Kampftechnik
+              nutzen zu können: dazu muss der geklammerte Ausdruck mindestens
+              0 ergeben. Die KK-Vorraussetzung beträgt im Beispiel oben also
+              5.</para>
+            </listitem>
+          </varlistentry>
+
           <varlistentry xml:id="grundschadenermittlung">
             <term>Grundschaden<indexterm>
                 <primary>Grundschaden</primary>
               </indexterm></term>
 
             <listitem>
-              <para>Für jede vom Charakter beherrschte Waffengattung oder
-              Kampftechnik wird der Grundschaden<indexterm>
+              <para>Der Grundschaden<indexterm>
                   <primary>Grundschaden</primary>
-                </indexterm> ermittelt und auf dem Charakterblatt notiert. In
-              der Waffentabelle (siehe <xref linkend="waffen"
-              xrefstyle="page"/>) ist dazu jeweils ein Schadenscode<indexterm>
+                </indexterm> einer Waffe bzw. Kampftechnik ergibt sich aus dem
+              in der angegebenen Schadenscode<indexterm>
                   <primary>Schadenscode</primary>
-                </indexterm> sowie der Maximalschaden<indexterm>
+                </indexterm> und dem Maximalschaden<indexterm>
                   <primary>Maximalschaden</primary>
-                </indexterm> aufgeführt. Für einen Charakter mit Gewandheit 4
-              ergibt sich beispielsweise aus dem Schadenscode<indexterm>
-                  <primary>Schadenscode</primary>
-                </indexterm> 1 + (GE-3) ein Grundschaden<indexterm>
+                </indexterm>. Für einen Charakter mit Körperkraft 7 ergibt
+              sich im Beispiel ein Grundschaden<indexterm>
                   <primary>Grundschaden</primary>
-                </indexterm> von 2. Liegt der so ermittelte Wert über dem
+                </indexterm> von 6. Liegt der so ermittelte Wert über dem
               angegebenen Maximalschaden<indexterm>
                   <primary>Maximalschaden</primary>
                 </indexterm>, wird letzterer als Grundschaden<indexterm>
                   <primary>Grundschaden</primary>
                 </indexterm> eingetragen.</para>
+            </listitem>
+          </varlistentry>
 
-              <para>Der Schadenscode gibt außerdem an, mit welchem Attribut
-              der Angriffswurf<indexterm>
-                  <primary>Angriffswurf</primary>
-                </indexterm> durchgeführt wird (hier: Gewandtheit) und wie
-              hoch dieses Attribut mindestens sein muss, um die Waffe führen
-              bzw. die Kampftechnik nutzen zu können: dazu muss der
-              geklammerte Ausdruck mindestens 0 ergeben. Die GE-Vorraussetzung
-              beträgt im Beispiel oben also 3.</para>
+          <varlistentry>
+            <term>Verteidigungsmodifikator<indexterm significance="preferred">
+                <primary>Verteidigungsmodifikator</primary>
+              </indexterm></term>
+
+            <listitem>
+              <para>Der Verteidigungsmodifikator<indexterm
+                  significance="preferred">
+                  <primary>Verteidigungsmodifikator</primary>
+                </indexterm> einer Waffe wird in der Spalte
+              „<emphasis>Sonstiges</emphasis>” eingetragen, z.B. „VM
+              -1”.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Reichweitenklasse</term>
+
+            <listitem>
+              <para>Für Fernkampfwaffen werden die Distanzangaben der jeweils
+              angegebenen Reichweitenklasse unter
+              „<emphasis>Sonstiges</emphasis>” notiert, z.B. für Klasse B:
+              „6/12/25/50”.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -3384,7 +3517,7 @@
             <row>
               <entry/>
 
-              <entry align="center">Distanzklasse</entry>
+              <entry align="center">Distanzbereich</entry>
 
               <entry>Modifikator</entry>
 
@@ -3482,14 +3615,12 @@
         </tgroup>
       </informaltable>
 
-      <para>In welche Distanzklasse ein Ziel fällt, ergibt sich aus der in der
-      Waffentabelle (siehe <xref linkend="waffen"/>) angegebenen
+      <para>In welchen Distanzbereich ein Ziel fällt, ergibt sich aus der in
+      der Waffentabelle (siehe <xref linkend="waffen"/>) angegebenen
       Reichweitenklasse<indexterm significance="preferred">
-          <primary>Reichweite</primary>
-
-          <secondary>Fernkampf</secondary>
+          <primary>Reichweitenklasse</primary>
         </indexterm> der Waffe und folgender Tabelle. Sie zeigt die maximale
-      Distanz in Metern, die noch zur jeweiligen Distanzklasse gehört.
+      Distanz in Metern, die noch zum jeweiligen Distanzbereich gehört.
       <remark>VIELLEICHT WIEDER AUFNEHMEN: Einige Reichweitenklassen werden
       übrigens nicht für Waffen, sondern nur für Zauber verwendet, sind aber
       der Übersicht wegen ebenfalls hier aufgeführt. (F: 100/200/500/1000, G:
@@ -7537,7 +7668,7 @@
       <para>(* Improvisierte Waffe)</para>
     </section>
 
-    <section>
+    <section xml:id="ruestungen">
       <title>Rüstungen<indexterm>
           <primary>Rüstungen</primary>
         </indexterm></title>
@@ -7773,7 +7904,7 @@
         </informaltable></para>
     </section>
 
-    <section>
+    <section xml:id="schilde_parierwaffen">
       <title>Schilde<indexterm>
           <primary>Schilde</primary>
         </indexterm> und Parierwaffen<indexterm>
