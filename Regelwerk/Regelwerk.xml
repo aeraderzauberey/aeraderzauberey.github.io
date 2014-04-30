@@ -842,12 +842,12 @@
                 </row>
 
                 <row>
-                  <entry>Elektrizität</entry>
+                  <entry>Energiemanipulation</entry>
 
                   <entry>EN</entry>
 
-                  <entry>Erzeugen und Beeinflussen von elektrischen Ladungen
-                  und Blitzen</entry>
+                  <entry>Erzeugen und Beeinflussen von Wärme, Licht und
+                  Elektrizität</entry>
                 </row>
 
                 <row>
@@ -856,15 +856,6 @@
                   <entry>EN</entry>
 
                   <entry>Antimagie, gemeinsames Zaubern</entry>
-                </row>
-
-                <row>
-                  <entry>Licht</entry>
-
-                  <entry>EN</entry>
-
-                  <entry>Licht erschaffen, manipulieren und absorbieren sowie
-                  Illusionen erzeugen</entry>
                 </row>
 
                 <row>
@@ -4482,34 +4473,309 @@
       </section>
 
       <section>
-        <title>Elektrizität <inlinemediaobject>
+        <title>Energiemanipulation <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/EN.svg"
                          valign="bottom" width="0.65cm"/>
             </imageobject>
           </inlinemediaobject></title>
 
-        <para>Diese Fertigkeit repräsentiert das Erzeugen und Beeinflussen von
-        elektrischen Ladungen und Blitzen. In Kombination mit den
-        Magiefertigkeiten<indexterm significance="preferred">
-            <primary>Magiefertigkeit</primary>
-          </indexterm> Lebewesen, Luft oder Tote/Unbelebte Materie kann
-        elektrische Energie in bzw. durch das jeweilige Element geleitet
-        werden.</para>
+        <para>Diese Fertigkeit erlaubt die Beinflussung verschiedener
+        natürlicher Formen von Energie. Durch die Umwandlung der eingesetzten
+        Kraft kann auch Energie erzeugt und durch die umgekehrte Umwandlung
+        entzogen werden.</para>
 
-        <para>(…)</para>
+        <sidebar>
+          <para>Die bei der Umwandlung von Energie erzeugte Kraft verschafft
+          dem Zaubernden keinen Vorteil - insbesondere ist es ihm nicht
+          möglich, diese Kraft ohne eine Widerstandsprobe zum Zaubern zu
+          nutzen.</para>
+        </sidebar>
 
-        <para><variablelist>
+        <variablelist>
+          <varlistentry>
+            <term>Licht</term>
+
+            <listitem>
+              <para>Der Zaubernde kann Licht erschaffen, manipulieren oder
+              entziehen.</para>
+
+              <para>Ziele können unsichtbar gemacht werden, in dem das
+              einfallende Licht durch eine Wellenlängenänderung in durch
+              Materie nicht blockierte Strahlung umgewandelt und auf der
+              anderen Seite wieder zurückverwandelt wird. Es ist auch möglich,
+              das Licht zusätzlich beim Ziel ankommen zu lassen, um diesem
+              eine Sicht zu ermöglichen.</para>
+
+              <para>Erstreckt sich auch auf andere elektromagnetische Wellen
+              wie Ultraviolett- und Infrarotstrahlung sowie Funk- und
+              Drahtloskommunikation.</para>
+
+              <para><remark>NOCH ZU KLÄREN: Es ist ebenfalls möglich, wenn
+              auch schwierig, durch Kontrollieren der Lichtreflexion oder
+              durch Biegen des Lichtes Illusionen zu erzeugen, also
+              dreidimensionale Bilder ohne stoffliche
+              Komponente.</remark></para>
+
+              <para><remark>EINSORTIEREN: Illusion von Oberflächen, Erzeugung
+              von Spiegeln</remark></para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Elektrizität</term>
+
+            <listitem>
+              <para>Umfasst Beeinflussung von elektrischen Ladungen und
+              elektrischer Geräte. Durch Umwandeln von Kraft in Strom kann
+              beispielsweise ein elektrisches Gerät trotz eines leeren Akkus
+              betrieben werden.</para>
+
+              <para>Beinhaltet auch Ionisieren von Luft und Erzeugen von
+              Blitzen.</para>
+
+              <remark>Früher benötigte man zusätzlich die zum Trägermedium
+              passende Magiefertigkeit (z.B. Luft). Das führte aber dazu, dass
+              man mit der Fertigkeit allein fast nichts konnte - weder Blitze
+              schleudern noch Strom durch Leitungen jagen.</remark>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>Wärme</term>
+
+            <listitem>
+              <para>Erlaubt Temperaturveränderungen in Stoffen durch Zufuhr
+              oder Entzug von Wärmeenergie.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+
+        <section>
+          <title>Mindestwurf</title>
+
+          <variablelist>
             <varlistentry>
-              <term>Typische Effekte:</term>
+              <term>Licht</term>
 
               <listitem>
-                <para>Blitzschlag, Schockgriff</para>
+                <para>Je komplexer der Prozess, desto schwieriger ist die
+                Probe.</para>
+
+                <para>Beim Erzeugen oder Absorbieren von Licht gilt ein
+                Mindestwurf von 1 (Weißes Licht erzeugen / alles Licht
+                absorbieren) und jeweils ein Aufschlag von 1 für folgende
+                Aspekte:</para>
+
+                <itemizedlist>
+                  <listitem>
+                    <para>bestimmte Form,<remark> - Unterschied zwischen
+                    regelmäßiger Form (Kugel), unregelmäßiger Form (Mensch)
+                    und komplexer Form bzw. mehreren Einzelformen
+                    (projizierter Gebäudeplan, Buchstaben) ist für MW
+                    unerheblich.</remark></para>
+                  </listitem>
+
+                  <listitem>
+                    <para>bestimmte Leuchtrichtung (ähnlich einer
+                    Abblendlaterne),</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>bestimmte Farbe(n),</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>Bewegung<remark> - Unterschied zwischen absolut
+                    positioniert (Licht genau hier), relativ positioniert
+                    (Licht am Stab) und beweglich (Licht fliegt herum) ist für
+                    MW unerheblich.</remark> sowie</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>Feinjustierung (z.B. Schatten beeinflussen).</para>
+                  </listitem>
+                </itemizedlist>
+
+                <para>Andere Effekte besitzen eigene Mindestwürfe (jeweils mit
+                einem Stern markiert).</para>
+
+                <informaltable>
+                  <tgroup cols="2">
+                    <colspec colwidth="1*"/>
+
+                    <colspec colwidth="10*"/>
+
+                    <thead>
+                      <row>
+                        <entry>MW</entry>
+
+                        <entry>Effekte</entry>
+                      </row>
+                    </thead>
+
+                    <tbody>
+                      <row>
+                        <entry>1</entry>
+
+                        <entry>Weißes Licht erschaffen<remark>
+                        (Basis)</remark>, alles Licht absorbieren<remark>
+                        (Basis)</remark></entry>
+                      </row>
+
+                      <row>
+                        <entry>2</entry>
+
+                        <entry>Farbiges Licht erschaffen<remark> (Basis +
+                        Farbe)</remark>, Schatten
+                        erzeugen/beeinflussen/verbergen<remark> (Basis +
+                        Feinjustierung)</remark>, Weißes Licht in bestimmter
+                        Form erschaffen<remark> (Basis +
+                        Form)</remark></entry>
+                      </row>
+
+                      <row>
+                        <entry>3</entry>
+
+                        <entry>Regenbogen erschaffen<remark> (Basis + Form +
+                        Farben)</remark>, bewegliche Leuchtkugel<remark>
+                        (Basis + Form + Bewegung)</remark>, Gegner
+                        blenden<remark> (Basis + Leuchtrichtung nur ins
+                        Gesicht des Gegners + Bewegung gegen das
+                        Abschütteln)</remark></entry>
+                      </row>
+
+                      <row>
+                        <entry>4</entry>
+
+                        <entry>Unsichtbarkeit (kein eigenes Sehen)*</entry>
+                      </row>
+
+                      <row>
+                        <entry>5</entry>
+
+                        <entry>Unsichtbarkeit (mit eigenem Sehen)*</entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </informaltable>
               </listitem>
             </varlistentry>
-          </variablelist></para>
 
-        <para><remark>Alte Reichweite: A</remark></para>
+            <varlistentry>
+              <term>Elektrizität</term>
+
+              <listitem>
+                <para/>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Wärme</term>
+
+              <listitem>
+                <para/>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </section>
+
+        <section>
+          <title>Krafteinsatz</title>
+
+          <variablelist>
+            <varlistentry>
+              <term>Licht</term>
+
+              <listitem>
+                <para>Der Krafteinsatz bestimmt Wirkungsdauer und Fläche des
+                Zaubers sowie die Stärke des erzeugten Lichts bzw. der
+                Absorption.<remark>Form ist für Krafteinsatz unerheblich. //
+                NOCH ZU KLÄREN: Reichweitenregelung (vorher: Klasse
+                C)</remark><informaltable>
+                    <tgroup cols="2">
+                      <colspec colwidth="1*"/>
+
+                      <colspec colwidth="3*"/>
+
+                      <thead>
+                        <row>
+                          <entry>Ein KP pro …</entry>
+
+                          <entry>Effekte</entry>
+                        </row>
+                      </thead>
+
+                      <tbody>
+                        <row>
+                          <entry>1 Runde</entry>
+
+                          <entry>5 m Durchmesser komplett verdunkeln</entry>
+                        </row>
+
+                        <row>
+                          <entry>1 Minute</entry>
+
+                          <entry>Licht der Mittagssonne für einen Menschen
+                          absorbieren, Gegner (mit Tageslichthelligkeit)
+                          blenden</entry>
+                        </row>
+
+                        <row>
+                          <entry>10 Minuten</entry>
+
+                          <entry>Regenbogen mit 10 m Spannweite, einen
+                          Menschen rundherum unsichtbar machen<remark>
+                          (Unsichtbarkeit nur von einer Seite aus ist weniger
+                          kraftaufwändig. Interessant: damit kann man eine Tür
+                          einseitig unsichtbar machen, um
+                          hindurchzusehen.)</remark></entry>
+                        </row>
+
+                        <row>
+                          <entry>30 Minuten</entry>
+
+                          <entry>Fackellicht, menschengroßen Schatten
+                          erzeugen/verbergen</entry>
+                        </row>
+
+                        <row>
+                          <entry>1 Stunde</entry>
+
+                          <entry>Kerzenlicht, Licht des Vollmonds für einen
+                          Menschen absorbieren</entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </informaltable></para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Elektrizität</term>
+
+              <listitem>
+                <remark>Strom erzeugen: Ein Teil der eingesetzten Kraft sollte
+                für den Zauber an sich draufgehen und nicht in Strom
+                umgewandelt werden.</remark>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>Wärme</term>
+
+              <listitem>
+                <para/>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </section>
+
+        <section>
+          <title>Zauberdauer</title>
+
+          <para><remark>FEHLT NOCH</remark></para>
+        </section>
       </section>
 
       <section>
@@ -5591,203 +5857,6 @@
       </section>
 
       <section>
-        <title>Licht <inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="../Grafiken/Attribute/EN.svg"
-                         valign="bottom" width="0.65cm"/>
-            </imageobject>
-          </inlinemediaobject></title>
-
-        <para>Mit dieser Fertigkeit kann auf vielfältige Weise Licht
-        erschaffen, manipuliert und entzogen werden. Die Fertigkeit erstreckt
-        sich auch auf andere elektromagnetische Wellen wie Ultraviolett- und
-        Infrarotstrahlung.</para>
-
-        <para>Ziele können unsichtbar gemacht werden, in dem das einfallende
-        Licht durch eine Wellenlängenänderung in durch Materie nicht
-        blockierte Strahlung umgewandelt und auf der anderen Seite wieder
-        zurückverwandelt wird. Es ist auch möglich, das Licht zusätzlich beim
-        Ziel ankommen zu lassen, um diesem eine Sicht zu ermöglichen.</para>
-
-        <para><remark>NOCH ZU KLÄREN: Es ist ebenfalls möglich, wenn auch
-        schwierig, durch Kontrollieren der Lichtreflexion oder durch Biegen
-        des Lichtes Illusionen zu erzeugen, also dreidimensionale Bilder ohne
-        stoffliche Komponente.</remark></para>
-
-        <para><remark>EINSORTIEREN: Illusion von Oberflächen, Erzeugung von
-        Spiegeln</remark></para>
-
-        <section>
-          <title>Mindestwurf</title>
-
-          <para>Je komplexer der Prozess, desto schwieriger ist die
-          Probe.</para>
-
-          <para>Beim Erzeugen oder Absorbieren von Licht gilt ein Mindestwurf
-          von 1 (Weißes Licht erzeugen / alles Licht absorbieren) und jeweils
-          ein Aufschlag von 1 für folgende Aspekte:</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>bestimmte Form,<remark> - Unterschied zwischen
-              regelmäßiger Form (Kugel), unregelmäßiger Form (Mensch) und
-              komplexer Form bzw. mehreren Einzelformen (projizierter
-              Gebäudeplan, Buchstaben) ist für MW unerheblich.</remark></para>
-            </listitem>
-
-            <listitem>
-              <para>bestimmte Leuchtrichtung (ähnlich einer
-              Abblendlaterne),</para>
-            </listitem>
-
-            <listitem>
-              <para>bestimmte Farbe(n),</para>
-            </listitem>
-
-            <listitem>
-              <para>Bewegung<remark> - Unterschied zwischen absolut
-              positioniert (Licht genau hier), relativ positioniert (Licht am
-              Stab) und beweglich (Licht fliegt herum) ist für MW
-              unerheblich.</remark> sowie</para>
-            </listitem>
-
-            <listitem>
-              <para>Feinjustierung (z.B. Schatten beeinflussen).</para>
-            </listitem>
-          </itemizedlist>
-
-          <para>Andere Effekte besitzen eigene Mindestwürfe (jeweils mit einem
-          Stern markiert).</para>
-
-          <informaltable>
-            <tgroup cols="2">
-              <colspec colwidth="1*"/>
-
-              <colspec colwidth="10*"/>
-
-              <thead>
-                <row>
-                  <entry>MW</entry>
-
-                  <entry>Effekte</entry>
-                </row>
-              </thead>
-
-              <tbody>
-                <row>
-                  <entry>1</entry>
-
-                  <entry>Weißes Licht erschaffen<remark> (Basis)</remark>,
-                  alles Licht absorbieren<remark> (Basis)</remark></entry>
-                </row>
-
-                <row>
-                  <entry>2</entry>
-
-                  <entry>Farbiges Licht erschaffen<remark> (Basis +
-                  Farbe)</remark>, Schatten
-                  erzeugen/beeinflussen/verbergen<remark> (Basis +
-                  Feinjustierung)</remark>, Weißes Licht in bestimmter Form
-                  erschaffen<remark> (Basis + Form)</remark></entry>
-                </row>
-
-                <row>
-                  <entry>3</entry>
-
-                  <entry>Regenbogen erschaffen<remark> (Basis + Form +
-                  Farben)</remark>, bewegliche Leuchtkugel<remark> (Basis +
-                  Form + Bewegung)</remark>, Gegner blenden<remark> (Basis +
-                  Leuchtrichtung nur ins Gesicht des Gegners + Bewegung gegen
-                  das Abschütteln)</remark></entry>
-                </row>
-
-                <row>
-                  <entry>4</entry>
-
-                  <entry>Unsichtbarkeit (kein eigenes Sehen)*</entry>
-                </row>
-
-                <row>
-                  <entry>5</entry>
-
-                  <entry>Unsichtbarkeit (mit eigenem Sehen)*</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </informaltable>
-        </section>
-
-        <section>
-          <title>Krafteinsatz</title>
-
-          <para>Der Krafteinsatz bestimmt Wirkungsdauer und Fläche des Zaubers
-          sowie die Stärke des erzeugten Lichts bzw. der Absorption.<remark>
-          Form ist für Krafteinsatz unerheblich. // NOCH ZU KLÄREN:
-          Reichweitenregelung (vorher: Klasse C)</remark><informaltable>
-              <tgroup cols="2">
-                <colspec colwidth="1*"/>
-
-                <colspec colwidth="3*"/>
-
-                <thead>
-                  <row>
-                    <entry>Ein KP pro …</entry>
-
-                    <entry>Effekte</entry>
-                  </row>
-                </thead>
-
-                <tbody>
-                  <row>
-                    <entry>1 Runde</entry>
-
-                    <entry>5 m Durchmesser komplett verdunkeln</entry>
-                  </row>
-
-                  <row>
-                    <entry>1 Minute</entry>
-
-                    <entry>Licht der Mittagssonne für einen Menschen
-                    absorbieren, Gegner (mit Tageslichthelligkeit)
-                    blenden</entry>
-                  </row>
-
-                  <row>
-                    <entry>10 Minuten</entry>
-
-                    <entry>Regenbogen mit 10 m Spannweite, einen Menschen
-                    rundherum unsichtbar machen<remark> (Unsichtbarkeit nur
-                    von einer Seite aus ist weniger kraftaufwändig.
-                    Interessant: damit kann man eine Tür einseitig unsichtbar
-                    machen, um hindurchzusehen.)</remark></entry>
-                  </row>
-
-                  <row>
-                    <entry>30 Minuten</entry>
-
-                    <entry>Fackellicht, menschengroßen Schatten
-                    erzeugen/verbergen</entry>
-                  </row>
-
-                  <row>
-                    <entry>1 Stunde</entry>
-
-                    <entry>Kerzenlicht, Licht des Vollmonds für einen Menschen
-                    absorbieren</entry>
-                  </row>
-                </tbody>
-              </tgroup>
-            </informaltable></para>
-        </section>
-
-        <section>
-          <title>Zauberdauer</title>
-
-          <para><remark>FEHLT NOCH</remark></para>
-        </section>
-      </section>
-
-      <section>
         <title>Luft <inlinemediaobject>
             <imageobject>
               <imagedata fileref="../Grafiken/Attribute/MA.svg"
@@ -5796,9 +5865,9 @@
           </inlinemediaobject></title>
 
         <para>Diese Fertigkeit erlaubt die Manipulation der Eigenschaften von
-        Luft, z.B. Temperatur, Dichte oder Farbe. Außerdem kann in einem
-        bestimmten Bereich die Bewegung von Objekten (sei sie natürlich oder
-        magisch) unterbunden werden. Dies kann auch dazu dienen, Barrieren zu
+        Luft, z.B. Dichte oder Farbe. Außerdem kann in einem bestimmten
+        Bereich die Bewegung von Objekten (sei sie natürlich oder magisch)
+        unterbunden werden. Dies kann auch dazu dienen, Barrieren zu
         erschaffen. Des weiteren können Schallwellen beeinflusst und erzeugt
         werden.</para>
 
@@ -5811,8 +5880,7 @@
             <listitem>
               <para>Magische Rüstung<indexterm>
                   <primary>Rüstungen</primary>
-                </indexterm>, Stille, magisches Bauchreden, Raumtemperatur
-              beeinflussen</para>
+                </indexterm>, Stille, magisches Bauchreden</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -6939,7 +7007,7 @@
 
           <itemizedlist>
             <listitem>
-              <para>Licht: Unsichtbares Tor</para>
+              <para>Energiemanipulation: Unsichtbares Tor</para>
             </listitem>
 
             <listitem>
@@ -6989,8 +7057,7 @@
         <para>Die Fertigkeiten umfassen alle Veränderungen an Form und
         Stoffeigenschaften von Objekten der jeweiligen Stoffgruppe. Dazu
         zählen z.B. neben einfachen Verformungen jegliche Änderungen an Farbe,
-        Oberflächenbeschaffenheit, Gewicht, Schmelz- und Siedepunkt. Des
-        weiteren können Objekte erhitzt oder abgekühlt werden.</para>
+        Oberflächenbeschaffenheit oder Gewicht.</para>
 
         <para>Ein Stoff kann außerdem in einen anderen Stoff derselben
         Stoffgruppe umgewandelt werden. So kann zum Beispiel der alte Traum
