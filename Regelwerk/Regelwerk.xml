@@ -2916,7 +2916,11 @@
       <firstterm>Initiative</firstterm><indexterm>
           <primary>Initiative</primary>
         </indexterm> ermittelt, um die Reihenfolge der einzelnen Kämpfer
-      festzulegen. Die Initiative<indexterm>
+      festzulegen.<footnote>
+          <para>Bei längeren Kämpfen sollte der Spielleiter nach nennenswerten
+          Veränderungen der Kampfsituation (z.B. Positionswechsel) die
+          Initiativewürfe wiederholen lassen.</para>
+        </footnote> Die Initiative<indexterm>
           <primary>Initiative</primary>
         </indexterm> ist die Summe aus folgenden Werten:</para>
 
@@ -2949,14 +2953,6 @@
       <para>Haben mehrere Beteiligte die gleiche Initiative<indexterm>
           <primary>Initiative</primary>
         </indexterm>, wird ihre Reihenfolge untereinander ausgewürfelt.</para>
-
-      <sidebar>
-        <para>Bei längeren Kämpfen sollte der Spielleiter nach nennenswerten
-        Veränderungen der Kampfsituation (z.B. Positionswechsel) die
-        Initiativewürfe<indexterm>
-            <primary>Initiativewurf</primary>
-          </indexterm> wiederholen lassen.</para>
-      </sidebar>
 
       <informalexample>
         <para>Elris hat sich von seinem nächtlichen Einsatz ausgeruht. Der
@@ -4483,14 +4479,12 @@
         <para>Diese Fertigkeit erlaubt die Beinflussung verschiedener
         natürlicher Formen von Energie. Durch die Umwandlung der eingesetzten
         Kraft kann auch Energie erzeugt und durch die umgekehrte Umwandlung
-        entzogen werden.</para>
-
-        <sidebar>
-          <para>Die bei der Umwandlung von Energie erzeugte Kraft verschafft
-          dem Zaubernden keinen Vorteil - insbesondere ist es ihm nicht
-          möglich, diese Kraft ohne eine Widerstandsprobe zum Zaubern zu
-          nutzen.</para>
-        </sidebar>
+        entzogen werden.<footnote>
+            <para>Die bei der Umwandlung von Energie erzeugte Kraft verschafft
+            dem Zaubernden keinen Vorteil - insbesondere ist es ihm nicht
+            möglich, diese Kraft ohne eine Widerstandsprobe zum Zaubern zu
+            nutzen.</para>
+          </footnote></para>
 
         <variablelist>
           <varlistentry>
@@ -6446,7 +6440,11 @@
 
           <para>Dabei sind alle Angaben Maximalwerte - soll z.B. die
           Geschwindigkeit 70 m/s betragen, entspricht dies 6 Zusatz-KP plus 1
-          für den Basis-Krafteinsatz.</para>
+          für den Basis-Krafteinsatz.<footnote>
+              <para>Zur Orientierung: historische Pfeile erreichten je nach
+              Gewicht und Art des Bogens um 40 m/s, eine zeitgenössische
+              9mm-Pistole verschießt Projektile mit 400 m/s.</para>
+            </footnote></para>
 
           <para><remark><remark>Die alte Skala erschien für Geschwindigkeit zu
           heftig, da man durch 1KP von 1m/s (Schritt) auf 25m/s (90km/h)
@@ -6460,12 +6458,6 @@
           Beispiel: um einen 40 m/s-Pfeil zu beschleunigen muss ich einen
           Zusatz-KP investieren und kann ihn damit auf bis zu 150 m/s bringen
           (nicht etwa nur verdoppeln auf 80).</remark></para>
-
-          <sidebar>
-            <para>Zur Orientierung: historische Pfeile erreichten je nach
-            Gewicht und Art des Bogens um 40 m/s, eine zeitgenössische
-            9mm-Pistole verschießt Projektile mit 400 m/s.</para>
-          </sidebar>
         </section>
 
         <section>
@@ -6847,12 +6839,6 @@
           </varlistentry>
         </variablelist>
 
-        <sidebar>
-          <para>Je nach Spielwelt kann der Spielleiter die Kosten für das
-          Erreichen einzelner Sphären auch differenzieren, um deren „Distanz“
-          oder „Erreichbarkeit“ auszudrücken.</para>
-        </sidebar>
-
         <section>
           <title>Mindestwurf</title>
 
@@ -6933,7 +6919,12 @@
 
                 <listitem>
                   <para>Distanz: 1 KP pro 500 m oder 4 KP für eine andere
-                  Sphäre</para>
+                  Sphäre<footnote>
+                      <para>Je nach Spielwelt kann der Spielleiter die Kosten
+                      für das Erreichen einzelner Sphären auch differenzieren,
+                      um deren „Distanz“ oder „Erreichbarkeit“
+                      auszudrücken.</para>
+                    </footnote></para>
 
                   <para>Gesamtgewicht: 100 kg, +1 KP pro weitere 100
                   kg<remark> (Anzahl der Ziele ist egal, da schwierig
