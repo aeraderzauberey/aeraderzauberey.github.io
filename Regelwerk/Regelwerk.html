@@ -3,37 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <title>Aera der Zauberey - Regelwerk</title>
+<link rel="stylesheet" type="text/css" href="regelwerk.css">
 </head>
 <body>
-    <section>
-        <h1>Aera der Zauberey</h1>
-        <h2>Regelwerk</h2>
-        <h3>Jens Bannmann</h3>
+    <section id="copyright">
+        <h1>Aera der Zauberey - Regelwerk</h1>
+        <p>Jens Bannmann</p>
         <p id="revision">$Revision$</p>
         <p>Copyright © 1999, 2014 Jens Bannmann</p>
-        <p>Dieses Werk steht unter einer Creative Commons
+        <p>
+            Dieses Werk steht unter einer Creative Commons
             Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen
             Bedingungen 3.0 Deutschland Lizenz (CC BY-NC-SA 3.0).
             Attribut-Icons von Lorc (CC BY 3.0 Unported). Mehr
-            Informationen dazu unter</p>
-        <p>http://www.aeraderzauberey.de/lizenz.html</p>
+            Informationen dazu unter <a
+                href="http://www.aeraderzauberey.de/lizenz.html">http://www.aeraderzauberey.de/lizenz.html</a>
+        </p>
     </section>
-    <section id="tableOfContents"></section>
-    <section>
-        <h2>Kapitel 1. Einleitung</h2>
+    <section id="inhalt"></section>
+    <section id="einleitung">
+        <h1>Einleitung</h1>
         <p>Aera der Zauberey (AdZ) ist ein Fantasy-Rollenspiel, das
             einen besonderen Schwerpunkt auf flexible und dennoch
-            spielbare Regeln legt. Dies gilt &#8212; nomen est omen
-            &#8212; insbesondere für den Bereich der Magie. Obwohl in
-            den meisten Spielwelten nur ein kleiner Teil der Bevölkerung
+            spielbare Regeln legt. Dies gilt - nomen est omen -
+            insbesondere für den Bereich der Magie. Obwohl in den
+            meisten Spielwelten nur ein kleiner Teil der Bevölkerung
             Magie wirken kann und auch nicht jedes Abenteuer, das die
             Charaktere erleben, sich um Magie drehen wird, spielt sie
-            immer eine wichtige Rolle &#8212; und sei es nur, weil die
+            immer eine wichtige Rolle - und sei es nur, weil die
             Charaktere häufig auf sie zurückgreifen, um die ihnen
             gestellten Aufgaben zu lösen.</p>
-
-        <section>
-            <h3>Flexibles Magiesystem</h3>
+        <section id="magiesystem">
+            <h1>Flexibles Magiesystem</h1>
             <p>Die in diesem Regelwerk enthaltenen Magieregeln
                 integrieren die enormen, eben übernatürlichen
                 Möglichkeiten, welche die Magie bietet, ins Rollenspiel.
@@ -62,16 +63,16 @@
                 einschränken oder andere Charaktere unrealistisch stark
                 machen.</p>
         </section>
-        <section>
-            <h3>Spielbarkeit</h3>
+        <section id="spielbarkeit">
+            <h1>Spielbarkeit</h1>
             <p>AdZ soll ein schnell spielbares System mit leicht zu
-                merkenden Regeln sein, welche dem Erzählen nicht
-                &#8222;im Weg stehen&#8220;. Es enthält daher weit
-                weniger Regeln als andere Systeme und geht davon aus,
-                dass der Spielleiter viele Entscheidungen besser mit
-                Einsatz von gesundem Menschenverstand als mit dem
-                Konsultieren eines umfangreichen Katalogs aus genauen
-                Regeln und Tabellen fällen kann.</p>
+                merkenden Regeln sein, welche dem Erzählen nicht "im Weg
+                stehen". Es enthält daher weit weniger Regeln als andere
+                Systeme und geht davon aus, dass der Spielleiter viele
+                Entscheidungen besser mit Einsatz von gesundem
+                Menschenverstand als mit dem Konsultieren eines
+                umfangreichen Katalogs aus genauen Regeln und Tabellen
+                fällen kann.</p>
             <p>Dadurch eignet sich AdZ nicht unbedingt für Spieler
                 mit wenig Rollenspielerfahrung oder für Spielleiter, die
                 bisher hauptsächlich vorgefertigte Kaufabenteuer
@@ -81,722 +82,573 @@
                 zu einschränkend empfinden.</p>
         </section>
     </section>
-    <section>
-        <h2>Kapitel 2. Charaktere und ihre Werte</h2>
-        <section>
-            <h3>Eigenschaften</h3>
-            <p>Charaktere werden durch drei Typen von Eigenschaften
-                beschrieben: Attribute, Fertigkeiten und
-                Spezialisierungen.</p>
-            <p>Ein Charakter besitzt in jeder seiner Eigenschaften
-                eine bestimmte Anzahl Punkte: bei Attributen und
-                Fertigkeiten bis zu 10, bei Spezialisierungen bis zu 5
-                Punkte. Bei Proben steht ihm eine Anzahl Würfel in Höhe
-                der Punkte der jeweils eingesetzen Eigenschaft(en) zur
-                Verfügung (siehe Kapitel 3. Proben).</p>
-            <section>
-                <h4>Attribute</h4>
+    <section id="werte">
+        <h1>Charaktere und ihre Werte</h1>
+        <section id="eigenschaften">
+            <h1>Eigenschaften</h1>
+            <p>
+                Charaktere werden durch drei Typen von Eigenschaften
+                beschrieben:
+                <dfn id="def-attribut" title="Attribut">Attribute</dfn>
+                ,
+                <dfn id="def-fertigkeit" title="Fertigkeit">Fertigkeiten</dfn>
+                und
+                <dfn id="def-spezialisierung" title="Spezialisierung">Spezialisierungen</dfn>
+                .
+            </p>
+            <p>
+                Ein Charakter besitzt in jeder seiner Eigenschaften eine
+                bestimmte Anzahl Punkte: bei Attributen und Fertigkeiten
+                bis zu 10, bei Spezialisierungen bis zu 5 Punkte. Bei
+                Proben steht ihm eine Anzahl Würfel in Höhe der Punkte
+                der jeweils eingesetzen Eigenschaft(en) zur Verfügung
+                (siehe <a href="#proben">Proben</a>).
+            </p>
+            <p class="remark">Idee - Beispielcharaktere ausarbeiten:
+                ein wirklicher spezialist (fachidiot) der nur einen
+                engen Bereich beherrscht, einen Handwerksmeister mit
+                einem etwas größeren sinnvollen Bereich, einen völligen
+                Allrounder.</p>
+            <section id="attribute">
+                <h1>Attribute</h1>
                 <p>
                     Die grundlegenden Eigenschaften eines Charakters
                     schlagen sich in zwölf <em>Attributen</em> nieder,
                     von denen drei Magiebegabten vorbehalten sind.
                 </p>
-                <table>
-                    <colgroup>
-                        <col>
-                        <col>
-                        <col align="center">
-                        <col>
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Attribut</th>
-                            <th>Abk.</th>
-                            <th>Bedeutung</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/KK.svg"
-                                width="23"></td>
-                            <td>Körperkraft</td>
-                            <td>KK</td>
-                            <td>Physische Kraft, Ausdauer</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/GW.svg"
-                                width="23"></td>
-                            <td>Gewandtheit</td>
-                            <td>GW</td>
-                            <td>Beweglichkeit, Schnelligkeit,
-                                Balance, Eleganz der Bewegungen. Wichtig
-                                im Nahkampf.</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/FF.svg"
-                                width="23"></td>
-                            <td>Fingerfertigkeit</td>
-                            <td>FF</td>
-                            <td>Geschickter Einsatz der Hände,
-                                feinmotorische Fähigkeiten,
-                                Hand-Augen-Koordination</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/KO.svg"
-                                width="23"></td>
-                            <td>Konstitution</td>
-                            <td>KO</td>
-                            <td>Robustheit, Verminderung von
-                                erhaltenem Schaden, geringere
-                                Anfälligkeit für Krankheiten</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/EB.svg"
-                                width="23"></td>
-                            <td>Erscheinungsbild</td>
-                            <td>EB</td>
-                            <td>Maß für körperliche Attraktivität</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/CH.svg"
-                                width="23"></td>
-                            <td>Charisma<</td>
-                            <td>CH</td>
-                            <td>Wirkung auf andere, Ausstrahlung,
-                                Präsenz</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/WK.svg"
-                                width="23"></td>
-                            <td>Willenskraft</td>
-                            <td>WK</td>
-                            <td>Entschlossenheit, Konzentration,
-                                Ertragen von Schmerzen. Wichtig für
-                                Magie.</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/KL.svg"
-                                width="23"></td>
-                            <td>Klugheit</td>
-                            <td>KL</td>
-                            <td>Analytisches Denken,
-                                Strukturierungsfähigkeit, Lern- und
-                                Merkfähigkeit</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/IN.svg"
-                                width="23"></td>
-                            <td>Intuition</td>
-                            <td>IN</td>
-                            <td>Instinktives Erfassen, schnelles
-                                Entscheiden, Feingefühl, Aufmerksamkeit,
-                                Initiative im Kampf</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/MA.svg"
-                                width="23"></td>
-                            <td>Materie</td>
-                            <td>MA</td>
-                            <td>Magische Beeinflussung von Materie
-                                (siehe Magiefertigkeiten)</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/EN.svg"
-                                width="23"></td>
-                            <td>Energie</td>
-                            <td>EN</td>
-                            <td>Magische Beeinflussung von Energie
-                                (siehe Magiefertigkeiten)</td>
-                        </tr>
-                        <tr>
-                            <td><img
-                                src="../Grafiken/Attribute/SP.svg"
-                                width="23"></td>
-                            <td>Sphäre</td>
-                            <td>SP</td>
-                            <td>Magische Beeinflussung
-                                nicht-physischer Muster (siehe
-                                Magiefertigkeiten)</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <figure id="fig-attribute">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Attribut</th>
+                                <th>Abk.</th>
+                                <th>Bedeutung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/KK.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-koerperkraft">Körperkraft</dfn></td>
+                                <td>KK</td>
+                                <td>Physische Kraft, Ausdauer</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/GW.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-gewandtheit">Gewandtheit</dfn></td>
+                                <td>GW</td>
+                                <td>Beweglichkeit, Schnelligkeit,
+                                    Balance, Eleganz der Bewegungen.
+                                    Wichtig im Nahkampf.</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/FF.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-fingerfertigkeit">Fingerfertigkeit</dfn></td>
+                                <td>FF</td>
+                                <td>Geschickter Einsatz der Hände,
+                                    feinmotorische Fähigkeiten,
+                                    Hand-Augen-Koordination</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/KO.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-konstitution">Konstitution</dfn></td>
+                                <td>KO</td>
+                                <td>Robustheit, Verminderung von
+                                    erhaltenem Schaden, geringere
+                                    Anfälligkeit für Krankheiten</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/EB.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-erscheinungsbild">Erscheinungsbild</dfn></td>
+                                <td>EB</td>
+                                <td>Maß für körperliche
+                                    Attraktivität</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/CH.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-charisma">Charisma</dfn></td>
+                                <td>CH</td>
+                                <td>Wirkung auf andere,
+                                    Ausstrahlung, Präsenz</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/WK.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-willenskraft">Willenskraft</dfn></td>
+                                <td>WK</td>
+                                <td>Entschlossenheit,
+                                    Konzentration, Ertragen von
+                                    Schmerzen. Wichtig für Magie.</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/KL.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-klugheit">Klugheit</dfn></td>
+                                <td>KL</td>
+                                <td>Analytisches Denken,
+                                    Strukturierungsfähigkeit, Lern- und
+                                    Merkfähigkeit</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/IN.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-intuition">Intuition</dfn></td>
+                                <td>IN</td>
+                                <td>Instinktives Erfassen,
+                                    schnelles Entscheiden, Feingefühl,
+                                    Aufmerksamkeit, Initiative im Kampf</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/MA.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-materie">Materie</dfn></td>
+                                <td>MA</td>
+                                <td>Magische Beeinflussung von
+                                    Materie (siehe Magiefertigkeiten)</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/EN.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-energie">Energie</dfn></td>
+                                <td>EN</td>
+                                <td>Magische Beeinflussung von
+                                    Energie (siehe Magiefertigkeiten)</td>
+                            </tr>
+                            <tr>
+                                <td><img
+                                    src="../Grafiken/Attribute/SP.svg"
+                                    width="23"></td>
+                                <td><dfn id="def-sphaere">Sphäre</dfn></td>
+                                <td>SP</td>
+                                <td>Magische Beeinflussung
+                                    nicht-physischer Muster (siehe
+                                    Magiefertigkeiten)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
             </section>
-
-            <section>
-                <div class="titlepage">
-                    <div>
-                        <div>
-                            <h3 class="title">
-                                <a name="fertigkeitsliste"></a>Fertigkeiten
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-
+            <section id="fertigkeiten">
+                <h1>Fertigkeiten</h1>
                 <p>
-                    <em class="firstterm">Fertigkeiten</em><a
-                        class="indexterm" name="idp98832"></a>
+                    <em><dfn id="def-fertigkeit" title="Fertigkeit">Fertigkeiten</dfn></em>
                     repräsentieren die individuellen Kenntnisse und
                     Fähigkeiten eines Charakters auf dem jeweiligen
-                    Gebiet. Für Proben<a class="indexterm"
-                        name="idp100048"></a> werden Fertigkeiten mit
-                    einem zur jeweiligen Situation passenden Attribut
-                    kombiniert. Zur Orientierung sind in den unten
-                    stehenden Tabellen auch Attribute angegeben, mit
-                    denen die jeweilige Fertigkeit häufig kombiniert
-                    wird.
+                    Gebiet. Für
+                    <dfn id="def-probe" title="Probe">Proben</dfn>
+                    werden Fertigkeiten mit einem zur jeweiligen
+                    Situation passenden Attribut kombiniert. Zur
+                    Orientierung sind in den unten stehenden Tabellen
+                    auch Attribute angegeben, mit denen die jeweilige
+                    Fertigkeit häufig kombiniert wird.
                 </p>
-
-
-
-                <div class="section">
-                    <div class="titlepage">
-                        <div>
-                            <div>
-                                <h4 class="title">
-                                    <a name="idp102112"></a>Basisfertigkeiten
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col>
-                                <col align="center">
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Fertigkeit</th>
-                                    <th align="center">Attribut</th>
-                                    <th>Kurzbeschreibung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Allgemeinbildung [Region,
-                                        Stadt/Land]</td>
-                                    <td align="center">KL</td>
-                                    <td>Das in einer
-                                        Bevölkerungsschicht übliche
-                                        Wissen, z.B. &#8222;<span
-                                        class="emphasis"><em>Allgemeinbildung
-                                                (Mitteleuropa, Stadt)</em></span>&#8221;.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Heimlichkeit</td>
-                                    <td align="center">GE</td>
-                                    <td>Schleichen, sich
-                                        verstecken, unauffällig Personen
-                                        verfolgen</td>
-                                </tr>
-                                <tr>
-                                    <td>Klettern</td>
-                                    <td align="center">KK</td>
-                                    <td>Mit oder ohne Ausrüstung
-                                        Hindernisse erklimmen</td>
-                                </tr>
-                                <tr>
-                                    <td>Körperbeherrschung</td>
-                                    <td align="center">GE</td>
-                                    <td>Balancieren, Springen,
-                                        Abrollen</td>
-                                </tr>
-                                <tr>
-                                    <td>Manipulation</td>
-                                    <td align="center">CH</td>
-                                    <td>Lügen, Überzeugen,
-                                        Überreden, Verhandeln,
-                                        Einschüchtern</td>
-                                </tr>
-                                <tr>
-                                    <td>Menschenkenntnis</td>
-                                    <td align="center">IN</td>
-                                    <td>Menschen einschätzen, Lügen
-                                        erkennen</td>
-                                </tr>
-                                <tr>
-                                    <td>Pflanzenkunde</td>
-                                    <td align="center">KL</td>
-                                    <td>Wissen über Verbreitung und
-                                        Wirkung von Pflanzen sowie
-                                        einfache Verarbeitung zu bspw.
-                                        Tee, Pasten</td>
-                                </tr>
-                                <tr>
-                                    <td>Schwimmen</td>
-                                    <td align="center">GE</td>
-                                    <td>Alles, was über bloßes
-                                        &#8222;über Wasser halten&#8220;
-                                        hinausgeht: Tauchen, Ausweichen;
-                                        auch Maß für Schnelligkeit</td>
-                                </tr>
-                                <tr>
-                                    <td>Tierkunde</td>
-                                    <td align="center">KL</td>
-                                    <td>Erkennen verschiedener
-                                        Tierarten, Wissen um deren
-                                        Verhalten und Verbreitung</td>
-                                </tr>
-                                <tr>
-                                    <td>Wahrnehmung</td>
-                                    <td align="center">IN</td>
-                                    <td>Genauigkeit sämtlicher
-                                        Sinneswahrnehmungen;
-                                        Aufmerksamkeit</td>
-                                </tr>
-                                <tr>
-                                    <td>Wildnisleben</td>
-                                    <td align="center">KL</td>
-                                    <td>Orientierung, Lagerplatz
-                                        wählen, Wasser oder essbare
-                                        Pflanzen finden</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="titlepage">
-                        <div>
-                            <div>
-                                <h4 class="title">
-                                    <a name="idp129696"></a>Kampffertigkeiten
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col>
-                                <col align="center">
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Fertigkeit</th>
-                                    <th align="center">Attribut</th>
-                                    <th>Kurzbeschreibung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Beidhändiger Kampf</td>
-                                    <td align="center">-</td>
-                                    <td>Ermöglicht den Kampf mit
-                                        zwei Waffen. Siehe <a
-                                        class="xref"
-                                        href="#beidhaendigkeit"
-                                        title="Beidhändiger Kampf">&#8222;Beidhändiger
-                                            Kampf&#8220;</a>.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Reflexe</td>
-                                    <td align="center">IN</td>
-                                    <td>Schnelles Reagieren. Fließt
-                                        in den Initiativebasiswert ein</td>
-                                </tr>
-                                <tr>
-                                    <td>Verteidigung<a
-                                        class="indexterm"
-                                        name="idp141232"></a></td>
-                                    <td align="center">GE</td>
-                                    <td>Die Fähigkeit, bewaffnete
-                                        und unbewaffnete
-                                        Nahkampfangriffe abzuwehren
-                                        (siehe <a class="xref"
-                                        href="#nahkampf"
-                                        title="Nahkampf">&#8222;Nahkampf&#8220;</a>).
-                                        Mögliche Spezialisierungen:
-                                        Parieren, Ausweichen,
-                                        Schildblock.
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="titlepage">
-                        <div>
-                            <div>
-                                <h4 class="title">
-                                    <a name="idp144496"></a>Fertigkeitsgruppen
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col>
-                                <col align="center">
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Fertigkeit</th>
-                                    <th align="center">Attribut</th>
-                                    <th>Kurzbeschreibung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><span class="emphasis"><em>Fernkampfwaffe</em></span></td>
-                                    <td align="center">FF</td>
-                                    <td>Jeweils eine Fertigkeit pro
-                                        Waffengruppe (entspricht den
-                                        Überschriften bei <a
-                                        class="xref" href="#waffen"
-                                        title="Waffen">&#8222;Waffen&#8220;</a>)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><span class="emphasis"><em>Nahkampfwaffe</em></span></td>
-                                    <td align="center">GE / KK</td>
-                                    <td>Jeweils eine Fertigkeit pro
-                                        Waffengruppe (entspricht den
-                                        Überschriften bei <a
-                                        class="xref" href="#waffen"
-                                        title="Waffen">&#8222;Waffen&#8220;</a>)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><span class="emphasis"><em>Sprache</em></span>
-                                        (mündlich)</td>
-                                    <td align="center">IN</td>
-                                    <td>Jeweils eine Fertigkeit pro
-                                        Sprache</td>
-                                </tr>
-                                <tr>
-                                    <td><span class="emphasis"><em>Sprache</em></span>
-                                        (schriftlich)</td>
-                                    <td align="center">FF / KL</td>
-                                    <td>Jeweils eine Fertigkeit pro
-                                        Sprache</td>
-                                </tr>
-                                <tr>
-                                    <td><span class="emphasis"><em>Waffenlose
-                                                Kampftechnik</em></span></td>
-                                    <td align="center">GE</td>
-                                    <td>Jeweils eine Fertigkeit pro
-                                        Technik, verfügbare Techniken je
-                                        nach Setting und
-                                        Charakterhintergrund</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="titlepage">
-                        <div>
-                            <div>
-                                <h4 class="title">
-                                    <a name="idp162880"></a>Typische
-                                    Berufsfertigkeiten
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col>
-                                <col align="center">
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Fertigkeit</th>
-                                    <th align="center">Attribut</th>
-                                    <th>Kurzbeschreibung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Chirurgie</td>
-                                    <td align="center">FF</td>
-                                    <td>Wundversorgung, Invasive
-                                        Behandlung von Skelett und
-                                        Organen, Traumatologie, Foltern,
-                                        Zahnheilkunde</td>
-                                </tr>
-                                <tr>
-                                    <td>Gaukelei</td>
-                                    <td align="center">FF / GE</td>
-                                    <td>Unterhaltung eines
-                                        Publikums insb. durch
-                                        Bauchreden, Entfesselung,
-                                        Jonglage, Puppenspiel,
-                                        Taschenspielerei; umfasst auch
-                                        Falschspiel und Taschendiebstahl</td>
-                                </tr>
-                                <tr>
-                                    <td>Jagdwesen</td>
-                                    <td align="center">GE</td>
-                                    <td>Fallenstellen, Einzeljagd,
-                                        Durchführen von
-                                        Gesellschaftsjagden, Aufzucht
-                                        und Einsatz von Greifvögeln für
-                                        Jagdzwecke</td>
-                                </tr>
-                                <tr>
-                                    <td>Kochkunst</td>
-                                    <td align="center">IN</td>
-                                    <td>Herstellung verschiedener
-                                        Lebensmittel durch Kochen,
-                                        Bäckerei und Konditorei,
-                                        Molkerei, Brauerei, Brennerei</td>
-                                </tr>
-                                <tr>
-                                    <td>Kriegskunst</td>
-                                    <td align="center">KL</td>
-                                    <td>Taktik und Strategie,
-                                        Truppen kommandieren und
-                                        motivieren</td>
-                                </tr>
-                                <tr>
-                                    <td>Magiekunde</td>
-                                    <td align="center">KL</td>
-                                    <td>Allgemeinbildung auf
-                                        magischem Gebiet (Gesten,
-                                        Gruppierungen &#8230;)</td>
-                                </tr>
-                                <tr>
-                                    <td>Medizin</td>
-                                    <td align="center">KL</td>
-                                    <td>Diagnose und Therapie von
-                                        Krankheiten, Krankenpflege,
-                                        Herstellung von Arzneien,
-                                        Geburtshilfe, Allgemein- und
-                                        Fachmedizin</td>
-                                </tr>
-                                <tr>
-                                    <td>Musik</td>
-                                    <td align="center">IN</td>
-                                    <td>Verschiedene
-                                        Musikinstrumente, Musikalische
-                                        Improvisation,
-                                        Kompositionslehre,
-                                        Musikgeschichte, Gesang,
-                                        Spezielle Gesangstechniken,
-                                        Chor- und Orchesterleitung,
-                                        Tontechnik, Akustik</td>
-                                </tr>
-                                <tr>
-                                    <td>Reitkunst</td>
-                                    <td align="center">GE</td>
-                                    <td>Beherrschen von Reittieren,
-                                        Führen und Warten von
-                                        Fuhrwerken, aber auch das Führen
-                                        von Nahkampf- und
-                                        Fernkampfwaffen während des
-                                        Reitens sowie Lanzenreiten.</td>
-                                </tr>
-                                <tr>
-                                    <td>Schauspielerei</td>
-                                    <td align="center">CH</td>
-                                    <td>Bühnenschauspiel, Vortrag
-                                        von Lyrik und Märchen</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
+                <p class="remark">Erklärung, dass das angegebene
+                    Attribut das "einfach machen" repräsentiert;
+                    Transferleistungen finden eher mit KL statt;
+                    Innovation eher mit IN.</p>
+                <figure id="fig-basisfertigkeiten">
+                    <figcaption>Basisfertigkeiten</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertigkeit</th>
+                                <th>Attribut</th>
+                                <th>Kurzbeschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Allgemeinbildung [Region,
+                                    Stadt/Land]</td>
+                                <td>KL</td>
+                                <td>Das in einer
+                                    Bevölkerungsschicht übliche Wissen,
+                                    z.B. <em>"Allgemeinbildung
+                                        (Mitteleuropa, Stadt)"</em>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Heimlichkeit</td>
+                                <td>GE</td>
+                                <td>Schleichen, sich verstecken,
+                                    unauffällig Personen verfolgen</td>
+                            </tr>
+                            <tr>
+                                <td>Klettern</td>
+                                <td>KK</td>
+                                <td>Mit oder ohne Ausrüstung
+                                    Hindernisse erklimmen</td>
+                            </tr>
+                            <tr>
+                                <td>Körperbeherrschung</td>
+                                <td>GE</td>
+                                <td>Balancieren, Springen, Abrollen</td>
+                            </tr>
+                            <tr>
+                                <td>Manipulation</td>
+                                <td>CH</td>
+                                <td>Lügen, Überzeugen, Überreden,
+                                    Verhandeln, Einschüchtern</td>
+                            </tr>
+                            <tr>
+                                <td>Menschenkenntnis</td>
+                                <td>IN</td>
+                                <td>Menschen einschätzen, Lügen
+                                    erkennen</td>
+                            </tr>
+                            <tr>
+                                <td>Pflanzenkunde</td>
+                                <td>KL</td>
+                                <td>Wissen über Verbreitung und
+                                    Wirkung von Pflanzen sowie einfache
+                                    Verarbeitung zu bspw. Tee, Pasten</td>
+                            </tr>
+                            <tr>
+                                <td>Schwimmen</td>
+                                <td>GE</td>
+                                <td>Alles, was über bloßes "über
+                                    Wasser halten" hinausgeht: Tauchen,
+                                    Ausweichen; auch Maß für
+                                    Schnelligkeit</td>
+                            </tr>
+                            <tr>
+                                <td>Tierkunde</td>
+                                <td>KL</td>
+                                <td>Erkennen verschiedener
+                                    Tierarten, Wissen um deren Verhalten
+                                    und Verbreitung</td>
+                            </tr>
+                            <tr>
+                                <td>Wahrnehmung</td>
+                                <td>IN</td>
+                                <td>Genauigkeit sämtlicher
+                                    Sinneswahrnehmungen; Aufmerksamkeit</td>
+                            </tr>
+                            <tr>
+                                <td>Wildnisleben</td>
+                                <td>KL</td>
+                                <td>Orientierung, Lagerplatz
+                                    wählen, Wasser oder essbare Pflanzen
+                                    finden</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <figure id="fig-kampffertigkeiten">
+                    <figcaption>Kampffertigkeiten</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertigkeit</th>
+                                <th>Attribut</th>
+                                <th>Kurzbeschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Beidhändiger Kampf</td>
+                                <td>-</td>
+                                <td>Ermöglicht den Kampf mit zwei
+                                    Waffen (siehe <a
+                                    href="#beidhaendigkeit">Beidhändiger
+                                        Kampf</a>).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Reflexe</td>
+                                <td>IN</td>
+                                <td>Schnelles Reagieren. Fließt in
+                                    den Initiativebasiswert ein</td>
+                            </tr>
+                            <tr>
+                                <td><dfn id="def-verteidigung">Verteidigung</dfn></td>
+                                <td>GE</td>
+                                <td>Die Fähigkeit, bewaffnete und
+                                    unbewaffnete Nahkampfangriffe
+                                    abzuwehren (siehe <a
+                                    href="#nahkampf">Nahkampf</a>).
+                                    Mögliche Spezialisierungen:
+                                    Parieren, Ausweichen, Schildblock.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <figure id="fig-fertigkeitsgruppen">
+                    <figcaption>Fertigkeitsgruppen</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertigkeit</th>
+                                <th>Attribut</th>
+                                <th>Kurzbeschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><em>Fernkampfwaffe</em></td>
+                                <td>FF</td>
+                                <td>Jeweils eine Fertigkeit pro
+                                    Waffengruppe (entspricht den
+                                    Überschriften bei <a href="#waffen">Waffen</a>).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><em>Nahkampfwaffe</em></td>
+                                <td>GE / KK</td>
+                                <td>Jeweils eine Fertigkeit pro
+                                    Waffengruppe (entspricht den
+                                    Überschriften bei <a href="#waffen">Waffen</a>).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><em>Sprache</em> (mündlich)</td>
+                                <td>IN</td>
+                                <td>Jeweils eine Fertigkeit pro
+                                    Sprache</td>
+                            </tr>
+                            <tr>
+                                <td><em>Sprache</em> (schriftlich)</td>
+                                <td>FF / KL</td>
+                                <td>Jeweils eine Fertigkeit pro
+                                    Sprache</td>
+                            </tr>
+                            <tr>
+                                <td><em>Waffenlose
+                                        Kampftechnik</em></td>
+                                <td>GE</td>
+                                <td>Jeweils eine Fertigkeit pro
+                                    Technik, verfügbare Techniken je
+                                    nach Setting und
+                                    Charakterhintergrund</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <figure id="fig-berufsfertigkeiten">
+                    <figcaption>Typische Berufsfertigkeiten</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertigkeit</th>
+                                <th>Attribut</th>
+                                <th>Kurzbeschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chirurgie</td>
+                                <td>FF</td>
+                                <td>Wundversorgung, Invasive
+                                    Behandlung von Skelett und Organen,
+                                    Traumatologie, Foltern,
+                                    Zahnheilkunde</td>
+                            </tr>
+                            <tr>
+                                <td>Gaukelei</td>
+                                <td>FF / GE</td>
+                                <td>Unterhaltung eines Publikums
+                                    insb. durch Bauchreden,
+                                    Entfesselung, Jonglage, Puppenspiel,
+                                    Taschenspielerei; umfasst auch
+                                    Falschspiel und Taschendiebstahl</td>
+                            </tr>
+                            <tr>
+                                <td>Jagdwesen</td>
+                                <td>GE</td>
+                                <td>Fallenstellen, Einzeljagd,
+                                    Durchführen von Gesellschaftsjagden,
+                                    Aufzucht und Einsatz von Greifvögeln
+                                    für Jagdzwecke</td>
+                            </tr>
+                            <tr>
+                                <td>Kochkunst</td>
+                                <td>IN</td>
+                                <td>Herstellung verschiedener
+                                    Lebensmittel durch Kochen, Bäckerei
+                                    und Konditorei, Molkerei, Brauerei,
+                                    Brennerei</td>
+                            </tr>
+                            <tr>
+                                <td>Kriegskunst</td>
+                                <td>KL</td>
+                                <td>Taktik und Strategie, Truppen
+                                    kommandieren und motivieren</td>
+                            </tr>
+                            <tr>
+                                <td>Magiekunde</td>
+                                <td>KL</td>
+                                <td>Allgemeinbildung auf magischem
+                                    Gebiet (Gesten, Gruppierungen, ...)</td>
+                            </tr>
+                            <tr>
+                                <td>Medizin</td>
+                                <td>KL</td>
+                                <td>Diagnose und Therapie von
+                                    Krankheiten, Krankenpflege,
+                                    Herstellung von Arzneien,
+                                    Geburtshilfe, Allgemein- und
+                                    Fachmedizin</td>
+                            </tr>
+                            <tr>
+                                <td>Musik</td>
+                                <td>IN</td>
+                                <td>Verschiedene Musikinstrumente,
+                                    Musikalische Improvisation,
+                                    Kompositionslehre, Musikgeschichte,
+                                    Gesang, Spezielle Gesangstechniken,
+                                    Chor- und Orchesterleitung,
+                                    Tontechnik, Akustik</td>
+                            </tr>
+                            <tr>
+                                <td>Reitkunst</td>
+                                <td>GE</td>
+                                <td>Beherrschen von Reittieren,
+                                    Führen und Warten von Fuhrwerken,
+                                    aber auch das Führen von Nahkampf-
+                                    und Fernkampfwaffen während des
+                                    Reitens sowie Lanzenreiten.</td>
+                            </tr>
+                            <tr>
+                                <td>Schauspielerei</td>
+                                <td>CH</td>
+                                <td>Bühnenschauspiel, Vortrag von
+                                    Lyrik und Märchen</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <p>
-                        Siehe auch den Anhang <a class="xref"
-                            href="#SonstigeBerufe"
-                            title="Sonstige Berufsfertigkeiten">&#8222;Sonstige
-                            Berufsfertigkeiten&#8220;</a>.
+                        Siehe auch den Anhang <a href="#sonstigeberufe">Sonstige
+                            Berufsfertigkeiten</a>.
                     </p>
-                </div>
-
-                <div class="section">
-                    <div class="titlepage">
-                        <div>
-                            <div>
-                                <h4 class="title">
-                                    <a name="idp189040"></a>Magiefertigkeiten
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col>
-                                <col align="center">
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Fertigkeit</th>
-                                    <th align="center">Attribut</th>
-                                    <th>Kurzbeschreibung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Lebewesen</td>
-                                    <td align="center">MA</td>
-                                    <td>Veränderungen aller Art an
-                                        beliebigen Lebewesen</td>
-                                </tr>
-                                <tr>
-                                    <td>Luft</td>
-                                    <td align="center">MA</td>
-                                    <td>Eigenschaften von Luft
-                                        verändern, Barrieren erschaffen,
-                                        Schall beeinflussen</td>
-                                </tr>
-                                <tr>
-                                    <td>Tote Materie</td>
-                                    <td align="center">MA</td>
-                                    <td>Ehemals lebendiges Material
-                                        beeinflussen</td>
-                                </tr>
-                                <tr>
-                                    <td>Unbelebte Materie</td>
-                                    <td align="center">MA</td>
-                                    <td>Anorganische Stoffe
-                                        beeinflussen</td>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td class="auto-generated"> </td>
-                                    <td class="auto-generated"> </td>
-                                </tr>
-                                <tr>
-                                    <td>Energiemanipulation</td>
-                                    <td align="center">EN</td>
-                                    <td>Erzeugen und Beeinflussen
-                                        von Wärme, Licht und
-                                        Elektrizität</td>
-                                </tr>
-                                <tr>
-                                    <td>Kraftmanipulation</td>
-                                    <td align="center">EN</td>
-                                    <td>Antimagie, gemeinsames
-                                        Zaubern</td>
-                                </tr>
-                                <tr>
-                                    <td>Spüren</td>
-                                    <td align="center">EN</td>
-                                    <td>Magische Sinneseindrücke
-                                        empfangen sowie Zauber und Auren
-                                        analysieren</td>
-                                </tr>
-                                <tr>
-                                    <td>Telekinese</td>
-                                    <td align="center">EN</td>
-                                    <td>Objekte und Personen
-                                        bewegen, Bewegung unterbinden</td>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td class="auto-generated"> </td>
-                                    <td class="auto-generated"> </td>
-                                </tr>
-                                <tr>
-                                    <td>Artefaktmagie</td>
-                                    <td align="center">SP</td>
-                                    <td>Speichern von Zaubern in
-                                        Objekten</td>
-                                </tr>
-                                <tr>
-                                    <td>Geistmanipulation</td>
-                                    <td align="center">SP</td>
-                                    <td>Emotionen, Wahrnehmung,
-                                        Gedanken und Erinnerungen
-                                        manipulieren</td>
-                                </tr>
-                                <tr>
-                                    <td>Telepathie</td>
-                                    <td align="center">SP</td>
-                                    <td>Mentale Kommunikation mit
-                                        anderen Personen und Tieren</td>
-                                </tr>
-                                <tr>
-                                    <td>Teleportation</td>
-                                    <td align="center">SP</td>
-                                    <td>Personen und Objekte
-                                        teleportieren, Tore zu anderen
-                                        Orten öffnen</td>
-                                </tr>
-                                <tr>
-                                    <td>Zeitmanipulation</td>
-                                    <td align="center">SP</td>
-                                    <td>Zeit beschleunigen und
-                                        verlangsamen, Zeitreisen</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
+                </figure>
+                <figure id="fig-magiefertigkeiten">
+                    <figcaption>Magiefertigkeiten</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertigkeit</th>
+                                <th>Attribut</th>
+                                <th>Kurzbeschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lebewesen</td>
+                                <td>MA</td>
+                                <td>Veränderungen aller Art an
+                                    beliebigen Lebewesen</td>
+                            </tr>
+                            <tr>
+                                <td>Luft</td>
+                                <td>MA</td>
+                                <td>Eigenschaften von Luft
+                                    verändern, Barrieren erschaffen,
+                                    Schall beeinflussen</td>
+                            </tr>
+                            <tr>
+                                <td>Tote Materie</td>
+                                <td>MA</td>
+                                <td>Ehemals lebendiges Material
+                                    beeinflussen</td>
+                            </tr>
+                            <tr>
+                                <td>Unbelebte Materie</td>
+                                <td>MA</td>
+                                <td>Anorganische Stoffe
+                                    beeinflussen</td>
+                            </tr>
+                            <tr>
+                                <td>Energiemanipulation</td>
+                                <td>EN</td>
+                                <td>Erzeugen und Beeinflussen von
+                                    Wärme, Licht und Elektrizität</td>
+                            </tr>
+                            <tr>
+                                <td>Kraftmanipulation</td>
+                                <td>EN</td>
+                                <td>Antimagie, gemeinsames Zaubern</td>
+                            </tr>
+                            <tr>
+                                <td>Spüren</td>
+                                <td>EN</td>
+                                <td>Magische Sinneseindrücke
+                                    empfangen sowie Zauber und Auren
+                                    analysieren</td>
+                            </tr>
+                            <tr>
+                                <td>Telekinese</td>
+                                <td>EN</td>
+                                <td>Objekte und Personen bewegen,
+                                    Bewegung unterbinden</td>
+                            </tr>
+                            <tr>
+                                <td>Artefaktmagie</td>
+                                <td>SP</td>
+                                <td>Speichern von Zaubern in
+                                    Objekten</td>
+                            </tr>
+                            <tr>
+                                <td>Geistmanipulation</td>
+                                <td>SP</td>
+                                <td>Emotionen, Wahrnehmung,
+                                    Gedanken und Erinnerungen
+                                    manipulieren</td>
+                            </tr>
+                            <tr>
+                                <td>Telepathie</td>
+                                <td>SP</td>
+                                <td>Mentale Kommunikation mit
+                                    anderen Personen und Tieren</td>
+                            </tr>
+                            <tr>
+                                <td>Teleportation</td>
+                                <td>SP</td>
+                                <td>Personen und Objekte
+                                    teleportieren, Tore zu anderen Orten
+                                    öffnen</td>
+                            </tr>
+                            <tr>
+                                <td>Zeitmanipulation</td>
+                                <td>SP</td>
+                                <td>Zeit beschleunigen und
+                                    verlangsamen, Zeitreisen</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <p>
                         Details zur Abgrenzung der einzelnen
-                        Fertigkeiten<a class="indexterm"
-                            name="idp220512"></a> voneinander sowie
-                        Richtlinien zu ihrer Handhabung im Spiel finden
-                        sich ab <a class="xref"
-                            href="#magiefertigkeiten"
-                            title="Anhang A. Magiefertigkeiten">Anhang A,
-                            <i>Magiefertigkeiten</i>
-                        </a>.
+                        Fertigkeiten voneinander sowie Richtlinien zu
+                        ihrer Handhabung im Spiel finden sich ab <a
+                            href="#magiefertigkeiten">Magiefertigkeiten</a>.
                     </p>
-                </div>
+                </figure>
             </section>
 
-            <section>
-                <div class="titlepage">
-                    <div>
-                        <div>
-                            <h3 class="title">
-                                <a name="idp222752"></a>Spezialisierungen
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-
+            <section id="spezialisierungen">
+                <h1>Spezialisierungen</h1>
                 <p>Die oben aufgeführten Fertigkeiten sind bewusst
                     grob gehalten, um mit einer überschaubaren Anzahl
                     von Spielwerten einen sinnvollen Bereich von
                     Fähigkeiten ausdrücken zu können. Eine wirklich
                     adäquate Ausdifferenzierung ist damit jedoch oft
                     nicht möglich.</p>
-
                 <p>Diese Lücke wird durch Spezialisierungen gefüllt.
                     Bei der Charaktererschaffung einigen sich Spieler
                     und Spielleiter auf einen Satz von
@@ -805,730 +657,629 @@
                     keine Liste von möglichen Spezialisierungen;
                     Hinweise dazu liefern jedoch meist die
                     Beschreibungen der jeweiligen Fertigkeiten.</p>
-
-
-
+                <p class="remark">Eine Spezialisierung sollte einen
+                    deutlich geringeren Umfang als die zugehörige
+                    Fertigkeit haben, so ca. bis 30%.</p>
                 <p>Jede Spezialisierung ist dabei einer Fertigkeit
                     zugeordnet, die der Charakter jedoch nicht besitzen
                     muss.</p>
             </section>
-        </section>
+            <section id="charaktererschaffung">
+                <h1>Charaktererschaffung</h1>
+                <p>Um einen Charakter zu erstellen, kauft der
+                    Spieler Attribute, Fertigkeiten, Spezialisierungen
+                    und gegebenenfalls Sonderfertigkeiten. Zum Abschluss
+                    bestimmt er noch den Initiativebasiswert und die
+                    individuelle Höhe seiner Verletzungsmali.</p>
+                <section>
+                    <h1>Attribute, Fertigkeiten und
+                        Spezialisierungen</h1>
+                    <p>
+                        Für die Charaktererschaffung steht dem Spieler
+                        eine gewisse Anzahl von <em>Erfahrungspunkten</em>
+                        (EP) zur Verfügung, welche die Vorgeschichte und
+                        Ausbildung des Charakters symbolisieren. Der
+                        Spieler kann mit diesen Erfahrungspunkten
+                        Attribute, Fertigkeiten und Spezialisierungen
+                        kaufen.
+                    </p>
+                    <p>Der Spielleiter kann für seine Spielrunde die
+                        EP-Anzahl frei wählen. Für wenig erfahrene
+                        Charaktere bzw. für Spieler, welche zum ersten
+                        Mal AdZ spielen, werden 900 EP empfohlen.</p>
 
-        <section>
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="charaktererschaffung"></a>Charaktererschaffung
-                        </h2>
-                    </div>
-                </div>
-            </div>
+                    <p>Beim Kaufen von Attributen und Fertigkeiten
+                        gelten die folgenden Regeln:</p>
 
-
-            <p>
-                Um einen Charakter zu erstellen, kauft der Spieler
-                Attribute<a class="indexterm" name="idp227440"></a>,
-                Fertigkeiten<a class="indexterm" name="idp228336"></a>,
-                Spezialisierungen<a class="indexterm" name="idp229184"></a>
-                und gegebenenfalls Sonderfertigkeiten<a
-                    class="indexterm" name="idp230032"></a>. Zum
-                Abschluss bestimmt er noch den Initiativebasiswert und
-                die individuelle Höhe seiner Verletzungsmali.
-            </p>
-
-            <div class="section">
-                <div class="titlepage">
-                    <div>
-                        <div>
-                            <h3 class="title">
-                                <a name="idp231168"></a>Attribute,
-                                Fertigkeiten und Spezialisierungen
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p>
-                    Für die Charaktererschaffung steht dem Spieler eine
-                    gewisse Anzahl von <em class="firstterm">Erfahrungspunkten</em><a
-                        class="indexterm" name="idp232352"></a> (EP) zur
-                    Verfügung, welche die Vorgeschichte und Ausbildung
-                    des Charakters symbolisieren. Der Spieler kann mit
-                    diesen Erfahrungspunkten Attribute<a
-                        class="indexterm" name="idp233600"></a>,
-                    Fertigkeiten<a class="indexterm" name="idp234544"></a>
-                    und Spezialisierungen<a class="indexterm"
-                        name="idp235392"></a> kaufen.
-                </p>
-
-                <p>Der Spielleiter kann für seine Spielrunde die
-                    EP-Anzahl frei wählen. Für wenig erfahrene
-                    Charaktere bzw. für Spieler, welche zum ersten Mal
-                    AdZ spielen, werden 900 EP empfohlen.</p>
-
-                <p>
-                    Beim Kaufen von Attributen<a class="indexterm"
-                        name="idp237216"></a> und Fertigkeiten<a
-                        class="indexterm" name="idp238080"></a> gelten
-                    die folgenden Regeln:
-                </p>
-
-                <div class="itemizedlist">
-                    <ul class="itemizedlist" type="disc">
-                        <li class="listitem">
-                            <p>
-                                Mit Ausnahme von <span class="emphasis"><em>Materie</em></span><a
-                                    class="indexterm" name="idp240320"></a>,
-                                <span class="emphasis"><em>Energie</em></span><a
-                                    class="indexterm" name="idp241488"></a>
-                                und <span class="emphasis"><em>Sphäre</em></span><a
-                                    class="indexterm" name="idp242608"></a>
-                                muss für jedes Attribut mindestens ein
-                                Punkt gekauft werden.
-                            </p>
+                    <ul>
+                        <li>Mit Ausnahme von <em>Materie</em>, <em>Energie</em>
+                            und <em>Sphäre</em> muss für jedes Attribut
+                            mindestens ein Punkt gekauft werden.
                         </li>
-                        <li class="listitem">
-                            <p>
-                                Es können pro Attribut<a
-                                    class="indexterm" name="idp244256"></a>
-                                oder Fertigkeit<a class="indexterm"
-                                    name="idp245232"></a> höchstens 8
-                                Punkte gekauft werden, für
-                                Spezialisierungen gilt keine
-                                Beschränkung bei der
-                                Charaktererschaffung.
-                            </p>
-                        </li>
-                        <li class="listitem">
-                            <p>
-                                Das Attribut <span class="emphasis"><em>Erscheinungsbild</em></span><a
-                                    class="indexterm" name="idp247296"></a>
-                                sollte im Spiel nicht regulär gesteigert
-                                werden können. Daher kann der
-                                Spielleiter, wenn es sinnvoll und für
-                                das Charakterkonzept wichtig ist, für
-                                dieses Attribut<a class="indexterm"
-                                    name="idp248416"></a> auch den Kauf
-                                von mehr als 8 Punkten zulassen.
-                            </p>
+                        <li>Es können pro Attribut oder Fertigkeit
+                            höchstens 8 Punkte gekauft werden, für
+                            Spezialisierungen gilt keine Beschränkung
+                            bei der Charaktererschaffung.</li>
+                        <li>Das Attribut <em>Erscheinungsbild</em>
+                            sollte im Spiel nicht regulär gesteigert
+                            werden können. Daher kann der Spielleiter,
+                            wenn es sinnvoll und für das
+                            Charakterkonzept wichtig ist, für dieses
+                            Attribut auch den Kauf von mehr als 8
+                            Punkten zulassen.
                         </li>
                     </ul>
-                </div>
-
-                <p>Die Kosten sind der folgenden Tabelle zu
-                    entnehmen. Beachten Sie, dass eventuell übrige EP
-                    nicht verfallen, sondern später im Spiel zum
-                    Steigern verwendet werden können. Die Kosten bleiben
-                    dieselben.</p>
-
-                <div class="informaltable">
-                    <table border="1">
-                        <colgroup>
-                            <col align="center">
-                            <col align="center">
-                            <col align="center" class="attribut">
-                            <col align="center" class="fertigkeit">
-                            <col align="center" class="spezialisierung">
-                            <col align="center">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th align="center"> </th>
-                                <th align="center">Punkte</th>
-                                <th colspan="3" align="center">Erfahrungspunktkosten</th>
-                                <th align="center"> </th>
-                            </tr>
-                            <tr>
-                                <th align="center"> </th>
-                                <th align="center"> </th>
-                                <th align="center">Attribut</th>
-                                <th align="center">Fertigkeit</th>
-                                <th align="center">Spezialisierung</th>
-                                <th align="center"> </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">1</td>
-                                <td align="center">10</td>
-                                <td align="center">4</td>
-                                <td align="center">2</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">2</td>
-                                <td align="center">15</td>
-                                <td align="center">6</td>
-                                <td align="center">3</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">3</td>
-                                <td align="center">25</td>
-                                <td align="center">10</td>
-                                <td align="center">5</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">4</td>
-                                <td align="center">40</td>
-                                <td align="center">16</td>
-                                <td align="center">8</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">5</td>
-                                <td align="center">60</td>
-                                <td align="center">24</td>
-                                <td align="center">12</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">6</td>
-                                <td align="center">85</td>
-                                <td align="center">34</td>
-                                <td align="center">-</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">7</td>
-                                <td align="center">115</td>
-                                <td align="center">46</td>
-                                <td align="center">-</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">8</td>
-                                <td align="center">150</td>
-                                <td align="center">60</td>
-                                <td align="center">-</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">9</td>
-                                <td align="center">190</td>
-                                <td align="center">76</td>
-                                <td align="center">-</td>
-                                <td align="center"> </td>
-                            </tr>
-                            <tr>
-                                <td align="center"> </td>
-                                <td align="center">10</td>
-                                <td align="center">235</td>
-                                <td align="center">94</td>
-                                <td align="center">-</td>
-                                <td align="center"> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <p>
-                    Dabei entsprechen 4 bis 5 Punkte dem
-                    Bevölkerungsdurchschnitt bei Attributen<a
-                        class="indexterm" name="idp289248"></a> bzw.
-                    einer soliden Ausbildung in einer Fertigkeit<a
-                        class="indexterm" name="idp290192"></a>. Darüber
-                    hinaus können sich Spieler beim Kauf der
-                    Eigenschaften an den folgenden Richtwerten für
-                    Würfelanzahlen<a class="indexterm" name="idp291184"></a>,
-                    also der Summe aus jeweils einem passenden Attribut<a
-                        class="indexterm" name="idp291968"></a>,
-                    Fertigkeit<a class="indexterm" name="idp292848"></a>
-                    und Spezialisierung<a class="indexterm"
-                        name="idp293696"></a>, orientieren (mehr zu
-                    Würfelanzahlen<a class="indexterm" name="idp294544"></a>
-                    unter <a class="xref" href="#proben"
-                        title="Kapitel 3. Proben">Kapitel 3, <i>Proben</i>
-                    </a>):
-                </p>
-
-                <div class="informaltable">
-                    <table border="1">
-                        <colgroup>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th> </th>
-                                <th>Würfel</th>
-                                <th>Bewertung</th>
-                                <th> </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> </td>
-                                <td>1</td>
-                                <td>Lächerlich</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>4</td>
-                                <td>Einsteiger</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>8</td>
-                                <td>Durchschnittlich</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>12</td>
-                                <td>Fortgeschritten</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>16</td>
-                                <td>Erfahren</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>20</td>
-                                <td>Meisterlich</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>25</td>
-                                <td>Legende</td>
-                                <td> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="titlepage">
-                    <div>
-                        <div>
-                            <h3 class="title">
-                                <a name="sonderfertigkeiten"></a>Sonderfertigkeiten<a
-                                    class="indexterm" name="idp316304"></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p>
-                    Neben Attributen und Fertigkeiten können Spieler
-                    noch weitere Eigenschaften für einen Charakter
-                    kaufen, die Sonderfertigkeiten<a class="indexterm"
-                        name="idp317744"></a>. Für Sonderfertigkeiten<a
-                        class="indexterm" name="idp318896"></a> wird
-                    keine Punktzahl notiert; entweder ein Charakter
-                    besitzt die entsprechende Sonderfertigkeit<a
-                        class="indexterm" name="idp319024"></a> oder er
-                    besitzt sie nicht.
-                </p>
-
-                <p>
-                    Charakteren stehen die folgenden Sonderfertigkeiten<a
-                        class="indexterm" name="idp321520"></a> zur
-                    Verfügung:
-                </p>
-
-                <div class="variablelist">
-                    <dl class="variablelist">
-                        <dt>
-                            <span class="term">Gestenlos zaubern
-                                (15 EP)</span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Der Charakter hat gelernt, ohne
-                                Zuhilfenahme von Gesten zu zaubern. Kann
-                                einzeln oder zusammen mit <span
-                                    class="emphasis"><em>Wortlos
-                                        zaubern</em></span> gekauft werden.
-                            </p>
-                        </dd>
-                        <dt>
-                            <span class="term">Wortlos zaubern
-                                (15 EP)</span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Diese Sonderfertigkeit<a
-                                    class="indexterm" name="idp326752"></a>
-                                ermöglicht es, Magie völlig ohne
-                                gemurmelte oder gesprochene
-                                Zauberformeln zu wirken. Kann einzeln
-                                oder zusammen mit <span class="emphasis"><em>Gestenlos
-                                        zaubern</em></span> gekauft werden.
-                            </p>
-                        </dd>
-                    </dl>
-                </div>
-
-                <p>
-                    Alle Sonderfertigkeiten<a class="indexterm"
-                        name="idp329296"></a> können nicht nur während
-                    der Charaktererschaffung, sondern auch später
-                    gekauft werden.
-                </p>
-            </div>
-
-            <div class="section">
-                <div class="titlepage">
-                    <div>
-                        <div>
-                            <h3 class="title">
-                                <a name="initiativebasis"></a>Kampfwerte<a
-                                    class="indexterm" name="idp331504"></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p>
-                    Die folgenden im Kampf benötigten Werte werden auf
-                    dem Charakterblatt eingetragen. Details zur
-                    Bedeutung dieser Werte finden sich in <a
-                        class="xref" href="#kampf"
-                        title="Kapitel 5. Kampf">Kapitel 5, <i>Kampf</i></a>.
-                </p>
-
-                <div class="variablelist">
-                    <dl class="variablelist">
-                        <dt>
-                            <span class="term">Initiativebasiswert<a
-                                class="indexterm" name="idp334224"></a></span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Für den Initiativewurf<a
-                                    class="indexterm" name="idp335744"></a>
-                                im Kampf besitzt jeder Charakter einen
-                                Initiativebasiswert<a class="indexterm"
-                                    name="idp336720"></a>. Dieser
-                                errechnet sich aus dem Attribut
-                                Intuition<a class="indexterm"
-                                    name="idp337680"></a> und der
-                                Fertigkeit Reflexe: <span
-                                    class="emphasis"><em>(Intuition
-                                        + Reflexe) * 2</em></span>.
-                            </p>
-                        </dd>
-                        <dt>
-                            <span class="term">Rüstung<a
-                                class="indexterm" name="idp339936"></a></span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Trägt der Charakter eine Rüstung<a
-                                    class="indexterm" name="idp341712"></a>,
-                                werden die passenden Angaben zu
-                                Rüstungsschutz<a class="indexterm"
-                                    name="idp343024"></a> (RS),
-                                Widerstandsbonus<a class="indexterm"
-                                    name="idp343152"></a> (WB) und
-                                Angriffsmalus<a class="indexterm"
-                                    name="idp345280"></a> (AM) aus der
-                                Rüstungstabelle (<a class="xref"
-                                    href="#ruestungen" title="Rüstungen">&#8222;Rüstungen&#8220;</a>)
-                                in die jeweiligen Felder übernommen.
-                            </p>
-                        </dd>
-                        <dt>
-                            <span class="term">Schild<a
-                                class="indexterm" name="idp348016"></a>/Parierwaffe<a
-                                class="indexterm" name="idp348144"></a></span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Falls verwendet, werden für Schilde<a
-                                    class="indexterm" name="idp350816"></a>
-                                und/oder Parierwaffen<a
-                                    class="indexterm" name="idp351024"></a>
-                                der Verteidigungsmodifikator<a
-                                    class="indexterm" name="idp353184"></a>
-                                (VM) und Angriffsmalus<a
-                                    class="indexterm" name="idp354336"></a>
-                                (AM) aufsummiert und auf dem
-                                Charakterblatt eingetragen. Die Werte
-                                finden sich ab <a class="xref"
-                                    href="#schilde_parierwaffen"
-                                    title="Schilde und Parierwaffen">&#8222;Schilde
-                                    und Parierwaffen&#8220;</a>.
-                            </p>
-                        </dd>
-                    </dl>
-                </div>
-
-                <p>
-                    Des weiteren werden für jede vom Charakter
-                    beherrschte Waffengattung oder Kampftechnik jeweils
-                    die folgenden Werte notiert. Die benötigten Angaben
-                    finden sich in der Waffentabelle ab <a class="xref"
-                        href="#waffen" title="Waffen">&#8222;Waffen&#8220;</a>
-                    im folgenden Format:
-                </p>
-
-                <div class="informalexample">
-                    <div class="informaltable">
-                        <table border="1">
-                            <colgroup>
-                                <col class="typ">
-                                <col align="center" class="schaden">
-                                <col align="center" class="max">
-                                <col align="center" class="verteidigung">
-                            </colgroup>
+                    <p>Die Kosten sind der folgenden Tabelle zu
+                        entnehmen. Beachten Sie, dass eventuell übrige
+                        EP nicht verfallen, sondern später im Spiel zum
+                        Steigern verwendet werden können. Die Kosten
+                        bleiben dieselben.</p>
+                    <figure>
+                        <table>
                             <thead>
                                 <tr>
-                                    <th> </th>
-                                    <th align="center"><p>Schadens-</p>
-                                        <p>code</p></th>
-                                    <th align="center"><p>Maximal-</p>
-                                        <p>schaden</p></th>
-                                    <th align="center"><p>Verteidigungs-</p>
-                                        <p>modifikator</p></th>
+                                    <th rowspan="2">Punkte</th>
+                                    <th colspan="3">Erfahrungspunktkosten</th>
+
+                                </tr>
+                                <tr>
+                                    <th>Attribut</th>
+                                    <th>Fertigkeit</th>
+                                    <th>Spezialisierung</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Speer</td>
-                                    <td align="center">4 + (KK-5)</td>
-                                    <td align="center">7</td>
-                                    <td align="center">-1</td>
+                                    <td>1</td>
+                                    <td>10</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>15</td>
+                                    <td>6</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>25</td>
+                                    <td>10</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>40</td>
+                                    <td>16</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>60</td>
+                                    <td>24</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>85</td>
+                                    <td>34</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>115</td>
+                                    <td>46</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>150</td>
+                                    <td>60</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr class="gray">
+                                    <td>9</td>
+                                    <td>190</td>
+                                    <td>76</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr class="gray">
+                                    <td>10</td>
+                                    <td>235</td>
+                                    <td>94</td>
+                                    <td>-</td>
                                 </tr>
                             </tbody>
                         </table>
+                    </figure>
+                    <p>
+                        Dabei entsprechen 4 bis 5 Punkte dem
+                        Bevölkerungsdurchschnitt bei Attributen bzw.
+                        einer soliden Ausbildung in einer Fertigkeit.
+                        Darüber hinaus können sich Spieler beim Kauf der
+                        Eigenschaften an den folgenden Richtwerten für
+                        Würfelanzahlen, also der Summe aus jeweils einem
+                        passenden Attribut, Fertigkeit und
+                        Spezialisierung, orientieren (mehr zu
+                        Würfelanzahlen unter <a href="#proben">Proben</a>):
+                    </p>
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Würfel</th>
+                                    <th>Bewertung</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lächerlich</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Einsteiger</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Durchschnittlich</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Fortgeschritten</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Erfahren</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Meisterlich</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>Legende</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
+
+                <section id="sonderfertigkeiten">
+                    <div class="titlepage">
+                        <div>
+                            <div>
+                                <h3 class="title">
+                                    <a name="sonderfertigkeiten"></a>Sonderfertigkeiten<a
+                                        class="indexterm"
+                                        name="idp316304"></a>
+                                </h3>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="variablelist">
-                    <dl class="variablelist">
-                        <dt>
-                            <span class="term">Attribut</span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Der Angriffswurf<a class="indexterm"
-                                    name="idp387504"></a> wird mit dem
-                                Attribut durchgeführt, welches im
-                                Schadenscode<a class="indexterm"
-                                    name="idp388480"></a> verwendet
-                                wird. So wird z.B. ein Speer mit
-                                Körperkraft geführt.
-                            </p>
 
-                            <p>
-                                Der Schadenscode<a class="indexterm"
-                                    name="idp389888"></a> gibt außerdem
-                                an, wie hoch dieses Attribut mindestens
-                                sein muss, um die Waffe führen bzw. die
-                                Kampftechnik nutzen zu können: dazu muss
-                                der geklammerte Ausdruck mindestens 0
-                                ergeben. Die KK-Vorraussetzung beträgt
-                                im Beispiel oben also 5.
-                            </p>
-                        </dd>
-                        <dt>
-                            <a name="grundschadenermittlung"></a><span
-                                class="term">Grundschaden<a
-                                class="indexterm" name="idp392240"></a></span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Der Grundschaden<a class="indexterm"
-                                    name="idp393760"></a> einer Waffe
-                                bzw. Kampftechnik ergibt sich aus dem in
-                                der angegebenen Schadenscode<a
-                                    class="indexterm" name="idp394784"></a>
-                                und dem Maximalschaden<a
-                                    class="indexterm" name="idp395632"></a>.
-                                Für einen Charakter mit Körperkraft 7
-                                ergibt sich im Beispiel ein Grundschaden<a
-                                    class="indexterm" name="idp396624"></a>
-                                von 6. Liegt der so ermittelte Wert über
-                                dem angegebenen Maximalschaden<a
-                                    class="indexterm" name="idp397472"></a>,
-                                wird letzterer als Grundschaden<a
-                                    class="indexterm" name="idp398416"></a>
-                                eingetragen.
-                            </p>
-                        </dd>
-                        <dt>
-                            <span class="term">Verteidigungsmodifikator<a
-                                class="indexterm" name="idp400080"></a></span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Der Verteidigungsmodifikator<a
-                                    class="indexterm" name="idp401776"></a>
-                                einer Waffe wird in der Spalte &#8222;<span
-                                    class="emphasis"><em>Sonstiges</em></span>&#8221;
-                                eingetragen, z.B. &#8222;VM -1&#8221;.
-                            </p>
-                        </dd>
-                        <dt>
-                            <span class="term">Reichweitenklasse</span>
-                        </dt>
-                        <dd>
-                            <p>
-                                Für Fernkampfwaffen werden die
-                                Distanzangaben der jeweils angegebenen
-                                Reichweitenklasse unter &#8222;<span
-                                    class="emphasis"><em>Sonstiges</em></span>&#8221;
-                                notiert, z.B. für Klasse B:
-                                &#8222;6/12/25/50&#8221;.
-                            </p>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-        </section>
+                    <p>
+                        Neben Attributen und Fertigkeiten können Spieler
+                        noch weitere Eigenschaften für einen Charakter
+                        kaufen, die Sonderfertigkeiten<a
+                            class="indexterm" name="idp317744"></a>. Für
+                        Sonderfertigkeiten<a class="indexterm"
+                            name="idp318896"></a> wird keine Punktzahl
+                        notiert; entweder ein Charakter besitzt die
+                        entsprechende Sonderfertigkeit<a
+                            class="indexterm" name="idp319024"></a> oder
+                        er besitzt sie nicht.
+                    </p>
 
-        <section>
-            <div class="titlepage">
-                <div>
+                    <p>
+                        Charakteren stehen die folgenden
+                        Sonderfertigkeiten<a class="indexterm"
+                            name="idp321520"></a> zur Verfügung:
+                    </p>
+
+                    <div class="variablelist">
+                        <dl class="variablelist">
+                            <dt>
+                                <span class="term">Gestenlos
+                                    zaubern (15 EP)</span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Der Charakter hat gelernt, ohne
+                                    Zuhilfenahme von Gesten zu zaubern.
+                                    Kann einzeln oder zusammen mit <span
+                                        class="emphasis"><em>Wortlos
+                                            zaubern</em></span> gekauft werden.
+                                </p>
+                            </dd>
+                            <dt>
+                                <span class="term">Wortlos
+                                    zaubern (15 EP)</span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Diese Sonderfertigkeit<a
+                                        class="indexterm"
+                                        name="idp326752"></a> ermöglicht
+                                    es, Magie völlig ohne gemurmelte
+                                    oder gesprochene Zauberformeln zu
+                                    wirken. Kann einzeln oder zusammen
+                                    mit <span class="emphasis"><em>Gestenlos
+                                            zaubern</em></span> gekauft werden.
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <p>
+                        Alle Sonderfertigkeiten<a class="indexterm"
+                            name="idp329296"></a> können nicht nur
+                        während der Charaktererschaffung, sondern auch
+                        später gekauft werden.
+                    </p>
+                </section>
+
+                <section>
+                    <div class="titlepage">
+                        <div>
+                            <div>
+                                <h3 class="title">
+                                    <a name="initiativebasis"></a>Kampfwerte<a
+                                        class="indexterm"
+                                        name="idp331504"></a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <p>
+                        Die folgenden im Kampf benötigten Werte werden
+                        auf dem Charakterblatt eingetragen. Details zur
+                        Bedeutung dieser Werte finden sich in <a
+                            class="xref" href="#kampf"
+                            title="Kapitel 5. Kampf">Kapitel 5, <i>Kampf</i></a>.
+                    </p>
+
+                    <div class="variablelist">
+                        <dl class="variablelist">
+                            <dt>
+                                <span class="term">Initiativebasiswert<a
+                                    class="indexterm" name="idp334224"></a></span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Für den Initiativewurf<a
+                                        class="indexterm"
+                                        name="idp335744"></a> im Kampf
+                                    besitzt jeder Charakter einen
+                                    Initiativebasiswert<a
+                                        class="indexterm"
+                                        name="idp336720"></a>. Dieser
+                                    errechnet sich aus dem Attribut
+                                    Intuition<a class="indexterm"
+                                        name="idp337680"></a> und der
+                                    Fertigkeit Reflexe: <span
+                                        class="emphasis"><em>(Intuition
+                                            + Reflexe) * 2</em></span>.
+                                </p>
+                            </dd>
+                            <dt>
+                                <span class="term">Rüstung<a
+                                    class="indexterm" name="idp339936"></a></span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Trägt der Charakter eine Rüstung<a
+                                        class="indexterm"
+                                        name="idp341712"></a>, werden
+                                    die passenden Angaben zu
+                                    Rüstungsschutz<a class="indexterm"
+                                        name="idp343024"></a> (RS),
+                                    Widerstandsbonus<a class="indexterm"
+                                        name="idp343152"></a> (WB) und
+                                    Angriffsmalus<a class="indexterm"
+                                        name="idp345280"></a> (AM) aus
+                                    der Rüstungstabelle (<a class="xref"
+                                        href="#ruestungen"
+                                        title="Rüstungen">&#8222;Rüstungen&#8220;</a>)
+                                    in die jeweiligen Felder übernommen.
+                                </p>
+                            </dd>
+                            <dt>
+                                <span class="term">Schild<a
+                                    class="indexterm" name="idp348016"></a>/Parierwaffe<a
+                                    class="indexterm" name="idp348144"></a></span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Falls verwendet, werden für Schilde<a
+                                        class="indexterm"
+                                        name="idp350816"></a> und/oder
+                                    Parierwaffen<a class="indexterm"
+                                        name="idp351024"></a> der
+                                    Verteidigungsmodifikator<a
+                                        class="indexterm"
+                                        name="idp353184"></a> (VM) und
+                                    Angriffsmalus<a class="indexterm"
+                                        name="idp354336"></a> (AM)
+                                    aufsummiert und auf dem
+                                    Charakterblatt eingetragen. Die
+                                    Werte finden sich ab <a class="xref"
+                                        href="#schilde_parierwaffen"
+                                        title="Schilde und Parierwaffen">&#8222;Schilde
+                                        und Parierwaffen&#8220;</a>.
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <p>
+                        Des weiteren werden für jede vom Charakter
+                        beherrschte Waffengattung oder Kampftechnik
+                        jeweils die folgenden Werte notiert. Die
+                        benötigten Angaben finden sich in der
+                        Waffentabelle ab <a class="xref" href="#waffen"
+                            title="Waffen">&#8222;Waffen&#8220;</a> im
+                        folgenden Format:
+                    </p>
+
+                    <div class="informalexample">
+                        <div class="informaltable">
+                            <table border="1">
+                                <colgroup>
+                                    <col class="typ">
+                                    <col align="center" class="schaden">
+                                    <col align="center" class="max">
+                                    <col align="center"
+                                        class="verteidigung">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th> </th>
+                                        <th align="center"><p>Schadens-</p>
+                                            <p>code</p></th>
+                                        <th align="center"><p>Maximal-</p>
+                                            <p>schaden</p></th>
+                                        <th align="center"><p>Verteidigungs-</p>
+                                            <p>modifikator</p></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Speer</td>
+                                        <td align="center">4 +
+                                            (KK-5)</td>
+                                        <td align="center">7</td>
+                                        <td align="center">-1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="variablelist">
+                        <dl class="variablelist">
+                            <dt>
+                                <span class="term">Attribut</span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Der Angriffswurf<a class="indexterm"
+                                        name="idp387504"></a> wird mit
+                                    dem Attribut durchgeführt, welches
+                                    im Schadenscode<a class="indexterm"
+                                        name="idp388480"></a> verwendet
+                                    wird. So wird z.B. ein Speer mit
+                                    Körperkraft geführt.
+                                </p>
+
+                                <p>
+                                    Der Schadenscode<a class="indexterm"
+                                        name="idp389888"></a> gibt
+                                    außerdem an, wie hoch dieses
+                                    Attribut mindestens sein muss, um
+                                    die Waffe führen bzw. die
+                                    Kampftechnik nutzen zu können: dazu
+                                    muss der geklammerte Ausdruck
+                                    mindestens 0 ergeben. Die
+                                    KK-Vorraussetzung beträgt im
+                                    Beispiel oben also 5.
+                                </p>
+                            </dd>
+                            <dt>
+                                <a name="grundschadenermittlung"></a><span
+                                    class="term">Grundschaden<a
+                                    class="indexterm" name="idp392240"></a></span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Der Grundschaden<a class="indexterm"
+                                        name="idp393760"></a> einer
+                                    Waffe bzw. Kampftechnik ergibt sich
+                                    aus dem in der angegebenen
+                                    Schadenscode<a class="indexterm"
+                                        name="idp394784"></a> und dem
+                                    Maximalschaden<a class="indexterm"
+                                        name="idp395632"></a>. Für einen
+                                    Charakter mit Körperkraft 7 ergibt
+                                    sich im Beispiel ein Grundschaden<a
+                                        class="indexterm"
+                                        name="idp396624"></a> von 6.
+                                    Liegt der so ermittelte Wert über
+                                    dem angegebenen Maximalschaden<a
+                                        class="indexterm"
+                                        name="idp397472"></a>, wird
+                                    letzterer als Grundschaden<a
+                                        class="indexterm"
+                                        name="idp398416"></a>
+                                    eingetragen.
+                                </p>
+                            </dd>
+                            <dt>
+                                <span class="term">Verteidigungsmodifikator<a
+                                    class="indexterm" name="idp400080"></a></span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Der Verteidigungsmodifikator<a
+                                        class="indexterm"
+                                        name="idp401776"></a> einer
+                                    Waffe wird in der Spalte &#8222;<span
+                                        class="emphasis"><em>Sonstiges</em></span>&#8221;
+                                    eingetragen, z.B. &#8222;VM
+                                    -1&#8221;.
+                                </p>
+                            </dd>
+                            <dt>
+                                <span class="term">Reichweitenklasse</span>
+                            </dt>
+                            <dd>
+                                <p>
+                                    Für Fernkampfwaffen werden die
+                                    Distanzangaben der jeweils
+                                    angegebenen Reichweitenklasse unter
+                                    &#8222;<span class="emphasis"><em>Sonstiges</em></span>&#8221;
+                                    notiert, z.B. für Klasse B:
+                                    &#8222;6/12/25/50&#8221;.
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </section>
+            </section>
+
+            <section>
+                <div class="titlepage">
                     <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="steigerung"></a>Steigerung von
-                            Eigenschaften
-                        </h2>
+                        <div>
+                            <h2 class="title" style="clear: both">
+                                <a name="steigerung"></a>Steigerung von
+                                Eigenschaften
+                            </h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
-            <p>
-                Im Laufe seiner Abenteurerkarriere kann ein Charakter
-                seine Fähigkeiten verbessern &#8212; er wird z.B.
-                stärker, geschickter oder erfahrener im Umgang mit
-                Magie. Dazu vergibt der Spielleiter für die im Spiel
-                gemachten Erfahrungen regelmäßig weitere <em
-                    class="firstterm">Erfahrungspunkte</em><a
-                    class="indexterm" name="idp408560"></a> (<em
-                    class="firstterm">EP</em>). Die Anzahl der EP<a
-                    class="indexterm" name="idp409968"></a> sollte sich
-                aus einem Basiswert für das Erreichen des gesetzten
-                Ziels und zusätzlichen Punkten für gute Zusammenarbeit,
-                überraschende Einfälle oder gutes Ausspielen der eigenen
-                Rolle zusammensetzen.
-            </p>
+                <p>
+                    Im Laufe seiner Abenteurerkarriere kann ein
+                    Charakter seine Fähigkeiten verbessern &#8212; er
+                    wird z.B. stärker, geschickter oder erfahrener im
+                    Umgang mit Magie. Dazu vergibt der Spielleiter für
+                    die im Spiel gemachten Erfahrungen regelmäßig
+                    weitere <em class="firstterm">Erfahrungspunkte</em><a
+                        class="indexterm" name="idp408560"></a> (<em
+                        class="firstterm">EP</em>). Die Anzahl der EP<a
+                        class="indexterm" name="idp409968"></a> sollte
+                    sich aus einem Basiswert für das Erreichen des
+                    gesetzten Ziels und zusätzlichen Punkten für gute
+                    Zusammenarbeit, überraschende Einfälle oder gutes
+                    Ausspielen der eigenen Rolle zusammensetzen.
+                </p>
 
-            <div class="sidebar">
-                <div class="titlepage"></div>
-                <p>Es ist unmöglich, genaue Regeln für die Höhe der
-                    vergebenen EP festzulegen. Zum einen ist diese stark
-                    davon abhängig, wieviel Zeit in der Spielwelt
-                    vergangen ist und ob das Abenteuer eher aus
-                    alltäglichen oder weltbewegenden Geschehnissen
-                    bestand &#8212; zum anderen ist es auch schlicht
-                    Geschmackssache, wie schnell eine Gruppe erfahrener
-                    werden soll. Dennoch sei an dieser Stelle als
-                    Orientierung angegeben, dass ein Spielabend von vier
-                    bis fünf Stunden Dauer mit durchschnittlichem Inhalt
-                    etwa 12 EP wert sein sollte.</p>
-            </div>
+                <div class="sidebar">
+                    <div class="titlepage"></div>
+                    <p>Es ist unmöglich, genaue Regeln für die Höhe
+                        der vergebenen EP festzulegen. Zum einen ist
+                        diese stark davon abhängig, wieviel Zeit in der
+                        Spielwelt vergangen ist und ob das Abenteuer
+                        eher aus alltäglichen oder weltbewegenden
+                        Geschehnissen bestand &#8212; zum anderen ist es
+                        auch schlicht Geschmackssache, wie schnell eine
+                        Gruppe erfahrener werden soll. Dennoch sei an
+                        dieser Stelle als Orientierung angegeben, dass
+                        ein Spielabend von vier bis fünf Stunden Dauer
+                        mit durchschnittlichem Inhalt etwa 12 EP wert
+                        sein sollte.</p>
+                </div>
 
-            <p>Ein Spieler kann diese EP verwenden, um einzelne
-                Eigenschaften seines Charakters zu steigern. Die
-                EP-Kosten dafür sind umso höher, je mehr Punkte der
-                Charakter in dieser Eigenschaft bereits besitzt: es
-                kostet z.B. 6 EP, eine Fertigkeit von 3 auf 4 zu
-                steigern.</p>
+                <p>Ein Spieler kann diese EP verwenden, um einzelne
+                    Eigenschaften seines Charakters zu steigern. Die
+                    EP-Kosten dafür sind umso höher, je mehr Punkte der
+                    Charakter in dieser Eigenschaft bereits besitzt: es
+                    kostet z.B. 6 EP, eine Fertigkeit von 3 auf 4 zu
+                    steigern.</p>
 
-            <div class="informaltable">
-                <table border="1">
-                    <colgroup>
-                        <col align="center">
-                        <col align="center">
-                        <col align="center">
-                        <col align="center">
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th align="center"> </th>
-                            <th align="center">Attribut</th>
-                            <th align="center">Fertigkeit</th>
-                            <th align="center">Spezialisierung</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="center">Erster Punkt</td>
-                            <td align="center">10</td>
-                            <td align="center">4</td>
-                            <td align="center">2</td>
-                        </tr>
-                        <tr>
-                            <td align="center">Punktzahl um 1
-                                steigern</td>
-                            <td align="center" valign="middle">Bisherige
-                                Punkte * 5</td>
-                            <td align="center" valign="middle">Bisherige
-                                Punkte * 2</td>
-                            <td align="center" valign="middle">Bisherige
-                                Punkte</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <div class="informaltable">
+                    <table border="1">
+                        <colgroup>
+                            <col align="center">
+                            <col align="center">
+                            <col align="center">
+                            <col align="center">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th align="center"> </th>
+                                <th align="center">Attribut</th>
+                                <th align="center">Fertigkeit</th>
+                                <th align="center">Spezialisierung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="center">Erster Punkt</td>
+                                <td align="center">10</td>
+                                <td align="center">4</td>
+                                <td align="center">2</td>
+                            </tr>
+                            <tr>
+                                <td align="center">Punktzahl um 1
+                                    steigern</td>
+                                <td align="center" valign="middle">Bisherige
+                                    Punkte * 5</td>
+                                <td align="center" valign="middle">Bisherige
+                                    Punkte * 2</td>
+                                <td align="center" valign="middle">Bisherige
+                                    Punkte</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-            <p>
-                Außerdem kann ein Charakter auch nachträglich die im
-                Kapitel <a class="xref" href="#charaktererschaffung"
-                    title="Charaktererschaffung">&#8222;Charaktererschaffung&#8220;</a>
-                beschriebenen Sonderfertigkeiten<a class="indexterm"
-                    name="idp426208"></a> kaufen.
-            </p>
+                <p>
+                    Außerdem kann ein Charakter auch nachträglich die im
+                    Kapitel <a class="xref" href="#charaktererschaffung"
+                        title="Charaktererschaffung">&#8222;Charaktererschaffung&#8220;</a>
+                    beschriebenen Sonderfertigkeiten<a class="indexterm"
+                        name="idp426208"></a> kaufen.
+                </p>
 
-            <p>
-                Bei Steigerungen sollten Spieler und Spielleiter auch
-                die erzählerische Erklärbarkeit berücksichtigen. So kann
-                sich ein Spieler nach einem Wüstenabenteuer sicherlich
-                entscheiden, dass der Charakter seine <span
-                    class="emphasis"><em>Geographie</em></span>-Fertigkeit
-                verbessert hat &#8212; die Steigerung von <span
-                    class="emphasis"><em>Schwimmen</em></span> dürfte
-                jedoch etwas abwegig sein.
-            </p>
+                <p>
+                    Bei Steigerungen sollten Spieler und Spielleiter
+                    auch die erzählerische Erklärbarkeit
+                    berücksichtigen. So kann sich ein Spieler nach einem
+                    Wüstenabenteuer sicherlich entscheiden, dass der
+                    Charakter seine <span class="emphasis"><em>Geographie</em></span>-Fertigkeit
+                    verbessert hat &#8212; die Steigerung von <span
+                        class="emphasis"><em>Schwimmen</em></span>
+                    dürfte jedoch etwas abwegig sein.
+                </p>
 
-            <p>
-                Zu dieser Erklärbarkeit gehört auch, dass man gerade bei
-                neuen Fertigkeiten<a class="indexterm" name="idp429152"></a>
-                und beim Erlernen von Sonderfertigkeiten<a
-                    class="indexterm" name="idp430096"></a> einen
-                Lehrmeister oder entsprechende Fachliteratur zur
-                Verfügung haben sollte. Wer den Schwertkampf in
-                Grundzügen beherrscht, kann vielleicht durch reine Übung
-                und Training besser werden &#8212; der Versuch, sich das
-                Kämpfen mit dem Schwert selbst beizubringen wäre jedoch
-                von vornherein zum Scheitern verurteilt.
-            </p>
+                <p>
+                    Zu dieser Erklärbarkeit gehört auch, dass man gerade
+                    bei neuen Fertigkeiten<a class="indexterm"
+                        name="idp429152"></a> und beim Erlernen von
+                    Sonderfertigkeiten<a class="indexterm"
+                        name="idp430096"></a> einen Lehrmeister oder
+                    entsprechende Fachliteratur zur Verfügung haben
+                    sollte. Wer den Schwertkampf in Grundzügen
+                    beherrscht, kann vielleicht durch reine Übung und
+                    Training besser werden &#8212; der Versuch, sich das
+                    Kämpfen mit dem Schwert selbst beizubringen wäre
+                    jedoch von vornherein zum Scheitern verurteilt.
+                </p>
 
-            <p>
-                Beachten Sie, dass nach einer Steigerung ggf. der
-                Initativebasiswert und die Höhe der Verletzungsmali neu
-                bestimmt werden müssen (siehe <a class="xref"
-                    href="#charaktererschaffung"
-                    title="Charaktererschaffung">&#8222;Charaktererschaffung&#8220;</a>).
-            </p>
+                <p>
+                    Beachten Sie, dass nach einer Steigerung ggf. der
+                    Initativebasiswert und die Höhe der Verletzungsmali
+                    neu bestimmt werden müssen (siehe <a class="xref"
+                        href="#charaktererschaffung"
+                        title="Charaktererschaffung">&#8222;Charaktererschaffung&#8220;</a>).
+                </p>
+            </section>
         </section>
     </section>
     <section>
