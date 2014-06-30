@@ -17,23 +17,23 @@ h1, h2, h3, h4, h5, h6, th {
     font-weight: normal;
 }
 
-body > section > h1 {
+body > * > section > h1 {
     font-size: 2.2rem;
     margin-bottom: 1.3rem;
     text-align: center;
 }
 
-body > section > section > h1 {
+body > * > section > section > h1 {
     font-size: 1.9rem;
     margin-bottom: 1.2rem;
 }
 
-body > section > section > section > h1 {
+body > * > section > section > section > h1 {
     font-size: 1.6rem;
     margin-bottom: 1.1rem;
 }
 
-body > section > section > section > section > h1 {
+body > * > section > section > section > section > h1 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -41,49 +41,54 @@ body > section > section > section > section > h1 {
 
 /* Chapter numbering */
 
-body {
+body > * {
     counter-reset: level1 level2 level3 level4;
 }
 
-body > section {
+body > * > section {
     counter-increment: level1;
     counter-reset: level2 level3 level4;
 }
-body > section > section {
+body > * > section > section {
     counter-increment: level2;
     counter-reset: level3 level4;
 }
-body > section > section > section {
+body > * > section > section > section {
     counter-increment: level3;
     counter-reset: level4;
 }
-body > section > section > section > section {
+body > * > section > section > section > section {
     counter-increment: level4;
 }
 
-body > section > h1:before {
+main > section > h1:before {
     content: "Kapitel " counter(level1) ": ";
 }
 
+#appendices > section > h1:before {
+    content: "Anhang " counter(level1, upper-latin) ": ";
+}
+
 /* Reserve space for numbering chapter levels 2 and below */
-body > section > section h1:before {
+main > section > section h1:before {
     float: left;
     width: 3.5rem;
 }
 
-body > section > section > h1:before {
+main > section > section > h1:before {
     content: counter(level1) "." counter(level2) " ";
 }
-body > section > section> section > h1:before {
+main > section > section> section > h1:before {
     content: counter(level1) "." counter(level2) "." counter(level3) " ";
 }
-body > section > section > section > section > h1:before {
+main > section > section > section > section > h1:before {
     content: counter(level1) "." counter(level2) "." counter(level3) "." counter(level4) " ";
 }
 
+
 /* Print/PDF styles */
 
-body > section + section {
+main > section + section {
     page-break-before: always;
 }
 
