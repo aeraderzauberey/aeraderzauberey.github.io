@@ -43,26 +43,38 @@ body {
     counter-reset: level1 level2 level3 level4;
 }
 
-body > section > h1:before {
+body > section {
     counter-increment: level1;
     counter-reset: level2 level3 level4;
-    content: "Kapitel " counter(level1) ": ";
 }
-body > section > section h1:before {
-    float: left;
-    width: 3rem;
-}
-body > section > section > h1:before {
+body > section > section {
     counter-increment: level2;
     counter-reset: level3 level4;
+}
+body > section > section > section {
+    counter-increment: level3;
+    counter-reset: level4;
+}
+body > section > section > section > section {
+    counter-increment: level4;
+}
+
+body > section > h1:before {
+    content: "Kapitel " counter(level1) ": ";
+}
+
+/* Reserve space for numbering chapter levels 2 and below */
+body > section > section h1:before {
+    float: left;
+    width: 3.5rem;
+}
+
+body > section > section > h1:before {
     content: counter(level1) "." counter(level2) " ";
 }
 body > section > section> section > h1:before {
-    counter-increment: level3;
-    counter-reset: level4;
     content: counter(level1) "." counter(level2) "." counter(level3) " ";
 }
 body > section > section > section > section > h1:before {
-    counter-increment: level4;
     content: counter(level1) "." counter(level2) "." counter(level3) "." counter(level4) " ";
 }
