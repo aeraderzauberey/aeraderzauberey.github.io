@@ -3,6 +3,11 @@
     src: url('Ressourcen/Carolingia.woff') format('woff');
 }
 
+.example {
+    border-style: outset;
+    background-color: khaki;
+}
+
 .interjection {
     border-style: dashed;
     border-color: lightgray;
