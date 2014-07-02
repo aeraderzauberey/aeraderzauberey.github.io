@@ -919,26 +919,28 @@
                             href="#waffen">Waffentabelle</a> im
                         folgenden Format:
                     </p>
-                    <figure>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>Schadenscode</th>
-                                    <th>Maximalschaden</th>
-                                    <th>Verteidigungsmodifikator</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Speer</td>
-                                    <td>4 + (KK-5)</td>
-                                    <td>7</td>
-                                    <td>-1</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </figure>
+                    <div class="example">
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Speer</td>
+                                        <td>4 + (KK-5)</td>
+                                        <td>7</td>
+                                        <td>-1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </div>
                     <dl>
                         <dt>Attribut</dt>
                         <dd>Der Angriffswurf wird mit dem Attribut
@@ -1010,30 +1012,32 @@
                     Charakter in dieser Eigenschaft bereits besitzt: es
                     kostet z.B. 6 EP, eine Fertigkeit von 3 auf 4 zu
                     steigern.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Attribut</th>
-                            <th>Fertigkeit</th>
-                            <th>Spezialisierung</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Erster Punkt</td>
-                            <td>10</td>
-                            <td>4</td>
-                            <td>2</td>
-                        </tr>
-                        <tr>
-                            <td>Punktzahl um 1 steigern</td>
-                            <td>Bisherige Punkte * 5</td>
-                            <td>Bisherige Punkte * 2</td>
-                            <td>Bisherige Punkte</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <figure>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Attribut</th>
+                                <th>Fertigkeit</th>
+                                <th>Spezialisierung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Erster Punkt</td>
+                                <td>10</td>
+                                <td>4</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Punktzahl um 1 steigern</td>
+                                <td>Bisherige Punkte * 5</td>
+                                <td>Bisherige Punkte * 2</td>
+                                <td>Bisherige Punkte</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
                 <p>
                     Außerdem kann ein Charakter auch nachträglich die im
                     Kapitel <a href="#charaktererschaffung">Charaktererschaffung</a>
@@ -1066,560 +1070,256 @@
             </section>
         </section>
     </section>
-    <section>
-        <div class="titlepage">
-            <div>
-                <div>
-                    <h2 class="title">
-                        <a name="proben"></a>Kapitel 3. Proben
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <div class="toc">
-            <p>
-                <b>Inhaltsverzeichnis</b>
-            </p>
-            <dl>
-                <dt>
-                    <span class="section"><a href="#idp435360">Überblick</a></span>
-                </dt>
-                <dt>
-                    <span class="section"><a href="#idp443152">Probenart
-                            und Würfelanzahl</a></span>
-                </dt>
-                <dt>
-                    <span class="section"><a href="#idp482432">Mindestwurf</a></span>
-                </dt>
-                <dt>
-                    <span class="section"><a href="#idp517216">Erfolge</a></span>
-                </dt>
-                <dt>
-                    <span class="section"><a href="#idp535200">Unterstützende
-                            Fertigkeiten</a></span>
-                </dt>
-                <dt>
-                    <span class="section"><a href="#idp550880">Vergleichende
-                            Proben</a></span>
-                </dt>
-            </dl>
-        </div>
-
-
+    <section id="proben">
+        <h1>Proben</h1>
         <p>
             Alltägliche Handlungen wie Gehen, Sprechen oder Essen werden
             einem Charakter immer gelingen. Wenn es jedoch fraglich ist,
-            ob eine Aktion gelingt, kann der Spielleiter eine <em
-                class="firstterm">Probe</em><a class="indexterm"
-                name="idp434464"></a> auf die Eigenschaften des
-            Charakters verlangen.
+            ob eine Aktion gelingt, kann der Spielleiter eine <em>Probe</em>
+            auf die Eigenschaften des Charakters verlangen.
         </p>
 
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp435360"></a>Überblick
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-
+        <section>
+            <h1>Überblick</h1>
             <p>
-                Eine Probe<a class="indexterm" name="idp436432"></a>
-                wird durch das Rollen mehrerer sechsseitiger Würfel
-                (kurz: <em class="firstterm">W6</em>) durchgeführt,
-                wobei die Würfelanzahl<a class="indexterm"
-                    name="idp437776"></a> von den Eigenschaften des
-                Charakters abhängt. Das Ergebnis des Würfelwurfs wird
-                als Anzahl von <em class="firstterm">Erfolgen</em><a
-                    class="indexterm" name="idp439552"></a> angegeben.
-                Damit die Probe<a class="indexterm" name="idp440192"></a>
+                Eine Probe wird durch das Rollen mehrerer sechsseitiger
+                Würfel (kurz: <em>W6</em>) durchgeführt, wobei die
+                Würfelanzahl von den Eigenschaften des Charakters
+                abhängt. Das Ergebnis des Würfelwurfs wird als Anzahl
+                von <em>Erfolgen</em> angegeben. Damit die Probe
                 gelingt, muss der Spieler eine vom Spielleiter bestimmte
-                Anzahl von Erfolgen<a class="indexterm" name="idp441040"></a>,
-                den <em class="firstterm">Mindestwurf</em><a
-                    class="indexterm" name="idp442176"></a>, erreichen.
+                Anzahl von Erfolgen, den <em>Mindestwurf</em>,
+                erreichen.
             </p>
-        </div>
+        </section>
 
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp443152"></a>Probenart<a
-                                class="indexterm" name="idp443664"></a>
-                            und Würfelanzahl<a class="indexterm"
-                                name="idp444608"></a>
-                        </h2>
-                    </div>
+        <section>
+            <h1>Probenart und Würfelanzahl</h1>
+            <p>Es gibt zwei Arten von Proben: Fertigkeitsproben und
+                Attributsproben. Spezialisierungen können bei beiden
+                Probenarten eingesetzt werden.</p>
+            <section>
+                <h1>Fertigkeitsproben</h1>
+                <p>Die Würfelanzahl entspricht der Summe der
+                    Punktzahlen von Attribut, Fertigkeit und ggf. einer
+                    passenden Spezialisierung. Besitzt der Spieler die
+                    passende Fertigkeit nicht, führt er die Probe mit
+                    den verbleibenden Würfeln durch. Alternativ darf er
+                    nach Spielleiterentscheid auch eine verwandte
+                    Fertigkeit einsetzen.</p>
+                <p>Das zu verwendende Attribut wird vom Spielleiter
+                    der Situation entsprechend ausgewählt.</p>
+                <div class="example">
+                    <p>
+                        <em>Beispiele:</em>
+                    </p>
+                    <ul>
+                        <li>Beruhigen eines Pferds mit Reitkunst +
+                            Charisma (statt Gewandtheit)</li>
+                        <li>Schienen des eigenen gebrochenen Arms
+                            mit Medizin + Willenskraft (statt Klugheit)</li>
+                        <li>Herstellung von Nitroglyzerin mit
+                            Chemie + Fingerfertigkeit (statt Klugheit)</li>
+                    </ul>
                 </div>
-            </div>
-
-
-            <p>
-                Es gibt zwei Arten von Proben<a class="indexterm"
-                    name="idp445872"></a>: Fertigkeitsproben<a
-                    class="indexterm" name="idp446656"></a><a
-                    class="indexterm" name="idp447376"></a> und
-                Attributsproben<a class="indexterm" name="idp448224"></a><a
-                    class="indexterm" name="idp448944"></a>.
-                Spezialisierungen<a class="indexterm" name="idp449728"></a>
-                können bei beiden Probenarten<a class="indexterm"
-                    name="idp450576"></a> eingesetzt werden.
+            </section>
+            <section>
+                <h1>Attributsproben</h1>
+                <p>Die Würfelanzahl entspricht der Summe der
+                    Punktzahlen von Attribut und ggf. einer zur Aufgabe
+                    passenden Spezialisierung.</p>
+                <p>Attributsproben werden nur dann eingesetzt, wenn
+                    der Spielleiter keine der Fertigkeiten dieses
+                    Regelwerks für passend hält, nicht etwa weil der
+                    Charakter die passende Fertigkeit nicht besitzt.</p>
+            </section>
+            <section>
+                <h1>Umstandsmodifikatoren</h1>
+                <p>
+                    Neben den Fähigkeiten eines Charakters gibt es
+                    häufig weitere Umstände, welche die Probe
+                    beeinflussen. Für negative Einflüsse wie
+                    Verletzungen oder Erschöpfung (siehe <a
+                        href="#schaden">Gesundheit</a>), besondere Eile
+                    oder widrige Bedingungen (z.B. eisige Kälte) kann
+                    der Spielleiter einen Würfelmalus bestimmen.
+                    Umgekehrt können positive Einflüsse wie gute
+                    Vorbereitung, ausführliches Zielen oder Hilfe von
+                    anderen einen Würfelbonus bewirken. Dabei werden
+                    alle anwendbaren Würfelmali und -boni auf die zuvor
+                    bestimmte Würfelanzahl angerechnet.
+                </p>
+            </section>
+        </section>
+        <section>
+            <h1>Mindestwurf</h1>
+            <p>Als nächstes legt der Spielleiter den zu erreichenden
+                Mindestwurf fest. Dieser hängt von der Schwierigkeit der
+                Aufgabe und den Begleitumständen ab. Für einige Arten
+                von Aufgaben wie das Zaubern sind in diesem Regelwerk
+                Richtlinien für Mindestwürfe aufgeführt; als generelle
+                Orientierung kann die folgende Tabelle verwendet werden:
             </p>
-
-            <div class="variablelist">
-                <dl class="variablelist">
-                    <dt>
-                        <span class="term">Fertigkeitsproben<a
-                            class="indexterm" name="idp452400"></a><a
-                            class="indexterm" name="idp453232"></a></span>
-                    </dt>
-                    <dd>
-                        <p>
-                            Die Würfelanzahl<a class="indexterm"
-                                name="idp454752"></a> entspricht der
-                            Summe der Punktzahlen von Attribut<a
-                                class="indexterm" name="idp455632"></a>,
-                            Fertigkeit<a class="indexterm"
-                                name="idp456528"></a> und ggf. einer
-                            passenden Spezialisierung<a
-                                class="indexterm" name="idp457376"></a>.
-                            Besitzt der Spieler die passende Fertigkeit<a
-                                class="indexterm" name="idp458256"></a>
-                            nicht, führt er die Probe mit den
-                            verbleibenden Würfeln durch. Alternativ darf
-                            er nach Spielleiterentscheid auch eine
-                            verwandte Fertigkeit<a class="indexterm"
-                                name="idp459328"></a> einsetzen.
-                        </p>
-
-                        <p>
-                            Das zu verwendende Attribut<a
-                                class="indexterm" name="idp460432"></a>
-                            wird vom Spielleiter der Situation
-                            entsprechend ausgewählt.
-                        </p>
-
-                        <div class="informalexample">
-                            <p>
-                                <span class="emphasis"><em>Beispiele:</em></span>
-                            </p>
-
-                            <div class="itemizedlist">
-                                <ul class="itemizedlist" type="disc">
-                                    <li class="listitem">
-                                        <p>Beruhigen eines Pferds
-                                            mit Reitkunst + Charisma
-                                            (statt Gewandtheit)</p>
-                                    </li>
-                                    <li class="listitem">
-                                        <p>Schienen des eigenen
-                                            gebrochenen Arms mit Medizin
-                                            + Willenskraft (statt
-                                            Klugheit)</p>
-                                    </li>
-                                    <li class="listitem">
-                                        <p>Herstellung von
-                                            Nitroglyzerin mit Chemie +
-                                            Fingerfertigkeit (statt
-                                            Klugheit)</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>
-                        <span class="term">Attributsproben<a
-                            class="indexterm" name="idp466704"></a><a
-                            class="indexterm" name="idp467344"></a></span>
-                    </dt>
-                    <dd>
-                        <p>
-                            Die Würfelanzahl<a class="indexterm"
-                                name="idp468640"></a> entspricht der
-                            Summe der Punktzahlen von Attribut<a
-                                class="indexterm" name="idp469616"></a>
-                            und ggf. einer zur Aufgabe passenden
-                            Spezialisierung<a class="indexterm"
-                                name="idp470512"></a>.
-                        </p>
-
-                        <p>
-                            Attributsproben<a class="indexterm"
-                                name="idp471808"></a><a
-                                class="indexterm" name="idp472560"></a>
-                            werden nur dann eingesetzt, wenn der
-                            Spielleiter keine der Fertigkeiten<a
-                                class="indexterm" name="idp473408"></a>
-                            dieses Regelwerks für passend hält, nicht
-                            etwa weil der Charakter die passende
-                            Fertigkeit<a class="indexterm"
-                                name="idp474464"></a> nicht besitzt.
-                        </p>
-                    </dd>
-                </dl>
-            </div>
-
-            <p>
-                Neben den Fähigkeiten eines Charakters gibt es häufig
-                weitere Umstände, welche die Probe beeinflussen. Für
-                negative Einflüsse wie Verletzungen oder Erschöpfung
-                (siehe <a class="xref" href="#schaden"
-                    title="Kapitel 4. Gesundheit">Kapitel 4, <i>Gesundheit</i>
-                </a>), besondere Eile oder widrige Bedingungen (z.B. eisige
-                Kälte) kann der Spielleiter einen Würfelmalus<a
-                    class="indexterm" name="idp477152"></a> bestimmen.
-                Umgekehrt können positive Einflüsse wie gute
-                Vorbereitung, ausführliches Zielen oder Hilfe von
-                anderen einen Würfelbonus<a class="indexterm"
-                    name="idp478400"></a> bewirken. Dabei werden alle
-                anwendbaren Würfelmali<a class="indexterm"
-                    name="idp479392"></a> und -boni<a class="indexterm"
-                    name="idp480464"></a> auf die zuvor bestimmte
-                Würfelanzahl<a class="indexterm" name="idp481536"></a>
-                angerechnet.
-            </p>
-        </div>
-
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp482432"></a>Mindestwurf<a
-                                class="indexterm" name="idp483104"></a>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-
-            <p>
-                Als nächstes legt der Spielleiter den zu erreichenden
-                Mindestwurf<a class="indexterm" name="idp484208"></a>
-                fest. Dieser hängt von der Schwierigkeit der Aufgabe und
-                den Begleitumständen ab. Für einige Arten von Aufgaben
-                wie das Zaubern sind in diesem Regelwerk Richtlinien für
-                Mindestwürfe<a class="indexterm" name="idp485312"></a>
-                aufgeführt; als generelle Orientierung kann die folgende
-                Tabelle verwendet werden:
-            </p>
-
-            <div class="informaltable">
-                <a name="schwierigkeitstabelle"></a>
-                <table border="1">
-                    <colgroup>
-                        <col>
-                        <col>
-                        <col align="center" class="fertigkeit">
-                        <col align="center" class="attribut">
-                        <col>
-                    </colgroup>
+            <figure id="schwierigkeitstabelle">
+                <table>
                     <thead>
                         <tr>
-                            <th> </th>
-                            <th><p>Art der Aufgabe</p></th>
-                            <th colspan="2" align="center">Mindestwurf</th>
-                            <th> </th>
+                            <th rowspan="2">Art der Aufgabe</th>
+                            <th colspan="2">Mindestwurf</th>
                         </tr>
                         <tr>
-                            <th> </th>
-                            <th> </th>
-                            <th align="center"><p>Fertigkeits-</p>
-                                <p>probe</p></th>
-                            <th align="center"><p>Attributs-</p>
-                                <p>probe</p></th>
-                            <th> </th>
+                            <th>Fertigkeitsprobe</th>
+                            <th>Attributsprobe</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td> </td>
                             <td>Leicht</td>
-                            <td align="center">1</td>
-                            <td align="center">1</td>
-                            <td> </td>
+                            <td>1</td>
+                            <td>1</td>
                         </tr>
                         <tr>
-                            <td> </td>
                             <td>Mittel</td>
-                            <td align="center">2</td>
-                            <td rowspan="2" align="center"
-                                valign="middle">2</td>
-                            <td> </td>
+                            <td>2</td>
+                            <td rowspan="2">2</td>
                         </tr>
                         <tr>
-                            <td> </td>
                             <td>Herausforderung</td>
-                            <td align="center">3</td>
-                            <td> </td>
+                            <td>3</td>
                         </tr>
                         <tr>
-                            <td> </td>
                             <td>Schwierig</td>
-                            <td align="center">4</td>
-                            <td rowspan="2" align="center"
-                                valign="middle">3</td>
-                            <td> </td>
+                            <td>4</td>
+                            <td rowspan="2">3</td>
                         </tr>
                         <tr>
-                            <td> </td>
                             <td>Extrem schwierig</td>
-                            <td align="center">5</td>
-                            <td> </td>
+                            <td>5</td>
                         </tr>
                         <tr>
-                            <td> </td>
                             <td>Fast unmöglich</td>
-                            <td align="center">6+</td>
-                            <td align="center">4+</td>
-                            <td> </td>
+                            <td>6+</td>
+                            <td>4+</td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-
-            <p>
-                Für die Verwendung einer verwandten Fertigkeit<a
-                    class="indexterm" name="idp511648"></a> statt der
-                passenden erhöht sich der Mindestwurf<a
-                    class="indexterm" name="idp512576"></a> nach
+            </figure>
+            <p>Für die Verwendung einer verwandten Fertigkeit statt
+                der passenden erhöht sich der Mindestwurf nach
                 Spielleiterentscheid um mindestens 1 Erfolg, je nach
-                Verwandtschaft der Fertigkeiten<a class="indexterm"
-                    name="idp513536"></a> bzw. Eignung für die aktuelle
-                Aufgabe.
-            </p>
-
-            <div class="informalexample">
+                Verwandtschaft der Fertigkeiten bzw. Eignung für die
+                aktuelle Aufgabe.</p>
+            <div class="example">
                 <p>
                     Die Frage nach dem letzten bekannten Auftauchen des
-                    Necronomicons kann mit der Fertigkeit <span
-                        class="emphasis"><em>Allgemeinbildung</em></span>
+                    Necronomicons kann mit der Fertigkeit <em>Allgemeinbildung</em>
                     nur sehr schwer beantwortet werden, für Charaktere
-                    mit der Fertigkeit<a class="indexterm"
-                        name="idp515616"></a> <span class="emphasis"><em>Okkultismus</em></span>
-                    jedoch bedeutend einfacher.
+                    mit der Fertigkeit <em>Okkultismus</em> jedoch
+                    bedeutend einfacher.
                 </p>
             </div>
-        </div>
-
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp517216"></a>Erfolge
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-
+        </section>
+        <section>
+            <h1>Erfolge</h1>
             <p>
-                Das Ergebnis einer Probe wird als Anzahl von <em
-                    class="firstterm">Erfolgen</em><a class="indexterm"
-                    name="idp519072"></a> angegeben. Jeder gerollte
-                Würfel, der eine 5 oder 6 zeigt, zählt als ein Erfolg<a
-                    class="indexterm" name="idp519680"></a>.
+                Das Ergebnis einer Probe wird als Anzahl von <em>Erfolgen</em>
+                angegeben. Jeder gerollte Würfel, der eine 5 oder 6
+                zeigt, zählt als ein Erfolg.
             </p>
-
             <p>
-                Ist die Anzahl der Erfolge<a class="indexterm"
-                    name="idp521168"></a> gleich oder höher als der
-                zuvor festgelegte Mindestwurf<a class="indexterm"
-                    name="idp521952"></a>, ist die Probe<a
-                    class="indexterm" name="idp522832"></a> <em
-                    class="firstterm">gelungen</em>. Wurden weniger oder
-                gar keine Erfolge<a class="indexterm" name="idp524064"></a>
-                erzielt, ist die Aktion <em class="firstterm">gescheitert</em>.
+                Ist die Anzahl der Erfolge gleich oder höher als der
+                zuvor festgelegte Mindestwurf, ist die Probe <em>gelungen</em>.
+                Wurden weniger oder gar keine Erfolge erzielt, ist die
+                Aktion <em>gescheitert</em>.
             </p>
-
-            <div class="informalexample">
+            <div class="example">
                 <p>Elris, seines Zeichens zukünftiger Meisterdieb,
                     ist in den frühen Morgenstunden im Haus eines
                     reichen Bürgers bei der Arbeit. Da man sich in
-                    Elris&#8217; Gewerbe jedoch möglichst lautlos
-                    bewegen sollte, verlangt der Spielleiter von Elris
-                    eine Heimlichkeits-Probe. Und weil ja ausnahmslos
-                    alle Holzdielen die Angewohnheit haben, in den
+                    Elris' Gewerbe jedoch möglichst lautlos bewegen
+                    sollte, verlangt der Spielleiter von Elris eine
+                    Heimlichkeits-Probe. Und weil ja ausnahmslos alle
+                    Holzdielen die Angewohnheit haben, in den
                     unpassendsten Momenten zu knarren und zu quietschen,
                     ist diese Probe gar nicht so leicht: der Spielleiter
                     sagt einen Mindestwurf von 3 an.</p>
-
                 <p>Elris hat Gewandtheit 5, Heimlichkeit 2 und die
-                    Spezialisierung &#8222;Schleichen&#8221; auf 3,
-                    macht 10. Er rollt seine 10 Würfel, sie zeigen: 5,
-                    2, 4, 1, 6, 2, 2, 6, 3, 4, ergibt insgesamt drei
-                    Erfolge &#8212; Elris schafft es also, kaum
-                    verräterische Geräusche zu verursachen. Hätte er
-                    weniger als drei Erfolge gehabt, wäre er direkt und
-                    lautstark auf eine knarrende Diele getreten.</p>
+                    Spezialisierung "Schleichen" auf 3, macht 10. Er
+                    rollt seine 10 Würfel, sie zeigen: 5, 2, 4, 1, 6, 2,
+                    2, 6, 3, 4, ergibt insgesamt drei Erfolge - Elris
+                    schafft es also, kaum verräterische Geräusche zu
+                    verursachen. Hätte er weniger als drei Erfolge
+                    gehabt, wäre er direkt und lautstark auf eine
+                    knarrende Diele getreten.</p>
             </div>
-
-            <div class="sidebar">
-                <div class="titlepage"></div>
-                <p>
-                    Es kann vorkommen, dass ein Mindestwurf<a
-                        class="indexterm" name="idp528176"></a> höher
-                    ist als die Würfelanzahl<a class="indexterm"
-                        name="idp529136"></a> des Charakters und somit
-                    niemals genug Erfolge<a class="indexterm"
-                        name="idp530000"></a> zusammenkommen können.
-                    Dies bedeutet schlicht und einfach, dass der
-                    Charakter der Aufgabe nicht gewachsen ist.
-                </p>
-
-                <p>
-                    Es steht dem Spielleiter jedoch frei, auch in einem
-                    solchen Fall eine Probe<a class="indexterm"
-                        name="idp531392"></a> zuzulassen. Erzielt der
-                    Charakter dann mit jedem einzelnen seiner Würfel
-                    einen Erfolg<a class="indexterm" name="idp532336"></a>,
-                    hat er die Aufgabe durch pures Glück oder eine
-                    unerwartete Wendung der Geschehnisse bewältigen
-                    können.
-                </p>
+            <div class="interjection">
+                <p>Es kann vorkommen, dass ein Mindestwurf höher ist
+                    als die Würfelanzahl des Charakters und somit
+                    niemals genug Erfolge zusammenkommen können. Dies
+                    bedeutet schlicht und einfach, dass der Charakter
+                    der Aufgabe nicht gewachsen ist.</p>
+                <p>Es steht dem Spielleiter jedoch frei, auch in
+                    einem solchen Fall eine Probe zuzulassen. Erzielt
+                    der Charakter dann mit jedem einzelnen seiner Würfel
+                    einen Erfolg, hat er die Aufgabe durch pures Glück
+                    oder eine unerwartete Wendung der Geschehnisse
+                    bewältigen können.</p>
             </div>
+        </section>
 
-
-        </div>
-
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp535200"></a>Unterstützende
-                            Fertigkeiten
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-
-            <p>
-                Häufig haben Charaktere mehrere Fertigkeiten<a
-                    class="indexterm" name="idp536256"></a>, die in
+        <section>
+            <h1>Unterstützende Fertigkeiten</h1>
+            <p>Häufig haben Charaktere mehrere Fertigkeiten, die in
                 einer bestimmten Situation hilfreich sind. Obwohl eine
-                Fertigkeitsprobe<a class="indexterm" name="idp537328"></a><a
-                    class="indexterm" name="idp538064"></a> nur mit
-                einer einzelnen Fertigkeit<a class="indexterm"
-                    name="idp538832"></a> durchgeführt werden kann, ist
-                es möglich eine zusätzliche Fertigkeit<a
-                    class="indexterm" name="idp538992"></a> als
-                Unterstützung zu verwenden. Wenn der Spielleiter diese
-                zusätzliche Fertigkeit<a class="indexterm"
-                    name="idp540064"></a> für die konkrete Aufgabe als
-                passend erachtet, erhält der Charakter Bonuswürfel für
-                die Fertigkeitsprobe<a class="indexterm"
-                    name="idp541296"></a><a class="indexterm"
-                    name="idp542464"></a>. Die Anzahl der Bonuswürfel
-                beträgt ein Drittel der Punkte der unterstützenden
-                Fertigkeit<a class="indexterm" name="idp544192"></a>
-                (aufgerundet).
-            </p>
-
-
-
-            <div class="informalexample">
+                Fertigkeitsprobe nur mit einer einzelnen Fertigkeit
+                durchgeführt werden kann, ist es möglich eine
+                zusätzliche Fertigkeit als Unterstützung zu verwenden.
+                Wenn der Spielleiter diese zusätzliche Fertigkeit für
+                die konkrete Aufgabe als passend erachtet, erhält der
+                Charakter Bonuswürfel für die Fertigkeitsprobe. Die
+                Anzahl der Bonuswürfel beträgt ein Drittel der Punkte
+                der unterstützenden Fertigkeit (aufgerundet).</p>
+            <div class="example">
                 <p>
-                    <span class="emphasis"><em>Beispiele:</em></span>
+                    <em>Beispiele:</em>
                 </p>
-
-                <div class="itemizedlist">
-                    <ul class="itemizedlist" type="disc">
-                        <li class="listitem">
-                            <p>Medizinprobe unterstützt durch
-                                Magiefertigkeit Lebewesen</p>
-                        </li>
-                        <li class="listitem">
-                            <p>Telekineseprobe zum Öffnen eines
-                                Schlosses unterstützt durch Fertigkeit
-                                Feinmechanik</p>
-                        </li>
-                        <li class="listitem">
-                            <p>Manipulationsprobe zum Überreden
-                                unterstützt durch Menschenkenntnis</p>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>Medizinprobe unterstützt durch
+                        Magiefertigkeit Lebewesen</li>
+                    <li>Telekineseprobe zum Öffnen eines Schlosses
+                        unterstützt durch Fertigkeit Feinmechanik</li>
+                    <li>Manipulationsprobe zum Überreden
+                        unterstützt durch Menschenkenntnis</li>
+                </ul>
             </div>
-        </div>
-
-        <div class="section">
-            <div class="titlepage">
-                <div>
-                    <div>
-                        <h2 class="title" style="clear: both">
-                            <a name="idp550880"></a>Vergleichende Proben
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-
-            <p>
-                <a class="indexterm" name="idp551904"></a>Oftmals treten
-                zwei Charaktere gegeneinander an, z.B. in einem
-                sportlichen Wettkampf oder auch beim Erkennen von Lügen.
-                In solchen Situationen führen beide Charaktere jeweils
-                eine Probe<a class="indexterm" name="idp553264"></a> auf
-                die passende Fertigkeit<a class="indexterm"
-                    name="idp554032"></a> (dies kann für beide dieselbe
-                Fertigkeit<a class="indexterm" name="idp554160"></a>
+        </section>
+        <section>
+            <h1>Vergleichende Proben</h1>
+            <p>Oftmals treten zwei Charaktere gegeneinander an, z.B.
+                in einem sportlichen Wettkampf oder auch beim Erkennen
+                von Lügen. In solchen Situationen führen beide
+                Charaktere jeweils eine Probe auf die passende
+                Fertigkeit (dies kann für beide dieselbe Fertigkeit
                 sein) durch; wurde kein anderer Mindestwurf festgelegt,
-                beträgt er jeweils 1.
-            </p>
-
-            <p>
-                Umstände, welche einen der beiden Charaktere betreffen
-                und die Probe<a class="indexterm" name="idp556640"></a>
-                beeinflussen, führen beim jeweiligen Charakter wie bei
-                normalen Proben<a class="indexterm" name="idp557600"></a>
-                zu Würfelmali oder -boni.
-            </p>
-
+                beträgt er jeweils 1.</p>
+            <p>Umstände, welche einen der beiden Charaktere
+                betreffen und die Probe beeinflussen, führen beim
+                jeweiligen Charakter wie bei normalen Proben zu
+                Würfelmali oder -boni.</p>
             <p>Das Ergebnis wird wie folgt ermittelt:</p>
-
-            <div class="orderedlist">
-                <ol class="orderedlist" type="1">
-                    <li class="listitem">
-                        <p>
-                            Gelingt nur eine der Proben<a
-                                class="indexterm" name="idp560000"></a>,
-                            steht der Sieger des Vergleichs fest.
-                        </p>
-                    </li>
-                    <li class="listitem">
-                        <p>
-                            Gelingen beide Proben<a class="indexterm"
-                                name="idp561728"></a>, wird die Anzahl
-                            der Erfolge<a class="indexterm"
-                                name="idp562672"></a> verglichen:
-                            Derjenige mit mehr Erfolgen<a
-                                class="indexterm" name="idp563520"></a>
-                            hat &#8222;gewonnen&#8220;.
-                        </p>
-                    </li>
-                    <li class="listitem">
-                        <p>
-                            Sollte die Anzahl der Erfolge<a
-                                class="indexterm" name="idp565632"></a>
-                            gleich sein, gewinnt derjenige, welcher die
-                            auslösende Handlung durchgeführt hat. Sind
-                            beide Handlungen gleichwertig (z.B. beim
-                            Armdrücken), gilt der Vergleich als
-                            unentschieden.
-                        </p>
-                    </li>
-                </ol>
-            </div>
-
-            <div class="informalexample">
+            <ol>
+                <li>Gelingt nur eine der Proben, steht der Sieger
+                    des Vergleichs fest.</li>
+                <li>Gelingen beide Proben, wird die Anzahl der
+                    Erfolge verglichen: Derjenige mit mehr Erfolgen hat
+                    "gewonnen".</li>
+                <li>Sollte die Anzahl der Erfolge gleich sein,
+                    gewinnt derjenige, welcher die auslösende Handlung
+                    durchgeführt hat. Sind beide Handlungen gleichwertig
+                    (z.B. beim Armdrücken), gilt der Vergleich als
+                    unentschieden.</li>
+            </ol>
+            <div class="example">
                 <p>Der Hausherr, der gerade von einem Ball nach
                     Hause kommt, betritt durch die Hintertür des Hauses
                     die Küche. Die Tür zum Flur ist geschlossen und
@@ -1633,7 +1333,7 @@
                     seine Arbeit fort, während der Hausherr nichts
                     ahnend schlafen geht.</p>
             </div>
-        </div>
+        </section>
     </section>
     <section>
         <div class="titlepage">
