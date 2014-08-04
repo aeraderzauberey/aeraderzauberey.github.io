@@ -18,6 +18,17 @@
     background-color: yellow;
 }
 
+.footnote {
+    font-size: 75%;
+    background: lightgray;
+}
+.footnote:before {
+    content: "["
+}
+.footnote:after {
+    content: "]"
+}
+
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin: 0;
