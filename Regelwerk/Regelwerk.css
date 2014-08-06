@@ -65,7 +65,38 @@ table, th, td {
 	border: 1px solid;
 }
 
+/* TOC */
+nav ol, nav ul {
+	margin: 0;
+}
+
+nav>ol, nav>ul {
+	padding-left: 0;
+}
+
+nav li {
+	margin: 0.25em 0 0.25em 0;
+}
+
+nav ol {
+	list-style-position: inside;
+}
+
+nav ul {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+nav ol.A {
+	list-style-type: upper-alpha;
+}
+
 /* Chapter headings */
+
+section:target > h1 {
+	color: #007D50;
+}
+
 h1, th {
 	font-family: Carolingia, Arial, sans-serif;
 	font-weight: normal;
