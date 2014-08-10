@@ -36,6 +36,24 @@ body {
 	margin: 0;
 	text-align: justify;
 	font-size: 12pt;
+	line-height: 1.5;
+}
+
+@media screen {
+	body {
+		padding: 0.5rem;
+	}
+	@media ( min-width : 65rem) {
+		html {
+			background: lightgray;
+		}
+		body {
+			background: white;
+			width: 60rem;
+			border: 0.1rem solid gray;
+			margin: 1rem auto;
+		}
+	}
 }
 
 figure>p {
@@ -92,8 +110,7 @@ nav ol.A {
 }
 
 /* Chapter headings */
-
-section:target > h1 {
+section:target>h1 {
 	color: #007D50;
 }
 
