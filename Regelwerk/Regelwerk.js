@@ -4,6 +4,10 @@ $(function() {
         console.error.apply(console, arguments);
     }
 
+    $("img").error(function() {
+        logError("Failed to load", this);
+    });
+
     function processLink(index, domElement) {
         var element = $(domElement);
         var href = element.attr("href");
