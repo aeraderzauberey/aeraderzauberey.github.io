@@ -63,16 +63,17 @@ body.error:before {
 	body {
 		padding: 0.5rem;
 	}
-	@media ( min-width : 65rem) {
-		html {
-			background: lightgray;
-		}
-		body {
-			background: white;
-			width: 60rem;
-			border: 0.1rem solid gray;
-			margin: 1rem auto;
-		}
+}
+
+@media screen and ( min-width : 65rem) {
+	html {
+		background: lightgray;
+	}
+	body {
+		background: white;
+		width: 60rem;
+		border: 0.1rem solid gray;
+		margin: 1rem auto;
 	}
 }
 
