@@ -39,6 +39,26 @@ body {
 	line-height: 1.5;
 }
 
+body.error {
+	background: repeating-linear-gradient(-45deg, white, white 20px, #ffdddd 20px,
+		#ffdddd 40px);
+	position: relative;
+}
+
+body.error:before {
+	content: "Errors occurred, see console.";
+	text-align: center;
+	display: block;
+	background: red;
+	color: white;
+	font-size: 200%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1em 0;
+}
+
 @media screen {
 	body {
 		padding: 0.5rem;
