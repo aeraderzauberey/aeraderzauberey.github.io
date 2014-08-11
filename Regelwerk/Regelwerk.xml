@@ -4360,15 +4360,6 @@
               <para>Erstreckt sich auch auf andere elektromagnetische Wellen
               wie Ultraviolett- und Infrarotstrahlung sowie Funk- und
               Drahtloskommunikation.</para>
-
-              <para><remark>NOCH ZU KLÄREN: Es ist ebenfalls möglich, wenn
-              auch schwierig, durch Kontrollieren der Lichtreflexion oder
-              durch Biegen des Lichtes Illusionen zu erzeugen, also
-              dreidimensionale Bilder ohne stoffliche
-              Komponente.</remark></para>
-
-              <para><remark>EINSORTIEREN: Illusion von Oberflächen, Erzeugung
-              von Spiegeln</remark></para>
             </listitem>
           </varlistentry>
 
@@ -4383,11 +4374,6 @@
 
               <para>Beinhaltet auch Ionisieren von Luft und Erzeugen von
               Blitzen.</para>
-
-              <remark>Früher benötigte man zusätzlich die zum Trägermedium
-              passende Magiefertigkeit (z.B. Luft). Das führte aber dazu, dass
-              man mit der Fertigkeit allein fast nichts konnte - weder Blitze
-              schleudern noch Strom durch Leitungen jagen.</remark>
             </listitem>
           </varlistentry>
 
@@ -4419,11 +4405,7 @@
 
                 <itemizedlist>
                   <listitem>
-                    <para>bestimmte Form,<remark> - Unterschied zwischen
-                    regelmäßiger Form (Kugel), unregelmäßiger Form (Mensch)
-                    und komplexer Form bzw. mehreren Einzelformen
-                    (projizierter Gebäudeplan, Buchstaben) ist für MW
-                    unerheblich.</remark></para>
+                    <para>bestimmte Form,</para>
                   </listitem>
 
                   <listitem>
@@ -4436,10 +4418,7 @@
                   </listitem>
 
                   <listitem>
-                    <para>Bewegung<remark> - Unterschied zwischen absolut
-                    positioniert (Licht genau hier), relativ positioniert
-                    (Licht am Stab) und beweglich (Licht fliegt herum) ist für
-                    MW unerheblich.</remark> sowie</para>
+                    <para>Bewegung sowie</para>
                   </listitem>
 
                   <listitem>
@@ -4468,31 +4447,22 @@
                       <row>
                         <entry>1</entry>
 
-                        <entry>Weißes Licht erschaffen<remark>
-                        (Basis)</remark>, alles Licht absorbieren<remark>
-                        (Basis)</remark></entry>
+                        <entry>Weißes Licht erschaffen, alles Licht absorbieren</entry>
                       </row>
 
                       <row>
                         <entry>2</entry>
 
-                        <entry>Farbiges Licht erschaffen<remark> (Basis +
-                        Farbe)</remark>, Schatten
-                        erzeugen/beeinflussen/verbergen<remark> (Basis +
-                        Feinjustierung)</remark>, Weißes Licht in bestimmter
-                        Form erschaffen<remark> (Basis +
-                        Form)</remark></entry>
+                        <entry>Farbiges Licht erschaffen, Schatten
+                        erzeugen/beeinflussen/verbergen, Weißes Licht in bestimmter
+                        Form erschaffen</entry>
                       </row>
 
                       <row>
                         <entry>3</entry>
 
-                        <entry>Regenbogen erschaffen<remark> (Basis + Form +
-                        Farben)</remark>, bewegliche Leuchtkugel<remark>
-                        (Basis + Form + Bewegung)</remark>, Gegner
-                        blenden<remark> (Basis + Leuchtrichtung nur ins
-                        Gesicht des Gegners + Bewegung gegen das
-                        Abschütteln)</remark></entry>
+                        <entry>Regenbogen erschaffen, bewegliche Leuchtkugel, Gegner
+                        blenden</entry>
                       </row>
 
                       <row>
@@ -4540,9 +4510,7 @@
               <listitem>
                 <para>Der Krafteinsatz bestimmt Wirkungsdauer und Fläche des
                 Zaubers sowie die Stärke des erzeugten Lichts bzw. der
-                Absorption.<remark>Form ist für Krafteinsatz unerheblich. //
-                NOCH ZU KLÄREN: Reichweitenregelung (vorher: Klasse
-                C)</remark><informaltable>
+                Absorption.<informaltable>
                     <tgroup cols="2">
                       <colspec colwidth="1*"/>
 
@@ -4575,11 +4543,7 @@
                           <entry>10 Minuten</entry>
 
                           <entry>Regenbogen mit 10 m Spannweite, einen
-                          Menschen rundherum unsichtbar machen<remark>
-                          (Unsichtbarkeit nur von einer Seite aus ist weniger
-                          kraftaufwändig. Interessant: damit kann man eine Tür
-                          einseitig unsichtbar machen, um
-                          hindurchzusehen.)</remark></entry>
+                          Menschen rundherum unsichtbar machen</entry>
                         </row>
 
                         <row>
@@ -4605,9 +4569,6 @@
               <term>Elektrizität</term>
 
               <listitem>
-                <remark>Strom erzeugen: Ein Teil der eingesetzten Kraft sollte
-                für den Zauber an sich draufgehen und nicht in Strom
-                umgewandelt werden.</remark>
               </listitem>
             </varlistentry>
 
@@ -4624,7 +4585,7 @@
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>FEHLT NOCH</remark></para>
+          <para></para>
         </section>
       </section>
 
@@ -4653,12 +4614,9 @@
               komplett lahmlegen.</para>
 
               <para>Generell sind alle Sinne beeinflussbar, also insbesondere
-              Sehen<remark> (Blenden, Schwarzweiß-Sicht, schreckliches
-              Monster, Wand statt eines Eingangs)</remark>, Hören, Riechen,
-              Schmecken und Tasten, aber auch Gleichgewichtssinn<remark> (jmd.
-              straucheln lassen)</remark>, Temperaturempfindung,
-              Schmerzempfindung, Körperempfindung<remark>
-              (Erschöpfung)</remark> sowie tierische Spezialsinne wie
+              Sehen, Hören, Riechen,
+              Schmecken und Tasten, aber auch Gleichgewichtssinn, Temperaturempfindung,
+              Schmerzempfindung, Körperempfindung sowie tierische Spezialsinne wie
               elektrische oder magnetische Wahrnehmung (wenn
               vorhanden).</para>
             </listitem>
@@ -4698,18 +4656,12 @@
 
               <para>Bei allen Manipulationen gleicht der Geist des Ziels
               eventuell entstehende leichte Ungereimtheiten aus und findet
-              Erklärungen<remark>, ganz ähnlich eines Demenzkranken, der sich
-              seines Zustands meist nicht bewusst ist</remark>.</para>
+              Erklärungen.</para>
 
               <para>Zum Löschen einer Erinnerung muss der Zaubernde den
-              genauen Inhalt dieser Erinnerung nicht kennen<remark> (dazu
-              bräuchte man dann Telepathie)</remark>, es reichen auch
+              genauen Inhalt dieser Erinnerung nicht kennen, es reichen auch
               Anweisungen wie „vergiss, was du letzten Sommer getan hast” oder
-              „vergiss, dass wir uns hier getroffen haben”.<remark> (Statt
-              krauftaufwändig große Erinnerungszeiträume zu löschen, könnte
-              man das Ziel übrigens auch per Zwang daran hindern, diese
-              Erinnerungen abzurufen, ggf. kommt man daran aber mit Hypnose
-              vorbei.)</remark></para>
+              „vergiss, dass wir uns hier getroffen haben”.</para>
             </listitem>
           </varlistentry>
 
@@ -4723,23 +4675,10 @@
               Zusammenhang die allgemeine, natürliche Tendenz zu gewissen
               Gefühlen und Handlungsweisen. So könnte ein kaltherziger Mensch
               für ein paar Tage mitfühlender gemacht oder eine Depression
-              gelindert werden.<remark> (Es gibt hier einen fließenden
-              Übergang zu einem dauerhaften Zwang. Ich würde sagen der
-              Unterschied besteht neben der höheren Wirkungsdauer darin, dass
-              eine Wesenszugänderung „natürlich” wirkt und ein Handeln infolge
-              eines Zwangs vom Ziel als eher „mechanisch” und unerklärlich
-              wahrgenommen wird.)</remark></para>
+              gelindert werden.</para>
             </listitem>
           </varlistentry>
         </variablelist>
-
-        <para><remark>TODO: Ausformulieren, bei Wesenszüge(?) einsortieren: Es
-        ist auch möglich eine Person zu dämpfen, so dass sie vorübergehend
-        keine Magie lenken kann — selbst permanente Dämpfungen sind, mit hohem
-        Aufwand, möglich.</remark></para>
-
-        <para><remark>NOCH FESTZULEGEN: Alle Zauberparameter fürs
-        Dämpfen.</remark></para>
 
         <section>
           <title>Mindestwurf</title>
@@ -4766,29 +4705,21 @@
                   <entry>1</entry>
 
                   <entry>Eine Markierung anbringen, die geistige Signatur
-                  verschleiern<remark> (ist beides sehr einfach, weil es kein
-                  Eingriff in den Geist ist, sondern nur „außen” Farbe bzw.
-                  Tarnnetz anbringen)</remark></entry>
+                  verschleiern</entry>
                 </row>
 
                 <row>
                   <entry>2</entry>
 
                   <entry>Einen Sinn beeinflussen (+1 für jeden weiteren), eine
-                  Emotion beeinflussen<remark> (Emotionen: Furcht/Angst/Panik,
-                  Wut, Rache/Hass, Begierde/Liebe, Abscheu/Ekel, Trauer,
-                  Freude/Glück, Amusement, Hoffnung, Hoffnungslosigkeit,
-                  Mut/Furchtlosigkeit, Gleichgültigkeit,
-                  Lustlosigkeit/Antriebslosigkeit, Mitgefühl)</remark>, den
-                  Geist in Schlaf versetzen<remark> ZU KLÄREN: ist das
-                  möglich?</remark></entry>
+                  Emotion beeinflussen, den
+                  Geist in Schlaf versetzen</entry>
                 </row>
 
                 <row>
                   <entry>3</entry>
 
-                  <entry>Befehl zu einzelner Aktion<remark> (z.B. Bewegungen
-                  kontrollieren)</remark>, Gedanke inijizieren, Trauminhalt
+                  <entry>Befehl zu einzelner Aktion, Gedanke inijizieren, Trauminhalt
                   manipulieren, Zwang installieren</entry>
                 </row>
 
@@ -4848,37 +4779,20 @@
                   <entry>1 Minute</entry>
 
                   <entry>Einen Sinn beeinflussen, eine Emotion
-                  beeinflussen<remark> (Hält deswegen nur kurz an, weil auch
-                  normalerweise Gefühle schnell hochkochen oder abflauen
-                  können, sprich sich die Gefühlsebene auch bei magischer
-                  Beeinflussung schnell wieder zurückpendeln kann. // Ob ein
-                  wütendes Ziel, das magisch beruhigt wird, nach Ablauf der
-                  Wirkungsdauer noch wütend ist, sollte der SL von der
-                  Wirkungsdauer abhängig machen - ist sie lang genug, ist die
-                  Wut „unter” der Unterdrückung tatsächlich
-                  vergangen.)</remark>, Trauminhalt manipulieren</entry>
+                  beeinflussen, Trauminhalt manipulieren</entry>
                 </row>
 
                 <row>
                   <entry>1 Stunde</entry>
 
-                  <entry>Befehl(e), Zwang<remark> (hält deswegen länger als
-                  Emotionsbeeinflussung, weil es subtil im tiefsten Inneren
-                  verankert ist und dem Geist gar nicht bewusst
-                  wird)</remark></entry>
+                  <entry>Befehl(e), Zwang</entry>
                 </row>
 
                 <row>
                   <entry>1 Tag</entry>
 
                   <entry>Eine Markierung anbringen, die geistige Signatur
-                  verschleiern<remark> (hält beides sehr lang, weil es nicht
-                  aktiv durch den Geist abgebaut wird, da es als „außen
-                  liegender Effekt” den Geist selbst ja gar nicht
-                  betrifft)</remark>, Wesenszug<remark> (hält deswegen sehr
-                  lange, weil der Geist die Wesenszüge im Alltag quasi als
-                  gegeben ansieht und nicht aktiv an ihnen
-                  arbeitet)</remark></entry>
+                  verschleiern, Wesenszug</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -4923,8 +4837,7 @@
 
           <itemizedlist>
             <listitem>
-              <para>Die Reichweite beträgt <remark>(bei allen
-              Geistmanipulations-Spielarten) </remark>1 Meter, 1 KP pro
+              <para>Die Reichweite beträgt 1 Meter, 1 KP pro
               weiterem Meter.</para>
             </listitem>
           </itemizedlist>
@@ -4933,26 +4846,13 @@
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>Erinnerungen manipulieren: ist nach Abschluss der
-          Zauberdauer erledigt.</remark></para>
-
-          <para><remark>Wesenszug: lange, aber nicht
-          stundenlang</remark></para>
+          <para></para>
         </section>
 
         <section>
           <title>Rettungswurf</title>
 
-          <para><remark>Hinweis von Michael: die Würfelboni beim Rettungswurf
-          dürfen nicht (nochmal) von der Komplexität des Zaubers abhängen,
-          sondern nur von der Schwere der Auswirkungen für den Charakter
-          (anhand seiner Prinzipien, Überzeugungen oder auch den zu
-          erwartenden Konsequenzen). Kurz: die Art des Effekts ist nicht so
-          entscheidend wie seine (möglichen/denkbaren) Auswirkungen.
-          </remark></para>
-
-          <para><remark>(Bewegungen kontrollieren: im wachen Zustand sehr
-          einfacher rettungswurf, im schlaf …)</remark></para>
+          <para></para>
         </section>
       </section>
 
@@ -4967,12 +4867,6 @@
         <para>Kraftmanipulation umfasst die Beeinflussung von anderen Zaubern
         und des Kraftgewebes. Dazu zählen neben der klassischen Antimagie auch
         verschiedene Formen der Kooperation beim Zaubern.</para>
-
-        <para><remark>Ergänzung Beschreibung: man kann ohne spüren zauber und
-        kraftmengen wahrnehmen, weil man auch mit dem bereich wasser das in
-        der luft enthaltene wasser beeinflussen kann obwohl man es nicht mit
-        bloßem auge erkennt. Aber: die Begründung zieht nicht, wenn wir Wasser
-        entfernen. Andere Begründung oder andere Entscheidung?</remark></para>
 
         <variablelist>
           <varlistentry>
@@ -4991,11 +4885,7 @@
 
               <para>Scheitert die Zauberprobe des Unterstützers, wird keine
               Kraft zur Verfügung gestellt. Der Hauptzauberer muss dann die
-              komplette geplante Kraftmenge allein aufbringen<remark> (weniger
-              geht nicht, denn die Zaubermatrix ist ja auf eine bestimmte
-              Kraftmenge ausgelegt. Das folgt aus der Tatsache, dass die
-              Kraftmenge eine durch Spüren aus der Matrix auslesbare
-              Information ist)</remark> oder den Zauber vorzeitig
+              komplette geplante Kraftmenge allein aufbringen oder den Zauber vorzeitig
               abbrechen.</para>
             </listitem>
           </varlistentry>
@@ -5013,10 +4903,7 @@
 
               <para>Gelingt dem Unterstützer die Zauberprobe, erhält der
               Hauptzauberer für jeden Erfolg des Unterstützers einen
-              Bonuswürfel für seine eigene Zauberprobe. <remark>(Will ein
-              Lehrmeister seinem Schüler nicht allzuviel helfen, kann er auch
-              weniger Würfel verschenken als er Erfolge hat - die restlichen
-              Erfolge verfallen aber trotzdem völlig.) </remark>Für das
+              Bonuswürfel für seine eigene Zauberprobe. Für das
               Scheitern der Probe sowie das Bereitstellen von Kraft gelten die
               oben stehenden Regeln.</para>
 
@@ -5028,22 +4915,7 @@
               mit Fertigkeit A durch, der Unterstützer die Zauberprobe mit B
               (primär) und Kraftmanipulation. Gelingt die Probe des
               Unterstützers, erhält der Hauptzauberer Bonuswürfel und Kraft,
-              scheitert er jedoch, scheitert auch der Zauber insgesamt<remark>
-              (denn ohne B geht es nunmal nicht)</remark>.</para>
-
-              <para><remark>Anmerkungen zur Funktionsweise:</remark></para>
-
-              <para><remark>Der Hauptzauberer formt die Zaubermatrix. Außerdem
-              zwingt er unter Anstrengung Kraft hinein (am Zielort, nicht bei
-              oder durch sich). Der Unterstützer tut das gleiche. Er kann das
-              aber nicht beliebig tun, denn zum einen ist die Matrix auf eine
-              gewisse Kraftmenge ausgelegt (siehe Kommentar oben) und zum
-              anderen muss der Hauptzauberer auf die Hilfe vorbereitet
-              sein.</remark></para>
-
-              <para><remark>Hilft der Unterstützer auch bei der Zauberprobe,
-              arbeitet er mit an (einer anderen Ecke) der
-              Zaubermatrix.</remark></para>
+              scheitert er jedoch, scheitert auch der Zauber insgesamt.</para>
             </listitem>
           </varlistentry>
 
@@ -5074,9 +4946,6 @@
               vorgetäuscht wird, wird ebenfalls vorab eine
               Kraftmanipulations-Probe durchgeführt. Der Mindestwurf beträgt
               4.</para>
-
-              <para><remark>TODO: Prüfen, ob MW 3 und 4 zu wenig
-              ist.</remark></para>
             </listitem>
           </varlistentry>
 
