@@ -3,9 +3,32 @@
 	src: url('Ressourcen/Carolingia.woff') format('woff');
 }
 
+@font-face {
+	font-family: 'TeX Gyre Chorus medium italic';
+	src: url('Ressourcen/texgyrechorus-mediumitalic.woff') format('woff');
+}
+
 .example {
-	border-style: outset;
-	background-color: khaki;
+	width: 90%;
+	margin: 2em auto;
+	border-radius: 1em;
+	padding: 0.1em 1.2em;
+	font-family: 'TeX Gyre Chorus medium italic';
+	font-size: 1.1rem;
+}
+
+@media screen {
+	.example {
+		box-shadow: 0.75em 0.75em 1em #afa95b;
+		background-color: khaki;
+	}
+}
+
+@media print {
+	.example {
+		border: 1px solid black;
+		page-break-inside: avoid;
+	}
 }
 
 .interjection {
