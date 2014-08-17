@@ -60,6 +60,9 @@ body {
 	text-align: justify;
 	font-size: 12pt;
 	line-height: 1.5;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 body.error {
