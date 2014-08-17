@@ -8,6 +8,34 @@ $(function() {
         logError("Failed to load", this);
     });
 
+    function displayUnknownRevisionMessage() {
+        $("#revision").text("Stand: unbekannt");
+    }
+    $.ajax({
+        url : "../buildinfo.json",
+        success : function(buildinfo) {
+            if ('revision' in buildinfo && 'time' in buildinfo) {
+                var regex = /^(\d{4})-(\d{2})-(\d{2}).*$/;
+                var match = regex.exec(buildinfo.time);
+                var readableDate = match[3] + "." + match[2] + "." + match[1];
+
+                var readableRevision = buildinfo.revision.substr(0, 7);
+
+                $("#revision").text(
+                        "Stand: " + readableDate + ", " + readableRevision);
+            } else {
+                console.log("missing properties in buildinfo", buildinfo);
+                displayUnknownRevisionMessage();
+            }
+        },
+        error : function(jqXHR, textStatus, errorThrown) {
+            console.log("buildinfo could not be parsed: " + errorThrown);
+            console.log("raw buildinfo:", jqXHR.responseText);
+            displayUnknownRevisionMessage();
+        },
+        dataType : "json"
+    });
+
     function processLink(index, domElement) {
         var element = $(domElement);
         var href = element.attr("href");
