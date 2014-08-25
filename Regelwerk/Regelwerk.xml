@@ -4958,27 +4958,7 @@
               <firstterm>kontern</firstterm>. Dazu wird während der
               Zauberdauer eine vergleichende Kraftmanipulations-Zauberprobe
               durchgeführt. Gewinnt die Kraftmanipulationsprobe den Vergleich,
-              verpufft der ursprüngliche Zauber wirkungslos.
-              <remark>(Hintergrund: es soll schwieriger sein, eine
-              Zaubermatrix zu zerstören, als sie zu erzeugen. Das ist durch
-              die neuen Vergleichsproben-Regeln
-              sichergestellt.)</remark></para>
-
-              <para><remark>Abgesehen vom Kontern kann man fremde Zauber nicht
-              beeinflussen. Es erscheint nämlich nur schwer erklärbar, warum
-              man unter den Augen des Zaubernden Details der Matrix umbaut,
-              ohne dass dieser es bemerkt und gegensteuert oder einfach mit
-              dem Zauber aufhört.</remark></para>
-
-              <para><remark>TODO: Wie verhält es sich zwischen Kontern
-              einerseits und Zauber während der Wirkungsdauer zerstören
-              andererseits? Eindeutig einfacher wäre keins von beiden:
-              einerseits erscheint es einfacher etwas im Aufbau befindliches
-              zu zerstören als etwas fertiges, andererseits ist es einfacher
-              etwas fertiges, bei dem kein Gegner wieder aufbaut, zu zerstören
-              - die beiden Argumente heben sich gegenseitig auf. Anderes
-              Argument: fertiges Haus ist stabiler als Rohbau, Entzauberung
-              ist also schwerer (z.B. MW+2 oder 3)</remark></para>
+              verpufft der ursprüngliche Zauber wirkungslos.</para>
             </listitem>
           </varlistentry>
 
@@ -4998,9 +4978,7 @@
 
               <para>Innerhalb eines Antimagie-Felds können Artefakte mit
               gespeicherter Kraft normal ausgelöst bzw. benutzt
-              werden.<remark> Werden Artefakte genutzt, die nur Kraft, aber
-              keinen Zauber enthalten (siehe "Well" aus WoT), entfällt
-              natürlich die MW-Modifikation.</remark></para>
+              werden.</para>
 
               <para>Statt eines Antimagie-Felds kann auch ein
               <firstterm>Schild</firstterm> geschaffen werden. Vor und hinter
@@ -5009,9 +4987,7 @@
               Regelung. Dabei ist aber zu beachten, dass sich bei der Mehrzahl
               der Magiefertigkeiten ein Zauber nicht auf einer Bahn vom
               Entstehungsort zum Ziel bewegt, sondern direkt am Ziel entsteht.
-              <remark>Heißt: ein Antimagie-Schild ist nur in verhältnismäßig
-              wenigen Situationen hilfreich und zum Ausgleich mit einem
-              niedrigen MW versehen.</remark></para>
+              </para>
 
               <para>Weil das lokalen Kraftgewebe verändert wird, sind sowohl
               Antimagie-Felder als auch -Schilde immer stationär; zur
@@ -5196,12 +5172,7 @@
                 </informaltable>
 
                 <para>Die Distanz zum Zentrum des Felds beträgt bis zu 4 Meter
-                pro zusätzlichem Kraftpunkt.<remark> (Begründung: die 4 hat
-                man sich wegen der Größe sowieso gemerkt)</remark></para>
-
-                <para><remark>Größe soll teurer sein als Wirkungsdauer, denn
-                je größer der Bereich, desto größer seine Oberfläche und desto
-                mehr Kraft drückt von außen wieder herein.</remark></para>
+                pro zusätzlichem Kraftpunkt.</para>
               </listitem>
             </varlistentry>
 
@@ -5336,12 +5307,6 @@
           </varlistentry>
         </variablelist>
 
-        <para><remark>ALTE Reichweitenregelung, muss noch bei MW/Kraft
-        eingebaut werden:</remark></para>
-
-        <remark>Normalerweise Berührung, ansonsten steigt die Schwierigkeit
-        pro angefangenem Meter Distanz um 3.</remark>
-
         <section xml:id="lebewesen-mw">
           <title>Mindestwurf</title>
 
@@ -5425,13 +5390,6 @@
               </tbody>
             </tgroup>
           </informaltable>
-
-          <para><remark>Anmerkung: eine „Entzauberung” eines bereits auf das
-          Lebewesen wirkenden Zaubers geschieht allein mit der
-          Lebewesen-Fertigkeit als „Originalzustand wiederherstellen”, nicht
-          mit Kraftmanipulation (denn der Originalzauber ist ja bereits
-          beendet). Der MW ist der gleichen wie beim
-          Originalzauber.</remark></para>
         </section>
 
         <section>
