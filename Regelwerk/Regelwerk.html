@@ -187,8 +187,8 @@
                                 <td>Willenskraft</td>
                                 <td>WK</td>
                                 <td>Entschlossenheit,
-                                    Konzentration, Ertragen von
-                                    Schmerzen. Wichtig für Magie.</td>
+                                    Konzentration, Schadensvermeidung
+                                    beim Zaubern.</td>
                             </tr>
                             <tr>
                                 <td><img
@@ -1336,8 +1336,9 @@
         <p>Jeder Schaden, den ein Charakter erhält, ist entweder
             körperlicher oder geistiger Schaden. In beiden Fällen steht
             dem Charakter ein Widerstandswurf zu, der seine Zähigkeit
-            und Widerstandsfähigkeit repräsentiert. Für jeden Erfolg bei
-            diesem Wurf wird der Schaden um 1 reduziert.</p>
+            und Widerstandsfähigkeit repräsentiert. Dieser Wurf wird mit
+            den Würfeln des Attributs Konstitution durchgeführt. Für
+            jeden Erfolg wird der Schaden um 1 reduziert.</p>
 
         <p>Der tatsächlich erhaltene Schaden wird durch Ankreuzen
             der 12 Stufen der jeweiligen Schadensleiste auf dem
@@ -1414,9 +1415,6 @@
                 Verletzungen, werden dafür Stufen seiner körperlichen
                 Schadensleiste angekreuzt.</p>
 
-            <p>Der Widerstandswurf für körperlichen Schaden wird mit
-                dem Attribut Konstitution durchgeführt.</p>
-
             <p>Je mehr Schaden ein Charakter erhalten hat, desto
                 schwächer wird er: die Verletzungen verursachen nicht
                 nur Schmerzen, sondern schränken auch die
@@ -1475,9 +1473,6 @@
                 Beispiel in Form von Müdigkeit oder Kopfschmerzen,
                 verursachen. Dieser Schaden wird durch die geistige
                 Schadensleiste dargestellt.</p>
-
-            <p>Der Widerstandswurf für geistigen Schaden wird mit
-                dem Attribut Willenskraft durchgeführt.</p>
 
             <p>Hat ein Charakter geistigen Schaden erhalten, wird er
                 zunehmend unkonzentrierter und erschöpfter, bis zur
@@ -1859,11 +1854,10 @@
                 <dt>Widerstandswurf</dt>
                 <dd>
                     <p>Schließlich führt der Verteidiger einen
-                        Widerstandswurf durch: für körperlichen Schaden
-                        mit Konstitution, für geistigen Schaden mit
-                        Willenskraft. Die Würfelanzahl wird
-                        gegebenenfalls noch durch den Widerstandsbonus
-                        seiner Rüstung erhöht.</p>
+                        Widerstandswurf mit dem Attribut Konstitution
+                        durch. Die Würfelanzahl wird gegebenenfalls noch
+                        durch den Widerstandsbonus seiner Rüstung
+                        erhöht.</p>
 
                     <p>Für jeden Erfolg bei diesem Wurf wird der
                         Schaden um 1 reduziert.</p>
@@ -2309,8 +2303,8 @@
             <p>Das Lenken von Kraft stellt für den Zaubernden eine
                 große mentale Anstrengung dar, deren negative
                 Auswirkungen am Ende der Zauberdauer eintreten. Sie
-                können aber durch den Kraftwiderstandswurf verringert
-                oder vermieden werden.</p>
+                können aber durch den Entzugswurf verringert oder
+                vermieden werden.</p>
 
             <p>Die folgenden Abschnitte beschreiben den genauen
                 Ablauf des Zauberns, gefolgt von Regeln für triviale
@@ -2331,8 +2325,7 @@
 
             <p>
                 Zuviel Kraft lässt den Zaubernden jedoch ermüden oder
-                schädigt ihn sogar (siehe <a
-                    href="#kraftwiderstandswurf"></a>).
+                schädigt ihn sogar (siehe <a href="#entzugswurf"></a>).
             </p>
 
             <div class="example">
@@ -2362,7 +2355,7 @@
             <p>
                 Dabei kann der Charakter auf einen oder mehrere
                 Fertigkeitswürfel verzichten, um sie stattdessen als
-                Bonuswürfel beim <a href="#kraftwiderstandswurf">Kraftwiderstandswurf</a>
+                Bonuswürfel beim <a href="#entzugswurf">Entzugswurf</a>
                 einzusetzen.
             </p>
 
@@ -2370,10 +2363,9 @@
                 Gelingt die Probe, erhält der Charakter für jeden
                 Erfolg, welcher über den geforderten Mindestwurf
                 hinausgeht, einen weiteren Bonuswürfel für den
-                Kraftwiderstandswurf. Der Zauber ist jedoch nur
-                gelungen, wenn die Konzentration des Charakters während
-                der Zauberdauer nicht gestört wird (siehe <a
-                    href="#zauberdauer"></a>).
+                Entzugswurf. Der Zauber ist jedoch nur gelungen, wenn
+                die Konzentration des Charakters während der Zauberdauer
+                nicht gestört wird (siehe <a href="#zauberdauer"></a>).
             </p>
 
             <p>Scheitert die Probe, stellt der Charakter dies nicht
@@ -2385,7 +2377,7 @@
                     erfahren: er hat Materie 2 und Lebewesen 2, also 4
                     Würfel für die Zauberprobe zur Verfügung. Um nicht
                     zu riskieren, dass der Zauber scheitert, verzichtet
-                    er darauf, davon Würfel für den Kraftwiderstandswurf
+                    er darauf, davon Würfel für den Entzugswurf
                     aufzuheben. Er führt die Zauberprobe mit 4 Würfeln
                     aus und erzielt 2 Erfolge, also genau den benötigten
                     Mindestwurf.</p>
@@ -2456,8 +2448,8 @@
                 Zaubernde ist dennoch beschäftigt.</p>
         </section>
 
-        <section id="kraftwiderstandswurf">
-            <h1>Kraftwiderstandswurf</h1>
+        <section id="entzugswurf">
+            <h1>Entzugswurf</h1>
 
             <p>Für einen Zauber zieht ein Charakter Kraft aus der
                 Umgebung zusammen und presst sie in das Gewebe seines
@@ -2470,21 +2462,20 @@
 
             <p>Unabhängig davon, ob der Zauber letztlich gelungen
                 ist, legt der Charakter am Ende der Zauberdauer einen
-                geistigen Widerstandswurf ab, um zu ermitteln wieviel
-                Schaden er durch diesen Zauber erhält. Dieser
-                Kraftwiderstandswurf wird mit den Würfeln des Attributs
-                Willenskraft sowie etwaigen Bonuswürfeln aus der
-                Zauberprobe (siehe oben) durchgeführt.</p>
+                Entzugswurf ab, um zu ermitteln wieviel Schaden er durch
+                diesen Zauber erhält. Dieser Wurf wird mit den Würfeln
+                des Attributs Willenskraft sowie etwaigen Bonuswürfeln
+                aus der Zauberprobe (siehe oben) durchgeführt.</p>
 
             <p>Der erhaltene geistige Schaden entspricht der Anzahl
                 der verwendeten Kraftpunkte, vermindert um die beim
-                Widerstandswurf erzielten Erfolge.</p>
+                Entzugswurf erzielten Erfolge.</p>
 
             <div class="example">
                 <p>Tharion hat für seinen Nachtsicht-Zauber 2
                     Kraftpunkte verwendet. Weil er keine Bonuswürfel aus
                     der Zauberprobe erhält, stehen ihm für den
-                    Widerstandswurf nur seine 5 Willenskraft-Würfel zur
+                    Entzugswurf nur seine 5 Willenskraft-Würfel zur
                     Verfügung. Bei der Probe hat er Pech und erzielt nur
                     1 Erfolg, erhält also 1 geistigen Schadenspunkt.</p>
             </div>
@@ -2499,8 +2490,8 @@
                 des Zaubers und der Menge der eingesetzten Kraft
                 abhängt. Nach Ablauf dieser Zeit kann der Zauber jedoch
                 wieder mit neuer Kraft versorgt werden &#8212; das
-                heißt, der Zaubernde muss erneut einen
-                Kraftwiderstandswurf ablegen.</p>
+                heißt, der Zaubernde muss erneut einen Entzugswurf
+                ablegen.</p>
 
             <p>Viele Zauber erhalten sich selbstständig, in dem sie
                 sich aus der enthaltenen Kraft speisen. Manche Zauber
@@ -2525,10 +2516,10 @@
                 Erfolgsanzahl beträgt dann 1 und der Charakter erhält
                 keinen geistigen Schaden.</p>
 
-            <p>Zauberprobe und Kraftwiderstandswurf müssen jedoch
-                immer durchgeführt werden, wenn sich der Charakter im
-                Kampf befindet, ein Vergleichswurf gefordert wird oder
-                der Spieler es wünscht &#8212; zum Beispiel weil er
+            <p>Zauberprobe und Entzugswurf müssen jedoch immer
+                durchgeführt werden, wenn sich der Charakter im Kampf
+                befindet, ein Vergleichswurf gefordert wird oder der
+                Spieler es wünscht &#8212; zum Beispiel weil er
                 besonders viele Erfolge erreichen möchte.</p>
         </section>
     </section>
@@ -3253,15 +3244,15 @@
                                 zusätzliche Kraft zur Verfügung zu
                                 stellen, führt der Unterstützer eine
                                 Kraftmanipulations-Zauberprobe inklusive
-                                Widerstandswurf durch.</p>
+                                Entzugswurf durch.</p>
 
                             <p>Gelingt ihm dieser Zauber, steht dem
                                 Hauptzauberer die entsprechende
                                 Kraftmenge für seinen Zauber zur
                                 Verfügung. Der Hauptzauberer führt
-                                seinen Widerstandswurf jedoch nur gegen
-                                die Kraft durch, die er selbst in den
-                                Zauber gelenkt hat.</p>
+                                seinen Entzugswurf jedoch nur gegen die
+                                Kraft durch, die er selbst in den Zauber
+                                gelenkt hat.</p>
 
                             <p>Scheitert die Zauberprobe des
                                 Unterstützers, wird keine Kraft zur
