@@ -8,6 +8,11 @@
 	src: url('Ressourcen/texgyrechorus-mediumitalic.woff') format('woff');
 }
 
+a:link,
+a:visited {
+	color: #00E;
+}
+
 .example {
 	width: 90%;
 	margin: 2em auto;
@@ -156,11 +161,11 @@ nav ol.A {
 	list-style-type: upper-alpha;
 }
 
-/* Chapter headings */
-section:target>h1 {
-	color: #007D50;
+nav a:target {
+	background-color: lightblue;
 }
 
+/* Chapter headings */
 h1, th {
 	font-family: Carolingia, Arial, sans-serif;
 	font-weight: normal;
@@ -238,9 +243,33 @@ main>section>section>section>section>h1:before {
 		counter(level4) " ";
 }
 
+
+/* Navigation aids */
+
+h1 .buttons {
+	position: absolute;
+	padding-left: 0.2em;
+}
+
+h1 .buttons .fa {
+	padding: 0 0.25em;
+	cursor: pointer;
+	background: lightblue;
+	border-radius: 0.2em;
+	margin: 0 0.1em;
+}
+
+h1 .buttons .break {
+	padding: 0 0.2em;
+}
+
 /* Print/PDF styles */
 @media print {
 	main>section+section {
 		page-break-before: always;
+	}
+	
+	h1 .buttons {
+		display: none;
 	}
 }

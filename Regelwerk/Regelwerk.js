@@ -69,6 +69,92 @@ $(function() {
     }
     $("a[href^=#]").each(processLink);
 
+    function jumpToNext() {
+        var subSections = $(this).parents("h1").nextAll("section");
+        var siblingSections = $(this).parents("section").next();
+        var target = $().add(subSections).add(siblingSections).first();
+        jumpTo(target);
+    }
+
+    function jumpToPrevious() {
+        var siblingSection = $(this).parents("section").first().prevAll(
+                "section").first();
+        var siblingDeepestSection = siblingSection.children().andSelf().filter(
+                "section").last();
+
+        var parentSection = $(this).parents("section").slice(1).first();
+
+        var target;
+        if (siblingDeepestSection.length) {
+            target = siblingDeepestSection;
+        } else {
+            target = parentSection;
+        }
+        jumpTo(target);
+    }
+
+    function getOrGenerateIdFor(element) {
+        var id = element.attr("id");
+        if (!id) {
+            id = new String(Math.random()).substr(2);
+            element.attr("id", id);
+        }
+        return id;
+    }
+
+    function jumpTo(element) {
+        var id = getOrGenerateIdFor(element);
+        window.location.hash = "#" + id;
+    }
+
+    function jumpToNav() {
+        $("nav .currentposition").removeClass("currentposition");
+        $(this).parents("section").each(
+                function(index, element) {
+                    var id = $(element).first().attr("id");
+                    var target = $("#toc_" + id);
+                    if (target.length) {
+                        jumpTo(target);
+                        window.scrollBy(0,
+                                -(document.documentElement.clientHeight / 2));
+                        return false;
+                    }
+                });
+    }
+
+    $(window).on('hashchange', function() {
+        if (window.location.hash.substr(0, 5) != "#toc_") {
+            ensureNotObscured($(window.location.hash));
+        }
+    });
+
+    function ensureNotObscured(target) {
+        // Google Chrome mobile redisplays its toolbar when the hash
+        // changes, thus hiding the target element. We detect and fix
+        // this quickly if it occurs during the first second.
+        var interval = window.setInterval(function() {
+            if (!isElementInViewport(target)) {
+                $(window.location.hash)[0].scrollIntoView();
+            }
+        }, 50);
+
+        window.setTimeout(function() {
+            window.clearInterval(interval);
+        }, 1000);
+    }
+
+    function isElementInViewport(el) {
+        if (el instanceof jQuery) {
+            el = el[0];
+        }
+
+        var rect = el.getBoundingClientRect();
+
+        return (rect.top >= 0 && rect.left >= 0
+                && rect.bottom <= $(window).height() && rect.right <= $(window)
+                .width());
+    }
+
     var maxLevel = 2;
     function generateToc(rootSection, targetElement, rootSectionTemplate,
             subSectionTemplate) {
@@ -77,39 +163,50 @@ $(function() {
         }
         var lastLevel = 0;
         var container = targetElement;
-        rootSection.find("section").each(
-                function(index, htmlElement) {
-                    var element = $(htmlElement);
-                    var text = element.find("> h1").text();
-                    var level = element.parents("section").length + 1;
+        rootSection.find("section")
+                .each(
+                        function(index, htmlElement) {
+                            var element = $(htmlElement);
+                            var level = element.parents("section").length + 1;
 
-                    if (level <= maxLevel) {
-                        if (level > lastLevel) {
-                            if (level == 1) {
-                                container = $(rootSectionTemplate).appendTo(
-                                        container);
-                            } else {
-                                container = $(subSectionTemplate).appendTo(
-                                        container);
+                            var heading = element.find("> h1");
+                            var text = heading.text();
+
+                            var buttons = $("<span class='buttons'>").appendTo(
+                                    heading);
+                            $('<i class="fa fa-angle-up">').click(
+                                    jumpToPrevious).appendTo(buttons);
+                            $('<i class="fa fa-angle-down">').click(jumpToNext)
+                                    .appendTo(buttons);
+
+                            buttons.append('<i class="break">');
+                            $('<i class="fa fa-list">').click(jumpToNav)
+                                    .appendTo(buttons);
+
+                            if (level <= maxLevel) {
+                                if (level > lastLevel) {
+                                    if (level == 1) {
+                                        container = $(rootSectionTemplate)
+                                                .appendTo(container);
+                                    } else {
+                                        container = $(subSectionTemplate)
+                                                .appendTo(container);
+                                    }
+                                } else {
+                                    for (var i = lastLevel; i > level; i--) {
+                                        container = container.parent();
+                                    }
+                                }
+
+                                var id = getOrGenerateIdFor(element);
+
+                                var link = $("<a>").attr("href", "#" + id)
+                                        .attr("id", "toc_" + id).text(text);
+
+                                $("<li>").append(link).appendTo(container);
+                                lastLevel = level;
                             }
-                        } else {
-                            for (var i = lastLevel; i > level; i--) {
-                                container = container.parent();
-                            }
-                        }
-
-                        if (!element.attr("id")) {
-                            element.attr("id", new String(Math.random())
-                                    .substr(2));
-                        }
-
-                        var link = $("<a>").attr("href",
-                                "#" + element.attr("id")).text(text);
-
-                        $("<li>").append(link).appendTo(container);
-                        lastLevel = level;
-                    }
-                });
+                        });
     }
 
     var container = $("nav");
