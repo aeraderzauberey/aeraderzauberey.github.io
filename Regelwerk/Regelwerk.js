@@ -108,12 +108,12 @@ $(function() {
     }
 
     function jumpToNav() {
-        $("nav .currentposition").removeClass("currentposition");
         $(this).parents("section").each(
                 function(index, element) {
                     var id = $(element).first().attr("id");
                     var target = $("#toc_" + id);
                     if (target.length) {
+                        target.parents("ol, ul").parents(".collapsed").toggleClass("collapsed").toggleClass("expanded");
                         jumpTo(target);
                         window.scrollBy(0,
                                 -(document.documentElement.clientHeight / 2));
@@ -155,7 +155,8 @@ $(function() {
                 .width());
     }
 
-    var maxLevel = 2;
+    var maxLevel = 3;
+    var maxInitialLevel = 2;
     function generateToc(rootSection, targetElement, rootSectionTemplate,
             subSectionTemplate) {
         if (!subSectionTemplate) {
@@ -163,50 +164,59 @@ $(function() {
         }
         var lastLevel = 0;
         var container = targetElement;
-        rootSection.find("section")
-                .each(
-                        function(index, htmlElement) {
-                            var element = $(htmlElement);
-                            var level = element.parents("section").length + 1;
+        var currentList = null;
 
-                            var heading = element.find("> h1");
-                            var text = heading.text();
+        function toggleToc() {
+            $(this).parents(".collapsible").toggleClass("collapsed").toggleClass("expanded");
+        }
+        function processSection(index, htmlElement) {
+            var element = $(htmlElement);
+            var level = element.parents("section").length + 1;
 
-                            var buttons = $("<span class='buttons'>").appendTo(
-                                    heading);
-                            $('<i class="fa fa-angle-up">').click(
-                                    jumpToPrevious).appendTo(buttons);
-                            $('<i class="fa fa-angle-down">').click(jumpToNext)
-                                    .appendTo(buttons);
+            var heading = element.find("> h1");
+            var text = heading.text();
 
-                            buttons.append('<i class="break">');
-                            $('<i class="fa fa-list">').click(jumpToNav)
-                                    .appendTo(buttons);
+            var buttons = $("<span class='buttons'>").appendTo(heading);
+            $('<i class="fa fa-angle-up">').click(jumpToPrevious).appendTo(
+                    buttons);
+            $('<i class="fa fa-angle-down">').click(jumpToNext).appendTo(
+                    buttons);
 
-                            if (level <= maxLevel) {
-                                if (level > lastLevel) {
-                                    if (level == 1) {
-                                        container = $(rootSectionTemplate)
-                                                .appendTo(container);
-                                    } else {
-                                        container = $(subSectionTemplate)
-                                                .appendTo(container);
-                                    }
-                                } else {
-                                    for (var i = lastLevel; i > level; i--) {
-                                        container = container.parent();
-                                    }
-                                }
+            buttons.append('<i class="break">');
+            $('<i class="fa fa-list">').click(jumpToNav).appendTo(buttons);
 
-                                var id = getOrGenerateIdFor(element);
+            if (level <= maxLevel) {
+                if (level > lastLevel) {
+                    if (level == 1) {
+                        currentList = $(rootSectionTemplate).appendTo(targetElement);
+                    } else {
+                        currentList = $(subSectionTemplate).appendTo(currentList.children().last());
+                    }
+                } else if (level < lastLevel){
+                    for (var i = lastLevel; i > level; i--) {
+                        currentList = currentList.parent().parent();
+                    }
+                }
 
-                                var link = $("<a>").attr("href", "#" + id)
-                                        .attr("id", "toc_" + id).text(text);
+                var id = getOrGenerateIdFor(element);
 
-                                $("<li>").append(link).appendTo(container);
-                                lastLevel = level;
-                            }
-                        });
+                var link = $("<a>").attr("href", "#" + id).attr("id",
+                        "toc_" + id).text(text);
+
+                var li = $("<li>").append(link).appendTo(currentList);
+
+                if (level > maxInitialLevel) {
+                    var parentLi = currentList.parent();
+                    if (!parentLi.hasClass("collapsible")) {
+                        parentLi.addClass("collapsible collapsed");
+                        $('<span class="toggler"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>').click(toggleToc).insertBefore(currentList);
+                    }
+                }
+                lastLevel = level;
+            }
+        }
+
+        rootSection.find("section").each(processSection);
     }
 
     var container = $("nav");

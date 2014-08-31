@@ -8,8 +8,7 @@
 	src: url('Ressourcen/texgyrechorus-mediumitalic.woff') format('woff');
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
 	color: #00E;
 }
 
@@ -148,6 +147,18 @@ nav li {
 	margin: 0.25em 0 0.25em 0;
 }
 
+nav .collapsed > ol, nav .collapsed > ul {
+	display: none;
+}
+
+.collapsed > .toggler .fa-minus {
+	display: none;
+}
+
+.expanded > .toggler .fa-plus {
+	display: none;
+}
+
 nav ol {
 	list-style-position: inside;
 }
@@ -243,16 +254,14 @@ main>section>section>section>section>h1:before {
 		counter(level4) " ";
 }
 
-
-/* Navigation aids */
-
-h1 .buttons {
+/* Navigation aids, expandable TOC */
+h1 .buttons, nav .toggler {
 	position: absolute;
 	padding-left: 0.2em;
 }
 
-h1 .buttons .fa {
-	padding: 0 0.25em;
+h1 .buttons .fa, nav .toggler .fa {
+	padding: 0.2em 0.25em 0.15em 0.25em;
 	cursor: pointer;
 	background: lightblue;
 	border-radius: 0.2em;
@@ -268,8 +277,7 @@ h1 .buttons .break {
 	main>section+section {
 		page-break-before: always;
 	}
-	
-	h1 .buttons {
+	h1 .buttons, nav .toggler {
 		display: none;
 	}
 }
