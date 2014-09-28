@@ -134,6 +134,15 @@ table, th, td {
 	border: 1px solid;
 }
 
+.icon {
+	width: 1.5em;
+}
+
+h1 .icon {
+	position: relative;
+	top: 0.45em;
+}
+
 /* TOC */
 nav ol, nav ul {
 	margin: 0;
