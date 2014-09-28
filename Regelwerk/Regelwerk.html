@@ -4832,611 +4832,759 @@
             <section id="waffen">
                 <h1>Waffen</h1>
 
+                <section id="nahkampfwaffen">
+                    <h1>Nahkampf</h1>
+                    <section id="waffenlos">
+                        <h1>Unbewaffnet (GE/KK)</h1>
 
-                <figure id="waffentabelle">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Typ</th>
-                                <th>Schadenscode</th>
-                                <th>Maximalschaden</th>
-                                <th>Verteidigungsmodifikator</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Unbewaffnet (GE/KK)</th>
-                            </tr>
-                            <tr>
-                                <td>Boxen</td>
-                                <td>1 + (KK-5)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Capoeira</td>
-                                <td>1 + (GE-5)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Karate</td>
-                                <td>1 + (GE-5)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Klauen/Fang (tierisch)</td>
-                                <td>2 + (GE-5)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Kung Fu</td>
-                                <td>1 + (KK-5)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Raufen</td>
-                                <td>0 + (KK-5)</td>
-                                <td>2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Dolche (GE)</th>
-                            </tr>
-                            <tr>
-                                <td>Dolch</td>
-                                <td>1 + (GE-3)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Erntemesser*</td>
-                                <td>1 + (GE-2)</td>
-                                <td>2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Messer</td>
-                                <td>1 + (GE-2)</td>
-                                <td>2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Parierdolch</td>
-                                <td>1 + (GE-4)</td>
-                                <td>2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Sichel*</td>
-                                <td>1 + (GE-3)</td>
-                                <td>3</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Fechtwaffen (GE)</th>
-                            </tr>
-                            <tr>
-                                <td>Degen</td>
-                                <td>2 + (GE-5)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Dussack</td>
-                                <td>2 + (GE-3)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Florett</td>
-                                <td>2 + (GE-4)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Rapier</td>
-                                <td>2 + (GE-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Hiebwaffen (KK)</th>
-                            </tr>
-                            <tr>
-                                <td>Axt (einhändig)</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Bartaxt</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Dreschflegel*</td>
-                                <td>2 + (KK-4)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Knüppel</td>
-                                <td>2 + (KK-4)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Kriegsflegel</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Kriegshammer</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Machete</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Morgenstern</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Schmiedehammer</td>
-                                <td>2 + (KK-4)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Zweihand-Hiebwaffen (KK)</th>
-                            </tr>
-                            <tr>
-                                <td>Bidenhänder</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Doppelblatt-Axt</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Großaxt</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Ogeraxt</td>
-                                <td>6 + (KK-7)</td>
-                                <td>9</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Schwerter (KK)</th>
-                            </tr>
-                            <tr>
-                                <td>Bastardschwert</td>
-                                <td>4 + (KK-5)</td>
-                                <td>6</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Katana</td>
-                                <td>4 + (KK-5)</td>
-                                <td>6</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Kurzschwert</td>
-                                <td>2 + (KK-3)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Säbel</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Schwert</td>
-                                <td>3 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Wakizashi</td>
-                                <td>2 + (KK-3)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Stangenwaffen (KK)</th>
-                            </tr>
-                            <tr>
-                                <td>Bardiche</td>
-                                <td>6 + (KK-7)</td>
-                                <td>8</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Glefe</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Hellebarde</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Kampfstab</td>
-                                <td>2 + (KK-4)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Kriegssense</td>
-                                <td>5 + (KK-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Partisane</td>
-                                <td>4 + (KK-5)</td>
-                                <td>6</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Sense*</td>
-                                <td>3 + (KK-4)</td>
-                                <td>6</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Speer</td>
-                                <td>4 + (KK-5)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Speer (einhändig)</td>
-                                <td>3 + (KK-4)</td>
-                                <td>6</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Wanderstab*</td>
-                                <td>2 + (KK-3)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Armbrüste (FF)</th>
-                            </tr>
-                            <tr>
-                                <td>Leichte Armbrust</td>
-                                <td>4 + (FF-5)</td>
-                                <td>6</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Ogerarmbrust</td>
-                                <td>6 + (FF-7)</td>
-                                <td>8</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Pistolenarmbrust</td>
-                                <td>2 + (FF-3)</td>
-                                <td>4</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Riesenarmbrust</td>
-                                <td>7 + (FF-8)</td>
-                                <td>9</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Schwere Armbrust</td>
-                                <td>5 + (FF-6)</td>
-                                <td>6</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Bögen (FF)</th>
-                            </tr>
-                            <tr>
-                                <td>Kriegsbogen</td>
-                                <td>6 + (FF-7)</td>
-                                <td>8</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Kriegsbogen (Stahl)</td>
-                                <td>7 + (FF-8)</td>
-                                <td>9</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Kurzbogen</td>
-                                <td>2 + (FF-3)</td>
-                                <td>4</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Kurzbogen (Komposit)</td>
-                                <td>4 + (FF-5)</td>
-                                <td>5</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Langbogen</td>
-                                <td>4 + (FF-5)</td>
-                                <td>6</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Langbogen (Komposit)</td>
-                                <td>5 + (FF-6)</td>
-                                <td>7</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Wurfwaffen (FF)</th>
-                            </tr>
-                            <tr>
-                                <td>Dolch</td>
-                                <td>1 + (FF-3)</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Wurfmesser</td>
-                                <td>2 + (FF-4)</td>
-                                <td>4</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Wurfstern</td>
-                                <td>1 + (FF-5)</td>
-                                <td>5</td>
-                                <td>0</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Boxen</td>
+                                        <td>1 + (KK-5)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capoeira</td>
+                                        <td>1 + (GE-5)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Karate</td>
+                                        <td>1 + (GE-5)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Klauen/Fang (tierisch)</td>
+                                        <td>2 + (GE-5)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kung Fu</td>
+                                        <td>1 + (KK-5)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raufen</td>
+                                        <td>0 + (KK-5)</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="dolche">
+                        <h1>Dolche (GE)</h1>
 
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dolch</td>
+                                        <td>1 + (GE-3)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Erntemesser*</td>
+                                        <td>1 + (GE-2)</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Messer</td>
+                                        <td>1 + (GE-2)</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Parierdolch</td>
+                                        <td>1 + (GE-4)</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sichel*</td>
+                                        <td>1 + (GE-3)</td>
+                                        <td>3</td>
+                                        <td>-1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="fechtwaffen">
+                        <h1>Fechtwaffen (GE)</h1>
 
-                    <p>(* Improvisierte Waffe)</p>
-                </figure>
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Degen</td>
+                                        <td>2 + (GE-5)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dussack</td>
+                                        <td>2 + (GE-3)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Florett</td>
+                                        <td>2 + (GE-4)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rapier</td>
+                                        <td>2 + (GE-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="hiebwaffen">
+                        <h1>Hiebwaffen (KK)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Axt (einhändig)</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bartaxt</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dreschflegel*</td>
+                                        <td>2 + (KK-4)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Knüppel</td>
+                                        <td>2 + (KK-4)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kriegsflegel</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kriegshammer</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Machete</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Morgenstern</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Schmiedehammer</td>
+                                        <td>2 + (KK-4)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="zweihandhiebwaffen">
+                        <h1>Zweihand-Hiebwaffen (KK)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Bidenhänder</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doppelblatt-Axt</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Großaxt</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ogeraxt</td>
+                                        <td>6 + (KK-7)</td>
+                                        <td>9</td>
+                                        <td>-3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="schwerter">
+                        <h1>Schwerter (KK)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Bastardschwert</td>
+                                        <td>4 + (KK-5)</td>
+                                        <td>6</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Katana</td>
+                                        <td>4 + (KK-5)</td>
+                                        <td>6</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kurzschwert</td>
+                                        <td>2 + (KK-3)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Säbel</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Schwert</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wakizashi</td>
+                                        <td>2 + (KK-3)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="stangenwaffen">
+                        <h1>Stangenwaffen (KK)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Bardiche</td>
+                                        <td>6 + (KK-7)</td>
+                                        <td>8</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glefe</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hellebarde</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kampfstab</td>
+                                        <td>2 + (KK-4)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kriegssense</td>
+                                        <td>5 + (KK-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Partisane</td>
+                                        <td>4 + (KK-5)</td>
+                                        <td>6</td>
+                                        <td>-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sense*</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>6</td>
+                                        <td>-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Speer</td>
+                                        <td>4 + (KK-5)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Speer (einhändig)</td>
+                                        <td>3 + (KK-4)</td>
+                                        <td>6</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wanderstab*</td>
+                                        <td>2 + (KK-3)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                </section>
+
+                <section id="fernkampfwaffen">
+                    <h1>Fernkampf</h1>
+
+                    <section id="armbrueste">
+                        <h1>Armbrüste (FF)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Leichte Armbrust</td>
+                                        <td>4 + (FF-5)</td>
+                                        <td>6</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ogerarmbrust</td>
+                                        <td>6 + (FF-7)</td>
+                                        <td>8</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pistolenarmbrust</td>
+                                        <td>2 + (FF-3)</td>
+                                        <td>4</td>
+                                        <td>-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Riesenarmbrust</td>
+                                        <td>7 + (FF-8)</td>
+                                        <td>9</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Schwere Armbrust</td>
+                                        <td>5 + (FF-6)</td>
+                                        <td>6</td>
+                                        <td>-2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="boegen">
+                        <h1>Bögen (FF)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Kriegsbogen</td>
+                                        <td>6 + (FF-7)</td>
+                                        <td>8</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kriegsbogen (Stahl)</td>
+                                        <td>7 + (FF-8)</td>
+                                        <td>9</td>
+                                        <td>-3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kurzbogen</td>
+                                        <td>2 + (FF-3)</td>
+                                        <td>4</td>
+                                        <td>-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kurzbogen (Komposit)</td>
+                                        <td>4 + (FF-5)</td>
+                                        <td>5</td>
+                                        <td>-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Langbogen</td>
+                                        <td>4 + (FF-5)</td>
+                                        <td>6</td>
+                                        <td>-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Langbogen (Komposit)</td>
+                                        <td>5 + (FF-6)</td>
+                                        <td>7</td>
+                                        <td>-2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                    <section id="wurfwaffen">
+                        <h1>Wurfwaffen (FF)</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Schadenscode</th>
+                                        <th>Maximalschaden</th>
+                                        <th>Verteidigungsmodifikator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dolch</td>
+                                        <td>1 + (FF-3)</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wurfmesser</td>
+                                        <td>2 + (FF-4)</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wurfstern</td>
+                                        <td>1 + (FF-5)</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                </section>
+                <p>(* Improvisierte Waffe)</p>
             </section>
             <section id="ruestungen">
                 <h1>Rüstungen</h1>
 
-                <figure>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Rüstungstyp</th>
-                                <th>Rüstungsschutz</th>
-                                <th>Widerstandsbonus</th>
-                                <th>Angriffsmalus</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Leichte Rüstung</th>
-                            </tr>
-                            <tr>
-                                <td>Holz-Rüstungsteile</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Leder-Rüstungsteile</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Lederrüstung</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Stoffrüstung</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Mittlere Rüstung</th>
-                            </tr>
-                            <tr>
-                                <td>Brustpanzer</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Dicke Felle</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Holzrüstung</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Kettenrüstung</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Lamellenrüstung</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Lederrüstung, beschlagen</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Lederrüstung, dick</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Schuppenrüstung</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Schuppenüberwurf</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Schwere Rüstung</th>
-                            </tr>
-                            <tr>
-                                <td>Plattenrüstung, leicht</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>-3</td>
-                            </tr>
-                            <tr>
-                                <td>Plattenrüstung, voll</td>
-                                <td>5</td>
-                                <td>0</td>
-                                <td>-5</td>
-                            </tr>
-                            <tr>
-                                <td>Ringelpanzer</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>-3</td>
-                            </tr>
+                <section id="leichteruestungen">
+                    <h1>Leichte Rüstungen</h1>
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Rüstungstyp</th>
+                                    <th>Rüstungsschutz</th>
+                                    <th>Widerstandsbonus</th>
+                                    <th>Angriffsmalus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Holz-Rüstungsteile</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Leder-Rüstungsteile</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Lederrüstung</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Stoffrüstung</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
+                <section id="mittlereruestungen">
+                    <h1>Mittlere Rüstungen</h1>
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Rüstungstyp</th>
+                                    <th>Rüstungsschutz</th>
+                                    <th>Widerstandsbonus</th>
+                                    <th>Angriffsmalus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Brustpanzer</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Dicke Felle</td>
+                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>Holzrüstung</td>
+                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>Kettenrüstung</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Lamellenrüstung</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Lederrüstung, beschlagen</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>Lederrüstung, dick</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>Schuppenrüstung</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Schuppenüberwurf</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>-1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
+                <section id="schwereruestungen">
+                    <h1>Schwere Rüstungen</h1>
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Rüstungstyp</th>
+                                    <th>Rüstungsschutz</th>
+                                    <th>Widerstandsbonus</th>
+                                    <th>Angriffsmalus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Plattenrüstung, leicht</td>
+                                    <td>4</td>
+                                    <td>0</td>
+                                    <td>-3</td>
+                                </tr>
+                                <tr>
+                                    <td>Plattenrüstung, voll</td>
+                                    <td>5</td>
+                                    <td>0</td>
+                                    <td>-5</td>
+                                </tr>
+                                <tr>
+                                    <td>Ringelpanzer</td>
+                                    <td>4</td>
+                                    <td>0</td>
+                                    <td>-3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
 
-                        </tbody>
-                    </table>
-                </figure>
             </section>
 
             <section id="schilde_parierwaffen">
                 <h1>Schilde und Parierwaffen</h1>
 
-                <figure>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Typ</th>
-                                <th>Verteidigungsmodifikator</th>
-                                <th>Angriffsmalus</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Schild</th>
-                            </tr>
-                            <tr>
-                                <td>Rundschild, klein</td>
-                                <td>+3</td>
-                                <td>-1</td>
-                            </tr>
-                            <tr>
-                                <td>Rundschild, groß</td>
-                                <td>+4</td>
-                                <td>-2</td>
-                            </tr>
-                            <tr>
-                                <td>Turmschild</td>
-                                <td>+5</td>
-                                <td>-4</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Parierwaffe</th>
-                            </tr>
-                            <tr>
-                                <td>Parierdolch</td>
-                                <td>+2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>Springklingendolch</td>
-                                <td>+3</td>
-                                <td>0</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </figure>
+                <section id="schilde">
+                    <h1>Schilde</h1>
+
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Typ</th>
+                                    <th>Verteidigungsmodifikator</th>
+                                    <th>Angriffsmalus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rundschild, klein</td>
+                                    <td>+3</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>Rundschild, groß</td>
+                                    <td>+4</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Turmschild</td>
+                                    <td>+5</td>
+                                    <td>-4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
+
+                <section id="parierwaffen">
+                    <h1>Parierwaffen</h1>
+
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Typ</th>
+                                    <th>Verteidigungsmodifikator</th>
+                                    <th>Angriffsmalus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Parierdolch</td>
+                                    <td>+2</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Springklingendolch</td>
+                                    <td>+3</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
             </section>
         </section>
         <section id="sonstiges">
