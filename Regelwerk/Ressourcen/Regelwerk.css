@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Carolingia';
-	src: url('Ressourcen/Carolingia.woff') format('woff');
+	src: url('Carolingia.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'TeX Gyre Chorus medium italic';
-	src: url('Ressourcen/texgyrechorus-mediumitalic.woff') format('woff');
+	src: url('texgyrechorus-mediumitalic.woff') format('woff');
 }
 
 a:link, a:visited {
