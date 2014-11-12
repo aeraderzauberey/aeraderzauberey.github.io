@@ -54,23 +54,25 @@ $(function() {
                             headingText = heading.text();
                         }
                     }
-                    
+
                     if (headingText) {
                         element.text(headingText);
                     } else {
-                        logError("could not identify heading for", targetElement
-                                .get(0), "linked from", element.get(0));
+                        logError("could not identify heading for",
+                                targetElement.get(0), "linked from", element
+                                        .get(0));
                     }
                 } else {
                     var label = element.text().replace(/\s+/g, " ");
-                    console.debug("custom label '" + label + "' at",
-                            element.get(0), "linking to", targetElement.get(0));
+                    console.debug("custom label '" + label + "' at", element
+                            .get(0), "linking to", targetElement.get(0));
                 }
             }
-        } else if (href.match(/^http(s)?:\//)){
+        } else if (href.match(/^http(s)?:\//)) {
             console.debug("found external link", domElement);
         } else {
-            logError("invalid link href", domElement, "only ID refs or external URLs allowed");
+            logError("invalid link href", domElement,
+                    "only ID refs or external URLs allowed");
         }
     }
     $("a[href]").each(processLink);
@@ -119,7 +121,9 @@ $(function() {
                     var id = $(element).first().attr("id");
                     var target = $("#toc_" + id);
                     if (target.length) {
-                        target.parents("ol, ul").parents(".collapsed").toggleClass("collapsed").toggleClass("expanded");
+                        target.parents("ol, ul").parents(".collapsed")
+                                .toggleClass("collapsed").toggleClass(
+                                        "expanded");
                         jumpTo(target);
                         window.scrollBy(0,
                                 -(document.documentElement.clientHeight / 2));
@@ -173,7 +177,8 @@ $(function() {
         var currentList = null;
 
         function toggleToc() {
-            $(this).parents(".collapsible").toggleClass("collapsed").toggleClass("expanded");
+            $(this).parents(".collapsible").toggleClass("collapsed")
+                    .toggleClass("expanded");
         }
         function processSection(index, htmlElement) {
             var element = $(htmlElement);
@@ -194,11 +199,13 @@ $(function() {
             if (level <= maxLevel) {
                 if (level > lastLevel) {
                     if (level == 1) {
-                        currentList = $(rootSectionTemplate).appendTo(targetElement);
+                        currentList = $(rootSectionTemplate).appendTo(
+                                targetElement);
                     } else {
-                        currentList = $(subSectionTemplate).appendTo(currentList.children().last());
+                        currentList = $(subSectionTemplate).appendTo(
+                                currentList.children().last());
                     }
-                } else if (level < lastLevel){
+                } else if (level < lastLevel) {
                     for (var i = lastLevel; i > level; i--) {
                         currentList = currentList.parent().parent();
                     }
@@ -215,7 +222,9 @@ $(function() {
                     var parentLi = currentList.parent();
                     if (!parentLi.hasClass("collapsible")) {
                         parentLi.addClass("collapsible collapsed");
-                        $('<span class="toggler"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>').click(toggleToc).insertBefore(currentList);
+                        $(
+                                '<span class="toggler"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span>')
+                                .click(toggleToc).insertBefore(currentList);
                     }
                 }
                 lastLevel = level;
