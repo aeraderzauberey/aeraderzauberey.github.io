@@ -74,6 +74,8 @@ $(function() {
             }
         } else if (href.match(/^http(s)?:\//)) {
             console.debug("found external link", domElement);
+        } else if (href.match(/\.html$/)) {
+            console.debug("found internal link", domElement);
         } else {
             logError("invalid link href", domElement,
                     "only ID refs or external URLs allowed");
