@@ -32,16 +32,21 @@ child_process.exec("git rev-parse HEAD", function(error, stdout, stderr) {
 
             var zip = new EasyZip();
             zip.file("Regelwerk.html", $.html());
-            zip.zipFolder("../Regelwerk/Ressourcen", function() {
 
-                zip.filter(function(relativePath, file) {
-                    return path.basename(relativePath).match(/^\./);
-                }).forEach(function(item) {
-                    zip.remove(item.name);
-                })
+            zip.addFile("Rechte.html", "../Regelwerk/Rechte.html", function() {
 
-                zip.writeToFile("../../Regelwerk " + isoDate + " "
-                        + shortCommit + ".zip");
+                zip.zipFolder("../Regelwerk/Ressourcen", function() {
+
+                    zip.filter(function(relativePath, file) {
+                        return path.basename(relativePath).match(/^\./);
+                    }).forEach(function(item) {
+                        zip.remove(item.name);
+                    })
+
+                    zip.writeToFile("../../Regelwerk " + isoDate + " "
+                            + shortCommit + ".zip");
+                });
+
             });
         });
     });
