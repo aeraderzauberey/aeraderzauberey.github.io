@@ -5313,9 +5313,7 @@
           <para>Je drastischer/unnatürlicher/umfassender die Veränderung und
           je komplexer der Prozess, desto schwieriger ist die Probe. Die
           Umkehrung eines positiven Effekts hat einen um 1 höheren
-          Mindestwurf.<remark> (Vielleicht auch die Fremdartigkeit des
-          Lebewesens wie bei Telepathie anrechnen?; Effekte, welche eindeutig
-          Tiere oder Pflanzen betreffen, fehlen hier völlig!)</remark></para>
+          Mindestwurf.</para>
 
           <informaltable>
             <tgroup cols="2">
@@ -5352,9 +5350,7 @@
                       <secondary>magisch</secondary>
                     </indexterm>, körperliches Attribut um 1 steigern, ein
                   bestimmtes Gift abbauen/ausscheiden, Medizinische
-                  Diagnose<remark> (braucht kein Spüren, weil die vom Körper
-                  bereits ermittelten Infos nur zusammengestellt &amp;
-                  interpretiert werden)</remark></entry>
+                  Diagnose</entry>
                 </row>
 
                 <row>
@@ -5395,8 +5391,7 @@
         <section>
           <title>Krafteinsatz</title>
 
-          <para>Der Krafteinsatz bestimmt die Wirkungsdauer.<remark> Was ist
-          mit der Größe des Lebewesens?</remark></para>
+          <para>Der Krafteinsatz bestimmt die Wirkungsdauer.</para>
 
           <para><informaltable>
               <tgroup cols="2">
@@ -5444,8 +5439,7 @@
                   </row>
                 </tbody>
               </tgroup>
-            </informaltable><remark>(Nächste Stufe wäre 1
-          Woche)</remark><informaltable>
+            </informaltable><informaltable>
               <tgroup cols="2">
                 <colspec colwidth="1*"/>
 
@@ -5481,20 +5475,13 @@
                   </row>
                 </tbody>
               </tgroup>
-            </informaltable><remark>Medizinische Diagnose: je länger, desto
-          subtilere Dinge können gefunden werden. Es ist abhängig von der
-          Kraft, wie lange ich suchen kann.</remark></para>
+            </informaltable></para>
         </section>
 
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>FEHLT NOCH</remark></para>
-
-          <para><remark>Verwandlung (10 Minuten bis Stunde?), Heilung (5
-          Minuten pro Stufe?), Körperfunktionen beeinflussen (2 Runden?),
-          Sinne schärfen (4 Runden? So im Magiekapitel
-          angegeben)</remark></para>
+          <para></para>
         </section>
 
         <section>
@@ -5526,8 +5513,7 @@
             </listitem>
 
             <listitem>
-              <para>Unbelebte Materie: Verwesung aufhalten<remark> (MW 3; was
-              ist die Primärfertigkeit?)</remark></para>
+              <para>Unbelebte Materie: Verwesung aufhalten</para>
             </listitem>
           </itemizedlist>
         </section>
@@ -5561,11 +5547,6 @@
             </listitem>
           </varlistentry>
         </variablelist>
-
-        <para><remark>Alte Reichweite: B</remark></para>
-
-        <para><remark>Man könnte sich bzgl. Krafteinsatz ggf. an den Regeln zu
-        Antimagie-Feldern bei Kraftmanipulation orientieren.</remark></para>
       </section>
 
       <section>
@@ -5606,26 +5587,13 @@
               Objektkategorien eingeschränkt werden: eine bestimmte
               Heilpflanze im Umkreis zu finden erfordert Spüren +
               Kräuterkunde, alle Lebewesen können mit Spüren + Lebewesen
-              entdeckt werden.<remark> (Je genauer die Fertigkeit passt, um so
-              detaillierter die Infos: Spüren und Unbelebte kann „Finde alle
-              Steine”, Spüren + Gesteinskunde kann „Finde alle
-              Basaltvorkommen” oder „Handelt es sich um Basalt oder
-              Schiefer?". Auch: Reinheit von Metallen
-              ermitteln.)</remark></para>
-
-              <para><remark>(Ob es sich um ein Lebewesen handelt, erkennt man
-              an aber auch mit reinem Spüren an Dingen wie Bewegung, inneren
-              Organen, Herzschlag etc.)</remark></para>
+              entdeckt werden.</para>
 
               <para>Spüren kann jedoch nicht die Eindrücke anderer Sinne wie
               Sehen oder Hören ersetzen. So kann man z.B. aus erspürten
               Mundbewegungen einer weit entfernten Person darauf schließen,
               dass diese spricht, <emphasis>hören</emphasis> kann man sie
               jedoch nicht.</para>
-
-              <para><remark># flair-zitat, erzmagier zu lehrling über spüren:
-              „die frage ist nicht was du wahrnimmst, die frage ist: was
-              bedeutet es?"</remark></para>
             </listitem>
           </varlistentry>
 
@@ -5649,9 +5617,7 @@
               <para>Es gibt zwischen einem Zauberndem und seinem Zauber
               keinerlei wahrnehmbare Verbindung. Sofern der Zaubernde selbst
               also kein Ziel im obigen Sinne ist, kann nicht erkannt werden,
-              wer einen Zauber wirkt oder gewirkt hat.<remark> (Ein solcher
-              „Faden” hätte für das Spiel unangenehme Nebeneffekte, zum
-              Beispiel bei Telepathie über große Distanzen.)</remark></para>
+              wer einen Zauber wirkt oder gewirkt hat.</para>
 
               <para>Im Rahmen der <emphasis
               role="bold">Zauberanalyse</emphasis> kann der Spürende die unten
@@ -5697,13 +5663,6 @@
               auch Bestimmungsort) und sonstige Feinheiten des Effekts (bei
               Geistmanipulation also z.B. der genaue Befehl oder die Art der
               Halluzination).</para>
-
-              <para><remark>* Nachhall/Spuren eines zaubers bleiben noch für
-              eine „kurze” zeit sichtbar</remark></para>
-
-              <para><remark>Persönliche Signaturen: beschreiben. Kann ich nur
-              den zaubern ansehen, nicht beim Analysieren der
-              Person.</remark></para>
             </listitem>
           </varlistentry>
 
@@ -5719,12 +5678,7 @@
               role="bold">Artefaktanalyse</emphasis><indexterm>
                   <primary>Artefakte</primary>
                 </indexterm>, kann es aber auf Verzauberungen untersucht
-              werden. <remark> {{{{{{Details?}}}}}} (NOCH FESTZULEGEN: Wenn
-              ein Artefakt wie ein Zaubernder behandelt wird, kann man das
-              Artefakt mit einfachem Spüren nicht einmal als solches
-              identifizieren, wenn es gerade „zaubert” - es gibt ja keine
-              Verbindung zwischen Zauberndem und seinem
-              Zauber.)</remark></para>
+              werden.</para>
             </listitem>
           </varlistentry>
 
@@ -5732,22 +5686,13 @@
             <term>Personen</term>
 
             <listitem>
-              <para><remark>magiebegabt ja/nein, aber nicht welche
-              magiefertigkeiten oder wie hoch</remark></para>
+              <para>(…)</para>
             </listitem>
           </varlistentry>
         </variablelist>
 
         <section>
           <title>Mindestwurf</title>
-
-          <para><remark>NOCH ANZUGEBEN: Grundsatz, bspw. „je komplexer der
-          Prozess, desto schwieriger ist die Probe”. Anmerkung: es ist
-          wahrscheinlich sinnvoll, bei Analysen den Mindestwurf nicht fix
-          vorher zu bestimmen. Beispiel: Spieler will „alles herausfinden”, es
-          reicht aber mit 2 Erfolgen dann nicht für „Persönliche Signatur”.
-          Streng regeltechnisch wüsste er jetzt gar nichts, besser wäre aber,
-          wenn er wenigstens die Dinge bis MW 2 erfährt.</remark></para>
 
           <informaltable>
             <tgroup cols="2">
@@ -5767,8 +5712,8 @@
                 <row>
                   <entry>1</entry>
 
-                  <entry>Bereich scannen<remark> (Scannen)</remark>, Zauber
-                  entdecken<remark> (Scannen)</remark>, Basisangaben von
+                  <entry>Bereich scannen, Zauber
+                  entdecken, Basisangaben von
                   Zaubern ermitteln, Nach bestimmter Objektkategorie scannen
                   <inlinemediaobject>
                       <imageobject>
@@ -5781,16 +5726,7 @@
                 <row>
                   <entry>2</entry>
 
-                  <entry>Details von Zaubern ermitteln<remark> (Effekt, Ziel?
-                  Gedanke: es sollte möglich sein, bei einem sich neben einem
-                  Zauberer formenden Blitz-Gewebe während der Zauberdauer die
-                  „Spitze” zu bestimmen und damit die Richtung des Zaubers zu
-                  ermitteln. Genauso sollte man einer Teleportation/einem Tor
-                  ansehen, wohin die Reise geht, sprich den Bestimmungsort
-                  ermitteln. Weiter gefasst sollten alle Details eines
-                  Zaubers, welche als Informationen in die Zaubermatrix
-                  codiert werden, wieder ausgelesen werden können. Das müsste
-                  man nur NOCH AUSFORMULIEREN)</remark>, Basisangaben von
+                  <entry>Details von Zaubern ermitteln, Basisangaben von
                   Artefakten<indexterm>
                       <primary>Artefakte</primary>
                     </indexterm> ermitteln, Details von Objekten ermitteln
@@ -5808,10 +5744,7 @@
                   <entry>Persönliche Signatur in einem Zauber
                   erkennen/vergleichen, Details von Artefakten<indexterm>
                       <primary>Artefakte</primary>
-                    </indexterm> ermitteln<remark> (auslöser, anzahl/art/größe
-                  der aufladungen), NOCH AUSFORMULIEREN: magiebegabung
-                  feststellen [anm. analog zu telepathie-erinnerungen
-                  durchsuchen]</remark></entry>
+                    </indexterm> ermitteln</entry>
                 </row>
 
                 <row>
@@ -5838,12 +5771,7 @@
 
               <listitem>
                 <para>Der Basisradius beträgt 1 m. Jeder für den Radius
-                verwendete KP erhöht den Radius um 1 m.<remark> Anmerkung: die
-                ursprünglichen 10m Radius waren viel zu heftig. Für den Fall
-                „Andere Räume des Hauses scannen” ist der neue 1 m-Radius
-                völlig okay. Für den Fall „Frühwarnsystem, Zentrum =
-                Spürender” ist es vielleicht zu wenig; hier sollten wir
-                erstmal Erfahrungen sammeln.</remark></para>
+                verwendete KP erhöht den Radius um 1 m.</para>
               </listitem>
             </varlistentry>
 
