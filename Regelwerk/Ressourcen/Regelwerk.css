@@ -133,6 +133,15 @@ h1 .icon {
 	top: 0.45em;
 }
 
+/* Definition lists */
+dt {
+	font-weight: bold;
+}
+
+dd > p {
+	margin-top: 0;
+}
+
 /* TOC */
 nav ol, nav ul {
 	margin: 0;
