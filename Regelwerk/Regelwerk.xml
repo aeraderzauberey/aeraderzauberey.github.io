@@ -5784,9 +5784,7 @@
                     <primary>Artefakte</primary>
                   </indexterm> bei 0 m, für Zauberanalyse bei 8 m. Jeder für
                 Reichweite verwendete Kraftpunkt erhöht die Reichweite auf den
-                jeweils nächsten Abschnitt der folgenden Skala<remark>
-                (Anmerkung: Dies ist dieselbe Skala wie bei
-                Telekinese)</remark>:</para>
+                jeweils nächsten Abschnitt der folgenden Skala:</para>
 
                 <informaltable>
                   <tgroup cols="12">
@@ -5854,33 +5852,12 @@
               </listitem>
             </varlistentry>
           </variablelist>
-
-          <para><remark>Hintergrund des unterschiedlichen Handlings
-          Radius/Distanz: Den Radius zu erhöhen heißt eine dramatisch größere
-          Informationsmenge. Die Distanz zu erhöhen heißt einfach nur dass die
-          Informationen länger unterwegs sind, was billiger ist. Daher Radius
-          = lineare Kraft, Distanz = nicht linear.</remark></para>
-
-          <para><remark>FORMULIERUNG WIEDERVERWENDEN: aus der alten
-          Reichweitenregelung: „Beim Empfangen von Eindrücken ist die
-          Schwierigkeit entfernungsunabhängig. Der Zaubernde kann mit Kraft
-          die Eindrücke verstärken und so die „Sichtweite“
-          vergrößern."</remark></para>
         </section>
 
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>analysen &gt; wichtig: am ende der zauberdauer hat man
-          die infos. je mehr informationen man erhält, um so länger dauert es.
-          magiefertigkeiten eines zaubers gehen sehr schnell (Sofort), aber
-          was ist mit „effekt des zaubers ermitteln?", artefaktanalysen
-          brauchen mindestens 5 minuten (magiefertigkeiten) und können auch
-          eine stunde dauern.</remark></para>
-
-          <para><remark>scannen/wahrnehmungsmodus: kurze zauberdauer zum
-          einschalten, während der wirkungsdauer kann man sich in ruhe
-          umschauen.</remark></para>
+          <para>(…)</para>
         </section>
 
         <section>
@@ -5889,8 +5866,7 @@
           <itemizedlist>
             <listitem>
               <para>Passende (Magie-)Fertigkeit: Nach bestimmter
-              Objektkategorie scannen<remark> (größere
-              Reichweite/Wirkungsdauer als „Bereich scannen”?)</remark>, z.B.
+              Objektkategorie scannen, z.B.
               „Lebewesen entdecken”, „Gold finden”; Details von Objekten
               ermitteln</para>
             </listitem>
@@ -5907,19 +5883,8 @@
           </inlinemediaobject></title>
 
         <para>Mit Hilfe der Telekinese können Gegenstände und Personen
-        beliebig bewegt werden.<remark> (Es muss übrigens nicht die „passende”
-        Magiefertigkeit, also z.B. „Lebewesen“ bei Personen, hinzugenomen
-        werden. Grund: Es ist nicht einzusehen, warum simple Bewegung etwas
-        mit der Art des Gegenstands zu tun haben soll. Außerdem würde das die
-        Telekinese zu sehr degradieren.)</remark> Ob eine Bewegung dabei
+        beliebig bewegt werden. Ob eine Bewegung dabei
         entgegen der Gravitation abläuft ist unerheblich.</para>
-
-        <para><remark>Es soll möglich sein, ein gestürztes 600kg-Pferd von
-        einem Kameraden herunterzuheben =&gt; MW 1, aber kraftaufwändig. //
-        Einen auf mich zufliegenden Pfeil ablenken =&gt; MW 1, nicht
-        kraftaufwändig. // Einen Pfeil ohne Bogen abschießen und lenken =&gt;
-        MW 2, 5-6 KP // Drei Kameraden die Klippe hinaufbewegen =&gt; MW 4
-        (Geschwindigkeit, Lenken, zwei Zusatzziele), 5 KP</remark></para>
 
         <section>
           <title>Mindestwurf</title>
@@ -5933,8 +5898,7 @@
           <itemizedlist>
             <listitem>
               <para>Objekt in einfache Bewegung versetzen (fixe, beliebige
-              Geschwindigkeit, gerade Richtung)<remark> inkl.
-              Drehung</remark></para>
+              Geschwindigkeit, gerade Richtung)</para>
             </listitem>
 
             <listitem>
@@ -5944,12 +5908,7 @@
 
             <listitem>
               <para>Geschwindigkeit eines bewegten Objekts erhöhen oder
-              verringern<remark> (Die aktuelle Geschwindigkeit wäre eigentlich
-              für das Timing des „Greifens” relevant - so kommt es z.B. beim
-              Abbremsen von Pfeilen auf das präzise Timing an. Eine
-              entsprechende Regel wäre allerdings ziemlich kompliziert,
-              insbesondere weil erzählerisch nicht automatisch klar ist, wie
-              schnell ein Objekt denn jetzt genau ist.)</remark></para>
+              verringern</para>
             </listitem>
 
             <listitem>
@@ -5963,10 +5922,7 @@
 
           <para>Soll einer Person ein Gegenstand entrissen werden, den diese
           festhält, entspricht der Mindestwurf der Körperkraft der Person +
-          1.<remark> Dabei kann der MW natürlich nicht niedriger sein als er
-          nach obigem Schema ist. Diese Regel kann übrigens auch als
-          Orientierung dienen, wenn man jemanden festhalten will: Gewicht der
-          Person bezahlen, MW = KK + 1.</remark></para>
+          1.</para>
         </section>
 
         <section>
@@ -5976,9 +5932,7 @@
           Ziele, der Geschwindigkeit, der Wirkungsdauer und der Reichweite.
           Dabei bezeichnet „Reichweite” den Radius eines Bereichs um den
           Zaubernden, innerhalb dessen er die Ziele beliebig bewegen
-          kann.<remark> Anmerkung: in Grenzfällen kommt es darauf an, den
-          Schwerpunkt des Objekts noch im „Kontrollbereich” zu haben, bei
-          einem Menschen also die Körpermitte.</remark></para>
+          kann.</para>
 
           <para>Der erste Kraftpunkt entspricht einer Geschwindigkeit von 1
           m/s, 8 kg Gesamtgewicht, 8 m Reichweite und 15 sec Wirkungsdauer.
@@ -6057,18 +6011,11 @@
               9mm-Pistole verschießt Projektile mit 400 m/s.</para>
             </footnote></para>
 
-          <para><remark><remark>Die alte Skala erschien für Geschwindigkeit zu
-          heftig, da man durch 1KP von 1m/s (Schritt) auf 25m/s (90km/h)
-          erhöhte.</remark></remark></para>
-
           <para>Soll ein bereits in Bewegung befindliches Objekt beschleunigt
           oder abgebremst werden, wird die Ausgangsgeschwindigkeit auf der
           entsprechenden Stufe der o.g. Skala einsortiert. Ein KP steht dann
           für eine Geschwindigkeitsänderung um eine Stufe; innerhalb einer
-          Stufe kostet eine Geschwindigkeitsänderung keine Kraft.<remark>
-          Beispiel: um einen 40 m/s-Pfeil zu beschleunigen muss ich einen
-          Zusatz-KP investieren und kann ihn damit auf bis zu 150 m/s bringen
-          (nicht etwa nur verdoppeln auf 80).</remark></para>
+          Stufe kostet eine Geschwindigkeitsänderung keine Kraft.</para>
         </section>
 
         <section>
@@ -6130,20 +6077,16 @@
               immer als solche erkennbar und wird nicht mit eigenen Gedanken
               verwechselt. Schläft das Ziel, erscheint die Stimme bzw. das
               Abbild des Zaubernden im Traum, dieser kann den Traum jedoch
-              nicht manipulieren<remark> (das wäre dann Aufgabe von
-              Geistmanipulation)</remark>. Das Ziel kann sich gegen die
+              nicht manipulieren. Das Ziel kann sich gegen die
               Kommunikation wehren, benötigt dazu jedoch keinen
               Rettungswurf.</para>
 
               <para>Im Gegensatz zu den anderen Effektkategorien der
               Telepathie ist Kommunikation nicht auf Sichtkontakt
-              angewiesen<remark> (Hintergrund: Balancingüberlegung;
-              Erinnerungen durchstöbern ist auf hunderte Kilometer Entfernung
-              ähnlich krass wie Geistmanipulation)</remark>: sofern der
+              angewiesen: sofern der
               Zaubernde das Ziel kennt und zuvor bereits mit ihm gesprochen
               hat, kann er es anhand seiner geistige Signatur
-              wiederfinden.<remark> (Beispiel: es reicht nicht, den König nur
-              gesehen zu haben.)</remark> Dann ist es auch möglich, Richtung
+              wiederfinden. Dann ist es auch möglich, Richtung
               und Entfernung zum Aufenthaltsort des Ziels (sofern es lebt) zu
               ermitteln, wobei die Angaben umso genauer werden, je näher man
               dem Ziel kommt.</para>
@@ -6169,20 +6112,10 @@
               <para>Als <emphasis>Suche</emphasis> werden alle Effekte
               bezeichnet, bei denen der Zaubernde aktiv den Geist des Ziels
               nach den gewünschten Informationen durchsucht, insbesondere
-              Erinnerungen.<remark> (Man muss also nach bestimmten Dingen
-              suchen und kann nicht einfach einen Film des gesamten
-              durchsuchten Zeitraums ablaufen lassen.)</remark></para>
+              Erinnerungen.</para>
             </listitem>
           </varlistentry>
         </variablelist>
-
-        <para><remark>Analogie: Erinnerungen sind einzelne Dateien eines
-        digitalen Tagebuchs, Gedanken sind das RAM bzw. der Bildschirminhalt,
-        Wesenszüge ist das Betriebssystem bzw. dessen Konfiguration.
-        Geistmanipulation injiziert fremden Programmcode, der z.B. die
-        Hardware (Körper) anders steuert. Der Zaubernde kann nicht direkt
-        unter Umgehung des Geists den Körper des Ziels
-        fernsteuern.</remark></para>
 
         <section>
           <title>Mindestwurf</title>
@@ -6289,9 +6222,7 @@
                   <entry>5</entry>
 
                   <entry>Erinnerungen der letzten zwei Jahre
-                  durchsuchen<remark> (Skala basiert auf 10 Jahren = 6 KP und
-                  einem 5er-Multiplikator bis runter auf 1 Tag = 1
-                  KP)</remark></entry>
+                  durchsuchen</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -6330,18 +6261,7 @@
         <section>
           <title>Zauberdauer</title>
 
-          <para><remark>FEHLT NOCH</remark></para>
-
-          <para><remark>ALT: Das Herstellen einer beidseitigen Verbindung ist
-          immer ein langwieriger Zauber: während der Zauberdauer muss der
-          Zaubernde das Ziel lokalisieren, was je nach Größe des in Frage
-          kommenden Gebiets von einigen Minuten (ein Quadratkilometer) bis hin
-          zu einer Stunde (ganzes Land von 20.000 km²) dauern
-          kann.</remark></para>
-
-          <para><remark>Unterscheiden in Kommunikation (einseitig),
-          Kommunikation (beidseitig) sowie Beobachtung und
-          Suche.</remark></para>
+          <para>(…)</para>
         </section>
 
         <section>
@@ -6350,10 +6270,7 @@
           <para>Dem Ziel steht ein Rettungswurf auf Willenskraft zu, sofern es
           sich nicht um einen Kommunikationszauber handelt. Der Rettungswurf
           entfällt außerdem, wenn sich das Ziel des kommenden Zaubers bewusst
-          ist und verzaubert werden möchte.<remark> OFFENE FRAGE: Bemerkt das
-          Opfer den Zauber? Bei einem gelungenen Rettungswurf mit Sicherheit,
-          vielleicht aber auch bei einem nur knapp misslungenen a la „ein
-          Erfolg zuwenig”?</remark></para>
+          ist und verzaubert werden möchte.</para>
 
           <itemizedlist>
             <listitem>
@@ -6388,10 +6305,7 @@
               Person) an eine andere Stelle. Es können mehrere Ziele benannt
               werden, welche gemeinsam teleportiert werden. Für den Zauber
               ausschlaggebend ist nicht deren Anzahl, sondern das
-              Gesamtgewicht.<remark> (Damit ergibt sich, dass ein Zauberer,
-              der an einen Stuhl gefesselt ist, diesen wohl oder übel mit
-              wegteleportieren und dessen Gewicht mitbezahlen
-              muss)</remark></para>
+              Gesamtgewicht.</para>
             </listitem>
           </varlistentry>
 
@@ -6427,10 +6341,7 @@
 
               <para>Das Ziel muss wie üblich in der Sicht des Zaubernden
               liegen oder durch Spüren lokalisiert worden sein; die Distanz
-              des Zaubernden zu diesem Ziel ist jedoch unerheblich.<remark>
-              Diese wäre auch im Vergleich zu der typischen Distanz zwischen
-              Ziel und Bestimmungsort recht lächerlich und daher nicht
-              angemessen in KP repräsentierbar.</remark> Ebensowenig wirkt
+              des Zaubernden zu diesem Ziel ist jedoch unerheblich. Ebensowenig wirkt
               sich die aktuelle Geschwindigkeit des Ziels oder die eines
               beweglichen Bestimmungsorts (z.B. einer Kutsche) auf den Zauber
               aus.</para>
@@ -6443,9 +6354,7 @@
             <listitem>
               <para>Teleportation kann sowohl für Bewegung innerhalb einer
               Welt, auch Sphäre genannt, als auch zum Wechseln zwischen
-              verschiedenen Sphären genutzt werden.<remark> Ist es auch
-              möglich, gänzlich neue Sphären zu erschaffen, oder auch einen
-              Raum innen „auszudehnen”?</remark></para>
+              verschiedenen Sphären genutzt werden.</para>
             </listitem>
           </varlistentry>
         </variablelist>
@@ -6538,9 +6447,7 @@
                     </footnote></para>
 
                   <para>Gesamtgewicht: 100 kg, +1 KP pro weitere 100
-                  kg<remark> (Anzahl der Ziele ist egal, da schwierig
-                  abzugrenzen: Mensch mit Rucksack = 1? Zwei händchenhaltende
-                  Menschen = 2?)</remark></para>
+                  kg</para>
                 </listitem>
               </varlistentry>
 
@@ -6549,10 +6456,7 @@
 
                 <listitem>
                   <para>Distanz: 1 KP pro 500 km oder 4 KP für eine andere
-                  Sphäre<remark> (NOCH ZU KLÄREN: wenn innerhalb einer Sphäre
-                  ein Tor größere Distanzen hinbekommt als ein Teleport,
-                  sollte dann nicht auch das Erreichen einer anderen Sphäre
-                  bei einem Tor billiger sein?)</remark></para>
+                  Sphäre</para>
 
                   <para>Größe: 1 m², +1 KP pro weiterem m²</para>
 
@@ -6600,8 +6504,7 @@
         <section>
           <title>Rettungswurf</title>
 
-          <para><remark>FEHLT NOCH: Rettungswurf für teilweise zu
-          teleportierende Lebewesen</remark></para>
+          <para>(…)</para>
         </section>
 
         <section>
@@ -6638,9 +6541,7 @@
               <listitem>
                 <para>Organische, nicht mehr lebendige Stoffe. Als tot gilt
                 ein Lebewesen dann, wenn z.B. das Herz aufgehört hat zu
-                schlagen oder eine Pflanze vertrocknet ist.<remark> Beispiele:
-                Holz, Leder, Baumwollkleidung, Holzkohle, Bernstein,
-                Blut</remark></para>
+                schlagen oder eine Pflanze vertrocknet ist.</para>
               </listitem>
             </varlistentry>
 
@@ -6650,8 +6551,7 @@
               <listitem>
                 <para>Anorganische Stoffe sowie Materie organischen Ursprungs,
                 welche keinerlei Zellstrukturen mehr besitzt (z.B.
-                Erdöl).<remark> Beispiele: Stein, Sand, Kunststoffe, Humus
-                (zum großen Teil), Braunkohle, Wasser</remark></para>
+                Erdöl).</para>
               </listitem>
             </varlistentry>
           </variablelist></para>
@@ -6676,16 +6576,7 @@
 
             <listitem>
               <para>Extreme Veränderungen sind schwieriger als subtile.
-              <remark>ALT: Eine vorhandene Stoffeigenschaft leicht zu
-              verändern entspricht z.B. einer Schwierigkeit von
-              7.</remark></para>
-
-              <para><remark>ALT aus Umwandlung: Je geringer die Verwandtschaft
-              von Ausgangs- und Zielstoff, desto höher ist die Schwierigkeit.
-              Eine grobe Richtschnur kann hier das moderne Periodensystem der
-              Elemente bilden (z.B. Nähe von Blei und Gold), aber auch
-              „unwissenschaftlichere“ Vorstellungen der Spielwelt („Alkohol
-              und Wasser sind fast dasselbe“).</remark></para>
+              </para>
             </listitem>
           </varlistentry>
 
@@ -6706,8 +6597,6 @@
             </listitem>
           </varlistentry>
         </variablelist>
-
-        <para><remark>Alte Reichweite: B</remark></para>
       </section>
 
       <section>
@@ -6719,9 +6608,6 @@
           </inlinemediaobject></title>
 
         <para>(…)</para>
-
-        <para><remark>Möglicher Effekt: Vision/Vorahnung (für kreative
-        SLs)</remark></para>
       </section>
     </section>
   </appendix>
@@ -8048,8 +7934,8 @@
 
               <entry>KL</entry>
 
-              <entry>Astrologie<remark> (aufgrund der historischen
-              Einordnung)</remark>, Astrometrie, Himmelsmechanik (z.B.
+              <entry>Astrologie (aufgrund der historischen
+              Einordnung), Astrometrie, Himmelsmechanik (z.B.
               Berechnung von Kalendern)</entry>
             </row>
 
