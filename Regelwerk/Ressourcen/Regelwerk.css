@@ -35,16 +35,6 @@ a:link, a:visited {
 	}
 }
 
-.interjection {
-	border-style: dashed;
-	border-color: lightgray;
-	color: gray;
-}
-
-.remark {
-	background-color: yellow;
-}
-
 .footnote {
 	font-size: 75%;
 	background: lightgray;
