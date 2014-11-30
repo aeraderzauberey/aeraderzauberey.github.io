@@ -94,23 +94,27 @@
         <h1>Charaktere und ihre Werte</h1>
         <section id="eigenschaften">
             <h1>Eigenschaften</h1>
-            <p>Charaktere werden durch drei Typen von Eigenschaften
-                beschrieben: Attribute, Fertigkeiten und
-                Spezialisierungen.</p>
+            <p>Charaktere werden durch die folgenden Typen von
+                Eigenschaften beschrieben. Ein Charakter besitzt in
+                jeder seiner Eigenschaften eine bestimmte Anzahl
+                Punkte bis zum jeweils angegebenen Maximum.</p>
+            <ul>
+                <li>Attribute und Fertigkeiten (bis zu 10 Punkte)</li>
+                <li>Magiebereiche und Techniken (bis zu 10 Punkte)</li>
+                <li>Spezialisierungen (bis zu 5 Punkte)</li>
+            </ul>
             <p>
-                Ein Charakter besitzt in jeder seiner Eigenschaften eine
-                bestimmte Anzahl Punkte: bei Attributen und Fertigkeiten
-                bis zu 10, bei Spezialisierungen bis zu 5 Punkte. Bei
-                Proben steht ihm eine Anzahl Würfel in Höhe der Punkte
-                der jeweils eingesetzen Eigenschaft(en) zur Verfügung
-                (siehe <a href="#proben"></a>).
+                Bei Proben steht einem Charakter eine Anzahl Würfel in
+                Höhe der Punkte der jeweils eingesetzen Eigenschaft(en)
+                zur Verfügung (siehe <a href="#proben"></a>).
             </p>
             <section id="attribute">
                 <h1>Attribute</h1>
                 <p>
                     Die grundlegenden Eigenschaften eines Charakters
-                    schlagen sich in zwölf <em>Attributen</em> nieder,
-                    von denen drei Magiebegabten vorbehalten sind.
+                    schlagen sich in neun <em>Attributen</em> nieder.
+                    Jeder Charakter besitzt in jedem Attribut mindestens
+                    einen Punkt.
                 </p>
                 <figure id="fig-attribute">
                     <table>
@@ -201,31 +205,6 @@
                                 <td>Instinktives Erfassen,
                                     schnelles Entscheiden, Feingefühl,
                                     Aufmerksamkeit, Initiative im Kampf</td>
-                            </tr>
-                            <tr>
-                                <td><img class="icon"
-                                    src="Ressourcen/Attribute/MA.svg"></td>
-                                <td>Materie</td>
-                                <td>MA</td>
-                                <td>Magische Beeinflussung von
-                                    Materie (siehe Magiefertigkeiten)</td>
-                            </tr>
-                            <tr>
-                                <td><img class="icon"
-                                    src="Ressourcen/Attribute/EN.svg"></td>
-                                <td>Energie</td>
-                                <td>EN</td>
-                                <td>Magische Beeinflussung von
-                                    Energie (siehe Magiefertigkeiten)</td>
-                            </tr>
-                            <tr>
-                                <td><img class="icon"
-                                    src="Ressourcen/Attribute/SP.svg"></td>
-                                <td>Sphäre</td>
-                                <td>SP</td>
-                                <td>Magische Beeinflussung
-                                    nicht-physischer Muster (siehe
-                                    Magiefertigkeiten)</td>
                             </tr>
                         </tbody>
                     </table>
@@ -516,103 +495,77 @@
                         Siehe auch den Anhang <a href="#sonstigeberufe"></a>.
                     </p>
                 </figure>
-                <figure id="fig-magiefertigkeiten">
-                    <figcaption>Magiefertigkeiten</figcaption>
+            </section>
+            <section id="fertigkeiten">
+                <h1>Magiebereiche</h1>
+                <figure id="fig-magiebereiche">
+                    <figcaption>Magiebereiche</figcaption>
                     <table>
                         <thead>
                             <tr>
-                                <th>Fertigkeit</th>
-                                <th>Attribut</th>
+                                <th>Bereich</th>
                                 <th>Kurzbeschreibung</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Lebewesen</td>
-                                <td>MA</td>
-                                <td>Veränderungen aller Art an
-                                    beliebigen Lebewesen</td>
+                                <td>Abbild*<!-- ? --></td>
+                                <td>Sinneseindrücke und Illusionen aller Art</td>
+                            </tr>
+                            <tr>
+                                <td>Elektrizität*<!-- ladung? blitze? --></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Erde<!-- stein? --></td>
+                                <td>Erde, Gestein und ähnliche Stoffe</td>
+                            </tr>
+                            <tr>
+                                <td>Feuer</td>
+                                <td>Feuer, Wärme und Licht</td>
+                            </tr>
+                            <tr>
+                                <td>Geist</td>
+                                <td>Gedanken, Gefühle und Erinnerungen</td>
+                            </tr>
+                            <tr>
+                                <td>Kraft</td>
+                                <td>Magische Kraft, Zauber und übernatürliche Wesen</td>
+                            </tr>
+                            <tr>
+                                <td>Leib*<!-- körper? --></td>
+                                <td>Körper von Menschen und anderen Humanoiden</td>
                             </tr>
                             <tr>
                                 <td>Luft</td>
-                                <td>MA</td>
-                                <td>Eigenschaften von Luft
-                                    verändern, Barrieren erschaffen,
-                                    Schall beeinflussen</td>
+                                <td>Luft und andere normalerweise gasförmige Stoffe</td>
                             </tr>
                             <tr>
-                                <td>Tote Materie</td>
-                                <td>MA</td>
-                                <td>Ehemals lebendiges Material
-                                    beeinflussen</td>
+                                <td>Metall</td>
+                                <td>Metalle aller Art</td>
                             </tr>
                             <tr>
-                                <td>Unbelebte Materie</td>
-                                <td>MA</td>
-                                <td>Anorganische Stoffe
-                                    beeinflussen</td>
+                                <td>Pflanze</td>
+                                <td>Pflanzliches Leben und Stoffe pflanzlicher Herkunft</td>
                             </tr>
                             <tr>
-                                <td>Energiemanipulation</td>
-                                <td>EN</td>
-                                <td>Erzeugen und Beeinflussen von
-                                    Wärme, Licht und Elektrizität</td>
+                                <td>Tier</td>
+                                <td>Körper von Tieren und Stoffe tierischer Herkunft</td>
                             </tr>
                             <tr>
-                                <td>Kraftmanipulation</td>
-                                <td>EN</td>
-                                <td>Antimagie, gemeinsames Zaubern</td>
+                                <td>Wasser</td>
+                                <td>Wasser und andere normalerweise flüssige Stoffe</td>
                             </tr>
                             <tr>
-                                <td>Spüren</td>
-                                <td>EN</td>
-                                <td>Magische Sinneseindrücke
-                                    empfangen sowie Zauber und Auren
-                                    analysieren</td>
+                                <td>Zeit</td>
+                                <td>Verlauf der Zeit und seine Auswirkungen</td>
                             </tr>
-                            <tr>
-                                <td>Telekinese</td>
-                                <td>EN</td>
-                                <td>Objekte und Personen bewegen,
-                                    Bewegung unterbinden</td>
-                            </tr>
-                            <tr>
-                                <td>Artefaktmagie</td>
-                                <td>SP</td>
-                                <td>Speichern von Zaubern in
-                                    Objekten</td>
-                            </tr>
-                            <tr>
-                                <td>Geistmanipulation</td>
-                                <td>SP</td>
-                                <td>Emotionen, Wahrnehmung,
-                                    Gedanken und Erinnerungen
-                                    manipulieren</td>
-                            </tr>
-                            <tr>
-                                <td>Telepathie</td>
-                                <td>SP</td>
-                                <td>Mentale Kommunikation mit
-                                    anderen Personen und Tieren</td>
-                            </tr>
-                            <tr>
-                                <td>Teleportation</td>
-                                <td>SP</td>
-                                <td>Personen und Objekte
-                                    teleportieren, Tore zu anderen Orten
-                                    öffnen</td>
-                            </tr>
-                            <tr>
-                                <td>Zeitmanipulation</td>
-                                <td>SP</td>
-                                <td>Zeit beschleunigen und
-                                    verlangsamen, Zeitreisen</td>
-                            </tr>
+
                         </tbody>
                     </table>
                     <p>
                         Details zur Abgrenzung der einzelnen
-                        Fertigkeiten voneinander sowie Richtlinien zu
+                        Magiebereiche voneinander sowie Richtlinien zu
                         ihrer Handhabung im Spiel finden sich im Anhang
                         <a href="#magiefertigkeiten"></a>.
                     </p>
@@ -2678,8 +2631,7 @@
 
                 <section id="artefaktmagie">
                     <h1>
-                        Artefaktmagie <img class="icon"
-                            src="Ressourcen/Attribute/SP.svg">
+                        Artefaktmagie
                     </h1>
 
                     <p>(&#8230;)</p>
@@ -2687,8 +2639,7 @@
 
                 <section id="energiemanipulation">
                     <h1>
-                        Energiemanipulation <img class="icon"
-                            src="Ressourcen/Attribute/EN.svg">
+                        Energiemanipulation
                     </h1>
 
                     <p>
@@ -2957,8 +2908,7 @@
 
                 <section id="geistmanipulation">
                     <h1>
-                        Geistmanipulation <img class="icon"
-                            src="Ressourcen/Attribute/SP.svg">
+                        Geistmanipulation
                     </h1>
 
                     <p>Für die Fertigkeit Geistmanipulation
@@ -3235,8 +3185,7 @@
                 </section>
                 <section id="kraftmanipulation">
                     <h1>
-                        Kraftmanipulation <img class="icon"
-                            src="Ressourcen/Attribute/EN.svg">
+                        Kraftmanipulation
                     </h1>
 
                     <p>Kraftmanipulation umfasst die Beeinflussung
@@ -3568,8 +3517,7 @@
                 </section>
                 <section id="lebewesen">
                     <h1>
-                        Lebewesen <img class="icon"
-                            src="Ressourcen/Attribute/MA.svg">
+                        Lebewesen
                     </h1>
 
                     <p>Die Fertigkeit Lebewesen umfasst alle
@@ -3830,8 +3778,7 @@
 
                 <section id="luft">
                     <h1>
-                        Luft <img class="icon"
-                            src="Ressourcen/Attribute/MA.svg">
+                        Luft
                     </h1>
 
                     <p>Diese Fertigkeit erlaubt die Manipulation der
@@ -3856,8 +3803,7 @@
                 </section>
                 <section id="spueren">
                     <h1>
-                        Spüren <img class="icon"
-                            src="Ressourcen/Attribute/EN.svg">
+                        Spüren
                     </h1>
 
                     <p>Die Fertigkeit Spüren erlaubt dem Zaubernden,
@@ -4143,8 +4089,7 @@
 
                 <section id="telekinese">
                     <h1>
-                        Telekinese <img class="icon"
-                            src="Ressourcen/Attribute/EN.svg">
+                        Telekinese
                     </h1>
 
                     <p>Mit Hilfe der Telekinese können Gegenstände
@@ -4308,8 +4253,7 @@
 
                 <section id="telepathie">
                     <h1>
-                        Telepathie <img class="icon"
-                            src="Ressourcen/Attribute/SP.svg">
+                        Telepathie
                     </h1>
 
                     <p>
@@ -4540,8 +4484,7 @@
 
                 <section id="teleportation">
                     <h1>
-                        Teleportation <img class="icon"
-                            src="Ressourcen/Attribute/SP.svg">
+                        Teleportation
                     </h1>
 
                     <p>Die Fertigkeit Teleportation umfasst alle
@@ -4766,9 +4709,7 @@
 
                 <section id="tote_unbelebte">
                     <h1>
-                        Tote Materie &amp; Unbelebte Materie <img
-                            class="icon"
-                            src="Ressourcen/Attribute/MA.svg">
+                        Tote Materie &amp; Unbelebte Materie
                     </h1>
 
                     <p>Diese beiden Fertigkeiten beziehen sich
@@ -4843,8 +4784,7 @@
 
                 <section id="zeitmanipulation">
                     <h1>
-                        Zeitmanipulation <img class="icon"
-                            src="Ressourcen/Attribute/SP.svg">
+                        Zeitmanipulation
                     </h1>
 
                     <p>(&#8230;)</p>
