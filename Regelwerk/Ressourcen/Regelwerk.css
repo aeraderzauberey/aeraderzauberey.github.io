@@ -142,6 +142,10 @@ dd > p {
 	margin-top: 0;
 }
 
+dd {
+	margin-bottom: 1em;
+}
+
 /* TOC */
 nav ol, nav ul {
 	margin: 0;
