@@ -5,6 +5,7 @@
 //     - http://osvaldas.info/blog/elegant-css-and-jquery-tooltip- \
 //           responsive-mobile-friendly/
 // Modified by Syeong Gan
+//     - http://syeong.jcsg.com/2012/07/07/footnote-tooltips/
 //     - Uses Mathis's base code and Valutis's tooltip design
 //     - Searches for PHP Markdown Extra-style footnotes
 //     - Disabled link click-through for Android devices
