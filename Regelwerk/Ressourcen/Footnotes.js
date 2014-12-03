@@ -11,24 +11,6 @@
 //
 // Requirements: jQuery
 
-var cssTooltip = '' + '#tooltip{' + '    text-align: center;'
-        + '    color: #fff;' + '    background: #111;'
-        + '    position: absolute;' + '    font-size: 0.8em;'
-        + '    line-height: 1.3em;' + '    z-index: 100;'
-        + '    padding: 15px;' + '}' + ' '
-        + '#tooltip:after{ /* triangle decoration */' + '   width: 0;'
-        + '   height: 0;' + '   border-left: 10px solid transparent;'
-        + '   border-right: 10px solid transparent;'
-        + '   border-top: 10px solid #111;' + '   content: \'\';'
-        + '   position: absolute;' + '   left: 50%;' + '   bottom: -10px;'
-        + '   margin-left: -10px;' + '}' + '' + '#tooltip.top:after{'
-        + '   border-top-color: transparent;'
-        + '   border-bottom: 10px solid #111;' + '   top: -20px;'
-        + '   bottom: auto;' + '}' + '' + '#tooltip.left:after{'
-        + '   left: 10px;' + '   margin: 0;' + '}' + ''
-        + '#tooltip.right:after{' + '   right: 10px;' + '   left: auto;'
-        + '   margin: 0;' + '}' + '';
-
 $(document).ready(function() {
     Footnotes.initTooltip();
 });
@@ -45,9 +27,6 @@ var Footnotes = {
     },
     initTooltip : function() {
         var targets = $('[rel~=footnote]');
-
-        // Load Tooltip CSS
-        $('body').append('<style>' + cssTooltip + '</style>');
 
         targets.unbind('mouseover', Footnotes.addTooltip);
         targets.unbind('mouseout', Footnotes.removeTooltip);
