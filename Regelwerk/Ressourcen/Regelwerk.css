@@ -20,14 +20,12 @@ a:link, a:visited {
 	font-family: 'TeX Gyre Chorus medium italic';
 	font-size: 1.1rem;
 }
-
 @media screen {
 	.example {
 		box-shadow: 0.75em 0.75em 1em #afa95b;
 		background-color: khaki;
 	}
 }
-
 @media print {
 	.example {
 		border: 1px solid black;
@@ -37,61 +35,62 @@ a:link, a:visited {
 
 
 /* Footnotes */
-.footnote {
-	font-size: 75%;
-	background: lightgray;
+a[rel=footnote],a[rel=reference] {
+	text-decoration: none;
+	color: black;
 }
-
-.footnote:before {
-	content: "["
-}
-
-.footnote:after {
-	content: "]"
+@media screen {
+	a[rel=footnote],a[rel=reference] {
+		background: lightblue;
+		padding: 0 0.3em;
+	}
 }
 
 #tooltip {
 	text-align: center;
-	color: #fff;
-	background: #111;
+	background: darkgray;
 	position: absolute;
-	font-size: 0.8em;
-	line-height: 1.3em;
 	z-index: 100;
-	padding: 15px;
+	padding: 0.2em 1em;
+	border-radius: 7px;
 }
 
-#tooltip:after { /* triangle decoration */
+#tooltip:before { /* triangle decoration */
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid #111;
+	border-bottom: 10px solid darkgray;
 	content: '';
 	position: absolute;
 	left: 50%;
-	bottom: -10px;
+	top: -10px;
 	margin-left: -10px;
 }
 
-#tooltip.top:after {
-	border-top-color: transparent;
-	border-bottom: 10px solid #111;
-	top: -20px;
-	bottom: auto;
-}
-
-#tooltip.left:after {
+#tooltip.left:before {
 	left: 10px;
 	margin: 0;
 }
 
-#tooltip.right:after {
+#tooltip.right:before {
 	right: 10px;
 	left: auto;
 	margin: 0;
 }
 
+
+@media screen {
+	.print-only {
+		display: none;
+	}
+}
+
+@media print {
+	.print-only {
+		display: block;
+	}
+}
 
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;

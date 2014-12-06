@@ -9,6 +9,7 @@
 //     - Uses Mathis's base code and Valutis's tooltip design
 //     - Searches for PHP Markdown Extra-style footnotes
 //     - Disabled link click-through for Android devices
+//     * "Feel free to modify/incorporate the script into your site."
 //
 // Requirements: jQuery
 
@@ -27,57 +28,69 @@ var Footnotes = {
         return (agent.indexOf('android') >= 0);
     },
     initTooltip : function() {
-        var targets = $('[rel~=footnote]');
+        var footnoteList = $('#footnotes');
+        var footnoteLinks = $([]);
+        var footnoteNumber = 0;
 
-        targets.unbind('mouseover', Footnotes.addTooltip);
-        targets.unbind('mouseout', Footnotes.removeTooltip);
+        $('span.footnote').each(
+                function() {
+                    footnoteNumber++;
+                    var source = $(this);
 
-        targets.bind('mouseover', Footnotes.addTooltip);
-        targets.bind('mouseout', Footnotes.removeTooltip);
+                    var footnote = $('<li id="fn:' + footnoteNumber + '"><p>'
+                            + source.text() + '</p></li>');
+                    footnoteList.append(footnote);
+
+                    var sup = $('<sup id="fnref:' + footnoteNumber + '">');
+                    var footnoteLink = $('<a href="#fn:' + footnoteNumber
+                            + '" rel="footnote">' + footnoteNumber + '</a>');
+                    footnoteLink.appendTo(sup);
+                    source.replaceWith(sup);
+                    footnoteLinks = footnoteLinks.add(footnoteLink);
+                });
+
+        footnoteLinks.unbind('mouseover', Footnotes.addTooltip);
+        footnoteLinks.unbind('mouseout', Footnotes.removeTooltip);
+        footnoteLinks.unbind('click', Footnotes.toggleTooltip);
+
+        //footnoteLinks.bind('mouseover', Footnotes.addTooltip);
+        //footnoteLinks.bind('mouseout', Footnotes.removeTooltip);
+        footnoteLinks.bind('click', Footnotes.toggleTooltip);
     },
-    addTooltip : function() {
+    toggleTooltip : function(e) {
+        e.preventDefault();
+        if ($('#tooltip').length == 0) {
+            Footnotes.addTooltipForElement($(this));
+        } else {
+            Footnotes.removeTooltip();
+        }
+    },
+    addTooltip : function(e) {
+        Footnotes.addTooltipForElement($(this));
+    },
+    addTooltipForElement : function(target) {
         $('#tooltip').stop();
         $('#tooltip').remove();
 
         // Find matching footnote text and remove extraneous tags
-        var target = $(this);
         var id = target.attr('href').substr(1);
-        var fn = document.getElementById(id);
-        var tip = $(fn).html();
-        tip = tip.replace(/<p>(.+)<a href="#fnref.+<\/a><\/p>/, "$1");
-        if (!tip || tip == '')
-            return false;
+        var footnoteContents = $(document.getElementById(id)).clone();
+        footnoteContents.find("a").remove();
 
         // Create Tooltip
         var tooltip = $('<div id="tooltip"></div>');
-
-        // Check for mobile devices
-        if (Footnotes.isIOS()) {
-            tooltip.bind('click', Footnotes.removeTooltip);
-        } else if (Footnotes.isAndroid()) {
-            tooltip.bind('click', Footnotes.removeTooltip);
-            target.click(function(e) {
-                e.preventDefault();
-            });
-        } else {
-            tooltip.bind('mouseover', Footnotes.hoverTooltip);
-            tooltip.bind('mouseout', Footnotes.removeTooltip);
-        }
+        tooltip.click(Footnotes.removeTooltip);
 
         // Add Tooltip to page (hidden)
-        tooltip.css('opacity', 0).html(tip).appendTo('body');
+        tooltip.css('opacity', 0).append(footnoteContents.html()).appendTo('body');
 
         var positionTooltip = function() {
-            // Determine size of tooltip (max width of 340px)
-            if ($(window).width() < 640)
-                tooltip.css('max-width', $(window).width() / 2);
-            else
-                tooltip.css('max-width', 340);
+            tooltip.css('max-width', $("body").width() * 2 / 3);
 
             // Set initial position of tooltip
             var pos_left = target.offset().left + (target.outerWidth() / 2)
-                    - (tooltip.outerWidth() / 2), pos_top = target.offset().top
-                    - tooltip.outerHeight() - 30;
+                    - (tooltip.outerWidth() / 2);
+            var pos_top = target.offset().top + 35;
 
             // Check if the left side of the tooltip is off screen
             if (pos_left < 0) {
@@ -95,18 +108,10 @@ var Footnotes = {
             } else
                 tooltip.removeClass('right');
 
-            // Check if the ltop of the tooltip is off screen
-            if (pos_top < 0) {
-                var pos_top = target.offset().top + target.outerHeight();
-                tooltip.addClass('top');
-            } else
-                tooltip.removeClass('top');
-
             tooltip.css({
                 left : pos_left,
                 top : pos_top
             }).animate({
-                top : '+=10',
                 opacity : 1
             }, 100);
         }
@@ -119,16 +124,9 @@ var Footnotes = {
         var tooltip = $('#tooltip');
 
         tooltip.animate({
-            top : '-=10',
             opacity : 0
         }, 100, function() {
             tooltip.remove();
         });
-    },
-    hoverTooltip : function() {
-        var tooltip = $('#tooltip');
-
-        tooltip.stop();
-        tooltip.css('opacity', 1);
     }
 }
