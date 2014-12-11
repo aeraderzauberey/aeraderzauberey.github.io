@@ -20,14 +20,12 @@ a:link, a:visited {
 	font-family: 'TeX Gyre Chorus medium italic';
 	font-size: 1.1rem;
 }
-
 @media screen {
 	.example {
 		box-shadow: 0.75em 0.75em 1em #afa95b;
 		background-color: khaki;
 	}
 }
-
 @media print {
 	.example {
 		border: 1px solid black;
@@ -35,17 +33,63 @@ a:link, a:visited {
 	}
 }
 
-.footnote {
-	font-size: 75%;
-	background: lightgray;
+
+/* Footnotes */
+a[rel=footnote],a[rel=reference] {
+	text-decoration: none;
+	color: black;
+}
+@media screen {
+	a[rel=footnote],a[rel=reference] {
+		background: lightblue;
+		padding: 0 0.3em;
+	}
 }
 
-.footnote:before {
-	content: "["
+#tooltip {
+	text-align: center;
+	background: darkgray;
+	position: absolute;
+	z-index: 100;
+	padding: 0.2em 1em;
+	border-radius: 7px;
 }
 
-.footnote:after {
-	content: "]"
+#tooltip:before { /* triangle decoration */
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid darkgray;
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: -10px;
+	margin-left: -10px;
+}
+
+#tooltip.left:before {
+	left: 10px;
+	margin: 0;
+}
+
+#tooltip.right:before {
+	right: 10px;
+	left: auto;
+	margin: 0;
+}
+
+
+@media screen {
+	.print-only {
+		display: none;
+	}
+}
+
+@media print {
+	.print-only {
+		display: block;
+	}
 }
 
 body {
