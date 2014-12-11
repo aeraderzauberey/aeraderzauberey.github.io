@@ -56,8 +56,8 @@ var Footnotes = {
         footnoteLinks.unbind('mouseout', Footnotes.removeTooltip);
         footnoteLinks.unbind('click', Footnotes.toggleTooltip);
 
-        //footnoteLinks.bind('mouseover', Footnotes.addTooltip);
-        //footnoteLinks.bind('mouseout', Footnotes.removeTooltip);
+        footnoteLinks.bind('mouseover', Footnotes.addTooltip);
+        footnoteLinks.bind('mouseout', Footnotes.removeTooltip);
         footnoteLinks.bind('click', Footnotes.toggleTooltip);
     },
     toggleTooltip : function(e) {
