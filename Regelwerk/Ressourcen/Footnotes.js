@@ -10,6 +10,9 @@
 //     - Searches for PHP Markdown Extra-style footnotes
 //     - Disabled link click-through for Android devices
 //     * "Feel free to modify/incorporate the script into your site."
+// Modified by Jens Bannmann
+//     - https://github.com/aeraderzauberey/aeraderzauberey.github.io
+//     - Changes: see commit history
 //
 // Requirements: jQuery
 
