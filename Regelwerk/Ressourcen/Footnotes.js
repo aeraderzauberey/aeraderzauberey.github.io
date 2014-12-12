@@ -21,15 +21,6 @@ $(document).ready(function() {
 });
 
 var Footnotes = {
-    isIOS : function() {
-        var agent = navigator.userAgent.toLowerCase();
-        return (agent.indexOf('iphone') >= 0 || agent.indexOf('ipad') >= 0 || agent
-                .indexOf('ipod') >= 0);
-    },
-    isAndroid : function() {
-        var agent = navigator.userAgent.toLowerCase();
-        return (agent.indexOf('android') >= 0);
-    },
     initTooltip : function() {
         var footnoteList = $('#footnotes');
         var footnoteLinks = $([]);
@@ -85,7 +76,7 @@ var Footnotes = {
         tooltip.click(Footnotes.removeTooltip);
 
         // Add Tooltip to page (hidden)
-        tooltip.css('opacity', 0).append(footnoteContents.html()).appendTo('body');
+        tooltip.css('visibility', 'hidden').append(footnoteContents.html()).appendTo('body');
 
         var positionTooltip = function() {
             tooltip.css('max-width', $("body").width() * 2 / 3);
@@ -108,15 +99,15 @@ var Footnotes = {
                 pos_left = target.offset().left - tooltip.outerWidth()
                         + (target.outerWidth() / 2) + 20;
                 tooltip.addClass('right');
-            } else
+            } else {
                 tooltip.removeClass('right');
+            }
 
-            tooltip.css({
+            tooltip.css(({
                 left : pos_left,
-                top : pos_top
-            }).animate({
-                opacity : 1
-            }, 100);
+                top : pos_top,
+                visibility: 'visible'
+            }));
         }
 
         // Show Tooltip (and reposition if window changes)
@@ -124,12 +115,6 @@ var Footnotes = {
         $(window).resize(positionTooltip());
     },
     removeTooltip : function() {
-        var tooltip = $('#tooltip');
-
-        tooltip.animate({
-            opacity : 0
-        }, 100, function() {
-            tooltip.remove();
-        });
+        $('#tooltip').remove();
     }
 }
