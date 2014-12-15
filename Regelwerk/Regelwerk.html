@@ -2567,18 +2567,6 @@
                         verwandten Effekten plausibel sein.</p>
                 </li>
                 <li>
-                    <p>Es kann keine Materie aus dem Nichts
-                        erschaffen werden.</p>
-
-                    <p>So kann zum Beispiel die Magiefertigkeit Tote
-                        Materie nur dann zur Erschaffung einer
-                        elementaren Wand aus Holz verwendet werden, wenn
-                        genug entsprechendes Material vorhanden ist.
-                        Materie kann jedoch in ihren Eigenschaften
-                        verändert, verformt oder in andere Stoffe
-                        umgewandelt werden.</p>
-                </li>
-                <li>
                     <p>Zauberwirkungen sind permanent.</p>
 
                     <p>
@@ -2588,12 +2576,18 @@
                         durch eine Art „Entzauberung” wieder
                         zurückverwandelt werden. So ist beispielsweise
                         ein Teller, der in die Form einer Tasse gebracht
-                        wurde, zu einer <em>echten</em> Tasse geworden.
-                        Die Tasse könnte zwar wieder zu einem Teller
-                        verformt werden, der ursprüngliche Teller ist
-                        jedoch nicht mehr existent. Für Lebewesen gilt
-                        diese Regel jedoch nur eingeschränkt (siehe <a
-                            href="#lebewesen_verwandeln"></a>).
+                        wurde, zu einer <em>echten</em> Tasse geworden.<span
+                            class="footnote">Zerbricht diese
+                            Tasse, kann sie mit der Technik „Erschaffen”
+                            repariert werden, wird dadurch aber nicht
+                            wieder zum Originalteller.</span> Die Tasse könnte
+                        zwar wieder zu einem Teller verformt werden, der
+                        ursprüngliche Teller ist jedoch nicht mehr
+                        existent.
+                    </p>
+                    <p>
+                        Für Lebewesen gilt diese Regel nur eingeschränkt
+                        (siehe <a href="#lebewesen_verwandeln"></a>).
                     </p>
                 </li>
                 <li>
@@ -2625,7 +2619,7 @@
                     bestimmen. Zu letzterem zählt auch das Kontrollieren
                     normaler Körperfunktionen.</p>
 
-                <section>
+                <section id="telekinese" class="effect">
                     <h1>Telekinese</h1>
                     <p>Der Zaubernde kann Gegenstände oder Personen
                         beliebig bewegen. Ob eine Bewegung dabei
@@ -2775,7 +2769,7 @@
                     Eindrücke und Informationen über Objekte, sowohl aus
                     seiner Umgebung als auch weiter entfernt.</p>
 
-                <section id="scan">
+                <section id="scan" class="effect">
                     <h1>Scan</h1>
 
                     <p>
@@ -2884,7 +2878,7 @@
                     </section>
                 </section>
 
-                <section id="analyse">
+                <section id="analyse" class="effect">
                     <h1>Analyse</h1>
 
                     <p>Erlaubt die Ermittlung von
@@ -2894,9 +2888,258 @@
                         „einfache” Details wie Farbe oder
                         Oberflächenbeschaffenheit genauso wie der
                         konkrete Stoff oder der innere Aufbau.</p>
+
+                    <p>Während eines Scans muss zur Analyse nicht
+                        erneut gezaubert werden, es wird lediglich eine
+                        einzelne Erkennen-Probe mit dem jeweiligen
+                        Magiebereich (vergleichbar einer
+                        Wahrnehmungsprobe) durchgeführt.</p>
                 </section>
             </section>
 
+            <section id="erschaffen">
+                <h1>Erschaffen</h1>
+
+                <p>Mit dieser Technik ist es möglich, Objekte aus
+                    dem Nichts zu erschaffen. Außerdem können
+                    beschädigte Gegenstände repariert bzw. Lebewesen
+                    geheilt werden.</p>
+            </section>
+
+            <section id="modifizieren">
+                <h1>Modifizieren</h1>
+
+                <p>Erlaubt es, das Ziel des Zaubers umfassend zu
+                    verändern. Dazu gehören Änderungen an Form, Farbe,
+                    Oberflächenbeschaffenheit, Festigkeit oder Gewicht.</p>
+
+                <p>
+                    Des weiteren ist es möglich, einen Stoff in einen
+                    anderen zu verwandeln. Fällt dieser in einen anderen
+                    Magiebereich, müssen beide Bereiche für den Zauber
+                    verwendet werden (siehe <a href="#zauberprobe"></a>).
+                </p>
+            </section>
+
+            <section id="verankern">
+                <h1>Verankern</h1>
+
+                <p>
+                    Ermöglicht es, Zauber in Objekten zu speichern, so
+                    dass sie beim Eintreten bestimmter Ereignisse
+                    ausgelöst werden. Ist das Objekt ein Gegenstand,
+                    spricht man auch von einem <em>Artefakt</em>, ist es
+                    eine Person, handelt es sich um einen <em>Fluch</em>.
+                </p>
+            </section>
+
+            <section id="versetzen">
+                <h1>Versetzen</h1>
+
+                <p>Umfasst alle Effekte, die eine Bewegung in
+                    Nullzeit ermöglichen. Dazu zählt sowohl der
+                    klassische Teleport als auch das Erschaffen von
+                    Toren zu anderen Orten.</p>
+
+                <section id="ziel_bestimmungsort">
+                    <h1>Ziel &amp; Bestimmungsort</h1>
+
+                    <p>
+                        Für das Versetzen von Objekten reicht der
+                        regeltechnische Begriff des <em>Ziels</em> nicht
+                        aus. Wir unterscheiden daher das <em>Ziel</em>
+                        vom <em>Bestimmungsort</em>:
+                    </p>
+
+                    <p>
+                        Ein Teleport versetzt die Zielgegenstände oder
+                        -personen an einen anderen Ort, den <em>Bestimmungsort</em>.
+                        Ein Tor ensteht am Ziel und führt zum <em>Bestimmungsort</em>.
+                    </p>
+
+                    <p>Das Ziel muss wie üblich in der Sicht des
+                        Zaubernden liegen oder durch „Erkennen”
+                        lokalisiert worden sein; die Distanz des
+                        Zaubernden zu diesem Ziel ist jedoch
+                        unerheblich. Ebensowenig wirkt sich die aktuelle
+                        Geschwindigkeit des Ziels oder die eines
+                        beweglichen Bestimmungsorts (z.B. einer Kutsche)
+                        auf den Zauber aus.</p>
+                </section>
+
+                <section id="teleport" class="effect">
+                    <h1>Teleport</h1>
+                    <p>Der Teleport versetzt ein Stück der Realität
+                        (z.B. eine Person) an eine andere Stelle.</p>
+                    <p>Es können mehrere Ziele benannt werden,
+                        welche gemeinsam teleportiert werden. Für den
+                        Zauber ausschlaggebend ist nicht deren Anzahl,
+                        sondern das Gesamtgewicht.</p>
+                    <p>Sind mehrere Objekte verbunden, können sie
+                        nur gemeinsam teleportiert werden. Zwei Personen
+                        beim Ringen ließen sich also genausowenig
+                        voneinander trennen wie eine Tür von ihrem
+                        Gebäude, wohl aber eine Person von dem Stuhl,
+                        auf dem sie sitzt.</p>
+
+                    <section>
+                        <h1>Mindestwurf</h1>
+
+                        <p>Der Mindestwurf ist umso niedriger, je
+                            vertrauter der Zaubernde mit dem
+                            Bestimmungsort und damit dessen magischer
+                            Signatur ist. Notfalls reicht jedoch auch
+                            eine genaue (weltliche) Beschreibung. Je
+                            unbekannter der Ort, um so ungenauer ist
+                            jedoch die Positionierung des Tors bzw.
+                            Teleports am Bestimmungsort.</p>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>MW</th>
+                                        <th>Bestimmungsort</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Sicht</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Vertrauter Ort („wie
+                                            meine Westentasche”)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Bereits besuchter Ort</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Noch nicht besuchter
+                                            Ort</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+
+                        <p>Des weiteren gelten folgende Aufschläge:</p>
+
+                        <ul>
+                            <li>
+                                <p>+2 zum Öffnen eines Tors</p>
+                            </li>
+                            <li>
+                                <p>+1 wenn ein Tor nur in eine
+                                    Richtung nutzbar sein soll (egal
+                                    welche Richtung)</p>
+                            </li>
+                            <li>
+                                <p>+1 bis +3 für andere Sphären je
+                                    nach Fremdartigkeit (+1 = der
+                                    eigenen Welt sehr ähnliche Sphäre,
+                                    +3 Dämonische Ebene)</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h1>Krafteinsatz</h1>
+
+                        <dl>
+                            <dt>Teleport</dt>
+                            <dd>
+                                <p>
+                                    Distanz: 1 KP pro 500 m oder 4 KP
+                                    für eine andere Sphäre<span
+                                        class="footnote">Je nach
+                                        Spielwelt kann der Spielleiter
+                                        die Kosten für das Erreichen
+                                        einzelner Sphären auch
+                                        differenzieren, um deren
+                                        „Distanz” oder „Erreichbarkeit”
+                                        auszudrücken.</span>
+                                </p>
+
+                                <p>Gesamtgewicht: 100 kg, +1 KP pro
+                                    weitere 100 kg</p>
+                            </dd>
+                            <dt>Tor</dt>
+                            <dd>
+                                <p>Distanz: 1 KP pro 500 km oder 4
+                                    KP für eine andere Sphäre</p>
+
+                                <p>Größe: 1 m², +1 KP pro weiterem
+                                    m²</p>
+
+                                <p>Wirkungsdauer: 30 Sekunden, +1 KP
+                                    pro weitere 30 Sekunden</p>
+                            </dd>
+                        </dl>
+                    </section>
+
+                    <section>
+                        <h1>Zauberdauer</h1>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Dauer</th>
+                                        <th>Effekt</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1 Runde</td>
+                                        <td>Teleport</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 Minute</td>
+                                        <td>Tor</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+                </section>
+
+                <section id="tor" class="effect">
+                    <h1>Tor</h1>
+
+                    <p>Durch Tore werden zwei Orte durch Krümmen
+                        oder Durchbohren des Raums so verbunden, als
+                        würden sie direkt aneinander grenzen, ähnlich
+                        eines Durchgangs zwischen zwei Räumen. Von der
+                        jeweiligen „Vorderseite” an einem der Orte
+                        blickt man durch das Tor direkt zum anderen Ort.
+                        Die jeweilige Rückseite erscheint als massive,
+                        schwarze Fläche. Das Tor selbst hat keinen
+                        sichtbaren „Rahmen” und ist von der Seite nicht
+                        zu sehen.</p>
+
+                    <p>Tore sind im Allgemeinen kraftaufwändiger als
+                        ein Teleport, eignen sich allerdings besser zur
+                        Überbrückung großer Strecken und zum Transport
+                        einer größeren Anzahl von Personen.</p>
+
+                    <p>
+                        Tore können nicht nur zu anderen Orten derselben
+                        Welt, auch <em>Sphäre</em> genannt, geöffnet
+                        werden. Sie ermöglichen auch das Verbinden
+                        verschiedener Sphären.
+                    </p>
+                </section>
+            </section>
+
+            <section id="zerstoeren">
+                <h1>Zerstören</h1>
+
+                <p>Ermöglicht dem Zaubernden, das Ziel zu
+                    beschädigen oder zu vernichten.</p>
+            </section>
         </section>
 
         <section id="magiebereichsdetails">

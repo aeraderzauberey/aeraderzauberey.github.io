@@ -310,6 +310,10 @@ main>section>section>section>section>h1:before {
 		counter(level4) " ";
 }
 
+section.effect > h1:before {
+	content: "Effekt: "
+}
+
 /* Navigation aids, expandable TOC */
 h1 .buttons, nav .toggler {
 	position: absolute;
