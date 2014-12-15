@@ -39,6 +39,18 @@ $(function() {
             dataType : "json"
         });
     }
+    
+    function checkIds() {
+        var ids = {};
+        var found = false;
+        $('[id]').each(function() {
+          if (this.id && ids[this.id]) {
+              logError('Duplicate ID #' + this.id);
+          }
+          ids[this.id] = 1;
+        });
+    }
+    checkIds();
 
     function processLink(index, domElement) {
         var element = $(domElement);
