@@ -259,6 +259,11 @@ body>*>section>section>section>section>h1 {
 	margin-bottom: 1rem;
 }
 
+body>*>section>section>section>section>section>h1 {
+	font-size: 1rem;
+	margin-bottom: 0.9rem;
+}
+
 /* Chapter numbering */
 body>* {
 	counter-reset: level1 level2 level3 level4;
@@ -308,6 +313,10 @@ main>section>section>section>h1:before {
 main>section>section>section>section>h1:before {
 	content: counter(level1) "." counter(level2) "." counter(level3) "."
 		counter(level4) " ";
+}
+
+section.effect > h1:before {
+	content: "Effekt: "
 }
 
 /* Navigation aids, expandable TOC */
