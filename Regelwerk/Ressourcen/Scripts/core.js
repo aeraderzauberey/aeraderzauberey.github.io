@@ -1,5 +1,5 @@
 $(function() {
-    function logError() {
+    window.logError = function() {
         $("body").addClass("error");
         console.error.apply(console, arguments);
     }
