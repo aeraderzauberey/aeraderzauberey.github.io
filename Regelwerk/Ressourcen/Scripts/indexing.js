@@ -9,6 +9,10 @@
  * The data-synonyms attribute is a comma-separated list of official synonyms that appear in the index as well, e.g. abbreviations.
  */
 $(function() {
+    function text(content) {
+        return document.createTextNode(content);
+    }
+
     var forbiddenCharacters = /[\\.[\]^$()*?+|{}]/g;
     var termInfoList = [];
     var lookupMap = {};
@@ -80,15 +84,15 @@ $(function() {
         var position = 0;
         while ((searchResult = regex.exec(node.data)) != null) {
             if (searchResult.index > 0) {
-                newNodes.push(document.createTextNode(node.data.substring(
-                        position, searchResult.index)));
+                newNodes.push(text(node.data.substring(position,
+                        searchResult.index)));
             }
 
             var termAsFound = searchResult[1];
 
             var span = document.createElement("span");
             span.setAttribute("class", "indexterm");
-            span.appendChild(document.createTextNode(termAsFound))
+            span.appendChild(text(termAsFound))
             newNodes.push(span);
 
             position = searchResult.index + termAsFound.length;
@@ -107,8 +111,7 @@ $(function() {
 
         if (newNodes.length) {
             if (position < node.data.length) {
-                newNodes.push(document.createTextNode(node.data
-                        .substr(position)));
+                newNodes.push(text(node.data.substr(position)));
             }
 
             /*
@@ -133,4 +136,58 @@ $(function() {
         }
         element.removeChild(node);
     }
+
+    var entries = [];
+    $.each(termInfoList, function(index, termInfo) {
+        entries.push({
+            "text" : termInfo.base,
+            "type" : "normal",
+            "term" : termInfo
+        });
+        $.each(termInfo.synonyms, function(index, synonym) {
+            entries.push({
+                "text" : synonym,
+                "type" : "synonym",
+                "term" : termInfo
+            });
+        });
+    });
+
+    entries.sort(function(a, b) {
+        return a.text.localeCompare(b.text);
+    });
+
+    function makeLink(entry, text) {
+        var result = $("<a>").attr("href", "#" + entry.term.id);
+        if (text) {
+            result.text(text);
+        } else {
+            result.text(entry.term.base);
+        }
+        return result;
+    }
+    
+    var container = $("#indexContents");
+    var list;
+    var lastEntry;
+    var entry;
+
+    while (entry = entries.shift()) {
+        if (!lastEntry || lastEntry.text.charAt(0) != entry.text.charAt(0)) {
+            var group = $("<div class='group'>").appendTo(container);
+
+            var heading = $("<h1>").text(entry.text.charAt(0)).appendTo(group);
+
+            list = $("<ul>").appendTo(group);
+        }
+        var li = $("<li>").appendTo(list);
+        if (entry.type == "synonym") {
+            li.append(text(entry.text + " ("), makeLink(entry).appendTo(li),
+                    text(")"));
+        } else {
+            makeLink(entry).appendTo(li);
+        }
+        lastEntry = entry;
+    }
+
 });
