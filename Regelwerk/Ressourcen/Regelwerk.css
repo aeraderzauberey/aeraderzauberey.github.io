@@ -346,6 +346,16 @@ h1 .buttons .break {
 	h1 .buttons, nav .toggler {
 		display: none;
 	}
+	a, a:link, a:visited {
+		text-decoration: inherit;
+		color: inherit;
+	}
+	main a:before {
+		content: "\201E"
+	}
+	main a:after {
+		content: "\201D"
+	}
 }
 
 /* Index terms */
