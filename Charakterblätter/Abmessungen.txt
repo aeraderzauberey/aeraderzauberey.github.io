@@ -7,12 +7,25 @@ Abstand der Oberkanten von Trennlinie und Textkasten (mit Spaltenüberschriften)
 Überschriftskasten (Carolingia 20pt, Zeilenabstand 1,00pt, keine Abstände) 0,05 cm unterhalb der Trennlinie
 
 Summe der Breiten beider Trennlinien und des Überschriftskastens: 18,2
+=> 0,4 Abstand zwischen der jeweiligen Trennlinie und dem Überschriftskasten
+=> mit neuem Swoosh-Abschluss: 0,1814 Abstand zum Überschriftskasten
 
 Abstand der Überschrift (Unterkante eigtl. Trennline) zum jeweiligen Content darunter:
 - zu Unterstrich-Linie zum Ausfüllen: 9mm
 - zu normalgroßem Text bzw. Spaltenüberschrift (Oberkante Großbuchstabe): 6,5mm
 
 Abstand zwischen Überschrift (Oberkante eigtl. Trennlinie) zu letzter Zeile darüber: 9mm
+
+--
+PDF-Textfelder
+
+Vertikaler Abstand des ersten Fertigkeits-Textfeldes zum großen Textblock: 0,4018
+Vertikaler Abstand zweier Fertigkeits-Textfelder (Koordinate): 0,585
+Einrückung der Textfelder ggü. dem großen Textblock: 0,2439
+Schrift-Positionierung: bei höchster Zoomstufe „aufsetzen“, dann 0,163 nach unten
+Vertikaler Abstand zweier Attributs-Textfelder (Koordinate): 0,782
+Vertikaler Abstand zweier Technik-Textfelder (Koordinate): 1,048
+Vertikaler Abstand zweier Waffen-Textfelder (Koordinate): 0,581
 
 --
 
