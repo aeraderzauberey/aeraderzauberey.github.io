@@ -20,12 +20,14 @@ a:link, a:visited {
 	font-family: 'TeX Gyre Chorus medium italic';
 	font-size: 1.1rem;
 }
+
 @media screen {
 	.example {
 		box-shadow: 0.75em 0.75em 1em #afa95b;
 		background-color: khaki;
 	}
 }
+
 @media print {
 	.example {
 		border: 1px solid black;
@@ -33,14 +35,14 @@ a:link, a:visited {
 	}
 }
 
-
 /* Footnotes */
-a[rel=footnote],a[rel=reference] {
+a[rel=footnote], a[rel=reference] {
 	text-decoration: none;
 	color: black;
 }
+
 @media screen {
-	a[rel=footnote],a[rel=reference] {
+	a[rel=footnote], a[rel=reference] {
 		background: lightblue;
 		padding: 0 0.3em;
 	}
@@ -78,7 +80,6 @@ a[rel=footnote],a[rel=reference] {
 	left: auto;
 	margin: 0;
 }
-
 
 @media screen {
 	.print-only {
@@ -182,7 +183,7 @@ dt {
 	font-weight: bold;
 }
 
-dd > p {
+dd>p {
 	margin-top: 0;
 }
 
@@ -203,15 +204,15 @@ nav li {
 	margin: 0.25em 0 0.25em 0;
 }
 
-nav .collapsed > ol, nav .collapsed > ul {
+nav .collapsed>ol, nav .collapsed>ul {
 	display: none;
 }
 
-.collapsed > .toggler .fa-minus {
+.collapsed>.toggler .fa-minus {
 	display: none;
 }
 
-.expanded > .toggler .fa-plus {
+.expanded>.toggler .fa-plus {
 	display: none;
 }
 
@@ -315,7 +316,7 @@ main>section>section>section>section>h1:before {
 		counter(level4) " ";
 }
 
-section.effect > h1:before {
+section.effect>h1:before {
 	content: "Effekt: "
 }
 
@@ -345,4 +346,31 @@ h1 .buttons .break {
 	h1 .buttons, nav .toggler {
 		display: none;
 	}
+}
+
+/* Index terms */
+@media print {
+	#index {
+		/* Without page numbers, the index is useless for printing */
+		display: none;
+	} 
+}
+
+#indexContents {
+	display: table;
+	margin: 0 auto;
+}
+
+#indexContents h1 {
+	text-align: center;
+}
+
+dfn {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 dfn, td dfn {
+	font-weight: inherit;
+	font-style: inherit;
 }
