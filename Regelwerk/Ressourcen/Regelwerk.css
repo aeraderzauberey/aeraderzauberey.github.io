@@ -348,7 +348,7 @@ h1 .buttons .break {
 	}
 }
 
-/* Index */
+/* Index terms */
 @media print {
 	#index {
 		/* Without page numbers, the index is useless for printing */
@@ -363,4 +363,14 @@ h1 .buttons .break {
 
 #indexContents h1 {
 	text-align: center;
+}
+
+dfn {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 dfn, td dfn {
+	font-weight: inherit;
+	font-style: inherit;
 }
