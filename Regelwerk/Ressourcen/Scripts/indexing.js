@@ -70,7 +70,11 @@ $(function() {
     var nodeIterator = document.createNodeIterator(document,
             NodeFilter.SHOW_TEXT, {
                 acceptNode : function(node) {
-                    return NodeFilter.FILTER_ACCEPT;
+                    var result = NodeFilter.FILTER_ACCEPT;
+                    if (node.parentNode.tagName.toLowerCase() == "dfn") {
+                        result = NodeFilter.FILTER_REJECT;
+                    }
+                    return result;
                 }
             });
 
