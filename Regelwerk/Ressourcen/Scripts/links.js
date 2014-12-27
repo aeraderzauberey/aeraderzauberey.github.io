@@ -19,7 +19,7 @@ $(function() {
                     }
 
                     if (headingText) {
-                        element.text(headingText);
+                        element.text(headingText.trim());
                     } else {
                         logError("could not identify heading for",
                                 targetElement.get(0), "linked from", element

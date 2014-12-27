@@ -74,7 +74,7 @@ $(function() {
             var level = element.parents("section").length + 1;
 
             var heading = element.find("> h1");
-            var text = heading.text();
+            var text = heading.text().trim();
 
             var buttons = $("<span class='buttons'>").appendTo(heading);
             $('<i class="fa fa-angle-up">').click(jumpToPrevious).appendTo(
