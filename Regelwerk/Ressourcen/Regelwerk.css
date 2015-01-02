@@ -170,7 +170,9 @@ table, th, td {
 }
 
 .icon {
-	width: 1.5em;
+	width: 20px;
+	padding: 1px;
+	border: 1px solid #888888;
 }
 
 h1 .icon {

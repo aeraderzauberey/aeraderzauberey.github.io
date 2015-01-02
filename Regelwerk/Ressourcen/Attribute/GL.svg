@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="400.0004"
-   height="400.0004"
+   width="305.06683"
+   height="305.06683"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="GL2.svg">
+   sodipodi:docname="GL.svg">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -263,9 +263,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7860693"
-     inkscape:cx="226.26185"
-     inkscape:cy="149.86563"
+     inkscape:zoom="1.5226938"
+     inkscape:cx="370.93003"
+     inkscape:cy="147.75093"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -273,7 +273,11 @@
      inkscape:window-height="1071"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -282,7 +286,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -290,29 +294,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-336.68402,-645.6778)">
-    <rect
-       style="fill:#888888;fill-opacity:1;stroke:none"
-       id="rect3421-9"
-       width="400.0004"
-       height="400.0004"
-       x="336.68402"
-       y="645.6778"
-       inkscape:export-filename="/Users/jens/Documents/Rollenspiel/Wizardry/Sonstiges Material/789_Lorc_RPG_icons/Icon.5_58.edited.png"
-       inkscape:export-xdpi="89.999908"
-       inkscape:export-ydpi="89.999908" />
-    <path
-       style="fill:#ffffff"
-       d="m 349.68614,658.6815 0,186.34374 c 0,102.48334 0.28814,186.63186 0.65625,186.99996 0.36811,0.3682 84.40561,0.5452 186.75,0.4063 l 186.09375,-0.25 0.25,-186.75001 0.25,-186.74999 -187,0 -187,0 z"
-       id="path3415-3"
-       inkscape:export-filename="/Users/jens/Documents/Rollenspiel/Wizardry/Sonstiges Material/789_Lorc_RPG_icons/Icon.5_58.edited.png"
-       inkscape:export-xdpi="89.999908"
-       inkscape:export-ydpi="89.999908" />
-    <path
-       style="fill:#ffffff"
-       d="M 145 40.25 C 145 40.25 132.71571 74.025 117.71875 115 L 90.4375 189.5 L 105.0625 189.5 C 105.0625 189.5 118.06978 153.65 132.78125 113.5 L 159.53125 40.5 L 145 40.25 z "
-       transform="translate(336.68402,645.6778)"
-       id="path6240-5" />
+     transform="translate(-384.15081,-693.14459)">
     <g
        transform="matrix(0.6933337,0,0,0.6933337,359.1908,668.18458)"
        id="g4112">
