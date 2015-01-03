@@ -175,6 +175,10 @@ table, th, td {
 	border: 1px solid #888888;
 }
 
+.damagebox {
+	width: 1.5em;
+}
+
 h1 .icon {
 	position: relative;
 	top: 0.45em;
