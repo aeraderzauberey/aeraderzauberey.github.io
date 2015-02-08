@@ -184,6 +184,19 @@ h1 .icon {
 	top: 0.45em;
 }
 
+p .icon, td .icon {
+	position: relative;
+	top: 0.35em;
+}
+
+td.icononly .icon {
+	top: 0.15em;
+}
+
+td.icononly {
+	width: 2.5em;
+}
+
 /* Definition lists */
 dt {
 	font-weight: bold;
