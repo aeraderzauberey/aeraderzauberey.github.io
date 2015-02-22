@@ -170,7 +170,7 @@ table, th, td {
 }
 
 .icon {
-	width: 20px;
+    width: 1.25em;
 	padding: 1px;
 	border: 1px solid #888888;
 }
