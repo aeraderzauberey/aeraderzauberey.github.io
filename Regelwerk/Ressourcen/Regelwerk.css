@@ -175,6 +175,14 @@ table, th, td {
 	border: 1px solid #888888;
 }
 
+.icon.hasnext {
+    border-right: none;
+}
+
+.icon.hasprevious {
+    border-left: none;
+}
+
 .damagebox {
 	width: 1.5em;
 }
