@@ -772,8 +772,8 @@
                         <dl>
                             <dt>Initiativebasiswert</dt>
                             <dd>Für den Initiativewurf im Kampf besitzt jeder Charakter einen <dfn data-alternatives="Initiativebasiswerte">Initiativebasiswert</dfn>
-                                . Dieser errechnet sich aus dem Attribut Intuition und der Fertigkeit Reflexe: <em>(Intuition + Reflexe) *
-                                    2</em>.
+                                . Dieser errechnet sich aus dem Attribut <em>Intuition</em> und der Fertigkeit <em>Reflexe</em>: <em>(Intuition
+                                    + Reflexe) * 2</em>.
                             </dd>
                             <dt>Rüstung</dt>
                             <dd>Trägt der Charakter eine Rüstung, werden die passenden Angaben zu Rüstungsschutz (RS), Widerstandsbonus (WB)
@@ -1094,8 +1094,8 @@
                     <div class="example">
                         <p><em>Beispiele:</em></p>
                         <ul>
-                            <li>Medizinprobe unterstützt durch Magiebereich Humanoid</li>
-                            <li>Metall-beherrschen-Zauber zum Öffnen eines Schlosses unterstützt durch Fertigkeit Feinmechanik
+                            <li>Medizinprobe unterstützt durch Magiebereich <em>Humanoid</em></li>
+                            <li>Metall-beherrschen-Zauber zum Öffnen eines Schlosses unterstützt durch Fertigkeit <em>Feinmechanik</em>
                             </li>
                             <li>Manipulationsprobe zum Überreden unterstützt durch Menschenkenntnis</li>
                         </ul>
@@ -1301,13 +1301,13 @@
                         <p>Der erste Gegner besitzt einen Initiativebasiswert von 18 und würfelt eine 4, ergibt 22. Der zweite hat einen
                             Initiativebasiswert von 16 und würfelt eine 10, ergibt 26.
                         </p>
-                        <p>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm sind Gegner 2 bei 26, Solinara bei 25 und Gegner 1
+                        <p>Elris hat also Glück: er ist mit 28 der schnellste. Nach ihm sind Gegner B bei 26, Solinara bei 25 und Gegner A
                             bei 22 an der Reihe.
                         </p>
                     </div>
                 </section>
-                <section>
-                    <h1>Runden</h1>
+                <section id="runden">
+                    <h1>Runden und Handlungen</h1>
 
                     <p> Während eines Kampfes werden alle Handlungen in <dfn data-base="Runde">Runden</dfn> abgewickelt. Eine Runde
                         entspricht dabei etwa drei Sekunden der gespielten Zeit.
@@ -1364,13 +1364,19 @@
                             </tbody>
                         </table>
                     </figure>
-                    <p>Die Hektik einer Kampfsituation schlägt sich auch in den Proben während eines Kampfes nieder. Jedes Mal, wenn ein
-                        Charakter eine Reaktion durchführt, halbiert sich sich seine Würfelanzahl für die nächste Reaktion: für die zweite
-                        Reaktion hat er nur noch die Hälfte, für die dritte nur noch ein Viertel, für die Vierte nur noch ein Achtel usw.
-                        der jeweiligen Würfelanzahl zur Verfügung. Dabei wird jeweils aufgerundet, so dass immer mindestens ein Würfel
-                        verbleibt. Erst zu Beginn der nächsten Runde kann er wieder alle Würfel einsetzen.
+                </section>
+                <section id="kampfwuerfelanzahlen">
+                    <h1>Würfelanzahlen</h1>
+                    <p>Die Hektik einer Kampfsituation schlägt sich auch in den Proben während eines Kampfes nieder. Je mehr Reaktionen ein
+                        Charakter in derselben Runde durchführt, desto schwieriger wird es für ihn:
                     </p>
-                    <p>Die Würfelanzahl für seine Aktion bleibt hiervon unbeeinflusst.</p>
+                    <p>Führt ein Charakter eine Reaktion durch, wird von der Würfelanzahl dessen aktueller <dfn>Reaktionsmalus</dfn>
+                        abgezogen. Es verbleibt jedoch immer mindestens ein Würfel.
+                    </p>
+                    <p>Der Reaktionsmalus beträgt zu Beginn einer jeden Runde 0. Nach jeder Reaktion steigt der Malus um so viele Würfel,
+                        wie die zugehörige Aktion Erfolge hatte. Dies ist unabhängig davon, ob die Reaktion erfolgreich war.
+                    </p>
+                    <p>Die Würfelanzahl für Aktionen bleibt hiervon unbeeinflusst.</p>
                 </section>
                 <section id="nahkampf">
                     <h1>Nahkampf</h1>
@@ -1394,10 +1400,10 @@
                         </dd>
                         <dt><dfn>Verteidigungswurf</dfn></dt>
                         <dd>
-                            <p> Der Verteidiger führt nun den Verteidigungswurf mit der Fertigkeit Verteidigung durch. Dabei können die
-                                Spezialisierungen <em>Ausweichen</em>, <em>Parade</em> oder <em>Schildblock</em> eingesetzt werden. Auf die
-                                Würfelanzahl werden die Verteidigungsmodifikatoren der von ihm geführten Waffen, Parierwaffen und Schilde
-                                angerechnet (siehe <a href="#ruestungen_und_co"></a>).
+                            <p>Entscheidet sich der Verteidiger, eine Reaktion zu nutzen, führt er nun den Verteidigungswurf mit der
+                                Fertigkeit <em>Verteidigung</em> durch. Dabei können die Spezialisierungen <em>Ausweichen</em>, <em>Parade</em> oder
+                                <em>Schildblock</em> eingesetzt werden. Auf die Würfelanzahl werden die Verteidigungsmodifikatoren der von
+                                ihm geführten Waffen, Parierwaffen und Schilde angerechnet (siehe <a href="#ruestungen_und_co"></a>).
                             </p>
                             <p>Für jeden Erfolg beim Verteidigungswurf wird ein Erfolg des Angriffswurfs ausgeglichen. Bleibt kein
                                 Angriffserfolg übrig, wurde der Angriff vollständig abgewehrt. Falls mindestens ein Angriffserfolg bestehen
@@ -1429,7 +1435,7 @@
                         </dd>
                     </dl>
                     <div class="example">
-                        <p>Während seiner Aktionsphase greift Elris Gegner 2 mit 9 Würfeln (Körperkraft 5, Schwerter 4) an und erzielt 3
+                        <p>Während seiner Aktionsphase greift Elris Gegner B mit 9 Würfeln (Körperkraft 5, Schwerter 4) an und erzielt 3
                             Erfolge.
                         </p>
                         <p>Elris&#8217; Gegner versucht jetzt mit 9 Würfeln (Gewandtheit 4, Verteidigung 3, Parade 2) zu parieren. Er
@@ -1440,12 +1446,13 @@
                         <p>Ein Schwert hat den Schadenscode 3 + (KK-4), für Elris beträgt der Grundschaden also 4. Der verbleibende
                             Angriffserfolg erhöht diesen Schaden um 1 auf 5.
                         </p>
-                        <p>Gegner 2 trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei seinem Widerstandswurf erzielt er mit seinen 3
+                        <p>Gegner B trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei seinem Widerstandswurf erzielt er mit seinen 3
                             Konstitutions-Würfeln 1 Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner Schadensleiste
-                            eingetragen werden.
+                            eingetragen werden. Er erhält nun einen Verletzungsmalus von 2.
                         </p>
-                        <p>Falls Solinara in dieser Runde ebenfalls Gegner 2 angreift, dürfte dieser nur noch 5 seiner 9 Parade-Würfel
-                            einsetzen.
+                        <p>Da Elris' Angriff 3 Erfolge hatte, beträgt der Reaktionsmalus von Gegner B nun 3. Falls Solinara in dieser Runde
+                            ebenfalls Gegner B angreift, dürfte dieser nur noch 4 seiner 9 Parade-Würfel einsetzen (9 Würfel minus
+                            Reaktionsmalus 3 minus Verletzungsmalus 2).
                         </p>
                     </div>
                 </section>
