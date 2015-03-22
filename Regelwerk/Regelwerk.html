@@ -175,9 +175,17 @@
                         <h1>Fertigkeiten</h1>
 
                         <p><dfn data-base="Fertigkeit">Fertigkeiten</dfn> repräsentieren die individuellen Kenntnisse und Fähigkeiten eines
-                            Charakters auf dem jeweiligen Gebiet. Für Proben werden Fertigkeiten mit einem zur jeweiligen Situation
-                            passenden Attribut kombiniert. Zur Orientierung sind in den unten stehenden Tabellen auch Attribute angegeben,
-                            mit denen die jeweilige Fertigkeit häufig kombiniert wird.
+                            Charakters auf dem jeweiligen Gebiet. Die Fertigkeiten in diesem Regelwerk sind so zugeschnitten, dass sie
+                            möglichst klar abgegrenzt sind und einen ähnlichen Umfang besitzen. Sofern es die Fertigkeitsliste nicht
+                            vorsieht (wie beispielsweise bei Waffenfertigkeiten), sollten daher für die jeweilige Spielwelt oder einzelne
+                            Charaktere keine weiteren Fertigkeiten hinzudefiniert werden.<span class="footnote">Beliebig definierbare
+                                Fertigkeiten würden Probleme bei der Vergleichbarkeit von Proben verschiedener Charaktere (insbesondere von
+                                Spieler- und Nichtspielercharakteren) mit sich bringen.</span> Stattdessen könnte für eine grob passende
+                            Fertigkeit eine entsprechende <a href="#spezialisierungen">Spezialisierung</a> notiert werden.
+                        </p>
+                        <p>Für Proben werden Fertigkeiten mit einem zur jeweiligen Situation passenden Attribut kombiniert. Zur Orientierung
+                            sind in den unten stehenden Tabellen auch Attribute angegeben, mit denen die jeweilige Fertigkeit häufig
+                            kombiniert wird.
                         </p>
                         <figure id="fig-basisfertigkeiten">
                             <figcaption>Basisfertigkeiten</figcaption>
@@ -191,9 +199,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Allgemeinbildung [Region, Stadt/Land]</td>
+                                        <td>Allgemeinbildung (<em>»Region«, »Stadt/Land«</em>)</td>
                                         <td>KL</td>
-                                        <td>Das in einer Bevölkerungsschicht übliche Wissen, z.B. <em>„Allgemeinbildung (Mitteleuropa,
+                                        <td>Jeweils eine Fertigkeit pro Bevölkerungsschicht, z.B. <em>„Allgemeinbildung (Mitteleuropa,
                                             Stadt)”</em>.
                                         </td>
                                     </tr>
@@ -237,6 +245,16 @@
                                         </td>
                                     </tr>
                                     <tr>
+                                        <td><em>»Sprache«</em> (mündlich)</td>
+                                        <td>IN</td>
+                                        <td>Jeweils eine Fertigkeit pro Sprache</td>
+                                    </tr>
+                                    <tr>
+                                        <td><em>»Sprache«</em> (schriftlich)</td>
+                                        <td>FF / KL</td>
+                                        <td>Jeweils eine Fertigkeit pro Sprache. FF beim Schreiben, KL beim Lesen.</td>
+                                    </tr>
+                                    <tr>
                                         <td>Tierkunde</td>
                                         <td>KL</td>
                                         <td>Erkennen verschiedener Tierarten, Wissen um deren Verhalten und Verbreitung
@@ -273,9 +291,20 @@
                                         </td>
                                     </tr>
                                     <tr>
+                                        <td><em>»Fernkampfwaffe«</em></td>
+                                        <td>FF</td>
+                                        <td rowspan="2">Jeweils eine Fertigkeit pro Waffengruppe (entspricht den Überschriften bei <a
+                                            href="#waffen"></a>).
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><em>»Nahkampfwaffe«</em></td>
+                                        <td>GE / KK</td>
+                                        <!-- rowspan --> </tr>
+                                    <tr>
                                         <td><dfn>Reflexe</dfn></td>
                                         <td>IN</td>
-                                        <td>Schnelles Reagieren. Fließt in den Initiativebasiswert ein</td>
+                                        <td>Schnelles Reagieren. Fließt in den Initiativebasiswert ein.</td>
                                     </tr>
                                     <tr>
                                         <td><dfn>Verteidigung</dfn></td>
@@ -284,47 +313,10 @@
                                             href="#nahkampf"></a>). Mögliche Spezialisierungen: Parieren, Ausweichen, Schildblock.
                                         </td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </figure>
-                        <figure id="fig-fertigkeitsgruppen">
-                            <figcaption>Fertigkeitsgruppen</figcaption>
-                            <table>
-                                <thead>
                                     <tr>
-                                        <th>Fertigkeit</th>
-                                        <th>Attribut</th>
-                                        <th>Kurzbeschreibung</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><em>Fernkampfwaffe</em></td>
-                                        <td>FF</td>
-                                        <td rowspan="2">Jeweils eine Fertigkeit pro Waffengruppe (entspricht den Überschriften bei <a
-                                            href="#waffen"></a>).
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><em>Nahkampfwaffe</em></td>
-                                        <td>GE / KK</td>
-                                        <!-- rowspan --> </tr>
-                                    <tr>
-                                        <td><em>Sprache</em> (mündlich)</td>
-                                        <td>IN</td>
-                                        <td>Jeweils eine Fertigkeit pro Sprache</td>
-                                    </tr>
-                                    <tr>
-                                        <td><em>Sprache</em> (schriftlich)</td>
-                                        <td>FF / KL</td>
-                                        <td>Jeweils eine Fertigkeit pro Sprache. FF beim Schreiben, KL beim Lesen.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><em>Waffenlose Kampftechnik</em></td>
+                                        <td><em>»Waffenlose Kampftechnik«</em></td>
                                         <td>GE</td>
-                                        <td>Jeweils eine Fertigkeit pro Technik, verfügbare Techniken je nach Setting und
-                                            Charakterhintergrund
-                                        </td>
+                                        <td>Jeweils eine Fertigkeit pro Technik</td>
                                     </tr>
                                 </tbody>
                             </table>
