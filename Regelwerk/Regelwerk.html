@@ -706,8 +706,8 @@
                             </dd>
                         </dl>
                         <p>Des weiteren werden für jede vom Charakter beherrschte Waffengattung oder Kampftechnik jeweils die folgenden
-                            Werte notiert. Die benötigten Angaben finden sich in der <a href="#waffen">Waffentabelle</a> im folgenden
-                            Format:
+                            Werte notiert. Die benötigten Angaben finden sich in der <a href="#waffen">Waffentabelle</a> oder im Abschnitt
+                            <a href="#basisangriff"></a> im folgenden Format:
                         </p>
                         <div class="example">
                             <figure>
@@ -732,6 +732,10 @@
                             </figure>
                         </div>
                         <dl>
+                            <dt>Bezeichnung</dt>
+                            <dd>Hier wird der Name der Waffengattung oder der Kampftechnik aufgeführt, oder eine Kombination aus
+                                Magiebereich und Technik (z.B. „Feuer erschaffen”).
+                            </dd>
                             <dt>Attribut</dt>
                             <dd>Der Angriffswurf wird mit dem Attribut durchgeführt, welches im <dfn>Schadenscode</dfn> verwendet wird. So
                                 wird z.B. ein Speer mit Körperkraft geführt.
@@ -742,7 +746,8 @@
                             </dd>
                             <dt>Würfel</dt>
                             <dd>In die Spalte „Würfel” wird die Gesamtanzahl der Würfel für Angriffswürfe eingetragen. Bei Waffen und
-                                Kampftechniken ist dies die Summe aus dem jeweiligen Attribut und der Waffenfertigkeit.
+                                Kampftechniken ist dies die Summe aus dem jeweiligen Attribut und der Waffenfertigkeit, bei magischen
+                                Basisangriffen aus Magiebereich, einer Technik und ggf. eines Fokus.
                             </dd>
                             <dt id="grundschadenermittlung">Grundschaden</dt>
                             <dd>Der <dfn>Grundschaden</dfn> einer Waffe bzw. Kampftechnik ergibt sich aus dem angegebenen Schadenscode.
@@ -754,9 +759,10 @@
                             <dt>Verteidigungsmodifikator</dt>
                             <dd>Der Verteidigungsmodifikator einer Waffe wird in der Spalte <em>„VM”</em> eingetragen.
                             </dd>
-                            <dt>Reichweitenklasse</dt>
-                            <dd>Für Fernkampfwaffen werden die Distanzangaben der jeweils angegebenen Reichweitenklasse unter <em>„Sonstiges”</em>
-                                notiert, z.B. für Klasse B: „6/12/25/50”.
+                            <dt>Sonstiges</dt>
+                            <dd>Hier werden für Fernkampfwaffen die Distanzangaben der jeweils angegebenen Reichweitenklasse notiert, z.B.
+                                für Klasse B: „6/12/25/50”. Bei magischen Basisangriffen kann der Mindestwurf und die Extraschadensregelung
+                                notiert werden.
                             </dd>
                         </dl>
                     </section>
@@ -1939,6 +1945,129 @@
                             festgelegt.
                         </dd>
                     </dl>
+                </section>
+                <section id="standardzauber">
+                    <h1>Standardzauber</h1>
+
+                    <section id="basisangriff">
+                        <h1>Basisangriff</h1>
+
+                        <p>Um einen magischen Angriff auszuführen, kann statt eines konkreten Zaubers die folgende abstrakte Regelung
+                            verwendet werden. Dazu führt der Angreifer eine Zauberprobe mit einer passenden Magiebereichs- und
+                            Technikkombination aus. Jeder über den Mindestwurf hinausgehende Erfolg kann dabei entweder als Bonusschaden
+                            oder als Bonuswürfel für den Entzugswurf verwendet werden.
+                        </p>
+
+                        <section>
+                            <h1>Mindestwurf und Kampfwerte</h1>
+                            <figure>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Magiebereich</th>
+                                            <th>MW</th>
+                                            <th>Schadenscode</th>
+                                            <th>Maximalschaden</th>
+                                            <th>Verteidigungsmodifikator</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Darstellung</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Elektrizität</td>
+                                            <td>2</td>
+                                            <td>2 + (X-3)</td>
+                                            <td>5</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Erde</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Feuer</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Geist</td>
+                                            <td>2</td>
+                                            <td>0 + (X-3)</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Humanoid / Pflanze / Tier</td>
+                                            <td>2 / 3<span class="footnote">Direkte Angriffe auf den Körper des Ziels (z.B. Wunden
+                                                verursachen) haben MW 3, indirekte Angriffe (z.B. mit peitschenden Pflanzenranken) MW
+                                                2.</span></td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kraft</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luft</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Metall</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wasser</td>
+                                            <td>2</td>
+                                            <td>1 + (X-3)</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zeit</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </figure>
+                        </section>
+
+                        <section>
+                            <h1>Krafteinsatz</h1>
+
+                            <p>Optional: pro 3 KP zusätzliche 2 Schaden</p>
+                        </section>
+
+                        <section>
+                            <h1>Zauberdauer</h1>
+
+                            <p>1 Aktion</p>
+                        </section>
+                    </section>
                 </section>
                 <section id="techniken">
                     <h1>Techniken</h1>
