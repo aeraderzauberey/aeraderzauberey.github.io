@@ -35,6 +35,10 @@ a:link, a:visited {
 	}
 }
 
+.highlight {
+    background: #ADE6C6;
+}
+
 /* Footnotes */
 a[rel=footnote], a[rel=reference] {
 	text-decoration: none;
