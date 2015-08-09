@@ -16,6 +16,9 @@ Abstand der Überschrift (Unterkante eigtl. Trennline) zum jeweiligen Content da
 
 Abstand zwischen Überschrift (Oberkante eigtl. Trennlinie) zu letzter Zeile darüber: 9mm
 
+Horizontaler Abstand zwischen /\-Linienenden und Überschriftskasten:
+0,1814 cm
+
 --
 PDF-Textfelder
 
@@ -26,6 +29,8 @@ Schrift-Positionierung: bei höchster Zoomstufe „aufsetzen“, dann 0,163 nach
 Vertikaler Abstand zweier Attributs-Textfelder (Koordinate): 0,782
 Vertikaler Abstand zweier Technik-Textfelder (Koordinate): 1,048
 Vertikaler Abstand zweier Waffen-Textfelder (Koordinate): 0,581
+
+Tab-Reihenfolge festlegen: Erstes markieren, In den Vordergrund (PgUp), nächstes…
 
 --
 

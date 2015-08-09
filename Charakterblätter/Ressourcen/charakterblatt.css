@@ -1,0 +1,45 @@
+@font-face {
+font-family: 'Carolingia';
+src: url('../../Regelwerk/Ressourcen/Carolingia.woff') format('woff');
+}
+
+html {
+    background: lightgray;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 1.5;
+    width: auto;
+    margin: 0;
+}
+
+div.pageContainer {
+    position: relative;
+    float: left;
+    background: white;
+    /*border: 0.1rem solid gray;*/
+}
+
+div.field {
+    position: absolute;
+    border: solid black;
+    border-width: 0 0 1 0;
+    background: rgba(0, 255, 0, 0.075);
+}
+
+input {
+    position: absolute;
+    font-family: "Carolingia";
+    font-size: 13pt;
+    text-align: center;
+    border: 0;
+    background: transparent;
+}
+
+input.wide {
+    text-align: left;
+}
