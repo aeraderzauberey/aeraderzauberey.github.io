@@ -169,8 +169,12 @@ th, td {
 	text-align: center;
 }
 
-table, th, td {
+figure table, figure th, figure td {
 	border: 1px solid;
+}
+
+table.layout > tbody > tr > td {
+	vertical-align: top;
 }
 
 .icon {

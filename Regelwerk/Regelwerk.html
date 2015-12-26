@@ -1478,131 +1478,88 @@
                     <h1>Fernkampf</h1>
 
                     <p>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt wie Nahkampfwaffen: Der Angriffswurf wird mit den
-                        Würfeln aus Fingerfertigkeit und der entsprechenden Waffenfertigkeit ausgeführt. Der Mindestwurf von 1 wird jedoch
-                        noch je nach Distanz und Größe des Ziels modifiziert. Die Modifikatoren für Distanzklasse und Größe werden
-                        miteinander verrechnet, der Mindestwurf beträgt jedoch immer mindestens 1.
+                        Würfeln aus Fingerfertigkeit, der entsprechenden Waffenfertigkeit und ggf. einer Spezialisierung ausgeführt. Der
+                        Mindestwurf von 1 wird jedoch noch je nach Distanz und Größe des Ziels modifiziert. Die Modifikatoren für
+                        Distanzklasse und Größe werden miteinander verrechnet, der Mindestwurf beträgt jedoch immer mindestens 1.
                     </p>
-                    <figure id="fig-fernkampfmodifikatoren">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Distanzbereich</th>
-                                    <th>Modifikator</th>
-                                    <th> </th>
-                                    <th>Größe</th>
-                                    <th>Modifikator</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>sehr nah</td>
-                                    <td>+0</td>
-                                    <td></td>
-                                    <td>winzig</td>
-                                    <td>+2</td>
-                                </tr>
-                                <tr>
-                                    <td>nah</td>
-                                    <td>+1</td>
-                                    <td></td>
-                                    <td>klein</td>
-                                    <td>+1</td>
-                                </tr>
-                                <tr>
-                                    <td>mittel</td>
-                                    <td>+2</td>
-                                    <td></td>
-                                    <td>mittel</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>weit</td>
-                                    <td>+3</td>
-                                    <td></td>
-                                    <td>groß</td>
-                                    <td>-1</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>riesig</td>
-                                    <td>-2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </figure>
-                    <p>In welchen Distanzbereich ein Ziel fällt, ergibt sich aus der in der <a href="#waffen">Waffentabelle</a> angegebenen
-                        <dfn>Reichweitenklasse</dfn> der Waffe und folgender Tabelle. Sie zeigt die maximale Distanz in Metern, die noch zum
-                        jeweiligen Distanzbereich gehört.
+
+                    <table class="layout">
+                        <tr>
+                            <td>
+                                <figure id="fig-fernkampf-distanz">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Distanzbereich</th>
+                                                <th>Modifikator</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>sehr nah</td>
+                                                <td>+0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>nah</td>
+                                                <td>+1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mittel</td>
+                                                <td>+2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>weit</td>
+                                                <td>+3</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
+                            </td>
+                            <td>
+                                <figure id="fig-fernkampf-groesse">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Größe</th>
+                                                <th>Modifikator</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>winzig</td>
+                                                <td>+2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>klein</td>
+                                                <td>+1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mittel</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>groß</td>
+                                                <td>-1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>riesig</td>
+                                                <td>-2</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>In welchen Distanzbereich ein Ziel fällt, ergibt sich aus den Reichweitenangaben in der <a href="#fernkampfwaffen">Fernkampf-Waffentabelle</a>.
+                        Die Werte geben für die vier Bereiche die jeweilige maximale Distanz in Metern an.
                     </p>
-                    <figure id="fig-reichweitentabelle">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Rw-Klasse</th>
-                                    <th>
-                                        <p>Sehr nah</p>
-                                        <p>+0</p>
-                                    </th>
-                                    <th>
-                                        <p>Nah</p>
-                                        <p>+1</p>
-                                    </th>
-                                    <th>
-                                        <p>Mittel</p>
-                                        <p>+2</p>
-                                    </th>
-                                    <th>
-                                        <p>Weit</p>
-                                        <p>+3</p>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>A</td>
-                                    <td>3</td>
-                                    <td>6</td>
-                                    <td>12</td>
-                                    <td>25</td>
-                                </tr>
-                                <tr>
-                                    <td>B</td>
-                                    <td>6</td>
-                                    <td>12</td>
-                                    <td>25</td>
-                                    <td>50</td>
-                                </tr>
-                                <tr>
-                                    <td>C</td>
-                                    <td>12</td>
-                                    <td>25</td>
-                                    <td>50</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>D</td>
-                                    <td>25</td>
-                                    <td>50</td>
-                                    <td>100</td>
-                                    <td>200</td>
-                                </tr>
-                                <tr>
-                                    <td>E</td>
-                                    <td>50</td>
-                                    <td>100</td>
-                                    <td>200</td>
-                                    <td>500</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </figure>
                     <div class="example">
-                        <p>Ein Schütze möchte mit einem Kriegsbogen (Reichweitenklasse D) einen Gegner treffen, der etwa 60 Meter entfernt
-                            ist. Diese Entfernung entspricht der mittleren Distanz, der Mindestwurf steigt daher um 2 auf 3. Bei seinem
-                            Gegner handelt es sich um einen Menschen, der damit in die mittlere Größenklasse fällt &#8212; ergibt +0. Seinen
-                            Angriffswurf führt der Schütze also gegen einen Mindestwurf von 3 aus.
+                        <p>Ein Schütze möchte mit einem Kriegsbogen (25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250) einen Gegner
+                            treffen, der etwa 60 Meter entfernt ist. Diese Entfernung entspricht der mittleren Distanz, der Mindestwurf
+                            steigt daher um 2 auf 3. Bei seinem Gegner handelt es sich um einen Menschen, der damit in die mittlere
+                            Größenklasse fällt &#8212; ergibt +0. Seinen Angriffswurf führt der Schütze also gegen einen Mindestwurf von 3
+                            aus.
                         </p>
                     </div>
                 </section>
@@ -4384,35 +4341,35 @@
                                             <td>4 + (FF-5)</td>
                                             <td>6</td>
                                             <td>-2</td>
-                                            <td>C</td>
+                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Ogerarmbrust</td>
                                             <td>6 + (FF-7)</td>
                                             <td>8</td>
                                             <td>-3</td>
-                                            <td>D</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Pistolenarmbrust</td>
                                             <td>2 + (FF-3)</td>
                                             <td>4</td>
                                             <td>-1</td>
-                                            <td>C</td>
+                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Riesenarmbrust</td>
                                             <td>7 + (FF-8)</td>
                                             <td>9</td>
                                             <td>-3</td>
-                                            <td>D</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Schwere Armbrust</td>
                                             <td>5 + (FF-6)</td>
                                             <td>6</td>
                                             <td>-2</td>
-                                            <td>D</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -4437,42 +4394,42 @@
                                             <td>6 + (FF-7)</td>
                                             <td>8</td>
                                             <td>-3</td>
-                                            <td>D</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Kriegsbogen (Stahl)</td>
                                             <td>7 + (FF-8)</td>
                                             <td>9</td>
                                             <td>-3</td>
-                                            <td>D</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Kurzbogen</td>
                                             <td>2 + (FF-3)</td>
                                             <td>4</td>
                                             <td>-1</td>
-                                            <td>C</td>
+                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Kurzbogen (Komposit)</td>
                                             <td>4 + (FF-5)</td>
                                             <td>5</td>
                                             <td>-1</td>
-                                            <td>C</td>
+                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Langbogen</td>
                                             <td>4 + (FF-5)</td>
                                             <td>6</td>
                                             <td>-2</td>
-                                            <td>E</td>
+                                            <td>50&nbsp;/&nbsp;100&nbsp;/&nbsp;250&nbsp;/&nbsp;500</td>
                                         </tr>
                                         <tr>
                                             <td>Langbogen (Komposit)</td>
                                             <td>5 + (FF-6)</td>
                                             <td>7</td>
                                             <td>-2</td>
-                                            <td>E</td>
+                                            <td>50&nbsp;/&nbsp;100&nbsp;/&nbsp;250&nbsp;/&nbsp;500</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -4497,21 +4454,21 @@
                                             <td>1 + (FF-3)</td>
                                             <td>3</td>
                                             <td>0</td>
-                                            <td>A</td>
+                                            <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
                                         <tr>
                                             <td>Wurfmesser</td>
                                             <td>2 + (FF-4)</td>
                                             <td>4</td>
                                             <td>0</td>
-                                            <td>A</td>
+                                            <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
                                         <tr>
                                             <td>Wurfstern</td>
                                             <td>1 + (FF-5)</td>
                                             <td>5</td>
                                             <td>0</td>
-                                            <td>A</td>
+                                            <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
                                     </tbody>
                                 </table>
