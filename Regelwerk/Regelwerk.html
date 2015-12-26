@@ -1552,7 +1552,9 @@
                         </tr>
                     </table>
                     <p>In welchen Distanzbereich ein Ziel fällt, ergibt sich aus den Reichweitenangaben in der <a href="#fernkampfwaffen">Fernkampf-Waffentabelle</a>.
-                        Die Werte geben für die vier Bereiche die jeweilige maximale Distanz in Metern an.
+                        Die Werte geben für die vier Bereiche die jeweilige maximale Distanz in Metern an.<span class="footnote">Die
+                            Reichweitenangaben beziehen sich auf das Treffen eines Ziels; die maximale Flugweite einer Waffe liegt deutlich
+                            höher.</span>
                     </p>
                     <div class="example">
                         <p>Ein Schütze möchte mit einem Kriegsbogen (25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250) einen Gegner
@@ -4338,37 +4340,37 @@
                                     <tbody>
                                         <tr>
                                             <td>Leichte Armbrust</td>
-                                            <td>4 + (FF-5)</td>
+                                            <td>4 + (FF-4)</td>
                                             <td>6</td>
                                             <td>-2</td>
                                             <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ogerarmbrust</td>
-                                            <td>6 + (FF-7)</td>
-                                            <td>8</td>
-                                            <td>-3</td>
-                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Pistolenarmbrust</td>
                                             <td>2 + (FF-3)</td>
                                             <td>4</td>
                                             <td>-1</td>
-                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Riesenarmbrust</td>
-                                            <td>7 + (FF-8)</td>
-                                            <td>9</td>
-                                            <td>-3</td>
-                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
+                                            <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
                                         </tr>
                                         <tr>
                                             <td>Schwere Armbrust</td>
-                                            <td>5 + (FF-6)</td>
-                                            <td>6</td>
-                                            <td>-2</td>
+                                            <td>5 + (FF-5)</td>
+                                            <td>8</td>
+                                            <td>-3</td>
+                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Schwere Armbrust (Oger)</td>
+                                            <td>6 + (FF-6)</td>
+                                            <td>8</td>
+                                            <td>-4</td>
+                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Schwere Armbrust (Riese)</td>
+                                            <td>7 + (FF-7)</td>
+                                            <td>9</td>
+                                            <td>-4</td>
                                             <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                     </tbody>
@@ -4376,7 +4378,7 @@
                             </figure>
                         </section>
                         <section id="boegen">
-                            <h1> Bögen <img class="icon" src="Ressourcen/Attribute/FF.svg"></h1>
+                            <h1>Bögen <img class="icon" src="Ressourcen/Attribute/FF.svg"></h1>
                             <figure>
                                 <table>
                                     <thead>
@@ -4386,50 +4388,33 @@
                                             <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                             <th>Reichweite</th>
+                                            <th>Details</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Kriegsbogen</td>
-                                            <td>6 + (FF-7)</td>
-                                            <td>8</td>
-                                            <td>-3</td>
-                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Kriegsbogen (Stahl)</td>
-                                            <td>7 + (FF-8)</td>
-                                            <td>9</td>
-                                            <td>-3</td>
-                                            <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Kurzbogen</td>
-                                            <td>2 + (FF-3)</td>
-                                            <td>4</td>
-                                            <td>-1</td>
+                                            <td>Komposit-Recurvebogen</td>
+                                            <td>4 + (FF-6)</td>
+                                            <td>7</td>
+                                            <td>-2</td>
                                             <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Kurzbogen (Komposit)</td>
-                                            <td>4 + (FF-5)</td>
-                                            <td>5</td>
-                                            <td>-1</td>
-                                            <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
+                                            <td>kürzer als ein Langbogen</td>
                                         </tr>
                                         <tr>
                                             <td>Langbogen</td>
-                                            <td>4 + (FF-5)</td>
-                                            <td>6</td>
-                                            <td>-2</td>
-                                            <td>50&nbsp;/&nbsp;100&nbsp;/&nbsp;250&nbsp;/&nbsp;500</td>
+                                            <td>5 + (FF-5)</td>
+                                            <td>7</td>
+                                            <td>-3</td>
+                                            <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
+                                            <td>Länge = Körpergröße</td>
                                         </tr>
                                         <tr>
-                                            <td>Langbogen (Komposit)</td>
-                                            <td>5 + (FF-6)</td>
-                                            <td>7</td>
-                                            <td>-2</td>
-                                            <td>50&nbsp;/&nbsp;100&nbsp;/&nbsp;250&nbsp;/&nbsp;500</td>
+                                            <td>Reiterbogen</td>
+                                            <td>3 + (FF-6)</td>
+                                            <td>6</td>
+                                            <td>-1</td>
+                                            <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
+                                            <td>Komposit, Recurve, kompakt</td>
                                         </tr>
                                     </tbody>
                                 </table>
