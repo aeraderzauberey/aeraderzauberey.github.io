@@ -156,17 +156,35 @@ table {
 }
 
 th {
-	color: white;
 	background-color: black;
+	padding: 0.1em 0.5rem 0.7rem 0.5rem;
+	color: white;
+	text-align: center;
 }
 
 tr.gray {
 	background-color: lightgray;
 }
 
-th, td {
-	height: 2rem;
+td {
 	text-align: center;
+	padding: 0.4rem;
+}
+
+tbody td {
+	vertical-align: top;
+}
+
+table.itemlist td:first-child,
+table.itemlist th:first-child {
+	text-align: left;
+}
+
+td span.details {
+	font-size: 75%;
+	color: rgb(100,100,100);
+	margin-left: 1.5em;
+    display: inline-block;
 }
 
 figure table, figure th, figure td {
