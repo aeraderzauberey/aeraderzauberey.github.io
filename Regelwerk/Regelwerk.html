@@ -1499,7 +1499,7 @@
                                     <li>das Errichten einer unsichtbaren Barriere („Luft modifizieren”) oder</li>
                                     <li>das Fesseln mit einem herbeigezauberten Seil („Pflanze erschaffen + beherrschen”).</li>
                                 </ul>
-                            </p>
+                                </p>
                             </div>
                         </dd>
                         <dt>Mindestwurf</dt>
@@ -1514,6 +1514,7 @@
                                 höhere/niedrigere Mindestwürfe nach Spielleiterentscheid. Typischerweise ist diese Anpassung jedoch nicht
                                 linear: eine Angabe „1” auf „2” zu ändern verdoppelt <em>nicht</em> den Mindestwurf.
                             </p>
+                            <p>Der Mindestwurf wird gegebenenfalls durch die <a href="#parameter-zauberdauer"></a> modifiziert.</p>
                         </dd>
                         <dt>Krafteinsatz</dt>
                         <dd>
@@ -1559,19 +1560,24 @@
                                 </table>
                             </figure>
                         </dd>
-                        <dt>Zauberdauer</dt>
+                        <dt id="parameter-zauberdauer">Zauberdauer</dt>
                         <dd>
-                            <p>Je nach Effekt dauert der Zaubervorgang unterschiedlich lange. Die entsprechenden Angaben im Abschnitt
-                                „Krafteinsatz” können dabei auch von anderen Parametern abhängen, beim Heilen zum Beispiel von der Anzahl
-                                der Schadensstufen.
+                            <p>Die Zauberdauer beträgt unabhängig von anderen Parametern eine Minute.</p>
+                            <p>Im Kampf oder anderen hektischen Situationen kann die Zauberdauer auf eine einzige Handlung verkürzt werden.
+                                In diesem Fall steigt der Mindestwurf um 1.
                             </p>
+                            <div class="example">
+                                <p>Solinara sieht, wie ein Bogenschütze auf sie schießt. Sie zaubert als Reaktion „Pflanze beherrschen”, um
+                                    den Pfeil abzulenken, und muss dazu die Zauberdauer auf eine Handlung verkürzen.
+                                </p>
+                            </div>
                         </dd>
                     </dl>
                     <div class="example">
                         <p>Tharion will im Dunkeln sehen können. Der Spieler erklärt, dass Tharion seine Augen so verzaubert, dass sie zur
                             Restlichtverstärkung fähig sind. Er wählt die Eigenschaften „Humanoid modifizieren”. Der Spielleiter legt anhand
-                            der Magierichtlinien einen Mindestwurf von 2 („einen Sinn schärfen”), einen Krafteinsatz von 1 pro 10 Minuten
-                            sowie eine Zauberdauer von 4 Runden fest.
+                            der Magierichtlinien einen Mindestwurf von 2 („einen Sinn schärfen”) und einen Krafteinsatz von 1 pro 10 Minuten
+                            fest. Tharion hat es nicht besonders eilig, die Zauberdauer beträgt daher eine Minute.
                         </p>
                     </div>
                 </section>
@@ -1947,7 +1953,7 @@
                         <section>
                             <h1>Zauberdauer</h1>
 
-                            <p>1 Aktion</p>
+                            <p>1 Aktion (kein Mindestwurf-Aufschlag)</p>
                         </section>
                     </section>
                     <section id="magischeruestungen">
@@ -2118,13 +2124,6 @@
                                     keine Kraft.
                                 </p>
                             </section>
-                            <section>
-                                <h1>Zauberdauer</h1>
-
-                                <p>Sofort<span class="footnote">Im Kampf muss der Zaubernde also nicht etwa „1 Sekunde” oder gar bis zum
-                                    Ende der Runde („1 Runde”) warten. Nur so ist es möglich, als Reaktion mit „Pflanze beherrschen” einen
-                                    Pfeil aus der Luft zu fangen.</span></p>
-                            </section>
                         </section>
                     </section>
                     <section id="erkennen">
@@ -2211,11 +2210,6 @@
                                         <p>1 KP pro 5 Minuten</p>
                                     </dd>
                                 </dl>
-                            </section>
-                            <section>
-                                <h1>Zauberdauer</h1>
-
-                                <p>(&#8230;)</p>
                             </section>
                         </section>
                         <section id="analyse" class="effect">
@@ -2343,11 +2337,6 @@
                                     <dd>100 kg, +1 KP pro weitere 100 kg</dd>
                                 </dl>
                             </section>
-                            <section>
-                                <h1>Zauberdauer</h1>
-
-                                <p>1 Runde</p>
-                            </section>
                         </section>
                         <section id="tor" class="effect">
                             <h1>Tor</h1>
@@ -2422,11 +2411,6 @@
                                     <dt>Wirkungsdauer</dt>
                                     <dd>30 Sekunden, +1 KP pro weitere 30 Sekunden</dd>
                                 </dl>
-                            </section>
-                            <section>
-                                <h1>Zauberdauer</h1>
-
-                                <p>1 Minute</p>
                             </section>
                         </section>
                     </section>
@@ -2981,10 +2965,6 @@
                                     </dd>
                                 </dl>
                             </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                            </section>
                         </section>
                     </section>
                     <section id="lebewesen-bereiche">
@@ -3183,10 +3163,6 @@
                                 </table>
                             </figure>
                         </section>
-
-                        <section>
-                            <h1>Zauberdauer</h1>
-                        </section>
                     </section>
                     <section id="kraft">
                         <h1>Kraft</h1>
@@ -3221,11 +3197,6 @@
                             <section>
                                 <h1>Krafteinsatz</h1>
                                 <p>beliebig</p>
-                            </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>Wie der eigentliche Zauber</p>
                             </section>
                         </section>
 
@@ -3264,11 +3235,6 @@
                             <section>
                                 <h1>Krafteinsatz</h1>
                                 <p>beliebig (kann dem Hauptzauberer zur Verfügung gestellt werden)</p>
-                            </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>Wie der eigentliche Zauber</p>
                             </section>
                         </section>
 
@@ -3325,11 +3291,6 @@
                                 <h1>Krafteinsatz</h1>
                                 <p>-</p>
                             </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>-</p>
-                            </section>
                         </section>
 
                         <section class="effect">
@@ -3352,11 +3313,6 @@
                                         möchte, kann und soll der Spielleiter also die eingesetzte Kraftmenge zunächst geheim halten. Nach
                                         der Zauberprobe des Spielers (ob erfolgreich oder nicht) teilt er ihm die fürs Kontern benötigte
                                         Kraftmenge mit.</span></p>
-                            </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>Sofort</p>
                             </section>
                         </section>
 
@@ -3440,11 +3396,6 @@
 
                                 <p>Die Distanz zum Zentrum des Felds beträgt bis zu 5 Meter pro zusätzlichem Kraftpunkt.</p>
                             </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>Einige Minuten</p>
-                            </section>
                         </section>
 
                         <section class="effect">
@@ -3494,11 +3445,6 @@
                                 </p>
 
                                 <p>Die Distanz zum Zentrum des Schildes beträgt bis zu 4 Meter pro zusätzlichem Kraftpunkt.</p>
-                            </section>
-
-                            <section>
-                                <h1>Zauberdauer</h1>
-                                <p>1 Runde</p>
                             </section>
                         </section>
 
