@@ -155,11 +155,28 @@ table {
 	width: 100%;
 }
 
+table + table {
+    margin-top: 1rem;
+}
+
 th {
 	background-color: black;
 	padding: 0.1em 0.5rem 0.7rem 0.5rem;
 	color: white;
 	text-align: center;
+    border-width: 0;
+}
+
+th:not(:first-child) {
+    border-left: 1px solid white;
+}
+
+th:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+tr:not(:first-child) th {
+    border-top: 1px solid white;
 }
 
 tr.gray {
@@ -187,8 +204,14 @@ td span.details {
     display: inline-block;
 }
 
-figure table, figure th, figure td {
-	border: 1px solid;
+figure table {
+    border: 1px solid black;
+}
+
+figure td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 table.layout > tbody > tr > td {
