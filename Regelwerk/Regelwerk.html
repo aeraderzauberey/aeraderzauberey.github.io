@@ -234,6 +234,11 @@
                                         <td>Gegenstände erschaffen, Lebewesen wiederherstellen</td>
                                     </tr>
                                     <tr>
+                                        <td class="icononly"><img class="icon" src="Ressourcen/Techniken/kooperieren.svg"></td>
+                                        <td><a href="#kooperieren"></a></td>
+                                        <td>Gemeinsames Zaubern</td>
+                                    </tr>
+                                    <tr>
                                         <td class="icononly"><img class="icon" src="Ressourcen/Techniken/modifizieren.svg"></td>
                                         <td><a href="#modifizieren"></a></td>
                                         <td>Gegenstände und Lebewesen verändern</td>
@@ -1569,6 +1574,9 @@
                             <p>Im Kampf oder anderen hektischen Situationen kann die Zauberdauer auf eine einzige Handlung verkürzt werden.
                                 In diesem Fall steigt der Mindestwurf um 1.
                             </p>
+                            <p>Für besonders kraftaufwändige Effekte oder zum gemeinsamen Zaubern werden Zauber als ausgedehnte <a
+                                href="#rituale"></a> durchgeführt.
+                            </p>
                             <div class="example">
                                 <p>Solinara sieht, wie ein Bogenschütze auf sie schießt. Sie zaubert als Reaktion <em>Pflanze
                                     beherrschen</em>, um den Pfeil abzulenken, und muss dazu die Zauberdauer auf eine Handlung verkürzen.
@@ -1740,6 +1748,57 @@
                         vergleichende Probe gefordert wird oder der Spieler es wünscht &ndash; zum Beispiel weil er besonders viele Erfolge
                         erreichen möchte.
                     </p>
+                </section>
+                <section id="rituale">
+                    <h1>Rituale</h1>
+
+                    <p>Lassen sich Zaubernde besonders viel Zeit, entsteht eine machtvollere Zaubermatrix. Abhängig von der Zauberdauer
+                        erhält sie zusätzliche Kraftpunkte, gegen die kein Entzugswurf nötig ist:
+                    </p>
+                    <figure id="fig-rituale-bonuskraft">
+                        <table class="itemlist">
+                            <thead>
+                                <tr>
+                                    <th>Ritualdauer</th>
+                                    <th>Kraft</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1 Stunde</td>
+                                    <td>5 KP</td>
+                                </tr>
+                                <tr>
+                                    <td>8 Stunden</td>
+                                    <td>10 KP</td>
+                                </tr>
+                                <tr>
+                                    <td>24 Stunden</td>
+                                    <td>15 KP</td>
+                                </tr>
+                                <tr>
+                                    <td>80 Stunden</td>
+                                    <td>20 KP</td>
+                                </tr>
+                                <tr>
+                                    <td>240 Stunden</td>
+                                    <td>25 KP</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                    <p>Auf diese Weise können nicht mehr als 25 zusätzliche KP erzeugt werden. Hinzu kommt noch der reguläre Krafteinsatz
+                        des Zaubernden, gegen den wie üblich ein Entzugswurf stattfindet.
+                    </p>
+                    <p>Mit der Technik <a href="#kooperieren"></a> ist es möglich, dass mehrere Magiekundige zusammen an einem Ritual
+                        arbeiten. In diesem Fall ergibt sich die tatsächliche Zeit aus der oben genannten Ritualdauer geteilt durch die
+                        Anzahl der erfolgreichen Teilnehmer, beträgt jedoch immer mindestens eine Stunde.
+                    </p>
+                    <div class="example">
+                        <p>Ein Ritual mit 10 zusätzlichen KP, für das ein einzelner Magier 8 Stunden lang zaubern müsste, dauert in einem
+                            Zirkel aus 4 Magiern nur 2 Stunden.
+                        </p>
+                    </div>
                 </section>
             </section>
         </main>
@@ -2238,6 +2297,193 @@
                         <p>Mit dieser Technik ist es möglich, Gegenstände aus dem Nichts zu erschaffen. Außerdem können beschädigte
                             Gegenstände repariert bzw. Lebewesen geheilt werden.
                         </p>
+                    </section>
+                    <section id="kooperieren">
+                        <h1>Kooperieren <img class="icon" src="Ressourcen/Techniken/kooperieren.svg"></h1>
+
+                        <p>Ermöglicht im Rahmen eines <a href="#rituale">Rituals</a> die Zusammenarbeit mehrerer Magiekundiger. Jeder dieser
+                            <dfn>Teilnehmer</dfn> führt für das Ritual genau eine Probe durch, die <dfn>Ritualprobe</dfn>. Die
+                            Eigenschaften, welche in die jeweilige Ritualprobe aufgenommen werden müssen, hängen von der Art seiner Beiträge
+                            zum Ritual ab:
+                        </p>
+                        <ul>
+                            <li>Zauber ausführen</li>
+                            <li>Kraft bereitstellen</li>
+                            <li>Bonuswürfel erzeugen</li>
+                        </ul>
+                        <p>Werden dabei mehrere Techniken oder mehrere Magiebereiche in die Ritualprobe aufgenommen, werden sie wie unter <a
+                            href="#zauberproben"></a> beschrieben kombiniert, also jeweils der Durchschnitt der Techniken und Magiebereiche
+                            gebildet.
+                        </p>
+                        <dl>
+                            <dt>Voraussetzungen</dt>
+                            <dd>
+                                <p>Entscheidet sich der Zaubernde, seinen Zauber als Ritual durchzuführen, kann ihn jeder Magiekundige
+                                    unterstützen, der <em>Kooperieren</em> beherrscht und den Zaubernden während des gesamten Rituals sehen
+                                    kann.
+                                </p>
+                                <p>Diese anderen Teilnehmer, die <dfn>Unterstützer</dfn>, müssen für die Teilnahme am Ritual 1 KP aufwenden
+                                    und mindestens einen der unten stehenden Beiträge leisten. Sie nehmen <em>Kooperieren</em> in ihre
+                                    Ritualprobe auf, ihr Mindestwurf beträgt immer 1.
+                                </p>
+                                <p>
+                                    Obwohl Unterstützer nicht die eigentliche Zauberprobe durchführen, wirken sie aktiv Magie: sie
+                                    unterliegen den üblichen Handlungseinschränkungen (siehe <a href="#zauberdauer"></a>) und benötigen
+                                    einen Entzugswurf.
+                                </p>
+                                <p>Die Gesamtanzahl aller Teilnehmer ist beschränkt auf 2 plus den <em>Kooperieren</em>-Wert des Zaubernden.
+                                    Daraus ergibt sich eine absolute Obergrenze von 12 Teilnehmern.
+                                </p>
+                            </dd>
+
+                            <dt>Zauber ausführen</dt>
+                            <dd>
+                                <p>Der Zaubernde nimmt alle vom Zauber benötigten Eigenschaften in seine Ritualprobe auf. Er benötigt weder
+                                    <em>Kooperieren</em> noch <a href="#kraft"></a>. Er kann von Unterstützern Bonuswürfel erhalten, die
+                                    Würfelanzahl ist jedoch auf 25 begrenzt.
+                                </p>
+                                <p>Vor Beginn des Rituals legt der Zaubernde die Gesamtmenge an Kraft, welche von den Teilnehmern in die
+                                    Zaubermatrix gespeist werden, fest. Die zusätzlichen Kraftpunkte durch die Ritualdauer (siehe <a
+                                        href="#rituale"></a>) werden separat betrachtet. Der Zaubernde selbst steuert mindestens 1 KP bei.
+                                </p>
+                            </dd>
+
+                            <dt>Kraft bereitstellen</dt>
+                            <dd>
+                                <p>Beherrscht ein Unterstützer <a href="#kraft"></a> und <a href="#versetzen"></a>, kann er eine beliebige
+                                    Anzahl KP (mindestens 1) für die Zaubermatrix bereitstellen. Dazu nimmt er <em>Kraft</em> und <em>Versetzen</em>
+                                    in seine Ritualprobe auf und wendet die gewünschte Kraftmenge auf, zusätzlich zu dem o.g. KP für die
+                                    Teilnahme.
+                                </p>
+                                <p>Zusatzerfolge der Ritualprobe können als Bonuswürfel für den eigenen Entzugswurf genutzt werden.
+                                </p>
+                                <p>Kombinierbar mit <em>Bonuswürfel erzeugen</em>.</p>
+                            </dd>
+
+                            <dt>Bonuswürfel erzeugen</dt>
+                            <dd>
+                                <p>Beherrscht ein Unterstützer alle vom Zauber benötigten Techniken und mindestens einen der benötigten
+                                    Magiebereiche, kann er für die Ritualprobe des Zaubernden Bonuswürfel erzeugen. Dazu nimmt er alle
+                                    Techniken des Zaubers sowie diejenigen benötigten Magiebereiche, welche er beherrscht, in seine
+                                    Ritualprobe auf.
+                                </p>
+                                <p>Zusatzerfolge der Ritualprobe können als Bonuswürfel wahlweise für den Zaubernden oder für den eigenen
+                                    Entzugswurf genutzt werden.
+                                </p>
+                                <p>Kombinierbar mit <em>Kraft bereitstellen</em>.</p>
+                            </dd>
+                        </dl>
+                        <p>Jeder Teilnehmer führt seinen Entzugswurf nur für die von ihm selbst aufgewendete Kraft durch.</p>
+                        <p>Scheitert die Ritualprobe eines Unterstützers, ist das Ritual nicht automatisch gescheitert. Die Dauer des
+                            Rituals wird jedoch so berechnet, als ob der Unterstützer nicht teilgenommen hätte (siehe <a
+                                href="#rituale"></a>). Wird durch das Scheitern weniger Kraft bereitgestellt als geplant, muss der Zaubernde
+                            die Differenz aufbringen.
+                        </p>
+                        <div class="example">
+                            <p>Solinara und ihre Freunde begleiten einen Händler und stoßen auf eine eingestürzte Brücke. Der Umweg würde
+                                Tage dauern, aber sie haben genug Zeit für ein Ritual. Der Plan ist, den Karren wie ein fliegendes Boot
+                                mehrmals über den Abgrund und zurück zu bewegen, bis Ladung, Esel und alle Personen auf der anderen Seite
+                                sind.
+                            </p>
+                            <!--
+                            Basis (1 KP), 1000 kg (+7 KP),  ca. 40 min = 2.500 sec (+6 KP)
+                            Für die Ladung, den Esel und die Personen gehen wir von insgesamt 3 Touren aus. Während der Wirkungsdauer muss
+                            Fuhre 2 und 3 auf- und Fuhre 2 abgeladen werden. Das dürfte jeweils locker 5 Minuten dauern, macht 15. Es bleibt
+                            aber noch genug Zeit um mit der Basisgeschwindigkeit von 1 m/s die Strecke von 50 m fünf mal zu überbrücken.
+                            -->
+                            <p>Spielleiter und Spieler einigen sich auf einen Kraftbedarf von 14 KP. Das Ritual soll eine Stunde dauern, was
+                                5 zusätzliche KP erzeugt. Um sich nicht zu sehr zu verausgaben, lässt sich Solinara von Tharion und der
+                                Priesterin Koriziel helfen, die dazu jeweils 1 KP aufwenden.
+                            </p>
+                            <p>Der Zauber benötigt die Eigenschaften <em>Pflanze</em> und <em>Beherrschen</em> und hat einen Mindestwurf von
+                                3. <!-- einfache Bewegung, Lenken, Geschwindigkeit -->
+                            </p>
+                            <p>Tharion will sowohl Bonuswürfel erzeugen als auch Kraft bereitstellen, und zwar 3 KP. Er hat
+                                <em>Pflanzen</em> 3 und <em>Kraft</em> 2 sowie <em>Beherrschen</em> 5, <em>Kooperieren</em> 2 und <em>Versetzen</em>
+                                3. Seine Ritualprobe führt er mit 3 (Durchschnitt der Magiebereiche) + 4 (Durchschnitt der Techniken) = 7
+                                Würfeln gegen einen Mindestwurf von 1 aus. Er erzielt 4 Erfolge. Von den 3 Zusatzerfolgen verwendet er einen
+                                als Bonuswürfel für seinen Entzugswurf gegen die aufgewendeten 1 + 3 KP und zwei als Bonuswürfel für
+                                Solinara.
+                            </p>
+                            <p>Koriziel besitzt zwar <em>Beherrschen</em>, aber nicht <em>Pflanze</em>, kann also keine Bonuswürfel
+                                erzeugen. Aber immerhin kann sie Kraft bereitstellen; sie entscheidet sich für 4 KP. Koriziel hat
+                                <em>Kraft</em> 5 sowie <em>Kooperieren</em> 3 und <em>Versetzen</em> 3. Sie führt ihre Ritualprobe mit 5
+                                (<em>Kraft</em>) + 3 (Durchschnitt der Techniken) = 8 Würfeln gegen einen Mindestwurf von 1 aus und erzielt
+                                5 Erfolge, erhält also 4 Bonuswürfel für ihren Entzugswurf gegen die aufgewendeten 1 + 4 KP.
+                            </p>
+                            <p>Schließlich führt Solinara ihre Ritualprobe durch. Sie hat <em>Pflanze</em> 6 und <em>Beherrschen</em> 4. Für
+                                die Probe hat sie 6 (<em>Pflanze</em>) + 4 (<em>Beherrschen</em>) + 2 (Bonuswürfel von Tharion) = 12 Würfel.
+                                Sie erzielt 3 Erfolge und erreicht damit genau den Mindestwurf des Zaubers. Für die verbleibende Kraft von
+                                14 (Gesamtaufwand) - 5 (Ritualdauer) - 3 (Tharion) - 4 (Koriziel) = 2 KP führt Solinara zuletzt ihren
+                                Entzugswurf durch.
+                            </p>
+                            <p>Nach der einstündigen Zauberdauer beginnt nun die gut 40-minütige Wirkungsdauer, während der Solinara den
+                                Karren dirigiert sowie beim be- und entladen hilft.
+                            </p>
+                        </div>
+                        <section>
+                            <h1>Sonderfall: Mehrere Zaubernde</h1>
+
+                            <p>Gemeinsam können auch Zauber gewirkt werden, zu denen die Beteiligten alleine nicht in der Lage wären. Dies
+                                ist unter den folgenden Voraussetzungen möglich:
+                            </p>
+                            <ol>
+                                <li>Keiner der Zaubernden beherrscht allein alle benötigten Magiebereiche.</li>
+                                <li>Jeder der Zaubernden trägt mindestens einen Magiebereich bei, der sonst nicht vertreten wäre.</li>
+                                <li>Alle benötigten Magiebereiche sind abgedeckt.</li>
+                                <li>Alle Zaubernden beherrschen alle benötigten Techniken sowie <em>Kooperieren</em>, <a
+                                    href="#versetzen"></a> und <a href="#kraft"></a>.
+                                </li>
+                                <li>Unterstützer müssen beim Erzeugen von Bonuswürfeln jeweils einen der Zaubernden wählen. Der Unterstützer
+                                    und der gewählte Zaubernde müssen mindestens einen der benötigten Magiebereiche gemeinsam haben.
+                                </li>
+                                <li>Die Gesamtanzahl der Teilnehmer liegt nicht höher als 2 plus den höchsten <em>Kooperieren</em>-Wert der
+                                    Zaubernden.
+                                </li>
+                            </ol>
+                            <p>Um den Zauber zu wirken, nehmen alle Zaubernden in ihre Ritualprobe die folgenden Eigenschaften auf:</p>
+                            <ul>
+                                <li>Techniken
+                                    <ul>
+                                        <li>alle benötigten Techniken</li>
+                                        <li><em>Kooperieren</em></li>
+                                        <li><a href="#versetzen"></a></li>
+                                    </ul>
+                                </li>
+                                </dd>
+                                <li>Magiebereiche
+                                    <ul>
+                                        <li>alle benötigten Magiebereiche, die sie beherrschen</li>
+                                        <li><a href="#kraft"></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>Alle Zaubernden müssen mit ihrer Ritualprobe den Mindestwurf des Zaubers erreichen, sonst ist der Zauber
+                                insgesamt gescheitert. Gelingt der Zauber, entspricht die Erfolgsanzahl in der Zaubermatrix der niedrigsten
+                                von den Zaubernden erreichten Erfolgsanzahl.
+                            </p>
+                            <div class="example">
+                                <p>Solinara und Koriziel möchten das Tor eines Turms verstärken, in dem sie dessen Holz für einen Tag in
+                                    Stahl verwandeln. Ein solcher Zauber benötigt <em>Modifizieren</em> sowie <em>Pflanze</em> und <em>Metall</em>,
+                                    der Mindestwurf beträgt 4, der Krafteinsatz 10. Solinara beherrscht <em>Pflanze</em>, Koriziel <em>Metall</em>.
+                                    Beide beherrschen <em>Modifizieren</em>, <em>Kooperieren</em> und <em>Versetzen</em> sowie
+                                    <em>Kraft</em>.
+                                </p>
+                                <p>Solinara verwendet für ihre Ritualprobe 3 (Durchschnitt aus <em>Modifizieren</em> 4, <em>Kooperieren</em>
+                                    2 und <em>Versetzen</em> 2) + 5 (Durchschnitt aus <em>Pflanze</em> 6 und <em>Kraft</em> 3) = 8 Würfel.
+                                    Sie erzielt 4 Erfolge und erreicht damit den Mindestwurf.
+                                </p>
+                                <p>Koriziels Ritualprobe wird mit 4 (Durchschnitt aus <em>Modifizieren</em> 5, <em>Kooperieren</em> 3 und
+                                    <em>Versetzen</em> 3) + 6 (Durchschnitt aus <em>Metall</em> 7 und <em>Kraft</em> 5) = 10 Würfeln
+                                    durchgeführt. Sie erzielt 3 Erfolge, was ein Scheitern des ganzen Rituals zur Folge hätte. Sie setzt
+                                    ihren <a href="#glueckspool"></a> ein und erzielt weitere 2 Erfolge, wodurch sie den Mindestwurf
+                                    erreicht und der Zauber gelingt.
+                                </p>
+                                <p>Sollte ein gegnerischer Magier den Zauber während der Wirkungsdauer entdecken und aufheben wollen, müsste
+                                    er nur die 4 Erfolge von Solinara negieren, nicht die 5 von Koriziel.
+                                </p>
+                            </div>
+                        </section>
                     </section>
                     <section id="modifizieren">
                         <h1>Modifizieren <img class="icon" src="Ressourcen/Techniken/modifizieren.svg"></h1>
@@ -3154,11 +3400,11 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
+                                            <td>2</td>
                                             <td>Eine körperliche Schadensstufe heilen</td>
                                         </tr>
                                         <tr>
-                                            <td>2</td>
+                                            <td>3</td>
                                             <td>Eine Krankheitsstufe heilen</td>
                                         </tr>
                                     </tbody>
@@ -3174,71 +3420,6 @@
                         <p>Menschen, die zaubern können, zählen im Sinn dieses Magiebereichs nicht als übernatürlich. Sie fallen unter <a
                             href="#lebewesen-bereiche">Humanoid</a>.
                         </p>
-
-                        <section class="effect" id="kraft-bereitstellen">
-                            <h1>Kraft bereitstellen <img class="icon" src="Ressourcen/Techniken/beherrschen.svg"></h1>
-
-                            <p>Um einem anderen Zaubernden zusätzliche Kraft zur Verfügung zu stellen, zaubert der Unterstützer „Kraft
-                                beherrschen”.
-                            </p>
-
-                            <p>Gelingt ihm dieser Zauber, steht dem Hauptzauberer die entsprechende Kraftmenge für seinen Zauber zur
-                                Verfügung. Der Hauptzauberer führt seinen Entzugswurf jedoch nur gegen die Kraft durch, die er selbst in den
-                                Zauber gelenkt hat.
-                            </p>
-
-                            <p>Scheitert die Zauberprobe des Unterstützers, wird keine Kraft zur Verfügung gestellt. Der Hauptzauberer muss
-                                dann die komplette geplante Kraftmenge allein aufbringen oder den Zauber vorzeitig abbrechen.
-                            </p>
-
-                            <section>
-                                <h1>Mindestwurf</h1>
-                                <p>1</p>
-                            </section>
-
-                            <section>
-                                <h1>Krafteinsatz</h1>
-                                <p>beliebig</p>
-                            </section>
-                        </section>
-
-                        <section class="effect">
-                            <h1>Gemeinsames Zaubern <img class="icon" src="Ressourcen/Kombination.svg"></h1>
-
-                            <p>Zaubernde können einander bei der Zauberprobe unterstützen. Dazu führt zunächst der Unterstützer eine
-                                Zauberprobe mit den Magiebereichen des eigentlichen Zaubers plus Kraft sowie der Technik des eigentlichen
-                                Zaubers durch.
-                            </p>
-
-                            <p>Der Unterstützer legt den Mindestwurf nach dem Wurf fest. Die Zusatzerfolge gewähren dann wie üblich
-                                Bonuswürfel für die Entzugsprobe.<span class="footnote">Will ein Lehrmeister seinem Schüler nicht allzuviel
-                                    helfen, kann er den Mindestwurf absichtlich niedrig ansetzen.</span>
-                            </p>
-
-                            <p>Der Hauptzauberer erhält für jeden Erfolg des Unterstützers einen Bonuswürfel für seine eigene Zauberprobe.
-                            </p>
-
-                            <p>Im Rahmen des gemeinsamen Zauberns kann der Unterstützer optional auch <a href="#kraft-bereitstellen"></a>,
-                                ohne dass ein separater Zauber nötig ist.
-                            </p>
-
-                            <p>Darüber hinaus kann gemeinsam auch ein Zauber gewirkt werden, zu dem die Beteiligten allein nicht in der Lage
-                                wären: erfordert ein Zauber die Magiebereiche A und B, können zwei Personen, die jeweils nur A oder B
-                                beherrschen, gemeinsam zaubern, solange beide die notwendige(n) Technik(en) beherrschen. Dazu führt der
-                                Hauptzauberer die Zauberprobe mit Magiebereich A durch, der Unterstützer die Zauberprobe mit B und Kraft. In
-                                einem solchen Fall führt ein Scheitern des Unterstützers dazu, dass der Zauber insgesamt scheitert.
-                            </p>
-
-                            <section>
-                                <h1>Mindestwurf</h1>
-                                <p>1+ (offen)</p>
-                            </section>
-
-                            <section>
-                                <h1>Krafteinsatz</h1>
-                                <p>beliebig (kann dem Hauptzauberer zur Verfügung gestellt werden)</p>
-                            </section>
-                        </section>
 
                         <section class="effect">
                             <h1>Zauber und Artefakte tarnen <img class="icon hasnext" src="Ressourcen/Zusatzprobe.svg"><img
