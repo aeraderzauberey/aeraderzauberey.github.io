@@ -21,6 +21,11 @@ a:link, a:visited {
 	font-size: 1.1rem;
 }
 
+.example em {
+    font-style: normal;
+    font-variant: small-caps;
+}
+
 @media screen {
 	.example {
 		box-shadow: 0.75em 0.75em 1em #afa95b;
@@ -265,6 +270,11 @@ dd>p {
 
 dd {
 	margin-bottom: 1em;
+}
+
+/* Bullet lists */
+ul {
+    margin-bottom: 1em;
 }
 
 /* TOC */
