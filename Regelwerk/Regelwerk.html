@@ -799,10 +799,10 @@
                     <h1>Umstandsmodifikatoren</h1>
 
                     <p>Neben den Fähigkeiten eines Charakters gibt es häufig weitere Umstände, welche die Probe beeinflussen. Für negative
-                        Einflüsse wie Verletzungen oder Erschöpfung (siehe <a href="#gesundheit"></a>), besondere Eile oder widrige
-                        Bedingungen (z.B. eisige Kälte) kann der Spielleiter einen Würfelmalus bestimmen. Umgekehrt können positive
-                        Einflüsse wie gute Vorbereitung, ausführliches Zielen oder Hilfe von anderen einen Würfelbonus bewirken. Dabei
-                        werden alle anwendbaren Würfelmali und -boni auf die zuvor bestimmte Würfelanzahl angerechnet.
+                        Einflüsse wie besondere Eile oder widrige Bedingungen (z.B. eisige Kälte) kann der Spielleiter einen Würfelmalus
+                        bestimmen. Umgekehrt können positive Einflüsse wie gute Vorbereitung, ausführliches Zielen oder Hilfe von anderen
+                        einen Würfelbonus bewirken. Dabei werden alle anwendbaren Würfelmali und -boni auf die zuvor bestimmte Würfelanzahl
+                        angerechnet.
                     </p>
                 </section>
                 <section>
@@ -874,8 +874,11 @@
                     <p>Das Ergebnis einer Probe wird als Anzahl von <dfn data-base="Erfolg" data-alternatives="Erfolge">Erfolgen</dfn>
                         angegeben. Jeder gerollte Würfel, der eine 5 oder 6 zeigt, zählt als ein Erfolg.
                     </p>
-                    <p>Ist die Anzahl der Erfolge gleich oder höher als der zuvor festgelegte Mindestwurf, ist die Probe <em>gelungen</em>.
-                        Wurden weniger oder gar keine Erfolge erzielt, ist sie <em>gescheitert</em>.
+                    <p>Ist der Charakter verwundet oder erschöpft, gilt ein Verletzungsmalus, der auf die Erfolgsanzahl angerechnet wird
+                        (siehe <a href="#gesundheit"></a>).
+                    </p>
+                    <p>Ist die Anzahl der verbleibenden Erfolge gleich oder höher als der zuvor festgelegte Mindestwurf, ist die Probe <em>gelungen</em>.
+                        Verbleiben weniger oder gar keine Erfolge, ist sie <em>gescheitert</em>.
                     </p>
                     <p>Die Erfolge, welche über den Mindestwurf hinaus gehen, heißen <dfn
                         data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>.
@@ -1013,16 +1016,16 @@
                             </tr>
                             <tr>
                                 <td>-0</td>
+                                <td>-0</td>
+                                <td>-1</td>
+                                <td>-1</td>
                                 <td>-1</td>
                                 <td>-2</td>
+                                <td>-2</td>
+                                <td>-2</td>
                                 <td>-3</td>
-                                <td>-4</td>
-                                <td>-5</td>
-                                <td>-6</td>
-                                <td>-7</td>
-                                <td>-8</td>
-                                <td>-9</td>
-                                <td>-10</td>
+                                <td>-3</td>
+                                <td>-3</td>
                                 <td>X</td>
                             </tr>
                         </tbody>
@@ -1032,7 +1035,7 @@
                     einen Charakter gilt jeweils der Malus, dessen Stufe zuletzt angekreuzt wurde. Die durch verschiedene Schadensarten
                     verursachten Verletzungsmali sind dabei nicht kumulativ; es gilt nur der jeweils höchste Malus.
                 </p>
-                <p>Der Verletzungsmalus verringert die Würfelanzahl der meisten Proben. Davon ausgenommen sind:</p>
+                <p>Der Verletzungsmalus verringert die Erfolgsanzahl der meisten Proben. Davon ausgenommen sind:</p>
                 <ul>
                     <li>Widerstandswürfe (siehe oben)</li>
                     <li><a href="#rettungswurf">Rettungswürfe</a></li>
@@ -1265,7 +1268,7 @@
                         </p>
                         <p>Gegner B trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei seinem Widerstandswurf erzielt er mit seinen 3
                             <em>Konstitutions</em>-Würfeln 1 Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner
-                            Schadensleiste eingetragen werden. Er erhält nun einen Verletzungsmalus von 3.
+                            Schadensleiste eingetragen werden. Er erhält von nun an einen Verletzungsmalus von 1 Erfolg.
                         </p>
                     </div>
                 </section>
@@ -1292,9 +1295,9 @@
                                 Erfolge. Sein Reaktionsmalus beträgt nun 2.
                             </p>
                             <p>Sobald Gegner B seine Aktionsphase erreicht, sinkt der Malus wieder auf 0, doch zuvor könnte ihn Solinara
-                                angreifen. Falls er dann eine Reaktion durchführt, wird auf die Würfelanzahl zusätzlich zu seinem
-                                Verletzungsmalus von 3 auch dieser Reaktionsmalus angerechnet. Für eine Parade dürfte er also nur noch 4 von
-                                9 Würfeln (9 Würfel minus Verletzungsmalus 3 minus Reaktionsmalus 2) einsetzen.
+                                angreifen. Falls er dann eine Reaktion durchführt, wird auf die Würfelanzahl sein Reaktionsmalus
+                                angerechnet. Für eine Parade dürfte er also nur noch 7 von 9 Würfeln einsetzen. Außerdem verringert sein
+                                Verletzungsmalus die dabei erzielte Erfolgsanzahl um 1.
                             </p>
                         </div>
                     </section>
@@ -1672,9 +1675,8 @@
                             <li>Anzahl der vor der Zauberprobe festgelegten Bonuswürfel</li>
                             <li>Anzahl der Zusatzerfolge bei der Zauberprobe</li>
                         </ul>
-                        <p>Der Verletzungsmodifikator wird nicht angewendet.</p>
                         <p>Der erhaltene geistige Schaden entspricht der Anzahl der verwendeten Kraftpunkte, vermindert um die beim
-                            Entzugswurf erzielten Erfolge.
+                            Entzugswurf erzielten Erfolge. Ein eventueller Verletzungsmalus wird nicht angewendet.
                         </p>
                         <div class="example">
                             <p>Tharion hat für seinen Nachtsicht-Zauber 2 Kraftpunkte verwendet. Weil er keine Bonuswürfel aus der
@@ -4968,16 +4970,16 @@
                                 </tr>
                                 <tr>
                                     <td>-0</td>
+                                    <td>-0</td>
+                                    <td>-1</td>
+                                    <td>-1</td>
                                     <td>-1</td>
                                     <td>-2</td>
+                                    <td>-2</td>
+                                    <td>-2</td>
                                     <td>-3</td>
-                                    <td>-4</td>
-                                    <td>-5</td>
-                                    <td>-6</td>
-                                    <td>-7</td>
-                                    <td>-8</td>
-                                    <td>-9</td>
-                                    <td>-10</td>
+                                    <td>-3</td>
+                                    <td>-3</td>
                                     <td><img class="damagebox" src="Ressourcen/Totenkopf.svg"></td>
                                 </tr>
                             </tbody>
