@@ -781,14 +781,14 @@
                         </p>
                         <p>Statt einem einzelnen Magiebereich bzw. einer einzelnen Technik können auch jeweils mehrere zum Einsatz kommen.
                             In diesem Fall wird der Durchschnitt der jeweiligen Eigenschaften verwendet. Ist der Durchschnitt keine ganze
-                            Zahl, wird aufgerundet.
+                            Zahl, wird aufgerundet. In jedem Fall wird aber nur maximal ein Fokus eingesetzt.
                         </p>
                     </section>
                     <section>
                         <h1><dfn data-base="Attributsprobe">Attributsproben</dfn></h1>
 
-                        <p>Die Würfelanzahl entspricht der Summe der Punktzahlen von Attribut und ggf. einer zur Aufgabe passenden
-                            Spezialisierung.
+                        <p>Die Würfelanzahl entspricht der doppelten Punktzahl des Attributs. Gegebenenfalls kommt noch die einfache
+                            Punktzahl einer zur Aufgabe passenden Spezialisierung einer beliebigen Fertigkeit hinzu.
                         </p>
                         <p>Attributsproben werden nur dann eingesetzt, wenn der Spielleiter keine der Fertigkeiten dieses Regelwerks für
                             passend hält, nicht etwa weil der Charakter die passende Fertigkeit nicht besitzt.
@@ -809,50 +809,59 @@
                     <h1>Mindestwurf</h1>
 
                     <p>Als nächstes legt der Spielleiter den zu erreichenden <dfn data-alternatives="Mindestwürfe">Mindestwurf</dfn> fest.
-                        Dieser hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab. Für einige Arten von Aufgaben wie das
-                        Zaubern sind in diesem Regelwerk Richtlinien für Mindestwürfe aufgeführt; als generelle Orientierung kann die
-                        folgende Tabelle verwendet werden:
+                        Er beträgt mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab. Für
+                        einige Arten von Aufgaben wie das Zaubern sind in diesem Regelwerk Richtlinien für Mindestwürfe aufgeführt; als
+                        generelle Orientierung kann die folgende Tabelle verwendet werden:
                     </p>
                     <figure id="schwierigkeitstabelle">
                         <table>
                             <thead>
                                 <tr>
                                     <th rowspan="2">Art der Aufgabe</th>
-                                    <th colspan="2">Mindestwurf</th>
+                                    <th rowspan="2">Mindestwurf</th>
+                                    <th colspan="3">Erfolgschance</th>
                                 </tr>
                                 <tr>
-                                    <th>Fertigkeits- oder Zauberprobe</th>
-                                    <th>Attributsprobe</th>
+                                    <th>Einsteiger: 4W</th>
+                                    <th>Fortgeschritten: 12W</th>
+                                    <th>Meisterlich: 20W</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Leicht</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>Mittel</td>
+                                    <td>Routine</td>
                                     <td>2</td>
-                                    <td rowspan="2">2</td>
+                                    <td>40,7%</td>
+                                    <td>94,6%</td>
+                                    <td>99,7%</td>
                                 </tr>
                                 <tr>
                                     <td>Herausforderung</td>
-                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>1,2%</td>
+                                    <td>60,7%</td>
+                                    <td>94,0%</td>
                                 </tr>
                                 <tr>
                                     <td>Schwierig</td>
-                                    <td>4</td>
-                                    <td rowspan="2">3</td>
+                                    <td>6</td>
+                                    <td>-</td>
+                                    <td>17,8%</td>
+                                    <td>70,3%</td>
                                 </tr>
                                 <tr>
                                     <td>Extrem schwierig</td>
-                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>-</td>
+                                    <td>1,9%</td>
+                                    <td>33,9%</td>
                                 </tr>
                                 <tr>
                                     <td>Fast unmöglich</td>
-                                    <td>6+</td>
-                                    <td>4+</td>
+                                    <td>10</td>
+                                    <td>-</td>
+                                    <td>0,1%</td>
+                                    <td>9,2%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -910,7 +919,7 @@
                     <p>Bei Fertigkeits- und Zauberproben wird jeweils eine Fertigkeit bzw. ein Magiebereich verwendet. Häufig haben
                         Charaktere jedoch weitere Eigenschaften, welche in der konkreten Situation hilfreich sind. Wenn der Spielleiter eine
                         andere Eigenschaft als passend erachtet, erhält der Charakter Bonuswürfel für die Probe. Die Anzahl der Bonuswürfel
-                        beträgt ein Drittel der Punkte der unterstützenden Fertigkeit (aufgerundet).
+                        beträgt ein Drittel der Punkte der unterstützenden Eigenschaft (aufgerundet).
                     </p>
                     <p>Sowohl Fertigkeiten als auch Magiebereiche können bei beiden Probenarten als unterstützende Eigenschaften eingesetzt
                         werden, auch für die jeweils andere Probenart. Attribute und Techniken kommen jedoch nicht in Frage.
@@ -931,8 +940,12 @@
                     <p>Oftmals treten zwei Charaktere gegeneinander an, z.B. in einem sportlichen Wettkampf oder auch beim Erkennen von
                         Lügen. In solchen Situationen führen beide Charaktere jeweils eine passende Probe durch.
                     </p>
-                    <p>Probenart, verwendete Eigenschaften und Mindestwurf können für beide Charaktere identisch sein, doch dies ist keine
-                        Voraussetzung.
+                    <p>Die Probenart muss entweder für beide Charaktere gleich sein oder es muss sich um eine Zauberprobe für den einen und
+                        eine Fertigkeitsprobe für den anderen Charakter handeln.<span class="footnote">Wäre die Mischung von bspw.
+                            Fertigkeitsproben mit Attributsproben erlaubt, hätte derjenige mit der Attributsprobe einen deutlichen Vorteil,
+                            da er (zumindest für Vergleichsproben) keine individuellen Fertigkeiten mehr kaufen müsste.</span> Für die
+                        eingesetzten Eigenschaften sowie den Mindestwurf gibt es jedoch keine Einschränkungen: sie können für beide
+                        Charaktere identisch sein oder abweichen, je nach Situation.
                     </p>
                     <p>Umstände, welche einen der beiden Charaktere betreffen und die Probe beeinflussen, führen beim jeweiligen Charakter
                         wie bei normalen Proben zu Würfelmali oder -boni.
