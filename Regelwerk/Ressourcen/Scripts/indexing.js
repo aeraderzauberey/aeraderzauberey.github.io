@@ -186,8 +186,7 @@ $(function() {
         }
         var li = $("<li>").appendTo(list);
         if (entry.type == "synonym") {
-            li.append(text(entry.text + " ("), makeLink(entry).appendTo(li),
-                    text(")"));
+            li.append(text(entry.text + " \u2799 "), makeLink(entry).appendTo(li));
         } else {
             makeLink(entry).appendTo(li);
         }
