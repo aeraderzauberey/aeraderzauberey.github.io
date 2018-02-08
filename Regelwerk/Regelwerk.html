@@ -1166,8 +1166,9 @@
                     <p>Jede Runde ist in <dfn data-base="Aktionsphase">Aktionsphasen</dfn> eingeteilt, eine für jeden Charakter. Die
                         Reihenfolge der Aktionsphasen entspricht der absteigenden Reihenfolge der Initiative.
                     </p>
-                    <p>Während seiner Aktionsphase kann ein Charakter genau eine Handlung durchführen, die sogenannte <dfn
-                        data-alternatives="Aktionen">Aktion</dfn> .
+                    <p>Während seiner Aktionsphase kann ein Charakter genau eine reguläre Handlung durchführen, die sogenannte <dfn
+                        data-alternatives="Aktionen">Aktion</dfn>. Spezielle Regeln erlauben auch weitere <dfn data-base="Aktion, freie"
+                        data-synonyms="Freie Aktion" data-alternatives="freie Aktion">freie Aktionen</dfn> in der Aktionsphase.
                     </p>
                     <p>Des weiteren kann er beliebig viele <dfn data-base="Reaktion">Reaktionen</dfn> während der Aktionsphasen anderer
                         Charaktere durchführen. Diese Reaktionen können sowohl vor als auch nach seiner eigenen Aktionsphase stattfinden,
@@ -1199,6 +1200,10 @@
                                 <tr>
                                     <td>Waffe wechseln/ziehen</td>
                                     <td>Aktion (ohne Probe)</td>
+                                </tr>
+                                <tr>
+                                    <td>Gehen</td>
+                                    <td>Freie Aktion</td>
                                 </tr>
                                 <tr>
                                     <td>Ausweichen</td>
@@ -2566,10 +2571,56 @@
                     <section id="verankern">
                         <h1>Verankern <img class="icon" src="Ressourcen/Techniken/verankern.svg"></h1>
 
-                        <p>Ermöglicht es, Zauber im Ziel zu speichern, so dass sie beim Eintreten bestimmter Ereignisse ausgelöst werden.
-                            Ist das Ziel ein Gegenstand, spricht man auch von einem <dfn>Artefakt</dfn>, ist es eine Person, handelt es sich
-                            um einen <dfn>Fluch</dfn> .
+                        <section>
+                            <h1>Zauber in Objekten speichern</h1>
+
+                            <p>Ermöglicht es, Zauber im Ziel zu speichern, so dass sie beim Eintreten bestimmter Ereignisse ausgelöst
+                                werden. Ist das Ziel ein Gegenstand, spricht man auch von einem <dfn>Artefakt</dfn>, ist es eine Person,
+                                handelt es sich um einen <dfn>Fluch</dfn>.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h1>Zauber vorbereiten und abrufen</h1>
+
+                            <p>Magiekundige können <em>Verankern</em> dazu nutzen, eine Zaubermatrix <dfn data-base="Zauber vorbereiten"
+                                data-alternatives="vorbereiten">vorzubereiten</dfn> und in ihrer eigenen Aura abzuspeichern um sie später
+                                schnell <dfn data-base="Zauber abrufen">abrufen</dfn> können.
+                            </p>
+                            <dl>
+                                <dt>Vorbereiten</dt>
+                                <dd>
+                                    <p>Der Spieler legt alle Zauberparameter bis auf das konkrete Ziel fest. Dann führt er eine Zauberprobe
+                                        durch, in der die benötigten Techniken mit <em>Verankern</em> kombiniert sind (als Durchschnitt,
+                                        siehe <a href="#zauberproben"></a>). Er kann wie üblich auf Magiebereichswürfel verzichten, um
+                                        Bonuswürfel für den <a href="#entzugswurf">Entzugswurf</a> zu erhalten. Die Zauberdauer darf weder
+                                        verkürzt noch zu einem Ritual ausgeweitet werden.
+                                    </p>
+                                    <p>Scheitert die Zauberprobe, ist sofort der Entzugswurf fällig. Gelingt sie, notiert der Spieler
+                                        Erfolgsanzahl, Krafteinsatz, Anzahl der Entzugs-Bonuswürfel sowie den genauen Effekt.
                         </p>
+                                    <p>Ein Charakter kann zu jedem Zeitpunkt nur so viele Zauber vorbereitet haben, wie er Punkte in <em>Verankern</em>
+                                        besitzt.
+                                    </p>
+                                </dd>
+                                <dt>Abrufen</dt>
+                                <dd>
+                                    <p>Der Charakter kann vorbereitete Zauber jederzeit abrufen, solange die üblichen Bedingungen (z.B.
+                                        Sichtlinie) erfüllt sind. Im Kampf ist dies entweder als normale Reaktion oder als freie Aktion in
+                                        der eigenen Aktionsphase möglich.
+                                    </p>
+                                    <p>Nachdem er das Ziel festgelegt und den Entzugswurf abgelegt hat, wird der Zauber ausgelöst und so
+                                        behandelt, als wäre er soeben gezaubert worden.
+                                    </p>
+                                    <p>Der Charakter darf pro Tag nur so oft Zauber abrufen, wie er Punkte in <em>Verankern</em> besitzt,
+                                        und nur einen Zauber pro Runde.
+                                    </p>
+                                </dd>
+                            </dl>
+                            <p>Vorbereitete Zauber sind mit <a href="#erkennen"></a> wahrnehmbar und werden für Zwecke der Antimagie so
+                                behandelt, als würden sie gerade gezaubert.
+                            </p>
+                        </section>
                     </section>
                     <section id="versetzen">
                         <h1>Versetzen <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></h1>
