@@ -170,6 +170,7 @@ th {
 	color: white;
 	text-align: center;
     border-width: 0;
+    white-space: nowrap;
 }
 
 th:not(:first-child) {
@@ -200,6 +201,7 @@ tbody td {
 table.itemlist td:first-child,
 table.itemlist th:first-child {
 	text-align: left;
+    white-space: nowrap;
 }
 
 td span.details {
