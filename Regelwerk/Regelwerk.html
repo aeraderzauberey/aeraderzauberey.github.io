@@ -88,8 +88,8 @@
                         <li>Fertigkeiten und Magiebereiche (bis zu 10 Punkte)</li>
                         <li>Spezialisierungen und Foki (bis zu 5 Punkte)</li>
                     </ul>
-                    <p>Bei Proben steht einem Charakter eine Anzahl Würfel in Höhe der Punkte der jeweils eingesetzen Eigenschaft(en) zur
-                        Verfügung (siehe <a href="#proben"></a>).
+                    <p>Bei Proben steht einem Charakter eine bestimmte Anzahl Würfel zur Verfügung, die von den jeweils eingesetzen
+                        Eigenschaft(en) abhängt (siehe <a href="#proben"></a>).
                     </p>
                     <section id="attribute">
                         <h1>Attribute</h1>
@@ -779,11 +779,61 @@
                 <section>
                     <h1>Probenart und Würfelanzahl</h1>
 
-                    <p>Es gibt drei Arten von Proben: Fertigkeitsproben, Zauberproben und Attributsproben. Die Würfelanzahl ergibt sich je
-                        nach Art der Probe aus verschiedenen Eigenschaften, liegt jedoch niemals über 25.<span class="footnote">Die
+                    <p>Es gibt verschiedene Arten von Proben, die in der unten stehenden Tabelle aufgeführt sind. Die Würfelanzahl ergibt
+                        sich je nach Art der Probe aus verschiedenen Eigenschaften, liegt jedoch niemals über 25.<span class="footnote">Die
                             Begrenzung auf 25 Würfel gilt selbst dann, wenn andere Regeln Bonuswürfel gewähren würden, wie beispielsweise
                             durch Umstandsmodifikatoren, Glück oder beim gemeinsamen Zaubern.</span></p>
-                    <section>
+
+                    <figure>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Bereich</th>
+                                    <th>Bezeichnung</th>
+                                    <th>Würfelanzahl</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Allgemein</td>
+                                    <td><a href="#fertigkeitsproben">Fertigkeitsprobe</a></td>
+                                    <td>Attribut + Fertigkeit + Spezialisierung</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#attributsproben">Attributsprobe</a></td>
+                                    <td>Attribut × 2 + Spezialisierung</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">Magie</td>
+                                    <td><a href="#zauberproben">Zauberprobe</a></td>
+                                    <td>Magiebereich + Technik + Fokus</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#entzugswurf">Entzugswurf</a></td>
+                                    <td><em>Willenskraft</em> + Bonuswürfel + Zusatzerfolge</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#rettungswurf">Rettungswurf</a></td>
+                                    <td>Attribut + Bedrohungsbonus</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">Kampf</td>
+                                    <td><a href="#angriffswurf">Angriffswurf</a></td>
+                                    <td>Attribut + Fertigkeit + Angriffsmalus der eigenen Rüstung</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#widerstandswurf">Widerstandswurf</a></td>
+                                    <td><em>Konstitution</em> + Widerstandsbonus der eigenen Rüstung</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#verteidigungswurf">Verteidigungswurf</a></td>
+                                    <td><em>Intuition</em> + <em>Verteidigung</em> + Spezialisierung + Verteidigungsmodifikatoren</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+
+                    <section id="fertigkeitsproben">
                         <h1><dfn data-base="Fertigkeitsprobe">Fertigkeitsproben</dfn></h1>
 
                         <p>Die Würfelanzahl entspricht der Summe der Punktzahlen von Attribut, Fertigkeit und ggf. einer passenden
@@ -802,6 +852,16 @@
                             </ul>
                         </div>
                     </section>
+                    <section id="attributsproben">
+                        <h1><dfn data-base="Attributsprobe">Attributsproben</dfn></h1>
+
+                        <p>Die Würfelanzahl entspricht der doppelten Punktzahl des Attributs. Gegebenenfalls kommt noch die einfache
+                            Punktzahl einer zur Aufgabe passenden Spezialisierung einer beliebigen Fertigkeit hinzu.
+                        </p>
+                        <p>Attributsproben werden nur dann eingesetzt, wenn der Spielleiter keine der Fertigkeiten dieses Regelwerks für
+                            passend hält, nicht etwa weil der Charakter die passende Fertigkeit nicht besitzt.
+                        </p>
+                    </section>
                     <section id="zauberproben">
                         <h1>Zauberproben</h1>
 
@@ -811,16 +871,6 @@
                         <p>Statt einem einzelnen Magiebereich bzw. einer einzelnen Technik können auch jeweils mehrere zum Einsatz kommen.
                             In diesem Fall wird der Durchschnitt der jeweiligen Eigenschaften verwendet. Ist der Durchschnitt keine ganze
                             Zahl, wird aufgerundet. In jedem Fall wird aber nur maximal ein Fokus eingesetzt.
-                        </p>
-                    </section>
-                    <section>
-                        <h1><dfn data-base="Attributsprobe">Attributsproben</dfn></h1>
-
-                        <p>Die Würfelanzahl entspricht der doppelten Punktzahl des Attributs. Gegebenenfalls kommt noch die einfache
-                            Punktzahl einer zur Aufgabe passenden Spezialisierung einer beliebigen Fertigkeit hinzu.
-                        </p>
-                        <p>Attributsproben werden nur dann eingesetzt, wenn der Spielleiter keine der Fertigkeiten dieses Regelwerks für
-                            passend hält, nicht etwa weil der Charakter die passende Fertigkeit nicht besitzt.
                         </p>
                     </section>
                 </section>
@@ -1259,7 +1309,7 @@
                         gesenkt. Abschließend wird noch die Widerstandsfähigkeit des Verteidigers mit einem Widerstandswurf berücksichtigt.
                     </p>
                     <dl>
-                        <dt><dfn>Angriffswurf</dfn></dt>
+                        <dt id="angriffswurf"><dfn>Angriffswurf</dfn></dt>
                         <dd>
                             <p>Für den Angriffswurf wird die Fertigkeit des Waffentyps bzw. der Kampftechnik mit dem Attribut kombiniert,
                                 das im Schadenscode aufgeführt ist (siehe <a href="#grundschadenermittlung"></a>). Die Würfelanzahl wird um
@@ -1287,7 +1337,7 @@
                                 href="#ruestungen_und_co"></a>).
                             </p>
                         </dd>
-                        <dt>Widerstandswurf</dt>
+                        <dt id="widerstandswurf">Widerstandswurf</dt>
                         <dd>
                             <p>Schließlich führt der Verteidiger einen Widerstandswurf mit dem Attribut <em>Konstitution</em> durch. Die
                                 Würfelanzahl wird gegebenenfalls noch durch den Widerstandsbonus seiner Rüstung erhöht.
@@ -1351,7 +1401,7 @@
                     <section>
                         <h1>Reaktionsarten</h1>
                         <dl>
-                            <dt><dfn>Verteidigungswurf</dfn></dt>
+                            <dt id="verteidigungswurf"><dfn>Verteidigungswurf</dfn></dt>
                             <dd>
                                 <p>Der Verteidigungswurf wird mit dem Attribut <em>Intuition</em> und der Fertigkeit <em>Verteidigung</em>
                                     durchgeführt. Dabei können die Spezialisierungen <em>Ausweichen</em>, <em>Parade</em> oder <em>Schildblock</em>
@@ -1737,9 +1787,9 @@
                         </p>
                         <div class="example">
                             <p>Tharion hat für seinen Nachtsicht-Zauber 2 Kraftpunkte verwendet. Weil er keine Bonuswürfel aus der
-                                Zauberprobe erhält und den Mindestwurf nicht übertroffen hat, stehen ihm für den Entzugswurf nur seine 5
-                                <em>Willenskraft</em>-Würfel zur Verfügung. Bei der Probe hat er Pech und erzielt nur 1 Erfolg, erhält also
-                                1 geistigen Schadenspunkt.
+                                Zauberprobe erhält und den Mindestwurf nicht übertroffen hat, stehen ihm für den Entzugswurf nur Würfel in
+                                Höhe seines <em>Willenskraft</em>-Attributs zur Verfügung, nämlich 5. Bei der Probe hat er Pech und erzielt
+                                nur 1 Erfolg, erhält also 1 geistigen Schadenspunkt.
                             </p>
                         </div>
                     </section>
