@@ -2731,9 +2731,19 @@
                     <section id="versetzen">
                         <h1>Versetzen <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></h1>
 
-                        <p>Umfasst alle Effekte, die eine Bewegung in Nullzeit ermöglichen. Dazu zählt sowohl der klassische Teleport als
-                            auch das Erschaffen von Toren zu anderen Orten.
+                        <p>Umfasst alle Effekte, die eine Bewegung in Nullzeit ermöglichen. Dazu zählt sowohl der klassische <a href="#teleport">Teleport</a> als
+                            auch das Erschaffen von <a href="#tor">Toren</a> zu anderen Orten.
                         </p>
+
+                        <p>Diese Technik umfasst auch weitere Effekte wie das steuerbare Gleiten durch eine Zwischenebene zu einem zunächst
+                            unbekannten Zielort sowie die Erzeugung von Taschendimensionen. Ob und wie diese Effekte möglich sind,
+                            entscheidet der Spielleiter.
+                        </p>
+
+                        <p>Je nach Kampagne kann es weitere Welten, Sphären oder Dimensionen geben, die per <em>Versetzen</em> erreichbar
+                            sind. Wie schwierig und kraftaufwändig dies ist, wird durch den Spielleiter definiert.
+                        </p>
+
                         <section id="ziel_bestimmungsort">
                             <h1>Ziel &amp; Bestimmungsort</h1>
 
@@ -2742,11 +2752,6 @@
                             </p>
                             <p>Ein Teleport versetzt die Zielobjekte an einen anderen Ort, den <em>Bestimmungsort</em>. Ein Tor ensteht am
                                 Zielort und führt zum <em>Bestimmungsort</em>.
-                            </p>
-                            <p>Das Ziel muss wie üblich in der Sicht des Zaubernden liegen oder durch <a href="#erkennen">Erkennen</a>
-                                lokalisiert worden sein; die Distanz des Zaubernden zu diesem Ziel ist jedoch unerheblich. Ebensowenig wirkt
-                                sich die aktuelle Geschwindigkeit des Ziels oder die eines beweglichen Bestimmungsorts (z.B. einer Kutsche)
-                                auf den Zauber aus.
                             </p>
                         </section>
                         <section id="teleport" class="effect">
@@ -2757,43 +2762,118 @@
                             <p>Es können mehrere Ziele benannt werden, welche gemeinsam teleportiert werden. Für den Zauber ausschlaggebend
                                 ist nicht deren Anzahl, sondern das Gesamtgewicht.
                             </p>
-                            <p>Sind mehrere Objekte verbunden, können sie nur gemeinsam teleportiert werden. Zwei Personen beim Ringen
-                                ließen sich also genausowenig voneinander trennen wie eine Tür von ihrem Gebäude, wohl aber eine Person von
-                                dem Stuhl, auf dem sie sitzt.
+                            <p>Befindet sich das Ziel in Bewegung, entscheidet der Zaubernde ob es am Bestimmungsort seine Geschwindigkeit
+                                beibehält. Ein sich bewegender Bestimmungsort, z.B. eine fahrende Kutsche, ist nur zulässig wenn er „live”
+                                erfasst wird, nicht über eine Erinnerung oder Beschreibung.
                             </p>
+                            <p>Für verbundene Objekte gilt folgendes:</p>
+                            <ul>
+                                <li>Sind mehrere Objekte verbunden, können sie nur gemeinsam teleportiert werden wenn alle nötigen
+                                    Magiebereiche verwendet werden.
+                                </li>
+                                <li>Sollen Objekte wie Kleidung oder Ausrüstung von einer Person entfernt werden, kann sich diese mit einem
+                                    Rettungswurf (oder anderen Reaktionen) wehren.
+                                </li>
+                                <li>Sollen Gegenstände von anderen Gegenstände gelöst werden, würfelt der Spielleiter einen der Festigkeit
+                                    der Verbindung angepassten Quasi-Rettungswurf.
+                                </li>
+                            </ul>
+
                             <section>
                                 <h1>Mindestwurf</h1>
 
-                                <p>Der Mindestwurf ist umso niedriger, je vertrauter der Zaubernde mit dem Bestimmungsort und damit dessen
-                                    magischer Signatur ist. Notfalls reicht jedoch auch eine genaue (weltliche) Beschreibung. Je unbekannter
-                                    der Ort, um so ungenauer ist jedoch die Positionierung des Teleports am Bestimmungsort.
+                                <p>Der Mindestwurf beträgt 1 verrechnet mit den folgenden Modifikatoren. Dabei werden alle passenden
+                                    Modifikatoren aufsummiert, der Mindestwurf beträgt jedoch immer mindestens 1. Aus den Ziel- und
+                                    Erfassungs-Tabellen muss jeweils ein Modifikator gewählt werden. Bei mehreren Zielen gilt der höchste
+                                    Modifikator der Zieltabelle.
                                 </p>
                                 <figure>
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th>MW</th>
-                                                <th>Bestimmungsort</th>
+                                                <th>Ziel des Teleports</th>
+                                                <th>Modifikator</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>1</td>
-                                                <td>Sicht <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></td>
+                                                <td>Nur der Zaubernde</td>
+                                                <td>±0</td>
                                             </tr>
                                             <tr>
-                                                <td>2</td>
-                                                <td>Vertrauter Ort („wie meine Westentasche”) <img class="icon"
-                                                    src="Ressourcen/Techniken/versetzen.svg"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Bereits besuchter Ort <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Noch nicht besuchter Ort <img class="icon" src="Ressourcen/Techniken/versetzen.svg">
+                                                <td>Per Sicht bzw. eigenem oder telepathisch empfangenem <a href="#scan">Scan</a> erfasst
                                                 </td>
+                                                <td>+1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trivial extrapolierbar<span class="footnote">Das Ziel ist nicht selbst zu sehen, seine
+                                                    Position ist aber dennoch offensichtlich. Beispiele: durch Schattenwurf, ein Geräusch
+                                                    oder weil das Ziel den Zaubernden am Rücken berührt.</span></td>
+                                                <td>mind. +3</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
+                                <figure>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Erfassung des Bestimmungsorts</th>
+                                                <th>Modifikator</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Per Sicht bzw. eigenem oder telepathisch empfangenem <a href="#scan">Scan</a></td>
+                                                <td>±0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trivial extrapolierbar<span class="footnote">Der Ort selbst ist nicht zu sehen, er ist
+                                                    aber eindeutig bestimmbar. Beispiele: „hinter dieser Tür”, „in dieser Kutsche”.</span>
+                                                </td>
+                                                <td>+1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eigene Erinnerung</td>
+                                                <td>+2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fremde Erinnerung</td>
+                                                <td>+3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Verbale Beschreibung</td>
+                                                <td>mind. +4</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
+                                <figure>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Optional: Eigenschaften des Bestimmungsorts</th>
+                                                <th>Modifikator</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Vom Zaubernden besucht</td>
+                                                <td>±0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Zaubernder hatte sich auf Ort eingestimmt<span class="footnote">Einstimmen kann sowohl
+                                                    aktiv (Stunden) als auch passiv (Aufenthalt über Wochen/Monate, z.B. die eigene Wohnung)
+                                                    geschehen.</span></td>
+                                                <td>-1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ort wurde für Teleportation präpariert</td>
+                                                <td>-1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Erinnerung/Beschreibung ist wegen zwischenzeitlicher Änderungen am Ort veraltet</td>
+                                                <td>mind. +1</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -2801,14 +2881,33 @@
                             </section>
                             <section>
                                 <h1>Krafteinsatz</h1>
-                                <dl>
-                                    <dt>Distanz</dt>
-                                    <dd>1 KP pro 500 m oder 4 KP für eine andere Sphäre<span class="footnote">Je nach Spielwelt kann der
-                                        Spielleiter die Kosten für das Erreichen einzelner Sphären auch differenzieren, um deren „Distanz”
-                                        oder „Erreichbarkeit” auszudrücken.</span></dd>
-                                    <dt>Gesamtgewicht</dt>
-                                    <dd>100 kg, +1 KP pro weitere 100 kg</dd>
-                                </dl>
+
+                                <p>Der Krafteinsatz hängt vom Gesamtgewicht der zu teleportierenden Ziele sowie der Distanz zwischen Ziel
+                                    und Bestimmungsort ab.
+                                </p>
+
+                                <p>Der erste Kraftpunkt entspricht 100&nbsp;Meter Distanz und einem Gewicht von 100&nbsp;kg. Jeder
+                                    weitere KP erhöht einen dieser Werte auf den nächsten Abschnitt der folgenden Skala:
+                                </p>
+
+                                <figure>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>100</td>
+                                                <td>250</td>
+                                                <td>500</td>
+                                                <td>1.000</td>
+                                                <td>2.500</td>
+                                                <td>5.000</td>
+                                                <td>10.000</td>
+                                                <td>25.000</td>
+                                                <td>50.000</td>
+                                                <td>&#8230;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
                             </section>
                         </section>
                         <section id="tor" class="effect">
@@ -2820,70 +2919,114 @@
                                 massive, schwarze Fläche. Das Tor selbst hat keinen sichtbaren „Rahmen” und ist von der Seite nicht zu
                                 sehen.
                             </p>
-                            <p>Tore sind im Allgemeinen kraftaufwändiger als ein Teleport, eignen sich allerdings besser zur Überbrückung
-                                großer Strecken und zum Transport einer größeren Anzahl von Personen.
+                            <p>Der Zaubernde benötigt weder für Zielort noch Bestimmungsort eine Sichtlinie oder einen <a
+                                href="#scan">Scan</a>.
                             </p>
-                            <p>Tore können nicht nur zu anderen Orten derselben Welt, auch <em>Sphäre</em> genannt, geöffnet werden. Sie
-                                ermöglichen auch das Verbinden verschiedener Sphären.
-                            </p>
+
                             <section>
                                 <h1>Mindestwurf</h1>
 
-                                <p>Der Mindestwurf richtet sich wie beim Teleport nach der Vertrautheit mit dem Bestimmungsort (siehe oben).
+                                <p>Der Mindestwurf beträgt 3 verrechnet mit den folgenden Modifikatoren, einmal für den Zielort, einmal für
+                                    den Bestimmungsort. Dabei werden jeweils alle passenden Modifikatoren aufsummiert. Aus der
+                                    Erfassungs-Tabelle muss für beide Orte je ein Modifikator gewählt werden.
                                 </p>
                                 <figure>
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th>MW</th>
-                                                <th>Bestimmungsort</th>
+                                                <th>Erfassung des Ortes</th>
+                                                <th>Modifikator</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>3</td>
-                                                <td>Sicht <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></td>
+                                                <td>Per Sicht bzw. eigenem oder telepathisch empfangenem <a href="#scan">Scan</a></td>
+                                                <td>±0</td>
                                             </tr>
                                             <tr>
-                                                <td>4</td>
-                                                <td>Vertrauter Ort („wie meine Westentasche”) <img class="icon"
-                                                    src="Ressourcen/Techniken/versetzen.svg"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Bereits besuchter Ort <img class="icon" src="Ressourcen/Techniken/versetzen.svg"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Noch nicht besuchter Ort <img class="icon" src="Ressourcen/Techniken/versetzen.svg">
+                                                <td>Trivial extrapolierbar<span class="footnote">Der Ort selbst ist nicht zu sehen, er ist
+                                                    aber eindeutig bestimmbar. Beispiele: „hinter dieser Tür”, „in dieser Kutsche”.</span>
                                                 </td>
+                                                <td>+1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eigene Erinnerung</td>
+                                                <td>+2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fremde Erinnerung</td>
+                                                <td>+3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Verbale Beschreibung</td>
+                                                <td>mind. +4</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </figure>
-                                <p>Des weiteren gelten folgende Aufschläge:</p>
-                                <ul>
-                                    <li>
-                                        <p>+1 wenn ein Tor nur in eine Richtung nutzbar sein soll (egal welche Richtung)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>+1 bis +3 für andere Sphären je nach Fremdartigkeit (+1 = der eigenen Welt sehr ähnliche Sphäre,
-                                            +3 Dämonische Ebene)
-                                        </p>
-                                    </li>
-                                </ul>
+                                <figure>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Optional: Eigenschaften des Ortes</th>
+                                                <th>Modifikator</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Vom Zaubernden besucht</td>
+                                                <td>±0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Zaubernder hatte sich auf Ort eingestimmt<span class="footnote">Einstimmen kann sowohl
+                                                    aktiv (Stunden) als auch passiv (Aufenthalt über Wochen/Monate, z.B. die eigene Wohnung)
+                                                    geschehen.</span></td>
+                                                <td>-1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ort wurde für Teleportation präpariert</td>
+                                                <td>-1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Erinnerung/Beschreibung ist wegen zwischenzeitlicher Änderungen am Ort veraltet</td>
+                                                <td>mind. +1</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
                             </section>
                             <section>
                                 <h1>Krafteinsatz</h1>
-                                <dl>
-                                    <dt>Distanz</dt>
-                                    <dd>1 KP pro 500 km oder 4 KP für eine andere Sphäre</dd>
-                                    <dt>Größe</dt>
-                                    <dd>1 m², +1 KP pro weiterem m²</dd>
-                                    <dt>Wirkungsdauer</dt>
-                                    <dd>30 Sekunden, +1 KP pro weitere 30 Sekunden</dd>
-                                </dl>
+
+                                <p>Der Krafteinsatz hängt von der Wirkungsdauer des Zaubers und der Größe des Tors sowie der Distanz
+                                    zwischen Ziel- und Bestimmungsort ab.
+                                </p>
+
+                                <p>Der erste Kraftpunkt entspricht 1&nbsp;Minute Wirkungsdauer, 2 m²&nbsp;Fläche und 10&nbsp;km Distanz.
+                                    Jeder weitere KP erhöht einen dieser Werte auf den nächsten Abschnitt der folgenden Skala:
+                                </p>
+
+                                <figure>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>5</td>
+                                                <td>10</td>
+                                                <td>25</td>
+                                                <td>50</td>
+                                                <td>100</td>
+                                                <td>250</td>
+                                                <td>500</td>
+                                                <td>1.000</td>
+                                                <td>2.500</td>
+                                                <td>5.000</td>
+                                                <td>&#8230;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </figure>
                             </section>
                         </section>
                     </section>
