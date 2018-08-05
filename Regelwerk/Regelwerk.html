@@ -791,6 +791,7 @@
                                     <th>Bereich</th>
                                     <th>Bezeichnung</th>
                                     <th>Würfelanzahl</th>
+                                    <th>Verletzungs-<br>malus</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -798,36 +799,44 @@
                                     <td rowspan="2">Allgemein</td>
                                     <td><a href="#fertigkeitsproben">Fertigkeitsprobe</a></td>
                                     <td>Attribut + Fertigkeit + Spezialisierung</td>
+                                    <td>Ja</td>
                                 </tr>
                                 <tr>
                                     <td><a href="#attributsproben">Attributsprobe</a></td>
                                     <td>Attribut × 2 + Spezialisierung</td>
+                                    <td>Ja</td>
                                 </tr>
                                 <tr>
                                     <td rowspan="3">Magie</td>
                                     <td><a href="#zauberproben">Zauberprobe</a></td>
                                     <td>Magiebereich + Technik + Fokus</td>
+                                    <td>Ja</td>
                                 </tr>
                                 <tr>
                                     <td><a href="#entzugswurf">Entzugswurf</a></td>
                                     <td><em>Willenskraft</em> + Bonuswürfel + Zusatzerfolge</td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#rettungswurf">Rettungswurf</a></td>
                                     <td>Attribut + Bedrohungsbonus</td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td rowspan="3">Kampf</td>
                                     <td><a href="#angriffswurf">Angriffswurf</a></td>
                                     <td>Attribut + Fertigkeit + Angriffsmalus der eigenen Rüstung</td>
+                                    <td>Ja</td>
                                 </tr>
                                 <tr>
                                     <td><a href="#widerstandswurf">Widerstandswurf</a></td>
                                     <td><em>Konstitution</em> + Widerstandsbonus der eigenen Rüstung</td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#verteidigungswurf">Verteidigungswurf</a></td>
                                     <td><em>Intuition</em> + <em>Verteidigung</em> + Spezialisierung + Verteidigungsmodifikatoren</td>
+                                    <td>Ja</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1342,7 +1351,9 @@
                             <p>Schließlich führt der Verteidiger einen Widerstandswurf mit dem Attribut <em>Konstitution</em> durch. Die
                                 Würfelanzahl wird gegebenenfalls noch durch den Widerstandsbonus seiner Rüstung erhöht.
                             </p>
-                            <p>Für jeden Erfolg bei diesem Wurf wird der Schaden um 1 reduziert.</p>
+                            <p>Für jeden Erfolg bei diesem Wurf wird der Schaden um 1 reduziert. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a>
+                                wird nicht angewendet.
+                            </p>
                         </dd>
                         <dt>Auswirkungen</dt>
                         <dd>
@@ -1783,7 +1794,7 @@
                             <li>Anzahl der Zusatzerfolge bei der Zauberprobe</li>
                         </ul>
                         <p>Der erhaltene geistige Schaden entspricht der Anzahl der verwendeten Kraftpunkte, vermindert um die beim
-                            Entzugswurf erzielten Erfolge. Ein eventueller Verletzungsmalus wird nicht angewendet.
+                            Entzugswurf erzielten Erfolge. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a> wird nicht angewendet.
                         </p>
                         <div class="example">
                             <p>Tharion hat für seinen Nachtsicht-Zauber 2 Kraftpunkte verwendet. Weil er keine Bonuswürfel aus der
@@ -1832,7 +1843,7 @@
                     <p>Der Charakter erhält so viele Würfel, wie er Punkte im jeweiligen Attribut hat.<span class="footnote">Es handelt sich
                         hierbei ausdrücklich nicht um eine Attributsprobe, bei der die Würfelanzahl dem doppelten Punktwert
                         entspräche.</span> Des weiteren erhält er je nach Art des Zaubers und Grad der Bedrohung einen Bonus von bis zu 10
-                        Würfeln. Ein eventueller Verletzungsmalus wird nicht angewendet.
+                        Würfeln. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a> wird nicht angewendet.
                     </p>
                     <p>Hat der Rettungswurf mindestens so viele Erfolge wie der Zauber, bleibt dieser wirkungslos.</p>
                 </section>
