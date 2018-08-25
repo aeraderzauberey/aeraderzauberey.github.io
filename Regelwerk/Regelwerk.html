@@ -611,15 +611,13 @@
                                         <tr>
                                             <th></th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Speer</td>
-                                            <td>4 + (KK-5)</td>
-                                            <td>7</td>
+                                            <td>4 + (KK - 5) ≤ 7</td>
                                             <td>-1</td>
                                         </tr>
                                     </tbody>
@@ -644,19 +642,27 @@
                                 Kampftechniken ist dies die Summe aus dem jeweiligen Attribut und der Waffenfertigkeit, bei magischen
                                 Basisangriffen aus Magiebereich, einer Technik und ggf. eines Fokus.
                             </dd>
+                            <dt>Mindestwurf (MW)</dt>
+                            <dd>Für Waffen und Kampftechniken beträgt der Mindestwurf 1, bei magischen Basisangriffen ist er in der Tabelle
+                                angegeben.
+                            </dd>
                             <dt id="grundschadenermittlung">Grundschaden</dt>
-                            <dd>Der <dfn>Grundschaden</dfn> einer Waffe bzw. Kampftechnik ergibt sich aus dem angegebenen Schadenscode.
-                                Liegt der so ermittelte Wert über dem angegebenen <dfn>Maximalschaden</dfn>, wird dessen Wert übernommen.
-                                Der ermittelte Wert wird in die Spalte „Schaden” eingetragen.
+                            <dd>Der <dfn>Grundschaden</dfn> einer Waffe bzw. Kampftechnik ergibt sich aus dem angegebenen Schadenscode. Der
+                                berechnete Wert wird durch den hinter dem kleiner-oder-gleich-Zeichen (≤) angegebenen Wert begrenzt.
                             </dd>
-                            <dd>Für einen Charakter mit Körperkraft 7 ergibt sich im Beispiel ein Grundschaden von 6.
+                            <dd>Für einen Charakter mit Körperkraft 8 ergibt sich im Beispiel ein Grundschaden von 7 (4 + 8 - 5). Bei
+                                höherer Körperkraft steigt der Grundschaden nicht (aufgrund der Angabe ≤ 7).
                             </dd>
-                            <dt>Verteidigungsmodifikator</dt>
-                            <dd>Der Verteidigungsmodifikator einer Waffe wird in der Spalte <em>„VM”</em> eingetragen.
+                            <dt>Reichweite</dt>
+                            <dd>Hier werden für Fernkampfwaffen die Distanzbereiche notiert, z.B. „5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50”.
                             </dd>
-                            <dt>Sonstiges</dt>
-                            <dd>Hier werden für Fernkampfwaffen die Reichweitenangaben notiert, z.B. „5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50”.
-                                Bei magischen Basisangriffen kann der Mindestwurf und die Extraschadensregelung notiert werden.
+                            <dt>Schadenscode</dt>
+                            <dd>Um bei Steigerungen den Grundschaden leicht anpassen zu können, wird in dieser Spalte der Schadenscode
+                                notiert.
+                            </dd>
+                            <dt>Anmerkungen</dt>
+                            <dd>Besitzt die Waffe einen Verteidigungsmalus, wird er in dieser Spalte notiert. Bei magischen Basisangriffen
+                                kann die Extraschadensregelung notiert werden.
                             </dd>
                         </dl>
                     </section>
@@ -1381,7 +1387,7 @@
                             aber zumindest zu weniger verletzlichen Körperstellen ablenken. Seine Parade-Erfolge werden von Elris&#8217;
                             Angriffserfolgen abgezogen, übrig bleibt 1 Erfolg.
                         </p>
-                        <p>Ein Schwert hat den Schadenscode 3 + (KK-4), für Elris beträgt der Grundschaden also 4. Der verbleibende
+                        <p>Ein Schwert hat den Schadenscode 3 + (KK - 4), für Elris beträgt der Grundschaden also 4. Der verbleibende
                             Angriffserfolg erhöht diesen Schaden um 1 auf 5.
                         </p>
                         <p>Gegner B trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei seinem Widerstandswurf erzielt er mit seinen 3
@@ -2099,8 +2105,10 @@
                         <section>
                             <h1>Mindestwurf und Kampfwerte</h1>
 
-                            <p>In der folgenden Tabelle sind die Werte für alle Magiebereiche aufgeführt. Dabei steht <em>X</em> in der
-                                Spalte <em>Schadenscode</em> für den Wert des jeweiligen Magiebereichs.
+                            <p>In der folgenden Tabelle sind die Werte für alle Magiebereiche aufgeführt. Bei manchen Magiebereichen sind in
+                                der Spalte <em>MW</em> zwei Mindestwürfe angegeben: einer für indirekte Angriffe (z.B. mit peitschenden
+                                Pflanzenranken), der andere für direkte Angriffe auf den Körper des Ziels (z.B. Wunden verursachen). In der
+                                Spalte <em>Schadenscode</em> steht <em>X</em> für den Wert des jeweiligen Magiebereichs.
                             </p>
 
                             <figure>
@@ -2110,7 +2118,6 @@
                                             <th>Magiebereich</th>
                                             <th>MW</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
@@ -2120,71 +2127,71 @@
                                             <td>-</td>
                                             <td>-</td>
                                             <td>-</td>
-                                            <td>-</td>
                                         </tr>
                                         <tr>
                                             <td>Elektrizität</td>
                                             <td>2</td>
-                                            <td>2 + (X-3)</td>
-                                            <td>5</td>
+                                            <td>2 + (X - 3) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Erde</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Feuer</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Geist</td>
                                             <td>2</td>
-                                            <td>0 + (X-3)</td>
-                                            <td>3</td>
+                                            <td>0 + (X - 3) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
-                                            <td>Humanoid / Pflanze / Tier</td>
-                                            <td>2 / 3<span class="footnote">Direkte Angriffe auf den Körper des Ziels (z.B. Wunden
-                                                verursachen) haben MW 3, indirekte Angriffe (z.B. mit peitschenden Pflanzenranken) MW
-                                                2.</span></td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>Humanoid</td>
+                                            <td>2 (indirekt)<br>3 (direkt)</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Kraft</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Luft</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Metall</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pflanze</td>
+                                            <td>2 (indirekt)<br>3 (direkt)</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tier</td>
+                                            <td>2 (indirekt)<br>3 (direkt)</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Wasser</td>
                                             <td>2</td>
-                                            <td>1 + (X-3)</td>
-                                            <td>4</td>
+                                            <td>1 + (X - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                     </tbody>
@@ -4556,45 +4563,38 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Boxen</td>
-                                            <td>1 + (KK-5)</td>
-                                            <td>3</td>
+                                            <td>1 + (KK - 5) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Capoeira</td>
-                                            <td>1 + (GE-5)</td>
-                                            <td>3</td>
+                                            <td>1 + (GE - 5) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Karate</td>
-                                            <td>1 + (GE-5)</td>
-                                            <td>3</td>
+                                            <td>1 + (GE - 5) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Klauen/Fang (tierisch)</td>
-                                            <td>2 + (GE-5)</td>
-                                            <td>5</td>
+                                            <td>2 + (GE - 5) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Kung Fu</td>
-                                            <td>1 + (KK-5)</td>
-                                            <td>3</td>
+                                            <td>1 + (KK - 5) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Raufen</td>
-                                            <td>0 + (KK-5)</td>
-                                            <td>2</td>
+                                            <td>0 + (KK - 5) ≤ 2</td>
                                             <td>0</td>
                                         </tr>
                                     </tbody>
@@ -4609,39 +4609,33 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Dolch</td>
-                                            <td>1 + (GE-3)</td>
-                                            <td>3</td>
+                                            <td>1 + (GE - 3) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Erntemesser*</td>
-                                            <td>1 + (GE-2)</td>
-                                            <td>2</td>
+                                            <td>1 + (GE - 2) ≤ 2</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Messer</td>
-                                            <td>1 + (GE-2)</td>
-                                            <td>2</td>
+                                            <td>1 + (GE - 2) ≤ 2</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Parierdolch</td>
-                                            <td>1 + (GE-4)</td>
-                                            <td>2</td>
+                                            <td>1 + (GE - 4) ≤ 2</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Sichel*</td>
-                                            <td>1 + (GE-3)</td>
-                                            <td>3</td>
+                                            <td>1 + (GE - 3) ≤ 3</td>
                                             <td>-1</td>
                                         </tr>
                                     </tbody>
@@ -4656,33 +4650,28 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Degen</td>
-                                            <td>2 + (GE-5)</td>
-                                            <td>5</td>
+                                            <td>2 + (GE - 5) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Dussack</td>
-                                            <td>2 + (GE-3)</td>
-                                            <td>4</td>
+                                            <td>2 + (GE - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Florett</td>
-                                            <td>2 + (GE-4)</td>
-                                            <td>4</td>
+                                            <td>2 + (GE - 4) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Rapier</td>
-                                            <td>2 + (GE-4)</td>
-                                            <td>5</td>
+                                            <td>2 + (GE - 4) ≤ 5</td>
                                             <td>0</td>
                                     </tbody>
                                 </table>
@@ -4696,63 +4685,53 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Axt (einhändig)</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Bartaxt</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Dreschflegel*</td>
-                                            <td>2 + (KK-4)</td>
-                                            <td>4</td>
+                                            <td>2 + (KK - 4) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Knüppel</td>
-                                            <td>2 + (KK-4)</td>
-                                            <td>3</td>
+                                            <td>2 + (KK - 4) ≤ 3</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Kriegsflegel</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Kriegshammer</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Machete</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Morgenstern</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Schmiedehammer</td>
-                                            <td>2 + (KK-4)</td>
-                                            <td>4</td>
+                                            <td>2 + (KK - 4) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                     </tbody>
@@ -4767,33 +4746,28 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Bidenhänder</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Doppelblatt-Axt</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Großaxt</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Ogeraxt</td>
-                                            <td>6 + (KK-7)</td>
-                                            <td>9</td>
+                                            <td>6 + (KK - 7) ≤ 9</td>
                                             <td>-3</td>
                                         </tr>
                                     </tbody>
@@ -4808,45 +4782,38 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Bastardschwert</td>
-                                            <td>4 + (KK-5)</td>
-                                            <td>6</td>
+                                            <td>4 + (KK - 5) ≤ 6</td>
                                             <td>-3</td>
                                         </tr>
                                         <tr>
                                             <td>Katana</td>
-                                            <td>4 + (KK-5)</td>
-                                            <td>6</td>
+                                            <td>4 + (KK - 5) ≤ 6</td>
                                             <td>-3</td>
                                         </tr>
                                         <tr>
                                             <td>Kurzschwert</td>
-                                            <td>2 + (KK-3)</td>
-                                            <td>5</td>
+                                            <td>2 + (KK - 3) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Säbel</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Schwert</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>3 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Wakizashi</td>
-                                            <td>2 + (KK-3)</td>
-                                            <td>5</td>
+                                            <td>2 + (KK - 3) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                     </tbody>
@@ -4861,69 +4828,58 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Bardiche</td>
-                                            <td>6 + (KK-7)</td>
-                                            <td>8</td>
+                                            <td>6 + (KK - 7) ≤ 8</td>
                                             <td>-3</td>
                                         </tr>
                                         <tr>
                                             <td>Glefe</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Hellebarde</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Kampfstab</td>
-                                            <td>2 + (KK-4)</td>
-                                            <td>5</td>
+                                            <td>2 + (KK - 4) ≤ 5</td>
                                             <td>0</td>
                                         </tr>
                                         <tr>
                                             <td>Kriegssense</td>
-                                            <td>5 + (KK-6)</td>
-                                            <td>7</td>
+                                            <td>5 + (KK - 6) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Partisane</td>
-                                            <td>4 + (KK-5)</td>
-                                            <td>6</td>
+                                            <td>4 + (KK - 5) ≤ 6</td>
                                             <td>-1</td>
                                         </tr>
                                         <tr>
                                             <td>Sense*</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>6</td>
+                                            <td>3 + (KK - 4) ≤ 6</td>
                                             <td>-1</td>
                                         </tr>
                                         <tr>
                                             <td>Speer</td>
-                                            <td>4 + (KK-5)</td>
-                                            <td>7</td>
+                                            <td>4 + (KK - 5) ≤ 7</td>
                                             <td>-2</td>
                                         </tr>
                                         <tr>
                                             <td>Speer (einhändig)</td>
-                                            <td>3 + (KK-4)</td>
-                                            <td>6</td>
+                                            <td>3 + (KK - 4) ≤ 6</td>
                                             <td>-3</td>
                                         </tr>
                                         <tr>
                                             <td>Wanderstab*</td>
-                                            <td>2 + (KK-3)</td>
-                                            <td>4</td>
+                                            <td>2 + (KK - 3) ≤ 4</td>
                                             <td>0</td>
                                         </tr>
                                     </tbody>
@@ -4942,7 +4898,6 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                             <th>Reichweite</th>
                                         </tr>
@@ -4950,36 +4905,31 @@
                                     <tbody>
                                         <tr>
                                             <td>Leichte Armbrust</td>
-                                            <td>4 + (FF-4)</td>
-                                            <td>6</td>
+                                            <td>4 + (FF - 4) ≤ 6</td>
                                             <td>-2</td>
                                             <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Pistolenarmbrust</td>
-                                            <td>2 + (FF-3)</td>
-                                            <td>4</td>
+                                            <td>2 + (FF - 3) ≤ 4</td>
                                             <td>-1</td>
                                             <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
                                         </tr>
                                         <tr>
                                             <td>Schwere Armbrust</td>
-                                            <td>5 + (FF-5)</td>
-                                            <td>8</td>
+                                            <td>5 + (FF - 5) ≤ 8</td>
                                             <td>-3</td>
                                             <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Schwere Armbrust (Oger)</td>
-                                            <td>6 + (FF-6)</td>
-                                            <td>8</td>
+                                            <td>6 + (FF - 6) ≤ 8</td>
                                             <td>-4</td>
                                             <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
                                         <tr>
                                             <td>Schwere Armbrust (Riese)</td>
-                                            <td>7 + (FF-7)</td>
-                                            <td>9</td>
+                                            <td>7 + (FF - 7) ≤ 9</td>
                                             <td>-4</td>
                                             <td>25&nbsp;/&nbsp;50&nbsp;/&nbsp;100&nbsp;/&nbsp;250</td>
                                         </tr>
@@ -4995,7 +4945,6 @@
                                         <tr>
                                             <th>Typ / Details</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                             <th>Reichweite</th>
                                         </tr>
@@ -5003,22 +4952,19 @@
                                     <tbody>
                                         <tr>
                                             <td>Komposit-Recurvebogen<br><span class="details">kürzer als ein Langbogen</span></td>
-                                            <td>4 + (FF-6)</td>
-                                            <td>7</td>
+                                            <td>4 + (FF - 6) ≤ 7</td>
                                             <td>-2</td>
                                             <td>10&nbsp;/&nbsp;25&nbsp;/&nbsp;50&nbsp;/&nbsp;100</td>
                                         </tr>
                                         <tr>
                                             <td>Langbogen<br><span class="details">Länge = Körpergröße</span></td>
-                                            <td>5 + (FF-5)</td>
-                                            <td>7</td>
+                                            <td>5 + (FF - 5) ≤ 7</td>
                                             <td>-3</td>
                                             <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
                                         </tr>
                                         <tr>
                                             <td>Reiterbogen<br><span class="details">Komposit, Recurve, kompakt</span></td>
-                                            <td>3 + (FF-6)</td>
-                                            <td>6</td>
+                                            <td>3 + (FF - 6) ≤ 6</td>
                                             <td>-1</td>
                                             <td>5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50</td>
                                         </tr>
@@ -5034,7 +4980,6 @@
                                         <tr>
                                             <th>Typ</th>
                                             <th>Schadenscode</th>
-                                            <th>Maximalschaden</th>
                                             <th>Verteidigungsmodifikator</th>
                                             <th>Reichweite</th>
                                         </tr>
@@ -5042,22 +4987,19 @@
                                     <tbody>
                                         <tr>
                                             <td>Dolch</td>
-                                            <td>1 + (FF-3)</td>
-                                            <td>3</td>
+                                            <td>1 + (FF - 3) ≤ 3</td>
                                             <td>0</td>
                                             <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
                                         <tr>
                                             <td>Wurfmesser</td>
-                                            <td>2 + (FF-4)</td>
-                                            <td>4</td>
+                                            <td>2 + (FF - 4) ≤ 4</td>
                                             <td>0</td>
                                             <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
                                         <tr>
                                             <td>Wurfstern</td>
-                                            <td>1 + (FF-5)</td>
-                                            <td>5</td>
+                                            <td>1 + (FF - 5) ≤ 5</td>
                                             <td>0</td>
                                             <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
                                         </tr>
