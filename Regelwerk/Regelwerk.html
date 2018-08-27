@@ -1107,8 +1107,9 @@
                 </ul>
                 <p>Jeder <dfn>Schaden</dfn>, den ein Charakter erhält, ist entweder körperlicher oder geistiger Schaden. In beiden Fällen
                     steht dem Charakter ein <dfn data-alternatives="Widerstandswürfe,Widerstandswürfen">Widerstandswurf</dfn> zu, der seine
-                    Zähigkeit und Widerstandsfähigkeit repräsentiert. Dieser Wurf wird mit den Würfeln des Attributs Konstitution
-                    durchgeführt. Für jeden Erfolg wird der Schaden um 1 reduziert.
+                    Zähigkeit und Widerstandsfähigkeit repräsentiert. Die Würfelanzahl entspricht dem Attribut <em>Konstitution</em>. Bei
+                    körperlichem Schaden kommt der Widerstandsbonus der getragenen Rüstung, falls vorhanden, hinzu. Für jeden erzielten
+                    Erfolg wird der Schaden um 1 reduziert.
                 </p>
                 <p>Der tatsächlich erhaltene Schaden wird durch Ankreuzen der 12 Stufen der jeweiligen Schadensleiste auf dem Charakterblatt
                     vermerkt. Nach und nach wird dieser Schaden dann abhängig von den Umständen und der im Spiel vergangenen Zeit wieder
@@ -1382,7 +1383,7 @@
                         <p>Während seiner Aktionsphase greift Elris Gegner B mit 9 Würfeln (<em>Körperkraft</em> 5, <em>Schwerter</em> 4) an
                             und erzielt 3 Erfolge.
                         </p>
-                        <p>Elris&#8217; Gegner versucht jetzt mit 9 Würfeln (<em>Gewandtheit</em> 4, <em>Verteidigung</em> 3,
+                        <p>Elris&#8217; Gegner versucht jetzt mit 9 Würfeln (<em>Gewandtheit</em> 4 + <em>Verteidigung</em> 3 +
                             <em>Parade</em> 2) zu parieren. Er erzielt 2 Erfolge und kann damit den Angriff zwar nicht vollständig abwehren,
                             aber zumindest zu weniger verletzlichen Körperstellen ablenken. Seine Parade-Erfolge werden von Elris&#8217;
                             Angriffserfolgen abgezogen, übrig bleibt 1 Erfolg.
@@ -1390,9 +1391,9 @@
                         <p>Ein Schwert hat den Schadenscode 3 + (KK - 4), für Elris beträgt der Grundschaden also 4. Der verbleibende
                             Angriffserfolg erhöht diesen Schaden um 1 auf 5.
                         </p>
-                        <p>Gegner B trägt einfache Straßenkleidung ohne Rüstungsschutz. Bei seinem Widerstandswurf erzielt er mit seinen 3
-                            <em>Konstitutions</em>-Würfeln 1 Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner
-                            Schadensleiste eingetragen werden. Er erhält von nun an einen Verletzungsmalus von 1 Erfolg.
+                        <p>Gegner B (<em>Konstitution</em> 3) trägt einfache Straßenkleidung. Bei seinem Widerstandswurf erzielt er mit
+                            seinen 3 Würfeln 1 Erfolg. Es bleiben also noch 4 Schadenspunkte übrig, die auf seiner Schadensleiste
+                            eingetragen werden. Er erhält von nun an einen Verletzungsmalus von 1 Erfolg.
                         </p>
                     </div>
                 </section>
@@ -1511,10 +1512,11 @@
                 <section id="fernkampf">
                     <h1>Fernkampf</h1>
 
-                    <p>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt wie Nahkampfwaffen: Der Angriffswurf wird mit den
-                        Würfeln aus Fingerfertigkeit, der entsprechenden Waffenfertigkeit und ggf. einer Spezialisierung ausgeführt. Der
-                        Mindestwurf von 1 wird jedoch noch je nach Distanz und Größe des Ziels modifiziert. Die Modifikatoren für
-                        Distanzbereich und Größe werden miteinander verrechnet, der Mindestwurf beträgt jedoch immer mindestens 1.
+                    <p>Grundsätzlich werden Fernkampfwaffen im Spiel genauso gehandhabt wie Nahkampfwaffen: Beim Angriffswurf entspricht die
+                        Würfelanzahl der Summe aus <em>Fingerfertigkeit</em>, der entsprechenden Waffenfertigkeit und ggf. einer
+                        Spezialisierung. Der Mindestwurf von 1 wird jedoch noch je nach Distanz und Größe des Ziels modifiziert. Dabei
+                        werden die unten stehenden Modifikatoren für Distanzbereich und Größe miteinander verrechnet, der Mindestwurf
+                        beträgt jedoch immer mindestens 1.
                     </p>
 
                     <table class="layout">
