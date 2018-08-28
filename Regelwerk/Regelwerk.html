@@ -779,7 +779,7 @@
                     </p>
                 </section>
                 <section>
-                    <h1>Probenart und Würfelanzahl</h1>
+                    <h1 id="probenart-und-wuerfelanzahl"><dfn data-synonyms="Arten von Proben">Probenart</dfn> und Würfelanzahl</h1>
 
                     <p>Es gibt verschiedene Arten von Proben, die in der unten stehenden Tabelle aufgeführt sind. Die Würfelanzahl ergibt
                         sich je nach Art der Probe aus verschiedenen Eigenschaften, liegt jedoch niemals über 25.<span class="footnote">Die
@@ -848,8 +848,8 @@
                         <h1><dfn data-base="Fertigkeitsprobe">Fertigkeitsproben</dfn></h1>
 
                         <p>Die Würfelanzahl entspricht der Summe der Punktzahlen von Attribut, Fertigkeit und ggf. einer passenden
-                            Spezialisierung. Besitzt der Spieler die passende Fertigkeit nicht, führt er die Probe mit den verbleibenden
-                            Würfeln durch. Alternativ darf er nach Spielleiterentscheid auch eine verwandte Fertigkeit einsetzen.
+                            Spezialisierung. Besitzt der Spieler die passende Fertigkeit nicht, entspricht die Würfelanzahl der Höhe des
+                            Attributs. Alternativ darf er nach Spielleiterentscheid auch eine verwandte Fertigkeit einsetzen.
                         </p>
                         <p>Das zu verwendende Attribut wird vom Spielleiter der Situation entsprechend ausgewählt.</p>
                         <div class="example">
@@ -907,7 +907,7 @@
                     </p>
                 </section>
                 <section>
-                    <h1>Mindestwurf</h1>
+                    <h1 id="mindestwurf">Mindestwurf</h1>
 
                     <p>Als nächstes legt der Spielleiter den zu erreichenden <dfn data-alternatives="Mindestwürfe">Mindestwurf</dfn> fest.
                         Er beträgt mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab. Für
@@ -985,10 +985,8 @@
                         angegeben. Jeder gerollte Würfel, der eine 5 oder 6 zeigt, zählt als ein Erfolg.
                     </p>
                     <p>Ist der Charakter verwundet oder erschöpft, gilt ein Verletzungsmalus, der auf die Erfolgsanzahl angerechnet wird
-                        (siehe <a href="#gesundheit"></a>).
-                    </p>
-                    <p>Ist die Anzahl der verbleibenden Erfolge gleich oder höher als der zuvor festgelegte Mindestwurf, ist die Probe <em>gelungen</em>.
-                        Verbleiben weniger oder gar keine Erfolge, ist sie <em>gescheitert</em>.
+                        (siehe <a href="#gesundheit"></a>). Ist die Anzahl der verbleibenden Erfolge gleich oder höher als der zuvor
+                        festgelegte Mindestwurf, ist die Probe <em>gelungen</em>. Verbleiben weniger oder gar keine Erfolge, ist sie <em>gescheitert</em>.
                     </p>
                     <p>Die Erfolge, welche über den Mindestwurf hinaus gehen, heißen <dfn
                         data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>.
@@ -1000,10 +998,11 @@
                             unpassendsten Momenten zu knarren und zu quietschen, ist diese Probe gar nicht so leicht: der Spielleiter sagt
                             einen Mindestwurf von 3 an.
                         </p>
-                        <p>Elris hat <em>Gewandtheit</em> 5, <em>Heimlichkeit</em> 2 und die Spezialisierung <em>Schleichen</em> auf 3,
-                            macht 10. Er rollt seine 10 Würfel, sie zeigen: 5, 2, 4, 1, 6, 2, 2, 6, 3, 4, ergibt insgesamt drei
-                            Erfolge &ndash; Elris schafft es also, kaum verräterische Geräusche zu verursachen. Hätte er weniger als drei
-                            Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende Diele getreten.
+                        <p>Elris hat <em>Gewandtheit</em> 5, <em>Heimlichkeit</em> 3 und die Spezialisierung <em>Schleichen</em> auf 2,
+                            macht 10. Er rollt seine 10 Würfel und erzielt 4 Erfolge. Damit übertrifft er sogar den geforderten
+                            Mindestwurf &ndash; Elris schafft es also, kaum verräterische Geräusche zu verursachen und selbst sein Atem ist
+                            kaum zu hören. Hätte er weniger als 3 Erfolge gehabt, wäre er direkt und lautstark auf eine knarrende Diele
+                            getreten.
                         </p>
                     </div>
                     <p>Es kann vorkommen, dass ein Mindestwurf höher ist als die Würfelanzahl des Charakters und somit niemals genug Erfolge
@@ -1038,38 +1037,33 @@
                     <h1><dfn data-alternatives="Vergleichende Probe,vergleichende Probe,vergleichenden Probe">Vergleichende Proben</dfn>
                     </h1>
 
-                    <p>Oftmals treten zwei Charaktere gegeneinander an, z.B. in einem sportlichen Wettkampf oder auch beim Erkennen von
-                        Lügen. In solchen Situationen führen beide Charaktere jeweils eine passende Probe durch.
+                    <p>Jede Handlung, für die ein Charakter eine erfolgreiche Probe abgelegt hat, kann von einem anderen Charakter vereitelt
+                        werden. Dazu führt dieser eine eigene Probe durch, die „zweite Probe”.</p>
+
+                    <p>Diese zweite Probe ist völlig unabhängig von der ersten: es muss nicht derselbe <a href="#mindestwurf"></a> gelten
+                        und es muss sich nicht um dieselbe <a href="#probenart-und-wuerfelanzahl">Probenart</a> handeln.
                     </p>
-                    <p>Die Probenart muss entweder für beide Charaktere gleich sein oder es muss sich um eine Zauberprobe für den einen und
-                        eine Fertigkeitsprobe für den anderen Charakter handeln.<span class="footnote">Wäre die Mischung von bspw.
-                            Fertigkeitsproben mit Attributsproben erlaubt, hätte derjenige mit der Attributsprobe einen deutlichen Vorteil,
-                            da er (zumindest für Vergleichsproben) keine individuellen Fertigkeiten mehr kaufen müsste.</span> Für die
-                        eingesetzten Eigenschaften sowie den Mindestwurf gibt es jedoch keine Einschränkungen: sie können für beide
-                        Charaktere identisch sein oder abweichen, je nach Situation.
+
+                    <div class="example">
+                        <ul>
+                            <li>Erkennen von Lügen: <em>Manipulation</em> vs. <em>Menschenkenntnis</em></li>
+                            <li>Angriff und Verteidigung: <em>Schwert</em> vs. <em>Ausweichen</em></li>
+                            <li>Kontern von Zaubern: <em>Feuer erschaffen</em> vs. <em>Kraft zerstören</em></li>
+                            <li>Armdrücken: <em>Körperkraft</em> vs. <em>Körperkraft</em></li>
+                        </ul>
+                    </div>
+
+                    <p>Erzielt die zweite Probe genauso viele oder mehr Erfolge als die erste, ist diese vereitelt. Nach
+                        Spielleiterentscheid kann es bei Gleichstand auch ein „Unentschieden” geben.
                     </p>
-                    <p>Umstände, welche einen der beiden Charaktere betreffen und die Probe beeinflussen, führen beim jeweiligen Charakter
-                        wie bei normalen Proben zu Würfelmali oder -boni.
-                    </p>
-                    <p>Das Ergebnis wird wie folgt ermittelt:</p>
-                    <ol>
-                        <li>Gelingt nur eine der Proben, steht der Sieger des Vergleichs fest.</li>
-                        <li>Gelingen beide Proben, wird die Anzahl der Erfolge verglichen: Derjenige mit mehr Erfolgen hat „gewonnen”.<span
-                            class="footnote">Bei Zaubern zählt die Gesamtanzahl der Erfolge, unabhängig davon wieviele zum Mindestwurf
-                            gehören und wieviele Zusatzerfolge zu Bonuswürfeln für den Entzugswurf führen.</span></li>
-                        <li>Sollte die Anzahl der Erfolge gleich sein, gewinnt derjenige, welcher die auslösende Handlung durchgeführt hat,
-                            also diejenige, ohne welche die andere Handlung entfallen würde. Sind beide Handlungen gleichwertig (z.B. beim
-                            Armdrücken), gilt der Vergleich als unentschieden.
-                        </li>
-                    </ol>
+
                     <div class="example">
                         <p>Der Hausherr, der gerade von einem Ball nach Hause kommt, betritt durch die Hintertür des Hauses die Küche. Für
-                            seine <em>Wahrnehmungs</em>-probe setzt der Spielleiter einen Mindestwurf von 3 an, denn die Tür zum Flur ist
+                            seine <em>Wahrnehmungs</em>-probe setzt der Spielleiter einen Mindestwurf von 4 an, denn die Tür zum Flur ist
                             geschlossen und die Wände nicht besonders hellhörig.
                         </p>
-                        <p>Der Hausherr erzielt mit seinen 8 Würfeln 3 Erfolge und erreicht somit den Mindestwurf. Elris, dessen
-                            Herumschleichen die auslösende Handlung für den Vergleich ist, hatte jedoch ebenfalls 3 Erfolge. Er gewinnt also
-                            den Vergleich und setzt seine Arbeit fort, während der Hausherr nichts ahnend schlafen geht.
+                        <p>Der Hausherr erzielt mit seinen 8 Würfeln 4 Erfolge und erreicht somit den Mindestwurf. Elris hatte bei seiner
+                            <em>Heimlichkeits</em>-Probe ebenfalls 4 Erfolge, er fliegt also auf und muss hastig das weite suchen.
                         </p>
                     </div>
                 </section>
@@ -1246,9 +1240,9 @@
                     <p>Haben mehrere Beteiligte die gleiche Initiative, wird ihre Reihenfolge untereinander ausgewürfelt.
                     </p>
                     <div class="example">
-                        <p>Elris hat sich von seinem nächtlichen Einsatz ausgeruht. Der nächste Tag beginnt für ihn aber leider nicht so
-                            gut, wie der letzte endete: am Nachmittag steht er mit seiner Freundin Solinara zwei finster aussehenden und
-                            noch dazu feindlich gesinnten Gestalten gegenüber, die wortlos ihre Waffen ziehen.
+                        <p>Elris hat sich von seiner nächtlichen Flucht über die Dächer ausgeruht. Der nächste Tag beginnt für ihn aber
+                            leider noch unerfreulicher, als der letzte endete: am Nachmittag steht er mit seiner Freundin Solinara zwei
+                            finster aussehenden und noch dazu feindlich gesinnten Gestalten gegenüber, die wortlos ihre Waffen ziehen.
                         </p>
                         <p>Elris hat <em>Intuition</em> 5 und <em>Reflexe</em> 6, der Initiativebasiswert beträgt somit 22. Sein
                             Initiativewurf ergibt eine 6, macht 28. Solinara hat <em>Intuition</em> und <em>Reflexe</em> jeweils auf 5 und
@@ -3847,7 +3841,7 @@
                                 eigentlichen Zauberprobe eine Zusatzprobe<span class="footnote">Diese Probe stellt keinen eigenen Zauber
                                     dar, benötigt also keine Kraft und hat keine Zauberdauer.</span> auf <em>Kraft modifizieren</em>
                                 durchgeführt. Gelingt diese, muss ein <em>Erkennen</em>-Zauber im Rahmen einer vergleichenden Probe deren
-                                Erfolgsanzahl übertreffen, um die Tarnung zu durchdringen.
+                                Erfolgsanzahl erreichen, um die Tarnung zu durchdringen.
                             </p>
 
                             <p>Bei Zaubern erstreckt sich die Tarnung auf die Wirkungsdauer; permanent wirkende Zauber besitzen keine
