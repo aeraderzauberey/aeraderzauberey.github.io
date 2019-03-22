@@ -124,6 +124,7 @@ $(function() {
     }
 
     var container = $("nav");
+    generateToc($("#intro"), container, "<ul>");
     generateToc($("main"), container, "<ol>");
     generateToc($("#appendices"), container, "<ol class='A'>", "<ul>");
     generateToc($("#backmatter"), container, "<ul>");

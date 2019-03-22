@@ -1,0 +1,121 @@
+.icon {
+    border-width: 0.2pt;
+}
+
+.examplebox, .example {
+    border: 0.5pt solid black;
+}
+
+.print-only {
+    display: block;
+}
+
+thead {
+    border-bottom: 0.2pt solid black;
+}
+
+@page :left {
+    @bottom-left {
+        content: counter(page);
+    }
+}
+
+@page :right {
+    @bottom-right {
+        content: counter(page);
+    }
+}
+
+@page :first {
+    @bottom-right {
+        content: inherit;
+    }
+}
+
+main > section + section {
+    page-break-before: always;
+}
+
+h1 .buttons, nav .toggler {
+    display: none;
+}
+
+a, a:link, a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+main a:link {
+    text-decoration: underline;
+}
+
+main a:after {
+    content: " (Seite " target-counter(attr(href url), page) ")";
+}
+
+main span.footnote {
+    text-decoration: none;
+}
+
+body > main > section > h1,
+#intro > section > h1,
+#index > h1 {
+    border-bottom: 0.7pt solid black;
+    margin-bottom: 1em;
+    padding-bottom: 0.25em;
+    page-break-before: always;
+}
+
+.example, .examplebox, tr {
+    page-break-inside: avoid;
+}
+
+h1 {
+    page-break-after: avoid;
+}
+
+* {
+    widows: 2;
+    orphans: 2;
+}
+
+#cover {
+    page-break-before: always;
+    page-break-after: always;
+    padding-top: 40%;
+    text-align: center;
+}
+
+#index {
+    /* Without page numbers, the index is useless for printing */
+    display: none;
+}
+
+section h1 {
+    prince-bookmark-level: 1;
+}
+section section h1 {
+    prince-bookmark-level: 2;
+}
+section section section h1 {
+    prince-bookmark-level: 3;
+}
+section section section section h1 {
+    prince-bookmark-level: 4;
+}
+section section section section section h1 {
+    prince-bookmark-level: none;
+}
+
+main section h1 {
+    prince-bookmark-label: counter(level1) " " content();
+}
+main section section h1 {
+    prince-bookmark-label: counter(level1) "." counter(level2) " " content();
+}
+main section section section h1 {
+    prince-bookmark-label: counter(level1) "." counter(level2) "." counter(level3) " " content();
+}
+main section section section section h1 {
+    prince-bookmark-label: counter(level1) "." counter(level2) "." counter(level3) "." counter(level4) " " content();
+}

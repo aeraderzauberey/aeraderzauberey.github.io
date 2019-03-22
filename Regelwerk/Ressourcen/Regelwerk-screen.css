@@ -1,0 +1,118 @@
+.icon {
+    border-width: 1px;
+}
+
+/* regular non-sticky header line */
+thead {
+    border-bottom: 1px solid black;
+}
+
+/* make headers sticky, but not within examples */
+section > figure table.itemlist thead {
+    position: sticky;
+    top: 0;
+    background: white;
+
+    /* place above icon-only cells or position:relative like .highlight */
+    z-index: 10;
+}
+section > figure table.itemlist thead th:after {
+    /* work around position:sticky issues with borders, see https://stackoverflow.com/a/45042852/7641 */
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.examplebox, .example {
+    box-shadow: 0.75em 0.75em 1em hsl(54, 35%, 50%);
+}
+
+a[rel=footnote], a[rel=reference] {
+    background: hsl(32, 60%, 60%);
+    padding: 0 0.3em;
+    margin-left: 0.2em;
+}
+
+#tooltip {
+    text-align: center;
+    background: hsl(32, 60%, 60%);
+    position: absolute;
+    z-index: 100;
+    padding: 0.2em 1em;
+    border-radius: 7px;
+}
+
+#tooltip:before { /* triangle decoration */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid hsl(32, 60%, 60%);
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -10px;
+}
+
+#tooltip.left:before {
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:before {
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+.print-only {
+    display: none;
+}
+
+
+body {
+    padding: 0.5rem;
+}
+
+@media (min-width : 65rem) {
+    html {
+        background: lightgray;
+    }
+    body {
+        background: white;
+        width: 60rem;
+        border: 0.1rem solid gray;
+        margin: 1rem auto;
+    }
+}
+
+
+/* Debugging */
+
+body.error {
+    background: repeating-linear-gradient(-45deg, white, white 20px, #ffdddd 20px, #ffdddd 40px);
+    position: relative;
+}
+
+body.error:before {
+    content: "Errors occurred, see console.";
+    text-align: center;
+    display: block;
+    background: red;
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 0;
+}
+
+span.footnote {
+    /* mark inline footnotes when scripts did not run */
+    background: lightblue;
+}

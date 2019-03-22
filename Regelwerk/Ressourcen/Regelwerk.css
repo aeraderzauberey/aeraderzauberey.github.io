@@ -1,4 +1,9 @@
 @font-face {
+	font-family: 'BlackChancery';
+	src: url('BlackChancery.woff') format('woff');
+}
+
+@font-face {
 	font-family: 'Carolingia';
 	src: url('Carolingia.woff') format('woff');
 }
@@ -12,11 +17,15 @@ a:link, a:visited {
 	color: #00E;
 }
 
+.examplebox, .example {
+    width: 90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    padding: 0.1em 1.2em;
+    background-color: hsl(54, 77%, 80%);
+}
+
 .example {
-	width: 90%;
-	margin: 2em auto;
-	border-radius: 1em;
-	padding: 0.1em 1.2em;
 	font-family: 'TeX Gyre Chorus medium italic';
 	font-size: 1.1rem;
 }
@@ -26,81 +35,18 @@ a:link, a:visited {
     font-variant: small-caps;
 }
 
-@media screen {
-	.example {
-		box-shadow: 0.75em 0.75em 1em #afa95b;
-		background-color: khaki;
-	}
-}
-
-@media print {
-	.example {
-		border: 1px solid black;
-		page-break-inside: avoid;
-	}
-}
-
-.highlight {
-    background: #ADE6C6;
+tr.highlight td:first-child,
+span.highlight {
+    color: hsl(32, 94%, 45%);
+    font-weight: bold;
 }
 
 /* Footnotes */
 a[rel=footnote], a[rel=reference] {
 	text-decoration: none;
-	color: black;
+	color: inherit;
 }
 
-@media screen {
-	a[rel=footnote], a[rel=reference] {
-		background: lightblue;
-		padding: 0 0.3em;
-	}
-}
-
-#tooltip {
-	text-align: center;
-	background: darkgray;
-	position: absolute;
-	z-index: 100;
-	padding: 0.2em 1em;
-	border-radius: 7px;
-}
-
-#tooltip:before { /* triangle decoration */
-	width: 0;
-	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 10px solid darkgray;
-	content: '';
-	position: absolute;
-	left: 50%;
-	top: -10px;
-	margin-left: -10px;
-}
-
-#tooltip.left:before {
-	left: 10px;
-	margin: 0;
-}
-
-#tooltip.right:before {
-	right: 10px;
-	left: auto;
-	margin: 0;
-}
-
-@media screen {
-	.print-only {
-		display: none;
-	}
-}
-
-@media print {
-	.print-only {
-		display: block;
-	}
-}
 
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -111,44 +57,7 @@ body {
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	hyphens: auto;
-}
-
-body.error {
-	background: repeating-linear-gradient(-45deg, white, white 20px, #ffdddd 20px,
-		#ffdddd 40px);
-	position: relative;
-}
-
-body.error:before {
-	content: "Errors occurred, see console.";
-	text-align: center;
-	display: block;
-	background: red;
-	color: white;
-	font-size: 200%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 1em 0;
-}
-
-@media screen {
-	body {
-		padding: 0.5rem;
-	}
-}
-
-@media screen and ( min-width : 65rem) {
-	html {
-		background: lightgray;
-	}
-	body {
-		background: white;
-		width: 60rem;
-		border: 0.1rem solid gray;
-		margin: 1rem auto;
-	}
+    position: relative;
 }
 
 figure>p {
@@ -160,42 +69,77 @@ table {
 	width: 100%;
 }
 
+figure.sidebar, figure.large-sidebar {
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+}
+figure.sidebar {
+    width: 33%;
+}
+figure.large-sidebar {
+    width: 50%;
+}
+
+td[rowspan] {
+	vertical-align: middle;
+}
+
+section {
+	clear: both;
+}
+
 table + table {
     margin-top: 1rem;
 }
 
-th {
-	background-color: black;
-	padding: 0.1em 0.5rem 0.7rem 0.5rem;
-	color: white;
-	text-align: center;
-    border-width: 0;
-    white-space: nowrap;
-}
-
-th:not(:first-child) {
-    border-left: 1px solid white;
-}
-
-th:not(:last-child) {
-    border-right: 1px solid white;
-}
-
-tr:not(:first-child) th {
-    border-top: 1px solid white;
-}
-
 tr.gray {
-	background-color: lightgray;
+    color: gray;
 }
 
-td {
-	text-align: center;
-	padding: 0.4rem;
+td, th {
+    padding: 0.4rem;
+}
+
+thead th {
+    padding: 0 0.3rem 0.2rem 0.3rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.1rem;
+}
+
+thead tr:nth-last-child(n+2) th:not([rowspan]) {
+    padding-bottom: 0;
 }
 
 tbody td {
 	vertical-align: top;
+    text-align: center;
+}
+
+figure tbody tr:nth-child(odd) {
+    background: hsl(195, 53%, 90%);
+}
+figure tbody tr:nth-child(even) {
+    background: hsl(195, 53%, 95%);
+}
+
+.example figure tbody tr, .examplebox figure tbody tr {
+    background: transparent;
+}
+
+#schadensleiste tr {
+    background: transparent;
+}
+
+table.scale {
+    table-layout: fixed;
+}
+table.scale td:nth-child(odd) {
+    background: hsl(195, 53%, 90%);
+}
+table.scale td:nth-child(even) {
+    background: hsl(195, 53%, 95%);
 }
 
 table.itemlist td:first-child,
@@ -204,31 +148,31 @@ table.itemlist th:first-child {
     white-space: nowrap;
 }
 
+table.segmented tbody th {
+    font-style: italic;
+}
+
+table.segmented tbody td:first-child {
+    padding-left: 1.75em;
+}
+
 td span.details {
 	font-size: 75%;
-	color: rgb(100,100,100);
+    color: gray;
 	margin-left: 1.5em;
     display: inline-block;
 }
 
-figure table {
-    border: 1px solid black;
-}
-
-figure td {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-table.layout > tbody > tr > td {
-	vertical-align: top;
+td.fake-rowspan {
+    padding: 0;
+    vertical-align: bottom;
+    transform: translateY(20%);
 }
 
 .icon {
     width: 1.25em;
-	padding: 1px;
-	border: 1px solid #888888;
+    padding: 0.07em;
+    border: solid gray;
 }
 
 .icon.hasnext {
@@ -253,12 +197,10 @@ p .icon, td .icon {
 	top: 0.35em;
 }
 
-td.icononly .icon {
-	top: 0.15em;
-}
-
-td.icononly {
-	width: 2.5em;
+table.itemlist td:first-child .icon {
+    float: left;
+    margin-right: 0.5em;
+    top: 0;
 }
 
 /* Definition lists */
@@ -322,96 +264,112 @@ nav a:target {
 }
 
 /* Chapter headings */
-h1, th {
-	font-family: Carolingia, Arial, sans-serif;
+h1, thead th {
+	font-family: BlackChancery, Arial, sans-serif;
 	font-weight: normal;
 }
 
-body>*>section>h1 {
-	font-size: 2.2rem;
+body section h1 {
+	font-size: 1.9rem;
 	margin-bottom: 1.3rem;
 	text-align: center;
 }
 
-body>*>section>section>h1 {
-	font-size: 1.9rem;
-	margin-bottom: 1.2rem;
+body section section h1 {
+	font-size: 1.7rem;
+	margin-bottom: 1.0rem;
+    text-align: left;
 }
 
-body>*>section>section>section>h1 {
-	font-size: 1.6rem;
-	margin-bottom: 1.1rem;
-}
-
-body>*>section>section>section>section>h1 {
-	font-size: 1.3rem;
-	margin-bottom: 1rem;
-}
-
-body>*>section>section>section>section>section>h1 {
-	font-size: 1rem;
+body section section section h1 {
+	font-size: 1.5rem;
 	margin-bottom: 0.9rem;
 }
 
+body section section section section h1 {
+	font-size: 1.3rem;
+	margin-bottom: 0.8rem;
+}
+
+body section section section section section h1 {
+	font-size: 1.1rem;
+	margin-bottom: 0.7rem;
+}
+
 /* Chapter numbering */
-body>* {
+body > * {
 	counter-reset: level1 level2 level3 level4;
 }
 
-body>*>section {
+body section {
 	counter-increment: level1;
 	counter-reset: level2 level3 level4;
 }
 
-body>*>section>section {
+body section section {
 	counter-increment: level2;
 	counter-reset: level3 level4;
 }
 
-body>*>section>section>section {
+body section section section {
 	counter-increment: level3;
 	counter-reset: level4;
 }
-
-body>*>section>section>section>section {
-	counter-increment: level4;
+body section section section section {
+    counter-increment: level4;
+    counter-reset: none;
+}
+body section section section section section {
+    counter-increment: none;
 }
 
-main>section>h1:before {
-	content: "Kapitel " counter(level1) ": ";
+main > section > h1:before {
+	content: "Teil " counter(level1) ": ";
 }
 
 #appendices>section>h1:before {
 	content: "Anhang " counter(level1, upper-latin) ": ";
 }
 
-/* Reserve space for numbering chapter levels 2 and below */
-main>section>section h1:before {
-	float: left;
-	width: 3.5rem;
-}
-
-main>section>section>h1:before {
+main section section > h1:before {
 	content: counter(level1) "." counter(level2) " ";
+    padding-right: 0.5em;
 }
 
-main>section>section>section>h1:before {
+main section section section > h1:before {
 	content: counter(level1) "." counter(level2) "." counter(level3) " ";
 }
 
-main>section>section>section>section>h1:before {
-	content: counter(level1) "." counter(level2) "." counter(level3) "."
-		counter(level4) " ";
+main section section section section > h1:before {
+    content: counter(level1) "." counter(level2) "." counter(level3) "." counter(level4) " ";
 }
 
-section.effect>h1:before {
+main section section section section section > h1:before {
+    content: inherit;
+}
+
+section.effect > h1:before {
 	content: "Effekt: "
 }
 
 /* Navigation aids, expandable TOC */
-h1 .buttons, nav .toggler {
+h1 .buttons {
+    position: absolute;
+    right: 0.2rem;
+    opacity: 0.25;
+}
+
+h1 .buttons:hover {
+    opacity: 1;
+}
+
+nav .toggler {
 	position: absolute;
 	padding-left: 0.2em;
+}
+
+h1 .buttons .fa {
+    font-size: 1.5rem;
 }
 
 h1 .buttons .fa, nav .toggler .fa {
@@ -424,34 +382,6 @@ h1 .buttons .fa, nav .toggler .fa {
 
 h1 .buttons .break {
 	padding: 0 0.2em;
-}
-
-/* Print/PDF styles */
-@media print {
-	main>section+section {
-		page-break-before: always;
-	}
-	h1 .buttons, nav .toggler {
-		display: none;
-	}
-	a, a:link, a:visited {
-		text-decoration: inherit;
-		color: inherit;
-	}
-	main a:before {
-		content: "\201E"
-	}
-	main a:after {
-		content: "\201D"
-	}
-}
-
-/* Index terms */
-@media print {
-	#index {
-		/* Without page numbers, the index is useless for printing */
-		display: none;
-	} 
 }
 
 #indexContents {
@@ -471,4 +401,38 @@ dfn {
 h1 dfn, td dfn {
 	font-weight: inherit;
 	font-style: inherit;
+}
+
+div.side-by-side {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* fall back to space-around for Prince which does not support space-evenly */
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+}
+
+div.side-by-side > * {
+    flex-basis: content;
+}
+
+/* Debugging */
+
+.temp-note {
+    background: yellow;
+    font-family: serif;
+    font-weight: bold;
+}
+
+a:empty::before {
+	/* display something if script for link labels did not run */
+	content: "{" attr(href) "}";
+	color: red;
+}
+
+a:empty::after {
+    /* display something if script for link labels did not run */
+    content: "";
 }

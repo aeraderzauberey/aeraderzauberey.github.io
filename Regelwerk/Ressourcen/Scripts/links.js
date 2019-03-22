@@ -1,4 +1,5 @@
 $(function() {
+    var provisionalLinks = 0;
     function processLink(index, domElement) {
         var element = $(domElement);
         var href = element.attr("href");
@@ -35,6 +36,8 @@ $(function() {
             console.debug("found external link", domElement);
         } else if (href.match(/\.html$/)) {
             console.debug("found internal link", domElement);
+        } else if (href.match(/^_/)) {
+            provisionalLinks++;
         } else {
             logError("invalid link href", domElement,
                     "only ID refs or external URLs allowed");
@@ -42,4 +45,8 @@ $(function() {
     }
     $("a[href]").each(processLink);
 
+    if (provisionalLinks > 0) {
+        // TODO turn into error
+        console.debug("found " + provisionalLinks + ' provisional links (href="_...")');
+    }
 });
