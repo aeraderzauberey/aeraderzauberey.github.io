@@ -156,6 +156,10 @@ table.segmented tbody td:first-child {
     padding-left: 1.75em;
 }
 
+tr.combined td {
+	vertical-align: middle;
+}
+
 td span.details {
 	font-size: 75%;
     color: gray;
@@ -219,6 +223,18 @@ dd {
 /* Bullet lists */
 ul {
     margin-bottom: 1em;
+}
+
+p + ul, div.connected ul {
+	margin-top: 0;
+}
+
+p:not(:last-child) {
+	margin-bottom: 0;
+}
+
+li p:only-child, li ul {
+	margin: 0;
 }
 
 /* TOC */

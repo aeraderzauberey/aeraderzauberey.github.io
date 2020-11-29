@@ -97,56 +97,58 @@
                 <section id="grundsaetzliches">
                     <h1>Grundsätzliches</h1>
 
-                    <p>Charaktere werden durch die folgenden Typen von <dfn data-base="Eigenschaft">Eigenschaften</dfn> beschrieben. Je nach
-                        Art der Eigenschaft gelten unterschiedliche Maximalwerte:
-                    </p>
+                    <div class="connected">
+                        <p>Charaktere werden durch die folgenden Typen von <dfn data-base="Eigenschaft">Eigenschaften</dfn> beschrieben. Je nach
+                            Art der Eigenschaft gelten unterschiedliche Maximalwerte:
+                        </p>
 
-                    <figure class="sidebar">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Summe</th>
-                                    <th>Bewertung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Lächerlich</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Einsteiger</td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>Durchschnittlich</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>Fortgeschritten</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>Erfahren</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>Meisterlich</td>
-                                </tr>
-                                <tr>
-                                    <td>25</td>
-                                    <td>Fantastisch</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </figure>
+                        <figure class="sidebar">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Summe</th>
+                                        <th>Bewertung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Lächerlich</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Einsteiger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Durchschnittlich</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Fortgeschritten</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Erfahren</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Meisterlich</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Fantastisch</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
 
-                    <ul>
-                        <li>Attribute und Techniken: 10</li>
-                        <li>Fertigkeiten und Magiebereiche: 10</li>
-                        <li>Spezialisierungen und Foki: 5</li>
-                    </ul>
+                        <ul>
+                            <li>Attribute und Techniken: 10</li>
+                            <li>Fertigkeiten und Magiebereiche: 10</li>
+                            <li>Spezialisierungen und Foki: 5</li>
+                        </ul>
+                    </div>
 
                     <p>Für Proben wird die Summe aus mehreren Eigenschaften gebildet:</p>
                     <ul>
@@ -174,9 +176,6 @@
                             <li>Spezialisierungen und Foki nicht höher als die jeweilige Fertigkeit bzw. der Magiebereich</li>
                             <li>Die Fertigkeit <em>»Muttersprache«</em> eines Charakters kostet keine EP.</li>
                         </ul>
-                        <p>Die Kosten sind der folgenden Tabelle zu entnehmen. Sollten EP übrig bleiben, können sie später im Spiel zum
-                            Steigern verwendet werden; die Kosten bleiben dieselben.
-                        </p>
 
                         <figure>
                             <table>
@@ -277,6 +276,43 @@
                                 </tbody>
                             </table>
                         </figure>
+
+                        <p>Sollten EP übrig bleiben, können sie später im Spiel zum Steigern verwendet werden; die Kosten bleiben gleich.</p>
+
+                        <figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Attribut</th>
+                                        <th>Technik</th>
+                                        <th>Fertigkeit / Magiebereich / Fokus</th>
+                                        <th>Spezialisierung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Erster Punkt</td>
+                                        <td>10</td>
+                                        <td>6</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Punktzahl um 1 steigern</td>
+                                        <td>Bisherige Punkte &times;&nbsp;5</td>
+                                        <td>Bisherige Punkte &times;&nbsp;3</td>
+                                        <td>Bisherige Punkte &times;&nbsp;2</td>
+                                        <td>Bisherige Punkte</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+
+                        <div class="example">
+                            <p>Zum Ende seines dritten Lehrjahres hat der Schneiderlehrling genug gelernt, um seine Fertigkeit <em>Textilverarbeitung</em> von 4 auf 5 zu steigern. Das kostet ihn 8 EP.</p>
+                            <p>Nun darf er auch die Spezialisierung <em>Schneiderei</em> von 4 auf 5 erhöhen. Das kostet ihn weitere 4 EP.</p>
+                        </div>
                     </section>
                 </section>
 
@@ -645,79 +681,91 @@
                         </section>
                     </section>
 
-                    <div class="side-by-side">
-                        <section id="nahkampffertigkeiten">
-                            <h1>Nahkampffertigkeiten</h1>
+                    <section id="nahkampffertigkeiten">
+                        <h1>Nahkampffertigkeiten</h1>
 
-                            <figure id="fig-nahkampf-fertigkeiten">
-                                <table class="itemlist">
-                                    <thead>
-                                        <tr>
-                                            <th>Fertigkeit</th>
-                                            <th>Attribut</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Dolche</td>
-                                            <td>GE</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Fechtwaffen</td>
-                                            <td>GE</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Hiebwaffen</td>
-                                            <td>KK</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schwerter</td>
-                                            <td>KK</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Stangenwaffen</td>
-                                            <td>KK</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Waffenloser Kampf</td>
-                                            <td>GE / KK</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Zweihand-Hiebwaffen</td>
-                                            <td>KK</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
-                        <section id="fernkampffertigkeiten">
-                            <h1>Fernkampffertigkeiten</h1>
-                            <figure id="fig-fernkampffertigkeiten">
-                                <table class="itemlist">
-                                    <thead>
-                                        <tr>
-                                            <th>Fertigkeit</th>
-                                            <th>Attribut</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Armbrüste</td>
-                                            <td>FF</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bögen</td>
-                                            <td>FF</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wurfwaffen</td>
-                                            <td>FF</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
-                    </div>
+                        <figure id="fig-nahkampf-fertigkeiten">
+                            <table class="itemlist">
+                                <thead>
+                                    <tr>
+                                        <th>Fertigkeit</th>
+                                        <th>Attribut</th>
+                                        <th>Spezialisierungen</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dolche</td>
+                                        <td>GE</td>
+                                        <td>Dolch, Messer, Parierdolch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fechtwaffen</td>
+                                        <td>GE</td>
+                                        <td>Degen, Dussack, Florett, Rapier</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hiebwaffen</td>
+                                        <td>KK</td>
+                                        <td>Axt, Bartaxt, Knüppel, Kriegsflegel, Kriegshammer, Machete, Morgenstern, Schmiedehammer</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Schwerter</td>
+                                        <td>KK</td>
+                                        <td>Bastardschwert, Katana, Kurzschwert, Säbel, Schwert, Wakizashi</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stangenwaffen</td>
+                                        <td>KK</td>
+                                        <td>Bardiche, Glefe, Hellebarde, Kampfstab, Kriegssense, Partisane, Speer, Speer (einhändig)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Waffenloser Kampf</td>
+                                        <td>GE / KK</td>
+                                        <td>Raufen; Kampftechniken wie Boxen, Capoeira oder Kung Fu; Natürliche Waffen wie Klauen/Fang
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zweihand-Hiebwaffen</td>
+                                        <td>KK</td>
+                                        <td>Bidenhänder, Doppelblatt-Axt, Großaxt, Ogeraxt</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
+
+                    <section id="fernkampffertigkeiten">
+                        <h1>Fernkampffertigkeiten</h1>
+                        <figure id="fig-fernkampffertigkeiten">
+                            <table class="itemlist">
+                                <thead>
+                                    <tr>
+                                        <th>Fertigkeit</th>
+                                        <th>Attribut</th>
+                                        <th>Spezialisierungen</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Armbrüste</td>
+                                        <td>FF</td>
+                                        <td>Leichte Armbrust, Pistolenarmbrust, Schwere Armbrust</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bögen</td>
+                                        <td>FF</td>
+                                        <td>Komposit-Recurvebogen, Langbogen, Reiterbogen</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wurfwaffen</td>
+                                        <td>FF</td>
+                                        <td>Wurfdolch, Wurfmesser, Wurfstern</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </section>
 
                     <section id="berufsfertigkeiten">
                         <h1>Berufsfertigkeiten</h1>
@@ -1009,8 +1057,16 @@
                         Hinweise dazu liefern jedoch meist die Beschreibungen der jeweiligen Fertigkeiten.
                     </p>
                     <p>Charaktere können nur Spezialisierungen wählen, wenn sie die zugehörige Fertigkeit beherrschen. Der Wert einer
-                        Spezialisierung darf höchstens 5 betragen und den Wert der Fertigkeit nicht übersteigen.
+                        Spezialisierung darf höchstens 5 betragen. Er kann den Wert der Fertigkeit übersteigen, wenn Spieler und Spielleiter
+                        einen schlüssigen Grund dafür sehen.
                     </p>
+
+                    <div class="example">
+                        <p>Die Fertigkeit <em>Waffenloser Kampf</em> auf 2 mit der Spezialisierung <em>Karate</em> auf 4 beschreibt den
+                            Charakter als Spezialisten. Die Kombination aus <em>Wahrnehmung</em> auf 1 und <em>Sicht</em> auf 5 ist jedoch
+                            pure Kostenoptimierung.
+                        </p>
+                    </div>
                 </section>
 
                 <section id="initiative">
@@ -1059,10 +1115,6 @@
                                     <td>Sinneseindrücke und Illusionen aller Art</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="#elektrizitaet"></a></td>
-                                    <td>Blitze und elektrische Ladungen</td>
-                                </tr>
-                                <tr>
                                     <td><a href="#erde"></a></td>
                                     <td>Erde, Gestein und ähnliche Stoffe</td>
                                 </tr>
@@ -1084,7 +1136,7 @@
                                 </tr>
                                 <tr>
                                     <td><a href="#luft"></a></td>
-                                    <td>Luft und andere normalerweise gasförmige Stoffe</td>
+                                    <td>Luft und andere normalerweise gasförmige Stoffe sowie Blitze und elektrische Ladungen</td>
                                 </tr>
                                 <tr>
                                     <td><a href="#metall"></a></td>
@@ -1177,11 +1229,88 @@
                     </div>
                 </section>
 
+                <section id="traditionen">
+                    <h1>Traditionen</h1>
+
+                    <p>Jeder magiebegabte Charakter muss mindestens eine der unten stehenden Traditionen auswählen. Diese nennt die
+                        Bedingungen, die während der gesamten Zauberdauer erfüllt sein müssen. Besitzt ein Charakter mehrere Traditionen,
+                        müssen alle Bedingungen gleichzeitig erfüllt sein.
+                    </p>
+                    <p>Da Charaktere durch Traditionen eingeschränkt werden, erhalten sie zum Ausgleich weitere EP für die
+                        Charaktererschaffung.
+                    </p>
+
+                    <figure id="fig-traditionen">
+                        <table class="itemlist">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Bedingung</th>
+                                    <th>EP</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Talismane</td>
+                                    <td>Der Charakter kann nicht zaubern, ohne Talismane bei sich zu tragen. Ein Talisman ist ein bestimmter Gegenstand, den der Charakter an einen oder mehrere Magiebereiche gebunden hat. Die Bindung eines neuen Talismans ist ein langwieriger Prozess, der die Bindung dieses Magiebereichs an einen vorherigen Talisman aufhebt.
+                                    </td>
+                                    <td>+10</td>
+                                </tr>
+                                <tr>
+                                    <td>Zauberformeln</td>
+                                    <td>Für jeden Zauber müssen bestimmte Worte deutlich gesprochen werden. Diese sind nicht unbedingt für
+                                        Außenstehende verständlich, unterscheiden sich aber auf jeden Fall von normalen Sätzen.
+                                    </td>
+                                    <td>+20</td>
+                                </tr>
+                                <tr>
+                                    <td>Zaubergesten</td>
+                                    <td>Das Zaubern erfordert die Ausführung bestimmter Gesten mit Armen und Händen.</td>
+                                    <td>+40</td>
+                                </tr>
+                                <tr>
+                                    <td>Bodenkontakt</td>
+                                    <td>Der Zaubernde muss mit beiden Füßen Kontakt zum Boden haben. Dazu zählen auch alle Böden in
+                                        Gebäuden. Der Charakter kann während des Zauberns gehen, aber nicht rennen. Das Tragen von Schuhen
+                                        ist kein Hindernis.
+                                    </td>
+                                    <td>+50</td>
+                                </tr>
+                                <tr>
+                                    <td>Verletzung</td>
+                                    <td>Der Charakter kann nur zaubern, wenn er mindestens eine körperliche Schadensstufe besitzt.</td>
+                                    <td>+60</td>
+                                </tr>
+                                <tr>
+                                    <td>Trunkenheit</td>
+                                    <td>Zaubern ist nur möglich, wenn der Charakter unter so starkem Alkoholeinfluss steht, dass dadurch ein
+                                        Erfolgsmalus von mindestens 1 verursacht wird.
+                                    </td>
+                                    <td>+90</td>
+                                </tr>
+                                <tr>
+                                    <td>Nacht / Tag</td>
+                                    <td>Der Charakter kann nur zaubern, wenn es gerade Nacht (bzw. Tag) ist. Es spielt keine Rolle, ob der
+                                        Charakter die Tageszeit kennt oder sie sehen kann.
+                                    </td>
+                                    <td>+110</td>
+                                </tr>
+                                <tr>
+                                    <td>Unversehrtheit</td>
+                                    <td>Der Einsatz von Magie erfordert, dass der Charakter keinerlei körperliche Schadensstufen besitzt.
+                                    </td>
+                                    <td>+130</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                </section>
+
                 <section id="vorteile-und-nachteile">
                     <h1>Vor- und Nachteile</h1>
 
-                    <p>Ein Spieler kann für seinen Charakter <dfn data-base="Vorteil">Vorteile</dfn> kaufen und EP für <dfn
-                        data-base="Nachteil">Nachteile</dfn> erhalten.
+                    <p>Ein Spieler kann für seinen Charakter <dfn data-base="Vorteil">Vorteile</dfn> kaufen sowie für <dfn
+                        data-base="Nachteil">Nachteile</dfn> EP erhalten.
                     </p>
 
                     <p>Auch nach der Charaktererschaffung können noch Vorteile zu den gleichen Kosten gekauft werden. Außerdem können zuvor
@@ -1211,11 +1340,6 @@
                                     <td>+30</td>
                                 </tr>
                                 <tr>
-                                    <td>Gestenlos zaubern</td>
-                                    <td>Der Charakter hat gelernt, ohne Zuhilfenahme von Gesten zu zaubern.</td>
-                                    <td>−30</td>
-                                </tr>
-                                <tr>
                                     <td>Hart im Nehmen</td>
                                     <td>Ist die geistige Schadensleiste gefüllt, kann der Charakter nicht mehr zaubern, wird aber nicht
                                         bewusstlos. Jedes Mal wenn er nun Schaden erhält, muss er eine zusätzliche <em>Konstitutions</em>-Attributsprobe
@@ -1226,10 +1350,10 @@
                                 </tr>
                                 <tr>
                                     <td>Kontaktmagie</td>
-                                    <td>Ziele und Bestimmungsorte von Zaubern müssen berührt werden. Zauber können nicht auf Bereiche
-                                        gewirkt werden.
+                                    <td>Ziele und Bestimmungsorte von Zaubern müssen berührt werden. Bei Bereichen muss sich der Zaubernde
+                                        genau im Zentrum befinden und den Boden mit beiden Händen berühren.
                                     </td>
-                                    <td>+90</td>
+                                    <td>+70</td>
                                 </tr>
                                 <tr>
                                     <td>Nahbereichs-Magie</td>
@@ -1237,6 +1361,11 @@
                                         Zielbereiche müssen vollständig innerhalb dieses Radius liegen.
                                     </td>
                                     <td>+45</td>
+                                </tr>
+                                <tr>
+                                    <td>Punktmagie</td>
+                                    <td>Zauber können nicht auf Bereiche oder mehrere Ziele gewirkt werden.</td>
+                                    <td>+20</td>
                                 </tr>
                                 <tr>
                                     <td>Schwacher Funke</td>
@@ -1255,19 +1384,6 @@
                                     <td>Vom Charakter gewirkte Zauber sind auch für das bloße Auge sichtbar (Matrixgewebe, Linien, Halo).
                                     </td>
                                     <td>+30</td>
-                                </tr>
-                                <tr>
-                                    <td>Talisman-Magie</td>
-                                    <td>Der Charakter braucht Hautkontakt zu dem Magiebereich mit dem er zaubern möchte, z.B. vom Blitz
-                                        geschmolzener Sand für <em>Elektrizität</em>.
-                                    </td>
-                                    <td>+30</td>
-                                </tr>
-                                <tr>
-                                    <td>Wortlos zaubern</td>
-                                    <td>Dieser Vorteil ermöglicht es, Magie völlig ohne gesprochene Zauberformeln zu wirken.
-                                    </td>
-                                    <td>−30</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1331,229 +1447,195 @@
 
                     <p>Wird die letzte körperliche Schadensstufe erreicht, verliert der Charakter das Bewusstsein und ist dem Tod nahe. Hat
                         der Charakter über die letzte Stufe hinaus Schaden erhalten, kann ihn allenfalls der sofortige Einsatz von
-                        Heilungsmagie retten. Wird die letzte geistige Schadensstufe erreicht, verliert der Charakter das Bewusstsein.
+                        Heilungsmagie retten.<br>Wird die letzte geistige Schadensstufe erreicht, verliert der Charakter das Bewusstsein.
                         Darüber hinaus gehender geistiger Schaden wird auf die körperliche Schadensleiste übertragen.
                     </p>
 
                     <p>Der Abbau von Schaden wird im Kapitel <a href="#regeneration"></a> beschrieben.</p>
                 </section>
 
-                <section id="ruestungen-schilde-parierwaffen">
-                    <h1>Rüstungen, Schilde und Parierwaffen</h1>
+                <section id="ruestungen">
+                    <h1>Rüstungen</h1>
 
-                    <section id="ruestungen">
-                        <h1>Rüstungen</h1>
+                    <p>Um sich zu schützen, tragen Charaktere oft <dfn data-alternatives="Rüstung">Rüstungen</dfn>. Diese sind zwar vorteilhaft für die Verteidigung (RS &amp; WB), bedeuten aber oft auch eine Einschränkung beim Angriff (AM).</p>
 
-                        <section id="leichte-ruestungen">
-                            <h1>Leichte Rüstungen</h1>
-                            <figure>
-                                <table class="itemlist">
-                                    <thead>
-                                        <tr>
-                                            <th>Rüstungstyp</th>
-                                            <th>Rüstungsschutz</th>
-                                            <th>Widerstandsbonus</th>
-                                            <th>Angriffsmalus</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Holz-Rüstungsteile</td>
-                                            <td>0</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Leder-Rüstungsteile</td>
-                                            <td>0</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Lederrüstung</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Stoffrüstung</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
-                        <section id="mittlere-ruestungen">
-                            <h1>Mittlere Rüstungen</h1>
-                            <figure>
-                                <table class="itemlist">
-                                    <thead>
-                                        <tr>
-                                            <th>Rüstungstyp</th>
-                                            <th>Rüstungsschutz</th>
-                                            <th>Widerstandsbonus</th>
-                                            <th>Angriffsmalus</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Brustpanzer</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                            <td>−2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Dicke Felle</td>
-                                            <td>1</td>
-                                            <td>3</td>
-                                            <td>−1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Holzrüstung</td>
-                                            <td>1</td>
-                                            <td>3</td>
-                                            <td>−1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Kettenrüstung</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                            <td>−2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Lamellenrüstung</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                            <td>−2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Lederrüstung, beschlagen</td>
-                                            <td>2</td>
-                                            <td>0</td>
-                                            <td>−1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Lederrüstung, dick</td>
-                                            <td>2</td>
-                                            <td>0</td>
-                                            <td>−1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schuppenrüstung</td>
-                                            <td>3</td>
-                                            <td>0</td>
-                                            <td>−2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schuppenüberwurf</td>
-                                            <td>2</td>
-                                            <td>0</td>
-                                            <td>−1</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
-                        <section id="schwere-ruestungen">
-                            <h1>Schwere Rüstungen</h1>
-                            <figure>
-                                <table class="itemlist">
-                                    <thead>
-                                        <tr>
-                                            <th>Rüstungstyp</th>
-                                            <th>Rüstungsschutz</th>
-                                            <th>Widerstandsbonus</th>
-                                            <th>Angriffsmalus</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Plattenrüstung, leicht</td>
-                                            <td>4</td>
-                                            <td>0</td>
-                                            <td>−3</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Plattenrüstung, voll</td>
-                                            <td>5</td>
-                                            <td>0</td>
-                                            <td>−5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ringelpanzer</td>
-                                            <td>4</td>
-                                            <td>0</td>
-                                            <td>−3</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
-                        <section id="magische-ruestungen">
-                            <h1>Magische Rüstung</h1>
-
-                            <p>Zauberkundige können Rüstungen erschaffen, Rüstungen verbessern oder ihren eigenen Körper verstärken. Dazu
-                                führt der Charakter eine Zauberprobe mit einem der unten stehenden Magiebereiche durch. Der Mindestwurf
-                                beträgt 3. Der Krafteinsatz ist in der Tabelle angegeben, wobei bestehender Rüstungsschutz mitbezahlt werden
-                                muss. Außerdem kann für 1 KP die Wirkungsdauer über einen Kampf hinaus um einige Minuten verlängert werden.
+                    <dl>
+                        <dt>Rüstungsschutz (RS)</dt>
+                        <dd>
+                            <p>Der <dfn data-synonyms="RS">Rüstungsschutz</dfn> ist ein fixer Abzug auf die Anzahl der Schadenspunkte eines Angriffs (siehe <a href="#schadensermittlung"></a>).
                             </p>
+                        </dd>
+                        <dt>Widerstandsbonus (WB)</dt>
+                        <dd>
+                            <p>Der <dfn data-synonyms="WB">Widerstandsbonus</dfn> erhöht die Chance, mit dem <a href="#widerstandswurf"></a> die Schadenspunkte zu reduzieren.</p>
+                        </dd>
+                        <dt>Angriffsmalus (AM)</dt>
+                        <dd>
+                            <!-- Die gleiche Definition steht auch unter "Schilde und Parierwaffen". -->
+                            <p>Der <dfn data-synonyms="AM">Angriffsmalus</dfn> ist ein Würfelabzug für den <a href="#angriffswurf"></a>.</p>
+                        </dd>
+                    </dl>
 
-                            <p class="temp-note"><i>Hier weitermachen.</i> Eventuell weitere Magiebereiche dazunehmen (Feuer, Wasser & Elektro
-                                könnten wie Luft umherwirbeln) und/oder darüber nachdenken, ob man wirklich eine Tabelle braucht.
-                            </p>
+                    <p>Zauberkundige können Rüstungen erschaffen, Rüstungen verbessern oder ihren eigenen Körper verstärken. Werden solche <a href="#magische-ruestungen-spiel">magischen Rüstungen</a> mit mundanen Rüstungen kombiniert, werden ihre Werte nicht addiert. Stattdessen gilt der jeweils höhere Wert.</p>
 
-                            <figure>
-                                <table class="itemlist">
-                                    <!-- Diese Tabelle liegt sowohl in „Charaktererschaffung” als auch in „Referenz” vor. -->
-                                    <thead>
-                                        <tr>
-                                            <th>Magiebereich</th>
-                                            <th>Rüstungsschutz</th>
-                                            <th>Widerstandsbonus</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Erde</td>
-                                            <td>1 pro 2 KP*</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Humanoid</td>
-                                            <td>1 pro 2 KP*</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Luft</td>
-                                            <td>0</td>
-                                            <td>1 pro KP</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Metall</td>
-                                            <td>1 pro 2 KP*</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Pflanze</td>
-                                            <td>1 pro 2 KP*</td>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tier</td>
-                                            <td>1 pro 2 KP*</td>
-                                            <td>0</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </figure>
-                        </section>
+                    <figure>
+                    <table class="itemlist segmented">
+                        <thead>
+                            <tr>
+                                <th>Rüstungstyp</th>
+                                <th>Rüstungsschutz</th>
+                                <th>Widerstandsbonus</th>
+                                <th>Angriffsmalus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th colspan="4">Leichte Rüstungen</th>
+                            </tr>
+                            <tr>
+                                <td>Holz-Rüstungsteile</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Leder-Rüstungsteile</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Lederrüstung</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Stoffrüstung</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Mittlere Rüstungen</th>
+                            </tr>
+                            <tr>
+                                <td>Brustpanzer</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>−2</td>
+                            </tr>
+                            <tr>
+                                <td>Dicke Felle</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>−1</td>
+                            </tr>
+                            <tr>
+                                <td>Holzrüstung</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>−1</td>
+                            </tr>
+                            <tr>
+                                <td>Kettenrüstung</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>−2</td>
+                            </tr>
+                            <tr>
+                                <td>Lamellenrüstung</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>−2</td>
+                            </tr>
+                            <tr>
+                                <td>Lederrüstung, beschlagen</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>−1</td>
+                            </tr>
+                            <tr>
+                                <td>Lederrüstung, dick</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>−1</td>
+                            </tr>
+                            <tr>
+                                <td>Schuppenrüstung</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>−2</td>
+                            </tr>
+                            <tr>
+                                <td>Schuppenüberwurf</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>−1</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Schwere Rüstungen</th>
+                            </tr>
+                            <tr>
+                                <td>Plattenrüstung, leicht</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>−3</td>
+                            </tr>
+                            <tr>
+                                <td>Plattenrüstung, voll</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>−5</td>
+                            </tr>
+                            <tr>
+                                <td>Ringelpanzer</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>−3</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Magische Rüstungen (RS und WB)</th>
+                            </tr>
+                            <tr class="combined">
+                                <td>Erde<br>Humanoid<br>Metall<br>Pflanze<br>Tier<br>Wasser</td>
+                                <td>1 pro 2 KP</td>
+                                <td>1 pro KP</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Magische Rüstungen (nur WB)</th>
+                            </tr>
+                            <tr class="combined">
+                                <td>Darstellung<br>Luft</td>
+                                <td>-</td>
+                                <td>1 pro KP</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Diese Tabelle liegt sowohl in „Charaktererschaffung” als auch in „Referenz” vor. -->
+                    </figure>
 
-                    </section>
+                </section>
 
-                    <section id="schilde-und-parierwaffen">
-                        <h1>Schilde und Parierwaffen</h1>
+                <section id="schilde-und-parierwaffen">
+                    <h1>Schilde und Parierwaffen</h1>
+
+                    <p>Neben Rüstungen können Charaktere auch mit Schilden und Parierwaffen ihre Verteidigung verbessern (VM), allerdings auf Kosten ihrer Angriffsmöglichkeiten (AM).</p>
+
+                    <dl>
+                        <dt><dfn data-synonyms="VM">Verteidigungsmodifikator</dfn> (VM)</dt>
+                        <dd>
+                            <p>Der Verteidigungsmodifikator von Schilden und Parierwaffen erhöht die Würfelanzahl des Verteidigungswurfs.</p>
+                            <p>Manche Waffen besitzen ebenfalls einen Verteidigungsmodifikator, dieser ist allerdings negativ und verringert daher diese Würfelanzahl.</p>
+                        </dd>
+                        <dt>Angriffsmalus (AM)</dt>
+                        <dd>
+                            <!-- Die gleiche Definition steht auch unter „Rüstungen”. -->
+                            <p>Der <strong>Angriffsmalus</strong> ist ein Würfelabzug für den <a href="#angriffswurf"></a>.</p>
+                        </dd>
+                    </dl>
 
                         <figure>
                             <table class="itemlist segmented">
@@ -1599,157 +1681,30 @@
                                 </tbody>
                             </table>
                         </figure>
-                    </section>
                 </section>
 
-                <section id="foooo">
-                    <h1 class="temp-note">Foooo?</h1>
-
-                    <p>Diese Ausrüstungsgegenstände werden durch die folgenden Werte charakterisiert:
-                    </p>
+                <section id="waffen">
+                    <h1>Waffen</h1>
 
                     <dl>
-                        <dt><dfn data-synonyms="RS">Rüstungsschutz</dfn> (RS)</dt>
-                        <dd>
-                            <p>Der Rüstungsschutz verringert die Anzahl der Schadenspunkte, welche der Träger erhält, bevor der
-                                Widerstandswurf durchgeführt wird.
-                            </p>
-                        </dd>
-                        <dt><dfn data-synonyms="VM">Verteidigungsmodifikator</dfn> (VM)</dt>
-                        <dd>
-                            <p>Besonders schwere und sperrige Waffen ermöglichen zwar machtvolle Angriffe, behindern aber auch die
-                                Verteidigung. Schilde und die beim Fechten verwendeten Parierwaffen wiederum bieten einen Vorteil für die
-                                Defensive.
-                            </p>
-                            <p>In beiden Fällen gibt der Verteidigungsmodifikator an, wie die Würfelanzahl des eigenen Verteidigungswurfs
-                                modifiziert wird. Gibt es mehrere Modifikatoren, werden sie miteinander verrechnet.
-                            </p>
-
-                            <p>Falls verwendet, werden für Schilde und/oder Parierwaffen der Verteidigungsmodifikator (VM) und Angriffsmalus
-                                (AM) aufsummiert und auf dem Charakterblatt eingetragen.
-                            </p>
-
-                            <p class="temp-note"><b>[Hierher verschoben]:</b> Der Verteidigungsmodifikator sämtlicher getragenen Schilde,
-                                Parierwaffen und Waffen wird aufsummiert auf dem Charakterblatt eingetragen.
-                            </p>
-                        </dd>
-                        <dt><dfn data-synonyms="WB">Widerstandsbonus</dfn> (WB)</dt>
-                        <dd>
-                            <p>Manche Rüstungen gewähren dem Träger Bonuswürfel für den Widerstandswurf.</p>
-                            <p class="temp-note">Widerstandswurf wurde bis hier noch nicht erklärt - nur verweisen oder kurz anreißen?</p>
-                        </dd>
-                        <dt><dfn data-synonyms="AM">Angriffsmalus</dfn> (AM)</dt>
-                        <dd>
-                            <p>Das Gewicht von Rüstungen und das Hantieren mit Schilden schränken die Fähigkeit zum Angriff ein. Dies wird
-                                durch den Angriffsmalus dargestellt, der den Würfelabzug beim Angriffswurf angibt. Mehrere Mali wirken
-                                kumulativ.
-                            </p>
-                            <p class="temp-note">Hinweis: Spieler muss abwägen/einrechnen</p>
-
-                            <p class="temp-note"><b>[Hierher verschoben]:</b> Der Angriffsmalus sämtlicher getragenen Rüstungen und Schilde
-                                wird aufsummiert auf dem Charakterblatt eingetragen.
-                            </p>
-                        </dd>
-                    </dl>
-                </section>
-
-                <section id="waffen-und-angriffswerte">
-                    <h1>Waffen- und Angriffswerte</h1>
-
-                    <p>Für Waffengattungen/Kampftechniken sowie für magische Angriffe finden sich in den unten stehenden Tabellen jeweils
-                        folgende Angaben:
-                    </p>
-                    <div class="examplebox side-by-side">
-                        <figure>
-                            <table class="itemlist">
-                                <thead>
-                                    <tr>
-                                        <th>Bezeichnung</th>
-                                        <th>Schadenscode</th>
-                                        <th>VM</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Speer</td>
-                                        <td>4 + (KK − 5) ≤ 7</td>
-                                        <td>−2</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </figure>
-                        <figure>
-                            <table class="itemlist">
-                                <thead>
-                                    <tr>
-                                        <th>Magiebereich</th>
-                                        <th>MW</th>
-                                        <th>Schadenscode</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Feuer</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Feuer</em> − 3) ≤ 4</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </figure>
-                    </div>
-
-                    <p>Auf dem Charakterblatt werden für jeden Angriff jeweils die folgenden Werte notiert:</p>
-                    <p class="temp-note">Formulierungen wie "im Beispiel" (bezog sich auf Speer) anpassen, da jetzt auch Feuer auftaucht.
-                    </p>
-                    <dl>
-                        <dt>Bezeichnung</dt>
-                        <dd>Hier wird der Name der Waffengattung oder der Kampftechnik aufgeführt, oder eine Kombination aus Magiebereich
-                            und Technik (z.B. <em>Feuer erschaffen</em>).
-                        </dd>
-                        <dt id="attributsermittlung">Attribut</dt>
-                        <dd>Der Angriffswurf wird mit dem Attribut durchgeführt, welches im <dfn>Schadenscode</dfn> verwendet wird. So wird
-                            z.B. ein Speer mit <em>Körperkraft</em> (KK) geführt.
-                        </dd>
-                        <dd class="temp-note">Auch auf magische Angriffe eingehen</dd>
-                        <dd>Der Schadenscode gibt außerdem an, wie hoch dieses Attribut mindestens sein muss, um diesen Angriff durchführen
-                            zu können: dazu muss der geklammerte Ausdruck mindestens 0 ergeben. Die KK-Vorraussetzung beträgt im Beispiel
-                            oben also 5.
-                        </dd>
-                        <dt>Würfel</dt>
-                        <dd>In die Spalte „Würfel” wird die Gesamtanzahl der Würfel für Angriffswürfe eingetragen. Bei Waffen und
-                            Kampftechniken ist dies die Summe aus dem jeweiligen Attribut und der Waffenfertigkeit, bei magischen
-                            Basisangriffen aus Magiebereich, einer Technik und ggf. eines Fokus.
-                        </dd>
-                        <dt>Mindestwurf (MW)</dt>
-                        <dd>Für Waffen und Kampftechniken beträgt der Mindestwurf 1, bei magischen Basisangriffen ist er in der Tabelle
-                            angegeben.
-                        </dd>
-                        <dt id="grundschadenermittlung">Grundschaden</dt>
-                        <dd>Der <dfn>Grundschaden</dfn> eines Angriffs ergibt sich aus dem angegebenen Schadenscode. Der berechnete Wert
-                            wird durch den hinter dem kleiner-oder-gleich-Zeichen (≤) angegebenen Wert begrenzt.
-                        </dd>
-                        <dd>Für einen Charakter mit Körperkraft 8 ergibt sich im Beispiel ein Grundschaden von 7 (4 + 8 − 5). Bei höherer
-                            Körperkraft steigt der Grundschaden nicht (aufgrund der Angabe ≤ 7).
-                        </dd>
-                        <dt>Reichweite</dt>
-                        <dd>Hier werden für Fernkampfwaffen die Distanzbereiche notiert, z.B. „5&nbsp;/&nbsp;10&nbsp;/&nbsp;25&nbsp;/&nbsp;50”.
-                        </dd>
                         <dt>Schadenscode</dt>
-                        <dd>Um bei Steigerungen den Grundschaden leicht anpassen zu können, wird in dieser Spalte der Schadenscode notiert.
-                        </dd>
-                        <dt>Anmerkungen</dt>
                         <dd>
-                            <p>Hat die Waffe/Kampftechnik einen Verteidigungsmodifikator, wird er in dieser Spalte notiert. Bei magischen
-                                Basisangriffen kann die Extraschadensregelung notiert werden.
-                            </p>
-                            <p class="temp-note">Verteidigungsmodifikator erklären (taucht oben bei Rüstungen & Co schon auf); Spieler muss
-                                abwägen/einrechnen
-                            </p>
+                            <p>Der <dfn>Schadenscode</dfn> hat zwei Aspekte: Zum einen wird der <dfn>Grundschaden</dfn> der Waffe aus der angegebenen Formel berechnet. Dabei kann das Ergebnis nicht höher sein als der Wert hinter dem kleiner-oder-gleich-Zeichen (≤).</p>
+                            <p>Zum anderen kann ein Charakter die Waffe nur führen, wenn der geklammerte Ausdruck mindestens 0 ergibt.</p>
+                        </dd>
+                        <dt>Verteidigungsmodifikator (VM)</dt>
+                        <dd>
+                            <p>Manche Waffen besitzen einen <dfn data-synonyms="VM">Verteidigungsmodifikator</dfn>, der die Würfelanzahl des Verteidigungswurfs verringert.</p>
+                            <p>Schilde und Parierwaffen besitzen ebenfalls einen Verteidigungsmodifikator, dieser ist allerdings positiv und erhöht daher diese Würfelanzahl.</p>
                         </dd>
                     </dl>
 
-                    <p class="temp-note">Überflüssiges rauswerfen, insb. bei Unbewaffnet & Nahkampf?</p>
-                    <p class="temp-note">Hinweis zu „als beispiele sind irdische dinge genannt”?</p>
+                    <p class="listintro">Außerdem werden die folgenden Werte auf dem Charakterblatt im Abschnitt „Kampf” notiert:</p>
+
+                    <ul>
+                        <li>Die Spalte „Würfel” berechnet sich aus <em>Attribut</em> + <em>Fertigkeit</em> + <em>Spezialisierung</em> − <em>Angriffsmalus</em>.</li>
+                        <li>Der Mindestwurf beträgt 1.</li>
+                    </ul>
 
                     <section id="nahkampfwaffen">
                         <h1>Nahkampf</h1>
@@ -1764,6 +1719,39 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <th colspan="3">Waffenloser Kampf</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Boxen</td>
+                                        <td>1 + (KK − 5) ≤ 3</td>
+                                        <td>±0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capoeira</td>
+                                        <td>1 + (GE − 5) ≤ 3</td>
+                                        <td>±0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Karate</td>
+                                        <td>1 + (GE − 5) ≤ 3</td>
+                                        <td>±0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Klauen/Fang (tierisch)</td>
+                                        <td>2 + (GE − 5) ≤ 5</td>
+                                        <td>±0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kung Fu</td>
+                                        <td>1 + (KK − 5) ≤ 3</td>
+                                        <td>±0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raufen</td>
+                                        <td>0 + (KK − 5) ≤ 2</td>
+                                        <td>±0</td>
+                                    </tr>
                                     <tr>
                                         <th colspan="3">Dolche</th>
                                     </tr>
@@ -1979,55 +1967,6 @@
                         <p>(* Improvisierte Waffe)</p>
                     </section>
 
-                    <section id="waffenlose-kampftechniken">
-                        <h1>Waffenlose Kampftechniken</h1>
-
-                        <p>Waffenloser Kampf verursacht in den meisten Fällen <a href="#gesundheit">geistigen Schaden</a>.</p>
-                        <figure>
-                            <table class="itemlist">
-                                <thead>
-                                    <tr>
-                                        <th>Bezeichnung</th>
-                                        <th>Schadenscode</th>
-                                        <th>Verteidigungsmodifikator</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Boxen</td>
-                                        <td>1 + (KK − 5) ≤ 3</td>
-                                        <td>±0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Capoeira</td>
-                                        <td>1 + (GE − 5) ≤ 3</td>
-                                        <td>±0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Karate</td>
-                                        <td>1 + (GE − 5) ≤ 3</td>
-                                        <td>±0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Klauen/Fang (tierisch)</td>
-                                        <td>2 + (GE − 5) ≤ 5</td>
-                                        <td>±0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kung Fu</td>
-                                        <td>1 + (KK − 5) ≤ 3</td>
-                                        <td>±0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Raufen</td>
-                                        <td>0 + (KK − 5) ≤ 2</td>
-                                        <td>±0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </figure>
-                    </section>
-
                     <section id="fernkampfwaffen">
                         <h1>Fernkampf</h1>
 
@@ -2038,7 +1977,7 @@
                                         <th>Bezeichnung</th>
                                         <th>Schadenscode</th>
                                         <th>Verteidigungsmodifikator</th>
-                                        <th>Reichweite</th>
+                                        <th>Reichweite in m</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -2100,7 +2039,7 @@
                                         <th colspan="4">Wurfwaffen</th>
                                     </tr>
                                     <tr>
-                                        <td>Dolch</td>
+                                        <td>Wurfdolch</td>
                                         <td>1 + (FF − 3) ≤ 3</td>
                                         <td>±0</td>
                                         <td>2&nbsp;/&nbsp;5&nbsp;/&nbsp;10&nbsp;/&nbsp;25</td>
@@ -2126,20 +2065,22 @@
                         <h1><dfn data-base="Magischer Basisangriff" data-alternatives="Basisangriffe" data-synonyms="Basisangriff">Magische
                             Basisangriffe</dfn></h1>
 
-                        <p>Um einen magischen Angriff auszuführen, kann statt eines konkreten Zaubers ein Basisangriff verwendet werden.
-                            Diese abstrakte Regelung repräsentiert verschiedenste Angriffe, ist aber genauso einfach zu verwenden wie
-                            weltliche Nahkampf- und Fernkampfwaffen. Dabei entfällt die Entzugsprobe, sofern der Charakter keine Kraft
-                            einsetzt um den Schaden zu erhöhen (pro 3 KP 2 Schaden).
-                        </p>
+                        <p>Es gibt unzählige Arten, Gegnern auf magische Weise zu schaden. Mit den flexiblen AdZ-Magieregeln lassen sich all diese auch genau abbilden. Um aber in einem Kampf nicht lange an den Magiedetails feilen zu müssen, können auch <a href="#basisangriffswurf">magische Basisangriffe</a> verwendet werden. Diese allgemeine Regelung erspart dem Spieler das Festlegen einiger Details, so dass der Angriff genauso schnell abgewickelt werden kann wie ein Schwertstreich. Er muss sich lediglich für einen Magiebereich und eine passende Technik entscheiden, z.B. „Feuer & Erschaffen” oder „Tier & Zerstören”.</p>
 
-                        <p>Beim Notieren der Angriffswerte wird jeweils eine Technik für den Angriff ausgewählt und für die Berechnung der
-                            Würfelanzahl verwendet. Ein passender Fokus, falls vorhanden, wird eingerechnet.
-                        </p>
+                        <dl>
+                            <dt>Schadenscode</dt>
+                            <dd>
+                                <p>Der <dfn>Schadenscode</dfn> hat zwei Aspekte: Zum einen wird der <dfn>Grundschaden</dfn> des Basisangriffs aus der angegebenen Formel berechnet. Dabei kann das Ergebnis nicht höher sein als der Wert hinter dem kleiner-oder-gleich-Zeichen (≤).</p>
+                                <p>Zum anderen kann ein Charakter den Basisangriff nur ausführen, wenn der geklammerte Ausdruck mindestens 0 ergibt.</p>
+                            </dd>
+                        </dl>
 
-                        <p>Bei manchen Magiebereichen sind in der Spalte <em>MW</em> zwei Mindestwürfe angegeben: einer für indirekte
-                            Angriffe (z.B. mit peitschenden Pflanzenranken), der andere für direkte Angriffe auf den Körper des Ziels (z.B.
-                            Wunden verursachen).
-                        </p>
+                        <p class="listintro">Außerdem werden die folgenden Werte auf dem Charakterblatt im Abschnitt „Kampf” notiert:</p>
+
+                        <ul>
+                            <li>Die Spalte „Würfel” berechnet sich aus <em>Magiebereich</em> + <em>Technik</em> + <em>Fokus</em>.</li>
+                            <li>Der Mindestwurf beträgt 2.</li>
+                        </ul>
 
                         <figure>
                             <table class="itemlist">
@@ -2147,69 +2088,13 @@
                                 <thead>
                                     <tr>
                                         <th>Magiebereich</th>
-                                        <th>MW</th>
                                         <th>Schadenscode</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="gray">
-                                        <td>Darstellung</td>
-                                        <td colspan="2">(nicht möglich)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Elektrizität</td>
-                                        <td>2</td>
-                                        <td>2 + (<em>Elektrizität</em> − 3) ≤ 5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Erde</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Erde</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Feuer</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Feuer</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Geist</td>
-                                        <td>2</td>
-                                        <td>0 + (<em>Geist</em> − 3) ≤ 3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Humanoid</td>
-                                        <td>2 (indirekt)<br>3 (direkt)</td>
-                                        <td>1 + (<em>Humanoid</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kraft</td>
-                                        <td>2 (indirekt)<br>3 (direkt)</td>
-                                        <td>1 + (<em>Kraft</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Luft</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Luft</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Metall</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Metall</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pflanze</td>
-                                        <td>2 (indirekt)<br>3 (direkt)</td>
-                                        <td>1 + (<em>Pflanze</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tier</td>
-                                        <td>2 (indirekt)<br>3 (direkt)</td>
-                                        <td>1 + (<em>Tier</em> − 3) ≤ 4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wasser</td>
-                                        <td>2</td>
-                                        <td>1 + (<em>Wasser</em> − 3) ≤ 4</td>
+                                    <tr class="combined">
+                                        <td>Erde<br>Feuer<br>Humanoid<br>Kraft<br>Luft<br>Metall<br>Pflanze<br>Tier<br>Wasser</td>
+                                        <td>1 + (<em>Magiebereich</em> − 3) ≤ 4</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2220,52 +2105,24 @@
                 <section id="steigerung">
                     <h1>Steigerung von Eigenschaften</h1>
 
+                    <p class="temp-note">hier weiter. plan: kapitel eliminieren, inhalte in „Kaufsystem” integrieren. dazu fehlt dort nur noch der aspekt „8er-begrenzung nur bei charaktererschaffung”. idee: direkt bei der regel-bulletliste erwähnen.</p>
+
                     <p>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine Fähigkeiten verbessern &ndash; er wird z.B. stärker,
                         geschickter oder erfahrener im Umgang mit Magie. Dazu vergibt der Spielleiter für die im Spiel gemachten Erfahrungen
                         regelmäßig weitere <dfn data-alternatives="Erfahrungspunkten" data-synonyms="EP">Erfahrungspunkte</dfn> (EP).
                     </p>
+                    <p class="temp-note">EP werden hier <i>nicht</i> (mehr) erstmalig definiert!</p>
+
                     <p>Ein Spieler kann diese EP verwenden, um einzelne Eigenschaften seines Charakters zu steigern. Die EP-Kosten dafür
                         sind umso höher, je mehr Punkte der Charakter in dieser Eigenschaft bereits besitzt: es kostet z.B. 6 EP, eine
                         Fertigkeit von 3 auf 4 zu steigern.
                     </p>
-                    <figure>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>Attribut</th>
-                                    <th>Technik</th>
-                                    <th>Fertigkeit / Magiebereich / Fokus</th>
-                                    <th>Spezialisierung</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Erster Punkt</td>
-                                    <td>10</td>
-                                    <td>6</td>
-                                    <td>4</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Punktzahl um 1 steigern</td>
-                                    <td>Bisherige Punkte &times;&nbsp;5</td>
-                                    <td>Bisherige Punkte &times;&nbsp;3</td>
-                                    <td>Bisherige Punkte &times;&nbsp;2</td>
-                                    <td>Bisherige Punkte</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </figure>
+
                     <p>Außerdem kann ein Charakter auch nachträglich Vorteile kaufen bzw. Nachteile abbauen (siehe <a
                         href="#vorteile-und-nachteile"></a>).
                     </p>
-
-                    <p>Wie bei der Charaktererschaffung dürfen Spezialisierungen und Foki nicht höher als die jeweilige Fertigkeit bzw. der
-                        Magiebereich sein.
-                    </p>
-                    <p>Nach einer Steigerung müssen gegebenenfalls der <a href="#initiative">Initativebasiswert</a> und der <a
-                        href="#grundschadenermittlung">Grundschaden</a> der Angriffe des Charakters neu bestimmt werden.
+                    <p>Wie bei der Charaktererschaffung darf der Wert eines Fokus nicht höher sein der des Magiebereichs.</p>
+                    <p>Nach einer Steigerung müssen gegebenenfalls der <a href="#initiative">Initativebasiswert</a> und der Grundschaden der Angriffe des Charakters neu bestimmt werden (siehe <a href="#waffen"></a>).
                     </p>
                 </section>
             </section>
@@ -2453,21 +2310,25 @@
                             <dl>
                                 <dt id="angriffswurf"><dfn>Angriffswurf</dfn></dt>
                                 <dd>
+                                    <p class="temp-note">betonen, dass mehrere AMs (rüstung, waffe, waffe...) kumulativ sind</p>
                                     <p>Für den Angriffswurf wird die Fertigkeit des Waffentyps bzw. der Kampftechnik mit dem Attribut
-                                        kombiniert, das im Schadenscode aufgeführt ist (siehe <a href="#attributsermittlung"></a>). Die
+                                        kombiniert, das im Schadenscode aufgeführt ist. Die
                                         Würfelanzahl wird um den Verletzungsmalus sowie den Angriffsmalus der getragenen Ausrüstung
-                                        verringert (siehe <a href="_ruestungen_und_co"></a>).
+                                        verringert (siehe <a href="#ruestungen"></a> sowie <a href="#schilde-und-parierwaffen"></a>).
                                     </p>
                                     <p>Der Mindestwurf richtet sich nach der Art des Angriffs.</p>
                                 </dd>
-                                <dt>Schadensermittlung</dt>
+                                <dt id="schadensermittlung"><dfn>Schadensermittlung</dfn></dt>
                                 <dd>
-                                    <p>Jeder Angriff verursacht eine bestimmte Menge an Grundschaden, die vorab auf dem Charakterblatt
-                                        notiert wurde (siehe <a href="#grundschadenermittlung"></a>). Darüber hinaus richtet ein Angriff
-                                        <dfn>Bonusschaden</dfn> in Höhe der übrigen Angriffserfolge an.
+                                    <p>Waffenloser Kampf verursacht in den meisten Fällen geistigen Schaden, alle anderen Angriffe
+                                        körperlichen Schaden (siehe <a href="#gesundheit"></a>).
+                                    </p>
+                                    <p>Jeder Angriff verursacht eine bestimmte Menge an Grundschaden, die vorab
+                                        auf dem Charakterblatt notiert wurde. Darüber hinaus richtet ein Angriff <dfn>Bonusschaden</dfn> in
+                                        Höhe der übrigen Angriffserfolge an.
                                     </p>
                                     <p>Trägt der Verteidiger eine Rüstung, wird der Schaden für jeden Punkt Rüstungsschutz um 1 gesenkt
-                                        (siehe <a href="_ruestungen_und_co"></a>).
+                                        (siehe <a href="#ruestungen"></a>).
                                     </p>
                                 </dd>
                                 <dt id="widerstandswurf">Widerstandswurf</dt>
@@ -2610,6 +2471,11 @@
                             </p>
                             <p>Schließlich führt der Angreifer einen Entzugswurf durch, falls er Kraft eingesetzt hat.</p>
                             <p class="temp-note">Liste welche es gibt?</p>
+
+                            <div class="temp-note">
+                                <p>hierher verschoben aus dem waffenkapitel:</p>
+                                <p>Dabei entfällt die Entzugsprobe, sofern der Charakter keine Kraft einsetzt um den Schaden zu erhöhen (pro 3 KP 2 Schaden).</p>
+                            </div>
                         </section>
                     </section>
                 </section>
@@ -2748,7 +2614,7 @@
                                 <dd>
                                     <p>Die Zauberdauer beträgt unabhängig von anderen Parametern eine Minute.</p>
                                     <p>Im Kampf oder anderen hektischen Situationen kann die Zauberdauer auf eine einzige Handlung verkürzt
-                                        werden. In diesem Fall steigt der Mindestwurf um 1.
+                                        werden. In diesem Fall steigt der Krafteinsatz um 1 KP.
                                     </p>
                                     <p>Für besonders kraftaufwändige Effekte werden Zauber als ausgedehnte <a href="#rituale"></a>
                                         durchgeführt.
@@ -2993,6 +2859,21 @@
                             </p>
                         </section>
                     </section>
+
+                    <section id="magische-ruestungen-spiel">
+                        <h1>Magische Rüstungen</h1>
+                        <p class="temp-note">hierher verschoben aus "charaktererschaffung". siehe auch "referenz".</p>
+
+                        <p>Dazu
+                                führt der Charakter eine Zauberprobe <span class="temp-note">passende technik</span> durch.</p>
+
+                                <p>Der Mindestwurf beträgt 3. Der Krafteinsatz ist in der Tabelle angegeben, wobei bestehender Rüstungsschutz mitbezahlt werden muss. Die Wirkungsdauer beträgt einen Kampf.</p>
+
+                                <p>Für 1 KP kann die Wirkungsdauer um einige Minuten verlängert werden.</p>
+
+                                <p class="temp-note">Prinzipiell immer RS und WB möglich, sofern erklärbar</p>
+
+                    </section>
                 </section>
 
                 <section id="vergleichende-proben">
@@ -3072,7 +2953,7 @@
                                 <p>Der Verteidigungswurf wird mit dem Attribut <em>Intuition</em> und der Fertigkeit <em>Verteidigung</em>
                                     durchgeführt. Dabei können die Spezialisierungen <em>Ausweichen</em>, <em>Parade</em> oder <em>Schildblock</em>
                                     eingesetzt werden. Auf die Würfelanzahl werden die Verteidigungsmodifikatoren der vom Verteidiger
-                                    geführten Waffen, Parierwaffen und Schilde angerechnet (siehe <a href="_ruestungen_und_co"></a>).
+                                    getragenen Ausrüstung angerechnet (siehe <a href="#ruestungen"></a> sowie <a href="#schilde-und-parierwaffen"></a>).
                                 </p>
                             </dd>
                             <dt>Reaktion <span class="temp-note">(aus dem Nahkampfangriff-Kapitel)</span></dt>
@@ -3815,8 +3696,8 @@
                                 </p>
                                 <p>Koriziels Zauberprobe wird mit 4 (Durchschnitt aus <em>Modifizieren</em> 5 und <em>Kooperieren</em> 3) +
                                     6 (Durchschnitt aus <em>Metall</em> 7 und <em>Kraft</em> 5) = 10 Würfeln durchgeführt. Sie erzielt 3
-                                    Erfolge, was ein Scheitern des ganzen Zaubers zur Folge hätte. Sie setzt ihren <a
-                                        href="_glueckspool"></a> ein und erzielt weitere 2 Erfolge, wodurch sie den Mindestwurf erreicht und
+                                    Erfolge, was ein Scheitern des ganzen Zaubers zur Folge hätte. Sie setzt ihr <a
+                                        href="#glueck"></a> ein und erzielt weitere 2 Erfolge, wodurch sie den Mindestwurf erreicht und
                                     der Zauber gelingt.
                                 </p>
                                 <p>Sollte ein gegnerischer Magier den Zauber während der Wirkungsdauer entdecken und aufheben wollen, müsste
@@ -4209,11 +4090,6 @@
                             Darstellung möglich; um dafür zu sorgen, dass jemand <em>alle</em> Menschen für Dämonen hält, muss jedoch dessen
                             Geist manipuliert werden.
                         </p>
-                    </section>
-                    <section id="elektrizitaet">
-                        <h1>Elektrizität</h1>
-
-                        <p>Beinhaltet Blitze und andere Formen von Elektrizität.</p>
                     </section>
                     <section id="erde">
                         <h1>Erde</h1>
@@ -5170,8 +5046,7 @@
                     <section id="luft">
                         <h1>Luft</h1>
 
-                        <p>Dieser Bereich beinhaltet Luft und andere gasförmige Stoffe. Erlaubt auch die Manipulation von Schall sowie des
-                            Wetters.
+                        <p>Dieser Bereich beinhaltet Luft und andere gasförmige Stoffe sowie Blitze und andere Formen von Elektrizität. Erlaubt auch die Manipulation des Wetters.
                         </p>
 
                         <section>
@@ -5277,12 +5152,12 @@
                                 <tr>
                                     <td><a href="_entzugswurf">Entzugswurf</a></td>
                                     <td><em>Willenskraft</em> + Bonuswürfel + Zusatzerfolge</td>
-                                    <td><a href="_gesundheit">Nein</a></td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="_rettungswurf">Rettungswurf</a></td>
                                     <td>Attribut + Bedrohungsbonus</td>
-                                    <td><a href="_gesundheit">Nein</a></td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <th colspan="3">Kampf</th>
@@ -5295,7 +5170,7 @@
                                 <tr>
                                     <td><a href="_widerstandswurf">Widerstandswurf</a></td>
                                     <td><em>Konstitution</em> + Widerstandsbonus der eigenen Rüstung</td>
-                                    <td><a href="_gesundheit">Nein</a></td>
+                                    <td><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="_verteidigungswurf">Verteidigungswurf</a></td>
@@ -5310,76 +5185,19 @@
                 <section id="basisangriffsreferenz">
                     <h1>Magische Basisangriffe</h1>
                     <p class="temp-note">mit Anja: wirklich die Tabelle (oder alles) wiederholen? Inkonsistent mit anderen Angriffen.</p>
-
                     <figure>
                         <table class="itemlist">
                             <!-- Diese Tabelle liegt sowohl in „Charaktererschaffung” als auch in „Referenz” vor. -->
                             <thead>
                                 <tr>
                                     <th>Magiebereich</th>
-                                    <th>MW</th>
                                     <th>Schadenscode</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="gray">
-                                    <td>Darstellung</td>
-                                    <td colspan="2">(nicht möglich)</td>
-                                </tr>
-                                <tr>
-                                    <td>Elektrizität</td>
-                                    <td>2</td>
-                                    <td>2 + (<em>Elektrizität</em> − 3) ≤ 5</td>
-                                </tr>
-                                <tr>
-                                    <td>Erde</td>
-                                    <td>2</td>
-                                    <td>1 + (<em>Erde</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Feuer</td>
-                                    <td>2</td>
-                                    <td>1 + (<em>Feuer</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Geist</td>
-                                    <td>2</td>
-                                    <td>0 + (<em>Geist</em> − 3) ≤ 3</td>
-                                </tr>
-                                <tr>
-                                    <td>Humanoid</td>
-                                    <td>2 (indirekt)<br>3 (direkt)</td>
-                                    <td>1 + (<em>Humanoid</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Kraft</td>
-                                    <td>2 (indirekt)<br>3 (direkt)</td>
-                                    <td>1 + (<em>Kraft</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Luft</td>
-                                    <td>2</td>
-                                    <td>1 + (<em>Luft</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Metall</td>
-                                    <td>2</td>
-                                    <td>1 + (<em>Metall</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Pflanze</td>
-                                    <td>2 (indirekt)<br>3 (direkt)</td>
-                                    <td>1 + (<em>Pflanze</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Tier</td>
-                                    <td>2 (indirekt)<br>3 (direkt)</td>
-                                    <td>1 + (<em>Tier</em> − 3) ≤ 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Wasser</td>
-                                    <td>2</td>
-                                    <td>1 + (<em>Wasser</em> − 3) ≤ 4</td>
+                                <tr class="combined">
+                                    <td>Erde<br>Feuer<br>Humanoid<br>Kraft<br>Luft<br>Metall<br>Pflanze<br>Tier<br>Wasser</td>
+                                    <td>1 + (<em>Magiebereich</em> − 3) ≤ 4</td>
                                 </tr>
                             </tbody>
                         </table>
