@@ -156,6 +156,15 @@ table.segmented tbody td:first-child {
     padding-left: 1.75em;
 }
 
+table.separate-first-cell thead tr:first-child th:first-child,
+table.separate-first-cell tbody td:first-child {
+	border-right: 1px solid black;
+}
+
+table.extra-space {
+	margin: 2em 0 2em 0;
+}
+
 tr.combined td {
 	vertical-align: middle;
 }

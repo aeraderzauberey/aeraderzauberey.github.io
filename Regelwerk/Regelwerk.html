@@ -21,7 +21,8 @@
         <script src="Ressourcen/Scripts/chromeScrolling.js"></script>
     </head>
     <body>
-        <div id="wip-note" class="temp-note" style="position:fixed; top: 0; right: 0; padding: 0.5em; z-index: 99; font-size: 75%; text-align: center">
+        <div id="wip-note" class="temp-note"
+            style="position:fixed; top: 0; right: 0; padding: 0.5em; z-index: 99; font-size: 75%; text-align: center">
             Arbeitsfassung<br>der neuen<br>Struktur
         </div>
 
@@ -98,8 +99,8 @@
                     <h1>Grundsätzliches</h1>
 
                     <div class="connected">
-                        <p>Charaktere werden durch die folgenden Typen von <dfn data-base="Eigenschaft">Eigenschaften</dfn> beschrieben. Je nach
-                            Art der Eigenschaft gelten unterschiedliche Maximalwerte:
+                        <p>Charaktere werden durch die folgenden Typen von <dfn data-base="Eigenschaft">Eigenschaften</dfn> beschrieben. Je
+                            nach Art der Eigenschaft gelten unterschiedliche Maximalwerte:
                         </p>
 
                         <figure class="sidebar">
@@ -165,26 +166,23 @@
                     <section id="kaufsystem">
                         <h1>Kaufsystem</h1>
 
-                        <p>Diese Eigenschaften werden mit Erfahrungspunkten (EP) bezahlt. Für wenig erfahrene Charaktere werden 900 EP
-                            empfohlen.
+                        <p>Diese Eigenschaften werden mit Erfahrungspunkten (EP) bezahlt (siehe Tabelle). Für wenig erfahrene Charaktere
+                            werden 900 EP empfohlen.
                         </p>
 
                         <p>Für die Charaktererschaffung gelten folgende Regeln:</p>
                         <ul>
                             <li>Mindestens ein Punkt in jedem Attribut außer <em>Glück</em></li>
                             <li>Höchstens 8 Punkte pro Attribut, Fertigkeit, Magiebereich oder Technik</li>
-                            <li>Spezialisierungen und Foki nicht höher als die jeweilige Fertigkeit bzw. der Magiebereich</li>
+                            <li>Foki nicht höher als der jeweilige Magiebereich</li>
                             <li>Die Fertigkeit <em>»Muttersprache«</em> eines Charakters kostet keine EP.</li>
                         </ul>
 
                         <figure>
-                            <table>
+                            <table class="separate-first-cell extra-space">
                                 <thead>
                                     <tr>
-                                        <th rowspan="2">Punkte</th>
-                                        <th colspan="5">Erfahrungspunktkosten</th>
-                                    </tr>
-                                    <tr>
+                                        <th>Punkte</th>
                                         <th>Attribut</th>
                                         <th>Technik</th>
                                         <th>Fertigkeit / Magiebereich</th>
@@ -277,7 +275,8 @@
                             </table>
                         </figure>
 
-                        <p>Sollten EP übrig bleiben, können sie später im Spiel zum Steigern verwendet werden; die Kosten bleiben gleich.</p>
+                        <p>Sollten EP übrig bleiben, können sie später im Spiel zum Steigern verwendet werden; die Kosten bleiben gleich.
+                        </p>
 
                         <figure>
                             <table>
@@ -310,8 +309,10 @@
                         </figure>
 
                         <div class="example">
-                            <p>Zum Ende seines dritten Lehrjahres hat der Schneiderlehrling genug gelernt, um seine Fertigkeit <em>Textilverarbeitung</em> von 4 auf 5 zu steigern. Das kostet ihn 8 EP.</p>
-                            <p>Nun darf er auch die Spezialisierung <em>Schneiderei</em> von 4 auf 5 erhöhen. Das kostet ihn weitere 4 EP.</p>
+                            <p>Zum Ende seines dritten Lehrjahres hat der Schneiderlehrling genug gelernt, um seine Fertigkeit <em>Textilverarbeitung</em>
+                                von 4 auf 5 zu steigern. Das kostet ihn 8 EP.
+                            </p>
+                            <p>Gleichzeitig erhöht er die Spezialisierung <em>Schneiderei</em> von 4 auf 5. Das kostet ihn weitere 4 EP.</p>
                         </div>
                     </section>
                 </section>
@@ -1073,23 +1074,22 @@
                     <h1>Initiative</h1>
 
                     <p>Um in einem Kampf entscheiden zu können in welcher Reihenfolge die Beteiligten handeln, wird die
-                        <dfn>Initiative</dfn> ermittelt.
+                        <dfn>Initiative</dfn> ermittelt. Sie setzt sich zusammen aus dem festen <dfn
+                            data-alternatives="Initiativebasiswerte">Initiativebasiswert</dfn> und dem jeweils neu ermittelten <dfn
+                            data-alternatives="Initiativewürfe">Initiativewurf</dfn>.
                     </p>
 
-                    <p>Die Initiative ist die Summe aus <dfn data-alternatives="Initiativebasiswerte">Initiativebasiswert</dfn> und <dfn
-                        data-alternatives="Initiativewürfe">Initiativewurf</dfn>.
-                    </p>
+                    <p>Die Beteiligten handeln in absteigender Reihenfolge ihrer Initiative.</p>
 
                     <dl>
                         <dt>Initiativebasiswert</dt>
-                        <dd>Wird auf dem Charakterblatt eingetragen und ergibt sich aus dem Attribut <em>Intuition</em> und der Fertigkeit
-                            <em>Reflexe</em>:<br><em>(Intuition + Reflexe) &times;&nbsp;2</em>.
+                        <dd>Ergibt sich aus dem Attribut <em>Intuition</em> und der Fertigkeit <em>Reflexe</em>:<br><em>(Intuition +
+                            Reflexe) &times;&nbsp;2</em>.
                         </dd>
                         <dt>Initiativewurf</dt>
                         <dd>Ergebnis eines 2W6-Wurfs.</dd>
                     </dl>
 
-                    <p>Die Beteiligten handeln in absteigender Reihenfolge ihrer Initiative.</p>
                 </section>
 
                 <section id="magiebereiche">
@@ -1162,7 +1162,7 @@
                 <section id="techniken">
                     <h1>Techniken</h1>
 
-                    <p>Beim Zaubern bestimmt die <dfn>Technik</dfn>, auf welche Weise das Ziel beeinflusst wird.</p>
+                    <p>Für jeden Zauber wählt der Charakter die zur Vorgehensweise passende Technik.</p>
 
                     <p>Techniken haben Werte von 1 bis 10.</p>
 
@@ -1232,9 +1232,9 @@
                 <section id="traditionen">
                     <h1>Traditionen</h1>
 
-                    <p>Jeder magiebegabte Charakter muss mindestens eine der unten stehenden Traditionen auswählen. Diese nennt die
-                        Bedingungen, die während der gesamten Zauberdauer erfüllt sein müssen. Besitzt ein Charakter mehrere Traditionen,
-                        müssen alle Bedingungen gleichzeitig erfüllt sein.
+                    <p>Jeder magiebegabte Charakter muss mindestens eine Tradition auswählen. Diese nennt die Bedingungen, die während der
+                        gesamten Zauberdauer erfüllt sein müssen. Besitzt ein Charakter mehrere Traditionen, müssen alle Bedingungen
+                        gleichzeitig erfüllt sein.
                     </p>
                     <p>Da Charaktere durch Traditionen eingeschränkt werden, erhalten sie zum Ausgleich weitere EP für die
                         Charaktererschaffung.
@@ -1252,7 +1252,10 @@
                             <tbody>
                                 <tr>
                                     <td>Talismane</td>
-                                    <td>Der Charakter kann nicht zaubern, ohne Talismane bei sich zu tragen. Ein Talisman ist ein bestimmter Gegenstand, den der Charakter an einen oder mehrere Magiebereiche gebunden hat. Die Bindung eines neuen Talismans ist ein langwieriger Prozess, der die Bindung dieses Magiebereichs an einen vorherigen Talisman aufhebt.
+                                    <td>Der Charakter kann nicht zaubern, ohne Talismane bei sich zu tragen. Ein Talisman ist ein bestimmter
+                                        Gegenstand, den der Charakter an einen oder mehrere Magiebereiche gebunden hat. Die Bindung eines
+                                        neuen Talismans ist ein langwieriger Prozess, der die Bindung dieses Magiebereichs an einen
+                                        vorherigen Talisman aufhebt.
                                     </td>
                                     <td>+10</td>
                                 </tr>
@@ -1350,8 +1353,9 @@
                                 </tr>
                                 <tr>
                                     <td>Kontaktmagie</td>
-                                    <td>Ziele und Bestimmungsorte von Zaubern müssen berührt werden. Bei Bereichen muss sich der Zaubernde
-                                        genau im Zentrum befinden und den Boden mit beiden Händen berühren.
+                                    <td>Ziele und Bestimmungsorte von Zaubern müssen berührt werden. Wirkt der Zauber auf einen ganzen
+                                        Bereich, muss sich der Zaubernde genau in dessen Zentrum befinden und mit beiden Händen den Boden
+                                        berühren.
                                     </td>
                                     <td>+70</td>
                                 </tr>
@@ -1381,7 +1385,8 @@
                                 </tr>
                                 <tr>
                                     <td>Sichtbare Zauber</td>
-                                    <td>Vom Charakter gewirkte Zauber sind auch für das bloße Auge sichtbar (Matrixgewebe, Linien, Halo).
+                                    <td>Vom Charakter gewirkte Zauber sind auch für das bloße Auge sichtbar (Matrixgewebe, Linien,
+                                        Lichtschein).
                                     </td>
                                     <td>+30</td>
                                 </tr>
@@ -1457,26 +1462,37 @@
                 <section id="ruestungen">
                     <h1>Rüstungen</h1>
 
-                    <p>Um sich zu schützen, tragen Charaktere oft <dfn data-alternatives="Rüstung">Rüstungen</dfn>. Diese sind zwar vorteilhaft für die Verteidigung (RS &amp; WB), bedeuten aber oft auch eine Einschränkung beim Angriff (AM).</p>
+                    <p>Um sich besser zu schützen, können Charaktere <dfn data-alternatives="Rüstung">Rüstungen</dfn> tragen. Diese sind
+                        zwar vorteilhaft für die Verteidigung (RS &amp; WB), bedeuten aber oft auch eine Einschränkung beim Angriff (AM).
+                    </p>
+
+                    <p>Zauberkundige können außerdem Rüstungen erschaffen, Rüstungen verbessern oder ihren eigenen Körper verstärken. Werden
+                        solche <a href="#magische-ruestungen-spiel">magischen Rüstungen</a> mit mundanen Rüstungen kombiniert, werden ihre
+                        Werte nicht addiert. Stattdessen gilt der jeweils höhere Wert.
+                    </p>
 
                     <dl>
                         <dt>Rüstungsschutz (RS)</dt>
                         <dd>
-                            <p>Der <dfn data-synonyms="RS">Rüstungsschutz</dfn> ist ein fixer Abzug auf die Anzahl der Schadenspunkte eines Angriffs (siehe <a href="#schadensermittlung"></a>).
+                            <p>Der <dfn data-synonyms="RS">Rüstungsschutz</dfn> ist ein fixer Abzug auf die Anzahl der Schadenspunkte eines
+                                Angriffs (siehe <a href="#schadensermittlung"></a>).
                             </p>
                         </dd>
                         <dt>Widerstandsbonus (WB)</dt>
                         <dd>
-                            <p>Der <dfn data-synonyms="WB">Widerstandsbonus</dfn> erhöht die Chance, mit dem <a href="#widerstandswurf"></a> die Schadenspunkte zu reduzieren.</p>
+                            <p>Der <dfn data-synonyms="WB">Widerstandsbonus</dfn> erhöht die Chance, mit dem <a href="#widerstandswurf"></a>
+                                die Schadenspunkte zu reduzieren.
+                            </p>
                         </dd>
                         <dt>Angriffsmalus (AM)</dt>
                         <dd>
-                            <!-- Die gleiche Definition steht auch unter "Schilde und Parierwaffen". -->
-                            <p>Der <dfn data-synonyms="AM">Angriffsmalus</dfn> ist ein Würfelabzug für den <a href="#angriffswurf"></a>.</p>
+                            <!-- Bei Anpassungen beachten: eine ähnliche Definition steht auch unter „Schilde und Parierwaffen”. -->
+                            <p>Mittlere und schwere Rüstungen schränken die Beweglichkeit ein und haben daher einen <dfn data-synonyms="AM">Angriffsmalus</dfn>.
+                                Dieser senkt die Würfelanzahl des eigenen <a href="#angriffswurf">Angriffswurfs</a>.
+                            </p>
                         </dd>
                     </dl>
 
-                    <p>Zauberkundige können Rüstungen erschaffen, Rüstungen verbessern oder ihren eigenen Körper verstärken. Werden solche <a href="#magische-ruestungen-spiel">magischen Rüstungen</a> mit mundanen Rüstungen kombiniert, werden ihre Werte nicht addiert. Stattdessen gilt der jeweils höhere Wert.</p>
 
                     <figure>
                     <table class="itemlist segmented">
@@ -1622,18 +1638,31 @@
                 <section id="schilde-und-parierwaffen">
                     <h1>Schilde und Parierwaffen</h1>
 
-                    <p>Neben Rüstungen können Charaktere auch mit Schilden und Parierwaffen ihre Verteidigung verbessern (VM), allerdings auf Kosten ihrer Angriffsmöglichkeiten (AM).</p>
+                    <p>Neben Rüstungen können Charaktere auch mit Schilden und Parierwaffen ihre Verteidigung verbessern (VM), allerdings
+                        auf Kosten ihrer Angriffsmöglichkeiten (AM).
+                    </p>
 
                     <dl>
                         <dt><dfn data-synonyms="VM">Verteidigungsmodifikator</dfn> (VM)</dt>
                         <dd>
-                            <p>Der Verteidigungsmodifikator von Schilden und Parierwaffen erhöht die Würfelanzahl des Verteidigungswurfs.</p>
-                            <p>Manche Waffen besitzen ebenfalls einen Verteidigungsmodifikator, dieser ist allerdings negativ und verringert daher diese Würfelanzahl.</p>
+                            <!--
+                            <p>Der Verteidigungsmodifikator von Schilden und Parierwaffen erhöht die Würfelanzahl des Verteidigungswurfs.
+                            </p>
+                            <p>Manche Waffen besitzen ebenfalls einen Verteidigungsmodifikator, dieser ist allerdings negativ und verringert
+                                daher diese Würfelanzahl.
+                            </p>
+                            -->
+                            <p>Schilde und Parierwaffen verbessern die Verteidigung und besitzen daher einen positiven <dfn
+                                data-synonyms="VM">Verteidigungsmodifikator</dfn>. Dieser erhöht die Würfelanzahl des eigenen
+                                Verteidigungswurfs.
+                            </p>
                         </dd>
                         <dt>Angriffsmalus (AM)</dt>
                         <dd>
-                            <!-- Die gleiche Definition steht auch unter „Rüstungen”. -->
-                            <p>Der <strong>Angriffsmalus</strong> ist ein Würfelabzug für den <a href="#angriffswurf"></a>.</p>
+                            <!-- Bei Anpassungen beachten: eine ähnliche Definition steht auch unter „Rüstungen”. -->
+                            <p>Schilde schränken den Aktionsradius der Waffe ein und haben daher einen <dfn
+                                data-synonyms="AM">Angriffsmalus</dfn>. Dieser senkt die Würfelanzahl des eigenen <a href="#angriffswurf">Angriffswurfs</a>.
+                            </p>
                         </dd>
                     </dl>
 
@@ -1689,22 +1718,30 @@
                     <dl>
                         <dt>Schadenscode</dt>
                         <dd>
-                            <p>Der <dfn>Schadenscode</dfn> hat zwei Aspekte: Zum einen wird der <dfn>Grundschaden</dfn> der Waffe aus der angegebenen Formel berechnet. Dabei kann das Ergebnis nicht höher sein als der Wert hinter dem kleiner-oder-gleich-Zeichen (≤).</p>
-                            <p>Zum anderen kann ein Charakter die Waffe nur führen, wenn der geklammerte Ausdruck mindestens 0 ergibt.</p>
+                            <p>Der <dfn>Grundschaden</dfn> der Waffe wird aus der angegebenen Formel berechnet. Dabei kann das Ergebnis
+                                nicht höher sein als der Wert hinter dem Kleiner-Gleich-Zeichen (≤).
+                            </p>
+                            <p>Ein Charakter kann die Waffe nur führen, wenn der geklammerte Ausdruck mindestens 0 ergibt.</p>
+
                         </dd>
                         <dt>Verteidigungsmodifikator (VM)</dt>
                         <dd>
-                            <p>Manche Waffen besitzen einen <dfn data-synonyms="VM">Verteidigungsmodifikator</dfn>, der die Würfelanzahl des Verteidigungswurfs verringert.</p>
-                            <p>Schilde und Parierwaffen besitzen ebenfalls einen Verteidigungsmodifikator, dieser ist allerdings positiv und erhöht daher diese Würfelanzahl.</p>
+                            <p>Große und schwere Waffen behindern die Verteidigung und besitzen daher einen negativen <dfn
+                                data-synonyms="VM">Verteidigungsmodifikator</dfn>. Dieser reduziert die Würfelanzahl des eigenen
+                                Verteidigungswurfs.
+                            </p>
                         </dd>
                     </dl>
 
-                    <p class="listintro">Außerdem werden die folgenden Werte auf dem Charakterblatt im Abschnitt „Kampf” notiert:</p>
+                    <p class="listintro">Die folgenden zusätzlichen Werte werden auf dem Charakterblatt im Abschnitt „Kampf” notiert:</p>
 
                     <ul>
-                        <li>Die Spalte „Würfel” berechnet sich aus <em>Attribut</em> + <em>Fertigkeit</em> + <em>Spezialisierung</em> − <em>Angriffsmalus</em>.</li>
+                        <li>Die Spalte „Würfel” berechnet sich aus <em>Attribut</em> + <em>Fertigkeit</em> + <em>Spezialisierung</em> − <em>Angriffsmalus</em>.
+                        </li>
                         <li>Der Mindestwurf beträgt 1.</li>
                     </ul>
+
+                    <p class="temp-note">ab hier weiter.</p>
 
                     <section id="nahkampfwaffen">
                         <h1>Nahkampf</h1>
@@ -2065,13 +2102,25 @@
                         <h1><dfn data-base="Magischer Basisangriff" data-alternatives="Basisangriffe" data-synonyms="Basisangriff">Magische
                             Basisangriffe</dfn></h1>
 
-                        <p>Es gibt unzählige Arten, Gegnern auf magische Weise zu schaden. Mit den flexiblen AdZ-Magieregeln lassen sich all diese auch genau abbilden. Um aber in einem Kampf nicht lange an den Magiedetails feilen zu müssen, können auch <a href="#basisangriffswurf">magische Basisangriffe</a> verwendet werden. Diese allgemeine Regelung erspart dem Spieler das Festlegen einiger Details, so dass der Angriff genauso schnell abgewickelt werden kann wie ein Schwertstreich. Er muss sich lediglich für einen Magiebereich und eine passende Technik entscheiden, z.B. „Feuer & Erschaffen” oder „Tier & Zerstören”.</p>
+                        <p>Es gibt unzählige Arten, Gegnern auf magische Weise zu schaden. Mit den flexiblen AdZ-Magieregeln lassen sich all
+                            diese auch genau abbilden. Um aber in einem Kampf nicht lange an den Magiedetails feilen zu müssen, können auch
+                            <a href="#basisangriffswurf">magische Basisangriffe</a> verwendet werden. Diese allgemeine Regelung erspart dem
+                            Spieler das Festlegen einiger Details, so dass der Angriff genauso schnell abgewickelt werden kann wie ein
+                            Schwertstreich. Er muss sich lediglich für einen Magiebereich und eine passende Technik entscheiden, z.B. „Feuer
+                            & Erschaffen” oder „Tier & Zerstören”.
+                        </p>
 
                         <dl>
                             <dt>Schadenscode</dt>
                             <dd>
-                                <p>Der <dfn>Schadenscode</dfn> hat zwei Aspekte: Zum einen wird der <dfn>Grundschaden</dfn> des Basisangriffs aus der angegebenen Formel berechnet. Dabei kann das Ergebnis nicht höher sein als der Wert hinter dem kleiner-oder-gleich-Zeichen (≤).</p>
-                                <p>Zum anderen kann ein Charakter den Basisangriff nur ausführen, wenn der geklammerte Ausdruck mindestens 0 ergibt.</p>
+                                <p class="temp-note">an die erklärung unter <a href="#waffen"></a> angleichen (oder hier entfernen?)</p>
+                                <p>Der <dfn>Schadenscode</dfn> hat zwei Aspekte: Zum einen wird der <dfn>Grundschaden</dfn> des
+                                    Basisangriffs aus der angegebenen Formel berechnet. Dabei kann das Ergebnis nicht höher sein als der
+                                    Wert hinter dem kleiner-oder-gleich-Zeichen (≤).
+                                </p>
+                                <p>Zum anderen kann ein Charakter den Basisangriff nur ausführen, wenn der geklammerte Ausdruck mindestens 0
+                                    ergibt.
+                                </p>
                             </dd>
                         </dl>
 
@@ -2105,7 +2154,9 @@
                 <section id="steigerung">
                     <h1>Steigerung von Eigenschaften</h1>
 
-                    <p class="temp-note">hier weiter. plan: kapitel eliminieren, inhalte in „Kaufsystem” integrieren. dazu fehlt dort nur noch der aspekt „8er-begrenzung nur bei charaktererschaffung”. idee: direkt bei der regel-bulletliste erwähnen.</p>
+                    <p class="temp-note">plan: kapitel eliminieren, inhalte in „Kaufsystem” integrieren. dazu fehlt dort nur
+                        noch der aspekt „8er-begrenzung nur bei charaktererschaffung”. idee: direkt bei der regel-bulletliste erwähnen.
+                    </p>
 
                     <p>Im Laufe seiner Abenteurerkarriere kann ein Charakter seine Fähigkeiten verbessern &ndash; er wird z.B. stärker,
                         geschickter oder erfahrener im Umgang mit Magie. Dazu vergibt der Spielleiter für die im Spiel gemachten Erfahrungen
@@ -2122,7 +2173,8 @@
                         href="#vorteile-und-nachteile"></a>).
                     </p>
                     <p>Wie bei der Charaktererschaffung darf der Wert eines Fokus nicht höher sein der des Magiebereichs.</p>
-                    <p>Nach einer Steigerung müssen gegebenenfalls der <a href="#initiative">Initativebasiswert</a> und der Grundschaden der Angriffe des Charakters neu bestimmt werden (siehe <a href="#waffen"></a>).
+                    <p>Nach einer Steigerung müssen gegebenenfalls der <a href="#initiative">Initativebasiswert</a> und der Grundschaden der
+                        Angriffe des Charakters neu bestimmt werden (siehe <a href="#waffen"></a>).
                     </p>
                 </section>
             </section>
@@ -2312,9 +2364,9 @@
                                 <dd>
                                     <p class="temp-note">betonen, dass mehrere AMs (rüstung, waffe, waffe...) kumulativ sind</p>
                                     <p>Für den Angriffswurf wird die Fertigkeit des Waffentyps bzw. der Kampftechnik mit dem Attribut
-                                        kombiniert, das im Schadenscode aufgeführt ist. Die
-                                        Würfelanzahl wird um den Verletzungsmalus sowie den Angriffsmalus der getragenen Ausrüstung
-                                        verringert (siehe <a href="#ruestungen"></a> sowie <a href="#schilde-und-parierwaffen"></a>).
+                                        kombiniert, das im Schadenscode aufgeführt ist. Die Würfelanzahl wird um den Verletzungsmalus sowie
+                                        den Angriffsmalus der getragenen Ausrüstung verringert (siehe <a href="#ruestungen"></a> sowie <a
+                                            href="#schilde-und-parierwaffen"></a>).
                                     </p>
                                     <p>Der Mindestwurf richtet sich nach der Art des Angriffs.</p>
                                 </dd>
@@ -2323,9 +2375,9 @@
                                     <p>Waffenloser Kampf verursacht in den meisten Fällen geistigen Schaden, alle anderen Angriffe
                                         körperlichen Schaden (siehe <a href="#gesundheit"></a>).
                                     </p>
-                                    <p>Jeder Angriff verursacht eine bestimmte Menge an Grundschaden, die vorab
-                                        auf dem Charakterblatt notiert wurde. Darüber hinaus richtet ein Angriff <dfn>Bonusschaden</dfn> in
-                                        Höhe der übrigen Angriffserfolge an.
+                                    <p>Jeder Angriff verursacht eine bestimmte Menge an Grundschaden, die vorab auf dem Charakterblatt
+                                        notiert wurde. Darüber hinaus richtet ein Angriff <dfn>Bonusschaden</dfn> in Höhe der übrigen
+                                        Angriffserfolge an.
                                     </p>
                                     <p>Trägt der Verteidiger eine Rüstung, wird der Schaden für jeden Punkt Rüstungsschutz um 1 gesenkt
                                         (siehe <a href="#ruestungen"></a>).
@@ -2474,7 +2526,9 @@
 
                             <div class="temp-note">
                                 <p>hierher verschoben aus dem waffenkapitel:</p>
-                                <p>Dabei entfällt die Entzugsprobe, sofern der Charakter keine Kraft einsetzt um den Schaden zu erhöhen (pro 3 KP 2 Schaden).</p>
+                                <p>Dabei entfällt die Entzugsprobe, sofern der Charakter keine Kraft einsetzt um den Schaden zu erhöhen (pro
+                                    3 KP 2 Schaden).
+                                </p>
                             </div>
                         </section>
                     </section>
@@ -2863,15 +2917,19 @@
                     <section id="magische-ruestungen-spiel">
                         <h1>Magische Rüstungen</h1>
                         <p class="temp-note">hierher verschoben aus "charaktererschaffung". siehe auch "referenz".</p>
+                        <p class="temp-note">brauchen wir diesen abschnitt überhaupt noch? <a href="#ruestungen"></a> behandelt schon fast
+                            alles.
+                        </p>
 
-                        <p>Dazu
-                                führt der Charakter eine Zauberprobe <span class="temp-note">passende technik</span> durch.</p>
+                        <p>Dazu führt der Charakter eine Zauberprobe <span class="temp-note">passende technik</span> durch.</p>
 
-                                <p>Der Mindestwurf beträgt 3. Der Krafteinsatz ist in der Tabelle angegeben, wobei bestehender Rüstungsschutz mitbezahlt werden muss. Die Wirkungsdauer beträgt einen Kampf.</p>
+                        <p>Der Mindestwurf beträgt 3. Der Krafteinsatz ist in der Tabelle angegeben, wobei bestehender Rüstungsschutz
+                            mitbezahlt werden muss. Die Wirkungsdauer beträgt einen Kampf.
+                        </p>
 
-                                <p>Für 1 KP kann die Wirkungsdauer um einige Minuten verlängert werden.</p>
+                        <p>Für 1 KP kann die Wirkungsdauer um einige Minuten verlängert werden.</p>
 
-                                <p class="temp-note">Prinzipiell immer RS und WB möglich, sofern erklärbar</p>
+                        <p class="temp-note">Prinzipiell immer RS und WB möglich, sofern erklärbar</p>
 
                     </section>
                 </section>
@@ -2953,7 +3011,8 @@
                                 <p>Der Verteidigungswurf wird mit dem Attribut <em>Intuition</em> und der Fertigkeit <em>Verteidigung</em>
                                     durchgeführt. Dabei können die Spezialisierungen <em>Ausweichen</em>, <em>Parade</em> oder <em>Schildblock</em>
                                     eingesetzt werden. Auf die Würfelanzahl werden die Verteidigungsmodifikatoren der vom Verteidiger
-                                    getragenen Ausrüstung angerechnet (siehe <a href="#ruestungen"></a> sowie <a href="#schilde-und-parierwaffen"></a>).
+                                    getragenen Ausrüstung angerechnet (siehe <a href="#ruestungen"></a> sowie <a
+                                        href="#schilde-und-parierwaffen"></a>).
                                 </p>
                             </dd>
                             <dt>Reaktion <span class="temp-note">(aus dem Nahkampfangriff-Kapitel)</span></dt>
@@ -3696,9 +3755,8 @@
                                 </p>
                                 <p>Koriziels Zauberprobe wird mit 4 (Durchschnitt aus <em>Modifizieren</em> 5 und <em>Kooperieren</em> 3) +
                                     6 (Durchschnitt aus <em>Metall</em> 7 und <em>Kraft</em> 5) = 10 Würfeln durchgeführt. Sie erzielt 3
-                                    Erfolge, was ein Scheitern des ganzen Zaubers zur Folge hätte. Sie setzt ihr <a
-                                        href="#glueck"></a> ein und erzielt weitere 2 Erfolge, wodurch sie den Mindestwurf erreicht und
-                                    der Zauber gelingt.
+                                    Erfolge, was ein Scheitern des ganzen Zaubers zur Folge hätte. Sie setzt ihr <a href="#glueck"></a> ein
+                                    und erzielt weitere 2 Erfolge, wodurch sie den Mindestwurf erreicht und der Zauber gelingt.
                                 </p>
                                 <p>Sollte ein gegnerischer Magier den Zauber während der Wirkungsdauer entdecken und aufheben wollen, müsste
                                     er nur die 4 Erfolge von Solinara negieren, nicht die 5 von Koriziel.
@@ -5046,7 +5104,8 @@
                     <section id="luft">
                         <h1>Luft</h1>
 
-                        <p>Dieser Bereich beinhaltet Luft und andere gasförmige Stoffe sowie Blitze und andere Formen von Elektrizität. Erlaubt auch die Manipulation des Wetters.
+                        <p>Dieser Bereich beinhaltet Luft und andere gasförmige Stoffe sowie Blitze und andere Formen von Elektrizität.
+                            Erlaubt auch die Manipulation des Wetters.
                         </p>
 
                         <section>
