@@ -325,7 +325,7 @@
                     </p>
                     <p><em>Glück</em> ist optional und liegt daher zwischen 0 und 10.</p>
                     <figure id="fig-attribute">
-                        <table class="itemlist">
+                        <table class="itemlist segmented">
                             <thead>
                                 <tr>
                                     <th>Attribut</th>
@@ -334,6 +334,9 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <th colspan="3">Körperlich</th>
+                                </tr>
                                 <tr>
                                     <td><img class="icon" src="Ressourcen/Attribute/KK.svg" alt=""><dfn data-synonyms="KK">Körperkraft</dfn>
                                     </td>
@@ -362,6 +365,9 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <th colspan="3">Geistig</th>
+                                </tr>
+                                <tr>
                                     <td><img class="icon" src="Ressourcen/Attribute/KL.svg" alt=""><dfn data-synonyms="KL">Klugheit</dfn>
                                     </td>
                                     <td>KL</td>
@@ -371,7 +377,7 @@
                                     <td><img class="icon" src="Ressourcen/Attribute/WK.svg" alt=""><dfn
                                         data-synonyms="WK">Willenskraft</dfn></td>
                                     <td>WK</td>
-                                    <td><a href="_entzugswurf">Schadensvermeidung beim Zaubern</a>, Konzentration, Entschlossenheit</td>
+                                    <td>Konzentration, Entschlossenheit, Selbsterhaltungstrieb</td>
                                 </tr>
                                 <tr>
                                     <td><img class="icon" src="Ressourcen/Attribute/IN.svg" alt=""><dfn data-synonyms="IN">Intuition</dfn>
@@ -387,7 +393,10 @@
                                     <td>CH</td>
                                     <td>Wirkung auf andere, Ausstrahlung, Präsenz</td>
                                 </tr>
-                                <tr style="border-top: 4px solid white">
+                                <tr>
+                                    <th colspan="3">Sonstiges</th>
+                                </tr>
+                                <tr>
                                     <td><img class="icon" src="Ressourcen/Attribute/GL.svg" alt=""><dfn data-synonyms="GL">Glück</dfn></td>
                                     <td>GL</td>
                                     <td>Glück haben
@@ -396,6 +405,108 @@
                             </tbody>
                         </table>
                     </figure>
+
+                    <section id="entzugsattribut">
+                        <h1>Entzugsattribut</h1>
+                        <!-- magie macht aua. entzugswurf hilft. -->
+
+                        <p>
+                            Jeder Charakter wählt eins seiner geistigen Attribute als Entzugsattribut. Dieses bestimmt den Stil, mit dem er
+                            der geistigen Anstrengung des Zauberns widersteht. Die Höhe des Attributs in Kombination mit dem jeweiligen
+                            Magiebereich bestimmt, wie gut ihm dies gelingen kann.
+                        </p>
+
+                        <dl>
+                            <dt>
+                                Klugheit
+                            </dt>
+                            <dd>
+                                Kein Plan überlebt den Kontakt mit dem Gegner. Aber wer sagt denn, dass du nur einen hattest?
+                                Selbstverständlich hast du im Vorfeld alle Möglichkeiten durchgespielt und immer ein Ass im Ärmel.
+                            </dd>
+<!--
+    KL (logiker) - vermeidet schaden durch kluge entscheidungen, präzise definierte matrix
+
+    Alles lässt sich mit Logik lösen.
+    Bevor du handelst, bedenkst du alle Eventualitäten.
+    Wer Schaden bekommt, war zu doof oder zu unvorsichtig - du bist weder das eine noch das andere.
+    Es überlebt zwar kein Plan den Kontakt mit dem Feind, aber deine Pläne sind wasserdicht.
+    Wer alle Eventualitäten bedenkt, hat immer eine Option.
+    Du bist schnell im Denken und kannst dich jeder Situation anpassen.
+    Du hast für jede Situation einen Notfallplan
+    Vorbereitung ist alles. Du hast für jede Situation einen Plan B, C und D. Du kommst schon heil aus der Nummer raus.
+    Du bist nicht perfekt, aber du kennst niemanden der besser vorbereitet wäre als du.
+    Wer wie du die Gesetze der Magie vollständig verstanden hat, dem kann nichts passieren.
+    Du handelst nie unbedacht. Bevor du handelst, hast du alle Möglichkeiten bedacht.
+-->
+                            <dt>
+                                Intuition
+                            </dt>
+                            <dd>
+                                Dich erwischt man nicht auf dem falschen Fuß. Du spürst die Gefahr schon, bevor du sie siehst. Warum
+                                sollte es bei Magie anders sein?
+                            </dd>
+<!--
+    IN (gefühlseinstimm-hexe) bauchgefühl, unterbewusst, gefühlsmäßig, instinktiv, im einklang mit der magie
+
+    Genauso wie du einem Pfeil ausweichst, umtänzelst du mit schlafwandlerischer Sicherheit die Magie und vermeidest, dass sie dir schadet.
+    Du kannst es nicht erklären, aber dein Bauchgefühl sagt dir, wie du die Magie bändigst.
+    Deine Instinkte haben dich schon immer vor Schaden bewahrt und lassen dich auch jetzt nicht im Stich.
+    Du kannst es nicht erklären, aber dein Bauchgefühl sagt dir, was du zu tun hast.
+    Deine Instinkte sind stark. Du verlässt dich immer auf dein Bauchgefühl. Es wird dir schon sagen, wenn etwas nicht stimmt.
+    Du bist ein Glückskind. Du bist immer zur rechten Zeit am rechten Ort. Genauso wie du einem Pfeil ausweichst, umtänzelst du die Magie.
+-->
+                            <dt>
+                                Charisma
+                            </dt>
+                            <dd>
+                                Magie ist eine Naturgewalt, sie lässt sich nicht bestechen. Aber du bist doch einfach nur freundlich. Das ist keine Bestechung, oder? Und falls doch, hat sich die Magie zumindest noch nie bei dir beschwert.
+                            </dd>
+<!--
+    CH (schamane der geister überzeugt) die magie liebt dich einfach, du lullst die magie ein, du überzeugst die geister der natur
+
+    Nichts und niemand kann dir einen Wunsch abschlagen wenn du deinen Charme spielen lässt. Und genau das machst du mit der Magie.
+    Magie ist eine Naturgewalt, sie lässt sich nicht bestechen. Aber man hat Vorteile wenn man nett zu ihr ist.
+    Sie bemüht sich, dir nicht zu schaden. Vielleicht sind andere Zaubernde einfach nicht freundlich genug?
+    Bist du nett zu jemandem, ist er auch nett zu dir.  Vielleicht sind andere Zaubernde einfach nicht freundlich genug?
+    Du lullst sie total ein und sie vergisst, dass sie dir eigentlich weh tun sollte.
+    Du überzeugst sie davon dir nicht weh zu tun.
+    ... selbst die Magie liebt dich.
+    Kraft prasselt nicht auf dich ein, sie umschmeichelt dich und formt fast freiwillig die Zaubergewebe, die du brauchst.
+-->
+                            <dt>
+                                Willenskraft
+                            </dt>
+                            <dd>
+                                Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung. Der währt zwar nicht
+                                ewig, aber das ist ein Problem um das du dich später kümmerst.
+                            </dd>
+<!--
+    WK mit dem kopf durch die wand, unbeugsam, einfach abgehärtet, das tut weh aber ich ignorier das, eiserner Wille
+
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung, dem auch der stärkste Sturm nichts anhaben kann. Egal wie man es nennt: du lässt den Schmerz einfach nicht an dich heran.
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung, dem auch der stärkste
+    Sturm nichts anhaben kann. der fels wird zwar irgendwann weggewaschen sein, aber der tag ist noch weit weg.
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung, dem auch der stärkste
+    Sturm nichts anhaben kann. Der Fels wird zwar irgendwann weggewaschen sein, aber bis dahin hast du längst deinen Willen bekommen.
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung. Der lebt zwar auch nicht
+    ewig, aber bis dahin hast du längst deinen Willen bekommen.
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung. Der währt zwar nicht ewig, aber das ist ein Problem das du in der Zukunft löst.
+    Andere sagen, du bist ein Dickkopf. Du siehst dich eher als Fels in der Brandung, dem auch der stärkste Sturm nichts anhaben kann. Und lange bevor der Fels weggewaschen ist, hast du dein Ziel erreicht.
+    Nur Weicheier kippen beim Zaubern um. Du jedoch entscheidest dich gegen den Schmerz. So einfach ist das.
+    Austüfteln, Gefühlsduselei und Komplimente sind was für Weicheier, die nichts aushalten. Du jedoch ...
+    Nur schwache Bäume brechen in einem Sturm. Du bist der Fels in der Brandung und trotzt den Naturgewalten.
+    Nur schwache Bäume brechen in einem Sturm. Du aber bist der Fels in der Brandung und hast schon genug Stürme erlebt.
+    Du bist der Fels in der Brandung und trotzt den Naturgewalten. Um dich herum tobt ein Sturm, aber du behältst die Ruhe.
+    Bist du der Fels in der Brandung? Trotzt du dem Sturm, ohne mit der Wimper zu zucken?
+    Du gibst genauso wenig nach wie ein Fels in der Brandung. Wenn andere einknicken, bleibst du ruhig und gibst der Magie Befehle.
+    Bist du der Fels in der Brandung? Oder bist du vielleicht ein Dickkopf? Dann bist du hier genau richtig aufgehoben.
+    Du verhandelst nicht mit der Magie, du gibst ihr Befehle.
+    Das was dich nicht umbringt, härtet dich ab.
+    Niemand schreibt dir vor, was du zu tun hast, nicht mal die Magie.
+-->
+                        </dl>
+                    </section>
 
                     <section id="glueck">
                         <h1>Glück</h1>
@@ -1231,6 +1342,11 @@
 
                 <section id="traditionen">
                     <h1>Traditionen</h1>
+
+                    <p class="temp-note">
+                        Erwähnen, dass die Traditionsauswahl auch eine Flair-Entscheidung ist. Sonst ist dieser Abschnitt verglichen mit
+                        "Entzugsattribut" und "Magietheorie" super lame.
+                    </p>
 
                     <p>Jeder magiebegabte Charakter muss mindestens eine Tradition auswählen. Diese nennt die Bedingungen, die während der
                         gesamten Zauberdauer erfüllt sein müssen. Besitzt ein Charakter mehrere Traditionen, müssen alle Bedingungen
@@ -2752,6 +2868,8 @@
                                 die Durchschnittsberechnungen einfließt.
                             </p>
 
+                            <p class="temp-note">magiebereichswürfel-als-entzugsbonuswürfel nur noch in einem ritual möglich</p>
+
                             <p>Die Zauberprobe wird wie unter <a href="_proben"></a> beschrieben durchgeführt. Dabei kann der Charakter auf
                                 einen oder mehrere Magiebereichswürfel verzichten, um sie stattdessen als Bonuswürfel beim <a
                                     href="_entzugswurf"></a> einzusetzen.
@@ -2851,6 +2969,12 @@
 
                     <section id="entzugswurf">
                         <h1>Entzugswurf <span class="temp-note">(aus dem Zauber-Wirken-Kapitel)</span></h1>
+
+                        <p class="temp-note">gesamtes regelwerk prüfen: "entzugsattribut" statt fix "Willenskraft",
+                            magiebereichsdurchschnitt dazu, bonuswürfel für entzugswurf nur noch in ritualen (siehe <a
+                                href="https://trello.com/c/wJwgHSAS/40-entzug-nicht-nur-auf-willenskraft-abst%C3%BCtzen">Entzug nicht (nur)
+                                auf Willenskraft abstützen</a>)
+                        </p>
 
                         <p>Für einen Zauber zieht ein Charakter Kraft aus der Umgebung zusammen und presst sie in die Zaubermatrix. Dieser
                             Prozess ist eine enorme geistige Anstrengung, die umso größer ist, je mehr Kraft verwendet wird. Ihre
@@ -3811,6 +3935,8 @@
                             <dl>
                                 <dt>Vorbereiten</dt>
                                 <dd>
+                                    <p class="temp-note">nix bonuswürfel für entzugswurf</p>
+
                                     <p>Der Spieler legt alle Zauberparameter bis auf das konkrete Ziel fest. Dann führt er eine Zauberprobe
                                         durch, in der die benötigten Techniken mit <em>Verankern</em> kombiniert sind (als Durchschnitt,
                                         siehe <a href="_zauberproben"></a>). Er kann wie üblich auf Magiebereichswürfel verzichten, um
