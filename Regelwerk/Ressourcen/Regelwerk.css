@@ -17,6 +17,15 @@ a:link, a:visited {
 	color: #00E;
 }
 
+
+.hint {
+}
+
+.hint::before {
+	content: "🛈";
+	padding-right: 0.25em;
+}
+
 .examplebox, .example {
     width: 90%;
     margin: 2em auto;
@@ -62,6 +71,10 @@ body {
 
 figure>p {
 	margin: 0;
+}
+
+figure + p {
+	margin-block-start: 2em;
 }
 
 table {
