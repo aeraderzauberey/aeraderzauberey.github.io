@@ -1,3 +1,6 @@
+:root {
+}
+
 @font-face {
 	font-family: 'BlackChancery';
 	src: url('BlackChancery.woff') format('woff');
@@ -19,11 +22,17 @@ a:link, a:visited {
 
 
 .hint {
+	position: relative;
+	margin-left: 1.25em;
+	border-left: 1px solid black;
+	padding-left: 0.5em;
 }
 
 .hint::before {
 	content: "🛈";
-	padding-right: 0.25em;
+	position: absolute;
+	display: inline-block;
+	left: -1.25em;
 }
 
 .examplebox, .example {
