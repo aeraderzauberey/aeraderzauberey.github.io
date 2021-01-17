@@ -2486,52 +2486,64 @@
             <section id="das-spiel">
                 <h1>Das Spiel</h1>
 
-                <p class="temp-note">Ab hier weiter!</p>
+                <section>
+                    <h1><span class="temp-note">Grundlegende Würfelmechanik</span></h1>
 
-                <section id="proben">
-                    <h1>Proben</h1>
-
-                    <p>Alltägliche Handlungen wie Gehen, Essen oder das Wirken eines trivialen Zaubers werden einem Charakter immer
-                        gelingen. Wenn es jedoch fraglich ist, ob eine Aktion gelingt, wird der Spielleiter eine <dfn
-                            data-alternatives="Proben">Probe</dfn> auf die Eigenschaften des Charakters verlangen.
+                    <p>Immer wenn es fraglich ist, ob eine Aktion gelingt, wird der Spielleiter eine <dfn
+                        data-alternatives="Proben">Probe</dfn> auf die Eigenschaften des Charakters verlangen.
                     </p>
 
+                    <p>Diese Proben werden nach dem Würfelpoolprinzip durchgeführt. Der Spieler rollt 1 bis 25 sechsseitige Würfel (W6)
+                        abhängig von seinen Eigenschaftswerten. Danach zählt er alle Würfel, die eine 5 oder 6 zeigen; alle anderen Würfel
+                        spielen keine Rolle. Jeder gezählte Würfel ist ein <dfn data-alternatives="Erfolge">Erfolg</dfn>.
+                    </p>
+                    <p>Ist die Anzahl der Erfolge mindestens so hoch wie der vom Spielleiter festgelegte Mindestwurf, ist die Probe <b
+                        class="temp-note">gelungen</b>. Auch darüber hinaus gehende Erfolge (<dfn data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>)
+                        können je nach Art der Probe relevant sein.
+                    </p>
+
+                </section>
                     <section>
-                        <h1>Überblick</h1>
+                    <h1 class="temp-note">Probenablauf / Stellschrauben</h1>
+                    <section>
+                        <h1 class="temp-note">Einleitung</h1>
 
-                        <p>Eine Probe wird durch das Rollen mehrerer sechsseitiger Würfel (kurz: <em>W6</em>) durchgeführt, wobei die <em>Würfelanzahl</em>
-                            von den Eigenschaften des Charakters abhängt. Das Ergebnis des Würfelwurfs wird als Anzahl von <em>Erfolgen</em>
-                            angegeben. Damit die Probe gelingt, muss der Spieler eine vom Spielleiter bestimmte Anzahl von Erfolgen, den
-                            <em>Mindestwurf</em>, erreichen.
+                        <p class="temp-note">jede probe läuft nach gleichem muster ab. sl gibt einen mw an. der spieler ermittelt seine würfelanzahl, zählt
+                            seine erfolge und vergleicht sie mit dem mindestwurf.
                         </p>
-                    </section>
 
-                    <section id="wuerfelanzahl">
-                        <h1><dfn data-alternatives="Würfelanzahlen">Würfelanzahl</dfn></h1>
-
-                        <p>Die Würfelanzahl ergibt sich je nach Art der Probe aus verschiedenen Eigenschaften, liegt jedoch niemals über 25.<span
-                            class="footnote">Die Begrenzung auf 25 Würfel gilt selbst dann, wenn andere Regeln Bonuswürfel gewähren würden,
-                            wie beispielsweise durch Umstandsmodifikatoren, Glück oder beim gemeinsamen Zaubern.</span></p>
-                    </section>
-
-                    <section id="umstandsmodifikatoren">
-                        <h1>Umstandsmodifikatoren</h1>
-
-                        <p>Neben den Fähigkeiten eines Charakters gibt es häufig weitere Umstände, welche die Probe beeinflussen. Für
-                            negative Einflüsse wie besondere Eile oder widrige Bedingungen (z.B. eisige Kälte) kann der Spielleiter einen
-                            Würfelmalus bestimmen. Umgekehrt können positive Einflüsse wie gute Vorbereitung, ausführliches Zielen oder
-                            Hilfe von anderen einen Würfelbonus bewirken. Dabei werden alle anwendbaren Würfelmali und -boni auf die zuvor
-                            bestimmte Würfelanzahl angerechnet.
+                        <p class="temp-note">der spielleiter hat mehrere stellschrauben, um den ausgang (die schwierigkeit?) einer probe zu
+                            beeinflussen.
                         </p>
+
+                        <dl>
+                            <dt>Mindestwurf</dt>
+                            <dd>Wie schwierig ist die Aufgabe an sich, ganz neutral, sozusagen unter Laborbedingungen? Es spielt keine
+                                Rolle, wer die Probe ablegt oder in welcher Situation er sich befindet. Der Mindestwurf einer Aufgabe muss
+                                lediglich im Vergleich zu verwandten Aufgaben plausibel sein.
+                            </dd>
+
+                            <dt>Würfelanzahl</dt>
+                            <dd>Die Würfelanzahl des Charakters repräsentiert seine Qualifikation für eine Aufgabe und steht fest. Manchmal gibt es aber besondere Umstände, die einen Würfelbonus oder -malus rechtfertigen:</dd>
+                            <dd><span class="temp-note">Hat sich der Charakter besonders sorgfältig vorbereitet oder vielleicht hilft ihm
+                                jemand? <i><- UMFORMULIEREN</i></span> Oder liegt er fest verschnürt und geknebelt in einer dunklen Ecke?
+                                Möglicherweise tobt um ihn herum gerade aber auch ein Schneesturm, der seine Konzentration stört.
+                            </dd>
+                            <dd>[beispiel: bonuswürfel bei sonst-bist-du-tot-rettungswürfen; besonders sorgfältig vorbereitet; mir hilft jemand [siehe zusammen zaubern]</dd>
+                            <dd>- fähigkeit/ausbildung: wie gut qualifiziert bist du im allgemeinen für dieses thema?</dd>
+
+                            <!--
+                            <dt>Erfolgsabzüge</dt>
+                            <dd>- zustand des charakters: egal wie die situation oder die aufgabe aussieht, dir gehts halt gerade schlecht</dd>
+                            -->
+                        </dl>
+
                     </section>
-
-                    <section id="mindestwurf">
-                        <h1>Mindestwurf</h1>
-
-                        <p>Als nächstes legt der Spielleiter den zu erreichenden <dfn data-alternatives="Mindestwürfe">Mindestwurf</dfn>
-                            fest. Er beträgt mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den
-                            Begleitumständen ab. Für einige Arten von Aufgaben wie das Zaubern sind in diesem Regelwerk Richtlinien für
-                            Mindestwürfe aufgeführt; als generelle Orientierung kann die folgende Tabelle verwendet werden:
+                    <section>
+                        <h1 class="temp-note">Ermittlung des Mindestwurfs</h1>
+                        <p><span class="temp-note">sobald feststeht welche probe (eigenschaften) durchgeführt werden soll</span>, legt der
+                            Spielleiter den zu erreichenden <dfn data-alternatives="Mindestwürfe">Mindestwurf</dfn> fest. Er beträgt
+                            mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab.
                         </p>
                         <figure id="schwierigkeitstabelle">
                             <table>
@@ -2586,38 +2598,49 @@
                                 </tbody>
                             </table>
                         </figure>
-                        <p>Für die Verwendung einer verwandten Fertigkeit statt der passenden erhöht sich der Mindestwurf nach
-                            Spielleiterentscheid um mindestens 1 Erfolg, je nach Verwandtschaft der Fertigkeiten bzw. Eignung für die
-                            aktuelle Aufgabe.
+                        <p>Für Zauber sind in diesem Regelwerk genauere Richtlinien für Mindestwürfe aufgeführt, alles andere liegt in der
+                            Hand des Spielleiters.
                         </p>
-                        <div class="example">
-                            <p>Die Frage nach dem letzten bekannten Auftauchen des Necronomicons kann mit der Fertigkeit <em>Allgemeinbildung</em>
-                                nur sehr schwer beantwortet werden, für Charaktere mit der Fertigkeit <em>Okkultismus</em> jedoch bedeutend
-                                einfacher.
-                            </p>
-                        </div>
                     </section>
+                    <section>
+                        <h1 class="temp-note">Ermittlung <dfn data-alternatives="Würfelanzahlen">Würfelanzahl</dfn></h1>
 
-                    <section id="erfolge">
-                        <h1>Erfolge</h1>
-                        <p class="temp-note">Reihenfolge klären: mindestwurf-dann-erfolge oder erfolge-mindestwurf-auswertung?</p>
 
-                        <p>Das Ergebnis einer Probe wird als Anzahl von <dfn data-base="Erfolg" data-alternatives="Erfolge">Erfolgen</dfn>
-                            angegeben. Jeder gerollte Würfel, der eine 5 oder 6 zeigt, zählt als ein Erfolg.
-                        </p>
+                        <section id="umstandsmodifikatoren">
+                            <h1>Umstandsmodifikatoren</h1>
+
+                            <p>Neben den Fähigkeiten eines Charakters gibt es häufig weitere Umstände, welche die Probe beeinflussen. Für
+                                negative Einflüsse wie besondere Eile oder widrige Bedingungen (z.B. eisige Kälte) kann der Spielleiter einen
+                                Würfelmalus bestimmen. Umgekehrt können positive Einflüsse wie gute Vorbereitung, ausführliches Zielen oder
+                                Hilfe von anderen einen Würfelbonus bewirken. Dabei werden alle anwendbaren Würfelmali und -boni auf die zuvor
+                                bestimmte Würfelanzahl angerechnet.
+                            </p>
+                        </section>
+
+                        <p class="temp-note">range von würfelbonimali vs erfolgsabzug, ggf beides per tabelle</p>
+
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Ermittlung Erfolge</h1>
+
+
                         <p>Ist der Charakter verwundet oder erschöpft, gilt ein Verletzungsmalus, der auf die Erfolgsanzahl angerechnet wird
                             (siehe <a href="#gesundheit"></a>). Ist die Anzahl der verbleibenden Erfolge gleich oder höher als der zuvor
                             festgelegte Mindestwurf, ist die Probe <em>gelungen</em>. Verbleiben weniger oder gar keine Erfolge, ist sie
                             <em>gescheitert</em>.
                         </p>
-                        <p>Die Erfolge, welche über den Mindestwurf hinaus gehen, heißen <dfn
-                            data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>.
-                        </p>
+
+                        <p class="temp-note">Einbauen: bla Glückseinsatz. Aber: Begrenzung auf 25 Würfel beachten.</p>
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Unterscheidung: Würfelbonus/malus vs Erfolgsabzug</h1>
                     </section>
                 </section>
+                <section>
+                    <h1 class="temp-note">Probenarten</h1>
 
                 <section id="fertigkeitsproben">
-                    <h1><dfn data-base="Fertigkeitsprobe">Fertigkeitsproben</dfn></h1>
+                        <h1 class="temp-note"><dfn data-base="Fertigkeitsprobe">Fertigkeitsproben</dfn></h1>
 
                     <p>Die Würfelanzahl entspricht der Summe der Punktzahlen von Attribut, Fertigkeit und ggf. einer passenden
                         Spezialisierung. Der Spielleiter kann auch einige Bonuswürfel gewähren, wenn der Charakter weitere relevante
@@ -2636,6 +2659,21 @@
                     <p>Sollte der Charakter die Fertigkeit nicht besitzen, entspricht die Würfelanzahl der Höhe des Attributs. Alternativ
                         darf der Spieler nach Spielleiterentscheid auch eine verwandte Fertigkeit einsetzen.
                     </p>
+
+                        <div class="temp-note">
+                            <p>Für die Verwendung einer verwandten Fertigkeit statt der passenden erhöht sich der Mindestwurf nach
+                                Spielleiterentscheid um mindestens 1 Erfolg, je nach Verwandtschaft der Fertigkeiten bzw. Eignung für die
+                                aktuelle Aufgabe.
+                            </p>
+                            <div class="example">
+                                <p>Die Frage nach dem letzten bekannten Auftauchen des Necronomicons kann mit der Fertigkeit <em>Allgemeinbildung</em>
+                                    nur sehr schwer beantwortet werden, für Charaktere mit der Fertigkeit <em>Okkultismus</em> jedoch
+                                    bedeutend einfacher.
+                                </p>
+                            </div>
+                        </div>
+
+
                     <div class="example">
                         <p>Elris, seines Zeichens zukünftiger Meisterdieb, ist in den frühen Morgenstunden im Haus eines reichen Bürgers bei
                             der Arbeit. Da man sich in Elris' Gewerbe jedoch möglichst lautlos bewegen sollte, verlangt der Spielleiter von
@@ -2834,7 +2872,7 @@
                 </section>
 
                 <section id="attributsproben">
-                    <h1><dfn data-base="Attributsprobe">Attributsproben</dfn></h1>
+                        <h1 class="temp-note"><dfn data-base="Attributsprobe">Attributsproben</dfn></h1>
 
                     <p>Die Würfelanzahl entspricht der doppelten Punktzahl des Attributs. Gegebenenfalls kommt noch die einfache Punktzahl
                         einer zur Aufgabe passenden Spezialisierung einer beliebigen Fertigkeit hinzu.
@@ -2855,8 +2893,15 @@
                     </div>
                 </section>
 
+                    <section>
+                        <h1 class="temp-note">Widerstandswurf</h1>
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Entzugswurf</h1>
+                    </section>
+
                 <section id="zauberproben">
-                    <h1>Zauberproben</h1>
+                        <h1 class="temp-note">Zauberproben</h1>
                     <p class="temp-note">Gesamtablauf beschreiben</p>
 
                     <p class="temp-note"><b>[hierher verschoben aus Vor- und Nachteile]:</b> Sofern nicht die entsprechenden Vorteile
@@ -3036,7 +3081,9 @@
                                 die Durchschnittsberechnungen einfließt.
                             </p>
 
-                            <p class="temp-note">magiebereichswürfel-als-entzugsbonuswürfel nur noch in einem ritual möglich</p>
+                                <p class="temp-note">magiebereichswürfel-als-entzugsbonuswürfel entfallen wegen neuer kombination
+                                    Entzugsattribut+Magiebereich
+                                </p>
 
                             <p>Die Zauberprobe wird wie unter <a href="_proben"></a> beschrieben durchgeführt. Dabei kann der Charakter auf
                                 einen oder mehrere Magiebereichswürfel verzichten, um sie stattdessen als Bonuswürfel beim <a
@@ -3241,16 +3288,51 @@
                     </section>
                 </section>
 
+                    <section id="rettungswurf">
+                        <h1 class="temp-note"><dfn data-alternatives="Rettungswürfe">Rettungswurf</dfn> <span class="temp-note">(aus dem
+                            Magie-Kapitel)</span></h1>
+
+                        <p>Charaktere, die das Ziel eines Zaubers sind, können als <a href="_reaktion"></a> einen Rettungswurf
+                            durchführen, um den Zauber abzuwehren. Dies gilt auch, wenn das Ziel des Zaubers nicht Körper oder Geist
+                            eines Charakters, sondern die an seinem Körper getragenen Gegenstände sind.
+                        </p>
+
+                        <p>Der Rettungswurf kann je nach Situation mit einem der folgenden Attribute durchgeführt werden:</p>
+                        <dl>
+                            <dt>Körperkraft</dt>
+                            <dd>Gegenstände festhalten</dd>
+                            <dt>Konstitution</dt>
+                            <dd>Widerstand gegen Bewegung, Teleportation oder körperliche Veränderungen</dd>
+                            <dt>Intuition</dt>
+                            <dd>Einem Angriff ausweichen</dd>
+                            <dt>Willenskraft</dt>
+                            <dd>Beeinflussungen des Geistes oder sonstige Zauber abwehren</dd>
+                        </dl>
+
+                        <p>Der Charakter erhält so viele Würfel, wie er Punkte im jeweiligen Attribut hat.<span class="footnote">Es
+                            handelt sich hierbei ausdrücklich nicht um eine Attributsprobe, bei der die Würfelanzahl dem doppelten
+                            Punktwert entspräche.</span> Des weiteren erhält er je nach Art des Zaubers und Grad der Bedrohung einen
+                            Bonus von bis zu 10 Würfeln. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a> wird nicht
+                            angewendet.
+                        </p>
+                        <p>Hat der Rettungswurf mindestens so viele Erfolge wie der Zauber, bleibt dieser wirkungslos.</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h1 class="temp-note">Foo</h1>
+
                 <section id="vergleichende-proben">
-                    <h1><dfn data-alternatives="Vergleichende Probe,vergleichende Probe,vergleichenden Probe">Vergleichende Proben</dfn>
+                        <h1 class="temp-note"><dfn data-alternatives="Vergleichende Probe,vergleichende Probe,vergleichenden Probe">Vergleichende
+                            Proben</dfn>
                     </h1>
 
                     <p>Jede Handlung, für die ein Charakter eine erfolgreiche Probe abgelegt hat, kann von einem anderen Charakter vereitelt
                         werden. Dazu führt dieser eine eigene Probe durch, die „zweite Probe”.
                     </p>
 
-                    <p>Diese zweite Probe ist völlig unabhängig von der ersten: es muss nicht derselbe <a href="#mindestwurf"></a> gelten
-                        und es muss sich nicht um dieselbe <a href="_probenart-und-wuerfelanzahl">Probenart</a> handeln.
+                        <p>Diese zweite Probe ist völlig unabhängig von der ersten: es muss nicht derselbe Mindestwurf gelten und es muss
+                            sich nicht um dieselbe <a href="_probenart-und-wuerfelanzahl">Probenart</a> handeln.
                     </p>
 
                     <div class="example sidebar">
@@ -3278,7 +3360,7 @@
                 </section>
 
                 <section id="reaktionen">
-                    <h1><dfn data-base="Reaktion">Reaktionen</dfn></h1>
+                        <h1 class="temp-note"><dfn data-base="Reaktion">Reaktionen</dfn> / Reaktionsarten</h1>
 
                     <p>Charaktere können jede Aktion eines anderen Charakters mit einer der unten stehenden Reaktionen beantworten.</p>
 
@@ -3352,36 +3434,6 @@
                             </dd>
                         </dl>
 
-                        <section id="rettungswurf">
-                            <h1><dfn data-alternatives="Rettungswürfe">Rettungswurf</dfn> <span class="temp-note">(aus dem
-                                Magie-Kapitel)</span></h1>
-
-                            <p>Charaktere, die das Ziel eines Zaubers sind, können als <a href="_reaktion"></a> einen Rettungswurf
-                                durchführen, um den Zauber abzuwehren. Dies gilt auch, wenn das Ziel des Zaubers nicht Körper oder Geist
-                                eines Charakters, sondern die an seinem Körper getragenen Gegenstände sind.
-                            </p>
-
-                            <p>Der Rettungswurf kann je nach Situation mit einem der folgenden Attribute durchgeführt werden:</p>
-                            <dl>
-                                <dt>Körperkraft</dt>
-                                <dd>Gegenstände festhalten</dd>
-                                <dt>Konstitution</dt>
-                                <dd>Widerstand gegen Bewegung, Teleportation oder körperliche Veränderungen</dd>
-                                <dt>Intuition</dt>
-                                <dd>Einem Angriff ausweichen</dd>
-                                <dt>Willenskraft</dt>
-                                <dd>Beeinflussungen des Geistes oder sonstige Zauber abwehren</dd>
-                            </dl>
-
-                            <p>Der Charakter erhält so viele Würfel, wie er Punkte im jeweiligen Attribut hat.<span class="footnote">Es
-                                handelt sich hierbei ausdrücklich nicht um eine Attributsprobe, bei der die Würfelanzahl dem doppelten
-                                Punktwert entspräche.</span> Des weiteren erhält er je nach Art des Zaubers und Grad der Bedrohung einen
-                                Bonus von bis zu 10 Würfeln. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a> wird nicht
-                                angewendet.
-                            </p>
-                            <p>Hat der Rettungswurf mindestens so viele Erfolge wie der Zauber, bleibt dieser wirkungslos.</p>
-                        </section>
-
                     </section>
 
                     <section id="reaktion-aus-dem-zauber-wirken-kapitel">
@@ -3400,6 +3452,15 @@
                         </p>
                     </section>
                 </section>
+
+                    <section>
+                        <h1 class="temp-note">❔Glückseinsatzwurf❔</h1>
+                    </section>
+                </section>
+            </section>
+
+            <section id="der-alte-spiel-teil">
+                <h1>Der alte Spiel-Teil</h1>
 
                 <section id="runden">
                     <h1>Runden</h1>
@@ -3939,6 +4000,7 @@
                                     <p>Zusatzerfolge der Unterstützungsprobe können als Bonuswürfel wahlweise für den Zaubernden oder für
                                         den eigenen Entzugswurf genutzt werden.
                                     </p>
+                                    <p class="temp-note">hinweis: würfelanzahl trotzdem nicht > 25</p>
                                 </dd>
                             </dl>
                         </section>
@@ -5071,7 +5133,7 @@
                             </section>
                         </section>
 
-                    </section>
+                            </section>
                     <section id="humanoid">
                         <h1>Humanoid</h1>
 
