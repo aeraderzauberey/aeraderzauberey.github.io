@@ -2962,7 +2962,6 @@
                                             höhere/niedrigere Mindestwürfe nach Spielleiterentscheid. Typischerweise ist diese Anpassung jedoch
                                             nicht linear: eine Angabe „1” auf „2” zu ändern verdoppelt <em>nicht</em> den Mindestwurf.
                                         </p>
-                                        <p>Der Mindestwurf wird gegebenenfalls durch die <a href="_parameter-zauberdauer"></a> modifiziert.</p>
                                     </dd>
                                     <dt>Krafteinsatz</dt>
                                     <dd>
@@ -3097,6 +3096,8 @@
                                     <p>Er führt die Zauberprobe daher mit allen 4 Würfeln aus und erzielt 2 Erfolge, also genau den benötigten
                                         Mindestwurf.
                                     </p>
+                                    <p class="temp-note">Beispiel aktualisieren!
+                                    </p>
                                 </div>
                             </section>
 
@@ -3175,6 +3176,8 @@
                                 arbeiten. In diesem Fall ergibt sich die tatsächliche Zeit aus der oben genannten Ritualdauer geteilt durch die
                                 Anzahl der erfolgreichen Mitwirkenden, beträgt jedoch immer mindestens eine Stunde.
                             </p>
+                            <p class="temp-note">Zauberprobenwürfel zur Seite legen, siehe <a href="https://app.clickup.com/t/u12frh">📝Entzug
+                                nicht (nur) auf Willenskraft abstützen</a></p>
                             <div class="example">
                                 <p>Ein Ritual mit 10 zusätzlichen KP, für das ein einzelner Magier 8 Stunden lang zaubern müsste, dauert in
                                     einem Zirkel aus 4 Magiern nur 2 Stunden.
@@ -3204,14 +3207,15 @@
                                 Werte:
                             </p>
                             <ul>
-                                <li>Attribut <em>Willenskraft</em></li>
-                                <li>Anzahl der vor der Zauberprobe festgelegten Bonuswürfel</li>
-                                <li>Anzahl der Zusatzerfolge bei der Zauberprobe</li>
+                                <li>Attribut <em>Willenskraft</em><span class="temp-note">Achtung! Variables Entzugsattribut</span></li>
+                                <li>Anzahl der vor der Zauberprobe festgelegten Bonuswürfel<span class="temp-note">das gibt es nur noch in Ritualen</span></li>
+                                <li>Anzahl der Zusatzerfolge bei der Zauberprobe<span class="temp-note">das gibt es nicht mehr</span></li>
                             </ul>
                             <p>Der erhaltene geistige Schaden entspricht der Anzahl der verwendeten Kraftpunkte, vermindert um die beim
                                 Entzugswurf erzielten Erfolge. Ein eventueller <a href="#gesundheit">Verletzungsmalus</a> wird nicht angewendet.
                             </p>
                             <div class="example">
+                                <p class="temp-note">Beispiel umbauen, nix Bonuswürfel</p>
                                 <p>Tharion hat für seinen Nachtsicht-Zauber 2 Kraftpunkte verwendet. Weil er keine Bonuswürfel aus der
                                     Zauberprobe erhält und den Mindestwurf nicht übertroffen hat, stehen ihm für den Entzugswurf nur Würfel in
                                     Höhe seines <em>Willenskraft</em>-Attributs zur Verfügung, nämlich 5. Bei der Probe hat er Pech und erzielt
@@ -3988,6 +3992,7 @@
                                     <p>Zusatzerfolge der Unterstützungsprobe können als Bonuswürfel für den eigenen Entzugswurf genutzt
                                         werden.
                                     </p>
+                                    <p class="temp-note">Hier sind die Bonuswürfel okay, da das nur in Ritualen geht</p>
                                 </dd>
 
                                 <dt>Bonuswürfel erzeugen</dt>
@@ -4001,6 +4006,7 @@
                                         den eigenen Entzugswurf genutzt werden.
                                     </p>
                                     <p class="temp-note">hinweis: würfelanzahl trotzdem nicht > 25</p>
+                                    <p class="temp-note">Was ist hier mit den Zusatzerfolgen für Entzug?</p>
                                 </dd>
                             </dl>
                         </section>
@@ -4024,6 +4030,9 @@
                         </section>
 
                         <div class="example">
+                            <p class="temp-note">
+                                Achtung! Beispiel umbauen, nix Bonuswürfel!!!
+                            </p>
                             <p>Solinara und ihre Freunde begleiten einen Händler und stoßen auf eine eingestürzte Brücke. Der Umweg würde
                                 Tage dauern, aber sie haben genug Zeit für ein Ritual. Der Plan ist, den Karren wie ein fliegendes Boot
                                 mehrmals über den Abgrund und zurück zu bewegen, bis Ladung, Esel und alle Personen auf der anderen Seite
@@ -5645,9 +5654,9 @@
                                     <td>Ja</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="_entzugswurf">Entzugswurf</a></td>
-                                    <td><em>Willenskraft</em> + Bonuswürfel + Zusatzerfolge</td>
-                                    <td><a href="#gesundheit">Nein</a></td>
+                                    <td class="temp-note"><a href="_entzugswurf">Entzugswurf</a></td>
+                                    <td class="temp-note"><em>Willenskraft</em> + Bonuswürfel + Zusatzerfolge</td>
+                                    <td class="temp-note"><a href="#gesundheit">Nein</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="_rettungswurf">Rettungswurf</a></td>
