@@ -2487,64 +2487,72 @@
                 <h1>Das Spiel</h1>
 
                 <section>
-                    <h1><span class="temp-note">Grundlegende Würfelmechanik</span></h1>
+                    <h1>Grundlegende Würfelmechanik</h1>
 
-                    <p>Immer wenn es fraglich ist, ob eine Aktion gelingt, wird der Spielleiter eine <dfn
-                        data-alternatives="Proben">Probe</dfn> auf die Eigenschaften des Charakters verlangen.
+                    <p>Bei AdZ handelt es sich um ein Würfelpool-System.</p>
+
+                    <p>Für eine <dfn data-alternatives="Proben">Probe</dfn> rollt der Spieler eine bestimmte Anzahl sechsseitiger Würfel
+                        (W6), maximal 25, und zählt die <dfn data-base="Erfolg">Erfolge</dfn> (5en und 6en).
                     </p>
 
-                    <p>Diese Proben werden nach dem Würfelpoolprinzip durchgeführt. Der Spieler rollt 1 bis 25 sechsseitige Würfel (W6)
-                        abhängig von seinen Eigenschaftswerten. Danach zählt er alle Würfel, die eine 5 oder 6 zeigen; alle anderen Würfel
-                        spielen keine Rolle. Jeder gezählte Würfel ist ein <dfn data-alternatives="Erfolge">Erfolg</dfn>.
-                    </p>
-                    <p>Ist die Anzahl der Erfolge mindestens so hoch wie der vom Spielleiter festgelegte Mindestwurf, ist die Probe <b
-                        class="temp-note">gelungen</b>. Auch darüber hinaus gehende Erfolge (<dfn data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>)
-                        können je nach Art der Probe relevant sein.
+                    <p>Ist die Erfolgsanzahl mindestens so hoch wie der zuvor festgelegte Mindestwurf, ist die Probe <em>gelungen</em>. Auch
+                        darüber hinaus gehende Erfolge (<dfn data-alternatives="Zusatzerfolg">Zusatzerfolge</dfn>) können je nach Art der
+                        Probe relevant sein.
                     </p>
 
+                    <p>Anders als in vielen anderen Regelwerken gibt es bei AdZ keine Patzer.</p>
                 </section>
-                <section>
-                    <h1 class="temp-note">Probenablauf / Stellschrauben</h1>
-                    <section>
-                        <h1 class="temp-note">Einleitung</h1>
 
-                        <p class="temp-note">jede probe läuft nach gleichem muster ab. sl gibt einen mw an. der spieler ermittelt seine würfelanzahl, zählt
-                            seine erfolge und vergleicht sie mit dem mindestwurf.
-                        </p>
 
-                        <p class="temp-note">der spielleiter hat mehrere stellschrauben, um den ausgang (die schwierigkeit?) einer probe zu
-                            beeinflussen.
-                        </p>
+
+
+
+
+
+
+                <section id="probenschwierigkeit">
+                    <h1>Probenschwierigkeit</h1>
+
+                    <p>Der Spielleiter hat verschiedene Stellschrauben zur Anpassung der Probenschwierigkeit:</p>
+                    <ul>
+                        <li>Festlegung / Anpassung des Mindestwurfs</li>
+                        <li>Würfelabzüge oder Bonuswürfel</li>
+                        <li>Erfolgsabzüge</li>
+                    </ul>
+
+                    <section id="mindestwurf">
+                        <h1><dfn data-synonyms="MW" data-alternatives="Mindestwürfe">Mindestwurf</dfn></h1>
+
+                        <p>Der Spielleiter legt den Mindestwurf (MW) der Probe anhand der folgenden Faktoren fest:</p>
 
                         <dl>
-                            <dt>Mindestwurf</dt>
-                            <dd>Wie schwierig ist die Aufgabe an sich, ganz neutral, sozusagen unter Laborbedingungen? Es spielt keine
-                                Rolle, wer die Probe ablegt oder in welcher Situation er sich befindet. Der Mindestwurf einer Aufgabe muss
-                                lediglich im Vergleich zu verwandten Aufgaben plausibel sein.
+                            <dt>Basis-Mindestwurf</dt>
+                            <dd>
+                                <p>Der <dfn>Basis-Mindestwurf</dfn> ist die allgemeine Schwierigkeit der Aufgabe, unabhängig vom Charakter
+                                    und der konkreten Situation.
+                                </p>
+                                <p>Für mundane Aufgaben schätzt der Spielleiter den Basis-MW anhand seiner Erfahrung ein; für magische
+                                    Effekte nutzt er die Hinweise der jeweiligen <a href="#techniken"></a> und <a href="#magiebereiche"></a>.
+                                </p>
                             </dd>
 
-                            <dt>Würfelanzahl</dt>
-                            <dd>Die Würfelanzahl des Charakters repräsentiert seine Qualifikation für eine Aufgabe und steht fest. Manchmal gibt es aber besondere Umstände, die einen Würfelbonus oder -malus rechtfertigen:</dd>
-                            <dd><span class="temp-note">Hat sich der Charakter besonders sorgfältig vorbereitet oder vielleicht hilft ihm
-                                jemand? <i><- UMFORMULIEREN</i></span> Oder liegt er fest verschnürt und geknebelt in einer dunklen Ecke?
-                                Möglicherweise tobt um ihn herum gerade aber auch ein Schneesturm, der seine Konzentration stört.
+                            <dt>Eigenschaftsabhängige Faktoren</dt>
+                            <dd>Während der Charaktererschaffung gekaufte <a href="#eigenschaften"></a> können, je nach Situation, positive
+                                oder negative Auswirkungen haben. So führt beispielsweise eine Verletzung der gewählten <a
+                                    href="#traditionen">Tradition</a> zu einem Mindestwurf-Aufschlag.
                             </dd>
-                            <dd>[beispiel: bonuswürfel bei sonst-bist-du-tot-rettungswürfen; besonders sorgfältig vorbereitet; mir hilft jemand [siehe zusammen zaubern]</dd>
-                            <dd>- fähigkeit/ausbildung: wie gut qualifiziert bist du im allgemeinen für dieses thema?</dd>
 
-                            <!--
-                            <dt>Erfolgsabzüge</dt>
-                            <dd>- zustand des charakters: egal wie die situation oder die aufgabe aussieht, dir gehts halt gerade schlecht</dd>
-                            -->
+                            <dt>Vorbereitungsabhängige Faktoren</dt>
+                            <dd>
+                                <p>Der Spielleiter kann einen MW-Abzug gewähren falls sich der Charakter besonders gut auf die Aufgabe
+                                    vorbereitet hat. Wenn aber ein Charakter ein benötigtes Werkzeug nicht bei sich trägt, führt das zu
+                                    einen MW-Aufschlag.
+                                </p>
+                            </dd>
                         </dl>
 
-                    </section>
-                    <section>
-                        <h1 class="temp-note">Ermittlung des Mindestwurfs</h1>
-                        <p><span class="temp-note">sobald feststeht welche probe (eigenschaften) durchgeführt werden soll</span>, legt der
-                            Spielleiter den zu erreichenden <dfn data-alternatives="Mindestwürfe">Mindestwurf</dfn> fest. Er beträgt
-                            mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab.
-                        </p>
+                        <p>Die folgende Tabelle gibt Auskunft über die Erfolgschancen einer Probe:</p>
+
                         <figure id="schwierigkeitstabelle">
                             <table>
                                 <thead>
@@ -2598,6 +2606,81 @@
                                 </tbody>
                             </table>
                         </figure>
+
+                    </section>
+
+                    <section>
+                        <h1 class="temp-note">"Würfelanzahl"</h1>
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Erfolgsabzüge</h1>
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Balancing</h1>
+
+                        <p class="temp-note">Hinweise zum Balancing geben: Erfolgsabzug von 1 entspricht etwa einem Würfelabzug von 3.
+                            Letzteres ist also feiner dosierbar. Der Erfolgsabzug wirkt heftiger, insbesondere bei niedrigen Würfelanzahlen.
+                            MW+1 oder Erfolgsabzug 1 sind gleichwertig, außer der MW ist am "Rand", bspw in der Nähe der Brutto-Würfelanzahl
+                            des Charakters.
+                        </p>
+
+                        <p class="temp-note">weil das kompliziert ist, gibt es eine vorgabe des regelwerks, welche mechanik für welches
+                            thema gedacht ist. beispiel: du bist betrunken -> zustand des charakters -> ähnlich wie verletzt/müde ->
+                            erfolgsabzug
+                        </p>
+
+                    </section>
+                </section>
+
+
+
+
+
+
+
+
+                <section style="border-top: 2em solid purple; border-left: 2px solid purple; padding-top: 15em;">
+                    <h1 class="temp-note">Altes Zeug zu Probenablauf / Stellschrauben</h1>
+                    <section>
+                        <h1 class="temp-note">Einleitung</h1>
+
+                        <p class="temp-note">jede probe läuft nach gleichem muster ab. sl gibt einen mw an. der spieler ermittelt seine würfelanzahl, zählt
+                            seine erfolge und vergleicht sie mit dem mindestwurf.
+                        </p>
+
+                        <p class="temp-note">der spielleiter hat mehrere stellschrauben, um den ausgang (die schwierigkeit?) einer probe zu
+                            beeinflussen.
+                        </p>
+
+                        <dl>
+                            <dt>Mindestwurf</dt>
+                            <dd>Wie schwierig ist die Aufgabe an sich, ganz neutral, sozusagen unter Laborbedingungen? Es spielt keine
+                                Rolle, wer die Probe ablegt oder in welcher Situation er sich befindet. Der Mindestwurf einer Aufgabe muss
+                                lediglich im Vergleich zu verwandten Aufgaben plausibel sein.
+                            </dd>
+
+                            <dt>Würfelanzahl</dt>
+                            <dd>Die Würfelanzahl des Charakters repräsentiert seine Qualifikation für eine Aufgabe und steht fest. Manchmal gibt es aber besondere Umstände, die einen Würfelbonus oder -malus rechtfertigen:</dd>
+                            <dd><span class="temp-note">Hat sich der Charakter besonders sorgfältig vorbereitet oder vielleicht hilft ihm
+                                jemand? <i><- UMFORMULIEREN</i></span> Oder liegt er fest verschnürt und geknebelt in einer dunklen Ecke?
+                                Möglicherweise tobt um ihn herum gerade aber auch ein Schneesturm, der seine Konzentration stört.
+                            </dd>
+                            <dd>[beispiel: bonuswürfel bei sonst-bist-du-tot-rettungswürfen; besonders sorgfältig vorbereitet; mir hilft jemand [siehe zusammen zaubern]</dd>
+                            <dd>- fähigkeit/ausbildung: wie gut qualifiziert bist du im allgemeinen für dieses thema?</dd>
+
+                            <!--
+                            <dt>Erfolgsabzüge</dt>
+                            <dd>- zustand des charakters: egal wie die situation oder die aufgabe aussieht, dir gehts halt gerade schlecht</dd>
+                            -->
+                        </dl>
+
+                    </section>
+                    <section>
+                        <h1 class="temp-note">Ermittlung des Mindestwurfs</h1>
+                        <p><span class="temp-note">sobald feststeht welche probe (eigenschaften) durchgeführt werden soll</span>, legt der
+                            Spielleiter den zu erreichenden Mindestwurf fest. Er beträgt
+                            mindestens 1; seine genaue Höhe hängt von der Schwierigkeit der Aufgabe und den Begleitumständen ab.
+                        </p>
                         <p>Für Zauber sind in diesem Regelwerk genauere Richtlinien für Mindestwürfe aufgeführt, alles andere liegt in der
                             Hand des Spielleiters.
                         </p>

@@ -473,6 +473,10 @@ div.side-by-side > * {
     font-weight: bold;
 }
 
+.temp-marking {
+    background: #dddddd;
+}
+
 a:empty::before {
 	/* display something if script for link labels did not run */
 	content: "{" attr(href) "}";
