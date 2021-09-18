@@ -25,16 +25,20 @@ $(function() {
             base : null,
             alternatives : [],
             synonyms : [],
+            qualifier: element.data().qualifier,
             definitionElement : element,
             occurrenceNodes : []
         };
 
+        function normalize(rawText) {
+            return rawText.trim().replace(/\s+/g, " ");
+        }
         var baseAttribute = element.data().base;
         if (baseAttribute) {
-            termInfo.base = baseAttribute;
-            termInfo.alternatives.push(element.text());
+            termInfo.base = normalize(baseAttribute);
+            termInfo.alternatives.push(normalize(element.text()));
         } else {
-            termInfo.base = element.text();
+            termInfo.base = normalize(element.text());
         }
 
         function add(property) {
@@ -46,9 +50,12 @@ $(function() {
         add("alternatives");
         add("synonyms");
 
-        termInfo.id = "def-"
-                + termInfo.base.toLowerCase().replace(/[^a-z]/g, "");
-        termInfo.definitionElement.attr("id", termInfo.id);
+        termInfo.id = termInfo.definitionElement.attr("id");
+        if (!termInfo.id) {
+            termInfo.id = "def-"
+                    + termInfo.base.toLowerCase().replace(/[^a-z]/g, "");
+            termInfo.definitionElement.attr("id", termInfo.id);
+        }
 
         $.each([ termInfo.base ].concat(termInfo.alternatives,
                 termInfo.synonyms), function(index, value) {
@@ -86,9 +93,11 @@ $(function() {
         var newNodes = [];
 
         var position = 0;
-        while ((searchResult = regex.exec(node.data)) != null) {
+        let nodeText = node.data;
+
+        while ((searchResult = regex.exec(nodeText)) != null) {
             if (searchResult.index > 0) {
-                newNodes.push(text(node.data.substring(position,
+                newNodes.push(text(nodeText.substring(position,
                         searchResult.index)));
             }
 
@@ -109,13 +118,18 @@ $(function() {
                  */
                 var termKey = termAsFound.replace(/\s+/g, " ");
                 termInfo = lookupMap[termKey];
+
+                if (!termInfo) {
+                    console.error(`Could not find '${termAsFound}' in lookupMap (normalized: '${termKey}')`, lookupMap);
+                }
             }
             termInfo.occurrenceNodes.push(span);
         }
 
         if (newNodes.length) {
-            if (position < node.data.length) {
-                newNodes.push(text(node.data.substr(position)));
+            if (position < nodeText.length) {
+                // Add a node with the text following the last occurrence of the index term
+                newNodes.push(text(nodeText.substr(position)));
             }
 
             /*
@@ -189,6 +203,9 @@ $(function() {
             li.append(text(entry.text + " \u2799 "), makeLink(entry).appendTo(li));
         } else {
             makeLink(entry).appendTo(li);
+        }
+        if (!!entry.term.qualifier) {
+            li.append(text(` [${entry.term.qualifier}]`));
         }
         lastEntry = entry;
     }

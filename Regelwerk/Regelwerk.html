@@ -1853,18 +1853,19 @@
                                     eines Angriffs (siehe <a href="#schadensermittlung"></a>).
                                 </p>
                             </dd>
-                            <dt>Widerstandsbonus (WB)</dt>
+                            <dt id="widerstandsbonus"><dfn data-synonyms="WB">Widerstandsbonus</dfn> (WB)</dt>
                             <dd>
-                                <p>Der <dfn data-synonyms="WB">Widerstandsbonus</dfn> erhöht die Chance, mit dem <a
-                                    href="#widerstandswurf"></a> die Schadenspunkte zu reduzieren.
+                                <p>
+                                    Der <strong>Widerstandsbonus</strong> erhöht die Würfelanzahl des <a href="#widerstandswurf">Widerstandswurfs</a>
+                                    und damit die Chance, Schadenspunkte zu reduzieren.
                                 </p>
                             </dd>
-                            <dt>Angriffsmalus (AM)</dt>
+                            <dt id="ruestungs-angriffsmalus"><dfn data-synonyms="AM">Angriffsmalus</dfn> (AM)</dt>
                             <dd>
                                 <!-- Bei Anpassungen beachten: eine ähnliche Definition steht auch unter „Schilde und Parierwaffen”. -->
-                                <p>Mittlere und schwere Rüstungen schränken die Beweglichkeit ein und haben daher einen <dfn
-                                    data-synonyms="AM">Angriffsmalus</dfn>. Dieser senkt die Würfelanzahl des eigenen <a
-                                    href="#angriffswurf">Angriffswurfs</a>.
+                                <p>
+                                    Mittlere und schwere Rüstungen schränken die Beweglichkeit ein und haben daher einen <strong>Angriffsmalus</strong>.
+                                    Dieser senkt die Würfelanzahl des eigenen <a href="#angriffswurf">Angriffswurfs</a>.
                                 </p>
                             </dd>
                         </dl>
@@ -2018,7 +2019,10 @@
                         </p>
 
                         <dl>
-                            <dt><dfn data-synonyms="VM">Verteidigungsmodifikator</dfn> (VM)</dt>
+                            <dt>
+                                <dfn id="schilde-verteidigungsmodifikator" data-synonyms="VM"
+                                    data-qualifier="bei Schilden/Parierwaffen">Verteidigungsmodifikator</dfn> (VM)
+                            </dt>
                             <dd>
                                 <!--
                                 <p>Der Verteidigungsmodifikator von Schilden und Parierwaffen erhöht die Würfelanzahl des Verteidigungswurfs.
@@ -2027,15 +2031,16 @@
                                     daher diese Würfelanzahl.
                                 </p>
                                 -->
-                                <p>Schilde und Parierwaffen verbessern die Verteidigung und besitzen daher einen positiven <dfn
-                                    data-synonyms="VM">Verteidigungsmodifikator</dfn>. Dieser erhöht die Würfelanzahl des eigenen
-                                    Verteidigungswurfs.
+                                <p>
+                                    Schilde und Parierwaffen verbessern die Verteidigung und besitzen daher einen positiven <strong>Verteidigungsmodifikator</strong>.
+                                    Dieser erhöht die Würfelanzahl des eigenen Verteidigungswurfs.
                                 </p>
                             </dd>
                             <dt>Angriffsmalus (AM)</dt>
                             <dd>
                                 <!-- Bei Anpassungen beachten: eine ähnliche Definition steht auch unter „Rüstungen”. -->
-                                <p>Schilde schränken den Aktionsradius der Waffe ein und haben daher einen <dfn data-synonyms="AM">Angriffsmalus</dfn>.
+                                <p>
+                                    Schilde schränken den Aktionsradius der Waffe ein und haben daher einen <strong>Angriffsmalus</strong>.
                                     Dieser senkt die Würfelanzahl des eigenen <a href="#angriffswurf">Angriffswurfs</a>.
                                 </p>
                             </dd>
@@ -2105,11 +2110,14 @@
                                     den Wert hinter dem Kleiner-Gleich-Zeichen (≤) begrenzt.
                                 </p>
                             </dd>
-                            <dt>Verteidigungsmodifikator (VM)</dt>
+                            <dt>
+                                <dfn id="waffen-verteidigungsmodifikator" data-synonyms="VM" data-qualifier="bei Waffen">
+                                    Verteidigungsmodifikator </dfn> (VM)
+                            </dt>
                             <dd>
-                                <p>Große und schwere Waffen behindern die Verteidigung und besitzen daher einen negativen <dfn
-                                    data-synonyms="VM">Verteidigungsmodifikator</dfn>. Dieser reduziert die Würfelanzahl des eigenen
-                                    Verteidigungswurfs.
+                                <p>
+                                    Große und schwere Waffen behindern die Verteidigung und besitzen daher einen negativen <strong>Verteidigungsmodifikator</strong>.
+                                    Dieser reduziert die Würfelanzahl des eigenen Verteidigungswurfs.
                                 </p>
                             </dd>
                         </dl>
@@ -2523,7 +2531,7 @@
                     <section id="mindestwurf">
                         <h1><dfn data-synonyms="MW" data-alternatives="Mindestwürfe">Mindestwurf</dfn></h1>
 
-                        <p>Der Spielleiter legt den Mindestwurf (MW) der Probe anhand der folgenden Faktoren fest:</p>
+                        <p>Der Spielleiter legt den <strong>Mindestwurf (MW)</strong> der Probe anhand der folgenden Faktoren fest:</p>
 
                         <dl>
                             <dt>Basis-Mindestwurf</dt>
@@ -2621,12 +2629,16 @@
                             </dd>
                             <dt>Kampf-Faktoren</dt>
                             <dd>
-                                <!-- TODO alle hier genannten faktoren zu links machen -->
                                 <p>
-                                    Im Kampf verursachen mehrere Faktoren einen Würfelabzug: der Reaktionsmalus, der Angriffsmalus von
-                                    Rüstungen sowie der Verteidigungsmalus unhandlicher Waffen.
+                                    Im Kampf verursachen mehrere Faktoren einen Würfelabzug: der <a href="#reaktionsmalus"></a>, der <a
+                                    href="#ruestungs-angriffsmalus">Angriffsmalus</a> von Rüstungen, Schilden und Parierwaffen sowie der <a
+                                    href="#waffen-verteidigungsmodifikator">Verteidigungsmodifikator</a> unhandlicher Waffen.
                                 </p>
-                                <p>Bonuswürfel werden lediglich durch den Verteidigungsbonus von Rüstungen/Schilden gewährt.</p>
+                                <p>
+                                    Bonuswürfel werden durch den <a href="#widerstandsbonus">Widerstandsbonus</a> von Rüstungen sowie den <a
+                                    href="#schilde-verteidigungsmodifikator">Verteidigungsmodifikator</a> von Schilden und Parierwaffen
+                                    gewährt.
+                                </p>
                             </dd>
                         </dl>
                     </section>
@@ -3671,11 +3683,11 @@
                     </section>
 
                     <section id="reaktionsmalus">
-                        <h1>Reaktionsmalus</h1>
+                        <h1><dfn>Reaktionsmalus</dfn></h1>
 
                         <p>Je mehr Reaktionen ein Charakter in derselben Runde durchführt, desto schwieriger wird es für ihn.</p>
 
-                        <p>Führt ein Charakter eine Reaktion durch, wird von der Würfelanzahl dessen aktueller <dfn>Reaktionsmalus</dfn>
+                        <p>Führt ein Charakter eine Reaktion durch, wird von der Würfelanzahl dessen aktueller <strong>Reaktionsmalus</strong>
                             abgezogen. Es verbleibt jedoch immer mindestens ein Würfel.
                         </p>
                         <p>Der Reaktionsmalus verändert sich im Verlauf des Kampfes wie folgt:</p>
