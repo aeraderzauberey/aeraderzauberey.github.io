@@ -21,7 +21,8 @@ a:link, a:visited {
 }
 
 
-.hint {
+.hint,
+.warning {
 	position: relative;
 	margin-left: 1.25em;
 	border-left: 1px solid black;
@@ -30,6 +31,13 @@ a:link, a:visited {
 
 .hint::before {
 	content: "🛈";
+	position: absolute;
+	display: inline-block;
+	left: -1.25em;
+}
+
+.warning::before {
+	content: "⚠️";
 	position: absolute;
 	display: inline-block;
 	left: -1.25em;
